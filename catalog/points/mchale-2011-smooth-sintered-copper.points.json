@@ -1,0 +1,2049 @@
+{
+  "record_id": "mchale-2011-smooth-sintered-copper",
+  "series": [
+    {
+      "series_id": "fig-3-bare_copper_q_w_ascending",
+      "figure_id": "fig-3",
+      "label": "Bare Copper - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          4.482915,
+          0.143227
+        ],
+        [
+          7.10946,
+          0.215862
+        ],
+        [
+          9.446629,
+          0.296798
+        ],
+        [
+          11.811859,
+          0.38395
+        ],
+        [
+          14.024816,
+          0.480427
+        ],
+        [
+          16.075099,
+          0.581119
+        ],
+        [
+          18.40447,
+          0.682788
+        ],
+        [
+          20.762428,
+          0.693177
+        ],
+        [
+          22.660431,
+          0.809366
+        ],
+        [
+          12.253102,
+          1.282552
+        ],
+        [
+          12.735918,
+          1.662286
+        ],
+        [
+          13.211459,
+          2.069053
+        ],
+        [
+          13.518612,
+          2.378237
+        ],
+        [
+          13.802375,
+          2.811999
+        ],
+        [
+          14.042485,
+          3.110795
+        ],
+        [
+          14.367309,
+          3.430412
+        ],
+        [
+          14.775807,
+          4.245904
+        ],
+        [
+          15.148964,
+          5.094652
+        ],
+        [
+          15.420777,
+          5.810774
+        ],
+        [
+          15.788735,
+          6.536264
+        ],
+        [
+          16.180603,
+          7.296667
+        ],
+        [
+          16.610927,
+          8.054087
+        ],
+        [
+          16.975769,
+          8.84046
+        ],
+        [
+          17.473656,
+          9.637478
+        ],
+        [
+          17.833825,
+          10.226725
+        ],
+        [
+          18.206459,
+          11.056947
+        ],
+        [
+          18.574417,
+          11.897392
+        ],
+        [
+          18.980836,
+          12.505372
+        ],
+        [
+          19.353994,
+          13.383285
+        ],
+        [
+          19.820698,
+          14.00574
+        ],
+        [
+          20.272853,
+          14.900258
+        ],
+        [
+          20.721888,
+          15.537189
+        ],
+        [
+          21.351267,
+          16.458525
+        ],
+        [
+          22.197366,
+          17.100142
+        ],
+        [
+          23.03359,
+          17.743033
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.18, 0.18, 1.0) filled; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-3-bare_copper_q_w_descending",
+      "figure_id": "fig-3",
+      "label": "Bare Copper - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          4.99785,
+          0.113168
+        ],
+        [
+          7.996098,
+          0.210668
+        ],
+        [
+          11.753132,
+          0.520916
+        ],
+        [
+          13.682321,
+          0.833252
+        ],
+        [
+          14.331967,
+          1.197443
+        ],
+        [
+          14.811149,
+          1.586543
+        ],
+        [
+          15.201973,
+          1.98918
+        ],
+        [
+          15.526799,
+          2.293171
+        ],
+        [
+          15.763268,
+          2.726891
+        ],
+        [
+          15.976354,
+          3.046505
+        ],
+        [
+          16.273112,
+          3.50513
+        ],
+        [
+          16.673812,
+          4.178637
+        ],
+        [
+          17.064642,
+          5.023123
+        ],
+        [
+          17.402456,
+          5.737118
+        ],
+        [
+          17.691418,
+          6.471974
+        ],
+        [
+          18.01676,
+          7.228969
+        ],
+        [
+          18.452805,
+          7.991927
+        ],
+        [
+          18.828559,
+          8.77404
+        ],
+        [
+          19.201718,
+          9.569782
+        ],
+        [
+          19.549407,
+          10.163285
+        ],
+        [
+          19.869033,
+          10.994789
+        ],
+        [
+          20.153319,
+          11.839063
+        ],
+        [
+          20.520239,
+          12.45982
+        ],
+        [
+          20.726568,
+          13.33347
+        ],
+        [
+          21.029043,
+          13.958056
+        ],
+        [
+          21.348669,
+          14.855551
+        ],
+        [
+          21.625156,
+          15.49589
+        ],
+        [
+          22.02378,
+          16.427446
+        ],
+        [
+          22.459822,
+          17.075873
+        ],
+        [
+          23.046063,
+          17.726857
+        ],
+        [
+          23.391156,
+          18.136859
+        ],
+        [
+          23.391156,
+          18.136859
+        ],
+        [
+          23.391156,
+          18.06363
+        ],
+        [
+          23.391156,
+          18.06363
+        ],
+        [
+          23.480027,
+          18.136859
+        ],
+        [
+          23.480027,
+          18.136859
+        ],
+        [
+          23.480027,
+          18.06363
+        ],
+        [
+          23.480027,
+          18.06363
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.18, 0.18, 1.0) open; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-3-sintered_copper_q_w_ascending",
+      "figure_id": "fig-3",
+      "label": "Sintered Copper - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.817246,
+          0.108954
+        ],
+        [
+          2.003605,
+          0.113126
+        ],
+        [
+          4.29644,
+          0.245963
+        ],
+        [
+          6.593902,
+          0.331029
+        ],
+        [
+          1.139524,
+          0.625737
+        ],
+        [
+          1.240972,
+          0.773092
+        ],
+        [
+          1.352711,
+          0.924535
+        ],
+        [
+          1.690215,
+          1.281488
+        ],
+        [
+          2.003605,
+          1.663306
+        ],
+        [
+          2.294127,
+          2.056621
+        ],
+        [
+          2.624043,
+          2.464411
+        ],
+        [
+          2.921009,
+          2.763207
+        ],
+        [
+          3.269895,
+          3.197991
+        ],
+        [
+          3.538901,
+          3.512368
+        ],
+        [
+          3.872611,
+          3.965799
+        ],
+        [
+          4.647978,
+          4.631852
+        ],
+        [
+          5.476509,
+          5.471447
+        ],
+        [
+          6.525818,
+          6.166282
+        ],
+        [
+          7.611507,
+          6.876443
+        ],
+        [
+          9.82966,
+          8.35382
+        ],
+        [
+          11.707395,
+          9.907831
+        ],
+        [
+          13.749367,
+          11.298352
+        ],
+        [
+          15.83551,
+          12.712718
+        ],
+        [
+          18.020401,
+          14.170509
+        ],
+        [
+          20.088355,
+          15.672152
+        ],
+        [
+          22.283638,
+          17.212118
+        ],
+        [
+          24.4836,
+          18.781029
+        ],
+        [
+          26.873258,
+          20.089378
+        ],
+        [
+          29.328402,
+          21.731099
+        ],
+        [
+          32.265324,
+          23.062865
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.82, 0.0, 0.0) filled; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-3-sintered_copper_q_w_descending",
+      "figure_id": "fig-3",
+      "label": "Sintered Copper - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.86163,
+          0.138034
+        ],
+        [
+          0.980905,
+          0.278149
+        ],
+        [
+          1.133183,
+          0.422352
+        ],
+        [
+          1.285408,
+          0.57175
+        ],
+        [
+          1.44782,
+          0.722214
+        ],
+        [
+          1.94524,
+          1.079169
+        ],
+        [
+          2.287786,
+          1.450598
+        ],
+        [
+          2.67482,
+          1.841783
+        ],
+        [
+          3.054212,
+          2.180091
+        ],
+        [
+          3.221717,
+          2.242337
+        ],
+        [
+          3.69622,
+          2.98111
+        ],
+        [
+          5.465076,
+          3.729249
+        ],
+        [
+          7.860972,
+          5.201518
+        ],
+        [
+          10.410704,
+          6.596294
+        ],
+        [
+          12.664196,
+          8.054087
+        ],
+        [
+          14.948873,
+          9.609376
+        ],
+        [
+          17.105696,
+          10.989254
+        ],
+        [
+          19.239658,
+          12.403618
+        ],
+        [
+          21.353865,
+          13.875884
+        ],
+        [
+          23.512768,
+          15.368163
+        ],
+        [
+          24.334962,
+          16.879172
+        ],
+        [
+          25.655043,
+          16.903018
+        ],
+        [
+          27.857605,
+          18.485978
+        ],
+        [
+          30.090828,
+          19.794756
+        ],
+        [
+          37.229661,
+          22.710342
+        ],
+        [
+          38.572089,
+          24.252431
+        ],
+        [
+          38.572089,
+          24.252431
+        ],
+        [
+          38.572089,
+          24.179199
+        ],
+        [
+          38.572089,
+          24.179199
+        ],
+        [
+          38.660442,
+          24.252431
+        ],
+        [
+          38.660442,
+          24.252431
+        ],
+        [
+          38.660442,
+          24.179199
+        ],
+        [
+          38.660442,
+          24.179199
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.82, 0.0, 0.0) open; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    },
+    {
+      "series_id": "fig-3-metallized_cnt_on_cu_q_w_ascending",
+      "figure_id": "fig-3",
+      "label": "Metallized CNT on Cu - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          11.398166,
+          0.369431
+        ],
+        [
+          12.611186,
+          0.654773
+        ],
+        [
+          12.707333,
+          0.860244
+        ],
+        [
+          13.202622,
+          1.231674
+        ],
+        [
+          12.984342,
+          1.634269
+        ],
+        [
+          13.2785,
+          2.04934
+        ],
+        [
+          13.403233,
+          2.353331
+        ],
+        [
+          13.207823,
+          2.806806
+        ],
+        [
+          13.200024,
+          3.13055
+        ],
+        [
+          13.2785,
+          3.59952
+        ],
+        [
+          13.461445,
+          4.269832
+        ],
+        [
+          13.522248,
+          5.131266
+        ],
+        [
+          13.699469,
+          5.851222
+        ],
+        [
+          13.900085,
+          6.592039
+        ],
+        [
+          14.171896,
+          7.337112
+        ],
+        [
+          14.344441,
+          8.111991
+        ],
+        [
+          14.674459,
+          9.698786
+        ],
+        [
+          15.019553,
+          11.134863
+        ],
+        [
+          15.278373,
+          12.602021
+        ],
+        [
+          15.482622,
+          14.122825
+        ],
+        [
+          15.72741,
+          15.667045
+        ],
+        [
+          15.948288,
+          17.258524
+        ],
+        [
+          16.035601,
+          17.843938
+        ],
+        [
+          16.16605,
+          18.351014
+        ],
+        [
+          16.207108,
+          18.428076
+        ],
+        [
+          16.273112,
+          18.746544
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.0, 0.82, 0.0) filled; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    },
+    {
+      "series_id": "fig-3-metallized_cnt_on_cu_q_w_descending",
+      "figure_id": "fig-3",
+      "label": "Metallized CNT on Cu - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          10.096275,
+          0.900691
+        ],
+        [
+          11.592541,
+          2.091875
+        ],
+        [
+          12.450073,
+          3.62545
+        ],
+        [
+          12.989018,
+          5.148723
+        ],
+        [
+          13.598128,
+          6.597147
+        ],
+        [
+          14.048721,
+          8.1171
+        ],
+        [
+          14.447345,
+          9.700487
+        ],
+        [
+          14.804911,
+          11.129754
+        ],
+        [
+          15.101671,
+          12.609257
+        ],
+        [
+          15.364646,
+          14.113458
+        ],
+        [
+          15.640095,
+          15.657253
+        ],
+        [
+          15.915546,
+          17.255542
+        ],
+        [
+          16.340676,
+          18.904073
+        ],
+        [
+          16.340676,
+          18.904073
+        ],
+        [
+          16.340676,
+          18.831693
+        ],
+        [
+          16.340676,
+          18.831693
+        ],
+        [
+          16.429027,
+          18.904073
+        ],
+        [
+          16.429027,
+          18.904073
+        ],
+        [
+          16.429027,
+          18.831693
+        ],
+        [
+          16.429027,
+          18.831693
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.0, 0.82, 0.0) open; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-3-sintered_cnts_q_w_ascending",
+      "figure_id": "fig-3",
+      "label": "Sintered + CNTs - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.779183,
+          0.239717
+        ],
+        [
+          0.997366,
+          0.521945
+        ],
+        [
+          1.201677,
+          0.824914
+        ],
+        [
+          1.825918,
+          1.549212
+        ],
+        [
+          2.556785,
+          2.343981
+        ],
+        [
+          3.480531,
+          3.070352
+        ],
+        [
+          4.192372,
+          3.842334
+        ],
+        [
+          5.55044,
+          5.336116
+        ],
+        [
+          6.851812,
+          6.754256
+        ],
+        [
+          7.843203,
+          8.252548
+        ],
+        [
+          8.706743,
+          9.825957
+        ],
+        [
+          9.490123,
+          11.236252
+        ],
+        [
+          10.303314,
+          12.929914
+        ],
+        [
+          11.125508,
+          14.428095
+        ],
+        [
+          11.924826,
+          15.972372
+        ],
+        [
+          12.749562,
+          17.269225
+        ],
+        [
+          13.592084,
+          18.884252
+        ],
+        [
+          14.40307,
+          20.522861
+        ],
+        [
+          15.178254,
+          21.884432
+        ],
+        [
+          17.020594,
+          25.003524
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(1.0, 0.5, 0.0) filled; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-3-sintered_cnts_q_w_descending",
+      "figure_id": "fig-3",
+      "label": "Sintered + CNTs - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.866724,
+          0.202365
+        ],
+        [
+          0.998627,
+          0.349718
+        ],
+        [
+          0.994834,
+          0.489795
+        ],
+        [
+          1.077366,
+          0.649622
+        ],
+        [
+          1.219455,
+          0.802127
+        ],
+        [
+          1.37932,
+          1.168406
+        ],
+        [
+          1.622964,
+          1.545031
+        ],
+        [
+          1.87669,
+          1.935195
+        ],
+        [
+          2.168511,
+          2.348178
+        ],
+        [
+          2.876574,
+          3.084867
+        ],
+        [
+          3.579491,
+          3.859998
+        ],
+        [
+          4.328144,
+          4.519029
+        ],
+        [
+          5.107252,
+          5.353086
+        ],
+        [
+          5.863179,
+          6.053457
+        ],
+        [
+          6.571553,
+          6.772559
+        ],
+        [
+          8.028321,
+          8.274204
+        ],
+        [
+          8.903525,
+          9.833326
+        ],
+        [
+          9.711684,
+          11.24769
+        ],
+        [
+          10.596242,
+          12.946459
+        ],
+        [
+          11.466768,
+          14.448528
+        ],
+        [
+          12.320663,
+          15.988917
+        ],
+        [
+          13.181833,
+          17.286623
+        ],
+        [
+          13.915674,
+          18.879377
+        ],
+        [
+          14.598061,
+          20.280119
+        ],
+        [
+          15.364646,
+          21.91545
+        ],
+        [
+          16.128632,
+          23.287239
+        ],
+        [
+          16.55376,
+          24.317571
+        ],
+        [
+          17.000194,
+          25.022196
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 3 HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(1.0, 0.5, 0.0) open; x fit r2=1.00000 on 5 ticks; y fit r2=1.00000 on 7 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-4-bare_copper_q_w_descending",
+      "figure_id": "fig-4",
+      "label": "Bare Copper - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          1.088474,
+          0.14279
+        ],
+        [
+          2.072243,
+          0.260375
+        ],
+        [
+          3.02453,
+          0.377844
+        ],
+        [
+          3.86136,
+          0.50657
+        ],
+        [
+          4.458142,
+          0.652166
+        ],
+        [
+          5.148355,
+          0.794782
+        ],
+        [
+          5.704415,
+          0.937633
+        ],
+        [
+          6.352345,
+          1.001933
+        ],
+        [
+          6.950311,
+          1.158557
+        ],
+        [
+          7.557947,
+          1.315411
+        ],
+        [
+          7.726645,
+          1.486048
+        ],
+        [
+          8.550795,
+          1.547593
+        ],
+        [
+          8.513725,
+          1.732354
+        ],
+        [
+          8.775906,
+          1.914356
+        ],
+        [
+          9.285225,
+          2.084993
+        ],
+        [
+          9.857939,
+          2.381587
+        ],
+        [
+          9.23526,
+          2.837798
+        ],
+        [
+          9.381931,
+          3.165172
+        ],
+        [
+          9.602743,
+          3.618512
+        ],
+        [
+          10.158802,
+          4.295765
+        ],
+        [
+          10.414536,
+          5.157662
+        ],
+        [
+          10.842195,
+          6.601621
+        ],
+        [
+          11.220957,
+          8.124008
+        ],
+        [
+          11.843099,
+          9.738716
+        ],
+        [
+          12.155245,
+          11.145933
+        ],
+        [
+          12.601169,
+          14.140518
+        ],
+        [
+          12.973488,
+          17.289095
+        ],
+        [
+          13.390934,
+          20.286095
+        ],
+        [
+          13.744986,
+          23.394484
+        ],
+        [
+          14.058743,
+          26.610811
+        ],
+        [
+          14.419242,
+          29.566474
+        ],
+        [
+          15.038159,
+          35.712051
+        ],
+        [
+          15.736056,
+          41.675056
+        ],
+        [
+          16.370555,
+          47.845898
+        ],
+        [
+          17.005591,
+          54.250986
+        ],
+        [
+          17.942029,
+          60.293219
+        ],
+        [
+          18.461554,
+          60.264512
+        ],
+        [
+          19.064891,
+          66.516881
+        ],
+        [
+          19.652649,
+          72.32142
+        ],
+        [
+          20.285001,
+          78.248827
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.18, 0.18, 1.0) filled; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-4-bare_copper_q_w_ascending",
+      "figure_id": "fig-4",
+      "label": "Bare Copper - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          2.272908,
+          0.394723
+        ],
+        [
+          4.60116,
+          0.657792
+        ],
+        [
+          6.14604,
+          1.354571
+        ],
+        [
+          6.941179,
+          2.146533
+        ],
+        [
+          8.578198,
+          3.646532
+        ],
+        [
+          9.284687,
+          5.168803
+        ],
+        [
+          10.033084,
+          6.612874
+        ],
+        [
+          11.024323,
+          8.107241
+        ],
+        [
+          11.868889,
+          9.680038
+        ],
+        [
+          12.042422,
+          11.11251
+        ],
+        [
+          12.644147,
+          14.095736
+        ],
+        [
+          13.041717,
+          17.230534
+        ],
+        [
+          13.386636,
+          20.225241
+        ],
+        [
+          13.771311,
+          23.331333
+        ],
+        [
+          14.095275,
+          26.538471
+        ],
+        [
+          14.471354,
+          29.482648
+        ],
+        [
+          15.391137,
+          35.593784
+        ],
+        [
+          16.127177,
+          41.543006
+        ],
+        [
+          16.926614,
+          47.716141
+        ],
+        [
+          17.708858,
+          54.108598
+        ],
+        [
+          18.335836,
+          60.174947
+        ],
+        [
+          18.914999,
+          66.404348
+        ],
+        [
+          19.468909,
+          72.265156
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.18, 0.18, 1.0) open; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-4-sintered_copper_q_w_ascending",
+      "figure_id": "fig-4",
+      "label": "Sintered Copper - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.217582,
+          0.260375
+        ],
+        [
+          0.406373,
+          0.433879
+        ],
+        [
+          0.498245,
+          0.598885
+        ],
+        [
+          0.642498,
+          0.741735
+        ],
+        [
+          0.694988,
+          0.89836
+        ],
+        [
+          0.767141,
+          1.055101
+        ],
+        [
+          0.883887,
+          1.418871
+        ],
+        [
+          0.996657,
+          1.796775
+        ],
+        [
+          1.159285,
+          2.185689
+        ],
+        [
+          1.293115,
+          2.504682
+        ],
+        [
+          1.531818,
+          3.361069
+        ],
+        [
+          1.766652,
+          3.996411
+        ],
+        [
+          2.325398,
+          5.515923
+        ],
+        [
+          2.833052,
+          7.122249
+        ],
+        [
+          3.42586,
+          8.64452
+        ],
+        [
+          4.759865,
+          11.639115
+        ],
+        [
+          5.960149,
+          14.609015
+        ],
+        [
+          7.292544,
+          17.720849
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.82, 0.0, 0.0) filled; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x; dropped 8 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    },
+    {
+      "series_id": "fig-4-sintered_copper_q_w_descending",
+      "figure_id": "fig-4",
+      "label": "Sintered Copper - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.357914,
+          -0.288156
+        ],
+        [
+          0.587429,
+          -0.1034
+        ],
+        [
+          0.712073,
+          0.047603
+        ],
+        [
+          0.835319,
+          0.187689
+        ],
+        [
+          1.058334,
+          0.495429
+        ],
+        [
+          1.428235,
+          1.237103
+        ],
+        [
+          1.764019,
+          2.037334
+        ],
+        [
+          2.120811,
+          2.778896
+        ],
+        [
+          2.48147,
+          3.568103
+        ],
+        [
+          3.167493,
+          5.090491
+        ],
+        [
+          3.916427,
+          6.528935
+        ],
+        [
+          4.576178,
+          8.04007
+        ],
+        [
+          6.000981,
+          11.051427
+        ],
+        [
+          7.249025,
+          14.001576
+        ],
+        [
+          8.511039,
+          17.119154
+        ],
+        [
+          9.723088,
+          20.08515
+        ],
+        [
+          11.006056,
+          23.145311
+        ],
+        [
+          12.092388,
+          26.345557
+        ],
+        [
+          13.30121,
+          29.270221
+        ],
+        [
+          15.628606,
+          35.335417
+        ],
+        [
+          17.950087,
+          41.24101
+        ],
+        [
+          20.201189,
+          47.37051
+        ],
+        [
+          22.430801,
+          53.738856
+        ],
+        [
+          24.572838,
+          59.759269
+        ],
+        [
+          26.709507,
+          65.436357
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.82, 0.0, 0.0) open; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-4-metallized_cnt_on_cu_q_w_ascending",
+      "figure_id": "fig-4",
+      "label": "Metallized CNT on Cu - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          1.661672,
+          0.279897
+        ],
+        [
+          2.989124,
+          0.702575
+        ],
+        [
+          4.812301,
+          1.399354
+        ],
+        [
+          6.113266,
+          2.180063
+        ],
+        [
+          7.564394,
+          3.685688
+        ],
+        [
+          8.173105,
+          5.207959
+        ],
+        [
+          8.655561,
+          6.65203
+        ],
+        [
+          9.014448,
+          8.174417
+        ],
+        [
+          9.628531,
+          11.201851
+        ],
+        [
+          10.032549,
+          14.179562
+        ],
+        [
+          10.371556,
+          17.314356
+        ],
+        [
+          11.068915,
+          23.401376
+        ],
+        [
+          11.722218,
+          29.554988
+        ],
+        [
+          12.338989,
+          35.671863
+        ],
+        [
+          12.977246,
+          41.649791
+        ],
+        [
+          13.619268,
+          47.819485
+        ],
+        [
+          14.255915,
+          54.25213
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.0, 0.82, 0.0) filled; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+    },
+    {
+      "series_id": "fig-4-metallized_cnt_on_cu_q_w_descending",
+      "figure_id": "fig-4",
+      "label": "Metallized CNT on Cu - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          1.769284,
+          0.260263
+        ],
+        [
+          2.932711,
+          0.534585
+        ],
+        [
+          3.265864,
+          0.845191
+        ],
+        [
+          4.139442,
+          1.021567
+        ],
+        [
+          4.782161,
+          1.393723
+        ],
+        [
+          5.348643,
+          1.771627
+        ],
+        [
+          5.899438,
+          2.174441
+        ],
+        [
+          6.39425,
+          2.916111
+        ],
+        [
+          7.069581,
+          3.696824
+        ],
+        [
+          6.920226,
+          4.374077
+        ],
+        [
+          7.195836,
+          5.23322
+        ],
+        [
+          7.484343,
+          6.68005
+        ],
+        [
+          7.89051,
+          8.202433
+        ],
+        [
+          8.74582,
+          11.235722
+        ],
+        [
+          9.370111,
+          14.204823
+        ],
+        [
+          9.882116,
+          17.341918
+        ],
+        [
+          10.747637,
+          23.428934
+        ],
+        [
+          11.513762,
+          29.599775
+        ],
+        [
+          12.229924,
+          35.647751
+        ],
+        [
+          12.956295,
+          41.688835
+        ],
+        [
+          13.623028,
+          47.853934
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(0.0, 0.82, 0.0) open; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    },
+    {
+      "series_id": "fig-4-sintered_cnts_q_w_ascending",
+      "figure_id": "fig-4",
+      "label": "Sintered + CNTs - q\uf0b2w ascending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.010342,
+          -0.005528
+        ],
+        [
+          0.495633,
+          0.112053
+        ],
+        [
+          0.670113,
+          0.254707
+        ],
+        [
+          0.782873,
+          0.397515
+        ],
+        [
+          0.904807,
+          0.55414
+        ],
+        [
+          1.015053,
+          0.710993
+        ],
+        [
+          1.295714,
+          1.074768
+        ],
+        [
+          1.56458,
+          1.452588
+        ],
+        [
+          1.624967,
+          1.869377
+        ],
+        [
+          1.784962,
+          2.297727
+        ],
+        [
+          2.115482,
+          3.067258
+        ],
+        [
+          2.272898,
+          3.730536
+        ],
+        [
+          2.524764,
+          4.564418
+        ],
+        [
+          2.755675,
+          5.261296
+        ],
+        [
+          3.244879,
+          6.738761
+        ],
+        [
+          3.697377,
+          8.286455
+        ],
+        [
+          4.277184,
+          9.901116
+        ],
+        [
+          4.809712,
+          11.372978
+        ],
+        [
+          6.129642,
+          14.392302
+        ],
+        [
+          7.777705,
+          17.582211
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(1.0, 0.5, 0.0) filled; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x; dropped 9 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    },
+    {
+      "series_id": "fig-4-sintered_cnts_q_w_descending",
+      "figure_id": "fig-4",
+      "label": "Sintered + CNTs - q\uf0b2w descending",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.612358,
+          0.131654
+        ],
+        [
+          0.945509,
+          0.417117
+        ],
+        [
+          1.194689,
+          0.730595
+        ],
+        [
+          1.401963,
+          1.094374
+        ],
+        [
+          1.622346,
+          1.477778
+        ],
+        [
+          1.845359,
+          1.875083
+        ],
+        [
+          2.044736,
+          2.264006
+        ],
+        [
+          2.461807,
+          3.072847
+        ],
+        [
+          2.839552,
+          3.72484
+        ],
+        [
+          3.259256,
+          4.558722
+        ],
+        [
+          3.73677,
+          5.258485
+        ],
+        [
+          4.531586,
+          6.719318
+        ],
+        [
+          5.288418,
+          8.269492
+        ],
+        [
+          6.003129,
+          9.875819
+        ],
+        [
+          6.687592,
+          11.313922
+        ],
+        [
+          7.964113,
+          14.341473
+        ],
+        [
+          9.124585,
+          17.524494
+        ]
+      ],
+      "conditions": {
+        "figure_caption": "Figure 4 DI water pool boiling curves for the enhanced surfaces and the plain surface."
+      },
+      "confidence": 0.96,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "vector paths, style rgb=(1.0, 0.5, 0.0) open; x fit r2=1.00000 on 9 ticks; y fit r2=1.00000 on 5 ticks; points kept in recovered path order, not re-sorted by x; dropped 8 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+    }
+  ]
+}

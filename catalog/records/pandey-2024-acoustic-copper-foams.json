@@ -1,0 +1,728 @@
+{
+  "record_id": "pandey-2024-acoustic-copper-foams",
+  "doc_id": "a8821b8a853763bd",
+  "title": "Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams",
+  "source_pdf": "pandey_2024_acoustic_copper_foams.pdf",
+  "n_pages": 15,
+  "n_figures": 22,
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "shows the scanning electron microscopy (SEM) images of"
+    },
+    {
+      "id": "fig-4b",
+      "label": "Fig. 4b",
+      "page": 3,
+      "caption": "shows the pool boiling test facility, which consists of a closed"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Schematic diagram of the fabrication process for electrodeposited"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "SEM images at different magnification levels for copper foams fabricated at (a-c) pH 0, (d-f) pH 10, and (g-i) pH 12."
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "page": 5,
+      "caption": "shows the wicked volume versus time for both acid-deposited"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "page": 5,
+      "caption": "shows that the wicked volume of the base deposited copper"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 5,
+      "caption": "(a) XRD measurements of the (111) and (200) peaks of the nickel foil"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "Schematic diagrams of (a) the surface wickability testing facility with the inset showing a representative optical image and acoustic signals and (b) the pool"
+    },
+    {
+      "id": "fig-7a",
+      "label": "Fig. 7a",
+      "page": 6,
+      "caption": "&b using two different coefficients of liquid-surface combina\u00ad"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "Wickability of copper foams showing (a) wicking volume versus time and (b) wicking flux for acid-deposited copper foams (pH 0) and base-deposited copper"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 6,
+      "caption": "Wicking flux as a function of the inverse of the Debye-Scherrer crys\u00ad"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 7,
+      "caption": "shows the synchronized temperature, heat flux, and AE"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": "Pool boiling heat transfer performance of the polished copper surface and copper foams deposited at pH 0, 10, and 12 showing (a) boiling heat flux as a"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 7,
+      "caption": "Representative AE signals during boiling showing (a) AE amplitude versus time and (b-c) representative waveforms during (b) nucleate boiling and (c) critical"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 8,
+      "caption": "Synchronized temperature, heat flux, and AE amplitude for water boiling on (a-b) polished copper showing (a) representative nucleate boiling at a heat flux of"
+    },
+    {
+      "id": "fig-12b",
+      "label": "Fig. 12b",
+      "page": 9,
+      "caption": "For heat fluxes beyond 80 W/cm2, the increase/decrease in"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": "Acoustic emission characteristics in wicking and boiling tests. (a) Average AE amplitude at the onset of wicking in the wicking tests. (b) Average AE"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 10,
+      "caption": "Representative boiling images at different heat fluxes for polished copper and copper foams deposited at pH 0, pH 10, and pH 12. The scale bar represents"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 10,
+      "caption": "Bubble dynamics analysis during pool boiling showing (a) the maximum bubble diameter and (b) bubble count at different heat fluxes for water boiling on"
+    },
+    {
+      "id": "fig-13b",
+      "label": "Fig. 13b",
+      "page": 11,
+      "caption": "It is observed that the key features of the signals are in the"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 11,
+      "caption": "(a) Vapor fraction as a function of time and (b) power spectrum calculated from vapor fraction analysis for water boiling on pH 12 copper foam at q\u201c ="
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "page": 12,
+      "caption": "Spectral analysis of vapor fraction during boiling showing (a) power of the vapor fraction spectral as a function of heat flux and (b) dominant frequency as a"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+      "number": null,
+      "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+      "level": 2
+    },
+    {
+      "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+      "number": null,
+      "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+      "level": 1
+    },
+    {
+      "id": "sec-34",
+      "number": "34",
+      "title": "W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 14,
+    "resolved": 14,
+    "unresolved": 0,
+    "exact": 9,
+    "fuzzy": 5
+  },
+  "points_ref": "points/pandey-2024-acoustic-copper-foams.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams",
+    "year": 2024,
+    "reason": "The paper states, \u201cAll experimental data reported in this paper are obtained from steady-state pool boiling tests using deionized water.\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": 218.6,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "Particularly, the pH 10 copper foam leads to the highest CHF among the foams at 218.6 W/cm2",
+          "resolved": true,
+          "char_span": [
+            30321,
+            30412
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 10.0,
+      "max": 10.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "The heating element includes a copper block with a boiling surface area of 10 mm \u00d7 10 mm",
+          "resolved": true,
+          "char_span": [
+            21964,
+            22052
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "one_side_heated",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All experimental data reported in this paper are obtained from steady-state pool boiling tests using deionized water.",
+          "resolved": true,
+          "char_span": [
+            24621,
+            24740
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        },
+        {
+          "quote": "During the nucleate boiling regime, the AE amplitude decreases with the heat flux in the low heat flux stage but increases with the heat flux in the high heat flux stage.",
+          "resolved": true,
+          "char_span": [
+            2372,
+            2542
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+              "number": null,
+              "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The heating element includes a copper block with a boiling surface area of 10 mm \u00d7 10 mm",
+          "resolved": true,
+          "char_span": [
+            21964,
+            22052
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The surface of the copper block is exposed to the liquid pool through the PEEK chamber.",
+          "resolved": true,
+          "char_span": [
+            22197,
+            22284
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All experimental data reported in this paper are obtained from steady-state pool boiling tests using deionized water.",
+          "resolved": true,
+          "char_span": [
+            24621,
+            24740
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+              "number": null,
+              "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "All experimental data reported in this paper are obtained from steady-state pool boiling tests using deionized water.",
+            "resolved": true,
+            "char_span": [
+              24621,
+              24740
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+                "number": null,
+                "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+                "level": 2
+              }
+            ],
+            "match": "fuzzy",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The treated surface was unidirectionally polished by flipping the heater block where the boiling surface touched the sandpaper (grit 320 followed by grit 600).",
+            "resolved": true,
+            "char_span": [
+              13818,
+              13977
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-34",
+                "number": "34",
+                "title": "W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "porous_coating",
+        "tier2": "metal_foam",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Two different types of modified surfaces were used in the boiling experiment comprising a polished copper surface and hierarchical cop\u00adper foams.",
+            "resolved": true,
+            "char_span": [
+              13300,
+              13446
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-34",
+                "number": "34",
+                "title": "W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical",
+                "level": 2
+              }
+            ],
+            "match": "fuzzy",
+            "score": 1.0
+          },
+          {
+            "quote": "The hierarchical copper foams were fabricated using the electrode\u00adposition method with pH control",
+            "resolved": true,
+            "char_span": [
+              13978,
+              14076
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-34",
+                "number": "34",
+                "title": "W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical",
+                "level": 2
+              }
+            ],
+            "match": "fuzzy",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "void_fraction",
+      "flow_regime",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Nucleate boiling is a highly efficient heat dissipation method and is\ncentral to electronics cooling [1,2], power generation [3], and distilla\u00ad\ntion [4], among many other industrial applications.",
+            "resolved": true,
+            "char_span": [
+              3446,
+              3641
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+                "number": null,
+                "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "power_generation",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Nucleate boiling is a highly efficient heat dissipation method and is\ncentral to electronics cooling [1,2], power generation [3], and distilla\u00ad\ntion [4], among many other industrial applications.",
+            "resolved": true,
+            "char_span": [
+              3446,
+              3641
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+                "number": null,
+                "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "process",
+        "tier2": "distillation",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Nucleate boiling is a highly efficient heat dissipation method and is\ncentral to electronics cooling [1,2], power generation [3], and distilla\u00ad\ntion [4], among many other industrial applications.",
+            "resolved": true,
+            "char_span": [
+              3446,
+              3641
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+                "number": null,
+                "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams",
+  "si": {
+    "q_flux_max": 2186000.0,
+    "q_flux_unit": "W/m2",
+    "D_h_min": 0.01,
+    "D_h_unit": "m",
+    "D_h_max": 0.01
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.25047307503384586,
+    "Bo": 15.939617841421024
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:very_high",
+    "scale:conventional"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 5,
+    "n_points": 304,
+    "figures": [
+      "fig-7"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

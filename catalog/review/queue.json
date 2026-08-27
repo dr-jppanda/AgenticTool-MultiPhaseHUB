@@ -1,0 +1,185 @@
+[
+  {
+    "record_id": "chu-2013-cuo-hierarchical-wang-miljkovic",
+    "field": "taxonomy.surface_enhancement[2]",
+    "kind": "new_term",
+    "proposed": "copper_oxide_nanostructures",
+    "confidence": 0.85,
+    "reason": "proposes a term not in the surface_enhancement vocabulary",
+    "evidence": [
+      {
+        "quote": "Cu\nmicropillars were oxidized in an alkali solution composed\nof NaClO2, NaOH, Na3PO4.12H2O to form CuO\nnanostructures.",
+        "resolved": true,
+        "char_span": [
+          6574,
+          6692
+        ],
+        "pages": [
+          2
+        ],
+        "sections": [
+          {
+            "id": "sec-7-fabrication",
+            "number": null,
+            "title": "Fabrication",
+            "level": 2
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-08-12",
+    "key": "new_term::copper_oxide_nanostructures"
+  },
+  {
+    "record_id": "mchale-2011-smooth-sintered-copper",
+    "field": "taxonomy.fluid[1]",
+    "kind": "new_term",
+    "proposed": "HFE-7300",
+    "confidence": 0.85,
+    "reason": "proposes a term not in the fluid vocabulary",
+    "evidence": [
+      {
+        "quote": "The working fluids are a segregated hydrofluoroether, HFE-7300 (3M Electronic Markets Materials Division, St. Paul, MN), and deionized water.",
+        "resolved": true,
+        "char_span": [
+          4394,
+          4535
+        ],
+        "pages": [
+          4
+        ],
+        "sections": [
+          {
+            "id": "sec-11-and-without-carbon-nanotubes",
+            "number": null,
+            "title": "AND WITHOUT CARBON NANOTUBES",
+            "level": 2
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-08-12",
+    "key": "new_term::hfe-7300"
+  },
+  {
+    "record_id": "htl-tr-1951-005",
+    "field": "taxonomy.fluid[2]",
+    "kind": "new_term",
+    "proposed": "ethanol",
+    "confidence": 0.85,
+    "reason": "proposes a term not in the fluid vocabulary",
+    "evidence": [
+      {
+        "quote": "POOL BOILING\n1.0-\nETHYL\nALCOHOL\nON POLISHED\nPLATED CHRC",
+        "resolved": true,
+        "char_span": [
+          22549,
+          22604
+        ],
+        "pages": [
+          23
+        ],
+        "sections": [
+          {
+            "id": "sec-148-a",
+            "number": null,
+            "title": "A",
+            "level": 2
+          },
+          {
+            "id": "sec-149-cichelli-bonilla-12",
+            "number": null,
+            "title": "CICHELLI - BONILLA (12",
+            "level": 1
+          },
+          {
+            "id": "sec-150-pool-boiling",
+            "number": null,
+            "title": "POOL BOILING",
+            "level": 1
+          },
+          {
+            "id": "sec-151-ethyl",
+            "number": null,
+            "title": "ETHYL",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-08-12",
+    "key": "new_term::ethanol"
+  },
+  {
+    "record_id": "htl-tr-1951-005",
+    "field": "taxonomy.fluid[3]",
+    "kind": "new_term",
+    "proposed": "n-pentane",
+    "confidence": 0.85,
+    "reason": "proposes a term not in the fluid vocabulary",
+    "evidence": [
+      {
+        "quote": "Cichelli-Bonilla(12) n-Pentane-Cromium\n0.015",
+        "resolved": true,
+        "char_span": [
+          10485,
+          10529
+        ],
+        "pages": [
+          10
+        ],
+        "sections": [
+          {
+            "id": "sec-44-cichelli-bonilla-12-ethyl-alchol-chromit",
+            "number": null,
+            "title": "Cichelli-Bonilla(12) Ethyl Alchol - Chromite",
+            "level": 2
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-08-12",
+    "key": "new_term::n-pentane"
+  },
+  {
+    "record_id": "allred-2019-petal-effect-parahydrophobic",
+    "field": "application.targets[3]",
+    "kind": "unstated_application",
+    "proposed": "battery_thermal",
+    "confidence": 0.6,
+    "reason": "stated but low confidence (medium)",
+    "evidence": [
+      {
+        "quote": "Current trends in high-performance computing, electric vehicles, renewable energy conversion, and telecommunications applications demand the efficient removal of high heat fluxes from surfaces maintained at a low temperature, as is afforded by boiling.",
+        "resolved": true,
+        "char_span": [
+          3291,
+          3543
+        ],
+        "pages": [
+          3
+        ],
+        "sections": [
+          {
+            "id": "sec-11-keywords",
+            "number": null,
+            "title": "Keywords",
+            "level": 2
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-08-12",
+    "key": "unstated_application::battery_thermal"
+  }
+]

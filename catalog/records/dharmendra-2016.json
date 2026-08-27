@@ -1,0 +1,835 @@
+{
+  "record_id": "dharmendra-2016",
+  "doc_id": "b5c452f3230f2d44",
+  "title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+  "source_pdf": "dharmendra_2016.pdf",
+  "n_pages": 11,
+  "n_figures": 13,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Schematic of experimental setup and arrangement of thermocouples to measure heat \ufb02ux."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "shows the SEM image of the surface morphology of un-"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 4,
+      "caption": "shows the XRD patterns of the samples presented in Fig. 3."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 4,
+      "caption": "(A and B) shows the SEM images of the CNT coated Cu sub-"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "SEM images of the (A) bare copper surface and (B) sand blasted copper."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": "EM images of diamond coating on the (A) bare copper surface and (B) sand blasted copper."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "XRD patterns of the diamond coating on (A) untreated copper and (B) sandblasted copper."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "SEM images of CNT coating (A) on diamond coated Cu, (B) on bare Cu, (C) on diamond coated Cu after tap water test, and (D) on bare copper after tap water test."
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "Raman spectrum of (A) diamond coating on sand blasted Cu. (B) CNT coating on the diamond coated Cu."
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 8,
+      "caption": "Comparison of experiment pool boiling results obtained for the bare copper with the results obtained for the proposed equation."
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": "Pool boiling curve for different surfaces."
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 9,
+      "caption": "Variation of the boiling heat transfer coe\ufb03cient for different surfaces."
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": "Static contact angle of (a) bare copper, (b) sand blasted copper, and (c) CNT coated copper substrates."
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-12-sand-blasted",
+      "number": null,
+      "title": "Sand Blasted",
+      "level": 2
+    },
+    {
+      "id": "sec-13-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2
+    },
+    {
+      "id": "sec-3-tw-tsat-c",
+      "number": null,
+      "title": "TW-TSat (\u00baC)",
+      "level": 2
+    },
+    {
+      "id": "sec-4-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1
+    },
+    {
+      "id": "sec-5-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2
+    },
+    {
+      "id": "sec-6-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 14,
+    "resolved": 14,
+    "unresolved": 0,
+    "exact": 14
+  },
+  "points_ref": "points/dharmendra-2016.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+    "year": 2016,
+    "reason": "The paper states, \u201cIn the present study, pool boiling heat transfer experiments are performed on a bare copper surface, a sandblasted copper surface, and carbon nanotube coated copper substrates.\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 1.027,
+      "max": 1.416,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "Table 3\nMeasured CHF values of the tested surfaces.\nSi. no\nTested surface\nCHF (kW/m2)\n1\nCNT coated Cu\n1.416\n2\nSandblasted copper\n1.114\n3\nBare copper\n1.027",
+          "resolved": true,
+          "char_span": [
+            27037,
+            27191
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-12-sand-blasted",
+              "number": null,
+              "title": "Sand Blasted",
+              "level": 2
+            },
+            {
+              "id": "sec-13-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 14.0,
+      "max": 14.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "Experiments were conducted on the substrate surface area of 14 \u00d7 14 mm2 using de-mineralized water as the working fluid.",
+          "resolved": true,
+          "char_span": [
+            1490,
+            1610
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (\u00baC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.25,
+      "max": 2.34,
+      "unit": "\u03bcm",
+      "evidence": [
+        {
+          "quote": "Table 1\nSurface roughness results.\nSurfaces\nX direction\n(\u03bcm)\nY direction\n(\u03bcm)\nAverage\n(\u03bcm)\nUntreated Cu\n0.22\n0.28\n0.25\nSand blasted Cu\n1.99\n2.00\n1.95\nCNT coated Cu with diamond coating\n2.32\n2.36\n2.34",
+          "resolved": true,
+          "char_span": [
+            17531,
+            17730
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            },
+            {
+              "id": "sec-5-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 133.0,
+      "max": 133.0,
+      "unit": "\u00b0",
+      "evidence": [
+        {
+          "quote": "While the CNT coated surface that provides a contact angle of 133\u00b0 is hydrophobic.",
+          "resolved": true,
+          "char_span": [
+            27647,
+            27729
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-13-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "one_side_heated",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling experiments were conducted",
+          "resolved": true,
+          "char_span": [
+            13592,
+            13631
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0,
+          "also_at": [
+            {
+              "char_span": [
+                20333,
+                20372
+              ],
+              "pages": [
+                6
+              ],
+              "sections": [
+                {
+                  "id": "sec-6-table-2",
+                  "number": null,
+                  "title": "Table 2",
+                  "level": 2
+                }
+              ],
+              "match": "exact",
+              "score": 1.0
+            }
+          ]
+        },
+        {
+          "quote": "nucleate boiling regime",
+          "resolved": true,
+          "char_span": [
+            23619,
+            23642
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The copper test plate is heated",
+          "resolved": true,
+          "char_span": [
+            10561,
+            10592
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-4-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "pool boiling heat transfer experiments are performed",
+          "resolved": true,
+          "char_span": [
+            1335,
+            1387
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (\u00baC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "reached the steady state, all the",
+          "resolved": true,
+          "char_span": [
+            14022,
+            14055
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "de-mineralized water as the working fluid",
+            "resolved": true,
+            "char_span": [
+              1568,
+              1609
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (\u00baC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0,
+            "also_at": [
+              {
+                "char_span": [
+                  19693,
+                  19734
+                ],
+                "pages": [
+                  6
+                ],
+                "sections": [
+                  {
+                    "id": "sec-6-table-2",
+                    "number": null,
+                    "title": "Table 2",
+                    "level": 2
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              }
+            ]
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "bare copper surface",
+            "resolved": true,
+            "char_span": [
+              1393,
+              1412
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (\u00baC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0,
+            "also_at": [
+              {
+                "char_span": [
+                  2109,
+                  2128
+                ],
+                "pages": [
+                  1
+                ],
+                "sections": [
+                  {
+                    "id": "sec-3-tw-tsat-c",
+                    "number": null,
+                    "title": "TW-TSat (\u00baC)",
+                    "level": 2
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              },
+              {
+                "char_span": [
+                  15408,
+                  15427
+                ],
+                "pages": [
+                  4
+                ],
+                "sections": [
+                  {
+                    "id": "sec-4-applied-thermal-engineering",
+                    "number": null,
+                    "title": "Applied Thermal Engineering",
+                    "level": 1
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              },
+              {
+                "char_span": [
+                  17482,
+                  17501
+                ],
+                "pages": [
+                  4
+                ],
+                "sections": [
+                  {
+                    "id": "sec-4-applied-thermal-engineering",
+                    "number": null,
+                    "title": "Applied Thermal Engineering",
+                    "level": 1
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              }
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "sandblasted",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "sandblasted copper surface",
+            "resolved": true,
+            "char_span": [
+              1416,
+              1442
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (\u00baC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0,
+            "also_at": [
+              {
+                "char_span": [
+                  22158,
+                  22184
+                ],
+                "pages": [
+                  6
+                ],
+                "sections": [
+                  {
+                    "id": "sec-6-table-2",
+                    "number": null,
+                    "title": "Table 2",
+                    "level": 2
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              }
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nanostructured",
+        "tier2": "cnt",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "vertically aligned CNT coated copper substrates",
+            "resolved": true,
+            "char_span": [
+              1969,
+              2016
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (\u00baC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "onb",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "This was the drive behind this investigation in the case of pool boiling heat transfer leading to applications like electronics cooling.",
+            "resolved": true,
+            "char_span": [
+              5275,
+              5411
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-4-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+  "si": {
+    "q_flux_min": 1027.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 1416.0,
+    "D_h_min": 0.014,
+    "D_h_unit": "m",
+    "D_h_max": 0.014,
+    "contact_angle_min": 133.0,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 133.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.1789093393098899,
+    "Bo": 31.24165096918521
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:low",
+    "scale:conventional",
+    "wetting:hydrophobic"
+  ],
+  "unit_warnings": [
+    "Ra_surface.min: unrecognized unit '\u03bcm'",
+    "Ra_surface.max: unrecognized unit '\u03bcm'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 20,
+    "n_points": 4427,
+    "figures": [
+      "fig-4",
+      "fig-6",
+      "fig-7",
+      "fig-8",
+      "fig-9",
+      "fig-p1-02",
+      "fig-p5-01",
+      "fig-p7-01"
+    ],
+    "quantities": [
+      "htc",
+      "q_flux",
+      "y"
+    ]
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "record_id": "hadzic-2024-inherent-scatter-reference",
+  "doc_id": "9152df8d462c9373",
+  "title": "Inherent scatter in pool boiling critical heat flux on reference surfaces",
+  "source_pdf": "hadzic_2024_inherent_scatter_reference.pdf",
+  "n_pages": 10,
+  "n_figures": 12,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Schematic view of the experimental procedure."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 4,
+      "caption": "shows the heat transfer coefficients at specific heat flux levels"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "SEM images of reference copper surface before and after boiling tests."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": "Average boiling curve calculated from 125 measurements (upper part)"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "The change of heat transfer coefficients with increasing the number of experimental runs at heat flux levels: a) 200 kW m\u22122, b) 400 kW m\u22122, c) 600 kW m\u22122"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "a) Comparison of the calculated average boiling curve to the boiling curve obtained by Rohsenow\u2019s correlations and b) comparison of predicted surface"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "displays the CHF values plotted against the experimental run"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": "However, some samples exhibited increased CHF with an"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "The change of the critical heat flux by each subsequent experi\u00ad"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": "The change of the critical heat flux over an experimental group."
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": "CHF data scatter obtained during first experimental run."
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 8,
+      "caption": "Relative enhancement of maximum CHF from study over reference CHF"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-0-international-journal-of-thermal-science",
+      "number": null,
+      "title": "International Journal of Thermal Sciences",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 13,
+    "resolved": 13,
+    "unresolved": 0,
+    "fuzzy": 2,
+    "exact": 11
+  },
+  "points_ref": "points/hadzic-2024-inherent-scatter-reference.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Inherent scatter in pool boiling critical heat flux on reference surfaces",
+    "year": 2024,
+    "reason": "The paper reports its own experiments: \u201cThe study recorded 125 boiling curves and CHF values on nominally identical bare copper surfaces, establishing an average boiling curve and mean CHF value.\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 50.0,
+      "max": 1389.0,
+      "unit": "kW m-2",
+      "evidence": [
+        {
+          "quote": "surface superheat in the heat flux range between 50 kW m-2 and the CHF",
+          "resolved": true,
+          "char_span": [
+            22919,
+            23001
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "fuzzy",
+          "score": 0.9143,
+          "also_at": [
+            {
+              "char_span": [
+                26640,
+                26730
+              ],
+              "pages": [
+                5
+              ],
+              "sections": [
+                {
+                  "id": "sec-0-international-journal-of-thermal-science",
+                  "number": null,
+                  "title": "International Journal of Thermal Sciences",
+                  "level": 1
+                }
+              ],
+              "match": "fuzzy",
+              "score": 0.8714
+            }
+          ]
+        },
+        {
+          "quote": "with the lowest and highest CHF values being 902\nkW m-2 and 1389 kW m-2, respectively.",
+          "resolved": true,
+          "char_span": [
+            21841,
+            21927
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 14.0,
+      "max": 14.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "bare copper samples (electrolytic\npurity, >99.9 % Cu) with 14 mm diameter",
+          "resolved": true,
+          "char_span": [
+            10762,
+            10835
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.23,
+      "max": 0.23,
+      "unit": "\u03bcm",
+      "evidence": [
+        {
+          "quote": "A surface roughness of 0.23 \u00b1 0.02 \u03bcm was",
+          "resolved": true,
+          "char_span": [
+            11150,
+            11191
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 45.0,
+      "max": 95.4,
+      "unit": "\u25e6",
+      "evidence": [
+        {
+          "quote": "with a maximum recorded value of 95.4\u25e6and a minimum\nrecorded value of 45\u25e6.",
+          "resolved": true,
+          "char_span": [
+            31443,
+            31517
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": 125.0,
+      "max": 125.0,
+      "unit": null,
+      "evidence": [
+        {
+          "quote": "resulting in\n125 boiling curve measurements up to the critical heat flux (CHF) for all\nsurfaces.",
+          "resolved": true,
+          "char_span": [
+            20937,
+            21033
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Each boiling curve was recorded until CHF, after which the car\u00adtridge heaters were turned off and the sample was left to cool down",
+          "resolved": true,
+          "char_span": [
+            15712,
+            15843
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        },
+        {
+          "quote": "When recording a boiling curve, the heat flux was increased at a rate of less than 0.2 kW m-2 s-1 during the natural convection regime and at a rate of less than 2 kW m-2 s-1 during nucleate boiling.",
+          "resolved": true,
+          "char_span": [
+            15424,
+            15623
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The study evaluated the boiling performance on 25 bare copper surfaces with five experiments conducted on each surface",
+          "resolved": true,
+          "char_span": [
+            20817,
+            20935
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "transient",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This dynamic measurement approach was evaluated and validated in a previous study [50].",
+          "resolved": true,
+          "char_span": [
+            15624,
+            15711
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-thermal-science",
+              "number": null,
+              "title": "International Journal of Thermal Sciences",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "All measurements were performed at atmospheric pressure under saturated conditions using double-distilled water.",
+            "resolved": true,
+            "char_span": [
+              21034,
+              21146
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-0-international-journal-of-thermal-science",
+                "number": null,
+                "title": "International Journal of Thermal Sciences",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The sanding process was carried out using P600, P800, P1200, and P2000 abrasive papers in sequence.",
+            "resolved": true,
+            "char_span": [
+              10962,
+              11061
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-0-international-journal-of-thermal-science",
+                "number": null,
+                "title": "International Journal of Thermal Sciences",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": null,
+        "stated": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The acquired CHF data is proposed to serve as a foundational benchmark for future research in enhancing pool boiling heat transfer.",
+            "resolved": true,
+            "char_span": [
+              1620,
+              1751
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Inherent scatter in pool boiling critical heat flux on reference surfaces",
+  "si": {
+    "D_h_min": 0.014,
+    "D_h_unit": "m",
+    "D_h_max": 0.014,
+    "n_data_points_min": 125.0,
+    "n_data_points_unit": "-",
+    "n_data_points_max": 125.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.1789093393098899,
+    "Bo": 31.24165096918521
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "scale:conventional",
+    "size:medium"
+  ],
+  "unit_warnings": [
+    "q_flux.min: unrecognized unit 'kW m-2'",
+    "q_flux.max: unrecognized unit 'kW m-2'",
+    "Ra_surface.min: unrecognized unit '\u03bcm'",
+    "Ra_surface.max: unrecognized unit '\u03bcm'",
+    "contact_angle.min: unrecognized unit '\u25e6'",
+    "contact_angle.max: unrecognized unit '\u25e6'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 1,
+    "n_points": 62,
+    "figures": [
+      "fig-3"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

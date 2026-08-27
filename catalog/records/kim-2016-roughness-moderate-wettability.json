@@ -1,0 +1,685 @@
+{
+  "record_id": "kim-2016-roughness-moderate-wettability",
+  "doc_id": "a54d84b023291399",
+  "title": "Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability",
+  "source_pdf": "kim_2016_roughness_moderate_wettability.pdf",
+  "n_pages": 11,
+  "n_figures": 16,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "shows the design of the test heater used in collecting data"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Design of the test heater for the boiling experiment."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "Detailed drawing of the boiling test chamber."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 4,
+      "caption": "Static angles in the parallel direction, measured before the"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 5,
+      "caption": "SEM images of surfaces having different roughness (\u00011000)."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "Static contact angles at two directions: (a) parallel to the scratches, (b) normal to the scratches (Ra = 0.169 lm, 600 grit #1)."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 5,
+      "caption": "Static contact angles for all nine surfaces at the parallel and normal directions."
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 6,
+      "caption": "Advancing and receding contact angles with Ra for two different directions."
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 6,
+      "caption": "Measurement of dynamic contact angles (Ra = 0.169 lm): (a) advancing contact angle (before boiling, parallel), (b) receding contact angle (before boiling, parallel)."
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 7,
+      "caption": "provides a comparison of the experimental data with Eq."
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 7,
+      "caption": "Comparison between experimental data and the correlation (Eq. (8))."
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 7,
+      "caption": "Relation between dimensionless h and dimensionless q00 according to the"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 7,
+      "caption": "Boiling curves with increasing Ra from 0.041 lm to 2.36 lm."
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 9,
+      "caption": "Structure of a hovering bubble including liquid supply by capillary wicking (modi\ufb01cation of the original drawing by Haramura and Katto [29])."
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 9,
+      "caption": "Small capillary tubes beneath the bubble for modeling capillary wicking"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 10,
+      "caption": "Trend of Eq. (26) at different contact angles of 10\u0003, 30\u0003, 50\u0003, and 70\u0003 and"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-1-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1
+    },
+    {
+      "id": "sec-10-chf-s-hfgq1-2",
+      "number": null,
+      "title": "CHF \u00bc S \u0001 hfgq1=2",
+      "level": 2
+    },
+    {
+      "id": "sec-3-fs-1-r",
+      "number": null,
+      "title": "FS;1 \u00bc r",
+      "level": 1
+    },
+    {
+      "id": "sec-4-fs-2-r-cos-h",
+      "number": null,
+      "title": "FS;2 \u00bc r cos h",
+      "level": 1
+    },
+    {
+      "id": "sec-0-jinsub-kim-seongchul-jun-ram-laksnarain-",
+      "number": null,
+      "title": "Jinsub Kim, Seongchul Jun, Ram Laksnarain, Seung M. You \u21d1",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 13,
+    "resolved": 13,
+    "unresolved": 0,
+    "exact": 13
+  },
+  "points_ref": "points/kim-2016-roughness-moderate-wettability.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability",
+    "year": 2016,
+    "reason": "The paper reports its own measurements: \u201cThe CHF measurements in the present study clearly demonstrate this fact with CHF increasing from 775 kW/m2 at the smoothest surface (Ra = 0.041 lm) to 1625 kW/m2 at the roughest surface (Ra = 2.36 lm).\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 775.0,
+      "max": 1625.0,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "The CHF was merely 775 kW/m2 at the smoothest surface of\nRa = 0.041 lm, whereas CHF at the roughest surface of Ra = 2.36 lm\nwas as much as 1625 kW/m2",
+          "resolved": true,
+          "char_span": [
+            20781,
+            20930
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 10.0,
+      "max": 10.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "Copper blocks of size 10 mm 10 mm 3 mm were prepared\nto serve as test surfaces.",
+          "resolved": true,
+          "char_span": [
+            7022,
+            7101
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.041,
+      "max": 2.36,
+      "unit": "lm",
+      "evidence": [
+        {
+          "quote": "The average roughness Ra was varied from 0.041 lm to 2.36 lm, and\nstatic and dynamic contact angles were measured before and after\neach boiling test for all nine surfaces.",
+          "resolved": true,
+          "char_span": [
+            39010,
+            39181
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-10-chf-s-hfgq1-2",
+              "number": null,
+              "title": "CHF \u00bc S \u0001 hfgq1=2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 60.0,
+      "max": 70.0,
+      "unit": null,
+      "evidence": [
+        {
+          "quote": "The present study is intended to\nstart from roughened copper surfaces having moderate wettability,\nwhich means normal copper surfaces with contact angles of\napproximately 60-70 .",
+          "resolved": true,
+          "char_span": [
+            6246,
+            6424
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": null
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The effect of surface roughness on the nucleate boiling heat\ntransfer and CHF at copper surfaces having moderate contact\nangles in pool boiling of saturated water was investigated.",
+          "resolved": true,
+          "char_span": [
+            38829,
+            39009
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-10-chf-s-hfgq1-2",
+              "number": null,
+              "title": "CHF \u00bc S \u0001 hfgq1=2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "where the gravity force is formulated with regard to a horizontal\nheated surface facing upward.",
+          "resolved": true,
+          "char_span": [
+            34527,
+            34622
+          ],
+          "pages": [
+            8,
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            },
+            {
+              "id": "sec-3-fs-1-r",
+              "number": null,
+              "title": "FS;1 \u00bc r",
+              "level": 1
+            },
+            {
+              "id": "sec-4-fs-2-r-cos-h",
+              "number": null,
+              "title": "FS;2 \u00bc r cos h",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The polished top surface is exposed to the exterior and acts as a boiling\nsurface for the experiment.",
+          "resolved": true,
+          "char_span": [
+            10820,
+            10921
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Once the\nwall temperature reached steady state, the current was increased\nto the next specified value.",
+          "resolved": true,
+          "char_span": [
+            12441,
+            12543
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The CHF was determined to be the aver-\nage of the previous steady power input and the current power\ninput which showed abrupt increase in wall temperature.",
+          "resolved": true,
+          "char_span": [
+            13034,
+            13187
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Approximately 2 l of distilled water was filled into the chamber",
+            "resolved": true,
+            "char_span": [
+              11537,
+              11601
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-2-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The effect of surface roughness on pool boiling heat transfer coefficient and critical heat flux (CHF) at a\ncopper surface having moderate wettability was studied in saturated water.",
+            "resolved": true,
+            "char_span": [
+              615,
+              797
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-jinsub-kim-seongchul-jun-ram-laksnarain-",
+                "number": null,
+                "title": "Jinsub Kim, Seongchul Jun, Ram Laksnarain, Seung M. You \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The top\nsurfaces were polished again with various sandpapers having 2000,\n600, 220, and 80 grit",
+            "resolved": true,
+            "char_span": [
+              7525,
+              7620
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The polishing was performed in one direction,\nwhich naturally made unidirectional scratches on the copper sur-\nfaces.",
+            "resolved": true,
+            "char_span": [
+              7807,
+              7922
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "confidence": "high",
+        "evidence": [],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability",
+  "si": {
+    "q_flux_min": 775000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 1625000.0,
+    "D_h_min": 0.01,
+    "D_h_unit": "m",
+    "D_h_max": 0.01,
+    "contact_angle_min": 60.0,
+    "contact_angle_unit": "-",
+    "contact_angle_max": 70.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.25047307503384586,
+    "Bo": 15.939617841421024
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:very_high",
+    "scale:conventional",
+    "wetting:hydrophilic"
+  ],
+  "unit_warnings": [
+    "Ra_surface.min: unrecognized unit 'lm'",
+    "Ra_surface.max: unrecognized unit 'lm'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 7,
+    "n_points": 443,
+    "figures": [
+      "fig-13",
+      "fig-8"
+    ],
+    "quantities": [
+      "q_flux",
+      "y"
+    ]
+  }
+}

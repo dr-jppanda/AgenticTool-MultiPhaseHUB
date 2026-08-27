@@ -1,0 +1,674 @@
+{
+  "record_id": "allred-2018-superhydrophobic-trl",
+  "doc_id": "457826d6baaafbfb",
+  "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+  "source_pdf": "allred_2018_superhydrophobic_trl.pdf",
+  "n_pages": 6,
+  "n_figures": 6,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "FIG. 1",
+      "page": 2,
+      "caption": ""
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "(h)]. This hitherto unreported nucleate boiling behav-"
+    },
+    {
+      "id": "fig-2",
+      "label": "FIG. 2",
+      "page": 3,
+      "caption": ""
+    },
+    {
+      "id": "fig-3",
+      "label": "FIG. 3",
+      "page": 4,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "FIG. 4",
+      "page": 4,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "(b)] is achieved compared to the bare copper"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-0-enabling-highly-effective-boiling-from-s",
+      "number": null,
+      "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 16,
+    "resolved": 16,
+    "unresolved": 0,
+    "exact": 16
+  },
+  "points_ref": "points/allred-2018-superhydrophobic-trl.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+    "year": 2018,
+    "reason": "The paper states, \u201cIn this study, micro- and nano-structured superhydrophobic surfaces are fabricated and evaluated in pool boiling experiments,\u201d and reports that \u201can initial Wenzel wetting state allows this microstructured superhydrophobic surface to operate in the nucleate boiling regime up to a CHF of 115 W=cm2.\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 2.1,
+      "max": 115.0,
+      "unit": "W=cm2",
+      "evidence": [
+        {
+          "quote": "film boiling occurred shortly after incipience, prior to reaching steady-state conditions for the first heat flux test point of 2.1 W=cm2",
+          "resolved": true,
+          "char_span": [
+            12613,
+            12750
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "This is the first report of sustained, efficient nucleate boiling on a superhydrophobic surface. An initial Wenzel wetting state allows this microstructured superhydrophobic surface to operate in the nucleate boiling regime up to a CHF of 115 W=cm2",
+          "resolved": true,
+          "char_span": [
+            19841,
+            20089
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": 158.0,
+      "max": 165.0,
+      "unit": "deg",
+      "evidence": [
+        {
+          "quote": "Microstructured\nsuperhydrophobic\n158 deg\n10 deg\nNo roll-off",
+          "resolved": true,
+          "char_span": [
+            13600,
+            13659
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Nanostructured\nsuperhydrophobic\n165 deg\n\u223c1 deg\nNo roll-off",
+          "resolved": true,
+          "char_span": [
+            13660,
+            13718
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "In this study, micro- and nano-\nstructured superhydrophobic surfaces are fabricated and\nevaluated in pool boiling experiments.",
+          "resolved": true,
+          "char_span": [
+            7442,
+            7568
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The surface in the\ninitial Wenzel wetting state displays nucleate boiling\nbehavior over the entire range of heat fluxes",
+          "resolved": true,
+          "char_span": [
+            18873,
+            18992
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Two different superhydrophobic surfaces, one micro-\nstructured and one nanostructured, were fabricated directly\non the surfaces of copper test blocks.",
+          "resolved": true,
+          "char_span": [
+            8147,
+            8297
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "At a fixed chamber pressure, heat flux is supplied in\nincrements to the surface and the system is allowed to reach\nsteady-state operation at each heat flux;",
+          "resolved": true,
+          "char_span": [
+            11779,
+            11935
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-0-enabling-highly-effective-boiling-from-s",
+              "number": null,
+              "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Summary of boiling behavior of water from textured superhydrophobic surfaces.",
+            "resolved": true,
+            "char_span": [
+              9042,
+              9119
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "structured",
+        "tier2": "grooves",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The microstructured\ncopper surface was fabricated through laser etching (ULS,\nPLS6MW) to produce a texture with grooves that are tens\nof micrometers in dimension",
+            "resolved": true,
+            "char_span": [
+              8298,
+              8459
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nanostructured",
+        "tier2": "nanowire",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The nanostructured copper\nsurface was fabricated through chemical etching to produce\ncopper oxide nanowires with diameters of \u223c100 -300 nm",
+            "resolved": true,
+            "char_span": [
+              8516,
+              8654
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "superhydrophobic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The surfaces were each coated with polydimethylsiloxane (PDMS) to impart superhydrophobic behavior.",
+            "resolved": true,
+            "char_span": [
+              8668,
+              8767
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics",
+      "nucleation_site_density",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "power_generation",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Avariety of industrial applications such as power generation, water distillation, and high-density cooling",
+            "resolved": true,
+            "char_span": [
+              296,
+              402
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "process",
+        "tier2": "distillation",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Avariety of industrial applications such as power generation, water distillation, and high-density cooling",
+            "resolved": true,
+            "char_span": [
+              296,
+              402
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "has emerged as the primary choice when extremely high\nheat fluxes need to be dissipated from high-power electronic\nsystems and nuclear reactors.",
+            "resolved": true,
+            "char_span": [
+              2156,
+              2300
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nuclear",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "has emerged as the primary choice when extremely high\nheat fluxes need to be dissipated from high-power electronic\nsystems and nuclear reactors.",
+            "resolved": true,
+            "char_span": [
+              2156,
+              2300
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-enabling-highly-effective-boiling-from-s",
+                "number": null,
+                "title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Enabling Highly Effective Boiling from Superhydrophobic Surfaces",
+  "si": {
+    "contact_angle_min": 158.0,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 165.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586
+  },
+  "derived_tags": [
+    "wetting:superhydrophobic"
+  ],
+  "unit_warnings": [
+    "q_flux.min: unrecognized unit 'W=cm2'",
+    "q_flux.max: unrecognized unit 'W=cm2'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 3,
+    "n_points": 243,
+    "figures": [
+      "fig-4"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

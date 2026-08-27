@@ -1,0 +1,681 @@
+{
+  "record_id": "berce-2024-wettability-nanoparticle-deposition",
+  "doc_id": "7a9fb095faad30aa",
+  "title": "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces",
+  "source_pdf": "berce_2024_wettability_nanoparticle_deposition.pdf",
+  "n_pages": 17,
+  "n_figures": 15,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 4,
+      "caption": "SEM images of the reference samples: (a) untreated surface and (b) laser-engineered surface."
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 6,
+      "caption": "(a) Experimental setup; (b) cross section of the sample and the heating assembly; and"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "page": 6,
+      "caption": "Flowchart of processing the data obtained during pool measurements."
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 7,
+      "caption": "(a) Boiling curves and (b) heat transfer coefficients on the reference surface."
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 7,
+      "caption": "shows the boiling performance (Figure 5a—boiling curves and Figure 5b—heat"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 8,
+      "caption": ""
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 8,
+      "caption": "shows the boiling performance (Figure 6a—boiling curves and Figure 6b—HTCs"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 9,
+      "caption": ""
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "page": 10,
+      "caption": "Boiling curves of TiO2–water nanofluid on a superhydrophilic laser-textured surface at"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "page": 10,
+      "caption": "Heat transfer coefficients of TiO2–water nanofluid on a superhydrophilic laser-textured"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "page": 11,
+      "caption": "SEM images of superhydrophilic samples after boiling at concentrations of 0.001 wt.% (left)"
+    },
+    {
+      "id": "fig-10",
+      "label": "Figure 10",
+      "page": 12,
+      "caption": "Boiling curves of TiO2–water nanofluid on a superhydrophobic laser-textured surface at"
+    },
+    {
+      "id": "fig-11",
+      "label": "Figure 11",
+      "page": 12,
+      "caption": "Heat transfer coefficients of TiO2–water nanofluid on a superhydrophobic laser-textured"
+    },
+    {
+      "id": "fig-12",
+      "label": "Figure 12",
+      "page": 13,
+      "caption": "SEM images of superhydrophobic samples after boiling at concentrations of 0.001 wt.%"
+    },
+    {
+      "id": "fig-13",
+      "label": "Figure 13",
+      "page": 14,
+      "caption": "Nanoparticle deposition-induced changes, characterized by mean pool boiling curve wall"
+    }
+  ],
+  "cited_pages": [
+    1,
+    3,
+    4,
+    7,
+    9,
+    13,
+    14
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-22-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2
+    },
+    {
+      "id": "sec-6-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2
+    },
+    {
+      "id": "sec-13-after-boiling",
+      "number": null,
+      "title": "After Boiling",
+      "level": 2
+    },
+    {
+      "id": "sec-26-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2
+    },
+    {
+      "id": "sec-20-surface-superheat",
+      "number": null,
+      "title": "Surface Superheat",
+      "level": 2
+    },
+    {
+      "id": "sec-27-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2
+    },
+    {
+      "id": "sec-3-jure-berce-1",
+      "number": null,
+      "title": "Jure Berce 1",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 13,
+    "resolved": 13,
+    "unresolved": 0,
+    "exact": 12,
+    "fuzzy": 1
+  },
+  "points_ref": null,
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces",
+    "year": 2024,
+    "reason": "The paper reports original experiments: “Five consecutive pool boiling curve measurements were performed on each surface at atmospheric pressure.”"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": 1462.0,
+      "unit": "kW m-2",
+      "evidence": [
+        {
+          "quote": "However, the highest CHF of 1462 kW m-2 was recorded at higher concentrations",
+          "resolved": true,
+          "char_span": [
+            26246,
+            26323
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-22-nanomaterials-2024-14-311",
+              "number": null,
+              "title": "Nanomaterials 2024, 14, 311",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.2,
+      "max": 0.2,
+      "unit": "μm",
+      "evidence": [
+        {
+          "quote": "The achieved roughness (Ra) of the sanded samples was approximately 0.2 μm.",
+          "resolved": true,
+          "char_span": [
+            12319,
+            12394
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-6-nanomaterials-2024-14-311",
+              "number": null,
+              "title": "Nanomaterials 2024, 14, 311",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 0.0,
+      "max": 164.0,
+      "unit": "◦",
+      "evidence": [
+        {
+          "quote": "SHPI\nWater\n/\n0\n110",
+          "resolved": true,
+          "char_span": [
+            14540,
+            14558
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-13-after-boiling",
+              "number": null,
+              "title": "After Boiling",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "SHPO\nWater\n/\n164\n148",
+          "resolved": true,
+          "char_span": [
+            14559,
+            14579
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-13-after-boiling",
+              "number": null,
+              "title": "After Boiling",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "one_side_heated",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "one can observe the similarities between the boiling of nanofluids and particulate fouling during nucleate pool boiling.",
+          "resolved": true,
+          "char_span": [
+            35334,
+            35454
+          ],
+          "pages": [
+            13
+          ],
+          "sections": [
+            {
+              "id": "sec-26-nanomaterials-2024-14-311",
+              "number": null,
+              "title": "Nanomaterials 2024, 14, 311",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "High-purity copper samples (>99.9%) were used to perform the pool boiling experiments. The top part of the samples served as a boiling interface",
+          "resolved": true,
+          "char_span": [
+            12040,
+            12184
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-6-nanomaterials-2024-14-311",
+              "number": null,
+              "title": "Nanomaterials 2024, 14, 311",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Boiling experiments for every combination of working fluid and surface featuring customized wettability comprised five runs.",
+          "resolved": true,
+          "char_span": [
+            20673,
+            20797
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-20-surface-superheat",
+              "number": null,
+              "title": "Surface Superheat",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The evaluation of the boiling performance of the reference surface (REF) using twice-distilled water as a working fluid is shown in Figure 4.",
+            "resolved": true,
+            "char_span": [
+              21300,
+              21440
+            ],
+            "pages": [
+              7
+            ],
+            "sections": [
+              {
+                "id": "sec-20-surface-superheat",
+                "number": null,
+                "title": "Surface Superheat",
+                "level": 2
+              }
+            ],
+            "match": "fuzzy",
+            "score": 0.9929
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nanofluid",
+        "tier2": "tio2_water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The pool boiling performance of TiO2-water nanofluids at two distinct concentrations (0.001 wt.% and 0.1 wt.%) was studied",
+            "resolved": true,
+            "char_span": [
+              40024,
+              40146
+            ],
+            "pages": [
+              14
+            ],
+            "sections": [
+              {
+                "id": "sec-27-nanomaterials-2024-14-311",
+                "number": null,
+                "title": "Nanomaterials 2024, 14, 311",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Among the tested samples, one was tested without any further treatment and served as a reference surface",
+            "resolved": true,
+            "char_span": [
+              12524,
+              12628
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-6-nanomaterials-2024-14-311",
+                "number": null,
+                "title": "Nanomaterials 2024, 14, 311",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "laser_textured",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The first step in functionalizing surfaces was laser texturing performed with a nanosecond fiber laser",
+            "resolved": true,
+            "char_span": [
+              12712,
+              12814
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-6-nanomaterials-2024-14-311",
+                "number": null,
+                "title": "Nanomaterials 2024, 14, 311",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "hydrophilic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Samples, modified through nanosecond laser texturing, were subjected to boiling in an as-prepared superhydrophilic (SHPI) state",
+            "resolved": true,
+            "char_span": [
+              1998,
+              2125
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-jure-berce-1",
+                "number": null,
+                "title": "Jure Berce 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "superhydrophobic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "in a superhydrophobic state (SHPO) following hydrophobization with a self-assembled monolayer of fluorinated silane.",
+            "resolved": true,
+            "char_span": [
+              2130,
+              2246
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-jure-berce-1",
+                "number": null,
+                "title": "Jure Berce 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "confidence": "high",
+        "evidence": [],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces",
+  "si": {},
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586
+  },
+  "derived_tags": [],
+  "unit_warnings": [
+    "q_flux.max: unrecognized unit 'kW m-2'",
+    "Ra_surface.min: unrecognized unit 'μm'",
+    "Ra_surface.max: unrecognized unit 'μm'",
+    "contact_angle.min: unrecognized unit '◦'",
+    "contact_angle.max: unrecognized unit '◦'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  }
+}

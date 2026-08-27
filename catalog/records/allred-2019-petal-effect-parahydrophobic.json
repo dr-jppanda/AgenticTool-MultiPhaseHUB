@@ -1,0 +1,857 @@
+{
+  "record_id": "allred-2019-petal-effect-parahydrophobic",
+  "doc_id": "b566fbeacbb61feb",
+  "title": "The Petal Effect of Parahydrophobic Surfaces Offers Low Receding Contact Angles that Promote Effective Boiling",
+  "source_pdf": "allred_2019_petal_effect_parahydrophobic.pdf",
+  "n_pages": 28,
+  "n_figures": 21,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 6,
+      "caption": "Scanning electron microscope images of the aluminum textured surfaces fabricated in this study."
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 8,
+      "caption": "Schematic illustration of (a) the pool boiling test facility and (b)-(c) test block. (b) top-down view"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "page": 11,
+      "caption": "Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces."
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 11,
+      "caption": "The different vapor formation characteristics that result in the differing boiling performance of"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 12,
+      "caption": "Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 12,
+      "caption": "(d)) closely matches the contact angle of liquid receding away from the site of a growing bubble"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 13,
+      "caption": "Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 14,
+      "caption": "(g)."
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 15,
+      "caption": "Illustration of approximate bubble growth progressions and results of bubble growth model."
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "page": 17,
+      "caption": "Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u00b5L"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "page": 18,
+      "caption": "Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "page": 20,
+      "caption": "Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 27,
+      "caption": "Scanning electron microscope images of the aluminum textured surfaces fabricated in this study."
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 27,
+      "caption": "Schematic illustration of (a) pool boiling chamber and (b)-(c) test block. (b) top-down view of the"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "page": 27,
+      "caption": "Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces."
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 27,
+      "caption": "Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 27,
+      "caption": "Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 27,
+      "caption": "Illustration of approximate bubble growth progressions and results of bubble growth model."
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "page": 27,
+      "caption": "Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u00b5L"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "page": 28,
+      "caption": "Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "page": 28,
+      "caption": "Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and"
+    }
+  ],
+  "cited_pages": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    16
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-11-keywords",
+      "number": null,
+      "title": "Keywords",
+      "level": 2
+    },
+    {
+      "id": "sec-12-pdms",
+      "number": null,
+      "title": "PDMS",
+      "level": 2
+    },
+    {
+      "id": "sec-14-teflon",
+      "number": null,
+      "title": "Teflon",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 18,
+    "resolved": 18,
+    "unresolved": 0,
+    "exact": 18
+  },
+  "points_ref": "points/allred-2019-petal-effect-parahydrophobic.points.json",
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "The Petal Effect of Parahydrophobic Surfaces Offers Low Receding Contact Angles that Promote Effective Boiling",
+    "year": 2019,
+    "reason": "The paper states, \u201cBoiling experiments were carried out in a closed-chamber pool boiling facility (Figure 2(a)).\u201d"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 400.0,
+      "max": 600.0,
+      "unit": "nm",
+      "evidence": [
+        {
+          "quote": "All surfaces were prepared by wet-sanding a metal test block to a roughness of 400-600 nm (Ra) and",
+          "resolved": true,
+          "char_span": [
+            8778,
+            8876
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-11-keywords",
+              "number": null,
+              "title": "Keywords",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 10.0,
+      "max": 161.0,
+      "unit": "\u00b0",
+      "evidence": [
+        {
+          "quote": "smooth copper\n52\u00b0\n~10\u00b0\n66\u00b0\n56\u00b0",
+          "resolved": true,
+          "char_span": [
+            13353,
+            13383
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-11-keywords",
+              "number": null,
+              "title": "Keywords",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "parahydrophobic\nPDMS\n144\u00b0\n~30\u00b0\n161\u00b0\n~130\u00b0",
+          "resolved": true,
+          "char_span": [
+            13481,
+            13522
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-11-keywords",
+              "number": null,
+              "title": "Keywords",
+              "level": 2
+            },
+            {
+              "id": "sec-12-pdms",
+              "number": null,
+              "title": "PDMS",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "aluminum and copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Boiling experiments were carried out in a closed-chamber pool boiling facility (Figure 2(a)).",
+          "resolved": true,
+          "char_span": [
+            13630,
+            13723
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-14-teflon",
+              "number": null,
+              "title": "Teflon",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The parahydrophobic PDMS-coated surface maintains nucleate boiling to a high heat flux",
+          "resolved": true,
+          "char_span": [
+            33831,
+            33917
+          ],
+          "pages": [
+            16
+          ],
+          "sections": [
+            {
+              "id": "sec-14-teflon",
+              "number": null,
+              "title": "Teflon",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the test surface is allowed to cool to just below the saturation temperature.",
+          "resolved": true,
+          "char_span": [
+            15078,
+            15155
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-14-teflon",
+              "number": null,
+              "title": "Teflon",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "During the boiling experiments, temperature and pressure data is collected for each steady state point",
+          "resolved": true,
+          "char_span": [
+            15986,
+            16088
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-14-teflon",
+              "number": null,
+              "title": "Teflon",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Prior to the boiling test, the chamber is filled with deionized water",
+            "resolved": true,
+            "char_span": [
+              14164,
+              14233
+            ],
+            "pages": [
+              7
+            ],
+            "sections": [
+              {
+                "id": "sec-14-teflon",
+                "number": null,
+                "title": "Teflon",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "smooth copper baseline surface",
+            "resolved": true,
+            "char_span": [
+              9092,
+              9122
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "All surfaces were prepared by wet-sanding a metal test block to a roughness of 400-600 nm (Ra)",
+            "resolved": true,
+            "char_span": [
+              8778,
+              8872
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "etched",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The surface was etched for 4 hr in a 0.25 M solution of NaOH at room temperature",
+            "resolved": true,
+            "char_span": [
+              9229,
+              9309
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "laser_textured",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "created via laser etching (ULS, PLS6MW, 1.06 \u03bcm fiber laser).",
+            "resolved": true,
+            "char_span": [
+              9430,
+              9491
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "hydrophobic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Both smooth and textured surfaces are coated with polydimethylsiloxane (PDMS), a hydrophobic material with high contact angle hysteresis",
+            "resolved": true,
+            "char_span": [
+              8226,
+              8362
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "superhydrophobic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the superhydrophobic PDMS-coated surface also has a high static contact angle (151\u00b0), but paired with a high receding contact angle (147\u00b0).",
+            "resolved": true,
+            "char_span": [
+              33175,
+              33314
+            ],
+            "pages": [
+              16
+            ],
+            "sections": [
+              {
+                "id": "sec-14-teflon",
+                "number": null,
+                "title": "Teflon",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "rtd",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "process",
+        "tier2": "distillation",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Boiling is prevalent in staple industrial processes such as distillation, power generation, and cooling.",
+            "resolved": true,
+            "char_span": [
+              2860,
+              2964
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "power_generation",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Boiling is prevalent in staple industrial processes such as distillation, power generation, and cooling.",
+            "resolved": true,
+            "char_span": [
+              2860,
+              2964
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Current trends in high-performance computing, electric vehicles, renewable energy conversion, and telecommunications applications demand the efficient removal of high heat fluxes from surfaces maintained at a low temperature, as is afforded by boiling.",
+            "resolved": true,
+            "char_span": [
+              3291,
+              3543
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "battery_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "quote": "Current trends in high-performance computing, electric vehicles, renewable energy conversion, and telecommunications applications demand the efficient removal of high heat fluxes from surfaces maintained at a low temperature, as is afforded by boiling.",
+            "resolved": true,
+            "char_span": [
+              3291,
+              3543
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-11-keywords",
+                "number": null,
+                "title": "Keywords",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence medium"
+      }
+    ]
+  },
+  "llm_title": "The Petal Effect of Parahydrophobic Surfaces Offers Low Receding Contact Angles that Promote Effective Boiling",
+  "si": {
+    "Ra_surface_min": 4.0000000000000003e-07,
+    "Ra_surface_unit": "m",
+    "Ra_surface_max": 6.000000000000001e-07,
+    "contact_angle_min": 10.0,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 161.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586
+  },
+  "derived_tags": [
+    "wetting:hydrophilic"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 1,
+    "unconfirmed_fields": 1
+  },
+  "points_summary": {
+    "n_series": 4,
+    "n_points": 249,
+    "figures": [
+      "fig-9",
+      "fig-p10-01"
+    ],
+    "quantities": [
+      "q_flux",
+      "y"
+    ]
+  }
+}

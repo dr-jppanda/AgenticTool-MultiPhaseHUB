@@ -1,0 +1,618 @@
+{
+  "record_id": "htl-tr-1951-005",
+  "doc_id": "6209c591dad356fc",
+  "title": "AME2H0D OF CORIMAZDII1G HE&T TRANSF) 30A BURFACE RAfINO.",
+  "source_pdf": "HTL_TR_1951_005.pdf",
+  "n_pages": 31,
+  "n_figures": 3,
+  "figures": [
+    {
+      "id": "fig-4a",
+      "label": "figure 4a",
+      "page": 9,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "FIG.4",
+      "page": 26,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "FIG. 4",
+      "page": 27,
+      "caption": "/"
+    }
+  ],
+  "cited_pages": [
+    3,
+    8,
+    9,
+    10,
+    12,
+    13,
+    22,
+    23
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-34-it-vll-hof",
+      "number": null,
+      "title": "It vll hof",
+      "level": 2
+    },
+    {
+      "id": "sec-8-a-method-based-an-a-logical-uxplanation-",
+      "number": null,
+      "title": "A method based an a logical uxplanation of the meani",
+      "level": 2
+    },
+    {
+      "id": "sec-63-c-nkre-nn",
+      "number": null,
+      "title": "C, NkRe NN",
+      "level": 1
+    },
+    {
+      "id": "sec-33-the-equation-10-may-be-replaced-by",
+      "number": null,
+      "title": "The equation (10) may be replaced by",
+      "level": 2
+    },
+    {
+      "id": "sec-137-pool-boiling",
+      "number": null,
+      "title": "POOL BOILING",
+      "level": 2
+    },
+    {
+      "id": "sec-138-cichelli-bonilla-12",
+      "number": null,
+      "title": "CICHELLI-BONILLA (12)",
+      "level": 2
+    },
+    {
+      "id": "sec-139-pool-boiling-benzene",
+      "number": null,
+      "title": "POOL BOILING BENZENE",
+      "level": 2
+    },
+    {
+      "id": "sec-148-a",
+      "number": null,
+      "title": "A",
+      "level": 2
+    },
+    {
+      "id": "sec-149-cichelli-bonilla-12",
+      "number": null,
+      "title": "CICHELLI - BONILLA (12",
+      "level": 1
+    },
+    {
+      "id": "sec-150-pool-boiling",
+      "number": null,
+      "title": "POOL BOILING",
+      "level": 1
+    },
+    {
+      "id": "sec-151-ethyl",
+      "number": null,
+      "title": "ETHYL",
+      "level": 1
+    },
+    {
+      "id": "sec-44-cichelli-bonilla-12-ethyl-alchol-chromit",
+      "number": null,
+      "title": "Cichelli-Bonilla(12) Ethyl Alchol - Chromite",
+      "level": 2
+    },
+    {
+      "id": "sec-56-the-assumption",
+      "number": null,
+      "title": "The assumption",
+      "level": 2
+    },
+    {
+      "id": "sec-57-only-the-data-for-single-omponent-fluids",
+      "number": null,
+      "title": "Only the data for single omponent fluids on clean surface*",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 10,
+    "resolved": 10,
+    "unresolved": 0,
+    "exact": 10
+  },
+  "points_ref": null,
+  "extractor": "configured-default/p1@codex",
+  "triage": {
+    "paper_type": "correlation_only",
+    "contains_dataset": false,
+    "primary_phenomenon": "pool_boiling",
+    "title": "AME2H0D OF CORIMAZDII1G HE&T TRANSF) 30A BURFACE RAfINO.",
+    "year": null,
+    "reason": "This is a correlation study centered on pool boiling and other researchers’ data: “The proposed correlation equation (13) has been applied to the data of ni'ous experimenters.”"
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 14.7,
+      "max": 2465.0,
+      "unit": "psia",
+      "evidence": [
+        {
+          "quote": "wide range of pressures covered -- 14.7 psia to 246 5 psia.",
+          "resolved": true,
+          "char_span": [
+            8768,
+            8827
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-34-it-vll-hof",
+              "number": null,
+              "title": "It vll hof",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 0.024,
+      "max": 0.024,
+      "unit": "inches",
+      "evidence": [
+        {
+          "quote": "Data for a wire diameter of 0.024 inches is shown in\nfigure 4a.",
+          "resolved": true,
+          "char_span": [
+            8938,
+            9001
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-34-it-vll-hof",
+              "number": null,
+              "title": "It vll hof",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "unspecified",
+    "surface_material": "platinum"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "heat transfer data for nucleate boiling of liquids for the case of pool boiling.",
+          "resolved": true,
+          "char_span": [
+            828,
+            908
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-8-a-method-based-an-a-logical-uxplanation-",
+              "number": null,
+              "title": "A method based an a logical uxplanation of the meani",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Data for pool boiling of a liquid on a clean surface an be correlated\nby an equation of the forms",
+          "resolved": true,
+          "char_span": [
+            16219,
+            16316
+          ],
+          "pages": [
+            13
+          ],
+          "sections": [
+            {
+              "id": "sec-63-c-nkre-nn",
+              "number": null,
+              "title": "C, NkRe NN",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "correlation_only",
+      "tier2": "correlation_only",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The proposed correlation equation (13) has been applied to the data of\nni'ous experimenters.",
+          "resolved": true,
+          "char_span": [
+            8547,
+            8639
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-33-the-equation-10-may-be-replaced-by",
+              "number": null,
+              "title": "The equation (10) may be replaced by",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "pool boiling of water because of\nthe wide range of pressures covered -- 14.7 psia to 246 5 psia.",
+            "resolved": true,
+            "char_span": [
+              8731,
+              8827
+            ],
+            "pages": [
+              9
+            ],
+            "sections": [
+              {
+                "id": "sec-34-it-vll-hof",
+                "number": null,
+                "title": "It vll hof",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "natural",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "benzene",
+        "evidence": [
+          {
+            "quote": "CICHELLI-BONILLA (12)\n1.0\nPOOL BOILING BENZENE\nON\n3\nPOLISHED\nPLATED\nCHROMIUM",
+            "resolved": true,
+            "char_span": [
+              22325,
+              22401
+            ],
+            "pages": [
+              22
+            ],
+            "sections": [
+              {
+                "id": "sec-137-pool-boiling",
+                "number": null,
+                "title": "POOL BOILING",
+                "level": 2
+              },
+              {
+                "id": "sec-138-cichelli-bonilla-12",
+                "number": null,
+                "title": "CICHELLI-BONILLA (12)",
+                "level": 2
+              },
+              {
+                "id": "sec-139-pool-boiling-benzene",
+                "number": null,
+                "title": "POOL BOILING BENZENE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      },
+      {
+        "tier1": "natural",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "ethanol",
+        "evidence": [
+          {
+            "quote": "POOL BOILING\n1.0-\nETHYL\nALCOHOL\nON POLISHED\nPLATED CHRC",
+            "resolved": true,
+            "char_span": [
+              22549,
+              22604
+            ],
+            "pages": [
+              23
+            ],
+            "sections": [
+              {
+                "id": "sec-148-a",
+                "number": null,
+                "title": "A",
+                "level": 2
+              },
+              {
+                "id": "sec-149-cichelli-bonilla-12",
+                "number": null,
+                "title": "CICHELLI - BONILLA (12",
+                "level": 1
+              },
+              {
+                "id": "sec-150-pool-boiling",
+                "number": null,
+                "title": "POOL BOILING",
+                "level": 1
+              },
+              {
+                "id": "sec-151-ethyl",
+                "number": null,
+                "title": "ETHYL",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      },
+      {
+        "tier1": "natural",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "n-pentane",
+        "evidence": [
+          {
+            "quote": "Cichelli-Bonilla(12) n-Pentane-Cromium\n0.015",
+            "resolved": true,
+            "char_span": [
+              10485,
+              10529
+            ],
+            "pages": [
+              10
+            ],
+            "sections": [
+              {
+                "id": "sec-44-cichelli-bonilla-12-ethyl-alchol-chromit",
+                "number": null,
+                "title": "Cichelli-Bonilla(12) Ethyl Alchol - Chromite",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Only the data for single omponent fluids on clean surface*\nare presented here.",
+            "resolved": true,
+            "char_span": [
+              15331,
+              15409
+            ],
+            "pages": [
+              12
+            ],
+            "sections": [
+              {
+                "id": "sec-56-the-assumption",
+                "number": null,
+                "title": "The assumption",
+                "level": 2
+              },
+              {
+                "id": "sec-57-only-the-data-for-single-omponent-fluids",
+                "number": null,
+                "title": "Only the data for single omponent fluids on clean surface*",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "boiling_curve",
+      "wall_superheat"
+    ],
+    "measurement_modality": []
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "confidence": "high",
+        "evidence": [],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "AME2H0D OF CORIMAZDII1G HE&T TRANSF) 30A BURFACE RAfINO.",
+  "routed_to": "pointers",
+  "si": {
+    "p_sat_min": 101352.9279,
+    "p_sat_unit": "Pa",
+    "p_sat_max": 16995576.005
+  },
+  "fluid_properties": {
+    "rho_l": 712.8061314005416,
+    "rho_v": 45.918657378233824,
+    "sigma": 0.014288298274213632,
+    "h_fg": 1407084.528161236,
+    "mu_l": 8.597859472065946e-05,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 572.8234373310314
+  },
+  "derived": {
+    "L_cap": 0.0014780993838043664,
+    "p_reduced": 0.38743947001680884
+  },
+  "derived_tags": [
+    "pressure:moderate"
+  ],
+  "unit_warnings": [
+    "D_h.min: unrecognized unit 'inches'",
+    "D_h.max: unrecognized unit 'inches'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-08-12",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 2,
+    "unconfirmed_fields": 3
+  }
+}
