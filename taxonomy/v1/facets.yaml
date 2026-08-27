@@ -1,0 +1,207 @@
+version: 1
+updated: 2026-08-11
+notes: >
+  Controlled vocabulary for the multiphase heat transfer catalog. Facets are
+  independent — a record carries a path in each. The extraction model must pick
+  from these terms or emit propose_new; it may never free-text a tag.
+  Tier-1 and tier-2 are hand-curated. Tier-3 leaves may be grown from
+  taxonomy/proposals/ during outer-loop curation.
+
+facets:
+
+  # ---------------------------------------------------------------- A
+  phenomenon:
+    kind: hierarchical
+    required: true
+    multi: false
+    description: The physical process studied. Exactly one path per record.
+    tiers:
+      pool_boiling:
+        nucleate: [isolated_bubble, fully_developed]
+        transition: []
+        film: []
+        quenching_transient: []
+      flow_boiling:
+        subcooled: [onset_of_nucleate_boiling, partial, fully_developed]
+        saturated: [bubbly_slug, annular, dryout_post_dryout]
+        confined: [microchannel_confined, slug_dominated]
+      condensation:
+        filmwise: [in_tube, external_tube, plate, falling_film]
+        dropwise: []
+        direct_contact: []
+        with_noncondensables: []
+      evaporation:
+        thin_film: []
+        spray_cooling: []
+        jet_impingement: []
+        falling_film: []
+      adiabatic_two_phase:
+        flow_regime_map: []
+        pressure_drop: []
+        void_fraction: []
+
+  # ---------------------------------------------------------------- B
+  measured_quantity:
+    kind: flat
+    required: true
+    multi: true
+    description: >
+      What the paper actually reports. CHF is a measured quantity, NOT a
+      phenomenon — a CHF study is pool_boiling or flow_boiling with chf here.
+    terms:
+      - htc                      # heat transfer coefficient
+      - chf                      # critical heat flux
+      - pressure_drop
+      - void_fraction
+      - flow_regime
+      - boiling_curve
+      - wall_superheat
+      - bubble_dynamics          # departure diameter, frequency
+      - nucleation_site_density
+      - dryout_quality
+      - onb                      # onset of nucleate boiling
+      - rewetting_temperature
+      - interfacial_area
+      - film_thickness
+      - contact_angle
+
+  # ---------------------------------------------------------------- C
+  configuration:
+    kind: hierarchical
+    required: true
+    multi: false
+    tiers:
+      channel:
+        - circular_tube
+        - rectangular
+        - annulus
+        - microchannel_array
+        - minichannel
+        - plate_heat_exchanger
+      surface:
+        - flat_plate
+        - wire
+        - cylinder
+        - sphere
+        - tube_bundle
+      device:
+        - heat_pipe
+        - thermosyphon
+        - vapor_chamber
+        - cold_plate
+        - spray_chamber
+
+  # ---------------------------------------------------------------- D
+  fluid:
+    kind: hierarchical
+    required: true
+    multi: true
+    description: >
+      Tier 2 is the specific designation and doubles as the CoolProp lookup
+      key where one exists (see taxonomy/v1/coolprop_map.yaml).
+    tiers:
+      water: [water, steam_water]
+      refrigerant_hfc: [R134a, R32, R125, R410A, R404A, R407C, R245fa]
+      refrigerant_hfo: ["R1234yf", "R1234ze(E)", "R1233zd(E)", "R515B"]
+      refrigerant_hcfc: [R22, R123]
+      natural: [CO2, ammonia, propane, isobutane, R1270]
+      dielectric: [FC-72, FC-77, HFE-7100, HFE-7200, Novec-649, PF-5060]
+      cryogen: [nitrogen, helium, hydrogen, oxygen, argon, methane_LNG]
+      liquid_metal: [sodium, potassium, NaK, mercury, gallium]
+      nanofluid: [alumina_water, cuo_water, tio2_water, cnt_water, sio2_water]
+      mixture: [zeotropic, azeotropic, binary_organic, water_glycol]
+
+  # ---------------------------------------------------------------- E
+  surface_enhancement:
+    kind: hierarchical
+    required: true
+    multi: true
+    tiers:
+      plain: [plain]
+      roughened: [sanded, sandblasted, etched, laser_textured]
+      structured: [fins, microfins, reentrant_cavities, pin_fins, grooves]
+      porous_coating: [microporous, sintered, metal_foam, wick]
+      nanostructured: [nanowire, cnt, nanoparticle_deposit, graphene]
+      wettability_engineered: [hydrophobic, hydrophilic, biphilic, slips, superhydrophobic]
+
+  # ---------------------------------------------------------------- F
+  application_target:
+    kind: hierarchical
+    required: true
+    multi: true
+    description: >
+      HALLUCINATION HOTSPOT. Usually inferred rather than stated. Requires an
+      evidence quote and a confidence. `fundamental` is always available and
+      carries no penalty — use it whenever the paper states no application.
+    tiers:
+      electronics_thermal: [datacenter, power_electronics, chip_cold_plate, immersion_cooling]
+      nuclear: [pwr, bwr, smr, accident_loca, fuel_assembly_chf]
+      hvacr: [refrigeration, heat_pump, air_conditioning, chiller]
+      power_generation: [steam_generator, condenser, orc, csp_receiver]
+      aerospace: [spacecraft_loop, microgravity, cryogenic_propellant]
+      cryogenics: [lng, lh2_storage, superconducting]
+      battery_thermal: [ev_pack, immersion_cooled]
+      process: [desalination_med_msf, evaporator, distillation]
+      fundamental: [fundamental]
+
+  # ---------------------------------------------------------------- G
+  method:
+    kind: hierarchical
+    required: true
+    multi: false
+    tiers:
+      experimental: [steady_state, transient]
+      numerical_cfd: [vof, level_set, phase_field, lattice_boltzmann, dns, rans_les]
+      correlation_only: [correlation_only]
+      review_compilation: [review_compilation]
+
+  measurement_modality:
+    kind: flat
+    required: false
+    multi: true
+    terms:
+      - thermocouple
+      - rtd
+      - ir_thermography
+      - high_speed_visualization
+      - piv
+      - lif
+      - x_ray
+      - neutron_radiography
+      - optical_interferometry
+      - conductance_probe
+      - hot_film
+
+# --------------------------------------------------------------------
+# Numeric envelope. Extracted with original units + evidence; converted to SI
+# and expanded into dimensionless groups by mhtdb/normalize.py.
+numeric_fields:
+  p_sat:        {si: Pa,        aliases: [pressure, saturation pressure, p]}
+  T_sat:        {si: K,         aliases: [saturation temperature, Tsat]}
+  G:            {si: kg/m2/s,   aliases: [mass flux, mass velocity]}
+  q_flux:       {si: W/m2,      aliases: [heat flux, q'', q"]}
+  x_quality:    {si: "-",       aliases: [vapor quality, quality, x]}
+  dT_sub:       {si: K,         aliases: [subcooling, inlet subcooling]}
+  dT_wall:      {si: K,         aliases: [wall superheat, excess temperature]}
+  D_h:          {si: m,         aliases: [hydraulic diameter, tube diameter, Dh]}
+  L_heated:     {si: m,         aliases: [heated length, channel length]}
+  aspect_ratio: {si: "-",       aliases: [aspect ratio]}
+  n_channels:   {si: count,     aliases: [number of channels]}
+  Ra_surface:   {si: m,         aliases: [surface roughness, Ra]}
+  contact_angle: {si: deg,       aliases: [contact angle, wettability]}
+  gravity_level: {si: g,         aliases: [gravity, g-level, microgravity]}
+  Re_lo:        {si: "-",       aliases: [Reynolds number, Re]}
+  n_data_points: {si: count,     aliases: [number of data points, data points]}
+
+categorical_fields:
+  orientation:
+    terms: [horizontal, vertical_upflow, vertical_downflow, inclined, unspecified]
+  heating_mode:
+    terms: [uniform_heat_flux, constant_wall_temperature, one_side_heated,
+            circumferentially_uniform, unspecified]
+  provenance:
+    terms: [primary_experiment, consolidated_db, simulation, reanalysis]
+    description: >
+      consolidated_db marks records indexed from an existing compilation
+      (PU-BTPFL, Groeneveld LUT, etc.) rather than digitized fresh. Pair with
+      derived_from.

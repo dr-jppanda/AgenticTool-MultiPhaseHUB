@@ -1,0 +1,26 @@
+[project]
+name = "mht-datahub"
+version = "0.1.0"
+description = "Auto-labeled, evidence-grounded catalog of multiphase heat transfer datasets"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24",
+    "pyyaml>=6.0",
+    "pydantic>=2.7",
+    "anthropic>=0.60",
+    "CoolProp>=6.6",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "matplotlib>=3.7"]
+# `curves` renders with matplotlib; `digitize` reads tick labels burned into
+# bitmaps with tesseract when it is present, and asks for --calib when it isn't.
+plot = ["matplotlib>=3.7"]
+ocr = ["pytesseract>=0.3.10", "pillow>=10.0"]
+
+[project.scripts]
+mhtdb = "mhtdb.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["mhtdb*"]

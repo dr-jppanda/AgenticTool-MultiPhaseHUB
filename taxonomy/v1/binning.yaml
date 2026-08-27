@@ -1,0 +1,97 @@
+version: 1
+notes: >
+  Numeric -> tag rules. Applied by mhtdb/normalize.py AFTER unit conversion and
+  dimensionless-group computation. Editing a threshold here and re-running
+  `mhtdb normalize` re-tags the whole corpus with zero LLM calls. This is the
+  payoff of extracting numbers rather than tags.
+
+  Each rule tests one field against bands. `field` may be a raw SI field or a
+  derived dimensionless group. Bands are evaluated in order; first match wins.
+  A record whose field is null gets no tag from that rule (never a guess).
+
+rules:
+
+  - id: length_scale
+    field: D_h            # m
+    use: max              # which endpoint of the range to test: min|max|mid
+    bands:
+      - {lt: 0.001,  tag: "scale:microchannel"}
+      - {lt: 0.003,  tag: "scale:minichannel"}
+      - {ge: 0.003,  tag: "scale:conventional"}
+
+  - id: confinement
+    field: Co             # Kew & Cornwell confinement number, derived
+    use: mid
+    bands:
+      - {ge: 0.5, tag: "confinement:confined"}
+      - {lt: 0.5, tag: "confinement:unconfined"}
+
+  - id: reduced_pressure
+    field: p_reduced      # derived from p_sat and fluid critical pressure
+    use: mid
+    bands:
+      - {lt: 0.1,  tag: "pressure:low"}
+      - {lt: 0.5,  tag: "pressure:moderate"}
+      - {ge: 0.5,  tag: "pressure:high"}
+
+  - id: subcooling_regime
+    field: x_quality
+    use: min
+    bands:
+      - {lt: 0.0,  tag: "regime:subcooled"}
+      - {ge: 0.0,  tag: "regime:saturated"}
+
+  - id: gravity
+    field: gravity_level  # in g
+    use: mid
+    bands:
+      - {lt: 0.01, tag: "gravity:microgravity"}
+      - {lt: 0.9,  tag: "gravity:reduced"}
+      - {lt: 1.1,  tag: "gravity:terrestrial"}
+      - {ge: 1.1,  tag: "gravity:hypergravity"}
+
+  - id: mass_flux_band
+    field: G              # kg/m2/s
+    use: max
+    bands:
+      - {lt: 100,  tag: "massflux:low"}
+      - {lt: 500,  tag: "massflux:moderate"}
+      - {ge: 500,  tag: "massflux:high"}
+
+  - id: heat_flux_band
+    field: q_flux         # W/m2
+    use: max
+    bands:
+      - {lt: 1.0e4,  tag: "heatflux:low"}
+      - {lt: 1.0e5,  tag: "heatflux:moderate"}
+      - {lt: 1.0e6,  tag: "heatflux:high"}
+      - {ge: 1.0e6,  tag: "heatflux:very_high"}
+
+  - id: wettability
+    field: contact_angle  # deg
+    use: mid
+    bands:
+      - {lt: 10,   tag: "wetting:superhydrophilic"}
+      - {lt: 90,   tag: "wetting:hydrophilic"}
+      - {lt: 150,  tag: "wetting:hydrophobic"}
+      - {ge: 150,  tag: "wetting:superhydrophobic"}
+
+  - id: dataset_size
+    field: n_data_points
+    use: mid
+    bands:
+      - {lt: 50,   tag: "size:small"}
+      - {lt: 500,  tag: "size:medium"}
+      - {ge: 500,  tag: "size:large"}
+
+# Dimensionless groups computed in normalize.py before binning.
+# Formulas are documented here for review; the implementation is authoritative.
+derived:
+  Co:         "sqrt(sigma / (g * (rho_l - rho_v))) / D_h"      # confinement (Kew & Cornwell)
+  Bo:         "g * (rho_l - rho_v) * D_h^2 / sigma"            # Bond
+  Bl:         "q_flux / (G * h_fg)"                            # boiling number
+  We_lo:      "G^2 * D_h / (rho_l * sigma)"                    # Weber, all-liquid
+  Fr_lo:      "G^2 / (rho_l^2 * g * D_h)"                      # Froude, all-liquid
+  Re_lo:      "G * D_h / mu_l"                                 # Reynolds, all-liquid
+  p_reduced:  "p_sat / p_crit"
+  L_cap:      "sqrt(sigma / (g * (rho_l - rho_v)))"            # capillary length

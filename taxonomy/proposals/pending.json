@@ -1,0 +1,47 @@
+[
+  {
+    "facet": "surface_enhancement",
+    "term": "copper_oxide_nanostructures",
+    "nearest_parent": "nanostructured",
+    "records": [
+      "chu-2013-cuo-hierarchical-wang-miljkovic"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "fluid",
+    "term": "HFE-7300",
+    "nearest_parent": "dielectric",
+    "records": [
+      "mchale-2011-smooth-sintered-copper"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "fluid",
+    "term": "benzene",
+    "nearest_parent": "natural",
+    "records": [
+      "htl-tr-1951-005"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "fluid",
+    "term": "ethanol",
+    "nearest_parent": "natural",
+    "records": [
+      "htl-tr-1951-005"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "fluid",
+    "term": "n-pentane",
+    "nearest_parent": "natural",
+    "records": [
+      "htl-tr-1951-005"
+    ],
+    "n": 1
+  }
+]
