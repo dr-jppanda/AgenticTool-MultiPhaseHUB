@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: mht-datahub
+Version: 0.1.0
+Summary: Auto-labeled, evidence-grounded catalog of multiphase heat transfer datasets
+Requires-Python: >=3.10
+Requires-Dist: pymupdf>=1.24
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pydantic>=2.7
+Requires-Dist: anthropic>=0.60
+Requires-Dist: CoolProp>=6.6
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
