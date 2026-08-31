@@ -32,35 +32,6 @@ by construction — **nothing already in the catalog is recomputed or reshuffled
 python -m mhtdb.pipeline run papers/*.pdf --build
 ```
 
-There is no long-running service to restart. The dashboard is a build artifact,
-so new records stay invisible until it is regenerated; `--build` does that at the
-end of the run. Then reload `app/dist/index.html` in the browser.
-
-
-### When new papers need vocabulary you don't have
-
-The model cannot invent a facet value; it emits `propose_new` instead, and
-those collect in `taxonomy/proposals/pending.json` grouped by term with the
-records that wanted it:
-
-```
-4x  fluid: ethanol        (nearest existing parent: mixture)
-1x  fluid: HFE-7300       (nearest existing parent: dielectric)
-```
-
-A term four papers asked for is a much stronger case than one paper's one-off —
-which is the whole reason for grouping rather than deciding paper by paper.
-
-To adopt one: add it under the right tier in `taxonomy/v1/facets.yaml`, then
-re-run **only S3** for the affected records:
-
-```bash
-rm pipeline/cache/*_s3_taxonomy_*.json     # drop just that pass
-python -m mhtdb.pipeline run papers/<affected>.pdf
-```
-
-
-
 ### Manual checks worth doing once
 
 ```bash
