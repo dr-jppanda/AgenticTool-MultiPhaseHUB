@@ -110,38 +110,6 @@ ascending from descending runs), and each curve is labelled from its own legend
 entry. **Raster fallback:** a flattened or scanned figure is traced pixel by
 pixel against a calibrated axis at ~0.62.
 
-Axis *values* are resolved, not generated — from the PDF text layer, or from
-OCR if `pytesseract` is installed, or from you:
-
-```bash
-python -m mhtdb.pipeline digitize --record huang-2023-pure-copper \
-    --figure fig-2 --calib "x=0:30:dT_wall:degC,y=0:1200:q_flux:kW/m2"
-```
-
-Two numbers per axis — the value at each end of the plot frame — plus what the
-axis measures. Add `--panel N` for a figure that stacks unrelated plots, or
-`frame=x0/y0/x1/y1` (fractions of the crop) when panel detection picks the
-wrong one; `--calib "x=dT_wall:degC"` just names an axis the extractor
-calibrated but could not label. It is remembered in `pipeline/calibrations/`
-and reused thereafter. Figures that cannot be calibrated are listed in
-`pipeline/figures/<record-id>/needs_calibration.json` instead of being guessed
-at. Points land in `catalog/points/<id>.points.json` through the existing
-`ingest-points` contract, so the record gets its `points_ref` and the dashboard
-sees them.
-
-`curves` compiles every digitized point into a flat CSV (`paper_id`,
-`figure_id`, `curve_id`, value and unit as printed, `source_type`,
-`extraction_method`, `digitization_confidence`, `notes`, plus derived
-`wall_superheat_K` and `heat_flux_W_m2`) and plots one curve per paper — the
-plain untreated reference surface, chosen from the legend text, with the
-caption used to check the working fluid. Every curve included prints why, and
-every curve excluded prints why not; `--all-series` overrides. The Rohsenow
-reference line takes its properties from CoolProp via
-`normalize.fluid_properties`, so overlay and catalog cannot drift apart.
-
-See [`docs/figure-pipeline.md`](docs/figure-pipeline.md) for the design notes
-and the known limitations.
-
 ---
 
 ## Layout
