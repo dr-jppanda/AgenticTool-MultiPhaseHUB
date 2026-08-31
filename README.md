@@ -149,8 +149,4 @@ read from vector paths or traced from pixels. Curves colour by paper, and the
 line breaks rather than spanning a jump the data does not support. That last part is what makes an auto-labeled catalog trustworthy to a
 domain reader.
 
-For the eventual server move: `python app/build.py --mode server` emits the same page
-plus `dist/data/catalog.json`. The catalog JSON is the contract either way, so
-deploying behind FastAPI is a hosting change rather than a rewrite.
-
 
