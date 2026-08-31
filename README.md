@@ -5,8 +5,6 @@ Each entry is grounded in its source paper and carries a normalized numeric oper
 envelope plus multi-tier faceted tags derived from it — with every value traceable to
 a verbatim quote, its page number(s), and its section(s).
 
-See [`PLAN.md`](PLAN.md) for the design rationale. This file is how to run it.
-
 ---
 
 ## Quick start
@@ -43,21 +41,6 @@ There is no long-running service to restart. The dashboard is a build artifact,
 so new records stay invisible until it is regenerated; `--build` does that at the
 end of the run. Then reload `app/dist/index.html` in the browser.
 
-Afterwards, if the run reported anything:
-
-```bash
-python -m mhtdb.pipeline review      # low-confidence items, one row each
-python -m mhtdb.pipeline propose     # vocabulary the taxonomy is missing
-```
-
-What is and isn't reused:
-
-| | Keyed on | Re-runs when |
-|---|---|---|
-| `S0` document model | record id, on disk | the PDF is new |
-| `S1-S4` extraction | doc hash + prompt version + model + schema + backend | any of those change |
-| `S5` normalize | nothing — pure function | every run (it's free) |
-| Existing records | — | **never touched by a new paper** |
 
 ### When new papers need vocabulary you don't have
 
@@ -81,69 +64,7 @@ rm pipeline/cache/*_s3_taxonomy_*.json     # drop just that pass
 python -m mhtdb.pipeline run papers/<affected>.pdf
 ```
 
-**Accepted tiers are never reshuffled.** This is deliberate, and it is the one
-place a naive design goes wrong: re-clustering the whole taxonomy each time
-would return different parents for the same tags across runs and silently undo
-groupings you had already accepted. Curation only ever *adds*.
 
-### When you change a binning threshold
-
-```bash
-python -m mhtdb.pipeline renormalize
-```
-
-Re-applies units, CoolProp properties, dimensionless groups, the plausibility
-gate and all binning rules across the whole catalog, and reports what changed.
-**Zero model calls** — this is the payoff for extracting numbers in the paper's
-own units rather than asking for tags.
-
-### Review queue
-
-Low-confidence and new-vocabulary items land in `catalog/review/queue.json`.
-
-```bash
-python -m mhtdb.pipeline review
-python -m mhtdb.pipeline review --accept 'new_term::hfe-7300'
-python -m mhtdb.pipeline review --reject 'new_term::benzene' --note "1951 survey one-off"
-```
-
-Three properties worth knowing:
-
-- **Review never blocks use.** A gated value is still in the record and still
-  searchable — just marked unconfirmed, and rendered with a dashed border in the
-  dashboard so "the model inferred this" is distinguishable at a glance from
-  "this is confirmed".
-- **Rejections are remembered** (`catalog/review/rejections.json`). A rejected
-  suggestion is never raised again; without that the same term returns with the
-  next paper and the queue never empties.
-- **Thresholds are asymmetric.** Reuse auto-applies at 0.75; proposing a *new*
-  vocabulary term needs 0.85. Getting a reuse wrong costs one record and is
-  trivially undone; a bad new term permanently enlarges the shared vocabulary
-  and colours every later judgement.
-
-`fundamental` is never gated — gating it would push reviewers toward inventing
-an application, which is the exact failure that facet is prone to.
-
-## Testing it
-
-```bash
-pytest -q            # 69 deterministic tests, ~35s, no API calls, no cost
-```
-
-`tests/test_smoke.py` covers the parts that must not silently break: the locator
-(exact, noisy, page-crossing, and *fabricated* quotes), unit conversion and the
-plausibility gate, dimensionless groups against CoolProp, binning, the
-figure-digitizer contract, taxonomy/code agreement, and the dashboard build. It
-also asserts that **no catalog record contains an unresolvable quote**, which is
-the invariant the whole design rests on.
-
-`tests/test_digitize.py` covers the figure pipeline the way it has to be
-covered: it *draws* a figure from known data, runs it through the same code a
-paper takes, and asserts the numbers come back — within 0.35 K and 1 W/cm² on
-the vector path, 1 K and 4 W/cm² on the raster path. It also asserts that a
-figure with unreadable axes raises rather than inventing a calibration.
-
-It does not test extraction quality — that needs `eval/` and a gold set.
 
 ### Manual checks worth doing once
 
@@ -166,78 +87,7 @@ python -m mhtdb.pipeline figures --record <id> --out figs.json
 python -m mhtdb.pipeline ingest-points --record <id> --from points.json
 ```
 
-## Model backends
 
-Extraction runs against the Anthropic API, a local **Claude Code** installation,
-or a local **Codex CLI** installation. The CLI backends need no separate API key:
-each reuses its existing signed-in session.
-
-```bash
-python -m mhtdb.pipeline backends
-#   api          no credentials
-#   claude-code  C:\...\claude.EXE  (2.1.228 (Claude Code))
-#   codex        C:\...\codex.EXE   (codex-cli ...)
-#   auto would select: claude-code
-```
-
-Selection order: `--backend` flag → `MHTDB_BACKEND` env var → API credentials if
-present → `claude` on PATH → `codex` on PATH → error. Force one with
-`--backend api`, `--backend claude-code`, or `--backend codex`; pick a model with
-`--model`. If `--model` is omitted for Codex, its configured CLI default is used.
-
-```bash
-# One-time setup if `python -m mhtdb.pipeline backends` says "Not logged in"
-codex login
-
-# Reuse the existing Codex login and rebuild the dashboard afterwards
-python -m mhtdb.pipeline run papers/*.pdf --backend codex --build
-
-# Or select an explicit Codex model
-python -m mhtdb.pipeline run papers/one.pdf --backend codex --model <model-id>
-```
-
-On Windows, the pipeline checks PATH and also detects the Codex executable
-bundled with the OpenAI VS Code or VS Code Insiders extension. If Codex lives
-somewhere else, point to it explicitly before running:
-
-```powershell
-$env:MHTDB_CODEX_BINARY = "C:\full\path\to\codex.exe"
-python -m mhtdb.pipeline backends
-```
-
-| | `api` | `claude-code` | `codex` |
-|---|---|---|---|
-| Needs a key | yes | **no** — existing Claude login | **no** — existing Codex login |
-| Structured output | `output_config.format` | `--json-schema` | `--output-schema` |
-| Paper placement | cached system block | `--system-prompt-file` | stdin to `codex exec` |
-| Multi-pass reuse | cache breakpoint | server-side prompt cache | content-addressed disk cache; provider caching is CLI-managed |
-| Tool access | n/a | disabled | empty read-only temporary workspace |
-| Per-paper overhead | none | ~10-12k agent preamble/call | Codex agent preamble/call |
-
-**Cost note.** Claude Code adds its own system preamble to every invocation, so
-per-paper cost is above the API path's. Measured across this corpus, four passes
-per paper: **$0.85/paper API-equivalent** — down from $1.88 before disabling
-tools properly (see `docs/lumina-comparison.md`). Note `total_cost_usd` is what
-the calls *would* cost at API rates, which is not what a Pro/Max subscriber is
-billed. Use `--backend api` for large batches if you have a key.
-
-`--bare` would strip the remaining preamble but forces `ANTHROPIC_API_KEY` auth,
-defeating the point of this backend, so it is not used.
-
-## The extractors
-
-| | `--rules` (`extract_rules.py`) | default (`extract.py`) |
-|---|---|---|
-| Needs a model at all | no | yes (any configured backend) |
-| Reads tables, resolves "as above" | no | yes |
-| Distinguishes the paper's own work from its literature review | **no** | yes |
-| Recall | low | high |
-| Marked in records as | `extractor: "rules-v0"` | for example `extractor: "claude-opus-5/p1@claude-code"` or `extractor: "configured-default/p1@codex"` |
-
-The rule extractor exists so the catalog and dashboard work end-to-end without an API
-key, and so Phase-0 hand-labeling starts from a draft. **Treat every field it produces
-as a draft.** Its known failure mode is quoting a literature-review sentence about
-someone else's apparatus as if it described this paper's.
 
 ## Pipeline stages
 
@@ -263,26 +113,6 @@ S9  curves      point tables -> CSV + comparison plot with a CoolProp-backed
                 Rohsenow overlay.               mhtdb/curves.py
 ```
 
-### Provenance is resolved, not generated
-
-The model returns **only a verbatim quote**. `DocumentModel.locate()` finds that quote
-in a page- and section-indexed document and reports which pages and sections it
-overlaps — so multi-page and multi-section spans fall out naturally, and a quote that
-cannot be found is rejected. One function is both the provenance resolver and the
-hallucination check. The model is never asked for a page number.
-
-Matching is exact after normalization, with an anchored fuzzy fallback (≥0.86) for
-ligature and hyphenation noise.
-
-### Prompt caching
-
-The paper text is the cached prefix; each pass's instruction is the varying suffix. S2,
-S3 and S4 read the cache S1 wrote, so a four-pass extraction costs roughly one paper's
-input tokens. Extraction results are also content-addressed on disk under
-`pipeline/cache/`, keyed by document, prompt version, model, and schema — so iterating
-on one pass's prompt re-bills only that pass.
-
----
 
 ## Figures: crop, digitize, compare
 
@@ -346,32 +176,6 @@ reference line takes its properties from CoolProp via
 See [`docs/figure-pipeline.md`](docs/figure-pipeline.md) for the design notes
 and the known limitations.
 
-### Plugging in your own digitizer instead
-
-`mhtdb/figure_points.py` is still the seam, and `mhtdb/digitize.py` is simply
-the first thing plugged into it. To substitute your own:
-
-**What we hand you** — `s0_ingest` emits one `FigureInput` per detected figure
-(`figure_id`, printed label, caption, page, rendered PNG path, bbox):
-
-```bash
-python -m mhtdb.pipeline figures --record kim-2016-roughness-moderate-wettability \
-                                 --out /tmp/figs.json
-```
-
-**What you hand back** — JSON matching [`schema/point.schema.json`](schema/point.schema.json):
-one or more series per figure, each with named x/y axes, units as printed, and
-`[x, y]` pairs. Then:
-
-```bash
-python -m mhtdb.pipeline ingest-points --record <id> --from points.json
-```
-
-Points land in `catalog/points/<id>.points.json`; the record gets a `points_ref` and a
-summary, so the catalog stays small. For in-process use, implement the
-`FigurePointProvider` protocol and call `register_provider()` —
-`digitize.DeterministicDigitizer` is a worked example.
-
 ---
 
 ## Layout
@@ -415,25 +219,4 @@ For the eventual server move: `python app/build.py --mode server` emits the same
 plus `dist/data/catalog.json`. The catalog JSON is the contract either way, so
 deploying behind FastAPI is a hosting change rather than a rewrite.
 
-## Changing the taxonomy is cheap; changing extraction is not
 
-Edit a threshold in `binning.yaml`, re-run `normalize_record` over the corpus, and every
-record re-tags with zero LLM calls. That is the entire reason S2 extracts numbers in the
-paper's own units instead of asking the model for tags.
-
-## Known limitations
-
-- Section detection is a font-size/numbering heuristic (`s0_ingest._extract_sections`).
-  It over-segments scanned reports — the 1951 HTL report yields 314 "sections". Swap in
-  GROBID or docling if this matters; only the `DocumentModel` shape is depended on.
-- Title extraction is a scored heuristic and falls back to the filename. The LLM path
-  takes the title from S1 instead.
-- `mhtdb/extract.py` is written but **has not been executed** — this environment had no
-  API credentials. Expect to debug the first real run.
-- The eval harness (`eval/`) is a skeleton. It needs a gold set before it means anything.
-- Two-column figure legends extract as one interleaved text block, so a
-  digitized curve's label can come back scrambled (`"Sm, Micro1, r = r 1.0 ="`).
-  The points are unaffected.
-- The raster digitizer names its series by colour, not by legend text, and
-  table crops are not parsed into cells — the crop is produced, the
-  transcription is still manual.
