@@ -32,11 +32,6 @@ by construction — **nothing already in the catalog is recomputed or reshuffled
 python -m mhtdb.pipeline run papers/*.pdf --build
 ```
 
-That is the whole loop. Point it at the **entire** folder, not just the new
-files: everything already processed is served from cache, so re-running the full
-set costs nothing. Measured on the current corpus — 5 papers, 20 passes, all
-cached: **2.8 seconds, $0.00.**
-
 There is no long-running service to restart. The dashboard is a build artifact,
 so new records stay invisible until it is regenerated; `--build` does that at the
 end of the run. Then reload `app/dist/index.html` in the browser.
