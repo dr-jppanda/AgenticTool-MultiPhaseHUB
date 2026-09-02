@@ -32,7 +32,7 @@ by construction — **nothing already in the catalog is recomputed or reshuffled
 python -m mhtdb.pipeline run papers/*.pdf --build
 ```
 
-### Manual checks worth doing once
+### Manual checks
 
 ```bash
 # 1. See what the dashboard looks like
