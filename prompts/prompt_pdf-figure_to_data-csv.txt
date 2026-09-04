@@ -1,0 +1,87 @@
+Build a "literature summary" boiling-curve figure for saturated pool boiling of water on nominally flat copper surfaces at 1 atm, by extracting real data out of the already-extracted figure/table files in the current folder and plotting it with the scheme below.
+
+## Data source: use only the extracted figures and tables
+
+The current folder contains an `extracted_output/` directory with one subfolder per source paper. Each subfolder holds individual cropped PDF files, one per figure or table from that paper, each including its caption (e.g. `Figure_4.pdf`, `Table_2.pdf`, or sequentially named `figure_01.pdf` if uncaptioned). Do not open or read the original full-length paper PDFs directly — work entirely from these pre-cropped figure/table files. For each paper of interest:
+
+1. List the files in its `extracted_output/<paper_id>/` subfolder and skim the candidates (tables first, since exact transcription is preferable to any figure-based method; then figures) to find the one showing the boiling curve for the plain/bare/smooth/untreated/reference copper surface — as opposed to any enhanced/coated/textured surface that might appear in the same figure. Use each file's caption and axis labels to confirm it's the right one; a paper may report the figure or table number differently than expected, so check neighboring files if the expected name doesn't contain the boiling curve.
+2. If the match is a table with numeric rows, transcribe the exact values directly — no extraction pipeline needed.
+3. If the match is a figure, extract the target curve's data using the tiered approach below: attempt vector-path extraction first, and only fall back to raster digitization if the figure has no usable vector data.
+
+## Extracting data from a figure: try vector extraction first, then raster digitization
+
+For each cropped figure PDF, determine which regime it's in before choosing a method:
+
+### Step 1 — Probe for vector data
+
+Open the PDF with a library that exposes drawing primitives (e.g. `PyMuPDF`/`fitz` via `page.get_drawings()`, or `pdfminer.six`'s layout objects) and check whether the plot area contains actual vector paths/lines/curves/marker glyphs with real coordinates, as opposed to a single embedded image object covering the plot area.
+
+- **If vector paths are present** (typical of figures originally generated in matplotlib, Origin, MATLAB, Excel, etc. and placed as native vector graphics): use vector extraction (Step 2).
+- **If the plot area is a single embedded raster image** (typical of scanned pages, screenshots, or flattened figures): fall back to raster digitization (Step 3).
+- A single cropped file can mix both (e.g. vector axes/text over a rasterized plot body, or vice versa) — inspect the actual plot region, not just the page, to decide.
+
+### Step 2 — Vector-path extraction (preferred when available)
+
+- Extract the PDF coordinates of the axis tick marks (either as vector line segments at the plot border, or via the positions of the nearby vector/text tick-label objects) and match them to their labeled values to build the pixel/point-to-data calibration for x and y independently.
+- Enumerate the vector path objects in the plot area; filter by stroke/fill color (and, where distinguishable, dash pattern or marker glyph shape) to isolate the objects belonging to the target curve versus other series or gridlines.
+- Read the real (x, y) coordinates directly off the retained path objects (vertices for lines, control points or centers for marker glyphs) — no pixel tracing or masking needed.
+- Convert these PDF-space coordinates to data coordinates using the calibration from above, and sample a reasonable number of representative points spanning the full curve.
+- Because these coordinates come from the original drawing commands rather than a rasterized image, assign a higher `digitization_confidence` (typically 0.85–0.98) reflecting the greater precision, and record `extraction_method` as `vector_path_extraction`.
+- If color/dash filtering can't cleanly separate two series (e.g. overlapping paths with identical styling), treat it as the merge case described in Step 4.
+
+### Step 3 — Raster digitization (fallback when no vector data exists)
+
+- Rasterize the cropped PDF at high resolution (e.g. 300–600 dpi).
+- Calibrate the pixel-to-data mapping by locating the pixel positions of axis tick marks and matching them to their labeled values (do this separately for x and y — e.g. by scanning for rows/columns of dark pixels near the axis lines).
+- If the legend uses distinct colors or marker shapes for different series, isolate the target curve's color (e.g. by masking pixels close to its RGB value) and trace its markers/line across the plot; otherwise read the curve visually off the gridlines.
+- Convert the traced pixel positions to data coordinates using the calibration, and sample a reasonable number of representative points spanning the full curve (not just start/end).
+- Assign a digitization confidence per curve based on how legible it was (roughly 0.5–0.65 for messy/overlapping marker clusters, up to 0.8–0.9 for a clean single line with evenly spaced markers), and record `extraction_method` as `pixel_calibrated_digitization` or `manual_visual_digitization` as appropriate.
+
+### Step 4 — Handling indistinguishable series (either method)
+
+If two near-identical series (e.g. repeated runs, or ascending/descending hysteresis branches) can't be reliably told apart — whether because vector paths share identical styling or because raster markers overlap at the rasterized resolution — merge them into one representative curve and note that limitation in `notes` rather than fabricating a false split.
+
+## Data schema
+
+Compile every data point into a table with these fields:
+
+- `paper_id`: short identifier for the source paper (e.g. `huang_2023_pure_copper`)
+- `figure_id`: which extracted figure or table file the point came from (e.g. `fig_4`, `table_2`)
+- `curve_id`: which series within that figure/table this point belongs to, when a paper reports more than one surface or run (e.g. `bare_copper`, `polished_cu`, `ref_run1`)
+- `x_value`, `x_unit`: wall superheat (ΔT = T_wall − T_sat), typically in K or °C (numerically the same for a temperature difference)
+- `y_value`, `y_unit`: heat flux, in W/m^2, kW/m^2, or MW/m^2
+- `source_type`: `reported_table` (read directly from a table), `vector_digitized_figure` (extracted from native vector path data), or `raster_digitized_figure` (extracted from a rasterized image)
+- `extraction_method`: free text describing how the value was obtained, e.g. `table_transcription`, `vector_path_extraction`, `pixel_calibrated_digitization`, `manual_visual_digitization`
+- `digitization_confidence`: a 0–1 estimate of how reliable the digitized value is (leave blank for exact reported-table values; typically higher for vector-extracted points than raster-digitized ones)
+- `notes`: caveats, e.g. which marker color/shape/dash pattern was used to isolate the curve, which extracted file it came from, whether vector or raster extraction was used and why, or if two curves couldn't be reliably separated
+
+From `x_value`/`x_unit` derive `wall_superheat_K` (convert °C differences and °F differences to K; K values pass through unchanged). From `y_value`/`y_unit` derive `heat_flux_W_m2` (convert kW/m^2 → ×1000, MW/m^2 → ×1,000,000).
+
+## Reference correlation to overlay
+
+Overlay a Rohsenow nucleate pool-boiling correlation curve as a dashed reference line, computed from wall superheat ΔT (K):
+
+```
+q'' = mu_l * h_fg * sqrt(g * (rho_l - rho_v) / sigma) * [ c_p_l * ΔT / (c_sf * h_fg * Pr_l^n) ]^3
+```
+
+using representative water/copper-like constants: mu_l=2.82e-4 Pa·s, h_fg=2.257e6 J/kg, g=9.80665 m/s^2, rho_l=958.0 kg/m^3, rho_v=0.597 kg/m^3, sigma=0.0589 N/m, c_p_l=4217.0 J/(kg·K), Pr_l=1.75, c_sf=0.013, n=1.0. Evaluate this over a ΔT range from just above 0 up to at least the maximum superheat in the dataset (or 20 K, whichever is larger), plotting wall temperature = 100°C + ΔT on the x-axis.
+
+## Plot construction
+
+Build a single figure (about 10.5×6 inches) with wall temperature T_w = 100°C + ΔT on the x-axis ("Wall temperature, T_w (°C)") and heat flux in W/cm^2 (heat_flux_W_m2 / 10,000) on the y-axis ("Heat flux, q'' (W/cm²)"):
+
+1. Group all points by (paper_id, curve_id). For each group, sort by wall_superheat_K ascending and plot as its own line with circular markers, labeled `paper_id:curve_id` in the legend.
+2. If there are 2 or more curves, shade a "Literature range" band: build a common x-grid spanning the overall min/max wall temperature across all curves, and at each x-grid point that falls within at least 2 curves' x-ranges, interpolate each curve's y-value there, then fill between the min and max of those interpolated y-values (light gray, low opacity).
+3. Add the Rohsenow correlation line described above as a black dashed line labeled "Rohsenow demo".
+4. Set the y-axis lower bound to 0 and the upper bound to about 1.15× the maximum heat flux in the data.
+5. Add a light grid, and place the legend outside the plot area to the right (small font, since there may be a dozen-plus curves).
+6. Save at high resolution (e.g. 200 dpi).
+
+## Environment note
+
+If the plotting environment has no internet access to install packages, avoid any dependency (e.g. a heavy schema-validation library) that isn't already available — reimplement the minimal data structure needed (the fields above, plus the unit-conversion and Rohsenow-correlation formulas) directly, so the same plotting logic runs with only basic, already-available libraries (e.g. a plotting library, an array library, a dataframe library, and a PDF-parsing library such as PyMuPDF for vector extraction).
+
+## Deliverable
+
+Produce: (1) the compiled CSV of all extracted/transcribed points, and (2) the final PNG figure built exactly as described above. Save both to the user's output folder and present them, along with a short summary of which curves were exact table data, vector-extracted, or raster-digitized; which extracted file each came from; and any curves that had to be merged due to indistinguishable series.
