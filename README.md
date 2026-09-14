@@ -32,28 +32,6 @@ by construction — **nothing already in the catalog is recomputed or reshuffled
 python -m mhtdb.pipeline run papers/*.pdf --build
 ```
 
-### Manual checks
-
-```bash
-# 1. See what the dashboard looks like
-python app/build.py && start app/dist/index.html          # Windows
-#                     open  app/dist/index.html           # macOS
-
-# 2. Cheap end-to-end without spending anything
-python -m mhtdb.pipeline run --rules papers/*.pdf
-
-# 3. One paper through the real model, watch the per-pass token/cost line
-python -m mhtdb.pipeline run papers/<one>.pdf
-
-# 4. Prove provenance is real: pick any quote in the dashboard, open the PDF
-#    at the page it claims, and confirm the sentence is there.
-
-# 5. Figure-digitizer round trip
-python -m mhtdb.pipeline figures --record <id> --out figs.json
-python -m mhtdb.pipeline ingest-points --record <id> --from points.json
-```
-
-
 
 ## Pipeline stages
 
@@ -82,41 +60,6 @@ S10 curves      point tables -> CSV + comparison plot with a CoolProp-backed
 ```
 
 
-## Figures: crop, digitize, compare
-
-Three commands turn the PDFs' figures into numbers. `crops` and `curves` are
-deterministic, no model calls, no cost; `digitize` is prompt-driven — see
-below:
-
-```bash
-python -m mhtdb.pipeline crops                  # S8:  one file per figure/table
-python -m mhtdb.pipeline digitize               # S9:  figures -> points (model calls)
-python -m mhtdb.pipeline curves --out out/      # S10: points -> CSV + plot
-```
-
-`crops` finds the graphic itself rather than rendering the whole page: it
-clusters the page's images and vector paths into connected components, matches
-each to the caption that refers to it, and writes the union as its own
-single-page PDF (vector fidelity kept) plus a preview image — PNG for line
-art, JPEG for scans — in
-`pipeline/figures/<record-id>/`, keyed by the same `fig-N` ids the manifest and
-point schema use. Sub-panels of one figure merge; table ruling is not mistaken
-for a plot; a graphic with no caption is kept under a positional id rather than
-dropped. Every crop carries a `caption_confidence`.
-
-`digitize` reads the numbers back — from exactly one figure per paper, not
-every figure crop. A cheap, tools-disabled call first sees every crop's
-caption at once and names the ONE that is this paper's primary boiling-curve
-comparison plot; only that winner is handed to `claude -p` with tool use
-*enabled* (the one call in this pipeline that isn't structured-output-only)
-for the real extraction — not a bespoke Python algorithm. It opens the PDF
-itself, decides vector vs. raster, calibrates the axes, separates series by
-color/marker, and writes its answer back as JSON matching
-`schema/point.schema.json`. **Vector paths**, when present, are read
-directly off the drawing commands. **Raster fallback** traces pixels against
-a calibrated axis. See `docs/figure-pipeline.md` for the full prompt and
-design rationale.
-
 ### End-to-end notebook
 
 [`mht_datahub_pipeline.ipynb`](mht_datahub_pipeline.ipynb) runs the whole
@@ -144,44 +87,5 @@ full boiling curve, including the transition and film-boiling regions.
 
 See [`webplot-digitizer_comparison/webplot_comparison.ipynb`](webplot-digitizer_comparison/webplot_comparison.ipynb)
 for the comparison code and data behind both plots.
-
----
-
-## Layout
-
-```
-taxonomy/v1/facets.yaml    controlled vocabulary — 8 facets, hand-curated tiers 1-2
-taxonomy/v1/binning.yaml   numeric -> derived-tag thresholds
-schema/point.schema.json   figure-digitizer return contract
-mhtdb/                     pipeline stages
-catalog/records/*.json     source of truth, git-tracked, diffable
-catalog/pointers/*.json    reviews and correlation-only papers (not datasets)
-catalog/points/*.json      digitized figure data
-app/build.py               catalog -> dashboard
-app/dist/index.html        the built dashboard
-pipeline/docmodels/        cached DocumentModels
-pipeline/figures/          cropped figures/tables + crops.json manifest
-pipeline/calibrations/     axis calibrations you supplied, remembered
-eval/                      gold set + scorer
-```
-
-## Dashboard
-
-`python app/build.py` emits a single self-contained HTML file — inlined data,
-no CDN, no server, opens by double-click. It provides faceted filters with live
-counts, numeric range sliders over the SI envelope, full-text search across titles
-and evidence quotes, a table view, light/dark themes, coverage charts, and a record
-detail panel that shows **every extracted value beside the quote, page and section it
-came from**.
-
-The **Boiling curves** panel plots every digitized series in the catalog on one
-set of axes — heat flux against wall superheat, with a Rohsenow reference line
-computed from CoolProp properties. It defaults to the plain reference surfaces
-(the cross-paper comparison), switches to all series, toggles a log flux axis
-and a wall-temperature x axis, follows the sidebar filters, and on hover names
-the paper, the series as its own legend labelled it, and whether the value was
-read from vector paths or traced from pixels. Curves colour by paper, and the
-line breaks rather than spanning a jump the data does not support. That last part is what makes an auto-labeled catalog trustworthy to a
-domain reader.
 
 
