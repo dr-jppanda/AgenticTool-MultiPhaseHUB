@@ -27,7 +27,7 @@ Use a cool blue hatched panel and show:
    - **S1 Triage** — own dataset? dataset record or pointer
    - **S2 Conditions** — raw ranges + printed units + verbatim quotes
    - **S3 Taxonomy** — controlled facets or `propose_new`
-   - **S4 Application** — stated/inferred target + confidence
+   - **S4 Application** — stated/inferred target, with evidence (no confidence score — the pipeline no longer tracks per-field confidence)
 
 Show the paper text as a shared cached prefix feeding all four passes. Add a small badge: **Structured JSON**.
 
@@ -35,17 +35,16 @@ Show the paper text as a shared cached prefix feeding all four passes. Add a sma
 
 Use a warm coral/orange hatched panel. Split it into two parallel modules that merge:
 
-### Evidence Grounding
+### S6 Verify (evidence grounding)
 
-- **S6 Quote Locator**
 - exact normalized match, then anchored fuzzy fallback
 - output: **verbatim quote → page(s) + section(s)**
 - unlocatable evidence flows to a red **Reject / Review** quarantine
 - optional small card: **LLM contradiction audit**
 
-### Deterministic Scientific Processing
+### S5 Normalize — deterministic science
 
-- **S5 Normalize — Python only**
+- **Python only**
 - units → SI
 - plausibility gate / quarantine
 - CoolProp fluid properties
@@ -57,31 +56,37 @@ Place a prominent equation-like design rule between the two modules:
 
 Merge both modules into **S7 Commit**.
 
-## Right column — Quality control, catalog, and app
+## Right column — Quality control, catalog, figure pipeline, and app
 
-Top green panel: **Human Review & Taxonomy Feedback**
+Top green panel: **Review Queue & Taxonomy Feedback**
 
-- confidence gate: reuse ≥ 0.75; new term ≥ 0.85
+- tier1 "fundamental" facets → auto-confirmed
+- stated by the paper → confirmed
+- inferred / not stated → flagged for review, with a recorded `gate_reason`
 - review queue never blocks use
 - accept / reject; rejections remembered
 - proposals grouped across papers
 - dashed feedback arrow to **S3 Taxonomy** labeled **curate vocabulary; rerun affected pass only**
-- dashed arrow from binning rules to **S5 Normalize** labeled **renormalize; zero model calls**
+- dashed arrow to **S5 Normalize** labeled **renormalize; zero model calls**
+
+(There is no numeric confidence threshold anymore — gating is binary: stated-and-confirmed vs. flagged-for-review.)
 
 Middle database panel: **Versioned Catalog**
 
 - `catalog/records/*.json`
 - `catalog/pointers/*.json`
-- **S8 Figure Points** — external digitizer seam, point-series JSON
+- **S8 Crops** — every figure/table cropped to its own PDF + PNG, matched to its caption
+- **S9 Points** — one agentic `claude` CLI call per paper (tool use enabled) opens the chosen boiling-curve figure, reads vector paths directly or traces raster pixels against a calibrated axis, and writes `catalog/points/*.json`
+- **S10 Curves** — point tables → CSV + a comparison plot with a CoolProp-backed Rohsenow reference line
 - source of truth, diffable, cached, evidence-linked
 
 Bottom gold/olive panel: **Interactive Research App**
 
-- faceted filters and numeric ranges
-- modern operating-envelope coverage chart: saturation temperature (K) on the x-axis,
-  heat flux (W/m²) on the y-axis, with overlapping translucent dataset envelopes
+- faceted filters and numeric range sliders
+- **Coverage Map** — saturation temperature (K) on the x-axis, heat flux (W/m²) on the y-axis, with overlapping translucent dataset envelopes
+- **Boiling Curves** — heat flux vs. wall superheat, every digitized series on one set of axes inside a drawn axis-box border, a CoolProp Rohsenow reference line, a log-flux toggle, a wall-temperature x-axis toggle, and on hover the paper, series name, and whether the value was read from vector paths or traced from pixels
 - record detail + evidence quotes
-- **Sources** (only this word; do not add “every value traced to the paper”)
+- **Sources** (only this word; do not add "every value traced to the paper")
 - clicking a source opens the in-app PDF viewer at the exact cited page
 - resizable left sidebar
 - build step: **catalog JSON → standalone dashboard**
@@ -95,4 +100,4 @@ Four icon badges across the bottom:
 - **Deterministic & reproducible**
 - **Incremental & cached**
 
-Use solid arrows for data flow and dashed arrows for human feedback/reprocessing. Make S0 through S8 visually trackable. Use a restrained palette of slate blue, dusty coral, sage green, warm gold, and off-white. Avoid gradients that reduce legibility. Avoid dense prose, tiny fonts, pseudo-code, decorative equations, or random unlabeled icons.
+Use solid arrows for data flow and dashed arrows for human feedback/reprocessing. Make S0 through S10 visually trackable. Use a restrained palette of slate blue, dusty coral, sage green, warm gold, and off-white. Avoid gradients that reduce legibility. Avoid dense prose, tiny fonts, pseudo-code, decorative equations, or random unlabeled icons.
