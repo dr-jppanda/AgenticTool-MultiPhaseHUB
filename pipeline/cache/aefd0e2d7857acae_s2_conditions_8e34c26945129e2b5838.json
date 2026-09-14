@@ -1,0 +1,124 @@
+{
+  "p_sat": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "atm",
+    "evidence": [
+      {
+        "quote": "to keep the pool boiling experiment under atmospheric"
+      },
+      {
+        "quote": "temperature (1 atm, 100 °C) for over 30 min, in order to"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 100.0,
+    "max": 100.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "temperature (1 atm, 100 °C) for over 30 min, in order to"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 41.18,
+    "max": 1093.28,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "which are 72.25 kW/(m2.K) and 1093.28 kW/m2, respectively."
+      },
+      {
+        "quote": "41.18\n105.97\n4.30\n9.59"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 4.3,
+    "max": 15.13,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "41.18\n105.97\n4.30\n9.59"
+      },
+      {
+        "quote": "1093.28\n116.83\n15.13\n72.25"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 20.0,
+    "max": 20.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "part of the copper component was a cylinder with 20 mm"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

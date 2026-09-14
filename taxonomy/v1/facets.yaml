@@ -105,7 +105,7 @@ facets:
       refrigerant_hfo: ["R1234yf", "R1234ze(E)", "R1233zd(E)", "R515B"]
       refrigerant_hcfc: [R22, R123]
       natural: [CO2, ammonia, propane, isobutane, R1270]
-      dielectric: [FC-72, FC-77, HFE-7100, HFE-7200, Novec-649, PF-5060]
+      dielectric: [FC-72, FC-77, HFE-7100, HFE-7200, HFE-7300, Novec-649, PF-5060]
       cryogen: [nitrogen, helium, hydrogen, oxygen, argon, methane_LNG]
       liquid_metal: [sodium, potassium, NaK, mercury, gallium]
       nanofluid: [alumina_water, cuo_water, tio2_water, cnt_water, sio2_water]
@@ -122,7 +122,7 @@ facets:
       structured: [fins, microfins, reentrant_cavities, pin_fins, grooves]
       porous_coating: [microporous, sintered, metal_foam, wick]
       nanostructured: [nanowire, cnt, nanoparticle_deposit, graphene]
-      wettability_engineered: [hydrophobic, hydrophilic, biphilic, slips, superhydrophobic]
+      wettability_engineered: [hydrophobic, hydrophilic, superhydrophilic, biphilic, slips, superhydrophobic]
 
   # ---------------------------------------------------------------- F
   application_target:

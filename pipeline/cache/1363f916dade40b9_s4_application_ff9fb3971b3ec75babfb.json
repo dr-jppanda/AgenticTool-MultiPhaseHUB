@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Thermal management of high-power electronics requires cooling strategies capable of dissipating high\nheat fluxes while maintaining the device at low operating temperatures."
+        },
+        {
+          "quote": "Generally, confined impingement geometries are used in electronics cooling applications, where the flow\nis constrained between the hot surface and orifice plate."
+        },
+        {
+          "quote": "Two-phase jet impingement heat transfer is a viable method for\nthermal management of high-density electronics systems."
+        }
+      ]
+    }
+  ]
+}

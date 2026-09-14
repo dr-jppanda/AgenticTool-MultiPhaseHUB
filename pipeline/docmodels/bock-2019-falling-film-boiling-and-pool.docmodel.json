@@ -1,0 +1,586 @@
+{
+  "doc_id": "5ee565f6d0053ded",
+  "source": "papers\\bock_2019_falling_film_boiling_and_pool.pdf",
+  "text": "Contents lists available at ScienceDirect\nExperimental Thermal and Fluid Science\njournal homepage: www.elsevier.com/locate/etfs\nFalling film boiling and pool boiling on plain circular tubes: Influence of\nsurface roughness, surface material and saturation temperature on heat\ntransfer and dryout\nBradley D. Bocka, Josua P. Meyera,\u204e, John R. Thomeb\na Department of Mechanical and Aeronautical Engineering, Faculty of Engineering, the Built Environment and IT, University of Pretoria, Pretoria, South Africa\nb University of Edinburgh, Edinburgh, United Kingdom\nA R T I C L E I N F O\nKeywords:\nBoiling\nFalling film\nEvaporation\nPool boiling\nEnhancement factor\nSurface\nRoughness\nMaterial\nDryout\nPlateau\nHeat transfer coefficients\nR-134a\nThin film boiling\nRefrigerant\nOrganic fluid\nChiller\nSpray evaporator\nA B S T R A C T\nFalling film evaporators in the refrigeration industry offer a number of advantages over their flooded counter-\nparts such as improved heat transfer and lower refrigerant charge. Existing literature has not characterised the\ninfluence of surface roughness and material on the falling film boiling process. The purpose of this study was\ntherefore to experimentally measure the influence of surface material and roughness on the heat transfer of\nfalling film boiling and pool boiling on the outside of horizontal plain tubes. The falling film enhancement factor\nand total dryout threshold were also measured in the study. The study was conducted on an experimental set-up\nat saturation temperatures of 5 \u00b0C and 25 \u00b0C using refrigerant R-134a at heat fluxes from 20 to 90 kW/m2 and\nfilm Reynolds numbers from 2000 to 0. The outside of plain copper, stainless steel and mild steel tubes were\nroughened with various grades of sandpaper to achieve roughnesses between 0.1 and 1.9 \u03bcm. The tubes were\nheated by water and as such Wilson plots were conducted to characterize the internal heat transfer. Increases in\nsurface roughness were found to increase both pool boiling and falling film boiling heat transfer coefficients.\nChanges in surface material decreased the heat transfer coefficients in line with the decrease of the material's\nthermal effusivity. The falling film enhancement factor was found to increases as surface roughness was increased, but changes in material had no discernible effect. Decreases in saturation temperature decreased pool\nboiling and falling film boiling heat transfer coefficients and weakly increased the falling film enhancement\nfactor. Changes in surface roughness and material had no discernible influence on total dryout threshold.\n1. Introduction\nFalling film evaporators in the refrigeration industry that operate in\nthe nucleate boiling regime have great potential due to a number of\nadvantages over their flooded counterparts such as a lower refrigerant\ncharge and improved heat transfer at lower heat fluxes [1]. Lower\ncharge evaporators in particular have safety advantages when poisonous or flammable refrigerants are used. This has become particularly\npertinent with the signing of the Kigali amendment to the Montreal\nprotocol which seeks to phase out high global warming potential (GWP)\nrefrigerants [2], with many of the low GWP refrigerants touted to re-\nplace the current generation of refrigerants classified as mildly flammable (e.g. hydrofluoro-olefins) or poisonous (e.g. ammonia).\nA number of reviews on the topic of falling film boiling in re-\nfrigerant evaporators, namely Ribatski and Jacobi [1], Thome [3],\nFernandez-Seara and Pardi\u00f1as [4] and Abed et al. [5] have shown that\nmuch research still needs to be conducted to understand falling film\nboiling. A significant portion of the research has focussed on enhanced\ntubes due to their immediate industrial usefulness, while gaps in our\nfundamental understanding of falling film boiling on plain tubes still\nremain. Thus this study focusses on falling film boiling on plain tubes in\nan effort to fill some of these gaps.\nA number of falling film boiling studies [6-12] with refrigerants on\nthe outside of plain horizontal tubes have shown that increases in heat\nflux increased the HTCs up until a point, whereafter the heat transfer\ncoefficients (HTCs) began to decrease. Moeykens et al. [6] and Zhao\net al. [10] showed, however, that if the film Reynolds number is increased, the HTCs at lower heat fluxes remained constant while the\nHTCs at higher heat fluxes increased, which suggests that some form of\ndryout is the cause for the lowered HTCs at high heat fluxes.\nThe absolute magnitude of the heat transfer measured on plain\ncopper tubes varies between studies, with the HTCs measured with R-\nhttps://doi.org/10.1016/j.expthermflusci.2019.109870\nReceived 23 February 2019; Received in revised form 12 June 2019; Accepted 7 July 2019\n\u204e Corresponding author.\nE-mail address: josua.meyer@up.ac.za (J.P. Meyer).\nExperimental Thermal and Fluid Science 109 (2019) 109870\nAvailable online 08 July 2019\n0894-1777/ \u00a9 2019 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license\n(http://creativecommons.org/licenses/BY-NC-ND/4.0/).\nT\n134a of Roques and Thome [7] between 3 and 6 times higher than those\nmeasured by Moeykens et al. [6], while the HTCs measured by Zhao\net al. [10] fell closer to the data of Moeykens et al. [6]. The arithmetic\nmean roughness Ra of the plain tubes used by Roques and Thome [7]\nwas 0.8 \u03bcm, which is relatively high when compared to the typically\nquoted roughness range of commercial tubes of 0.2 \u03bcm to 0.6 \u03bcm [13].\nBoth Moeykens et al. [6] and Zhao et al. [10] did not state their tube's\nroughnesses, but this factor may go some way to explaining the differences in the HTC magnitudes.\nThe film Reynolds number has been shown to influence heat\ntransfer in two distinctive regimes. At low film Reynolds numbers, a\nsignificant decrease of HTCs has been shown once the film Reynolds\nnumber drops below a threshold, whereafter dryout conditions are\nexperienced with insufficient liquid supplied to maintain a wetted tube\n[7,10].\nA wetted regime occurs above this threshold with the falling film\nboiling HTCs shown by Jin et al. [11] and Roques and Thome [7] to be\nrelatively insensitive to changes in film Reynolds number with variations less than 5%. Zhao et al. [10], however, found a greater sensitivity\nof the HTCs to changes in film Reynolds number within the wetted\nregime, with HTC changing by approximately 10% to 25% within the\nfully wetted regime. It is difficult to say whether possible differences in\ntube roughness may have caused these different HTC sensitivities to\nfilm Reynolds number or whether other factors, such as differences in\nthe falling film distributors, may be the reason behind this.\nThe falling film enhancement factor Kff, the ratio of falling film\nboiling HTC to pool boiling HTC, gives insight into the falling film\nboiling mechanism. Unfortunately many authors do not explicitly calculate it, such as Moeykens et al. [6], Chien and Chen [9] nor Zhao\net al. [10]. Extracting data from their published plots of the falling film\nboiling and pool boiling HTCs allowed the calculation of their enhancement factors so that it could be compared to those of Roques and\nThome [14], who did explicitly calculate it.\nThis comparison of falling film enhancement factors for plain tubes\nat saturation temperatures close to 5 \u00b0C with R-134a is plotted in Fig. 1.\nThere is significant scatter between the authors. Roques and Thome\n[14] calculated enhancement factors of 1.4 that were relatively\ninsensitive to variations in heat flux from 20 to 60 kW/m2.\nBoth Zhao et al. [10] and Moeykens et al. [6] had enhancement\nfactors that were both lower and more sensitive to changes in heat flux\nthan Roques and Thome [14]. Moeykens et al. [6] conducted their\nstudies at relatively low film Reynolds numbers where some form of\ndryout can be expected to have deteriorated the heat transfer process,\nwhich may account for their lowered results. The reasons for the differences between Zhao et al. [10] and Roques and Thome [14] are\ndifficult to determine. As stated previously, Roques and Thome [14]\nconducted their tests on tubes with relatively high roughness compared\nto typical commercial tubes. It can thus be hypothesized that Zhao et al.\n[10] conducted their tests on smoother tubes, which may have caused\nthe differences in their results. The results of Chien and Chen [9] are\ndifficult to explain.\nNomenclature\nC\nWilson plot modifier coefficient\ncp\nspecific heat capacity\nD\ntube diameter\nf\nfriction coefficient\nh\nheat transfer coefficient\nK\nenhancement factor\nk\nthermal conductivity\nL\ntube length\nm\nmass flow rate\nPr\nPrandtl number\nP\npressure\nq\nlocal heat flux at midpoint of tube length\nRa\nmean surface roughness\nRe\nReynolds number\nRef\nfilm Reynolds number\nR\nthermal resistance\nT\ntemperature\nU\noverall heat transfer coefficient\nuc(y)\ncombined standard uncertainty of quantity y\nx\nco-ordinate dimension along the length of the tube\nGreek symbols\n\u0393\nmass flow rate of refrigerant on one side of the tube per\nunit length\n\u03bc\ndynamic viscosity\n\u03c1\ndensity\nSubscripts\nc\ncondensation\ndry\ndryout threshold\nff\nfalling film conditions\nh\nhydraulic\ni\ninternal\nl\nliquid\no\nouter\npb\npool boiling conditions\nprobe\ntemperature measuring probe\nref\nrefrigerant\nsat\nsaturated conditions\ntop\ntop of tube\nw\nwater\nwall\ntube wall\nSuperscripts\nm\nexponent for the relationship between HTC and roughness,h\nR\no\nam\nFig. 1. Comparison of literature values for falling film enhancement factor Kff\nfor plain tubes for R-134a at saturation temperatures close to 5 \u00b0C.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n2\nFalling film boiling heat transfer has been shown to outperform the\nrespective pool boiling heat transfer not only on the outside of horizontal tubes, but also in thin falling vertical films [15] and in thin\nstationary horizontal films [16]. Nishikawa et al. [16] in fact found that\nas the liquid level was dropped in pool boiling experiments of water,\nethanol and an aqueous solution of sodium oleate, the HTCs remained\nrelatively constant until the level dropped below approximately 5 mm,\nwhereafter the HTCs increased.\nThe nature of boiling in thin films, either stationery or moving, is\nclearly different from pool boiling. Mesler [15] and Cerza and Sernas\n[17] theorized that the enhancement is caused by bubbles becoming\ntrapped in the thin superheated films, with the increased microlayer\nevaporation through the bubble base enhancing heat transfer in particular. Mesler and Mailen [18] further hypothesized that the seeding of\nsecondary nucleation sites results from bubbles bursting while being\ntrapped in the thin films.\nFrom literature it thus follows that studies of falling film boiling\nwith refrigerants on plain tubes are fairly limited and there is significant disagreement between results, particularly concerning the\nfalling film enhancement factor. Few authors measure and quote their\nsurface roughness and as such it is difficult to infer the influence of\nsurface roughness on falling film boiling heat transfer and falling film\nenhancement. Furthermore most studies make use of copper tubes. At\npresent there is thus a research gap as no experimental studies have\nfocussed on quantifying the influence that surface roughness or surface\nmaterial has on the falling film boiling of refrigerants.\nThis study aims to experimentally measure the influence of surface\nroughness and surface material of plain tubes on falling film boiling\nheat transfer, falling film dryout and the falling film enhancement\nfactor across a range of heat fluxes and at differing saturation temperatures.\n2. Experimental setup and test conditions\n2.1. Experimental setup\nStudies were conducted on a falling film experimental system as\nillustrated in Fig. 2 which was originally built at the Laboratoire de\nTransfert de Chaleur et de Masse (LTCM) located at the \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL) in Switzerland. The system was\npreviously used for a number of studies under the leadership of Prof JR\nThome, such as the falling film condensation work of Gstoehl [19], and\nfalling film boiling work on plain and enhanced tubes of Roques [20],\nHabert [21] and Christians [22]. The system was reassembled, re-\ncommissioned and fully recalibrated in South Africa at the University of\nPretoria's Clean Energy Research Group (CERG). What follows is a\ndescription of the experimental equipment as was used for this study.\nExperiments were conducted within a test chamber (Item 1 in\nFig. 2) which consisted of a stainless steel rectangular shell with windows for visual access and removable tube sheets on each end so that\ntubes could be loaded to create a horizontal tube bank for investigation.\nLiquid refrigerant from the bottom of the rig was fed by an oil free\ngear pump (Item 2) towards the test chamber. The flow rate of the\nrefrigerant was controlled with a variable frequency drive, where a\nbypass line around the pump was used at low flow rates. The refrigerant\nsubsequently passed through a vibration dampener and Coriolis mass\nflow meter (Item 3). Thereafter an electric element heater (Item 4) was\nused for fine tuning of the liquid refrigerant temperature to within\n0.5 \u00b0C of the saturation temperature on the way to the liquid distributor\n(Item 5) that spread the refrigerant evenly along the entire length of the\ntubes. Special care was taken to ensure an even liquid distribution to\nprevent the refrigerant distribution from influencing the results significantly. Once refrigerant was fed over the tubes, any non-evaporated\nliquid returned to the bottom of the rig under the action of gravity.\nVapour created by refrigerant boiling on the tubes was driven\n1 - Test chamber\n2 - Refrigerant gear pump\n3 - Coriolis mass flow meter\n4 - Liquid heater\n5 - Refrigerant distributor\n6 - Condenser\n7 - Cooling from glycol\n8 - Flooded kettle evaporator\n9 - Droplet separator\n10 - Vapour superheater\n11 - Reservoir\n12 - Tubes for testing, heated\nby water\n11\n10\n9\n8\n2\n4\n3\n12\n6\n7\nRefrigerant liquid\nRefrigerant vapour\nHot water\nCold water\nCold glycol\nHot glycol\n1\n5\nFig. 2. Schematic of refrigerant loop.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n3\nupwards by buoyancy towards an overhead condenser (Item 6), which\nwas cooled by chilled glycol (Item 7) supplied by a separate glycol\nconditioning loop. The subsequently condensed refrigerant returned by\ngravity to the bottom section of the rig.\nThe overall control of the saturation pressure of the refrigerant was\nachieved with a flooded electric kettle evaporator (Item 8), which\nserved to balance the various heating and cooling loads the test\nchamber and overhead condenser applied to the refrigerant system.\nRefrigerant vapour created by the electric evaporator passed through a\ndroplet separator (Item 9) and a fine-tuning electric heater (Item 10)\nbefore it reached the test chamber where it could be fed in either from\nthe bottom or the top. For this study vapour was allowed to enter and\nexit the test chamber from both the top and bottom to ensure no net\nvapour flow was created. A liquid reservoir (Item 11) together with a\nfloat level ensured the electric kettle evaporator did not run dry.\nPrevious gases were removed from the experimental setup by a\nvacuum process prior to filling with new refrigerants. A vacuum pump\nwas connected to the system until a pressure of 100 Pa absolute was\nachieved and maintained. Any non-condensable gases that did remain\nwould collect in the overhead condenser. The success of this process\nwas determined by the difference in saturation temperature calculated\nfrom the saturation pressures measured and actual temperatures measured within the test chamber. These were found to differ by no more\nthan 0.2 \u00b0C.\nThe tested tubes were heated with water (Item 12) conditioned by\ntwo heat exchangers. The first heat exchanger was supplied with the\nlaboratory's 5 \u00b0C utility water and cooled the test chamber water down\nto a base temperature with the aid of a manual hand valve. The second\nheat exchanger was supplied with the laboratory's 60 \u00b0C utility water. It\nwas heated and controlled to the required set temperature through a\ncomputer-controlled valve on the outlet of the hot utility water. This\nsystem thus controlled the testing water's temperature as flow rates\nwere changed and compensated for any fluctuations in the utility water\ntemperature. Water was pumped by a multi-stage variable speed drive\ncentrifugal pump through the system. The pump had a bypass line to\nassist in fine tuning the flow rate.\nPool boiling (Fig. 3a) or falling film (Fig. 3b) experiments were\nconducted in the test chamber. For pool boiling experiments the test\nchamber was closed off and filled with refrigerant while for falling film\nstudies liquid refrigerant was evenly distributed along the length of the\ntube. While the test chamber can accommodate a bank of up to three\ncolumns of ten rows of tubes, in this paper only single tubes were tested\nat a time. The refrigerant used in this study was R-134a.\nPool boiling and falling film studies of the same tubes at the same\nFig. 3. Schematics of test chamber operation modes and temperature and pressure measuring points.\nTable 1\nProperties of tubes tested.\nProperty\nCopper tube\nStainless steel\nMild steel\nUnits\nMaterial grade\nC 122\n304\nA 179\nOuter diameter\n19.05*\n19.05*\n19.05*\nmm\nInner diameter\n16.65*\n16.65*\n14.83*\nmm\nRockwell hardness\nB\n60 **\n92 \u2020\n72*\nHRB\nThermal\nconductivity\n340 **\n16 \u2020\n47 \u2021\nW/mK\nSpecific heat\ncapacity\n0.385 **\n0.5 \u2020\n0.486 \u2021\nkJ/kgK\nDensity\n8941 **\n8000 \u2020\n7850 \u2021\nkg/m3\nEffusivity\n34\n8\n13\nkWs0.5/m2K\nNotes\nHard drawn\nseamless\nSeamless\nCold drawn\nseamless\n* Taken from material data sheets.\n** (CDA, 2018).\n\u2020 (AZO, 2001).\n\u2021 (EPRI, 2007).\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n4\ntest conditions were conducted on successive days to minimize differences to further aide reproducibility between the respective data sets\nand reduce uncertainty in the calculation of the falling film enhancement factor.\n2.2. Tube test sections\nThe properties of the tubes tested for pool and falling film boiling\nare listed in Table 1. All tubes tested had an outer diameter of\n19.05 mm and length of 554 mm. As thermal effusivity is known to be\nan important wall material influence on pool boiling [13], tubes made\nfrom copper, mild steel and stainless steel were tested as they span a\nrelative wide range of effusivities from 8 to 34 kWs0.5/m2K, as detailed\nin Table 1.\nA total of eight tubes (Table 2) were first polished to remove any\ninitial roughness, whereafter they were roughened in a longitudinal\ndirection to varying degrees of roughness. Due to the differences in\nhardnesses of the tubes, the copper tubes could be roughened with\nsandpaper (Grits 1200, 600, 100 and 40) by hand. The mild steel and\nstainless steel tubes could not be roughened by hand and were roughened with an angle grinder fitted with sandpaper discs of grits 1200 and\n100.\nThe tube roughness's were measured with a diamond tip profilometer (Mitutoyo SJ Surftest 210 profilometer) producing results adhering to ISO 4287:1997 and ISO 4288:1998 with a resolution of\n0.002 \u03bcm. As per ISO 4288:1998, the cut-off length was set to 0.8 mm as\nthe roughness values Ra were lower than 2 \u03bcm. The roughness was\nmeasured both across and with the grain. Previous papers have not\nspecified the direction of their roughness measurements with regards to\nthe roughness grain [7,23]. To allow for comparison to previous papers\nit was assumed that previously stated roughnesses were measured\nagainst the grain as this is a standard approach when measuring machined surfaces [24]. Thus all roughnesses quoted going forward in this\nstudy are those across the grain. Values were cross checked with a\ndiamond tip Alpha-Step 200 profilometer and the average disagreement\nwas less than 0.05 \u03bcm.\nThe roughnesses of the tubes are shown in Table 2 and illustrated in\nFig. 4. The grit sandpapers chosen produced increasingly rougher tubes\nthat span and exceed the roughnesses often seen in industrial tubing.\nGorenflo and Kenning [13] suggested that a range of 0.2-0.6 \u03bcm was\ntypical for commercial tubing, while the roughnesses range from 0.11\nto 1.91 \u03bcm in this study.\nScanning electron microscopy (SEM) photographs of the surfaces\nshown in Fig. 5 illustrate that the roughness produced was characterized by long thin channels of relatively uniform nature in the direction\nof the sandpapering (which was in a longitudinal flow direction).\nThe tubes were stored for three days after preparation to ensure a\nstable surface had formed and thereafter tested within three months to\nminimise the influence of long term surface degradation on the results.\n2.3. Instrumentation\nThe test chamber was instrumented at the top and bottom with two\nabsolute pressure transducers, while the vapour saturation temperature\nwas measured with eight K-type thermocouples along the height and\nwidth of the test chamber. The temperature of the refrigerant liquid and\nvapour that entered and exited the test chamber was also measured.\nThe temperature was monitored so as to ensure saturated conditions\nand found to be on average within 0.2 \u00b0C of the set saturation temperature across the test chamber.\nThe temperature profile of the hot water inside the test section was\nmeasured with a custom developed probe, as illustrated in Fig. 6. The\nprobe consisted of a central 8 mm stainless steel tube with six 0.5 mm K-\ntype thermocouples fed through the tube and protruding out into the\nwater at three evenly spaced locations. At each location there were two\nthermocouples, one protruding upwards and another downwards. To\nfurther ensure the heating water was well mixed within the tube, a wire\nof rectangular cross section was wrapped around the probe producing a\nhelical mixing spiral.\nThe mass flow rates of the refrigerant, heating water and cooling\nglycol were measured with Coriolis mass flow meters.\n2.4. Acquisition and control\nThe data acquisition was performed with a National Instruments\n(NI) system controlled through LabVIEW software. Each data point\ncaptured the average of 30 data points, which themselves were the\naverage of 800 samples recorded at 100 Hz. Thermocouple measurements were fed into a NI TC-2095 terminal chamber, which performed\ncold junction compensation with the aid of a metallic plate to keep all\nthe junctions at the same temperature and an in-built thermistor to\ndetermine the cold junction temperature.\nPressure transducer current outputs were measured and converted\ninto voltage outputs by Sirax TV 808 isolating amplifiers before being\nfed into the NI TC-2095 terminal chamber. The terminal block was fed\ninto a NI SCXI-1102 thermocouple input module. These modules contained a 2 Hz low pass filter to reduce electromagnetic noise. They were\nsubsequently plugged into a NI SCXI-1000 chassis, which then communicated through a PCI-MIO-16XE-50 acquisition card to a designated\nmeasurement PC operating LabVIEW software.\nThe control of the experimental setup was achieved through a\ncombination of manual valves and switches and automated control\nvalves and heaters via a designated control PC that ran LabVIEW software. The control system data acquisition system was similar to the\nmeasurement acquisition system, with the addition of a number of\npurpose fit modules, such as current measurement with a NI SCXI-1308\nterminal block, voltage measurement with a SCXI-1303 terminal block,\nwhile outputs were sent with a SCXI-1325 terminal block connected to\na SCXI-1124 module.\n3. Data reduction\n3.1. Film Reynolds number\nFor the falling film experiments, the mass flow rate of refrigerant on\none side of the tube per unit length, \u0393top, was defined as the measured\nmass flow rate of refrigerant fed to the refrigerant distributor on the top\nof the tube, m\n,\nref top\n,\nper one side of a tube of length L and was thus given\nby Eq. (1).\n= m\nL\n2\ntop\nref top\n,\n(1)\nFrom this the film Reynolds number, Ref, was defined as\n=\nRe\n\u03bc\n4\nf\ntop\nl\n(2)\nTable 2\nTube roughnesses.\nMaterial\nGrit\nRoughening\nmethod\nAverage mean\nroughness across\nroughness grain\nRa [\u03bcm]\nAverage mean\nroughness with\nroughness grain\nRa [\u03bcm]\nCopper\nG1200\nHand\n0.12\n0.11\nG600\nHand\n0.35\n0.35\nG100\nHand\n0.74\n0.47\nG40\nHand\n1.37\n0.85\nMild steel\nG1200\nAngle grinder\n0.11\n0.10\nG100\nAngle grinder\n1.91\n0.70\nStainless steel\nG1200\nAngle grinder\n0.09\n0.10\nG100\nAngle grinder\n1.32\n0.81\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n5\nThe dynamic viscosity of the liquid refrigerant, \u03bcl, at the measured\ntemperatures, together with other refrigerant and water thermophysical\nproperties (density, \u03c1, specific heat, cp, and thermal conductivity, k)\nwere determined with the aid of REFPROP 8, a software application\nprovided by the National Institute of Standards and Technology [25].\n3.2. Local heat flux\nIn order to determine the local HTC at any point along the length of\nthe instrumented tube, the local heat flux was calculated. As described\nby Christians [22], the local heat flux was calculated as\n=\nq\nm c\nD\ndT\ndx\nw p\no\nw\n(3)\nwhere mw was the measured water mass flow rate and Do the measured\noutside diameter of the tested tube. The temperature gradient, dT\ndx\n/\n,\nw\nwas estimated at the midpoint of the tube's length using the gradient of\na second order polynomial fit to the measured water temperature\nprofile along the length of the tested tube.\n3.3. Internal heat transfer coefficient - Wilson plot\nAs only the overall HTC of the tube in the test chamber could be\nmeasured due to the infeasibility of installing wall temperature sensors\non the tube surface, the internal HTC of the test section tube was estimated with the aid of the Wilson Plot method. Initially described by\nWilson [26], the methodology employed in this study follows that of\nBriggs and Young [27] as modified by Van Rooyen et al. [28].\nThe internal HTC, hi, was assumed to take the form of the Gnielinski\n[29] correlation modified by a coefficient Ci which was estimated\nthrough a Wilson plot. The internal HTC, hi, was thus calculated as\nfollows\n=\n+\nh\nC\nf\nRe\nPr\nf\nPr\nk\nD\n( /8)(\n1000)\n1\n12.7( /8)\n(\n1)\ni\ni\nw\nw\nw\nw\nh\n0.5\n2/3\n(4)\nThe friction factor, f, was estimated from Petukhov's equation [30]\nfor a smooth tube, based on the Reynolds number of the water flowing\nthrough the inside of the tube, Rew, as follows\n=\n+\nRe\nm\nD\nD\n\u03bc\n4\n(\n)\nw\nw\ni\nprobe\nw\n(5)\nwhere, Di, was the measured internal diameter of the tested tube and\nDprobe the measured outer diameter of the water temperature probe.\nIn Eq. (4) the measured hydraulic diameter Dh was given by Di -\nDprobe, while the water Prandlt number Prw was calculated as follows\n=\nPr\nc\n\u03bc\nk\nw\np w\nw\nw\n,\n(6)\nFig. 4. Mean surface roughnesses across and with the roughness grain of various tubes tested. (Cu = Copper tube; SS = Stainless steel tube; MS = Mild steel\ntube).\nFig. 5. Scanning electron microscope (SEM) images of roughened tubes.\nTemperature probe\nHeating water\nThermocouples\nFig. 6. Photo of test chamber with cut away schematic of test section illustrating measurement probe.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n6\n3.4. External heat transfer coefficient\nThe local external HTC, ho, on the outside of the tube was determined as\n=\nh\nU\nR\nh\nD\nD\n1\n1\no\no\nwall\ni\no\ni\n1\n(7)\nThe total HTC, Uo, was calculated by\n=\nU\nq\nT\nT\no\nw\nsat\n(8)\nwhere the water temperature, Tw, was estimated at the midpoint of the\ntube's length using a second order polynomial fit to the water temperature profile measured along the inside of the tube length and the\nrefrigerant saturation temperature, Tsat, was estimated using REFPROP\n8 based on the saturation pressure measured at the top of the test\nchamber.\nThe wall thermal resistance Rwall was determined by\n=\n( )\nR\nD ln\nk\n2\nwall\no\nD\nD\nwall\no\ni\n(9)\n3.5. Falling film enhancement factor\nThe falling film enhancement factor, Kff, was calculated as the ratio\nof the external falling film HTC ho,ff to the respective external pool\nboiling HTC ho,pb at the same heat flux and saturation temperature.\n=\nK\nh\nh\nff\no ff\no pb\n,\n,\n(10)\nThe pool boiling HTC was interpolated with the aid of a fourthdegree polynomial fit to calculate the HTC at the specific heat flux the\nfalling film HTC was measured.\n3.6. Total dryout threshold\nThe strategies used in previous studies to identify the film Reynolds\nnumber at which total dryout occurs were found to be at times not\nparticularly successful and as such a new methodology was employed.\nIn particular many previous strategies made use of the average HTC\nover the range of film Reynolds numbers tested as a key input into their\ncriterion. These methods often struggled with data from this study\nwhere the HTC dropped throughout the film Reynolds number range or\nwhere a large amount of data was captured after the film Reynolds\nnumber total dryout threshold.\nA gradient based approach was decided on in this study, as this\nwould allow for the identification of the point of rapid HTC decrease\nwhile ignoring more gradual decreases observed in the data.\nThe total dryout threshold was defined as the first data point, as the\nfilm Reynolds number was increased from 0, which met the following\ncriterion:\n<\ndh\ndRe\nW\n5\n/m K\no\nf\n2\n(11)\nFig. 7 illustrates the implementation of this strategy on a copper\ntube with the HTC as a function of film Reynolds number. The gradient,\ndho/dRef, is also given in the figure as a function of film Reynolds\nnumber. At very low film Reynolds numbers the gradient was very large\nbut as the film Reynolds numbers increased, the gradient became\nsmaller. Applying the dryout criterion, the last data point as the film\nReynolds number was increased to have a gradient dho/dRef below 5 W/\nm2K occurs at a film Reynolds number of approximately 630 with a\ncorresponding HTC of 15.2 W/m2K.\nThe new criteria succeeded in a wide variety of experiment conditions to successfully identify the total dryout threshold. The total dryout\nthreshold defined by the method of Christians and Thome [31] is\nplotted for comparison in Fig. 7. Their method in effect identified the\nthreshold as the first data point that fell below 5% of the mean HTC of\nthe data set. Fig. 7 illustrates that it selected a point that is deep within\nthe dryout regime rather than identifying the threshold point.\n3.7. Average deviation\nThe average deviation between correlations and experimental data\nwas defined as\n=\n\u00d7\n=\nAverage deviation\nn\nCorrelation value\nExperimental value\nExperimental value\n1\n|(\n)\n(\n)|\n(\n)\n100(12)\ni\nn\n1\nin order to facilitate the comparison of experimental data to correlations. The correlation values were calculated at each of the experimental data points.\n4. Uncertainties\nThe expanded standard uncertainties of the various sensors were\ndetermined as per the methodology employed in Dunn [32]. The pre-\ncision was assumed to be equal to the uncertainty of the reference\nprobes used and the bias was assumed to be equal to the standard deviation of the noise the probes measure. The probes were calibrated\nwith linear regression calibration fits. The law of propagation of uncertainty as detailed in JCGM 100:2008 [33] was applied to these fits to\ncapture the influence of the fits on the bias and precision. The resulting\nexpanded standard uncertainties of the probes are listed in Table 3,\nwith a 95% confidence interval employed.\nThe uncertainty of the roughness measurements was estimated\nthrough a Type A evaluation and an assumed normal distribution of\nroughnesses about the mean value measured (as detailed in JCGM\n100:2008 [33]) with a confidence interval of 95% employed. The individual roughness uncertainties are illustrated in Fig. 4 with the\noverall average roughness uncertainty found to be 0.17 \u03bcm as listed in\nTable 3. Fig. 4 illustrates that the absolute magnitude of the roughness\nuncertainties increases as the roughness increases and that the differences in roughness between samples of a particular material are significant when compared to the uncertainties, suggesting a sufficiently\nspread sample of roughnesses has been chosen.\nThe combined standard uncertainties of the various calculated\nFig. 7. Falling Film boiling HTC on a copper tube with a surface roughness of\n0.74 \u03bcm as a function of film Reynolds number Ref at 25 \u00b0C at a heat flux of\n50 kW/m2 illustrating the dryout point selection method as per Christians and\nThome [31]and the current study.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n7\nquantities were determined through the law of propagation of uncertainty. Equations were determined to calculate the uncertainties of\nthese quantities based on the uncertainties of the probe measurements.\nThe derivation of these equations was documented in detail by\nChristians [22] and the resulting calculated uncertainties are listed in\nTable 3. The uncertainties of the thermo-physical properties calculated\nwith the aid of REFPROP 8 software [25] are listed in Christians [22].\nThe calculation of the uncertainty of the falling film enhancement\nfactor Kff in this study however differs from Christians [22]. Considering that Kff is the ratio h\nh\n/\no ff\no pb\n,\n,\n, which are measurements of the\nsame quantity under different conditions, the two input quantities are\nthus dependant. The subsequently derived uncertainty equation for Kff\nwas\n=\nu\nK\nK\nu h\nh\nK\n(\n)\n(\n)\n(\n1)\nc\nff\nff\nc\no ff\no pb\nff\n2\n2\n,\n,\n2\n2\n(13)\nThe resulting average uncertainties as function of heat flux across\nthe range of tests are shown in Table 3. These uncertainties are illustrated in Fig. 8 as function of heat flux for a typical case. The average\nHTC uncertainty was 33% (it varied between a minimum of 25% at a\nheat flux of 90 kW/m2 and a maximum of 45% at a heat flux of 20 kW/\nm2). These uncertainties are comparable to previous researchers who\nworked on this same piece of equipment [7,31] and other similar experimental set-ups [10]. Measurements at heat fluxes lower than\n20 kW/m2 were not practical and were avoided due to the continued\nrise in the uncertainty of the HTC as the heat flux lowered. However,\nthe average falling film enhancement uncertainty was significantly\nlower at 5.2% as it was calculated from two dependant properties. It\nvaries from 8.7% at a heat flux of 20 kW/m2 to 0.2% at a heat flux of\n90 kW/m2.\n5. Validation\nThe Wilson plots conducted acted as an initial validation stage, as\nthe internal heat transfer modifying coefficient Ci (Eq. (4)) determined\nin this paper of 1.25 compared satisfactorily to previous researchers\nwho worked with plain tubes on this same experimental setup with\nvalues of 1.27 [20], 1.18 [21] and 1.29 [34].\nCondensation tests were used to validate the measurement system of\nthe experimental apparatus as the literature for pool boiling and falling\nfilm studies often exhibit a wide spread of results as well as a lack of\nsurface roughness information. Furthermore the most successful modelling solutions for boiling are semi-empirical as the production of\ncorrelations for nucleate boiling is fraught with difficulty [35], which\nmakes them unsuitable for stand-alone validation purposes.\nCondensation tests were chosen specifically as the Nusselt solution\nfor condensation on tubes without inundation [3] is a solution that has\nbeen shown by previous work to agree well with experimental data,\nwith previous results lying within 5% of the solution [36]. Thus the\nNusselt solution could serve as a reference for comparison and validation. The results for a single horizontal plain copper tube with condensation on the outside of the tube at a saturation temperature of 30 \u00b0C\nwith a surface roughness, Ra, of 0.15 \u03bcm and no inundation are given in\nFig. 9 as a function of the condensation temperature difference \u0394Tc.\nThe experimental data compares well with the Nusselt solution, as\n93% of the data falls within 5% of the Nusselt solution. The average\ndeviation between the data and the Nusselt solution was 2.3%.\nPool boiling tests conducted on a single plain copper tube of\nroughness Ra of 0.74 \u03bcm at a saturation temperature of 5 \u00b0C with R-134a\nare presented in Fig. 10. The HTCs are compared to the results of Roques and Thome [7] who conducted tests under identical conditions\nwith a similar roughness Ra of 0.8 \u03bcm as well as the correlations of\nCooper [37] and Gorenflo and Kenning [13]. The results matched closely to those of Roques and Thome [7] at the upper end of the heat flux\nrange of 80 kW/m2. However, the two datasets diverged at the lower\nend of the heat flux range, with a difference of 40% at a heat flux of\n20 kW/m2. Given that the uncertainty of the data increases towards\n45% as heat fluxes lower towards 20 kW/m2, this deviation is expected.\nThe Cooper [37] and Gorenflo and Kenning [13] correlations\ncompared well with the results. The average deviation between the data\nand Cooper correlation was 9.6%, with 95% of the data falling within\n15% of the correlation. The average deviation between the data and\nGorenflo and Kenning's correlation was 9.2%, with 95% of the data\nfalling within 16% of the correlation.\nFalling film boiling tests were compared to the study by Roques and\nThome [7], with data collected on copper tubes at a saturation temperature of 5 \u00b0C with R-134a and compared in Fig. 11. Similar to the\npool boiling data comparison, the data is more closely matched at\nhigher heat fluxes, with a difference of approximately 20% at a heat\nflux of 60 kW/m2, while the data diverges to a difference of approximately 70% at the lower heat flux of 20 kW/m2. A possible reason for\nthe differences between the datasets, despite being measured on the\nsame equipment, could be the various improvements in calibration and\nroughness measurements that have occurred since the study by Roques\nand Thome [7], as well as the higher uncertainties at lower heat fluxes.\nThe average deviation between the data and the Ribatski and\nThome [38] correlation was 34% with 48% lying within 30% of the\ncorrelation. The Ribatski and Thome correlation has close agreement\nwith the Roques and Thome [7] data, which can be expected as it incorporated data from Roques and Thome [7] into its fitting process.\nOther falling film correlations were not considered as they do not take\nsurface roughness into account.\nThe short term repeatability of the experiment is illustrated in\nFig. 11 with three successive readings taken at each set point, with the\ndata points differing by less than 3% of each other. The longer term\nrepeatability of the experiments is also illustrated in Fig. 11, with two\nTable 3\nAverage uncertainties of measurements and calculated quantities.\nQuantity\nSymbol\nUncertainty\nProbes\nTemperature\nuc(T)\n0.1 K\nPressure\nuc(P)\n0.2%\nWater mass flow rate\nuc(mw)\n0.2%\nSurface roughness\nuc(Ra)\n0.17 \u03bcm\nOutput\nHeat flux\nuc(q)\n9.0%\nHeat transfer coefficient\nuc(ho)\n33%\nFalling film enhancement\nuc(Kff)\n5.2%\nFig. 8. Uncertainties as a function of heat flux at 5 \u00b0C for a copper tube under\nfalling film boiling conditions with a Ra of 0.12 \u03bcm.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n8\nnearly identical studies conducted five months apart having produced\ndata that highly overlapped, with an average deviation of 5.4% between the repeated data and a curve fit through the original data.\n6. Pool boiling results\nPool boiling results were first recorded on the tubes so as to provide\na comparative reference to the falling film results and thus allow the\ncalculation of the falling film enhancement factors (Section 7). The\nresults presented here thus serve as the baseline to compare the falling\nfilm results to. As a secondary objective, given the scarcity of data of\npool boiling of refrigerants on mild steel and stainless steel tubes, these\nresults aide in further understanding pool boiling mechanisms under\nthese conditions.\n6.1. Influence of roughness and saturation temperature on heat transfer\nThe HTC measured under pool boiling conditions for a range of\ndifferent roughness copper tubes as a function of heat flux is shown in\nFig. 12 for saturation temperatures of 5 \u00b0C and 25 \u00b0C. Errors bars were\nomitted on this figure and all subsequent figures to ensure data clarity.\nThe HTCs for all the tubes increased \"linearly\" on the double log plot as\nthe heat flux was increased. The increases in roughness Ra resulted in an\nincrease in HTC due to an increase in active nucleation sites, as is well\ndocumented in previous studies [13,35].\nThe influence of the roughness on the HTC was characterised by the\nfit of the relation h\nR\no\nam to the experimental data, with the results for\nthe copper tubes under pool and falling film boiling conditions listed in\nTable 4. The pool boiling results were found to approximately adhere to\nStephan's relation of h\nR\no\na0.133 [39] for copper tubes in refrigerant.\nThe increase in saturation temperature from 5 \u00b0C to 25 \u00b0C increased\nthe HTC by approximately 50% to 30% across the range of heat fluxes\nfor all roughnesses. The increase is to be expected given the well-known\ninfluence of pressure on boiling heat transfer [13,35]. While surface\nroughness has been shown to have a stronger effect at lower pressures\n[40], this effect could not be distinguished in this study.\n6.2. Influence of surface material on heat transfer\nThe HTC's as a function of heat flux of three different material tubes\nwith relatively smoother finishes at saturation temperatures of 5 \u00b0C and\n25 \u00b0C under pool boiling conditions are presented in Fig. 13. In general\nthe HTC's increased linearly on the double log plot as the heat flux was\nincreased. However, the HTCs of the mild steel tube were shown to be\nless sensitive to increases in heat flux than the copper and stainless steel\ntubes.\nThe copper tube is shown to have the highest HTC, followed by the\nmild steel tube and then the stainless steel tube. This follows the trend\nof the thermal effusivity of the tubes, which is considered an influential\nproperty of surface materials on the heat transfer process in pool boiling\n[13].\nThe increase in saturation temperature again shows an increase in\nHTCs as the temperature is raised across all three materials. Copper and\nstainless steel increased by between 54% and 18% and 35% to 29%\nrespectively with the increase in saturation temperature. Mild steel was\nshown to be less sensitive to the saturation temperature increase, increasing by between 32 and 10% across the heat flux range.\nThe HTCs of rougher different material tubes as a function of heat\nflux are shown in Fig. 14. The trends displayed are similar in form to\nthat of the smoother tubes illustrated in Fig. 13. The mild steel is shown\nto be less sensitive to the increase in roughness than copper and\nstainless steel, despite having the highest roughness of the three tubes\ntested in Fig. 14.\nFig. 9. Condensation for a single tube with no inundation at a saturation\ntemperature of 30 \u00b0C.\nFig. 10. Pool boiling of copper tubes at a saturation temperature of 5 \u00b0C.\nFig. 11. Falling film boiling on a copper tube at a saturation temperature of\n5 \u00b0C.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n9\n7. Falling film results\n7.1. Influence of roughness and saturation temperature on heat transfer\nThe HTCs as a function of heat flux for falling film boiling conditions are shown in Fig. 15. A range of different roughness copper tubes\nwere tested at saturation temperatures of 5 \u00b0C and 25 \u00b0C with a film\nReynolds number of approximately 2100.\nThe falling film HTCs are shown to mostly exhibit similar overall\ntrends to the comparative pool boiling results in Fig. 12 with the HTCs\ndisplaying a similar sensitivity to increases in heat flux. However as\nhigher heat fluxes are reached, the falling film HTCs begin to tail off\nand become less sensitive to increases in heat flux. This is due to partial\ndryout resulting in a drop-off of heat transfer, despite the high film\nReynolds number.\nThe falling film HTCs however increased more as roughness was\nincreased when compared to the respective pool boiling results. At\n20 kW/m2 when the roughness Ra was increased from 0.12 \u03bcm to\n1.37 \u03bcm, the falling film HTCs increased by 75% compared to an increase of only 50% for the comparable pool boiling HTCs. The influence\nof the roughness on the HTCs for the falling film studies for copper\ntubes is shown in Table 4 and was found to adhere to the relationship\nh\nR\no\na0.167 at 5 \u00b0C and h\nR\no\na0.206 at 25 \u00b0C. These exponents are larger\nthan the equivalent for pool boiling as listed in Table 4 and further\nillustrate that falling film boiling is more sensitive to increases in\nroughness than pool boiling.\nFig. 12. Pool boiling with different roughnesses of copper tube at different saturation temperatures.\nTable 4\nRelationship between external HTC and surface roughness for copper tubes.\nBoiling mode\nSaturation temperature\n[\u00b0C]\nDependence of external HTC on\nsurface roughness\nPool boiling\n5\nho \u221dRa\n0.110\nPool boiling\n25\nho \u221dRa\n0.125\nFalling film\n5\nho \u221dRa\n0.167\nFalling film\n25\nho \u221dRa\n0.206\nFig. 13. Pool boiling with smoother tubes of different materials at different saturation temperatures.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n10\nThe differing impacts of roughness on the two modes of boiling is\nfurther illustrated by the falling film enhancement factor, Kff, shown as\na function of heat flux for the range of different roughness copper tubes\nin Fig. 16 for saturation temperatures of 5 \u00b0C and 25 \u00b0C with a film\nReynolds number of approximately 2100. Falling film boiling mostly\noutperformed pool boiling, with enhancement factors varying from 1 to\n1.3. As discussed in Section 2, this can be attributed to the enhancement\nmechanisms that have been suggested to be influential in the thin film\nboiling process, namely the roles of increased microlayer evaporation\n[15,17] and the secondary nucleation mechanism [18,41].\nThe enhancement was weakly influenced by heat flux, with the\nenhancement decreasing by approximately 10% as the heat flux increases from 20 to 90 kW/m2 at 5 \u00b0C, while at 25 \u00b0C the enhancement\nfactor was insensitive to changes in heat flux across the range tested.\nThe falling film enhancements generally increased as the roughness\nof the tubes was increased for copper tubes, with the enhancement\nfactor ranging from 1 to 1.3 as the surface roughness was increased\nfrom 0.12 \u03bcm to 1.37 \u03bcm. The reason that rougher tubes benefit more\nfrom falling film conditions than their smoother counterparts is likely\ndue to the greater bubble density on rougher tubes due to their greater\nnucleation site density. This greater bubble density would result in an\nincreased enhancement of heat transfer compared to pool boiling due to\nincreased microlayer evaporation and increased secondary nucleation\nmechanisms. A visualisation study with a high speed camera is re-\ncommended to further investigate this hypothesis.\nThe falling film enhancement factor appears weakly dependant on\nthe saturation temperature, with the enhancement factors increasing by\nbetween 0 and 15% as the saturation temperature was dropped from\n25 \u00b0C to 5 \u00b0C. Considering the theorized importance of the bubbles in\nfalling film enhancement, two possible causes of this phenomena have\nbeen identified. Firstly the increased surface tension as a result of the\nlower saturation temperature may lead to longer bubble life as the\nbubbles are swept within the falling film. Secondly the bubble sizes are\nexpected to be larger at the lower saturation temperature due to the\nassociated lower saturation pressure [42]. Either of these two factors\ncould result in greater microlayer evaporation as the bubbles are swept\nalong in the falling film compared to higher saturation temperatures.\nConsidering the relatively weak influence of saturation temperature\nseen in this study, further investigation with experimental equipment\nthat can be tested across a greater saturation temperature range is re-\ncommended for future research.\nThe trends regarding falling film heat transfer performance are\nnoted to be less clear at 5 \u00b0C than 25 \u00b0C, most likely through experimental uncertainty. However when comparing the results of the\nsmoothest and roughest tubes to each other, the trends discussed are\nclearly applicable.\n7.2. Influence of surface material on heat transfer\nThe falling film HTCs as a function of heat flux for different materials of smoother tubes are shown in Fig. 17 at saturation temperatures\nof 5 \u00b0C and 25 \u00b0C, while the HTCs as a function of heat flux are shown\nfor rougher tubes at a saturation temperature of 5 \u00b0C in Fig. 18. Both\ntests were operated with film Reynolds numbers of approximately\n2000.\nThe general trends again follow those of the comparable pool\nboiling results, with the HTCs increasing as the heat flux is increased,\nwith mild steel being less sensitive to the increases in heat flux than\ncopper or stainless steel. Again the magnitude of the HTCs follows the\ntrend of the thermal effusivities, with copper outperforming mild steel\nFig. 14. Pool boiling at 5 \u00b0C with different material rougher tubes.\nFig. 15. Falling film boiling HTC's as function of heat flux with different roughnesses of copper tube at a film Reynolds number of approximately 2100 at different\nsaturation temperatures.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n11\nwhich outperforms stainless steel. At lower heat fluxes the mild steel\nhas comparable heat transfer to the copper tubes, but as the heat flux\nincreases its lower heat flux sensitivity means that it has comparable\nheat transfer performance to stainless steel at higher heat fluxes.\nThe falling film enhancement factor Kff as a function of heat flux for\nsmoother and rougher tubes of different material at a saturation temperature of 5 \u00b0C and film Reynolds number of approximately 2000 are\nshown in Fig. 19a. The enhancement factors were weakly sensitive to\nthe heat flux, with the enhancement factors decreasing by less than\n10% as the heat flux was increased from 20 to 90 kW/m2. All three\nmaterials tested showed an increase in enhancement factor as the\nroughness was increased.\nThe falling film enhancements as a function of heat flux at a saturation temperature of 25 \u00b0C of the smoother different material tubes\nare shown in Fig. 19b. There was very little falling film enhancement\nunder these conditions, with all materials exhibiting enhancement\nfactors close to one. The factors were also relatively insensitive to\nchanges in heat flux.\nThe difference in tube materials did not significantly influence the\nfalling film enhancement factors, with both the smoother and rougher\ntube enhancement factors within 10% of each other. It follows that the\nwall material did not significantly influence the various mechanisms\nsuggested that cause the falling film enhancement. This suggests that\nwhile the wall material influences the overall boiling process through\nthe conduction of heat to the nucleation sites, it does not influence the\nfalling film enhancement mechanisms.\nCompared to the comparable enhancement factors at a saturation\ntemperature of 5 \u00b0C, the enhancement factors decreased slightly for all\nmaterials at 25 \u00b0C. Considering that this was observed for all three\nmaterials, this suggests that the reduction in falling film enhancement\nas saturation temperature was reduced was not dependant on the wall\nmaterial and rather influenced only by the fluid's properties, possibly\nthe reduced surface tension at higher saturation temperatures or increased bubble size at lower pressures, as already discussed.\nFig. 16. Falling film enhancement, Kff , with different roughnesses of copper tube at a film Reynolds number of approximately 2100 at different saturation temperatures.\nFig. 17. Falling film boiling with different material smoother tubes at a film Reynolds number of approximately 2000 at different saturation temperatures.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n12\n8. Dryout results\n8.1. Influence of film Reynolds number on heat transfer\nA typical plot of the HTC's as a function of film Reynolds number is\nshown in Fig. 20. The results are for plain copper tubes of roughness Ra\nof 0.17 \u03bcm (Fig. 20a) and 0.74 \u03bcm (Fig. 20b) which were tested at a\nsaturation temperature of 5 \u00b0C and at three heat fluxes. Both tubes at all\nthree heat fluxes followed similar general trends of relatively stable\nHTCs as the film Reynolds number was decreased from a maximum\nuntil a rapid drop off in heat transfer occurs, caused by total dryout of\nthe tubes.\nThe cause of the rapid decrease in HTC resulting in total dryout is\nrelatively well understood, with the falling film breaking down and dry\npatches appearing on the tube at the low film Reynolds number conditions. This was visually confirmed during both this study and previous\nstudies [43].\nThe rougher tube at all heat fluxes and the smoother tube at 20 kW/\nm2 exhibit a region where the HTC is practically insensitive to film\nReynolds number changes, often referred to as the plateau region. The\nHTC is seen to change less than 5% for these tubes for film Reynolds\nnumbers above 500. Roques and Thome [7] and Ribatski and Thome\n[38] observed similar behaviour when they performed similar experiments on a plain tubes of roughness Ra of 0.8 \u03bcm with R-134a at a 5 \u00b0C\nsaturation temperature up to heat fluxes of 55 kW/m2. Jin et al. [11]\nfound a similar plateau region when testing with R134a, R290 and\nR600a with plain tubes of unspecified roughness.\nHowever, the smoother tube at higher heat fluxes of 50 and 80 kW/\nm2 exhibits a plateau region with greater sensitivity to changes in film\nReynolds number. The HTC drops by approximately 15% as the film\nReynolds number is dropped from 2000 to 500. A falling film study by\nZhao et al. [10] with R-134a at saturation temperatures of 6 \u00b0C, 10 \u00b0C\nand 16 \u00b0C on plain copper tubes also exhibited a plateau region with\nhigher sensitivity to changes in film Reynolds number.\nA similar difference in plateau region sensitivity can be seen when\nJin et al. [11] compared their heat transfer results for falling film\nboiling of plain tubes at 6 \u00b0C to those of Zhao et al. [10] who tested\nunder near identical conditions with the same experimental set-up. Jin\net al. found their falling film plateau region to be very insensitive to\nchanges in film Reynolds number, while the data of Zhao et al. [10]\nshowed a greater plateau region sensitivity. Jin et al. [11] did not offer\na possible explanation for the differences and noted that they were\nwithin experimental uncertainty limits. The surface roughness of the\ntubes was not recorded by either Jin et al. [11] or Zhao et al. [10].\nA possible cause may be imperfections in the fluid distribution along\nthe length of the tube. Despite every effort made in this study to ensure\neven fluid distribution along the length of the tubes, it was also noted\nthrough visual observation that even at high film Reynolds numbers\n(above 2000) dry patches would occasionally form and then immediately disappear on both smooth and rougher tubes.\nThus there may have been maldistribution of the fluid for the\nsmoother tubes that led to localised areas along the length of the tube\nexperiencing temporary instances of partial dryout, even at high film\nReynolds numbers. This phenomena would worsen as the film\nReynold's number decreased, thus causing a reduction in HTC.\nA possible physical explanations is that as the smoother tubes operate at higher wall superheats due to lower HTCs. The relatively hotter\nsurface may promote dryout more readily through rapid evaporation of\nlocalised thin areas compared to the colder surface of the rougher tubes.\nFurther detailed visualisation studies to better understand this\nFig. 18. Falling film boiling at a saturation temperature of 5 \u00b0C as function of\nheat flux with different material rougher tubes at a film Reynolds number of\napproximately 2000.\nFig. 19. Falling film enhancement Kff as function of heat flux with different material smoother tubes at a film Reynolds number of approximately 2100.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n13\nphenomenon are recommended to determine whether this sensitivity is\nindeed some form of dryout phenomenon as hypothesised here or rather caused by another physical process.\n8.2. Influence of surface roughness and saturation temperature on total\ndryout threshold\nThe threshold film Reynolds number at which total dryout occurs,\nRef,dry, as a function of heat flux is illustrated in Fig. 21 for copper tubes\ntested at saturation temperatures of 5 \u00b0C and 25 \u00b0C and roughnesses Ra\nof 0.12 \u03bcm and 0.74 \u03bcm. Also plotted is the evaporative limit, which is\nthe minimum film Reynolds number that can support the corresponding\nheat flux, assuming all heat is transferred from the tube to the re-\nfrigerant and the refrigerant evaporates as a result.\nThe general trend is that the total dryout threshold increased as the\nheat flux increased and followed the trends cited by numerous other\nauthors [7,10,31]. The increase in total dryout threshold approximately\nfollowed that of the increase in the evaporative limit, except for the\nrougher copper tube (Ra = 0.74 \u03bcm) at the saturation temperature of\n25 \u00b0C.\nChanges in roughness and saturation temperature were not shown\nto have a discernible influence on the total dryout threshold in this\nstudy. Given the inherent difficulty in determining the total dryout\nthreshold and the relative coarseness of the methods used, influences of\na smaller magnitude may not be detectable with the methods used in\nthis study. Larger saturation temperature or roughness ranges than used\nin this study may also be needed to elicit if any influence is present.\n8.3. Influence of surface material on total dryout threshold\nThe total dryout threshold as a function of heat flux for different\nmaterial tubes at a saturation temperature of 5 \u00b0C is shown in Fig. 22.\nThe total dryout threshold shows a similar trend across all three materials, with the total dryout threshold increasing as heat flux is increased proportionally to the increase in the evaporative limit. The wall\nmaterial did not show to have a strong influence on the total dryout\nthreshold in this study.\n9. Conclusions\nThe purpose of this study was to experimentally measure the influence of surface roughness and surface material of plain tubes on the\nfalling film boiling heat transfer, dryout and enhancement factors.\nStudies were conducted on plain tubes of varying roughness and material across a range of heat fluxes and film Reynolds numbers at two\nsaturation temperatures. High speed falling film boiling visualisation\nare recommended as a future avenue of research to provide greater\ninsight into the phenomena seen here.\nThe conclusions that were drawn are as follows:\n(1) The falling film enhancement factor increased as surface roughness\nincreased for all material tubes tested, with the enhancement factor\nranging from 1 to 1.4 as the roughness ranged from 0.09 \u03bcm to\n1.91 \u03bcm. It is hypothesized that the greater bubble density of\nrougher tubes increases the enhancement mechanisms proposed,\nsuch as greater microlayer evaporation of the sliding bubbles within\nthe falling film. The respective pool boiling and falling film HTCs\nincreased as surface roughness was increased.\n(2) The surface material was found to have no discernible influence on\nfalling film enhancement, but did influence the pool boiling and\nfalling film HTCs, with HTCs increasing as the material effusivity\nand thermal conductivity of the tubes was increased.\n(3) The falling film enhancement was found to be weakly influenced by\nFig. 20. Falling film boiling HTC as a function of the film Reynolds number at a saturation temperature of 5 \u00b0C on plain copper tubes.\nFig. 21. Total dryout threshold Ref,dry as a function of heat flux for different\nroughness copper tubes.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n14\nchanges in saturation temperature, with the enhancement increasing as saturation temperature decreased by between 0 and\n15%. The saturation temperature also influenced the respective\npool boiling and falling film HTCs, increasing them as the saturation temperature was increased. Further studies at larger saturation\ntemperature differences are recommended for further investigation.\n(4) A plateau region was found where the HTCs of the fully wetted\ntubes were fairly insensitive to changes in film Reynolds numbers.\nThis insensitivity did vary across the tubes, with the HTCs of\nrougher tubes changing by approximately 5% as film Reynolds\nnumbers varied from 500 to 2000, while the HTCs of smoother\ntubes varied by approximately 15%. Once the film Reynolds\nnumber dropped below a threshold, all tubes tested exhibited a\nsignificant drop in HTCs due to total dryout.\n(5) The total dryout threshold was shown to increase as heat flux was\nincreased. The total dryout threshold was not shown to be significantly influenced by surface roughness, surface material or saturation temperature.\nDeclaration of Competing Interest\nIt is hereby confirmed that the authors have no conflicts of interest.\nAcknowledgement\nThis project has received funding from the European Union's\nHorizon 2020 research and innovation programme under the Marie\nSk\u0142odowska-Curie grant agreement No. 778104.\nReferences\n[1] G. Ribatski, A.M. Jacobi, Falling-film evaporation on horizontal tubes - a critical\nreview, Int. J. Refrig. 28 (2005) 635-653.\n[2] UNEP, Amendment to the montreal protocol on substances that deplete the ozone\nlayer, United Nations Environmental Program, Art IV (1) (2016).\n[3] J.R. Thome, Engineering Data Book 3, Wolverine Tube Inc, 2004.\n[4] J. Fernandez-Seara, \u00c1.\u00c1. Pardi\u00f1as, Refrigerant falling film evaporation review:\ndescription, fluid dynamics and heat transfer, Appl. Therm. Eng. 64 (2014)\n155-171.\n[5] A.M. Abed, M.A. Alghoul, M.H. Yazdi, A.N. Al-Shamani, K. Sopian, The role of\nenhancement techniques on heat and mass transfer characteristics of shell and tube\nspray evaporator: a detailed review, Appl. Therm. Eng. 75 (2015) 923-940.\n[6] S.A. Moeykens, W.W. Huebsch, M.B. Pate, Heat transfer of R134a in single-tube\nspray evaporation including lubricant effects and enhanced surface results, in,\nAmerican Society of Heating, Refrigerating and Air-Conditioning Engineers, Inc.,\nAtlanta, GA (United States), 1995.\n[7] J.F. Roques, J.R. Thome, Falling films on arrays of horizontal tubes with R134a,\npart 1: boiling heat transfer results for four types of tubes, Heat Transfer Eng. 28\n(2007) 398-414.\n[8] L.-H. Chien, Y.-L. Tsai, An experimental study of pool boiling and falling film vaporization on horizontal tubes in R245fa, Appl. Therm. Eng. 31 (2011) 4044-4054.\n[9] L.H. Chien, R.H. Chen, An experimental study of falling film evaporation on horizontal tubes using R-134a, J. Mech. 28 (2012) 319-327.\n[10] C.-Y. Zhao, W.-T. Ji, P.-H. Jin, W.-Q. Tao, Heat transfer correlation of the falling\nfilm evaporation on a single horizontal smooth tube, Appl. Therm. Eng. 103 (2016)\n177-186.\n[11] P.-H. Jin, Z. Zhang, I. Mostafa, C.-Y. Zhao, W.-T. Ji, W.-Q. Tao, Heat transfer correlations of refrigerant falling film evaporation on a single horizontal smooth tube,\nInt. J. Heat Mass Transf. 133 (2019) 96-106.\n[12] D. Jige, H. Miyata, N. Inoue, Falling film evaporation of R1234ze(E) and R245fa on\na horizontal smooth tube, Exp. Therm Fluid Sci. 105 (2019) 58-66.\n[13] D. Gorenflo, D.B.R. Kenning, Pool boiling (chapter H2), VDI Heat Atlas, Springer-\nVerlag, Berlin, Heidelberg, 2010, pp. 757-792.\n[14] J.F. Roques, J.R. Thome, Falling films on arrays of horizontal tubes with R134a,\npart 2: flow visualization, onset of dryout, and heat transfer predictions, Heat\nTransfer Eng. 28 (2007) 415-434.\n[15] R. Mesler, A mechanism supported by extensive experimental evidence to explain\nhigh heat fluxes observed during nucleate boiling, AIChE J. 22 (1976) 246-252.\n[16] K. Nishikawa, H. Kusuda, K. Yamasaki, K. Tanaka, Nucleate boiling at low liquid\nlevels, Bull. JSME 10 (1967) 328-338.\n[17] M. Cerza, V. Sernas, A bubble growth model for nucleate boiling in thin, falling,\nsuperheated, laminar, water films, Int. J. Heat Mass Transf. 28 (1985) 1307-1316.\n[18] R. Mesler, G. Mailen, Nucleate boiling in thin liquid films, AIChE J. 23 (1977)\n954-957.\n[19] D. Gstoehl, Heat transfer and flow visualization of falling film condensation on tube\narrays with plain and enhanced surfaces, Ph.D. thesis \u00c9cole Polytechnique F\u00e9d\u00e9rale\nde Lausanne, Lausanne, Switzerland, 2004.\n[20] J.-F. Roques, Falling film evaporation on a single tube and on a tube bundle, Ph.D.\nthesis \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Lausanne, Switzerland, 2004.\n[21] M. Habert, Falling film evaporation on a tube bundle with plain and enhanced\ntubes, Ph.D. thesis \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Lausanne,\nSwitzerland, 2009.\n[22] M. Christians, Heat transfer and visualization of falling film evaporation on a tube\nbundle, Ph.D. thesis \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, Lausanne,\nSwitzerland, 2010.\n[23] J.M.S. Jabardo, G. Ribatski, E. Stelute, Roughness and surface material effects on\nnucleate boiling heat transfer from cylindrical surfaces to refrigerants R134a and\nR123, Exp. Therm Fluid Sci. 33 (2009) 579-590.\n[24] Mitutoyo, Quick guide to surface roughness measurement, in, Mitutoyo America\nCorporation, 2016.\n[25] E.W. Lemmon, M.L. Huber, M.O. McLinden, NIST reference fluid thermodynamic\nand transport properties-REFPROP, NIST Standard Reference Database 23\n(2002) v7.\n[26] E.E. Wilson, A basis for rational design of heat transfer apparatus, Trans. ASME 37\n(1915) 47-82.\n[27] D.E. Briggs, E.H. Young, Modified wilson plot techniques for obtaining heat transfer\ncorrelations for shell and tube heat exchangers, Chemical Engineering Progress\nSymposium Series, AIChE, New York, NY, 1969, pp. 35-45.\n[28] E. Van Rooyen, M. Christians, J.R. Thome, Modified Wilson plots for enhanced heat\ntransfer experiments: current status and future perspectives, Heat Transfer Eng. 33\n(2012) 342-355.\n[29] V. Gnielinski, New equations for heat and mass-transfer in turbulent pipe and\nchannel flow, Int. Chem. Eng. 16 (1976) 359-368.\n[30] B.S. Petukhov, Heat transfer and friction in turbulent pipe flow with variable\nphysical properties, in: J.P. Hartnett, T.F. Irvine (Eds.), Advances in Heat Transfer,\nElsevier, 1970, pp. 503-564.\n[31] M. Christians, J.R. Thome, Falling film evaporation on enhanced tubes, part 1:\nexperimental results for pool boiling, onset-of-dryout and falling film evaporation,\nInt. J. Refrig. 35 (2012) 300-312.\n[32] P.F. Dunn, Measurement and data analysis for engineering and science, 2nd ed.,\nCRC Press, 2010.\n[33] JCGM 100: 2008, Evaluation of Measurement Data-Guide for the Expression of\nUncertainty in Measurement, 2008.\n[34] F. Agostini, Boiling on a tube bundle: heat transfer, pressure drop and flow patterns,\nPh.D. thesis \u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne, 2008.\n[35] W.M. Rohsenow, J.P. Hartnett, Y.I. Cho, Handbook of heat transfer, McGraw-Hill,\nNew York, 1998.\n[36] D. Gstoehl, J.R. Thome, Film condensation of R134a on tube arrays with plain and\nenhanced surfaces: Part 1- experimental heat transfer coefficients, J. Heat Transfer\n128 (2006) 21-32.\n[37] M. Cooper, Saturation nucleate pool boiling-a simple correlation, Inst. Chem. Eng.\nSymp. Ser (1984) 785-793.\n[38] G. Ribatski, J.R. Thome, Experimental study on the onset of local dryout in an\nevaporating falling film on horizontal plain tubes, Exp. Therm. Fluid Sci. 31 (2007)\n483-493.\n[39] K. Stephan, Beitrag zur Thermodynamik des W\u00e4rme\u00fcberganges beim Sieden, Ph.D.\nthesis Verlag nicht ermittelbar, 1963.\n[40] G. Ribatski, J.M.S. Jabardo, Experimental study of nucleate boiling of halocarbon\nrefrigerants on cylindrical surfaces, Int. J. Heat Mass Transf. 46 (2003) 4439-4451.\n[41] R. Mesler, Research on nucleate boiling, Chem. Eng. Educ. 16 (1982) 152-156.\n[42] R.B. Mesler, J.T. Banchero, Effect of superatmospheric pressures on nucleate boiling\nof organic liquids, AIChE J. 4 (1958) 102-113.\n[43] G. Ribatski, J.R. Thome, A visual study of R134a falling film evaporation on enhanced and plain tubes, 5th International Symposium on Multiphase Flow, Heat\nMass Transfer and Energy Conversion, Xi'an, China, (2005).\nFig. 22. Total dryout threshold Ref,dry as a function of heat flux for different\nmaterial tubes at a saturation temperature of 5 \u00b0C.\nB.D. Bock, et al.\nExperimental Thermal and Fluid Science 109 (2019) 109870\n15",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5093
+    },
+    {
+      "number": 2,
+      "start": 5093,
+      "end": 9614
+    },
+    {
+      "number": 3,
+      "start": 9614,
+      "end": 14196
+    },
+    {
+      "number": 4,
+      "start": 14196,
+      "end": 17813
+    },
+    {
+      "number": 5,
+      "start": 17813,
+      "end": 24484
+    },
+    {
+      "number": 6,
+      "start": 24484,
+      "end": 27134
+    },
+    {
+      "number": 7,
+      "start": 27134,
+      "end": 32448
+    },
+    {
+      "number": 8,
+      "start": 32448,
+      "end": 39016
+    },
+    {
+      "number": 9,
+      "start": 39016,
+      "end": 43043
+    },
+    {
+      "number": 10,
+      "start": 43043,
+      "end": 45108
+    },
+    {
+      "number": 11,
+      "start": 45108,
+      "end": 49251
+    },
+    {
+      "number": 12,
+      "start": 49251,
+      "end": 51871
+    },
+    {
+      "number": 13,
+      "start": 51871,
+      "end": 56044
+    },
+    {
+      "number": 14,
+      "start": 56044,
+      "end": 59861
+    },
+    {
+      "number": 15,
+      "start": 59861,
+      "end": 68366
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-experimental-thermal-and-fluid-science",
+      "number": null,
+      "title": "Experimental Thermal and Fluid Science",
+      "level": 1,
+      "start": 41,
+      "end": 294
+    },
+    {
+      "id": "sec-1-bradley-d-bocka-josua-p-meyera-john-r-th",
+      "number": null,
+      "title": "Bradley D. Bocka, Josua P. Meyera,\u204e, John R. Thomeb",
+      "level": 1,
+      "start": 294,
+      "end": 5091
+    },
+    {
+      "id": "sec-2-t",
+      "number": null,
+      "title": "T",
+      "level": 1,
+      "start": 5091,
+      "end": 8403
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 8403,
+      "end": 17199
+    },
+    {
+      "id": "sec-4-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 17199,
+      "end": 24011
+    },
+    {
+      "id": "sec-5-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2,
+      "start": 24011,
+      "end": 38483
+    },
+    {
+      "id": "sec-6-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2,
+      "start": 38483,
+      "end": 44642
+    },
+    {
+      "id": "sec-7-table-4",
+      "number": null,
+      "title": "Table 4",
+      "level": 2,
+      "start": 44642,
+      "end": 60947
+    },
+    {
+      "id": "sec-8-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of Competing Interest",
+      "level": 2,
+      "start": 60947,
+      "end": 61052
+    },
+    {
+      "id": "sec-9-acknowledgement",
+      "number": null,
+      "title": "Acknowledgement",
+      "level": 2,
+      "start": 61052,
+      "end": 61236
+    },
+    {
+      "id": "sec-10-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 61236,
+      "end": 68366
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Comparison of literature values for falling film enhancement factor Kff",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": ") which consisted of a stainless steel rectangular shell with win-",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-2_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Schematic of refrigerant loop.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-2_p3.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Schematics of test chamber operation modes and temperature and pressure measuring points.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "The grit sandpapers chosen produced increasingly rougher tubes",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-4_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Mean surface roughnesses across and with the roughness grain of var-",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-4_p6.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Scanning electron microscope (SEM) images of roughened tubes.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-5_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Photo of test chamber with cut away schematic of test section illus-",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-6_p6.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "illustrates the implementation of this strategy on a copper",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-7_p7.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Falling Film boiling HTC on a copper tube with a surface roughness of",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-7_p7.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "as a function of the condensation temperature difference \u0394Tc.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-9_p8.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "with three successive readings taken at each set point, with the",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-11_p8.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Uncertainties as a function of heat flux at 5 \u00b0C for a copper tube under",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-8_p8.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "for saturation temperatures of 5 \u00b0C and 25 \u00b0C. Errors bars were",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-12_p9.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Condensation for a single tube with no inundation at a saturation",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-9_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Pool boiling of copper tubes at a saturation temperature of 5 \u00b0C.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-10_p9.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Falling film boiling on a copper tube at a saturation temperature of",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-11_p9.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Pool boiling with different roughnesses of copper tube at different saturation temperatures.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-12_p10.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "Pool boiling with smoother tubes of different materials at different saturation temperatures.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-13_p10.png"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "caption": "Pool boiling at 5 \u00b0C with different material rougher tubes.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-14_p11.png"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "caption": "Falling film boiling HTC\u2019s as function of heat flux with different roughnesses of copper tube at a film Reynolds number of approximately 2100 at different",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-15_p11.png"
+    },
+    {
+      "id": "fig-16",
+      "label": "Fig. 16",
+      "caption": "Falling film enhancement, Kff , with different roughnesses of copper tube at a film Reynolds number of approximately 2100 at different saturation tem-",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-16_p12.png"
+    },
+    {
+      "id": "fig-17",
+      "label": "Fig. 17",
+      "caption": "Falling film boiling with different material smoother tubes at a film Reynolds number of approximately 2000 at different saturation temperatures.",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-17_p12.png"
+    },
+    {
+      "id": "fig-18",
+      "label": "Fig. 18",
+      "caption": "Falling film boiling at a saturation temperature of 5 \u00b0C as function of",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-18_p13.png"
+    },
+    {
+      "id": "fig-19",
+      "label": "Fig. 19",
+      "caption": "Falling film enhancement Kff as function of heat flux with different material smoother tubes at a film Reynolds number of approximately 2100.",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-19_p13.png"
+    },
+    {
+      "id": "fig-20",
+      "label": "Fig. 20",
+      "caption": "Falling film boiling HTC as a function of the film Reynolds number at a saturation temperature of 5 \u00b0C on plain copper tubes.",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-20_p14.png"
+    },
+    {
+      "id": "fig-21",
+      "label": "Fig. 21",
+      "caption": "Total dryout threshold Ref,dry as a function of heat flux for different",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-21_p14.png"
+    },
+    {
+      "id": "fig-22",
+      "label": "Fig. 22",
+      "caption": "Total dryout threshold Ref,dry as a function of heat flux for different",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2019-falling-film-boiling-and-pool\\bock_2019_falling_film_boiling_and_pool_fig-22_p15.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "Fig. 4 illustrates that the absolute magnitude of the roughness",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "The uncertainties of the thermo-physical properties calculated",
+      "page": 8,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "The pool boiling results were found to approximately adhere to",
+      "page": 9,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "",
+      "page": 10,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 15,
+    "ingest": "pymupdf"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 55.0,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "were limited to a heat flux of 27 W/cm2 due to the condenser flow limit"
+      },
+      {
+        "quote": "one boiling curve for water was limited to 55 W/cm2 because of difficulties"
+      },
+      {
+        "quote": "26.4 W/cm2 could not be imposed."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": 40.0,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "of qin is more than 100 W and that of Tw is up to 40 K"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "a 25.4-mm × 25.4-mm × 1.0-mm-thick pure (99.99%) copper sheet and then soldering"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": 20.0,
+    "max": 120.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "Wang et al. [42] and Sullivan [43], we estimated the contact angles to be, 20 and 120◦for"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

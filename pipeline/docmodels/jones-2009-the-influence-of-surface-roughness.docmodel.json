@@ -1,0 +1,904 @@
+{
+  "doc_id": "e0408d66600fc019",
+  "source": "papers\\jones_2009_the_influence_of_surface_roughness.pdf",
+  "text": "Benjamin J. Jones\nJohn P. McHale\nSuresh V. Garimella1\ne-mail: sureshg@purdue.edu\nNSF Cooling Technologies Research Center,\nSchool of Mechanical Engineering,\nand Birck Nanotechnology Center,\nPurdue University,\n585 Purdue Mall,\nWest Lafayette, IN 47907-2088\nThe Influence of Surface\nRoughness on Nucleate Pool\nBoiling Heat Transfer\nThe effect of surface roughness on pool boiling heat transfer is experimentally explored\nover a wide range of roughness values in water and FluorinertTMFC-77, two fluids with\ndifferent thermal properties and wetting characteristics. The test surfaces ranged from a\npolished surface (Ra between 0.027 m and 0.038 m) to electrical discharge machined (EDM) surfaces with a roughness Ra ranging from 1.08 m to 10.0 m. Different trends were observed in the heat transfer coefficient with respect to the surface\nroughness between the two fluids on the same set of surfaces. For FC-77, the heat\ntransfer coefficient was found to continually increase with increasing roughness. For\nwater, on the other hand, EDM surfaces of intermediate roughness displayed similar heat\ntransfer coefficients that were higher than for the polished surface, while the roughest\nsurface showed the highest heat transfer coefficients. The heat transfer coefficients were\nmore strongly influenced by surface roughness with FC-77 than with water. For FC-77,\nthe roughest surface produced 210% higher heat transfer coefficients than the polished\nsurface while for water, a more modest 100% enhancement was measured between the\nsame set of surfaces. Although the results highlight the inadequacy of characterizing\nnucleate pool boiling data using Ra, the observed effect of roughness was correlated\nusing h Ra\nm as has been done in several prior studies. The experimental results were\ncompared with predictions from several widely used correlations in the literature.\nDOI: 10.1115/1.3220144\nKeywords: nucleate pool boiling, heat transfer, surface roughness\n1\nIntroduction\nSurface roughness has long been known to have a significant\nimpact on the boiling process. In 1936, Jakob 1 reported that\nboth surface roughness and the level of corrosion and oxidation of\nthe surface dramatically influence the boiling curve. At the time,\nthe bubble incipience process was not well understood. By the late\n1950s, one of the prevailing theories was that bubbles emanate\nfrom cavities containing entrapped vapor 2 . The experiments by\nClark et al. 3 provided strong evidence for the theory that\nbubbles do indeed emanate from cavities and other surface imperfections. The theoretical analysis by Bankoff 4 further substantiated the vapor entrapment theory by showing that only unwetted\ncavities can serve as nucleation sites, and that only cavities of a\ncertain shape can serve as vapor traps 5 . The role of cavities was\nfurther elucidated by Griffith and Wallis 6 , who showed that the\ncavity radius determines the superheat required for bubble nucleation in a uniformly superheated liquid, with larger cavities requiring lower wall superheats. Hsu 7 extended this analysis to include the effects of the thermal boundary layer and showed that\nonly a certain range of cavity sizes can serve as active nucleation\nsites.\nThe realization of the importance of cavities spurred interest in\nusing roughened surfaces as a means of increasing the number of\nnucleation sites and size of cavities, thus enhancing boiling heat\ntransfer. Several investigations into the effect of surface roughness\nwere carried out in the 1950s and 1960s. Corty and Foust 8\ninvestigated a variety of copper and nickel surfaces prepared with\ndifferent levels of polishing. They found that the surface roughness not only affected the superheat required for incipience but\nalso the slope of the boiling curve. Rougher surfaces resulted in\nlower superheats for a given heat flux, which was attributed to the\npresence of larger unwetted cavities on the rougher surfaces.\nSimilar conclusions were reached by other researchers: Kurihara\nand Myers 9 , who studied a variety of fluids boiling from copper\nsurfaces with differing levels of polish; Hsu and Schmidt 10 ,\nwho studied the boiling of water from stainless steel surfaces; and\nMarto and Rohsenow 11 who studied the boiling of sodium from\nsurfaces prepared using a variety of different techniques. Berenson 12 studied the boiling of n-pentane on surfaces of varying\nroughness and found large variations in the heat transfer coeffi-\ncient, of up to 600%, due to the differences in surface characteristics.\nThe increased understanding of the role of surface condition\nhas also led to commercially available enhanced surfaces for improved boiling performance. Many of these boiling enhancements\nare designed to create re-entrant-type cavity structures which are\nmore difficult for the liquid to fully wet than simple cavity shapes\nand, based on the analysis of Griffith and Wallis 6 , are believed\nto serve as more stable nucleation sites. Therefore, these enhanced\nsurface geometries typically lead to better boiling performance\ncompared with roughened surfaces produced by conventional machining processes. A wide variety of industrial applications, however, still utilize surfaces produced using conventional machining\nprocesses and these surfaces remain the focus of the present work.\nGood reviews of enhanced boiling surfaces have been provided by\nWebb 13,14 .\nFor surfaces produced using conventional manufacturing techniques, several researchers have noted the inability of commonly\nused surface roughness parameters, such as the rms roughness\nRq or average roughness Ra , to explain the variation in observed nucleate boiling heat transfer characteristics. Berenson 12\nnoted that the rms surface roughness itself was not the best indicator of the resulting performance since lapped surfaces had much\nhigher heat transfer coefficients than rougher surfaces produced\n1Corresponding author.\nManuscript received April 15, 2008; final manuscript received May 6, 2009;\npublished online October 15, 2009. Review conducted by Yogesh Jaluria.\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-1\nCopyright \u00a9 2009 by ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nwith emery paper. Bier et al. 15 reached a similar conclusion\nafter studying the boiling of R11 and R115 from surfaces prepared\nusing various techniques over a range of pressures. Chowdhury\nand Winterton 16 suggested that rougher surfaces would yield\nhigher nucleate pool boiling heat transfer coefficients if a consistent method of surface preparation is used, but the results from\nother investigators have not shown such a trend. Vachon et al. 17\ninvestigated boiling from unidirectionally polished and chemically\netched surfaces of varying roughness in water. The results from\nthe polished surfaces indicated that roughening the surfaces only\nimproved the boiling performance up to a certain point. The best\nheat transfer performance was obtained with an 1 m rms surface\nroughness, and further roughening of the surface yielded no additional benefit. The results from the chemically etched surfaces\nwere more varied and showed the inadequacy of using rms roughness to characterize boiling surfaces.\nSeveral researchers have also noted an apparent maximum heat\ntransfer coefficient with respect to surface roughness as observed\nby Vachon et al. 17 . Kravchenko and Ostruovskiy 18 studied\nvarious organic fluids and nitrogen boiling from stainless steel\ntubes. Their results indicated that vertical tubes with a roughness\naverage Ra greater than 0.58 m do not experience any further\nimprovement in the heat transfer coefficient. Grigoriev et al. 19\nstudied the boiling of helium for surfaces of varying roughness\nand also noted that once a surface was sufficiently rough, additional roughening yielded no benefit. Many other researchers,\nhowever, have not observed such an apparent maximum heat\ntransfer coefficient, and this variety of results may simply indicate\nthe inadequacy of correlating nucleate boiling heat transfer data\nusing surface roughness parameters.\nRecognizing the deficiencies of characterizing boiling surfaces\nwith surface roughness parameters, several researchers have attempted to characterize the surfaces in a more mechanistic fashion\nby measuring cavity sizes and shapes using optical or electron\nmicroscopy 20-23 . Using an optical microscope, Wang and Dhir\n23,24 characterized the cavity structures on polished copper surfaces and developed a wetting criterion for determining the active\ncavity size distribution. Their theoretical analysis agreed well with\nexperimental results. However, such an approach is only tractable\non very smooth surfaces on which the number of cavities is relatively small. Attempts to characterize stochastically rough surfaces have been met with marginal success. Qi et al. 25 and\nLuke 26,27 have developed methods for determining active cavity size distributions from 3D profilometry data of boiling surfaces. However, the simplistic treatment of the surface structure\nand the wetting phenomenon used in the analyses has limited the\nutility of such predictions.\nWhile numerous investigators have reported on the inefficacy\nof correlating nucleate boiling data using surface roughness parameters, some researchers have reported success in correlating\nthe general trend of increasing heat transfer coefficients with increased roughness. Stephan 28 , in his investigation of boiling of\nR11 from copper surfaces of varying roughness, found that the\ninfluence of surface roughness on the heat transfer coefficient at a\nfixed heat flux could be represented with h Rp,old\n0.133, where Rp,old is\nthe German \"Gl\u00e4ttungstiefe\" defined by DIN 4762/1:1960. Danilova and Bel'skii 29 found a somewhat different dependence\nof h Rz\n0.2 when studying R12 and R113 boiling from tube surfaces prepared using various techniques. Both these studies\n28,29 were conducted at low reduced pressure. Nishikawa et al.\n30,31 extended the study of roughness to a wide range of re-\nduced pressure and found that the effect of surface roughness on\nthe heat transfer coefficient diminishes as the pressure approaches\nthe critical pressure. They found that the relation h Rp,old\n0.2 1-Pr best\nrepresented their experimental data.\nA relationship of the form h Rm does not adequately explain\nmany of the previously discussed anomalies when correlating\nnucleate pool boiling data using surface roughness parameters.\nNonetheless, it does provide a simple framework for incorporating\nthe influence of surface roughness into nucleate pool boiling correlations; and indeed several correlations have accounted for the\nsurface roughness effect using such relationships, including the\npopular Cooper 32,33 and Gorenflo 34 correlations.\nDue to the importance of accurately accounting for the influence of surface roughness when correlating nucleate boiling data,\nand given the wide variety of conclusions that have been reached\nin previous investigations, further research is warranted. The goal\nof the present work is to provide additional insights into the role\nof surface roughness on nucleate pool boiling with an experimental exploration using two fluids with widely differing thermal\nproperties and wetting characteristics: water and FC-77, a perfluorinated dielectric fluid. Widely used nucleate pool boiling correlations are evaluated against the experimental results. In particular, the capability of the correlations to account for the effect of\nsurface roughness is of prime interest in this study.\n2\nExperimental Setup\n2.1\nTest Facility. The pool boiling test facility is shown in\nFig. 1 a . The 25.4 25.4 mm2 test surface is prepared on top of\nan aluminum test block. Heat is supplied through 12 cartridge\nheaters embedded in the test block. The arrangement of the cartridge heaters is shown in Fig. 1 b . Numerical simulations were\nperformed to ensure that the cartridge heaters supplied heat uniformly to the test surface. Six thermocouple taps were drilled into\nthe test block at two different vertical and three horizontal locations as shown in Fig. 1. Surface temperature measurements were\ndetermined by extrapolating the thermocouple readings. Type-T,\n0.8 mm diameter sheathed thermocouples were used. All thermocouples were referenced to 0\u00b0C using a dry-block ice point reference chamber and the thermocouples were calibrated using a\ndry-block thermocouple calibration unit. The estimated uncertainty in the thermocouple measurements is 0.3\u00b0C, while the estimated uncertainty in the extrapolated surface temperature ranges\nfrom 0.3\u00b0C at low heat fluxes to 0.6\u00b0C at higher heat fluxes.\nA high temperature thermoplastic, PEEK, was chosen as an\ninsulation material due to its combination of low thermal conductivity 0.28 W/m K , high temperature resistance up to\nFig. 1\n\u201ea... Schematic of pool boiling facility and \u201eb... top view of\ntest block showing the locations of thermocouples and cartridge heaters\n121009-2 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\n250\u00b0C , and good machinability. A ceramic alumina silicate\nsheath served as the insulation material around the hottest portion\nof the test block. The liquid pool was enclosed by clear polycarbonate walls to allow for direct observation of the boiling process.\nA thermocouple located in the pool see Fig. 1 a was used to\nmeasure the liquid pool temperature. Cartridge heaters installed\ninside the pool provided additional heat to maintain the liquid at\nthe saturation temperature. Vapor generated from the boiling process flowed into a Graham-type condenser. The vapor inside the\ncondenser was cooled and condensed using water from a chiller,\nwith the condensate draining back into the pool, and the outlet\nopen to the atmosphere in order to maintain atmospheric pressure\ninside the pool. Since, under high vapor loads, the condenser can\nbecome clogged with liquid, a pressure transducer monitors the\npool pressure to ensure that it is indeed at atmospheric pressure\nthroughout the experiments.\nEstablishing an effective seal between the test piece and the\ninsulation proved to be difficult. Any gap or crack in this interface\ncan result in unwanted nucleation sites. A solution to this problem\nwas devised using an epoxy sealing technique. A very slight\nchamfer in the insulation block around the test surface formed a\ngroove which provided space for a bead of sealant as shown in\nthe inset of Fig. 1 a . A small bead of silicone RTV sealant was\nfirst applied to the bottom of the groove. A low-viscosity, slowcure epoxy filled the remaining portion of the groove. The RTV\nprevents the epoxy from wicking down the clearance gap between\nthe test piece and insulation, thus allowing for easier removal of\nthe test piece. Although undesirable nucleation sites were still\noccasionally detected with this technique, repeated testing indicated that these occasional unwanted nucleation sites have little\neffect on the results obtained.\nThe surface heat flux was determined by correcting the electrical power input by the amount of estimated heat loss. Although\nthe axial pairs of thermocouples in the aluminum block could be\nused to measure the surface heat flux directly, this results in unacceptable errors in the measurement due to tolerances in the\nplacement of the thermocouples and the thermocouple measurement uncertainties. Therefore, a 3D numerical simulation was performed to estimate the heat losses. The PEEK and ceramic insulation as well as the test block were included in the model and\nboundary conditions representative of the experimental test conditions were applied uniform boiler surface temperature, uniform\nheat generation region for the cartridge heaters, and natural convection boundary conditions for the exterior surfaces . The numerically estimated heat losses were in reasonable agreement with\nthe heat losses estimated based on thermocouple readings when\nconsidering the errors associated with this estimate. The heat\nlosses were found to be less than 15% of the electrical power\ninput for moderate to high heat fluxes q 120 kW/m2 .\n2.2\nTest Surfaces. A total of six test pieces of varying surface\nroughness were fabricated. Separate test pieces were manufactured with a polished surface for use in the water and FC-77\nexperiments. In both cases, the polishing was achieved using successively finer grits of sandpaper. The other test pieces were\nmanufactured with surfaces roughened to varying degrees. The\nsurfaces were first fly-cut and then roughened using ram-type\nelectrical discharge machining EDM . In the EDM process, the\nmachine parameters can be controlled to produce surfaces with\ndifferent roughness. Enough surface material was removed with\nEDM so that the final roughness was solely due to the EDM\nprocess rather than the original machining operation.\nThe surface roughness of the test surfaces was measured with\neither a probe-type surface profilometer or an optical profilometer.\nSeveral scans were performed in different locations on each surface. The roughness average Ra , RMS roughness Rq , maximum profile peak height Rp , and five-point average maximum\nheight Rz were evaluated according to ASME B46.1-1995 standards and are reported in Table 1. No single roughness parameter\nhas been shown to be superior for characterizing boiling surfaces\nand several surface parameters are being reported simply to allow\nan easier comparison to previous studies. However, it should be\nnoted that the definition of some of these surface parameters has\nchanged over time. For example, Rp currently has congruent defi-\nnitions in the ASME, ISO, and DIN standards, although the current definition differs from Rp,old in DIN 4762/1:1960, which has\nbeen used by Stephan 28 among many other researchers. For the\nremainder of this paper, the roughness average Ra will be used\nto identify the different surfaces under study.\nThe surface topography of four of the surfaces, as measured\nwith the optical profilometer, is shown in Fig. 2. The polished\nsurface Fig. 2 a is seen to be quite smooth with a few small\ncavities distributed across the surface. EDM tends to form an\nirregular pattern of cavities on the surface Figs. 2 b -2 d . The\ncavities are larger and more numerous on the EDM surfaces compared with the polished surface. The EDM surfaces with larger\nroughness form larger cavities than those with smaller RMS\nroughness.\n2.3\nExperimental Procedure. Deionized water and FC-77\nwere used as the test fluids; relevant thermophysical properties of\nthe FC-77 are as follows: Tsat 100.3\u00b0C, =1592 kg/m3,\n=4.42 104 kg/m s,\nkl=0.057 W/m K,\nhfg=89 kJ/kg,\ncp,l\n=1.170 kJ/kg K, and =0.0057 N/m 35,36 . The liquid was\ndegassed by boiling for approximately 2 h prior to each experiment, either using the immersed cartridge heaters in the pool for\nthe FC-77 experiments or in an external degassing reservoir for\nthe water experiments . During the experiments, heat losses from\nthe pool required additional heat to be supplied through the immersed cartridge heaters to maintain the liquid at the saturation\ntemperature. To mitigate undesirable convective currents induced\nby the immersed heaters, the power setting for the cartridge heat-\ners was maintained as low as possible while maintaining the pool\nto within 0.5\u00b0C of the saturation temperature. At high heat fluxes,\nthe pool cartridge heaters were turned off as the test piece provided enough heat by itself to maintain the desired pool\ntemperature.\nThe thermocouple readings were recorded with a data acquisition system. All reported values of the surface temperature represent the average over an interval of at least 1 min, after the surface\ntemperature had reached equilibrium. Experiments were conducted both in order of increasing and decreasing heat flux to\ncheck for boiling hysteresis. The boiling process was observed\nthrough the front polycarbonate wall using a high-speed camera\nsystem with a macro lens. Illumination was provided by two fiberoptic illuminators and a halogen light source in the water experiments. A green laser light sheet served as the illumination source\nfor the FC-77 experiments as this light source provided higher\nintensity and more uniform illumination that was necessary to\nresolve the smaller and more numerous vapor bubbles observed in\nthe FC-77 experiments compared with the experiments in water.\nImages were recorded at frame rates between 8000 and 12,000\nfps.\nTable 1\nSurface roughness measurements\nSurface preparation\nSurface roughness parameters\nRa\nm\nRq\nm\nRp\nm\nRz\nm\nPolished water\n0.038\n0.062\n0.81\n0.58\nPolished FC-77\n0.027\n0.039\n0.18\n0.35\nEDM\n1.08\n1.37\n6.09\n8.24\n2.22\n2.81\n12.0\n16.7\n5.89\n7.37\n24.5\n37.1\n10.0\n12.5\n32.4\n56.5\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-3\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\n3\nExperimental Results\nThe boiling curves for water are shown in Fig. 3. The results\nare shown for data obtained in order of increasing heat flux i.e.,\ntraversing \"up\" the boiling curve . As seen in Fig. 3 a , the roughest EDM surface 10.0 m resulted in the lowest superheat at a\ngiven heat flux while the polished test piece 0.038 m was\nassociated with the highest superheat. The other EDM test surfaces\nof\nintermediate\nroughness\n1.08 m,\n2.22 m,\nand\n5.89 m performed similarly, resulting in lower superheats than\nthe polished test piece but higher superheats than the roughest\nEDM surface. The 5.89 m surface had slightly higher super-\nheats than the 1.08 m and 2.22 m surfaces at lower heat\nfluxes but the results show negligible difference in superheat at\nhigher heat fluxes. Boiling incipience occurred at a superheat of\napproximately 5\u00b0C for the roughest EDM surface 10.0 m ,\n7\u00b0C for the other EDM surfaces 1.08 m, 2.22 m, and\n5.89 m , and 11\u00b0C for the polished surface. This may be attributed to the rougher surfaces having larger active cavity sizes,\nwhich result in lower wall superheats at incipience. The heat\ntransfer coefficients show a similar trend Fig. 3 b . The roughest\nEDM surface achieved the highest heat transfer coefficient for a\ngiven heat flux while the polished test piece resulted in the lowest.\nThe 1.08 m, 2.22 m, and 5.89 m surfaces showed approximately a 60% improvement in the heat transfer coefficient over\nthe polished surface at a given heat flux, while the 10.0 m EDM\nsurface provided approximately a 100% improvement.\nAs discussed earlier, several researchers have concluded that\nonce a surface is sufficiently rough, there is no benefit to additional roughening 17-19 . If the 10.0 m surface is excluded,\nthe current study would support this conclusion as there is no\nadditional enhancement beyond Ra=1.08 m. It is possible that if\nthe roughness were increased significantly in the past studies, a\ntrend similar to the findings in the current study may have held\ntrue. However, it is currently unclear why the 10.0 m surface\nperforms markedly better than the other EDM surfaces in re-\npeated tests , and it is difficult to conclusively address this issue.\nThe roughest EDM surface had a lower incipience superheat and\nhigher heat transfer coefficients than the other EDM surfaces. The\nsurface area in contact with the fluid for the 10.0 m EDM surface, estimated from the optical profilometer data, was only ap-\nFig. 2\nSurface topography of test surfaces over an area of 400\u00c3300 m2 as measured by an optical\nprofilometer: \u201ea... 0.038 m polished surface, \u201eb... 1.08 m EDM surface, \u201ec... 2.22 m EDM surface,\nand \u201ed... 5.89 m EDM surface\nFig. 3\nBoiling curves for water: \u201ea... heat flux versus wall superheat and \u201eb... heat transfer coefficient versus heat flux\n121009-4 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nproximately 1% greater than for the 5.89 m surface. Therefore,\na surface area enhancement does not explain the higher heat transfer coefficients observed. It appears that the 10.0 m EDM surface has larger active cavities and a higher active cavity density\nthan the other EDM surfaces. These results, as other researchers\nhave concluded, highlight the inadequacy in using standard surface roughness parameters to characterize boiling surfaces.\nThe boiling curves for FC-77 are shown in Fig. 4. The results\nare shown for data obtained in order of decreasing heat flux i.e.,\ntraversing \"down\" the boiling curve . Hysteresis effects i.e., comparison of data obtained while traversing \"up\" the boiling curve\nversus \"down\" the curve are discussed later in this section. Unlike the results in water, a trend of continuously increasing heat\ntransfer coefficients with respect to surface roughness, for a given\nheat flux, is observed in the FC-77 experiments. There also appears to be a larger dependence of heat transfer coefficient on\nsurface roughness for FC-77 than for water. The improvements in\nheat transfer coefficient range from 150% for the 1.08 m surface to 210% for the 10.0 m surface above the values obtained\nfor the polished surface, at a fixed heat flux. The differences in the\nobserved trends in the heat transfer coefficient between water and\nFC-77 may be attributed to the differences in wetting behavior of\nthe two fluids as well as the cavity size distribution presented by\nthe surfaces. Since FC-77 is more highly wetting than water,\nsmaller cavities are preferred for nucleation. For instance, it is\npossible that the 1.08 m and 5.89 m surfaces have a similar\nnumber of the larger cavities that cause nucleation in water, yet\nthe 5.89 m surface may have a greater number of the smaller\ncavities that cause nucleation in FC-77. However, evaluation of\nthe surfaces for cavity size distribution is not straightforward even\nwhen detailed 3D surface profiles are available, and the reasons\nfor the observed differences between water and FC-77 need further study.\nThe value of critical heat flux, depicted with an in Fig. 4, was\nexperimentally determined for the polished, 1.08 m, and\n2.22 m surfaces in FC-77. It can be seen in Fig. 4 b that the\nboiling curves tend to flatten out as critical heat flux is approached, as is most apparent with the polished surface. The polished surface exhibited a critical heat flux of 137 kW/m2, while\nhigher and nearly identical values of critical heat flux of 189 and\n188 kW/m2 were observed for the 1.08 m and 2.22 m EDM\nsurfaces, respectively, showing an almost 40% improvement. Due\nto the limit on the condenser capability with respect to maximum\nvapor generation rates, the experiments were not run to critical\nheat flux values with the two roughest surfaces for FC-77 and for\nany of the surfaces in water.\nAdditional experiments were conducted to check for boiling\nhysteresis see Fig. 5 . For water Fig. 5 a , the roughest EDM\ntest piece showed no discernible hysteresis, with the results obtained during increasing q\u2191 and decreasing q\u2193 heat flux being\nnearly identical. However, some extent of hysteresis was observed\nfor the polished test piece in water. At the incipience heat flux\n15 kW/m2 , the wall superheat is approximately 10.8\u00b0C in\nthe direction of increasing heat flux q\u2191 , while it was only 9.5\u00b0C\nfor decreasing heat flux q\u2193 . The maximum disparity in the superheat between the increasing and decreasing curves occurs at a\nheat flux of 2.0 W/cm2, corresponding to a temperature over-\nshoot of 2.3\u00b0C. Hysteresis has generally not been reported in the\nliterature for water at atmospheric pressure, although such effects\nhave been observed for water at subatmospheric pressures 37 .\nLarge hysteresis effects on smooth surfaces have been widely\nreported for FC fluids 38-40 and highly wetting fluids in general\n8,41 . Accordingly, a large temperature overshoot of 16.8\u00b0C was\nobserved for the polished surface see Fig. 5 b . The EDM surfaces also exhibit noticeable hysteresis effects with FC-77. A\nmaximum temperature overshoot of 16.2\u00b0C was measured for the\n1.08 m EDM surface, which is comparable to the measured\novershoot for the polished surface, although much lower surface\ntemperatures are obtained with the EDM surface. The 10.0 m\nEDM surface had a much reduced, although still significant, temperature overshoot of 5.6\u00b0C. It should also be noted that past\nboiling history has been shown to have a strong influence on the\nobserved hysteresis 8,38,42 , although this has not been studied\nin detail in the present work.\nPhotographs of the boiling process taken with the high-speed\ncamera system are shown in Fig. 6 for water and in Fig. 7 for\nFC-77. At low heat fluxes close to the incipience heat flux\n50 kW/m2 for water and 20 kW/m2 for FC-77 as seen in Figs.\n6 and 7, respectively , significantly more active nucleation sites\ncan be observed in the roughened EDM surface relative to the\npolished surface. Furthermore, the 5.89 m EDM surface has a\nsmaller bubble departure diameter and a higher bubble emission\nfrequency than the polished surface. The reasons for the differ-\nFig. 4\nBoiling curves for FC-77: \u201ea... heat flux versus wall superheat and \u201eb... heat transfer coefficient versus heat flux\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-5\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nences in bubble departure size for the different surfaces were explained by Hatton and Hall 43 . Hatton and Hall considered all of\nthe forces acting on a bubble during the growth process. For small\ncavity sizes, the bubble departure size is mainly determined by a\nbalance between the buoyancy and the dynamic inertial forces. As\nthe cavity size increases, the inertial forces decrease and the\nbubble departure diameter decreases, which explains the decreased bubble diameters from the EDM surfaces. For large cavities, a balance between buoyancy and surface tension forces determines the departure size.\nAt higher heat fluxes, the sizes of bubbles issuing from the\nsmooth surface are similar to those issuing from the roughened\nsurface due to a merging of bubbles from adjacent nucleation\nsites. This is most clearly seen in Fig. 6 at a heat flux of\n100 kW/m2 for water and in Fig. 7 at a heat flux of 80 kW/m2\nfor FC-77. As the heat flux is further increased, vapor slugs and\ncolumns are formed, as can be observed in the last row of photographs in Fig. 6. For water at 210 kW/m2, it is still apparent that\nthe roughened surface has a greater number of active nucleation\nFig. 5\nBoiling curves showing the hysteresis effect for \u201ea... water and \u201eb... FC-77, where q_ indicates data obtained in order\nof increasing heat flux and q` indicates those in order of decreasing heat flux. It is noted that a smaller heat flux increment\nwas used experimentally than is indicated in \u201eb...; only a fraction of the data are included to improve readability of the figure.\nFig. 6\nPhotographs of the boiling process in water for varying heat flux\nand surface roughness. The physical width of each image is approximately\n25 mm.\n121009-6 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nsites than the polished surface. For FC-77 at 140 kW/m2, both\nthe polished and rough surfaces are close to being blanketed by\nthe vapor as the heat flux is approaching the critical value.\nSome other interesting visual differences in the boiling behavior between water and FC-77 were also observed. For water,\nbubbles first nucleated from a single site and as the heat flux was\nincrementally increased, additional nucleate sites became active,\nmore or less randomly distributed across the test surface. For FC-\n77, however, nucleation sites tended to spread from the initial\nbubble-generating site as the heat flux was increased while the rest\nof the surface remained free of active centers although this is not\nevident in Fig. 7 since only a small portion of the surface is\nshown . The boiling patch would continue to grow until the heat\nflux was sufficient to activate sites across the entire surface. This\npatchwise boiling phenomenon has been previously reported by\nother investigators such as Corty and Foust 8 and Bergles and\nChyu 42 .\n4\nDiscussion\n4.1\nInfluence of Surface Roughness on the Boiling Curve.\nIt is well known that nucleate boiling heat transfer can be well\nrepresented by an exponential relationship given by h qn, where\nn is a function of pressure and surface characteristics. As was\nmentioned earlier, several researchers have also noted that the\ndependence of heat transfer coefficient on surface roughness at a\nfixed heat flux can be modeled by an exponential relation, h\nRm, where R is some measure of the surface roughness. Putting\nthese two relationships together yields\nh = CRmqn\n1\nwhere C is a constant. As Eq. 1 indicates, surface roughness can\nboth change the magnitude of the heat transfer coefficient and\nchange the slope of its variation with heat flux since the exponent\nn is also dependent on roughness. In this section, the h Rm relationship is first examined, followed by the influence of surface\nroughness on the slope of the h versus q variation.\nThe effect on heat transfer coefficient of the surface roughness\nat different heat fluxes is illustrated in Fig. 8. An exponential\ncurve represents the experimental results reasonably well, with\nsome deviation from the trend exhibited in Fig. 8 a by the\n5.89 m surface in water. The roughness exponent m changes\nonly mildly with heat flux. For water, the roughness exponent is\n0.09 at 50 kW/m2 and 100 kW/m2 and increases slightly to m\n=0.11 at a heat flux of 300 kW/m2. With FC-77 see Fig. 8 b , a\ngreater dependence of surface roughness on the heat transfer co-\nefficient is seen than with water, resulting in higher roughness\nexponents ranging from m=0.21 at 20 kW/m2 to m=0.19 at\n80 kW/m2. The EDM surfaces for FC-77 seem to be better represented by a different slope than the overall curve the latter\nincludes the polished surface . The roughness exponents for the\nEDM surfaces alone range from m=0.15 at 20 kW/m2 to m\n=0.09 at 80 kW/m2.\nThe results indicate that the surface roughness exponent is not a\nconstant across different fluid-surface combinations. Since it is\nwell known that the wettablity of the fluid has important consequences on the nucleation behavior 23 , it is reasonable to hypothesize that m is also a function of the contact angle. Although\ncontact angles were not measured in the current study, FC-77 is\nhighly wetting on most metal surfaces while water is moderately\nwetting. Therefore, it may be proposed that highly wetting fluids\nare well represented by a roughness exponent m=0.2 while for\nmoderately wetting fluids, m=0.1 is more appropriate. However,\nit is noted that the difference in slopes between the overall curves\nand the EDM-only curves for FC-77 and the anomalously low\nvalue of the heat transfer coefficient for the 5.89 m surface in\nwater cannot be reconciled if m is simply a function of contact\nangle . This further illustrates the weakness in using Ra to\ncorrelate the nucleate boiling data and highlights the deficiencies\nin models of the form h Rm. That said, although the model does\nnot account for all of the inconsistencies that numerous other authors have observed when trying to correlate the effects of roughness, it does serve as a useful basis for developing nucleate boiling correlations, as will be further discussed later.\nTable 2 provides a summary of findings in the literature regarding the dependence of heat transfer coefficient on surface roughness. Most of the studies were conducted using refrigerants with\nFig. 7\nPhotographs of the boiling process in FC-77 for varying heat flux\nand surface roughness. The physical width of each image is approximately\n7.3 mm.\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-7\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nthe exception of Fedders 44 and the current study, where water\nis considered. Moreover, most past studies were conducted at low\nreduced pressure and only in the study by Nishikawa et al. 30,31\nwas a wide range of reduced pressures investigated. As stated\nearlier, Nishikawa et al. found that m=0.2 1-Pr , which reduces\nto m 0.2 at low reduced pressures. This seems to agree well with\nthe findings of Danilova and Bel'skii 29 and Ribatski and Jabardo 45 , but conflicts with the value proposed by Stephan 28 .\nA surface roughness exponent of m=0.2 also agrees with the current results in FC-77. If the hypothesis that m= f holds, this is\nnot entirely surprising since most refrigerants are highly wetting\non metal surface. Of the results in water, Fedders 45 found m to\nrange from 0.10 to 0.133, which agrees reasonably well with the\npresent m values 0.09 to 0.11 for water. However, these m values\nin water also agree with Stephan's 28 m=0.133 in R11, which\ndoes not support the claim that m is a function of . Thus, more\nexperimental investigations are needed to clarify whether m\n= f is an adequate generalization of the influence of surface\nroughness.\nFig. 8\nDependence of heat transfer coefficient on surface roughness for \u201ea... water and \u201eb... FC-77. The solid lines represent\na curve fit through all five experimental data points \u201eone polished surface and four EDM surfaces.... The dashed lines in \u201eb...\nrepresent a curve fit to only the four EDM surfaces \u201eexcluding the 0.027 m polished surface....\nTable 2\nDependence of heat transfer coefficient on surface roughness\nAuthor s\nDependence\nPressure\nHeat flux\nW/m2\nFluid s\nHeater\ntype\nSurface\nmaterial\nSurface\npreparation\nRoughness\nm\nStephan 28\nh Rp,old\n0.133\nPr=0.023\n5 104\nR-11\nhorizontal\ncylinder,\nhorizontal\nplate\ncopper\nnot specified\n0.15 Rp,old 7.9\nDanilova and\nBel'skii 29\nh Rz\n0.2\n0.118 Pr 0.155\n104\nR-12, R-114\nhorizontal\ncylinder\ncooper,\nsteel\nsandpaper,\nsandblasted,\nturning, etc.\n0.3 Rz 58\nNishikawa\net al. 30,31\nh Rp,old\n0.2 1-Pr\n0.08 Pr 0.9\n105\nR-12, R-113,\nR-114\nhorizontal\nplate\ncopper\nemery cloth\n0.022 Rp,old 4.31\nFedders 44\nh Rp,old\n0.133\n0.012 Pr 0.089\n5 104\nwater\nhorizontal\ncylinder\nstainless steel\nsandpaper,\nsandblasted\n0.18 Rp,old 3.6\nh Rp,old\n0.12\nPr=0.012\n106\nh Rp,old\n0.10\nPr=0.089\nRibatski and\nJabardo 45\nh Ra\n0.2\n0.008 Pr 0.260\nnot specified\nR-11, R-123,\nR-12, R-134a,\nR-22\nhorizontal\ncylinder\ncopper, brass,\nstainless steel\nsandpaper,\nsandblasted\n0.02 Ra 3.3\nCurrent work\nh Ra\n0.1\nPr=0.0046\n5 104 to 3 105\nwater\nhorizontal\nplate\naluminum\nsandpaper,\nEDM\n0.038 Ra 10.0\nh Ra\n0.2\nPr=0.064\n2 104 to 8 104\nFC-77\n0.027 Ra 10.0\n121009-8 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nFrom Table 2 it does not appear that heater type horizontal\ncylinder versus horizontal flat plate has a discernible effect on the\nsurface roughness exponent. Stephan 28 studied both horizontal\ncylinders and flat surfaces and found that a roughness exponent of\nm=0.133 was representative of both heater types. Few studies\nhave investigated the effects of surface roughness on vertical cylinders and flat plates. Although Chun and Kang's 46 study of\nsurfaces over a small range of surface roughness Rq between\n0.0151 m and 0.0609 m found that vertical tubes are affected\nby surface roughness to a greater extent than horizontal tubes,\nthere is no further confirmation in the literature of this trend, and\nit is currently unclear that a modification in surface roughness\nexponent m is needed to account for tube orientation.\nThe role of the surface material on the surface roughness exponent is not conclusive. In Danilova and Bel'skii's 29 study, both\ncopper and steel surfaces were used and no noticeable difference\nin the trend of heat transfer coefficient with surface roughness was\nnoted for the two surface materials. While Ribatski and Jabardo\n45 also studied a variety of surface materials, most of their work\non the effects of surface roughness dealt with copper surfaces.\nSince the surface material and other surface characteristics degree of oxidation, coatings, etc. influence the contact angle , the\nchoice of material may influence m if it is indeed a function of .\nHowever, to the authors' knowledge, this has not been experimentally explored in detail.\nThe present results show that the heat flux exponent n changes\nwith roughness since the exponent m in the relationship h Rm\nwas found to change with heat flux. The relationship between n\nand Ra thus warrants a closer investigation. As shown in Fig. 9,\nthe exponent n is found to vary linearly with surface roughness\nfrom 0.80 for the polished to 0.87 for the roughest EDM surfaces\nin water; the corresponding variation in n for FC-77 is from 0.83\nto 0.71.\nThe findings from the present work may be compared with a\nnumber of studies in the literature. The data provided by Vachon\net al. 17,47,48 for water at atmospheric pressure suggest exponents n in the relationship h qn in the same range as the present\nstudy. However, data by Vachon et al. for chemically etched surfaces exhibit higher exponents n than their data for the unidirectional polished surfaces despite having similar surface roughness.\nThe experimental data for water by Kurihara and Myers 9,49\nshow a much stronger dependence on surface roughness on the\nslope of the boiling curve than observed in the current study. As\ndetermined from the data provided in Ref. 49 , the exponent n\nvaries from 0.76 to 0.95 from the smoothest to the roughest surface. Although Kurihara and Myers 9 did not state the surface\nroughness, it was implied that the rms roughness was less than\n1.2 m. Based on these comparisons, it does not appear that n\ncan be adequately correlated with surface roughness. However for\nthe current results, the ability to predict the change in the exponent n with roughness is of secondary importance since only small\nchanges in the slope were noted n ranging from 0.80 to 0.87 for\nRa ranging from 0.038 m to 10.0 m, respectively, in water .\n4.2\nNucleate Boiling Correlations. The complex liquidvapor-surface phenomena involved in nucleate pool boiling heat\ntransfer has rendered the development of a predictive model dif-\nficult, as is evident from the large number of nucleate boiling\ncorrelations that have been proposed over the past several decades\nsee Table 3 . Many of these correlations have theoretical under-\npinnings, such as the correlation by Forster and Zuber 50 ; however, their utility is limited by the failure to adequately account for\nsurface effects. One of the earliest correlations developed specifi-\ncally to handle a wide variety of fluids and surfaces is the Rohsenow 51 correlation, which uses empirical factors to account for\nthe surface-fluid combination. Constants for several surface-fluid\ncombinations have been provided by various authors 52,53 .\nHowever, the usefulness of the Rohsenow correlation is also limited as it requires experimental data on the fluid-surface combination of interest as inputs.\nSeveral correlations have been formulated in terms of nucleation site densities to represent the influence of different surface\ncharacteristics on heat transfer. These include the correlations by\nTien 54 , Leinhard 55 , and Mikic and Rohsenow 56 . However, since the nucleation site densities are generally not known a\npriori, most of these correlations require empirical fits to determine these parameters and other associated constants. Although\nthese correlations are still of some theoretical significance, their\nutility in many engineering environments is limited.\nAs noted earlier, several investigators have observed a h Rm\ndependence and correlations adopting a form similar to Eq. 1\nhave been proposed. These include the correlations by Danilova\n57 , Nishikawa et al. 31 , Cooper 32,33 , Gorenflo 34 , Leiner\n58 , and Ribatski and Jabardo 45 . Most of these correlations\nprovide predictions of nucleate pool boiling heat transfer coeffi-\ncients without the need for experimental data as inputs; thus, these\ncorrelations have proven quite useful in many engineering applications. The Danilova, Nishikawa, and Ribatski and Jabardo correlations were developed specifically for refrigerants; while the\nCooper, Gorenflo, and Leiner correlations were designed for a\nbroader range of fluids. Since it is highly desirable to have a\nsingle correlation that provides accurate predictions for a wide\nvariety of fluid-surface combinations, further discussion in this\nwork is limited to the Cooper, Gorenflo, and Leiner correlations.\nThe suitability of each of these correlations for predicting the\nnucleate pool boiling heat transfer coefficients from the present\nwork for two fluids water and FC-77 with significantly different\nwetting characteristics and thermal properties over a wide range\nof surface roughness is assessed.\n4.3\nCooper Correlation. Cooper 59 noticed that although\nmany correlations had different algebraic forms, they produced\nsimilar numerical predictions and similar trends. He showed that\nmany of these correlations could be reformulated using reduced\nproperties, resulting in a simpler formulation without much loss in\naccuracy 32,33 . The Cooper correlation see Table 3 accounts\nfor the surface roughness effect using the relation developed by\nNishikawa et al. 30,31 . However, Cooper reformulated the\n8Rp,old 0.2 1-Pr relationship suggested by Nishikawa et al. into\nPr\n0.12-0.2 log10 Rp. Cooper 33 found that the reformulated expression matched the original expression by Nishikawa et al. within\nFig. 9\nDependence of heat flux exponent n in the relationship\nh\u00caqn on surface roughness\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-9\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\n3% over the pressure 0.08 Pr 0.9 and surface roughness\n0.22 m Rp,old 4.31 m ranges studied. It should be noted\nthat Rp,old used in the Cooper correlation is defined by DIN 4762/\n1:1960. Gorenflo 34 suggested the conversion Ra 0.4Rp,old,\nwhich is adopted in this work.\nA comparison between the experimental data from the present\nwork and predictions from the Cooper correlation is shown in Fig.\n10. The Cooper correlation predicts heat transfer coefficients for\nFC-77 with mean absolute errors MAEs ranging from 12.9% for\nthe roughest EDM surface to 33.4% for the polished surface with\nan overall MAE of 24.1%. Here, the mean absolute error is de-\nfined as\nMAE = 1\nN\ni=1\nN hcorr,i -hexp,i\nhexp,i\n2\nwhere i represents an experimental data point at a given heat flux.\nFor water under the given experimental conditions, the predictive capability of the Cooper correlation is poor, with MAEs ranging from 44.4% to 324% for the polished and roughest EDM\nsurfaces, respectively. The poor predictions result from the reformulation of the roughness relationship of Nishikawa et al. At a\nfixed heat flux, the Cooper correlation predicts 13.6 times higher\nheat transfer coefficients on the roughest surface 10.0 m compared with the smoothest 0.038 m , while the original relationship by Nishikawa et al. predicts a more modest increase by a\nfactor of 3. Cooper did not consider such a low reduced pressure\nPr=0.0046 as was used in the present study when reformulating\nthe surface roughness relation of Nishikawa et al. At a reduced\npressure of Pr=0.064 corresponding to the FC-77 experiments,\nCooper's reformulation matches the relation of Nishikawa et al.\nwithin 20% over the surfaces studied. For this reason, the Cooper\ncorrelation is not recommended for reduced pressures much below\nPr=0.08.\n4.4\nGorenflo Correlation. The Gorenflo 34 correlation is\nshown in Table 3. Following Stephan's work 28 , Gorenflo accounted for surface roughness using h Ra\n0.133. The Gorenflo correlation requires knowledge of a reference heat transfer coeffi-\ncient, h0, at a given reference heat flux, q0. For water, a reference\nvalue of h0=5600 W/m2 K at q0=20,000 W/m2 was obtained\nfrom the VDI Heat Atlas 34 . For fluids for which no suitable\nexperimental data are available, such as FC-77, Gorenflo recommended using the Stephan and Preu\u00dfer correlation as cited in\nRef. 34 , although greater uncertainties can be expected in the\nfollowing prediction.\nTable 3\nNucleate boiling correlations\nAuthor s\nCorrelation\nForster and Zuber 50\nq = Ckl Prl\nb\nhfg v\ncp,l l\nl\nP\n2\n0.5\nP\nl\n0.25\nl\nl\nTcp,l l\nl\nhfg v\n2\na\nRohsenow 51\nq = lhfg\ng l - v\ncp,l T\nChfg Prl\nb\na\nTien 54\nq=Ckl Prl\n0.33N0.5 T\nLienhard 55\nq = Ckl Pr1/3\ng l - v / l\n2\ng l - v / l\n2 H2O\nN1/3 T 5/4\nMikic and Rohsenow 56\nq=C kl lcp,lf 1/2d0\n2N T\nDanilova 57\nh = C\nRz\nRz0\n0.2\n0.14 + 2.2Pr q0.75\nNishikawa et al. 31\nh = 31.4\nPc\n0.2\nM0.1Tc\n0.9 8Rp,old 1-Pr /5\nPr\n0.23\n1 -0.99Pr 0.9 q0.8\nCooper 32,33\nh=C Pr\n0.12-0.2 log10Rp,old -log10 Pr -0.55M-0.5q0.67;\nC=55 for horizontal aluminum surfaces\nGorenflo 34\nh\nh0\n= CF Pr\nq\nq0\nn\n;\nC =\nRa\nRa0\n0.133\n;\nRa0 = 0.4 m\nF Pr = 1.73Pr\n0.27 + 6.1 + 0.68\n1 -Pr Pr\n2 and n = 0.9 -0.3Pr\n0.15 for water\nF Pr = 1.2Pr\n0.27 + 2.5 +\n1\n1 -Pr Pr and n = 0.9 -0.3Pr\n0.3 for all other fluids\nLeiner 58\nh\nPc\nR/Tc\n= 0.6161C0.1512K0.4894\nRa\nkBTc/Pc 1/3\n0.133\nF Pr\nq\nPc\nRTc\nn\nF Pr = 43000n-0.75 1.2Pr\n0.27 + 2.5 +\n1\n1 -Pr Pr ; n = 0.9 -0.3Pr\n0.3\nC = cp,l\nR\nPr=0.1; K = -Tr ln\nPr\n1 -Tr Pr=0.1\nRibatski and Jabardo 45\nh=CRa\n0.2Pr\n0.45 -log Pr -0.8M-0.5qn\n121009-10 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nhd0\nkl\n= 0.1\nq0d0\nklTsat\n0.674\nv\nl\n0.156\nhfgd0\n2\nl\n2\n0.371\nl\n2 l\nd0\n0.350\nlcp,l\nkl\n-0.16\n3\nwhere\nd0 = 0.0149\n2\ng l - v\n4\nGorenflo suggested evaluating h using fluid properties at a pressure Pr=0.03 and then converting to h0 at the reference pressure\nof Pr0=0.1 through the use of the F Pr equation shown in Table\nFig. 10\nComparison between experimental data and predictions from the Cooper correlation \u202032,33\u2021 for \u201ea... water and \u201eb...\nFC-77\nFig. 11\nComparison between experimental data and predictions from the Gorenflo correlation \u202034\u2021 for \u201ea... water and \u201eb...\nFC-77\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-11\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\n3. For FC-77, the estimated reference heat transfer coefficient is\nh0=1840 W/m2 K at q0=20,000 W/m2.\nA comparison between the Gorenflo correlation and the experimental results for water and FC-77 is shown in Fig. 11. The\nGorenflo correlation predicts the experimental results in water\nquite well, with a MAE of only 3.8% for the polished surface and\nan overall MAE of 12.2%. For FC-77, the predictions are less\naccurate, particularly for the EDM surface with MAEs in the\nrange of 26-29%, although the predictions for the polished surface are quite good with a MAE of 4.7%.\n4.5\nLeiner Correlation. The reliance on reference values re-\nduces the utility of the Gorenflo correlation as reference values are\nonly available for a limited number of fluids. Leiner 56 addressed this issue by using the principles of thermodynamic similarity to further develop the Gorenflo correlation by removing the\nneed for reference values see Table 3 . It should be noted that the\npressure function, F Pr , was specifically developed for fluids\nother than water, and so the Leiner correlation is not expected to\noffer accurate predictions of boiling in water. In this case, the\nGorenflo correlation should provide better predictions.\nThe comparison between the Leiner correlation and experimental results is shown in Fig. 12. As expected, the Leiner correlation\nis not particularly accurate for water, with MAEs of approximately 50%. The Leiner correlation fares much better with FC-77\nwith MAEs around 5% for the EDM surfaces, but the correlation\nsignificantly overpredicts heat transfer coefficients for the polished surface with a MAE of 46.6%. Although the Leiner correlation has a lower overall MAE than the Gorenfo correlation for\nFC-77 13.2% versus 23.1% , this is probably influenced by the\nfact that four EDM surfaces where the Leiner correlation provides the best predictions and only one polished surfaces where\nthe Gorenflo provides the best predictions were considered in the\npresent work. Thus, despite the lower overall MAE of the Leiner\ncorrelation, it is inconclusive whether much additional accuracy is\nprovided by the Leiner correlation over the Gorenflo correlation\nfor FC-77.\nThe main problem with the Gorenflo and Leiner correlations'\npredictions for FC-77 is that neither accurately accounts for the\ninfluence of surface roughness. Both correlations use Stephan's\nrecommendation of m=0.133, which is closer to the m=0.1 found\nfor water in this study, but differs from the m=0.2 found for\nFC-77. If the Gorenflo correlation in Table 3 is modified so that\nfactor C becomes\nC =\nRa\nRa0\n0.2\n5\nthen the overall MAE for FC-77 is reduced from 23.1% to 15.8%.\nIf a reference heat transfer coefficient h0=2160 W/m2 K at q0\n=20,000 W/m2, which more closely matches the experimental\nresults, is used instead of h0=1840 W/m2 K as estimated by the\nStephan and Preu\u00dfer correlation 34 , the MAE is further reduced\nto 6.7%. Modifying the Leiner correlation to account for a surface\nroughness exponent m=0.2 requires more manipulation, but it can\nbe shown that\nh\nPc\nR/Tc\n= 0.6161C0.1512K0.4894F Pr\nq\nPc\nRTc\nn\nRa\n0.2\nRa0\n0.067 kBTc/Pc 1/3 0.133\n6\nThe overall MAE for FC-77 increases from 13.2% to 18.2% when\nusing Eq. 6 instead of the original Leiner correlation, although\nthe predictions are notably improved for the polished surface, with\nan MAE of 21.1%.\nFor water, the Gorenflo correlation clearly provides the best\npredictive capabilities. From the discussion above, the modified\nGorenflo correlation provided the lowest errors for FC-77. However, given the limited number of surfaces tested, and considering\nthe wide range of conclusions from other researchers regarding\nthe influence of roughness on nucleate boiling, it is unclear\nwhether a modification to the Gorenflo correlation for FC-77 will\nlead to a general improvement in accuracy. Further, it is unclear\nwhether any general improvement in predictive capability can be\nachieved when using standard surface roughness parameters to\naccount for the effects of surface characteristics on boiling heat\ntransfer. Although it has been proposed that the relationship h\nRm where m= f may lead to an improvement in predictions,\nmore experimental data are needed to conclusively establish this\ndependence. Moreover, the current experimental data indicate\nFig. 12\nComparison between experimental data and predictions from the Leiner correlation \u202059\u2021 for \u201ea... water and \u201eb... FC-77\n121009-12 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\ngeneral weaknesses in using h Rm to account for surface roughness, and it is therefore recommended that future research focus\non developing new methods of characterizing boiling surfaces.\n5\nConclusions\nPool boiling at atmospheric pressure from surfaces with a wide\nrange of surface roughness in two fluids with differing wetting\ncharacteristics was experimentally explored. For water, the results\nindicate little improvement in heat transfer coefficient for roughness beyond Ra=1.08 m, except for a very rough 10.0 m surface, which had significantly higher heat transfer coefficients. On\nthe same set of surfaces, FC-77 exhibited a different trend with\ncontinuously increasing heat transfer coefficient with respect to\nsurface roughness, at a fixed heat flux. The general trend of increasing heat transfer coefficient with surface roughness was correlated using h Rm. The results indicate a stronger dependence\non surface roughness for FC-77 with m=0.2 compared with m\n=0.1 for water.\nThe experimental results were compared with predictions from\nwidely used nucleate boiling correlations. Due to differences in\nthe surface roughness exponent for the two fluids, no single correlation provides entirely satisfactory predictions. The Gorenflo\ncorrelation provided the lowest errors for water. For FC-77, the\nlowest errors were obtained using a modified Gorenflo correlation\nwith a surface roughness exponent of m=0.2. Due to the numerous deficiencies associated with correlating nucleate boiling data\nusing surface roughness parameters, it is recommended that future\nresearch focus on developing new techniques for characterizing\nboiling surfaces.\nAcknowledgment\nDr. Dong Liu, Dr. Tailian Chen, Dr. Poh-Seng Lee, and Dr.\nStefan Bertsch are thanked for their helpful and insightful discussions. Funding from the Indiana 21st Century Research and Technology Fund, and the Cooling Technologies Research Center, an\nNSF IUCRC at Purdue University, is gratefully acknowledged.\nNomenclature\na, b, C, K empirical constants\ncp specific heat\nd0 bubble departure diameter\nF, F pressure functions\nf bubble emission frequency\ng acceleration due to gravity\nh heat transfer coefficient\nhfg heat of vaporization\nk thermal conductivity\nkB Boltzmann constant, kB=1.3807 10-23 J/K\nM molecular weight\nm surface roughness exponent\nN active nucleation site density\nn heat flux exponent\nP pressure\nP excess pressure corresponding to wall super-\nheat, P=Pw-Psat\nPr Prandtl number, Pr=cp /k\nR universal gas constant, R=8.314 kJ/K kmol\nR specific gas constant, R=R/M\nRa, Rp, Rq,\nRz roughness parameters according to ASME\nB46.1-1995\nRp,old \"Gl\u00e4ttungstiefe\" according to DIN 4762/1:1960\nq heat flux\nT temperature\nT wall superheat, T=Tw-Tsat\nGreek\nthermal diffusivity,\n=k/ cp\ncontact angle\ndynamic viscosity\ndensity\nsurface tension\nSubscripts\nc critical\ncorr correlation\nexp experiment\nl liquid\nr reduced\nsat saturation\nv vapor\nw wall\n0 reference\nReferences\n1 Jakob, M., 1936, \"Heat Transfer in Evaporation and Condensation-I,\" Mech.\nEng. Am. Soc. Mech. Eng. , 58, pp. 643-660.\n2 Westwater, J. W., 1958, \"Boiling Heat Transfer,\" Am. Sci., 47, pp. 427-446.\n3 Clark, H. B., Strenge, P. S., and Westwater, J. W., 1959, \"Active Sites for\nNucleate Boiling,\" Chem. Eng. Prog., Symp. Ser., 55 29 , pp. 103-110.\n4 Bankoff, S. G., 1958, \"Ebullition From Solid Surfaces in the Absence of a\nPre-Existing Gaseous Phase,\" Trans. ASME, 79, pp. 735-740.\n5 Bankoff, S. G., 1958, \"Entrapment of Gas in the Spreading of a Liquid Over a\nRough Surface,\" AIChE J., 4 1 , pp. 24-26.\n6 Griffith, P., and Wallis, J. D., 1960, \"The Role of Surface Conditions in Nucleate Boiling,\" Chem. Eng. Prog., Symp. Ser., 56 30 , pp. 49-63.\n7 Hsu, Y. Y., 1962, \"On the Size Range of Active Nucleation Cavities on a\nHeating Surface,\" ASME J. Heat Transfer, 84, pp. 207-216.\n8 Corty, C., and Foust, A. S., 1955, \"Surface Variables in Nucleate Boiling,\"\nChem. Eng. Prog., Symp. Ser., 51 17 , pp. 1-12.\n9 Kurihara, H. M., and Myers, J. E., 1960, \"The Effects of Superheat and Surface Roughness on Boiling Coefficients,\" AIChE J., 6 1 , pp. 83-91.\n10 Hsu, S. T., and Schmidt, F. W., 1961, \"Measured Variations in Local Surface\nTemperatures in Pool Boiling of Water,\" ASME J. Heat Transfer, 83, pp.\n254-260.\n11 Marto, P. J., and Rohsenow, W. M., 1966, \"Effects of Surface Conditions on\nNucleate Pool Boiling of Sodium,\" ASME J. Heat Transfer, 88, pp. 196-204.\n12 Berenson, P. J., 1962, \"Experiments on Pool-Boiling Heat Transfer,\" Int. J.\nHeat Mass Transfer, 5, pp. 985-999.\n13 Webb, R. L., 1981, \"The Evolution of Enhanced Surface Geometries for\nNucleate Boiling,\" Heat Transfer Eng., 2, pp. 46-69.\n14 Webb, R. L., 2004, \"Odyssey of the Enhanced Boiling Surface,\" ASME J.\nHeat Transfer, 126, pp. 1051-1059.\n15 Bier, K., Gorenflo, D., Salam, M., and Tanes, Y., 1978, \"Pool Boiling Heat\nTransfer and Size of Active Nucleation Centers for Horizontal Plates With\nDifferent Surface Roughness,\" Proceedings of the Sixth International Heat\nTransfer Conference, Toronto, Canada, Vol. 1, pp. 151-156.\n16 Chowdhury, S. K. R., and Winterton, R. H. S., 1985, \"Surface Effects in Pool\nBoiling,\" Int. J. Heat Mass Transfer, 28 10 , pp. 1881-1889.\n17 Vachon, R. I., Tanger, G. E., Davis, D. L., and Nix, G. H., 1968, \"Pool Boiling\non Polished and Chemically Etched Stainless-Steel Surfaces,\" ASME J. Heat\nTransfer, 80, pp. 231-238.\n18 Kravchenko, V. A., and Ostrovskiy, Yu. N., 1979, \"Effect of Surface Roughness on Boiling Heat Transfer to Light Hydrocarbons and Nitrogen,\" Heat\nTransfer-Sov. Res., 11 1 , pp. 133-137.\n19 Grigoriev, V. A., Pavlov, Yu. M., and Ametistov, Ye. V., 1974, \"An Investigation of Nucleate Boiling Heat Transfer of Helium,\" Proceedings of the Fifth\nInternational Heat Transfer Conference, Tokyo, Japan, pp. 45-49.\n20 Yang, S. R., and Kim, R. H., 1988, \"A Mathematical Model of the Pool\nBoiling Nucleation Site Density in Terms of the Surface Characteristics,\" Int.\nJ. Heat Mass Transfer, 31 6 , pp. 1127-1135.\n21 Cornwell, K., 1977, \"Naturally Formed Boiling Site Cavities,\" Lett. Heat Mass\nTransfer, 4, pp. 63-72.\n22 Shoukri, M., and Judd, R. L., 1975, \"Nucleation Site Activation in Saturated\nBoiling,\" ASME J. Heat Transfer, 97, pp. 93-98.\n23 Wang, C. H., and Dhir, V. K., 1993, \"Effect of Surface Wettability on Active\nNucleation Site Density During Pool Boiling of Water on a Vertical Surface,\"\nASME J. Heat Transfer, 115, pp. 659-669.\n24 Wang, C. H., and Dhir, V. K., 1993, \"On the Gas Entrapment and Nucleation\nSite Density During Pool Boiling of Saturated Water,\" ASME J. Heat Transfer,\n115, pp. 670-679.\n25 Qi, Y., Klausner, J. F., and Mei, R., 2004, \"Role of Surface Structure in Heterogeneous Nucleation,\" Int. J. Heat Mass Transfer, 47, pp. 3097-3107.\n26 Luke, A., 2004, \"Active and Potential Bubble Nucleation Sites on Different\nStructured Heated Surfaces,\" Chem. Eng. Res. Des., 82, pp. 462-470.\n27 Luke, A., 2006, \"Preparation, Measurement and Analysis of Microstructure of\nEvaporator Surfaces,\" Int. J. Therm. Sci., 45, pp. 237-256.\n28 Stephan, K., 1963, \"Mechanismus und Modellgesetz des W\u00e4rme\u00fcbergangs bei\nder Blasenverdampfung,\" Chem.-Ing.-Tech., 35 11 , pp. 775-784.\n29 Danilova, G. N., and Bel'skii, V. K., 1965, \"Study of Heat Transfer on Boiling\nJournal of Heat Transfer\nDECEMBER 2009, Vol. 131 / 121009-13\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026\nof Freon 113 and Freon 12 on Pipes of Differing Roughness,\" Kholodil'naia\nTekhnika, 4, pp. 24-28.\n30 Nishikawa, K., Fujita, Y., Ohta, H., and Hidaka, S., 1982, \"Effect of the Surface Roughness on the Nucleate Boiling Heat Transfer Over the Wide Range\nof Pressure,\" Proceedings of the Seventh International Heat Transfer Conference, M\u00fcnchen, Germany, Vol. 4, pp. 61-66.\n31 Nishikawa, K., Fujita, Y., Ohta, H., and Hidaka, S., 1982, \"Effects of System\nPressure and Surface Roughness on Nucleate Boiling Heat Transfer,\" Memoirs\nof the Faculty of Engineering, Kyushu University, 42 2 , pp. 95-111.\n32 Cooper, M. G., 1984, \"Saturation Nucleate Pool Boiling-A Simple Correlation,\" First UK National Conference on Heat Transfer, University of Leeds, pp.\n785-793.\n33 Cooper, M. G., 1984, \"Heat Flow Rates in Saturated Nucleate Pool\nBoiling-A Wide-Ranging Examination Using Reduced Properties,\" Adv.\nHeat Transfer, 16, pp. 157-239.\n34 Gorenflo, D., 1993, \"Pool Boiling,\" VDI Heat Atlas, VDI Verlag, D\u00fcsseldorf.\n35 3M Corporation, 1986, Fluorinert Liquids Product Manual, Industrial Chemical Products Division.\n36 3M Corporation, 2000, Fluorinert Electronic Liquid FC-77 Product Information No. 98-0212-2309-8 HB , Specialty Materials Division.\n37 Raben, I. A., Beaubouef, R. T., and Commerford, G. E., 1965, \"A Study of\nHeat Transfer in Nucleate Pool Boiling of Water at Low Pressure,\" Chem. Eng.\nProg., Symp. Ser., 61 57 , pp. 249-257.\n38 Anderson, T. M., and Mudawar, I., 1989, \"Microelectronic Cooling by Enhanced Pool Boiling of a Dielectric Fluorocarbon Liquid,\" ASME J. Heat\nTransfer, 111, pp. 752-759.\n39 Baldwin, C. S., Bhavnani, S. H., and Jaeger, R. C., 2000, \"Toward Optimizing\nEnhanced Surfaces for Passive Immersion Cooled Heat Sinks,\" IEEE Trans.\nCompon. Packag. Tech., 23 1 , pp. 70-79.\n40 Parker, J. L., and El-Genk, M. S., 2005, \"Enhanced Saturation and Subcooled\nBoiling of FC-72 Dielectric Liquid,\" Int. J. Heat Mass Transfer, 48, pp. 3736-\n3752.\n41 Bhavnani, S. H., Tsai, C.-P., Jaegar, R. C., and Eison, D. L., 1993, \"An Integral\nHeat Sink for Cooling Microelectronic Components,\" ASME J. Electron.\nPackag., 115, pp. 284-291.\n42 Bergles, A. E., and Chyu, M. C., 1982, \"Characteristics of Nucleate Pool\nBoiling From Porous Metallic Coatings,\" ASME J. Heat Transfer, 104, pp.\n279-285.\n43 Hatton, A. P., and Hall, I. S., 1966, \"Photographic Study of Boiling on Pre-\npared Surfaces,\" Proceedings of the Third International Heat Transfer Conference, Chicago, IL, Vol. 4, pp. 24-37.\n44 Fedders, H., 1971, \"Messung des W\u00e4rme\u00fcberganges beim Blasensieden von\nWasser an metallischen Rohren,\" Kernforschungsanlage J\u00fclich Report No. J\u00fcl-\n740-RB.\n45 Ribatski, G., and Jabardo, J. M. S., 2003, \"Experimental Study of Nucleate\nBoiling of Halocarbon Refrigerants on Cylindrical Surfaces,\" Int. J. Heat Mass\nTransfer, 46, pp. 4439-4451.\n46 Chun, M.-H., and Kang, M.-G., 1998, \"Effects of Heat Exchanger Tube Parameters on Nucleate Pool Boiling Heat Transfer,\" ASME J. Heat Transfer,\n120 2 , pp. 468-476.\n47 Vachon, R. I., Tanger, G. E., Nix, G. H., and Davis, D. L., 1965, \"Pool Boiling\nof Water From Mechanically Polished and Chemically Etched Stainless Steel\nSurfaces,\" Auburn Research Foundation Report No. IV.\n48 Vachon, R. I., Tanger, G. E., Nix, G. H., and Goree, L. H., 1966, \"Pool Boiling\nof Water on 304 Stainless Steel Etched With Hydrochloric Acid,\" Auburn\nResearch Foundation Report No. VI.\n49 Kurihara, H. M., 1956, \"Fundamental Factors Affecting Boiling Coefficients,\"\nPh.D. thesis, Purdue University, Lafayette, IN.\n50 Forster, H. K., and Zuber, N., 1955, \"Dynamics of Vapor Bubbles and Boiling\nHeat Transfer,\" AIChE J., 1 4 , pp. 531-535.\n51 Rohsenow, W. M., 1952, \"A Method of Correlating Heat-Transfer Data for\nSurface Boiling of Liquids,\" Trans. ASME, 74, pp. 969-976.\n52 Vachon, R. I., Nix, G. H., and Tanger, G. E., 1968, \"Evaluation of Constants\nfor the Rohsenow Pool-Boiling Correlation,\" ASME J. Heat Transfer, 90, pp.\n239-247.\n53 Pioro, I. L., 1999, \"Experimental Evaluation of Constants for the Rohsenow\nPool Boiling Correlation,\" Int. J. Heat Mass Transfer, 42, pp. 2003-2013.\n54 Tien, C. L., 1962, \"A Hydrodynamic Model for Nucleate Pool Boiling,\" Int. J.\nHeat Mass Transfer, 5, pp. 533-540.\n55 Lienhard, J. H., 1963, \"A Semi-Rational Nucleate Boiling Heat Flux Correlation,\" Int. J. Heat Mass Transfer, 6, pp. 215-219.\n56 Mikic, B. B., and Rohsenow, W. M., 1969, \"A New Correlation of Pool-\nBoiling Data Including the Effect of Heating Surface Characteristics,\" ASME\nJ. Heat Transfer, 91, pp. 245-250.\n57 Danilova, G. N., 1970, \"Correlation of Boiling Heat Transfer Data for Freons,\"\nHeat Transfer-Sov. Res., 2 2 , pp. 73-78.\n58 Leiner, W., 1994, \"Heat Transfer by Nucleate Pool Boiling-General Correlation Based on Thermodynamic Similarity,\" Int. J. Heat Mass Transfer, 37 5 ,\npp. 763-769.\n59 Cooper, M. G., 1982, \"Correlations for Nucleate Boiling-Formulation Using\nReduced Properties,\" PCH, PhysicoChem. Hydrodyn., 3 2 , pp. 89-111.\n121009-14 / Vol. 131, DECEMBER 2009\nTransactions of the ASME\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b131/\u200b12/\u200b121009/\u200b5916279/\u200b121009_1.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 6313
+    },
+    {
+      "number": 2,
+      "start": 6313,
+      "end": 13294
+    },
+    {
+      "number": 3,
+      "start": 13294,
+      "end": 21180
+    },
+    {
+      "number": 4,
+      "start": 21180,
+      "end": 24220
+    },
+    {
+      "number": 5,
+      "start": 24220,
+      "end": 29731
+    },
+    {
+      "number": 6,
+      "start": 29731,
+      "end": 31687
+    },
+    {
+      "number": 7,
+      "start": 31687,
+      "end": 36547
+    },
+    {
+      "number": 8,
+      "start": 36547,
+      "end": 39397
+    },
+    {
+      "number": 9,
+      "start": 39397,
+      "end": 46528
+    },
+    {
+      "number": 10,
+      "start": 46528,
+      "end": 50268
+    },
+    {
+      "number": 11,
+      "start": 50268,
+      "end": 51084
+    },
+    {
+      "number": 12,
+      "start": 51084,
+      "end": 55751
+    },
+    {
+      "number": 13,
+      "start": 55751,
+      "end": 63205
+    },
+    {
+      "number": 14,
+      "start": 63205,
+      "end": 68411
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-benjamin-j-jones",
+      "number": null,
+      "title": "Benjamin J. Jones",
+      "level": 1,
+      "start": 0,
+      "end": 17
+    },
+    {
+      "id": "sec-1-john-p-mchale",
+      "number": null,
+      "title": "John P. McHale",
+      "level": 1,
+      "start": 17,
+      "end": 32
+    },
+    {
+      "id": "sec-2-suresh-v-garimella1",
+      "number": null,
+      "title": "Suresh V. Garimella1",
+      "level": 1,
+      "start": 32,
+      "end": 255
+    },
+    {
+      "id": "sec-3-the-in-uence-of-surface",
+      "number": null,
+      "title": "The In\ufb02uence of Surface",
+      "level": 1,
+      "start": 255,
+      "end": 280
+    },
+    {
+      "id": "sec-4-roughness-on-nucleate-pool",
+      "number": null,
+      "title": "Roughness on Nucleate Pool",
+      "level": 1,
+      "start": 280,
+      "end": 307
+    },
+    {
+      "id": "sec-5-boiling-heat-transfer",
+      "number": null,
+      "title": "Boiling Heat Transfer",
+      "level": 1,
+      "start": 307,
+      "end": 1955
+    },
+    {
+      "id": "sec-6-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 2,
+      "start": 1955,
+      "end": 6043
+    },
+    {
+      "id": "sec-7-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 6043,
+      "end": 6068
+    },
+    {
+      "id": "sec-8-december-2009-vol-131-121009-1",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-1",
+      "level": 2,
+      "start": 6068,
+      "end": 6103
+    },
+    {
+      "id": "sec-9-copyright-2009-by-asme",
+      "number": null,
+      "title": "Copyright \u00a9 2009 by ASME",
+      "level": 2,
+      "start": 6103,
+      "end": 11639
+    },
+    {
+      "id": "sec-10-experimental-setup",
+      "number": null,
+      "title": "Experimental Setup",
+      "level": 2,
+      "start": 11639,
+      "end": 11662
+    },
+    {
+      "id": "sec-11-test-facility-the-pool-boiling-test-faci",
+      "number": null,
+      "title": "Test Facility. The pool boiling test facility is shown in",
+      "level": 2,
+      "start": 11662,
+      "end": 12907
+    },
+    {
+      "id": "sec-12-fig-1",
+      "number": null,
+      "title": "Fig. 1",
+      "level": 2,
+      "start": 12907,
+      "end": 13084
+    },
+    {
+      "id": "sec-13-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 13084,
+      "end": 18652
+    },
+    {
+      "id": "sec-14-experimental-procedure-deionized-water-a",
+      "number": null,
+      "title": "Experimental Procedure. Deionized water and FC-77",
+      "level": 2,
+      "start": 18652,
+      "end": 20669
+    },
+    {
+      "id": "sec-15-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 20669,
+      "end": 20677
+    },
+    {
+      "id": "sec-16-surface-roughness-measurements",
+      "number": null,
+      "title": "Surface roughness measurements",
+      "level": 2,
+      "start": 20677,
+      "end": 20935
+    },
+    {
+      "id": "sec-17-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 20935,
+      "end": 20960
+    },
+    {
+      "id": "sec-18-december-2009-vol-131-121009-3",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-3",
+      "level": 2,
+      "start": 20960,
+      "end": 21182
+    },
+    {
+      "id": "sec-19-experimental-results",
+      "number": null,
+      "title": "Experimental Results",
+      "level": 2,
+      "start": 21182,
+      "end": 23628
+    },
+    {
+      "id": "sec-20-fig-2",
+      "number": null,
+      "title": "Fig. 2",
+      "level": 2,
+      "start": 23628,
+      "end": 23851
+    },
+    {
+      "id": "sec-21-fig-3",
+      "number": null,
+      "title": "Fig. 3",
+      "level": 2,
+      "start": 23851,
+      "end": 24010
+    },
+    {
+      "id": "sec-22-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 24010,
+      "end": 29362
+    },
+    {
+      "id": "sec-23-fig-4",
+      "number": null,
+      "title": "Fig. 4",
+      "level": 2,
+      "start": 29362,
+      "end": 29486
+    },
+    {
+      "id": "sec-24-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 29486,
+      "end": 29511
+    },
+    {
+      "id": "sec-25-december-2009-vol-131-121009-5",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-5",
+      "level": 2,
+      "start": 29511,
+      "end": 30903
+    },
+    {
+      "id": "sec-26-fig-5",
+      "number": null,
+      "title": "Fig. 5",
+      "level": 2,
+      "start": 30903,
+      "end": 31289
+    },
+    {
+      "id": "sec-27-fig-6",
+      "number": null,
+      "title": "Fig. 6",
+      "level": 2,
+      "start": 31289,
+      "end": 31477
+    },
+    {
+      "id": "sec-28-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 31477,
+      "end": 32730
+    },
+    {
+      "id": "sec-29-discussion",
+      "number": null,
+      "title": "Discussion",
+      "level": 2,
+      "start": 32730,
+      "end": 36148
+    },
+    {
+      "id": "sec-30-fig-7",
+      "number": null,
+      "title": "Fig. 7",
+      "level": 2,
+      "start": 36148,
+      "end": 36302
+    },
+    {
+      "id": "sec-31-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 36302,
+      "end": 36327
+    },
+    {
+      "id": "sec-32-december-2009-vol-131-121009-7",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-7",
+      "level": 2,
+      "start": 36327,
+      "end": 37702
+    },
+    {
+      "id": "sec-33-fig-8",
+      "number": null,
+      "title": "Fig. 8",
+      "level": 2,
+      "start": 37702,
+      "end": 38053
+    },
+    {
+      "id": "sec-34-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2,
+      "start": 38053,
+      "end": 38061
+    },
+    {
+      "id": "sec-35-dependence-of-heat-transfer-coef-cient-o",
+      "number": null,
+      "title": "Dependence of heat transfer coef\ufb01cient on surface roughness",
+      "level": 2,
+      "start": 38061,
+      "end": 39187
+    },
+    {
+      "id": "sec-36-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 39187,
+      "end": 42686
+    },
+    {
+      "id": "sec-37-nucleate-boiling-correlations-the-comple",
+      "number": null,
+      "title": "Nucleate Boiling Correlations. The complex liquid-",
+      "level": 2,
+      "start": 42686,
+      "end": 45505
+    },
+    {
+      "id": "sec-38-cooper-correlation-cooper-59-noticed-tha",
+      "number": null,
+      "title": "Cooper Correlation. Cooper \u000359\u0004 noticed that although",
+      "level": 2,
+      "start": 45505,
+      "end": 46195
+    },
+    {
+      "id": "sec-39-fig-9",
+      "number": null,
+      "title": "Fig. 9",
+      "level": 2,
+      "start": 46195,
+      "end": 46202
+    },
+    {
+      "id": "sec-40-dependence-of-heat-ux-exponent-n-in-the-",
+      "number": null,
+      "title": "Dependence of heat \ufb02ux exponent n in the relationship",
+      "level": 2,
+      "start": 46202,
+      "end": 46283
+    },
+    {
+      "id": "sec-41-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 46283,
+      "end": 46308
+    },
+    {
+      "id": "sec-42-december-2009-vol-131-121009-9",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-9",
+      "level": 2,
+      "start": 46308,
+      "end": 47192
+    },
+    {
+      "id": "sec-43-n",
+      "number": null,
+      "title": "N\u0007",
+      "level": 1,
+      "start": 47192,
+      "end": 48317
+    },
+    {
+      "id": "sec-44-goren-o-correlation-the-goren-o-34-corre",
+      "number": null,
+      "title": "Goren\ufb02o Correlation. The Goren\ufb02o \u000334\u0004 correlation is",
+      "level": 2,
+      "start": 48317,
+      "end": 48954
+    },
+    {
+      "id": "sec-45-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2,
+      "start": 48954,
+      "end": 48962
+    },
+    {
+      "id": "sec-46-nucleate-boiling-correlations",
+      "number": null,
+      "title": "Nucleate boiling correlations",
+      "level": 2,
+      "start": 48962,
+      "end": 49084
+    },
+    {
+      "id": "sec-47-tcp-l-l-l",
+      "number": null,
+      "title": "Tcp,l\u0005l\n\t\nl",
+      "level": 2,
+      "start": 49084,
+      "end": 49319
+    },
+    {
+      "id": "sec-48-rz0",
+      "number": null,
+      "title": "Rz0",
+      "level": 1,
+      "start": 49319,
+      "end": 49576
+    },
+    {
+      "id": "sec-49-c",
+      "number": null,
+      "title": "C =",
+      "level": 1,
+      "start": 49576,
+      "end": 49583
+    },
+    {
+      "id": "sec-50-ra0",
+      "number": null,
+      "title": "Ra0",
+      "level": 1,
+      "start": 49583,
+      "end": 49777
+    },
+    {
+      "id": "sec-51-pc-r-tc",
+      "number": null,
+      "title": "Pc\nR/Tc",
+      "level": 1,
+      "start": 49777,
+      "end": 49829
+    },
+    {
+      "id": "sec-52-f-pr",
+      "number": null,
+      "title": "F\u0001\u0001Pr\u0002",
+      "level": 1,
+      "start": 49829,
+      "end": 49836
+    },
+    {
+      "id": "sec-53-pc-rtc",
+      "number": null,
+      "title": "Pc\nRTc",
+      "level": 1,
+      "start": 49836,
+      "end": 49845
+    },
+    {
+      "id": "sec-54-f-pr-43000n-0-75-1-2pr",
+      "number": null,
+      "title": "F\u0001\u0001Pr\u0002 = 43000n\u22120.75\t1.2Pr",
+      "level": 1,
+      "start": 49845,
+      "end": 50058
+    },
+    {
+      "id": "sec-55-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 50058,
+      "end": 50581
+    },
+    {
+      "id": "sec-56-fig-10",
+      "number": null,
+      "title": "Fig. 10",
+      "level": 2,
+      "start": 50581,
+      "end": 50704
+    },
+    {
+      "id": "sec-57-fc-77",
+      "number": null,
+      "title": "FC-77",
+      "level": 2,
+      "start": 50704,
+      "end": 50710
+    },
+    {
+      "id": "sec-58-fig-11",
+      "number": null,
+      "title": "Fig. 11",
+      "level": 2,
+      "start": 50710,
+      "end": 50832
+    },
+    {
+      "id": "sec-59-fc-77",
+      "number": null,
+      "title": "FC-77",
+      "level": 2,
+      "start": 50832,
+      "end": 50838
+    },
+    {
+      "id": "sec-60-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 50838,
+      "end": 50863
+    },
+    {
+      "id": "sec-61-december-2009-vol-131-121009-11",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-11",
+      "level": 2,
+      "start": 50863,
+      "end": 51661
+    },
+    {
+      "id": "sec-62-leiner-correlation-the-reliance-on-refer",
+      "number": null,
+      "title": "Leiner Correlation. The reliance on reference values re-",
+      "level": 2,
+      "start": 51661,
+      "end": 53659
+    },
+    {
+      "id": "sec-63-c",
+      "number": null,
+      "title": "C =",
+      "level": 1,
+      "start": 53659,
+      "end": 53666
+    },
+    {
+      "id": "sec-64-ra0",
+      "number": null,
+      "title": "Ra0",
+      "level": 1,
+      "start": 53666,
+      "end": 54133
+    },
+    {
+      "id": "sec-65-pc-r-tc",
+      "number": null,
+      "title": "Pc\nR/Tc",
+      "level": 1,
+      "start": 54133,
+      "end": 54170
+    },
+    {
+      "id": "sec-66-pc-rtc",
+      "number": null,
+      "title": "Pc\nRTc",
+      "level": 1,
+      "start": 54170,
+      "end": 55379
+    },
+    {
+      "id": "sec-67-fig-12",
+      "number": null,
+      "title": "Fig. 12",
+      "level": 2,
+      "start": 55379,
+      "end": 55541
+    },
+    {
+      "id": "sec-68-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 55541,
+      "end": 55941
+    },
+    {
+      "id": "sec-69-conclusions",
+      "number": null,
+      "title": "Conclusions",
+      "level": 2,
+      "start": 55941,
+      "end": 57397
+    },
+    {
+      "id": "sec-70-acknowledgment",
+      "number": null,
+      "title": "Acknowledgment",
+      "level": 2,
+      "start": 57397,
+      "end": 57720
+    },
+    {
+      "id": "sec-71-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 57720,
+      "end": 58462
+    },
+    {
+      "id": "sec-72-greek",
+      "number": null,
+      "title": "Greek",
+      "level": 2,
+      "start": 58462,
+      "end": 58552
+    },
+    {
+      "id": "sec-73-subscripts",
+      "number": null,
+      "title": "Subscripts",
+      "level": 2,
+      "start": 58552,
+      "end": 58667
+    },
+    {
+      "id": "sec-74-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 58667,
+      "end": 62959
+    },
+    {
+      "id": "sec-75-journal-of-heat-transfer",
+      "number": null,
+      "title": "Journal of Heat Transfer",
+      "level": 2,
+      "start": 62959,
+      "end": 62984
+    },
+    {
+      "id": "sec-76-december-2009-vol-131-121009-13",
+      "number": null,
+      "title": "DECEMBER 2009, Vol. 131 / 121009-13",
+      "level": 2,
+      "start": 62984,
+      "end": 68201
+    },
+    {
+      "id": "sec-77-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 68201,
+      "end": 68411
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "\u0001a\u0002. The 25.4\u000325.4 mm2 test surface is prepared on top of",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-1_p2.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-2_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-4_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-5_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-6_p6.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-7_p7.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-8_p8.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-9_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-10_p11.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-11_p11.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\jones_2009_the_influence_of_surface_roughness_fig-12_p12.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 3,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "provides a summary of \ufb01ndings in the literature regard-",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 10,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 14,
+    "ingest": "pymupdf"
+  }
+}

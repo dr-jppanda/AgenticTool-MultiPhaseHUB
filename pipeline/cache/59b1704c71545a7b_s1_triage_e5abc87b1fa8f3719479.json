@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Investigation of boiling heat transfer in water using a free-particles-based enhancement technique",
+  "year": 2014,
+  "reason": "The paper reports its own pool boiling experiments in water with free copper particles, giving boiling curves, wall superheats, and heat transfer coefficient enhancements (\"an average increase in heat transfer coefficient of 115% relative to a baseline polished surface without particles\")."
+}

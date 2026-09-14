@@ -1,0 +1,610 @@
+{
+  "doc_id": "b566fbeacbb61feb",
+  "source": "papers\\allred_2019_petal_effect_parahydrophobic.pdf",
+  "text": "Purdue University\nPurdue e-Pubs\nCTRC Research Publications\nCooling Technologies Research Center\n2019\nThe Petal Effect of Parahydrophobic Surfaces offers\nLow Receding Contact Angles that Promote\nEffective Boiling\nT. P. Allred\nPurdue University\nJ. A. Weibel\nPurdue University, jaweibel@purdue.edu\nS V. Garimella\nPurdue University, sureshg@purdue.edu\nFollow this and additional works at: https://docs.lib.purdue.edu/coolingpubs\nThis document has been made available through Purdue e-Pubs, a service of the Purdue University Libraries. Please contact epubs@purdue.edu for\nadditional information.\nAllred, T. P.; Weibel, J. A.; and Garimella, S V., \"The Petal Effect of Parahydrophobic Surfaces offers Low Receding Contact Angles that\nPromote Effective Boiling\" (2019). CTRC Research Publications. Paper 338.\nhttp://dx.doi.org/https://doi.org/10.1016/j.ijheatmasstransfer.2019.02.002\n1\nThe Petal Effect of Parahydrophobic Surfaces Offers Low Receding Contact\nAngles that Promote Effective Boiling1\nTaylor P. Allred2, Justin A. Weibel3, Suresh V. Garimella4\nSchool of Mechanical Engineering and Birck Nanotechnology\nPurdue University, West Lafayette, IN 47907\nAbstract\nDespite extensive study of boiling processes and their widespread use in industry, critical\ninteractions between the fluid and surface during boiling remain poorly understood. Simplistic, static\ndescriptions of the contact angle are still relied upon to describe the effects of surface wettability on\ndynamic interfacial processes that govern boiling. This work demonstrates the critical role of the dynamic\nwettability characteristics of a surface on bubble growth dynamics and boiling performance. In spite of\ntheir superior nucleation behavior, hydrophobic surfaces have received little attention for boiling\napplications due to their typically premature transition from efficient nucleate boiling to inefficient film\nboiling. Evaluation of hydrophobic surfaces with high contact angle hysteresis reveals that the heat\ntransfer efficacy of these surfaces can be exploited in boiling, so long as the receding contact angle of the\nsurface is sufficiently small to mitigate vapor spreading and thereby extend the nucleate boiling regime. A\nnew paradigm of textured boiling surfaces - parahydrophobic surfaces that exhibit the \"petal effect\" and\nmimic the wetting behavior of a rose petal - are shown to have untapped potential in boiling applications\nresulting from highly hydrophobic behavior coupled with low receding contact angles.\nKeywords\nParahydrophobic; hydrophobic; nucleate boiling; wettability; critical heat flux\n1 Submitted for possible publication in International Journal of Heat and Mass Transfer, 2018.\n2 E-mail address: allredt@purdue.edu.\n3 E-mail address: jaweibel@purdue.edu.\n4 Corresponding author, Tel.: +1 765 494 5621. E-mail address: sureshg@purdue.edu.\n2\n1. Introduction\nBoiling is prevalent in staple industrial processes such as distillation, power generation, and cooling.\nDespite the prevalence of boiling processes in industry and decades of scientific study, researchers continue\nto actively seek [1-3] further improvements in boiling heat transfer efficacy and accurate prediction of the\nsudden transition to film boiling, a catastrophic failure mechanism referred to as the critical heat flux.\nCurrent trends in high-performance computing, electric vehicles, renewable energy conversion, and\ntelecommunications applications demand the efficient removal of high heat fluxes from surfaces maintained\nat a low temperature, as is afforded by boiling.\nThe wettability of boiling surfaces has emerged as a key factor in their heat transfer efficacy.\nHydrophilic surfaces (notionally identified by a static contact angle less than 90\u00b0) and textured\nsuperhydrophilic surfaces (identified by contact angles approaching zero and capillary wicking) have been\nreported to delay critical heat flux through improved rewetting [4-10]; however, at lower heat fluxes in the\nnucleate boiling regime, they have less efficient heat transfer than hydrophobic surfaces (notionally\nidentified by a static contact angle greater than 90\u00b0) [11-13]. Hydrophobic surfaces exhibit boiling\nincipience at lower surface temperatures and yield higher nucleation site densities in the nucleate boiling\nregime, which leads to efficient heat transfer at low heat fluxes, but are commonly reported to promote\npremature film boiling leading to prohibitive surface temperatures at moderate to high heat fluxes [12,14-\n16]. Biphilic surfaces have been developed in an effort to capitalize on the benefits of hydrophobicity while\nmitigating the disadvantages [11,12,17,18].\nTexturing hydrophobic surfaces can lead to a variety of unique boiling behaviors based on the wetting\nstate of the water on the surface structures. While other wetting states have been proposed [19], the two\nmost well-known are the Cassie-Baxter and the Wenzel states [20,21], which exhibit distinctly different\ndynamic wetting behavior [22-24]. Surfaces that can sustain a Cassie-Baxter state, in which droplets rest\non top of surface structures, are considered superhydrophobic and have extreme water-repellent behavior\n(contact angles greater than 150\u00b0 and roll-off angles less than 10\u00b0) [25,26]; however, the Cassie-Baxter\nstate is often metastable. If an energy barrier is overcome, the droplet sinks into the surface structures in a\ntransition to the Wenzel state [27,28]. In this state, droplets also have high static contact angles, but are\nstrongly pinned in place due to high contact angle hysteresis [22,23]. In boiling, superhydrophobic surfaces\nhave commonly been shown to transition to film boiling upon incipience, rendering them useless in\napplication despite having favorable incipience superheats [29-33]. Recently, however, the authors have\ndemonstrated the ability to limit vapor spreading during boiling on superhydrophobic surfaces by bringing\nthese surfaces into the Wenzel state prior to boiling [34]. In this state, the three-phase contact line is strongly\npinned and bubbles grow with a fixed contact diameter, leading to minimal vapor coverage of the surface\n3\nand enabling highly effective boiling up to high heat fluxes approaching Zuber's theoretical limit [35]. This\nresult indicates that, if favorable dynamic wetting behavior can be achieved, the advantageous incipience\nand nucleation behavior characteristic of hydrophobic surfaces can be leveraged to improve boiling, without\na detriment to critical heat flux.\nThis motivates the use of parahydrophobic surfaces for boiling applications. Parahydrophobic surfaces\nare textured hydrophobic surfaces that exhibit high static contact angles as well as high contact angle\nhysteresis. This wetting behavior, commonly known as the \"petal effect\", has recently come to the attention\nof the scientific community due to it being observed on natural surfaces such as the rose petal [36,37] and\nthe peanut leaf [38], among others [39]. Water droplets placed on a parahydrophobic surface can remain\nadhered even when the surface is inverted, despite having contact angles approaching or exceeding 150\u00b0.\nParahydrophobic surfaces have never been investigated for boiling applications, but have demonstrated the\nunique ability to pin droplets and air bubbles in place due to the high contact angle hysteresis on the surface\n[40], suggesting they may mitigate vapor spreading during bubble growth.\nParahydrophobic surfaces have never been investigated for boiling applications. On account of recent\ninsights gained into the importance of dynamic wetting behavior [34], they are a promising candidate due\nto their demonstrated contact line pinning ability. Parahydrophobicity would seem to represent the ideal\ncharacteristics desired for boiling: its hydrophobity offers favorable incipience characteristics for efficient\nnucleate boiling, while its contact line pinning limits vapor spreading over the surface, thus delaying critical\nheat flux. Unlike superhydrophobic surfaces, parahydrophobic surfaces cannot support a low-hysteresis\nCassie-Baxter state, so that there is no risk of premature film boiling.\nIn this study, the boiling behavior of hydrophobic surfaces with various dynamic wetting properties are\ninvestigated. Both smooth and textured surfaces are coated with polydimethylsiloxane (PDMS), a\nhydrophobic material with high contact angle hysteresis, and Teflon, a hydrophobic material with low\ncontact angle hysteresis. Surfaces exhibiting wetting behavior ranging from lotus-leaf-like\nsuperhydrophobic properties to rose-petal-like parahydrophobic properties are evaluated, which allows\nidentification of the critical factors that govern bubble dynamics and the propensity for film boiling on\nhydrophobic surfaces\n2. Experimental Methods\n2.1. Surface fabrication\nAll surfaces were prepared by wet-sanding a metal test block to a roughness of 400-600 nm (Ra) and\ncleaning with acetone, methanol, and isopropyl alcohol prior to any fabrication steps. All PDMS-coated\nand Teflon-coated surfaces were fabricated on aluminum test blocks while a copper test block was used for\n4\nthe smooth copper baseline surface. Surface textures for the parahydrophobic surfaces were fabricated via\nchemical etching of aluminum [41]. The surface was etched for 4 hr in a 0.25 M solution of NaOH at room\ntemperature, then rinsed with deionized water and blown dry with nitrogen. The surface texture for the\nsuperhydrophobic surface was created via laser etching (ULS, PLS6MW, 1.06 \u03bcm fiber laser). Smooth\nsurfaces were not etched. Hydrophobic wetting properties were attained by coating the surface with low-\nsurface-energy polymers. For PDMS coatings, the surface was submerged for 1 hr at room temperature in\na 1:10 base to curing agent solution of PDMS diluted in hexane; the surface was removed and cured at\n150\u00b0C for 30 min. For Teflon coatings, the surface was submerged in a 1% wt/wt solution of Teflon powder\ndissolved in a fully-fluorinated liquid (Performance Fluid PF-5060, 3M) for 30 s and then cured at 150\u00b0C\nfor 2 hr.\nScanning electron microscope images of each surface texture, along with that of a red Freedom hybrid\ntea rose for comparison of texture and wetting behavior, are presented in Figure 1. The metal surfaces were\nimaged using a Hitachi S-4800 Field Emission Microscope. To obtain scanning electron images of the rose\npetal with surface structures intact, the petal was fixed and critical point dried prior to scanning. Specimens\nwere fixed in 2% paraformaldehyde and 2% glutaraldehyde in 0.1 M sodium cacodylate buffer. They were\nthen post-fixed in buffered 1% osmium tetroxide, dehydrated in a graded ethanol series, and dried in a\nTousimis Autosamdri-931 critical point dryer. Dried specimens were coated with platinum in a Cressington\n208HR sputter coater and imaged in a FEI Nova NanoSEM 200.\n5\nFigure 1. Scanning electron microscope images of the aluminum textured surfaces fabricated in this study.\n(a) Chemically-etched parahydrophobic surface texture with large (tens of microns) relatively smooth\nstructures separated by fissures. (b) Laser-etched superhydrophobic surface texture with stochastic\nroughness made up of fused spheroidal particles; structures range in size from ones to tens of microns. (c)\nRose petal surface with micron-sized ridges on top of microscale bumps on the order of tens of microns.\n2.2. Wetting Characterization\nThe wettability of each surface was characterized by static, advancing, and receding contact angles,\nwith the measured values reported in Table 1. Static contact angles were measured by gently depositing a\n5 \u03bcL droplet on the surface and measuring the angle with the solid surface using an automated goniometer\n6\n(ram\u00e9-hart, 290-F1). Advancing and receding contact angle measurements were obtained via the same\ngoniometer by inserting a 0.3 mm outer-diameter stainless steel syringe tip into the 5 \u03bcL droplet and adding\nor removing liquid in 0.25 \u03bcL increments until a steady contact angle was observed. In the case of the\ntextured surfaces with low receding contact angle, stick slip behavior was observed during dynamic contact\nangle measurements which prevented the formation of a steady receding contact angle, as reported by He\net al. [23]. In this case, the lowest receding contact angle observed before the droplet became too small to\naccurately measure is reported. For the parahydrophobic surfaces, an additional test was performed to\nevaluate the adhesion of a droplet to the surface. A 5 \u03bcL droplet was gently placed on the surface. The\nsurface was then tilted to 90\u00b0 to see if the droplet remains adhered. The wettability of PDMS has been\nobserved to change after boiling in water [42]. We observed that the wettability of PDMS changes\nsignificantly within the first hour of boiling and then remains stable. Thus, the contact angles reported are\nthose of a representative surface after being subjected to boiling water for 2 hr. For all other surfaces, the\nwettability did not change significantly after boiling and pre-test contact angles are reported. The wetting\nproperties of the parahydrophobic surfaces were also compared with a red Freedom hybrid tea rose, which\nwas characterized in the same manner.\nTable 1. Average contact angle measurements for each surface studied.\nstatic\ncontact angle\nreceding\ncontact angle\nadvancing\ncontact angle\ncontact angle\nhysteresis\nsmooth copper\n52\u00b0\n~10\u00b0\n66\u00b0\n56\u00b0\nsmooth PDMS\n106\u00b0\n~10\u00b0\n110\u00b0\n100\u00b0\nsmooth Teflon\n123\u00b0\n111\u00b0\n129\u00b0\n18\u00b0\nrose petal\n145\u00b0\n~30\u00b0\n154\u00b0\n~120\u00b0\nparahydrophobic\nPDMS\n144\u00b0\n~30\u00b0\n161\u00b0\n~130\u00b0\nsuperhydrophobic\nPDMS\n151\u00b0\n147\u00b0\n156\u00b0\n9\u00b0\nparahydrophobic\nTeflon\n135\u00b0\n105\u00b0\n146\u00b0\n41\u00b0\n2.3. Experimental Design\nBoiling experiments were carried out in a closed-chamber pool boiling facility (Figure 2(a)). The\nfacility and experimental procedure, previously described in Ref. [34], are briefly summarized here. The\nfacility consists of a closed boiling chamber, an external Graham condenser used during degassing, two\ninternal immersion heaters to maintain saturated conditions, an internal coiled condenser to maintain\nconstant pressure during sealed operation, and temperature and pressure sensors to measure the conditions\ninside the chamber. Prior to the boiling test, the chamber is filled with deionized water which is then\n7\ndegassed by initially heating the test surface to the boiling point via twelve 150 W cartridge heaters inserted\ninto the base of the test block and then bringing the pool to saturation using the immersion heaters. The test\nsurface and the immersion heaters are allowed to boil (~1 hr) and noncondensibles are purged from the\nchamber through the Graham condenser. This degassing procedure, which boils the surface while air is still\ntrapped in the surface, maintains the Cassie-Baxter wetting state for the superhydrophobic surfaces; the\nprocedure is chosen to assess whether parahydrophobic surfaces will exhibit the Cassie-Baxter state during\nboiling, which would promote premature film boiling. After degassing, the chamber is sealed, boiling\ncontinues from the immersion heaters to maintain uniform saturated conditions, and the test surface is\nallowed to cool to just below the saturation temperature. The input heat flux to the test block is raised in\nincrements of 10 W/cm2 during nucleate boiling and 5 W/cm2 during film boiling. For film boiling cases,\nthe test is stopped after the surface temperature exceeds 145\u00b0C. For nucleate boiling cases, the test continues\nuntil critical heat flux is reached, at which point the power is cut off and the system is allowed to cool. The\ncritical heat flux value is determined based on the transient data immediately prior to the rapid temperature\nexcursion.\nFigure 2. Schematic illustration of (a) the pool boiling test facility and (b)-(c) test block. (b) top-down view\nof the thermocouple locations and the surface footprint area corresponding to each thermocouple rake; and\n(c) side-view of the thermocouple rakes with vertical dimensions.\n2.4. Uncertainty Analysis and Data Reduction\nDuring the boiling experiments, temperature and pressure data is collected for each steady state point,\ndefined as the surface temperature changing by less than 0.25\u00b0C/hr. For each steady-state point, the\ntemperature and pressure data are averaged over ~75 sec. The pressure is used to determine the saturation\n8\ntemperature of the water. The surface temperature and heat flux are determined from the spatial temperature\ngradient measured along two vertical thermocouple rakes with four thermocouples each, arranged as shown\nin Figure 2(c). The linear least-squared fit to the spatial temperature gradient and thermal conductivity of\nthe metal (167 W/mK and 390 W/mK for aluminum and copper, respectively) are used to determine the\nheat flux based on Fourier's law. The surface temperature is determined by extrapolating the gradient to\nthe surface location. The area-averaged surface temperature and heat flux are determined by taking an areaweighted average of the surface temperature and heat flux obtained from each thermocouple rake. The\nareas that correlate to each thermocouple rake are shown in Figure 2(b), which correspond to area-based\nweights of 0.25 for the central rake and 0.75 for the side rake for each block. The surface superheat is\ndetermined as the difference between the area-averaged surface temperature and the saturation temperature\nof the water. The heat transfer coefficient, a measure of the boiling heat transfer efficiency, is calculated\nby dividing the heat flux by the surface superheat at a steady state point.\nUncertainties of the heat flux, surface superheat, and heat transfer coefficient are assessed. Ice-pointreferenced thermocouples were all calibrated simultaneously in a dry-block calibrator (Isotech, Jupiter\n4852) over a temperature range of 50\u00b0C to 250\u00b0C. An RTD is used to accurately measure the dry block\ntemperature during the calibration. The manufacturer-quoted uncertainty for the RTD is \u00b10.15 K and the\nice point uncertainty is \u00b10.05 K. A linear offset from the NIST ITS-90 standard is fitted to the calibration\ndata for each thermocouple. The uncertainty in this linear calibration curve is determined through analyzing\nthe regression uncertainty [43]. Because the results are averaged over many data points, random errors are\nneglected; the uncertainties are assumed to vary independently, eliminating the covariance uncertainties.\nThe thermocouple uncertainty was determined to be approximately \u00b10.35\u00b0C.\nThe heat flux and surface temperature uncertainties are determined based on the uncertainty of the\nlinear regression [43] of the temperature gradient along the thermocouple rakes, taking into account the\ntemperature measurement uncertainty (\u00b10.35\u00b0C) and the positional uncertainty of each thermocouple \u00b10.04\nmm. The uncertainty of the slope and intercept of the linear fit correlates directly to the heat flux and\nsurface temperature. The heat flux uncertainty generally increases with heat flux and the maximum\nuncertainty was 2.9 W/cm2. The uncertainty in the saturation temperature, based on the pressure transducer\nmeasurement uncertainty, is \u00b10.12\u00b0C. The surface superheat uncertainty, which depends on both the\nsurface and saturation temperature uncertainties, ranges from 0.52\u00b0C to 0.66\u00b0C.\n2.5. Visualization and Bubble Diameter Measurements\nBubble departure diameters and maximum base diameters were measured directly from high-speed\nvideos (Phantom, VEO 710L) taken during boiling, with pixel size calibrated based on the known surface\nwidth. For each surface, a high-speed video was recorded immediately after boiling incipience. The\n9\ndiameters are reported based on the average of measurements taken from the first unobscured nucleation\nsite that activates on the interior of the surface and does not coalescing with other sites during the bubble\nebullition cycle. For surfaces with repeated bubble departures from the same initial nucleation site (smooth\nPDMS and smooth copper), departure diameters and maximum base diameters were observed to vary by\nless than 10%. On the smooth Teflon surface, due to the long ebullition cycle and surface-level coalescence,\nonly one isolated bubble departure was observed.\n3. Results and Discussion\n3.1. Critical role of receding contact angle on the boiling behavior of smooth hydrophobic surfaces\nBoiling experiments with smooth surfaces were carried out to determine the impact of the unique\nwetting behavior of two different hydrophobic coating materials in comparison with a hydrophilic copper\nbaseline. The boiling curves for each of these surfaces (smooth copper, smooth PDMS-coated, and\nsmooth Teflon-coated), along with the static and receding contact angle measurements (wetting\ncharacterization measurements detailed in Experimental Section), are shown in Figure 3. The hydrophilic\ncopper baseline surface, having a static contact angle of 52\u00b0 and a receding angle of ~10\u00b0, behaves as\nexpected, exhibiting nucleate boiling behavior and reaching critical heat flux near Zuber's predicted limit\n[35]. The PDMS-coated surface has a high static contact angle (106\u00b0), but a similarly low receding\ncontact angle (~10\u00b0). This surface sustains nucleate boiling and a cooler surface temperature than the\nbaseline copper surface at all steady-state points on the boiling curve and reaches a similar critical heat\nflux. The Teflon-coated surface has high static and receding contact angles (123\u00b0 and 111\u00b0, respectively).\nThis surface exhibits low-temperature boiling incipience, but transitions to film-like boiling shortly after\nincipience, resulting in very high superheats as the heat flux is increased.\n10\nFigure 3. Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces.\nStatic 5 \u03bcL droplets on (a) smooth copper, (b) smooth PDMS-coated, and (c) smooth Teflon-coated\nsurfaces. Receding droplets on (d) smooth copper, (e) smooth PDMS-coated, and (f) smooth Teflon-coated\nsurfaces. (g) Boiling curves (heat flux versus surface superheat) for each of the smooth surfaces. Calculated\nuncertainties in heat flux and surface superheat are less than 3 W/cm2 and 0.7 K, respectively. Crosses with\na rightward arrow indicate critical heat flux and subsequent temperature excursions. The horizontal dashed\nline indicates the critical heat flux predicted by Zuber's proposed hydrodynamic limit [35].\nThe boiling behavior at a low heat flux below 10 W/cm2 is shown for each of these smooth surfaces in\nFigure 4. The different vapor formation characteristics that result in the differing boiling performance of\nthe surfaces are evident. The copper and PDMS-coated surfaces both exhibit nucleate boiling; more active\nnucleation sites are observed on the hydrophobic PDMS-coated surface, resulting in a lower surface\nsuperheat (7.9 K) on this surface compared to the smooth copper (9.9 K). The Teflon-coated surface is\nblanketed in insulating vapor, resulting in high surface superheats. Remarkably, even though the two\nhydrophobic PDMS-coated and Teflon-coated surfaces have similar wettability in terms of the static contact\nangle, their boiling behavior is drastically different. The bubble dynamics observed on the PDMS-coated\nsurface align more closely with the hydrophilic baseline surface.\n11\nFigure 4. Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the\nsmooth copper surface (heat flux: 8.3 W/cm2; superheat: 9.9 K), (b) dense nucleate boiling from the smooth\nPDMS-coated surface (7.5 W/cm2; 7.9 K), and (c) film boiling from the smooth Teflon-coated surface (6.7\nW/cm2; 36.7 K). For high-speed videos of the boiling behavior, refer to Appendix A.\nAs a bubble grows and the contact line expands outward from the nucleation site, the liquid is receding\naway. Thus, the receding contact angle could logically be expected to play a dominant role in the dynamics\nof bubble growth, as suggested by Chen et al. [44]. The importance of the receding contact angle is clearly\ndemonstrated in the single bubble dynamics at incipience, shown in Figure 5. The bubble behavior on the\nPDMS-coated and Teflon-coated surfaces is drastically different despite their similar static contact angles\n(106\u00b0 and 123\u00b0, respectively). On both surfaces, the contact angle of a receding droplet (Figure 5(a) and\nFigure 5(d)) closely matches the contact angle of liquid receding away from the site of a growing bubble\n12\n(Figure 5(b) and Figure 5(e)) during the early stages of bubble growth before buoyancy begins to distort\nthe bubble shape. As a result, on the PDMS-coated surface, the base diameter of the bubble remains small\nduring low-receding-angle growth (Figure 5(c)), which allows most of the surface to remain wetted. Once\nthe bubble becomes large enough, buoyancy forces exceed the surface tension forces and the bubble departs.\nThe minimal dewetting that occurs during bubble growth allows the notionally hydrophobic PDMS-coated\nsurface to maintain nucleate boiling. It is important to note that the PDMS-coated surface is uniformly\nhydrophobic; thus, the governing mechanisms that prevent vapor spreading over the surface differ from\nthose of biphilic surfaces which prevent spreading by pinning the contact line at distinct surface wettability\nheterogeneities. On the Teflon-coated surface, the base diameter of the bubble spreads as the bubble grows\nwith a high receding contact angle (Figure 5(f)). A single bubble reaches a base diameter of several\nmillimeters, covering a large area of the surface with vapor prior to departure. Once the bubble has reached\nsome maximum base diameter, the bubble stretches upward due to buoyancy as it continues to grow and\nthe liquid-vapor interface becomes nearly perpendicular to the solid surface as the bubble shape becomes\ndominated by buoyancy effects. The base diameter begins to recede, followed by the bubble departing by\npinching off above the surface, leaving behind a small vapor bubble. Due to the extensive vapor spreading\nduring bubble growth, active nucleation sites readily coalesce resulting in premature film boiling at a low\nheat flux.\nFigure 5. Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a\ndroplet on the smooth PDMS-coated surface and (b) image showing a similarly small receding contact\nangle during bubble growth on the same surface. (c) Bubble ebullition cycle on a PDMS-coated surface\nexhibiting low-receding-angle growth. (d) Receding contact angle measurement of a droplet on the Tefloncoated surface and (e) image of a growing bubble on the same surface showing a similarly large receding\n13\ncontact angle. (f) Bubble ebullition cycle on a Teflon-coated surface exhibiting high-receding-angle growth.\nScale bars, 3 mm. Note the different length and time scales indicated on (c) and (f). For high-speed videos\nof the bubble dynamics, refer to Appendix A.\n3.2. Model for receding contact angle governed bubble growth\nTo explain the role of the receding contact angle during bubble growth, a simple analytical model is\nderived to predict the bubble departure diameter and maximum base diameter. The model compares the\nbuoyancy force acting on the bubble (\n(\n)\nb\nl\ng\nF\nVg\n\uf072\n\uf072\n=\n-\n, where \u03c1l and \u03c1g are the densities of the liquid and\nvapor, V the bubble volume, and g the gravitational constant) with the vertical component of the surface\ntension force acting at the three-phase contact line (\n(\n)sin\ns\nb\nF\nD\n\uf067\uf070\n\uf071\n=\n, where \u03b3 is the liquid-vapor surface\ntension, Db the base diameter of the bubble, and \u03b8 the contact angle). A complete derivation of the model\nand expressions for the bubble departure diameter (Ddepart) and maximum base diameter (Db,max) are\npresented in Appendix B.\nFor a surface with a low receding contact angle (less than 90\u00b0), the bubble growth progression can be\napproximated as illustrated in Figure 6(a)-(c). The bubble grows as a spherical cap with the liquid at the\nreceding contact angle until it reaches a critical size at which the buoyancy and surface tension forces are\nbalanced (Figure 6(a)). Then, the base diameter begins to retract as the bubble begins to rise (Figure 6(b)),\nand ultimately departs from the surface as a sphere (Figure 6(c)). Based on this progression, the maximum\nvertical component of the surface tension forces occurs when the buoyancy and surface tension forces first\nbecome balanced (Figure 6(a)). Thus, the maximum base diameter and departure diameter of the bubble\ncan be determined by equating the buoyancy and surface tension forces in this configuration, assuming a\nspherical cap geometry at the receding contact angle. This results in a trend of increasing bubble departure\ndiameter and maximum base diameter with increasing receding contact angle from 0 to 90\u00b0, as shown in\nFigure 6(g).\nFor a surface with a high receding contact angle (greater than 90\u00b0), the bubble growth progression can\nbe approximated as illustrated in Figure 6(d)-(f). The bubble grows as a spherical cap at the receding contact\nangle until it reaches a size at which the buoyancy force and the vertical component of the surface tension\nforce become balanced (Figure 6(d)). The bubble base diameter begins to retract and the bubble begins to\ndeform upward due to buoyancy effects (Figure 6(e)). As a result, the liquid contact angle decreases,\ncausing the vertical component of the surface tension forces to increase as the bubble continues to grow.\nUltimately, the bubble departs by pinching-off just above the surface, leaving behind a small vapor bubble\non the surface (Figure 6(f)). Because of the pinch-off mechanism, the limiting surface tension force, after\nwhich departure process begins via the retracting of the diameter at the pinch-off height, is expected to\n14\noccur at the point where the interface is perpendicular to the surface. Thus, the bubble size is determined\nbased on the elongated bubble represented by Figure 6(e), with the interface assumed to be perpendicular\nto the surface at the height at which the pinch-off occurs. The departure volume, from which the departure\ndiameter is trivially obtained, is determined by a balance of the buoyancy and surface tension forces at an\narbitrary pinch-off height, assuming the bubble above the pinch-off height can be approximated as a\nspherical cap and the volume below the pinch-off location remains on the surface. Because the limiting\nsurface tension forces occur at an angle perpendicular to the surface rather than at the receding contact\nangle, all surfaces with a receding contact angle greater than 90\u00b0 are predicted to have the same departure\ndiameter. The maximum base diameter is estimated by considering the volume of the departed bubble as a\nspherical cap with a contact angle equal to the receding contact angle, resulting in an increasing trend in\nmaximum base diameter with increasing receding contact angle above 90\u00b0; this is expected to be an\noverestimate due to neglect of the bubble deformation by buoyancy.\nFigure 6. Illustration of approximate bubble growth progressions and results of bubble growth model.\nBubble growth and departure on a surface with (a)-(c) low receding contact angle and (d)-(f) high receding\ncontact angle. (g) Model results for the bubble departure diameter and maximum bubble base diameter\nplotted along with experimental results from the smooth surfaces.\nThe experimental results closely follow the trends of bubble departure diameter and base diameter with\nincreasing receding contact angle and match the expected magnitudes, as shown in Figure 6(g). The model\nslightly underpredicts the departure diameter on a surface with a low receding contact angle and, as\nexpected, overpredicts the maximum base diameter on a surface with a high receding contact angle. This\n15\nagreement confirms the dominant role of the receding contact angle on bubble growth and departure\ndynamics.\n3.3. Texturing hydrophobic surfaces for efficient boiling heat transfer\nThis newfound understanding that the receding contact angle governs bubble growth dynamics is next\nused to design textured hydrophobic surfaces that provide favorable bubble dynamics to avoid premature\ncritical heat flux while further enhancing nucleate boiling. Based on the results discussed above for smooth\nsurfaces, it is evident that previously observed vapor spreading on hydrophobic surfaces [12,15,29-33] can\nbe mitigated by minimizing the receding contact angle of the surface. To further demonstrate this\nunderstanding, the wettability characteristics and boiling performance of a high-hysteresis parahydrophobic\nsurface versus a low-hysteresis superhydrophobic surface (in the Cassie-Baxter state) are reported in Figure\n7. These surfaces feature the same PDMS coating material, but different textures give rise to their drastically\ndifferent dynamic wetting behaviors. The parahydrophobic PDMS-coated surface, which is textured to\nprovide wetting properties similar to those of the rose petal (as shown in Figure 7), has a high static contact\nangle (144\u00b0) and a low receding contact angle (~30\u00b0). Due to the high contact angle hysteresis, a 5 \u03bcL\ndroplet deposited on this surface remains adhered even when tilted at a 90\u00b0 angle or inverted. Textured to\nminimize contact angle hysteresis, the superhydrophobic PDMS-coated surface also has a high static\ncontact angle (151\u00b0), but paired with a high receding contact angle (147\u00b0). Due to the minimal contact angle\nhysteresis, droplets readily roll off this surface when tilted, similar to the classical behavior of the lotus leaf\n[45].\nAs hypothesized, the contrast in the receding contact angles results in stark differences in the boiling\nbehavior and heat transfer performance. The superhydrophobic PDMS-coated surface exhibits film boiling\nbehavior immediately upon incipience and throughout the boiling curve, resulting in large surface superheat\nincreases with small increases in heat flux. The parahydrophobic PDMS-coated surface maintains nucleate\nboiling to a high heat flux and even further reduces surface temperatures compared to the smooth PDMS-\ncoated surface; at a low heat flux of ~ 8 W/cm2, a 60% increase in the heat transfer coefficient (heat flux\ndivided by surface superheat) is observed compared to the smooth copper surface.\n16\nFigure 7. Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u03bcL\ndroplets on (a) parahydrophobic PDMS-coated surface (para PDMS), (b) superhydrophobic PDMS-\ncoated surface (SHPho PDMS), and (c) rose petal. Receding droplets on (d) parahydrophobic PDMS-\ncoated surface, (e) superhydrophobic PDMS-coated surface, and (f) rose petal. (g) Boiling curves (heat\nflux versus surface superheat) for the textured PDMS-coated surfaces compared with the smooth copper\nand PDMS-coated surfaces. Calculated uncertainties in heat flux and superheat are less than 3 W/cm2 and\n0.7 K, respectively. Crosses with a rightward arrow indicate critical heat flux and subsequent temperature\nexcursions. The horizontal dashed line indicates the critical heat flux predicted by Zuber's proposed\nhydrodynamic limit [35].\nBy tailoring the wettability to resemble that of the rose petal, the boiling performance is enhanced\nconsiderably due to favorable bubble dynamics. As presented in Figure 8, the low receding contact angle\ncharacteristic of the parahydrophobic PDMS-coated surface minimizes the bubble base diameter during\nbubble growth; tiny bubbles have a near-perfect spherical shape as they grow and readily depart from the\nsurface (Figure 8(a)). This behavior sustains nucleate boiling even under conditions with dense, vigorous\nvapor formation across the entire surface by minimizing surface dewetting (Figure 8(b)). On the\nsuperhydrophobic surface, the base diameter of the bubbles spreads freely as the bubble grows at the\nreceding contact angle. As a result, the first bubble that forms covers much of the surface in vapor and\nextensive surface-level coalescence occurs prior to a single bubble departure (Figure 8(c)). Due to the\npromotion of the Cassie-Baxter state, this region traps vapor in the interstices of the surface structures and\n17\nis never able to rewet. Thus, the surface becomes blanketed in vapor easily, resulting in premature film\nboiling (Figure 8(d)).\nFigure 8. Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated\nsurfaces. (a) Bubble ebullition cycle on the parahydrophobic PDMS-coated and (c) growth, coalescence\nand departure of first bubbles on the superhydrophobic PDMS-coated surface at incipience. Low-heat-flux\nboiling behavior of (b) the parahydrophobic PDMS-coated surface (heat flux: 7.8 W/cm2; superheat: 5.8 K)\nand (d) the superhydrophobic PDMS-coated surface (7.3 W/cm2; 12.5 K). Scale bars, 2 mm. For high-speed\nvideos of the bubble dynamics, refer to Appendix A.\nIn a recent study by the authors [34], superhydrophobic surfaces were shown to promote effective\nnucleate boiling if brought into the Wenzel state prior to boiling, but to suffer ineffective film boiling if in\nthe Cassie-Baxter state prior to boiling. The initial wetting state on the surface in Ref. [34] was controlled\nvia the degassing procedure. Importantly, the parahydrophobic PDMS-coated surface in the current study\nmaintains nucleate boiling even under conditions that promote a Cassie-Baxter wetting state on\nsuperhydrophobic surfaces. Parahydrophobic surfaces can thereby remove the risk of premature film\nboiling, because they do not support a Cassie-Baxter wetting state. These surfaces capitalize upon the\nadvantages of hydrophobicity (i.e., promotion of boiling incipience at low superheats and high nucleation\nsite densities that yield efficient heat transfer) while mitigating the vapor spreading and premature film\nboiling that commonly plague hydrophobic boiling surfaces. Compared with biphilic surfaces that have\nsmall, isolated hydrophobic regions, parahydrophobic surfaces may be capable of greater improvement to\n18\nthe heat transfer coefficient due to utilization of the entirety of the surface for enhanced nucleation. With\nfurther geometric optimization of the texture geometry to promote nucleation and reduce the receding\ncontact angle, parahydrophobic surfaces offer a very promising approach to minimize surface temperatures\nduring boiling without negatively affecting the critical heat flux.\nWe caution that a surface satisfying the notional criteria for 'parahydrophobicity' does not\nautomatically ensure that it will yield advantageous boiling characteristics. There is no consensus in the\nresearch community on the specific wetting characteristics that define parahydrophobicity, but a surface is\ntypically regarded as being parahydrophobic if it has a high static contact angle (approaching or exceeding\n150\u00b0) and a droplet can remain adhered to the surface when tilted at 90\u00b0 or inverted. Because adhesion of a\ndroplet to a surface when tilted is governed by the contact angle hysteresis, all notionally parahydrophobic\nsurfaces do not necessarily possess the low receding contact angle required for maintaining nucleate boiling.\nThis is demonstrated next by evaluating the boiling performance of a parahydrophobic Teflon-coated\nsurface with the same textured surface morphology as the parahydrophobic PDMS-coated surface,\npresented in Figure 9(d). Like the rose petal and the parahydrophobic PDMS-coated surface (Figure 9(a)\nand Figure 9(c), respectively), the Teflon-coated surface is considered parahydrophobic owing to a high\nstatic contact angle (135\u00b0) and the adherence of a 5 \u03bcL droplet to the surface when tilted at 90\u00b0 (attributable\nto a high contact angle hysteresis of ~40\u00b0), shown in Figure 9(b). However, unlike for a PDMS coating, the\nparahydrophobic Teflon-coated surface has a high receding contact angle (105\u00b0) and was observed to\nundergo premature film boiling (see Appendix A for a high-speed video of this behavior), resulting in\nsignificant increases in surface superheat with increasing heat flux. This reinforces the assertion that the\nreceding contact angle governs vapor spreading during boiling, rather than the contact angle hysteresis\nwhich is used to identify parahydrophobicity.\n19\nFigure 9. Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and\nTeflon-coated (para Teflon) surfaces. A 5 \u03bcL droplet adhered to (a) parahydrophobic PDMS-coated surface,\n(b) parahydrophobic Teflon-coated surface, and (c) rose petal while tilted at 90\u00b0. (d) Boiling curves (heat\nflux versus surface superheat) for the two parahydrophobic surfaces with insets showing the receding\ncontact angle measurements for each surface. Calculated uncertainty for the heat flux and superheat are less\nthan 3 W/cm2 and 0.7 K, respectively. Cross with a rightward arrow indicates critical heat flux and the\nsubsequent temperature excursion. The horizontal dashed line indicates the critical heat flux predicted by\nZuber's proposed hydrodynamic limit [35].\n4. Conclusions\nThe set of experiments described herein has clarified the roles of different wettability characteristics on\nboiling behavior. The intrinsic wettability of the surface, as indicated by static contact angle measurements,\nplays a role in the nucleation behavior and heat transfer efficacy of a surface during boiling; however, the\nreceding contact angle is the dominant factor governing the bubble growth dynamics and, ultimately, the\ncritical heat flux on surfaces in the absence of capillary wicking. The hydrophobic surfaces with low\nreceding contact angles evaluated in this study maintain the advantageous low-superheat boiling incipience\nand high active nucleation site densities commonly observed on hydrophobic surfaces, but prevent the vapor\nspreading during bubble growth that commonly plagues these surfaces when their receding contact angle\nis high. This results in decreased surface temperatures during nucleate boiling compared to hydrophilic\nsurfaces and little to no detriment to critical heat flux. Texturing hydrophobic surfaces to minimize the\nreceding contact angle provides a further avenue for boiling performance enhancement. The boiling\nbehavior of parahydrophobic surfaces with rose-petal-like wettability is studied. Textured parahydrophobic\n20\nsurfaces with low receding contact angles are demonstrated to improve the boiling efficacy compared to\nsmooth hydrophobic surfaces of the same material through further reduction in surface temperatures. The\nunderstanding obtained in this study ushers in a new class of surfaces with wide applicability for enhanced\nboiling: hydrophobic surfaces that have low receding contact angles.\nAcknowledgment\nThis work was supported as part of Purdue's NEPTUNE Center for Power and Energy, funded by the\nOffice of Naval Research under Award Number N000141613109.\nThe first author acknowledges support from the Department of Defense (DoD) National Defense\nScience and Engineering Graduate Fellowship (NDSEG) program, sponsored by the Air Force Office of\nScientific Research (AFOSR). The authors thank the Wright Flower Shop in West Lafayette, IN for\nproviding the rose petals. The authors thank Laurie Mueller of the Purdue University Life Sciences\nMicroscopy Facility for preparing and imaging the rose petal.\nAppendix A. Supplementary Videos\nThe Supplementary Videos associated with this article can be found in the online version at [insert url].\nAppendix B. Bubble Growth Model Derivation\nThe bubble growth model considers a balance between the buoyancy force acting upward on the bubble\n(\n)\nb\nl\nv\nF\nVg\n\uf072\n\uf072\n=\n-\n(A1)\n(where \u03c1l and \u03c1g are the densities of the liquid and vapor, V the bubble volume, and g the gravitational\nconstant) and the surface tension force holding it to the surface\n(\n)sin\ns\nb\nF\nD\n\uf067\uf070\n\uf071\n=\n(A2)\n(where \u03b3 is the liquid-vapor surface tension, Db the base diameter of the bubble, and \u03b8 the contact angle). It\nis assumed that the bubble grows with the liquid at the receding contact angle as a spherical cap. The volume\nof a spherical cap can be calculated as follows (variables defined in Figure A1):\n(\n)\n3\n3\n1\n2\n3sin\nsin\n3\ncap\nV\nR\n\uf070\n\uf061\n\uf061\n=\n-\n+\n(A3)\nThe sphere radius, R, and the angle, \u03b1, are substituted for the bubble base diameter, Db, and the liquid\nreceding contact angle, \u03b8rec, which can be readily measured in the experiments. The sphere radius is related\nto the bubble base diameter as cos\n/ 2\nb\nD\nR\n\uf061=\n. The angle \u03b1 can be related to the liquid receding contact\nangle as\n/ 2\nrec\n\uf061\n\uf071\n\uf070\n=\n-\n. Substituting these expressions into Eq. (A3):\n21\n(\n)\n3\n3\n1\n2\n3cos\ncos\n24\nsin\nb\ncap\nrec\nrec\nrec\nD\nV\n\uf070\n\uf071\n\uf071\n\uf071\n\uf0e6\n\uf0f6\n=\n+\n-\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(A4)\nSubstituting Eq. (A4) into the relation for the buoyancy force (Eq. (A1)), and setting the buoyancy force\nequal to the surface tension force (i.e. the condition for bubble departure), the balance between buoyancy\nand surface tension forces is\n(\n)\n(\n)\n3\n3\n1\n2\n3cos\ncos\nsin\n24\nsin\nb\nl\nv\nrec\nrec\nlv\nb\nrec\nrec\nD\ng\nD\n\uf072\n\uf072\n\uf070\n\uf071\n\uf071\n\uf067\uf070\n\uf071\n\uf071\n\uf0e6\n\uf0f6\n-\n+\n-\n=\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n(A5)\nEq. (A5) can be simply solved to obtain an expression for the bubble base diameter immediately prior to\ndeparture:\n(\n)(\n)\n4\n3\n24\nsin\n2\n3cos\ncos\nlv\nrec\nb\nl\nv\nrec\nrec\nD\ng\n\uf067\n\uf071\n\uf072\n\uf072\n\uf071\n\uf071\n=\n-\n+\n-\n(A6)\nOnce this base diameter and spherical cap volume are known, the bubble departure diameter can be\nobtained assuming the bubble departs as a sphere,\n3 6\n/\ndepart\ncap\nD\nV\n\uf070\n=\n(A7)\nFor surfaces with a receding contact angle of less than 90\u00b0, this model can be evaluated using the receding\ncontact angle of the surface. As discussed in the manuscript, for surfaces with a high receding contact angle,\nthe bubble is assumed to pinch off at some height above the surface with a contact angle perpendicular to\nthe surface. Thus, volume and departure diameter are calculated assuming a receding contact angle of 90.\nThe base diameter is then estimated according to Eq. (A4) using the calculated volume and the measured\nreceding contact angle of the surface.\nFigure A1. Schematic illustration of the geometry of a spherical cap bubble at the receding contact angle.\nReferences\n22\n[1]\nS. Mori, Y. Utaka, Critical heat flux enhancement by surface modification in a saturated pool boiling:\nA review, Int. J. Heat Mass Transf. 108, Part B (2017) 2534-2557.\n[2]\nG. Liang, I. Mudawar, Pool boiling critical heat flux (CHF) - Part 2: Assessment of models and\ncorrelations, Int. J. Heat Mass Transf. 117 (2018) 1368-1383.\n[3]\nG. Liang, I. Mudawar, Pool boiling critical heat flux (CHF) - Part 1: Review of mechanisms, models,\nand correlations, Int. J. Heat Mass Transf. 117 (2018) 1352-1367.\n[4]\nY. Takata, S. Hidaka, M. Masuda, T. Ito, Pool boiling on a superhydrophilic surface, Int. J. Energy\nRes. 27 (2003) 111-119.\n[5]\nY. Takata, S. Hidaka, J.M. Cao, T. Nakamura, H. Yamamoto, M. Masuda, T. Ito, Effect of surface\nwettability on boiling and evaporation, Energy. 30 (2005) 209-220.\n[6]\nH.S. Ahn, H.J. Jo, S.H. Kang, M.H. Kim, Effect of liquid spreading due to nano/microstructures on\nthe critical heat flux during pool boiling, Appl. Phys. Lett. 98 (2011) 071908.\n[7]\nB.S. Kim, H. Lee, S. Shin, G. Choi, H.H. Cho, Interfacial wicking dynamics and its impact on critical\nheat flux of boiling heat transfer, Appl. Phys. Lett. 105 (2014).\n[8]\nM.M. Rahman, E. \u00d6l\u00e7ero\u011flu, M. McCarthy, Role of wickability on the critical heat flux of structured\nsuperhydrophilic surfaces, Langmuir. 30 (2014) 11225-11234.\n[9]\nN.S. Dhillon, J. Buongiorno, K.K. Varanasi, Critical heat flux maxima during boiling crisis on\ntextured surfaces, Nat. Commun. 6 (2015) 8247.\n[10] A.R. Girard, J. Kim, S.M. You, Pool boiling heat transfer of water on hydrophilic surfaces with\ndifferent wettability, Proc. Of ASME International Mechanical Engineering Congress & Exposition.\n8 (2016).\n[11] A.R. Betz, J. Xu, H. Qiu, D. Attinger, Do surfaces with mixed hydrophilic and hydrophobic areas\nenhance pool boiling?, Appl. Phys. Lett. 97 (2010) 141909.\n[12] H. Jo, H.S. Ahn, S. Kang, M.H. Kim, A study of nucleate boiling heat transfer on hydrophilic,\nhydrophobic and heterogeneous wetting surfaces, Int. J. Heat Mass Transf. 54 (2011) 5643-5652.\n[13] B. Bourdon, E. Bertrand, P. Di Marco, M. Marengo, R. Rioboo, J. De Coninck, Wettability influence\non the onset temperature of pool boiling: Experimental evidence onto ultra-smooth surfaces, Adv.\nColloid Interface Sci. 221 (2015) 34-40.\n[14] V.P. Carey, Liquid Vapor Phase Change Phenomena: An Introduction to the Thermophysics of\nVaporization and Condensation Processes in Heat Transfer Equipment, 2nd ed., Taylor & Francis,\n2008.\n[15] M. Zupan\u010di\u010d, M. Steinb\u00fccher, P. Gregor\u010di\u010d, I. Golobi\u010d, Enhanced pool-boiling heat transfer on lasermade hydrophobic/superhydrophilic polydimethylsiloxane-silica patterned surfaces, Appl. Therm.\nEng. 91 (2015) 288-297.\n23\n[16] S. Gong, P. Cheng, Lattice Boltzmann simulations for surface wettability effects in saturated pool\nboiling heat transfer, Int. J. Heat Mass Transf. 85 (2015) 635-646.\n[17] B. Shen, M. Yamada, S. Hidaka, J. Liu, J. Shiomi, G. Amberg, M. Do-Quang, M. Kohno, K.\nTakahashi, Y. Takata, Early Onset of Nucleate Boiling on Gas-covered Biphilic Surfaces, Sci. Rep.\n7 (2017) 2036.\n[18] C. Frankiewicz, D. Attinger, On Temporal Biphilicity: Definition, Relevance, and Technical\nImplementation in Boiling Heat Transfer, J. Heat Transf. 139 (2017).\n[19] Y. Lai, J. Huang, Z. Cui, M. Ge, K.-Q. Zhang, Z. Chen, L. Chi, Recent advances in TIO2-based\nnanostructured surfaces with controllable wettability and adhesion, Small. 12 (2016) 2203-2224.\n[20] A.B.D. Cassie, S. Baxter, Wettability of porous surfaces, Trans. Faraday Soc. 40 (1944) 546-551.\n[21] R.N. Wenzel, Surface roughness and contact angle., J. Phys. Colloid Chem. 53 (1949) 1466-1467.\n[22] A. Lafuma, D. Qu\u00e9r\u00e9, Superhydrophobic states, Nat. Mater. 2 (2003) 457-460.\n[23] B. He, J. Lee, N.A. Patankar, Contact angle hysteresis on rough hydrophobic surfaces, Colloids Surf.\nPhysicochem. Eng. Asp. 248 (2004) 101-104.\n[24] C. Dorrer, J. R\u00fche, Some thoughts on superhydrophobic wetting, Soft Matter. 5 (2008) 51-61.\n[25] Y.Y. Yan, N. Gao, W. Barthlott, Mimicking natural superhydrophobic surfaces and grasping the\nwetting process: A review on recent progress in preparing superhydrophobic surfaces, Adv. Colloid\nInterface Sci. 169 (2011) 80-105.\n[26] S. Dash, M.T. Alt, S.V. Garimella, Hybrid Surface Design for Robust Superhydrophobicity,\nLangmuir. 28 (2012) 9606-9615.\n[27] N.A. Patankar, Transition between superhydrophobic states on rough surfaces, Langmuir. 20 (2004)\n7097-7102.\n[28] T. Koishi, K. Yasuoka, S. Fujikawa, T. Ebisuzaki, X.C. Zeng, Coexistence and transition between\nCassie and Wenzel state on pillared hydrophobic surface, Proc. Natl. Acad. Sci. 106 (2009) 8435-\n8440.\n[29] Y. Takata, S. Hidaka, T. Uraguchi, Boiling Feature on a Super Water-Repellent Surface, Heat Transf.\nEng. 27 (2006) 25-30.\n[30] C.-C. Hsu, P.-H. Chen, Surface wettability effects on critical heat flux of boiling heat transfer using\nnanoparticle coatings, Int. J. Heat Mass Transf. 55 (2012) 3713-3719.\n[31] I. Malavasi, B. Bourdon, P. Di Marco, J. de Coninck, M. Marengo, Appearance of a low superheat\n\"quasi-Leidenfrost\" regime for boiling on superhydrophobic surfaces, Int. Commun. Heat Mass\nTransf. 63 (2015) 1-7.\n[32] Y. Li, K. Zhang, M.-C. Lu, C. Duan, Single bubble dynamics on superheated superhydrophobic\nsurfaces, Int. J. Heat Mass Transf. 99 (2016) 521-531.\n24\n[33] E. Teodori, T. Valente, I. Malavasi, A.S. Moita, M. Marengo, A.L.N. Moreira, Effect of extreme\nwetting scenarios on pool boiling conditions, Appl. Therm. Eng. 115 (2017) 1424-1437.\n[34] T.P. Allred, J.A. Weibel, S.V. Garimella, Enabling highly effective boiling from superhydrophobic\nsurfaces, Phys. Rev. Lett. 120 (2018) 174501.\n[35] N. Zuber, Hydrodynamic aspects of boiling heat transfer, University of California, Los Angeles,\n1959.\n[36] L. Feng, Y. Zhang, J. Xi, Y. Zhu, N. Wang, F. Xia, L. Jiang, Petal effect: a superhydrophobic state\nwith high adhesive force, Langmuir. 24 (2008) 4114-4119.\n[37] H. Jin, Y. Li, P. Zhang, S. Nie, N. Gao, The investigation of the wetting behavior on the red rose\npetal, Appl. Phys. Lett. 108 (2016) 151605.\n[38] S. Yang, J. Ju, Y. Qiu, Y. He, X. Wang, S. Dou, K. Liu, L. Jiang, Peanut leaf inspired multifunctional\nsurfaces, Small. 10 (2014) 294-299.\n[39] C.R. Szczepanski, F. Guittard, T. Darmanin, Recent advances in the study and design of\nparahydrophobic surfaces: From natural examples to synthetic approaches, Adv. Colloid Interface\nSci. 241 (2017) 37-61.\n[40] J. Wang, Q. Yang, M. Wang, C. Wang, L. Jiang, Rose petals with a novel and steady air bubble\npinning effect in aqueous media, Soft Matter. 8 (2012) 2261-2266.\n[41] Z.-G. Guo, W.-M. Liu, Sticky superhydrophobic surface, Appl. Phys. Lett. 90 (2007) 223111.\n[42] J.Y. Park, D. Ahn, Y.Y. Choi, C.M. Hwang, S. Takayama, S.H. Lee, S.-H. Lee, Surface chemistry\nmodification of PDMS elastomers with boiling water improves cellular adhesion, Sens. Actuators B\nChem. 173 (2012) 765-771.\n[43] K. Brown, H. Coleman, W. Steele, Estimating Uncertainty Intervals for Linear Regression, in: Proc.\n33rd Aerosp. Sci. Meet. Exhib., Reno, NV, 1995.\n[44] Y. Chen, R. Mertz, R. Kulenovic, Numerical simulation of bubble formation on orifice plates with a\nmoving contact line, Int. J. Multiph. Flow. 35 (2009) 66-77.\n[45] W. Barthlott, C. Neinhuis, Purity of the sacred lotus, or escape from contamination in biological\nsurfaces, Planta. 202 (1997) 1-8.\n25\nList of Tables\nTable 1. Average contact angle measurements for each surface studied.\n26\nList of Figures\nFigure 1. Scanning electron microscope images of the aluminum textured surfaces fabricated in this study.\n(a) Chemically-etched parahydrophobic surface texture with large (tens of microns) relatively smooth\nstructures separated by fissures. (b) Laser-etched superhydrophobic surface texture with stochastic\nroughness made up of fused spheroidal particles; structures range in size from ones to tens of microns. (c)\nRose petal surface with micron-sized ridges on top of microscale bumps on the order of tens of microns.\nFigure 2. Schematic illustration of (a) pool boiling chamber and (b)-(c) test block. (b) top-down view of the\nthermocouple locations and the surface footprint area corresponding to each thermocouple rake; and (c)\nside-view of the thermocouple rakes with vertical dimensions.\nFigure 3. Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces.\nStatic 5 \u03bcL droplets on (a) smooth copper, (b) smooth PDMS-coated, and (c) smooth Teflon-coated\nsurfaces. Receding droplets on (d) smooth copper, (e) smooth PDMS-coated, and (f) smooth Teflon-coated\nsurfaces. (g) Boiling curves (heat flux versus surface superheat) for each of the smooth surfaces. Calculated\nuncertainties in heat flux and surface superheat are less than 3 W/cm2 and 0.7 K, respectively. Crosses with\na rightward arrow indicate critical heat flux and subsequent temperature excursions. The horizontal dashed\nline indicates the critical heat flux predicted by Zuber's proposed hydrodynamic limit [35].\nFigure 4. Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the\nsmooth copper surface (heat flux: 8.3 W/cm2; superheat: 9.9 K), (b) dense nucleate boiling from the smooth\nPDMS-coated surface (7.5 W/cm2; 7.9 K), and (c) film boiling from the smooth Teflon-coated surface (6.7\nW/cm2; 36.7 K). For high-speed videos of the boiling behavior, refer to Appendix A.\nFigure 5. Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a\ndroplet on the smooth PDMS-coated surface and (b) image showing a similarly small receding contact\nangle during bubble growth on the same surface. (c) Bubble ebullition cycle on a PDMS-coated surface\nexhibiting low-receding-angle growth. (d) Receding contact angle measurement of a droplet on the Tefloncoated surface and (e) image of a growing bubble on the same surface showing a similarly large receding\ncontact angle. (f) Bubble ebullition cycle on a Teflon-coated surface exhibiting high-receding-angle growth.\nScale bars, 3 mm. Note the different length and time scales indicated on (c) and (f). For high-speed videos\nof the bubble dynamics, refer to Appendix A.\nFigure 6. Illustration of approximate bubble growth progressions and results of bubble growth model.\nBubble growth and departure on a surface with (a)-(c) low receding contact angle and (d)-(f) high receding\ncontact angle. (g) Model results for the bubble departure diameter and maximum bubble base diameter\nplotted along with experimental results from the smooth surfaces.\nFigure 7. Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u03bcL\ndroplets on (a) parahydrophobic PDMS-coated surface (para PDMS), (b) superhydrophobic PDMS-\n27\ncoated surface (SHPho PDMS), and (c) rose petal. Receding droplets on (d) parahydrophobic PDMS-\ncoated surface, (e) superhydrophobic PDMS-coated surface, and (f) rose petal. (g) Boiling curves (heat\nflux versus surface superheat) for the textured PDMS-coated surfaces compared with the smooth copper\nand PDMS-coated surfaces. Calculated uncertainties in heat flux and superheat are less than 3 W/cm2 and\n0.7 K, respectively. Crosses with a rightward arrow indicate critical heat flux and subsequent temperature\nexcursions. The horizontal dashed line indicates the critical heat flux predicted by Zuber's proposed\nhydrodynamic limit [35].\nFigure 8. Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated\nsurfaces. (a) Bubble ebullition cycle on the parahydrophobic PDMS-coated and (c) growth, coalescence\nand departure of first bubbles on the superhydrophobic PDMS-coated surface at incipience. Low-heat-flux\nboiling behavior of (b) the parahydrophobic PDMS-coated surface (heat flux: 7.8 W/cm2; superheat: 5.8 K)\nand (d) the superhydrophobic PDMS-coated surface (7.3 W/cm2; 12.5 K). Scale bars, 2 mm. For high-speed\nvideos of the bubble dynamics, refer to Appendix A.\nFigure 9. Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and\nTeflon-coated (para Teflon) surfaces. A 5 \u03bcL droplet adhered to (a) parahydrophobic PDMS-coated surface,\n(b) parahydrophobic Teflon-coated surface, and (c) rose petal while tilted at 90\u00b0. (d) Boiling curves (heat\nflux versus surface superheat) for the two parahydrophobic surfaces with insets showing the receding\ncontact angle measurements for each surface. Calculated uncertainty for the heat flux and superheat are less\nthan 3 W/cm2 and 0.7 K, respectively. Cross with a rightward arrow indicates critical heat flux and the\nsubsequent temperature excursion. The horizontal dashed line indicates the critical heat flux predicted by\nZuber's proposed hydrodynamic limit [35].\nFigure A1. Schematic illustration of the geometry of a spherical cap bubble at the receding contact angle.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 877
+    },
+    {
+      "number": 2,
+      "start": 877,
+      "end": 2841
+    },
+    {
+      "number": 3,
+      "start": 2841,
+      "end": 6115
+    },
+    {
+      "number": 4,
+      "start": 6115,
+      "end": 9085
+    },
+    {
+      "number": 5,
+      "start": 9085,
+      "end": 10818
+    },
+    {
+      "number": 6,
+      "start": 10818,
+      "end": 11680
+    },
+    {
+      "number": 7,
+      "start": 11680,
+      "end": 14247
+    },
+    {
+      "number": 8,
+      "start": 14247,
+      "end": 16296
+    },
+    {
+      "number": 9,
+      "start": 16296,
+      "end": 19588
+    },
+    {
+      "number": 10,
+      "start": 19588,
+      "end": 21601
+    },
+    {
+      "number": 11,
+      "start": 21601,
+      "end": 23223
+    },
+    {
+      "number": 12,
+      "start": 23223,
+      "end": 24368
+    },
+    {
+      "number": 13,
+      "start": 24368,
+      "end": 26566
+    },
+    {
+      "number": 14,
+      "start": 26566,
+      "end": 29681
+    },
+    {
+      "number": 15,
+      "start": 29681,
+      "end": 31690
+    },
+    {
+      "number": 16,
+      "start": 31690,
+      "end": 34181
+    },
+    {
+      "number": 17,
+      "start": 34181,
+      "end": 36053
+    },
+    {
+      "number": 18,
+      "start": 36053,
+      "end": 37887
+    },
+    {
+      "number": 19,
+      "start": 37887,
+      "end": 40096
+    },
+    {
+      "number": 20,
+      "start": 40096,
+      "end": 42150
+    },
+    {
+      "number": 21,
+      "start": 42150,
+      "end": 44408
+    },
+    {
+      "number": 22,
+      "start": 44408,
+      "end": 45907
+    },
+    {
+      "number": 23,
+      "start": 45907,
+      "end": 48593
+    },
+    {
+      "number": 24,
+      "start": 48593,
+      "end": 51205
+    },
+    {
+      "number": 25,
+      "start": 51205,
+      "end": 53251
+    },
+    {
+      "number": 26,
+      "start": 53251,
+      "end": 53339
+    },
+    {
+      "number": 27,
+      "start": 53339,
+      "end": 56618
+    },
+    {
+      "number": 28,
+      "start": 56618,
+      "end": 58703
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-purdue-university",
+      "number": null,
+      "title": "Purdue University",
+      "level": 2,
+      "start": 0,
+      "end": 17
+    },
+    {
+      "id": "sec-1-purdue-e-pubs",
+      "number": null,
+      "title": "Purdue e-Pubs",
+      "level": 1,
+      "start": 17,
+      "end": 100
+    },
+    {
+      "id": "sec-2-the-petal-effect-of-parahydrophobic-surf",
+      "number": null,
+      "title": "The Petal Effect of Parahydrophobic Surfaces offers",
+      "level": 1,
+      "start": 100,
+      "end": 152
+    },
+    {
+      "id": "sec-3-low-receding-contact-angles-that-promote",
+      "number": null,
+      "title": "Low Receding Contact Angles that Promote",
+      "level": 1,
+      "start": 152,
+      "end": 193
+    },
+    {
+      "id": "sec-4-effective-boiling",
+      "number": null,
+      "title": "Effective Boiling",
+      "level": 1,
+      "start": 193,
+      "end": 211
+    },
+    {
+      "id": "sec-5-t-p-allred",
+      "number": null,
+      "title": "T. P. Allred",
+      "level": 2,
+      "start": 211,
+      "end": 242
+    },
+    {
+      "id": "sec-6-j-a-weibel",
+      "number": null,
+      "title": "J. A. Weibel",
+      "level": 2,
+      "start": 242,
+      "end": 294
+    },
+    {
+      "id": "sec-7-s-v-garimella",
+      "number": null,
+      "title": "S V. Garimella",
+      "level": 2,
+      "start": 294,
+      "end": 879
+    },
+    {
+      "id": "sec-8-the-petal-effect-of-parahydrophobic-surf",
+      "number": null,
+      "title": "The Petal Effect of Parahydrophobic Surfaces Offers Low Receding Contact",
+      "level": 1,
+      "start": 879,
+      "end": 952
+    },
+    {
+      "id": "sec-9-angles-that-promote-effective-boiling1",
+      "number": null,
+      "title": "Angles that Promote Effective Boiling1",
+      "level": 1,
+      "start": 952,
+      "end": 1152
+    },
+    {
+      "id": "sec-10-abstract",
+      "number": null,
+      "title": "Abstract",
+      "level": 2,
+      "start": 1152,
+      "end": 2497
+    },
+    {
+      "id": "sec-11-keywords",
+      "number": null,
+      "title": "Keywords",
+      "level": 2,
+      "start": 2497,
+      "end": 13496
+    },
+    {
+      "id": "sec-12-pdms",
+      "number": null,
+      "title": "PDMS",
+      "level": 2,
+      "start": 13496,
+      "end": 13539
+    },
+    {
+      "id": "sec-13-pdms",
+      "number": null,
+      "title": "PDMS",
+      "level": 2,
+      "start": 13539,
+      "end": 13578
+    },
+    {
+      "id": "sec-14-teflon",
+      "number": null,
+      "title": "Teflon",
+      "level": 2,
+      "start": 13578,
+      "end": 42537
+    },
+    {
+      "id": "sec-15-acknowledgment",
+      "number": null,
+      "title": "Acknowledgment",
+      "level": 2,
+      "start": 42537,
+      "end": 43153
+    },
+    {
+      "id": "sec-16-appendix-a-supplementary-videos",
+      "number": null,
+      "title": "Appendix A. Supplementary Videos",
+      "level": 2,
+      "start": 43153,
+      "end": 43292
+    },
+    {
+      "id": "sec-17-appendix-b-bubble-growth-model-derivatio",
+      "number": null,
+      "title": "Appendix B. Bubble Growth Model Derivation",
+      "level": 2,
+      "start": 43292,
+      "end": 45896
+    },
+    {
+      "id": "sec-18-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 45896,
+      "end": 53254
+    },
+    {
+      "id": "sec-19-list-of-tables",
+      "number": null,
+      "title": "List of Tables",
+      "level": 2,
+      "start": 53254,
+      "end": 53342
+    },
+    {
+      "id": "sec-20-list-of-figures",
+      "number": null,
+      "title": "List of Figures",
+      "level": 2,
+      "start": 53342,
+      "end": 58703
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "Scanning electron microscope images of the aluminum textured surfaces fabricated in this study.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-1_p6.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "Schematic illustration of (a) the pool boiling test facility and (b)-(c) test block. (b) top-down view",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-2_p8.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-3_p11.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "The different vapor formation characteristics that result in the differing boiling performance of",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-4_p11.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-4_p12.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "(d)) closely matches the contact angle of liquid receding away from the site of a growing bubble",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-5_p12.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-5_p13.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "(g).",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-6_p14.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "Illustration of approximate bubble growth progressions and results of bubble growth model.",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-6_p15.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "caption": "Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u00b5L",
+      "page": 17,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-7_p17.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "caption": "Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated",
+      "page": 18,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-8_p18.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "caption": "Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and",
+      "page": 20,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-9_p20.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "Scanning electron microscope images of the aluminum textured surfaces fabricated in this study.",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-1_p27.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "Schematic illustration of (a) pool boiling chamber and (b)-(c) test block. (b) top-down view of the",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-2_p27.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "Wettability characterization and boiling results for smooth hydrophilic and hydrophobic surfaces.",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-3_p27.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "Images comparing the boiling behavior on smooth surfaces. (a) Sparse nucleate boiling from the",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-4_p27.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "Bubble growth dynamics and ebullition cycle. (a) Receding contact angle measurement of a",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-5_p27.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "Illustration of approximate bubble growth progressions and results of bubble growth model.",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-6_p27.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "caption": "Wettability characterization and boiling results for textured PDMS-coated surfaces. Static 5 \u00b5L",
+      "page": 27,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-7_p27.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "caption": "Comparison of the bubble ebullition cycle and boiling behavior of the textured PDMS-coated",
+      "page": 28,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-8_p28.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "caption": "Wetting behavior and boiling results for parahydrophobic PDMS-coated (para PDMS) and",
+      "page": 28,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\allred-2019-petal-effect-parahydrophobic\\allred_2019_petal_effect_parahydrophobic_fig-9_p28.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "Average contact angle measurements for each surface studied.",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "Average contact angle measurements for each surface studied.",
+      "page": 26,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 28,
+    "ingest": "pymupdf"
+  }
+}

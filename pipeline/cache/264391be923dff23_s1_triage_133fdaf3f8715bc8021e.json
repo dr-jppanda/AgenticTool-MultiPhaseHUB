@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool boiling heat transfer enhancement with copper nanowire arrays",
+  "year": 2015,
+  "reason": "The authors electroplated copper nanowire arrays of five lengths and measured their own pool boiling curves, HTC, CHF, and contact angles in saturated DI water."
+}

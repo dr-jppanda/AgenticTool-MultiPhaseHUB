@@ -4,8 +4,8 @@
     python -m mhtdb.pipeline run --rules papers/*.pdf    # offline, no API key
     python -m mhtdb.pipeline ingest-points --record ID --from points.json
     python -m mhtdb.pipeline figures --record ID --out manifest.json
-    python -m mhtdb.pipeline crops --all              # S0b: one file per figure
-    python -m mhtdb.pipeline digitize --record ID     # S8: figures -> points
+    python -m mhtdb.pipeline crops --all              # S8: one file per figure
+    python -m mhtdb.pipeline digitize --record ID     # S9: figures -> points
     python -m mhtdb.pipeline curves --out out/        # points -> CSV + plot
 """
 
@@ -177,7 +177,7 @@ def build_record(pdf: Path, use_rules: bool, verify_pass: bool = False,
 
     record = normalize_record(record)
 
-    # Confidence gating: mark each pick confirmed/unconfirmed and collect
+    # Review gating: mark each pick confirmed/unconfirmed and collect
     # anything a human should glance at. Never withholds a value — see gating.py.
     from .gating import gate_record
 
@@ -203,6 +203,21 @@ def write_record(record: dict) -> Path:
     target.mkdir(parents=True, exist_ok=True)
     p = target / f"{record['record_id']}.json"
     p.write_text(json.dumps(record, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    # S1-S4 always re-extract (see extract.py's own disk cache for what makes
+    # that free), which means this record is rebuilt from scratch every time
+    # `run` sees this paper again -- silently dropping points_ref/points_summary
+    # if S9 had already attached them in an earlier session, even though the
+    # digitized points file is still sitting right there in catalog/points/.
+    # Reattaching it here (pure JSON merge, no model call) is what keeps
+    # "add more papers, rerun" from quietly erasing already-digitized data.
+    if not is_pointer:
+        points_path = CATALOG / "points" / f"{record['record_id']}.points.json"
+        if points_path.exists():
+            from .figure_points import ingest_points
+
+            ingest_points(record["record_id"], points_path, catalog_dir=CATALOG)
+            print(f"  reattached existing digitized points ({points_path.relative_to(_ROOT)})")
 
     # Triage can reclassify a paper between runs — a review first mistaken for a
     # dataset, say. Drop the counterpart so the same paper cannot appear as both
@@ -412,7 +427,7 @@ def cmd_figures(args) -> int:
     return 0
 
 
-# ------------------------------------------------------ S0b crops / S8 points
+# ------------------------------------------------------ S8 crops / S9 points
 
 
 def _record_pdf(record_id: str) -> Path:
@@ -447,7 +462,7 @@ def _record_ids(args) -> list[str]:
 
 
 def cmd_crops(args) -> int:
-    """S0b — crop every figure and table into its own PDF + PNG."""
+    """S8 — crop every figure and table into its own PDF + PNG."""
     from .figure_crops import extract_crops, write_manifest
 
     ids = _record_ids(args)
@@ -533,69 +548,175 @@ def _parse_calib(text: str | None) -> dict | None:
 
 
 def cmd_digitize(args) -> int:
-    """S8 — read data points out of the cropped figures."""
-    from .digitize import digitize_figure, NeedsCalibration
+    """S9 — read the one boiling-curve figure per paper into data points."""
+    import concurrent.futures
+    import time
+
+    from .digitize import NeedsCalibration, digitize_figure, select_boiling_curve_figure
     from .figure_crops import load_manifest
     from .figure_points import ingest_points
 
     ids = _record_ids(args)
-    grand = 0
+
+    def _already_resolved(rid: str) -> str | None:
+        """A paper whose one boiling-curve figure was already run through the
+        expensive real digitizer -- either it attached points (dataset record,
+        or waiting beside a pointer paper's crops), or the digitizer itself
+        already opened the figure and confirmed it isn't a data plot. Checked
+        so a plain `digitize` with no `--record`/`--figure` targeting doesn't
+        re-pay for the same expensive agentic call on every invocation --
+        everything else in this pipeline (run, crops) is incremental by
+        construction, and S9 should be too. Returns a short reason string, or
+        None if the figure still needs a real attempt (never run, or the
+        selection/mechanism itself failed last time -- both cheap to retry)."""
+        if (CATALOG / "points" / f"{rid}.points.json").exists() or (FIGURES / rid / "points.json").exists():
+            return "already digitized"
+        marker = FIGURES / rid / "not_boiling_curve.json"
+        if marker.exists():
+            return "already checked — not a boiling-curve figure"
+        return None
+
+    # ---- Phase 1: pick the one figure per paper (cheap, sequential) --------
+    # A cheap selection call per paper, not a per-figure filter: given every
+    # crop's caption at once, it names the single figure that is the paper's
+    # primary boiling-curve comparison -- so at most one figure per paper
+    # ever reaches the expensive real digitizer below.
+    work: list[tuple[str, Path, object, dict | None, int | None]] = []
     for rid in ids:
+        resolved = None if (args.figure or args.force) else _already_resolved(rid)
+        if resolved:
+            print(f"[{rid}] {resolved} — pass --force to redo, or "
+                  f"--record {rid} --figure <id> to redo just one figure")
+            continue
         manifest = FIGURES / rid / "crops.json"
         if not manifest.exists():
             print(f"[{rid}] no crops yet — run `python -m mhtdb.pipeline crops --record {rid}`")
             continue
-        pdf = _record_pdf(rid)
         crops = [c for c in load_manifest(manifest) if c.kind == "figure"]
-        if args.figure:
-            crops = [c for c in crops if c.element_id == args.figure]
+        if not crops:
+            continue
 
         saved = _load_calib(rid)
         cli_calib = _parse_calib(args.calib)
-        if cli_calib and args.figure:
-            if args.panel:
-                entry = saved.get(args.figure) or {}
-                if "panels" not in entry:
-                    entry = {"panels": {}}
-                entry["panels"][str(args.panel)] = cli_calib
-                saved[args.figure] = entry
-            else:
-                saved[args.figure] = cli_calib
-            _save_calib(rid, saved)
+        panel = args.panel
 
-        series: list[dict] = []
-        pending: list[dict] = []
-        for crop in crops:
-            try:
-                got = digitize_figure(
-                    pdf, crop.page, crop.bbox, figure_id=crop.element_id,
-                    caption=f"{crop.label} {crop.caption}".strip(),
-                    dpi=args.dpi, calibration=saved.get(crop.element_id),
-                    ocr=not args.no_ocr,
-                )
-            except NeedsCalibration as e:
-                pending.append(e.detail | {"message": str(e)})
+        if args.figure:
+            # A human is targeting one figure explicitly (usually to correct
+            # a bad auto-selection, or supply --calib) -- skip selection.
+            crop = next((c for c in crops if c.element_id == args.figure), None)
+            if crop is None:
+                print(f"[{rid}] no figure {args.figure!r} among its crops")
                 continue
-            except Exception as e:                       # a crop that isn't a plot
-                pending.append({"figure_id": crop.element_id, "reason": type(e).__name__,
-                                "message": str(e)[:200]})
+            if cli_calib:
+                if args.panel:
+                    entry = saved.get(args.figure) or {}
+                    if "panels" not in entry:
+                        entry = {"panels": {}}
+                    entry["panels"][str(args.panel)] = cli_calib
+                    saved[args.figure] = entry
+                else:
+                    saved[args.figure] = cli_calib
+                _save_calib(rid, saved)
+        else:
+            figure_id, sel_panel, reason = select_boiling_curve_figure(crops, args.model)
+            if not figure_id:
+                print(f"[{rid}] no boiling-curve figure among {len(crops)} figure(s) — {reason}")
                 continue
-            if got:
-                series += got
-                n = sum(len(g["points"]) for g in got)
-                print(f"[{rid}] {crop.element_id}: {len(got)} series, {n} points "
-                      f"({got[0]['uncertainty']['method']})")
+            crop = next((c for c in crops if c.element_id == figure_id), None)
+            if crop is None:
+                print(f"[{rid}] selection named unknown figure {figure_id!r} — skipping")
+                continue
+            # --panel on the command line always wins; otherwise, trust the
+            # selection call's own read of which lettered sub-panel (if any)
+            # is the boiling curve, so a stacked multi-panel figure doesn't
+            # need a human to notice and re-run with --panel by hand.
+            panel = args.panel if args.panel is not None else sel_panel
+            panel_note = f", panel {panel}" if panel is not None else ""
+            print(f"[{rid}] selected {figure_id}{panel_note} — {reason}")
 
-        if pending:
+        work.append((rid, _record_pdf(rid), crop, saved.get(crop.element_id), panel))
+
+    if not work:
+        print("\n0 point(s) digitized")
+        return 0
+
+    # ---- Phase 2: digitize each paper's one figure (expensive, concurrent) -
+    # One figure per paper now, so the useful thing to run concurrently is
+    # different papers, not different figures within one paper.
+    total = len(work)
+    print(f"\ndigitizing {total} figure(s) across {total} paper(s)"
+          f"{f' ({args.jobs} at a time)' if args.jobs > 1 else ''}...")
+    t0 = time.time()
+    done = 0
+    results: dict[str, tuple] = {}   # record_id -> (crop, series_or_None, error_or_None)
+
+    def _digitize_one(rid, pdf, crop, calibration, panel):
+        try:
+            got = digitize_figure(
+                pdf, crop.page, crop.bbox, figure_id=crop.element_id,
+                caption=f"{crop.label} {crop.caption}".strip(),
+                record_id=rid, calibration=calibration,
+                panel=panel, model=args.model,
+                has_vector=crop.has_vector, has_raster=crop.has_raster,
+            )
+            return rid, crop, got, None
+        except Exception as e:            # NeedsCalibration, or a bad selection
+            return rid, crop, None, e
+
+    def _report(rid, crop, got, err) -> None:
+        nonlocal done
+        done += 1
+        results[rid] = (crop, got, err)
+        prefix = f"[{done}/{total} @ {time.time() - t0:.0f}s]"
+        if err is not None:
+            print(f"{prefix} [{rid}] {crop.element_id}: needs calibration ({type(err).__name__})")
+        elif got:
+            n = sum(len(g["points"]) for g in got)
+            method = got[0].get("uncertainty", {}).get("method", "unspecified")
+            print(f"{prefix} [{rid}] {crop.element_id}: {len(got)} series, {n} points ({method})")
+        else:
+            print(f"{prefix} [{rid}] {crop.element_id}: turned out not to be a data plot")
+
+    # `as_completed` (not `map`) so each paper's line prints the moment it
+    # finishes, instead of the whole batch going silent until the slowest
+    # paper in it is done.
+    jobs = max(1, args.jobs)
+    if jobs > 1 and total > 1:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=jobs) as pool:
+            futures = [pool.submit(_digitize_one, *w) for w in work]
+            for future in concurrent.futures.as_completed(futures):
+                _report(*future.result())
+    else:
+        for w in work:
+            _report(*_digitize_one(*w))
+
+    print(f"{total} figure(s) done in {time.time() - t0:.0f}s")
+
+    # ---- Phase 3: write each paper's result -------------------------------
+    grand = 0
+    for rid, (crop, got, err) in results.items():
+        if err is not None:
+            detail = err.detail if isinstance(err, NeedsCalibration) else {
+                "figure_id": crop.element_id, "reason": type(err).__name__,
+                "message": str(err)[:200],
+            }
             path = FIGURES / rid / "needs_calibration.json"
-            path.write_text(json.dumps(pending, indent=2), encoding="utf-8")
-            print(f"[{rid}] {len(pending)} figure(s) not digitized -> "
-                  f"{path.relative_to(_ROOT)}")
-
-        if not series:
+            path.write_text(json.dumps([detail], indent=2), encoding="utf-8")
+            print(f"[{rid}] not digitized -> {path.relative_to(_ROOT)}")
             continue
-        grand += sum(len(s["points"]) for s in series)
-        payload = {"record_id": rid, "extractor": "mhtdb-digitize/v1", "series": series}
+        if not got:
+            if not args.out:
+                # The model opened the figure itself and confirmed it isn't a
+                # data plot -- worth remembering so a future plain `digitize`
+                # doesn't pay for that same real (if quick) verification call
+                # again. A `--out`-targeted one-off run leaves no mark, since
+                # it isn't updating the catalog's own state anyway.
+                marker = FIGURES / rid / "not_boiling_curve.json"
+                marker.write_text(
+                    json.dumps({"figure_id": crop.element_id}, indent=2), encoding="utf-8")
+            continue
+        grand += sum(len(s["points"]) for s in got)
+        payload = {"record_id": rid, "extractor": "mhtdb-digitize/v1", "series": got}
         if args.out:
             Path(args.out).write_text(json.dumps(payload, indent=2), encoding="utf-8")
             print(f"[{rid}] wrote {args.out}")
@@ -644,8 +765,7 @@ def cmd_curves(args) -> int:
     print(f"{len(rows)} point(s) -> {csv_path}")
 
     chosen, rejected = select_boiling_curves(
-        records=records, min_confidence=args.min_confidence,
-        include_all=args.all_series, fluid=args.fluid,
+        records=records, include_all=args.all_series, fluid=args.fluid,
     )
     if not chosen:
         print("no plain-surface boiling curves matched; nothing to plot", file=sys.stderr)
@@ -658,10 +778,10 @@ def cmd_curves(args) -> int:
     print(f"\nplotted {len(chosen)} curve(s) -> {png}")
     for sel in chosen:
         print(f"  {sel.record_id:38s} {sel.figure_id:10s} {sel.source_type:24s} "
-              f"conf={sel.confidence}  {sel.reason}")
+              f"{sel.reason}")
     if rejected:
         print(f"\n{len(rejected)} series excluded (enhanced surfaces, wrong axes, "
-              f"low confidence) — see --all-series to include them")
+              f"unusable points) — see --all-series to include them")
     print(f"\nRohsenow overlay properties: {props['source']}")
     return 0
 
@@ -690,7 +810,7 @@ def main(argv: list[str] | None = None) -> int:
     b = sub.add_parser("backends", help="show which model backends are available")
     b.set_defaults(func=cmd_backends)
 
-    rv = sub.add_parser("review", help="low-confidence items awaiting a decision")
+    rv = sub.add_parser("review", help="unconfirmed items awaiting a decision")
     rv.add_argument("--accept", metavar="KEY", help="accept and stop asking")
     rv.add_argument("--reject", metavar="KEY", help="reject and never suggest again")
     rv.add_argument("--note", help="why, recorded with the rejection")
@@ -714,33 +834,41 @@ def main(argv: list[str] | None = None) -> int:
     f.add_argument("--out", required=True)
     f.set_defaults(func=cmd_figures)
 
-    c = sub.add_parser("crops", help="S0b: crop each figure/table into its own PDF")
+    c = sub.add_parser("crops", help="S8: crop each figure/table into its own PDF")
     c.add_argument("--record", help="one record id (default: every record)")
     c.add_argument("--dpi", type=int, default=300)
     c.add_argument("--force", action="store_true", help="recrop even if cached")
     c.add_argument("--no-tables", action="store_true", help="figures only")
     c.set_defaults(func=cmd_crops)
 
-    dg = sub.add_parser("digitize", help="S8: recover data points from cropped figures")
+    dg = sub.add_parser("digitize", help="S9: recover data points from each paper's "
+                                          "one boiling-curve figure")
     dg.add_argument("--record", help="one record id (default: every record)")
-    dg.add_argument("--figure", help="one figure id, e.g. fig-4")
-    dg.add_argument("--dpi", type=int, default=400, help="raster fallback resolution")
+    dg.add_argument("--figure", help="digitize this one figure id instead of letting "
+                                     "selection pick it -- e.g. to correct a bad pick, "
+                                     "or supply --calib")
+    dg.add_argument("--force", action="store_true",
+                    help="redo digitization even for a paper that already has points "
+                         "attached (default: skip it, same as crops/run's own caching)")
+    dg.add_argument("--model", default=None,
+                    help="model id for the selection and digitizing calls (default: "
+                         "claude's own default)")
     dg.add_argument("--calib", help='axis values at the frame edges, e.g. "x=0:30,y=0:1800"'
                                     " (needs --figure; remembered for later runs)")
     dg.add_argument("--panel", type=int,
-                    help="which panel of a multi-panel figure --calib applies to "
-                         "(1-based, top-left first); needed when a figure stacks "
-                         "unrelated plots")
-    dg.add_argument("--no-ocr", action="store_true",
-                    help="do not OCR tick labels burned into images")
+                    help="which panel of a multi-panel figure to digitize (1-based, "
+                         "top-left first); needed when a figure stacks unrelated plots")
     dg.add_argument("--out", help="write the point payload here instead of the catalog")
+    dg.add_argument("--jobs", type=int, default=4,
+                    help="digitize this many papers concurrently (each is an "
+                         "independent agentic call on its one selected figure); "
+                         "1 to run sequentially")
     dg.set_defaults(func=cmd_digitize)
 
     cv = sub.add_parser("curves", help="compile digitized points into a CSV + plot")
     cv.add_argument("--out", default="out", help="output directory")
     cv.add_argument("--records", help="comma-separated record ids")
     cv.add_argument("--fluid", default="water")
-    cv.add_argument("--min-confidence", type=float, default=0.0)
     cv.add_argument("--all-series", action="store_true",
                     help="plot every curve, not just plain reference surfaces")
     cv.set_defaults(func=cmd_curves)

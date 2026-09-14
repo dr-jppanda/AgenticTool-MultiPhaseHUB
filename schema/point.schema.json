@@ -84,12 +84,6 @@
             "y_rel": { "type": "number" },
             "method": { "type": "string" }
           }
-        },
-        "confidence": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1,
-          "description": "Digitizer's confidence in this series. Low-confidence series can be filtered out of the ML export."
         }
       }
     }

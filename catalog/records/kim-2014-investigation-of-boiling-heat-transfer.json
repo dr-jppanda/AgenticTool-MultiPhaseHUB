@@ -1,0 +1,784 @@
+{
+  "record_id": "kim-2014-investigation-of-boiling-heat-transfer",
+  "doc_id": "59b1704c71545a7b",
+  "title": "Investigation of boiling heat transfer in water using a free-particles-based enhancement technique",
+  "source_pdf": "kim_2014_investigation_of_boiling_heat_transfer.pdf",
+  "n_pages": 11,
+  "n_figures": 9,
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "the vapor bubbles generated are large enough to surround"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Schematic diagram of the experimental setup."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "Macroscale images of pool boiling from a single 13 mm copper particle at a heat ﬂux of 55 kW/m2. The images are extracted from a movie made available as"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": "A series of images showing nucleate boiling from the narrow corner cavity of a single 13 mm copper particle placed on a polished surface at 55 kW/m2 in water. The"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "Boiling curve showing the effect of the free particle size on boiling heat"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 5,
+      "caption": "High-speed microscopic visualization of the nucleate boiling characteristics for (a) one-hundred 3 mm particles at 77 kW/m2, (b) twenty-ﬁve 6 mm particles at 74 kW/"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 6,
+      "caption": "Numerical simulation: (a) boundary conditions, and results that show the"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": "A comparison of vapor bubble size at onset of nucleation boiling for (a) one-hundred 3 mm particles, (b) a mixture of ﬁfty 3 mm particles and ﬁfteen 6 mm particles,"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": "Boiling heat transfer coefﬁcients as a function of input heat ﬂux for 3 mm"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-5-bubble",
+      "number": null,
+      "title": "Bubble",
+      "level": 1
+    },
+    {
+      "id": "sec-6-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2
+    },
+    {
+      "id": "sec-2-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1
+    },
+    {
+      "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+      "number": null,
+      "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+      "level": 1
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 20,
+    "resolved": 20,
+    "unresolved": 0,
+    "exact": 20
+  },
+  "points_ref": "points/kim-2014-investigation-of-boiling-heat-transfer.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Investigation of boiling heat transfer in water using a free-particles-based enhancement technique",
+    "year": 2014,
+    "reason": "The paper reports its own pool boiling experiments in water with free copper particles, giving boiling curves, wall superheats, and heat transfer coefficient enhancements (\"an average increase in heat transfer coefficient of 115% relative to a baseline polished surface without particles\")."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 19.5,
+      "max": 100.0,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "over a heat flux range from 20 kW/m2 to 100 kW/m2.",
+          "resolved": true,
+          "char_span": [
+            32703,
+            32753
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-5-bubble",
+              "number": null,
+              "title": "Bubble",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the heat flux 19.5 kW/m2 considered in Fig. 4",
+          "resolved": true,
+          "char_span": [
+            27042,
+            27087
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-5-bubble",
+              "number": null,
+              "title": "Bubble",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": 2.5,
+      "max": 10.0,
+      "unit": "oC",
+      "evidence": [
+        {
+          "quote": "decreases monotonically from 7.5 C to 2.5 C",
+          "resolved": true,
+          "char_span": [
+            18017,
+            18060
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-5-bubble",
+              "number": null,
+              "title": "Bubble",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "reach a maximum surface superheat of over 10 C",
+          "resolved": true,
+          "char_span": [
+            39327,
+            39373
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-6-acknowledgements",
+              "number": null,
+              "title": "Acknowledgements",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "D_h": {
+      "min": 25.4,
+      "max": 25.4,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "25.4 mm 25.4 mm test surface",
+          "resolved": true,
+          "char_span": [
+            9169,
+            9197
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 25.0,
+      "max": 25.0,
+      "unit": "nm",
+      "evidence": [
+        {
+          "quote": "The polished (RRMS = 25 nm, NewView",
+          "resolved": true,
+          "char_span": [
+            9111,
+            9146
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 40.0,
+      "max": 40.0,
+      "unit": null,
+      "evidence": [
+        {
+          "quote": "is assumed to be 40 based on the contact angle observed in Fig. 3",
+          "resolved": true,
+          "char_span": [
+            41627,
+            41692
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-6-acknowledgements",
+              "number": null,
+              "title": "Acknowledgements",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Enhancement of pool boiling heat transfer in water by means of the introduction of free particles on the\nheated surface is investigated.",
+          "resolved": true,
+          "char_span": [
+            660,
+            796
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+              "number": null,
+              "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "High-speed visualizations show\nthat bubble nucleation preferentially occurs at the narrow corner cavities formed between the free particles and the heated surface.",
+          "resolved": true,
+          "char_span": [
+            940,
+            1103
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+              "number": null,
+              "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "An insulated copper heating block forms the base of a sealed liquid bath test chamber.",
+          "resolved": true,
+          "char_span": [
+            9024,
+            9110
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "A uniform heat flux is\nsupplied to the test surface through 12 cartridge heaters embedded\nin the copper block",
+          "resolved": true,
+          "char_span": [
+            9254,
+            9363
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "At each heat flux, steady-state conditions are considered to have been reached when the time-averaged variation of\nthe wall superheat temperature, acquired every 3 s, is less than\n0.0003 C/s for 150 s.",
+          "resolved": true,
+          "char_span": [
+            12109,
+            12310
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "To perform a test, the tank is filled with 45 ml of water, and the\nwater is boiled for two hours",
+            "resolved": true,
+            "char_span": [
+              10086,
+              10182
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "it is concluded that\n3 mm to 6 mm particles are optimum when water is used as the\nworking fluid.",
+            "resolved": true,
+            "char_span": [
+              17241,
+              17337
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-5-bubble",
+                "number": null,
+                "title": "Bubble",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The polished (RRMS = 25 nm, NewView\n6200, Zygo Corp.) top 25.4 mm 25.4 mm test surface of the heat-\ning block is exposed to the working fluid.",
+            "resolved": true,
+            "char_span": [
+              9111,
+              9253
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "resulting in an average increase in heat transfer coefficient of 115% relative\nto a baseline polished surface without particles",
+            "resolved": true,
+            "char_span": [
+              1414,
+              1541
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+                "number": null,
+                "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "porous_coating",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "free_particle_layer",
+        "evidence": [
+          {
+            "quote": "The layer of loose particles on the heated surface is free to move and\ndeform under the action of bulk liquid convection and vapor nucleation.",
+            "resolved": true,
+            "char_span": [
+              797,
+              939
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+                "number": null,
+                "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "This technique introduces free-standing metal particles,\nwhich may be orders of magnitude larger than nanoparticles, on\nan immersed boiling surface.",
+            "resolved": true,
+            "char_span": [
+              6797,
+              6945
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "boiling_curve",
+      "wall_superheat",
+      "onb",
+      "bubble_dynamics",
+      "nucleation_site_density",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "evidence": [
+          {
+            "quote": "The heat dissipation efficiency of phase-change processes for\ncooling high-performance microprocessors, and thermal management of industrial engines, reactors, and plants, has motivated\ndevelopment of numerous techniques for pool boiling heat transfer\nenhancement.",
+            "resolved": true,
+            "char_span": [
+              1826,
+              2090
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+                "number": null,
+                "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "As the performance and density of modern electronics and electromechanical systems rapidly increases, and phase-\nchange cooling becomes more prevalent, concepts for facilitating\nbubble nucleation at reduced superheat temperatures",
+            "resolved": true,
+            "char_span": [
+              2091,
+              2320
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+                "number": null,
+                "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Investigation of boiling heat transfer in water using a free-particles-based enhancement technique",
+  "si": {
+    "q_flux_min": 19500.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 100000.0,
+    "D_h_min": 0.0254,
+    "D_h_unit": "m",
+    "D_h_max": 0.0254,
+    "Ra_surface_min": 2.5000000000000002e-08,
+    "Ra_surface_unit": "m",
+    "Ra_surface_max": 2.5000000000000002e-08,
+    "contact_angle_min": 40.0,
+    "contact_angle_unit": "-",
+    "contact_angle_max": 40.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.09861144686371885,
+    "Bo": 102.83603846571187
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:high",
+    "scale:conventional",
+    "wetting:hydrophilic"
+  ],
+  "unit_warnings": [
+    "dT_wall.min: unrecognized unit 'oC'",
+    "dT_wall.max: unrecognized unit 'oC'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-14",
+    "pending": 1,
+    "unconfirmed_fields": 1
+  },
+  "points_summary": {
+    "n_series": 7,
+    "n_points": 143,
+    "figures": [
+      "fig-4"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

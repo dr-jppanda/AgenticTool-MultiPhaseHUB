@@ -1,0 +1,123 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 50.0,
+    "max": 1697.0,
+    "unit": "kW m-2",
+    "evidence": [
+      {
+        "quote": "Recordings were made at heat fluxes of 50 kW m-2 and 100 kW m-2, where\nindividual bubbles were still observable."
+      },
+      {
+        "quote": "The highest critical heat flux of 1697 kW m-2 was achieved on the hydrophobized surface with shallow channels."
+      },
+      {
+        "quote": "Measurement uncertainty was evaluated on three selected samples at heat flux values\nof approx. 250 kW m-2 and at 1000 kW m-2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 14.0,
+    "max": 14.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The sample itself is cylindrical with the diameter of the boiling surface being 14 mm."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.2,
+    "max": 0.2,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "Roughness of samples after the pretreatment was approx. Ra = 0.20 μm as measured with a profilometer."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 1.0,
+    "max": 160.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "all non-hydrophobized laser-textured\nsamples exhibited contact angle below 1◦and were in the saturated Wenzel regime [51]."
+      },
+      {
+        "quote": "a contact angle higher than 150◦"
+      },
+      {
+        "quote": "untreated reference sample\n93◦"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

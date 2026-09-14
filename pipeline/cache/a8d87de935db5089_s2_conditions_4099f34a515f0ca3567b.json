@@ -1,0 +1,124 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 99.5,
+    "max": 99.5,
+    "unit": "◦C",
+    "evidence": [
+      {
+        "quote": "the liquid temperature is kept at\naround 99.5 ◦C, which is the saturation temperature at atmospheric\npressure"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 4.7,
+    "max": 93.5,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "The\nheat flux is fixed at 4.7 W/cm 2"
+      },
+      {
+        "quote": "the CHF of two laser\nprocessed surfaces is almost identical (around 93.5 W/cm 2 )"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 20.0,
+    "max": 20.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The testing surface on the top of the copper block has a dimension of 20 × 20 mm 2"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.045,
+    "max": 1.35,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "had an average roughness in the\nrange of 0.045 μm to 1.35 μm"
+      },
+      {
+        "quote": "Eq. (15) is likely to be valid for hydrophobic surfaces having surface roughness Sa in the range of\n0.045 μm to 1.35 μm"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 103.8,
+    "max": 153.0,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "Contact angle: 122°\nContact angle: 103.8°"
+      },
+      {
+        "quote": "for the femtosecond laser processed surfaces, the\nstatic contact angles of both surfaces were around 153 ◦"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

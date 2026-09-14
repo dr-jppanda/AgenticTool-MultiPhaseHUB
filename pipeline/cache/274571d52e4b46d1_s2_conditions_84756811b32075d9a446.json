@@ -1,0 +1,110 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 250.0,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "CHF of ≈250 W/cm2 and heat transfer coefficient of"
+      },
+      {
+        "quote": "≈83 W/cm2 and ≈208 W/cm2 were obtained on the silicon"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 33.0,
+    "max": 33.0,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "superheat of • 33 K on the roughest sample tested,"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 2.0,
+    "max": 2.0,
+    "unit": "cm",
+    "evidence": [
+      {
+        "quote": "surface area of 2 × 2 cm2, which is large enough to be"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper / copper oxide (CuO) on silicon substrate (smooth SiO2 and microstructured silicon references)"
+}

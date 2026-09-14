@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer",
+  "year": 2022,
+  "reason": "The authors fabricated laser-textured copper surfaces and measured their own pool boiling curves, CHF (e.g., \"1697 kW m-2\") and HTC values with water at atmospheric pressure."
+}

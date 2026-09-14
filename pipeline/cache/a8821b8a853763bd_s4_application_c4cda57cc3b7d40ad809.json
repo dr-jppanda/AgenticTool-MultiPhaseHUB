@@ -1,0 +1,32 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "Nucleate boiling is a highly efficient heat dissipation method and is\ncentral to electronics cooling [1,2], power generation [3], and distilla­\ntion [4], among many other industrial applications."
+        },
+        {
+          "quote": "To meet the ever-increasing cooling demands in microelectronics\nand power systems, several strategies have been adopted to enhance\nboiling CHF beyond the Zuber's limit"
+        }
+      ]
+    },
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "our work not only advances the fundamental understanding of structure-enhanced\nboiling heat transfer"
+        },
+        {
+          "quote": "The fundamental understanding of CHF enhancement mechanisms is\ncritical to enable the rational design of surface structures."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "record_id": "dharmendra-2026-pool-boiling",
+  "doc_id": "b5c452f3230f2d44",
+  "title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+  "source_pdf": "dharmendra_2026_pool_boiling.pdf",
+  "n_pages": 11,
+  "n_figures": 13,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Schematic of experimental setup and arrangement of thermocouples to measure heat ﬂux."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "shows the SEM image of the surface morphology of un-"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 4,
+      "caption": "shows the XRD patterns of the samples presented in Fig. 3."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 4,
+      "caption": "(A and B) shows the SEM images of the CNT coated Cu sub-"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "SEM images of the (A) bare copper surface and (B) sand blasted copper."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": "EM images of diamond coating on the (A) bare copper surface and (B) sand blasted copper."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "XRD patterns of the diamond coating on (A) untreated copper and (B) sandblasted copper."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "SEM images of CNT coating (A) on diamond coated Cu, (B) on bare Cu, (C) on diamond coated Cu after tap water test, and (D) on bare copper after tap water test."
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "Raman spectrum of (A) diamond coating on sand blasted Cu. (B) CNT coating on the diamond coated Cu."
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 8,
+      "caption": "Comparison of experiment pool boiling results obtained for the bare copper with the results obtained for the proposed equation."
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": "Pool boiling curve for different surfaces."
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 9,
+      "caption": "Variation of the boiling heat transfer coeﬃcient for different surfaces."
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": "Static contact angle of (a) bare copper, (b) sand blasted copper, and (c) CNT coated copper substrates."
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-13-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2
+    },
+    {
+      "id": "sec-6-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2
+    },
+    {
+      "id": "sec-3-tw-tsat-c",
+      "number": null,
+      "title": "TW-TSat (ºC)",
+      "level": 2
+    },
+    {
+      "id": "sec-5-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2
+    },
+    {
+      "id": "sec-4-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 19,
+    "resolved": 19,
+    "unresolved": 0,
+    "exact": 19
+  },
+  "points_ref": null,
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+    "year": 2016,
+    "reason": "The authors measured their own pool boiling curves, CHF values, and heat transfer coefficients on bare, sandblasted, and CNT-coated copper substrates with de-mineralized water."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 1.027,
+      "max": 1.416,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "Tested surface\nCHF (kW/m2)\n1\nCNT coated Cu\n1.416\n2\nSandblasted copper\n1.114\n3\nBare copper\n1.027",
+          "resolved": true,
+          "char_span": [
+            27096,
+            27191
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-13-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Table 3 shows the variation of the critical heat flux and surface roughness of different tested samples.",
+          "resolved": true,
+          "char_span": [
+            23756,
+            23860
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 14.0,
+      "max": 14.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "Experiments were conducted on the substrate surface area of 14 × 14 mm2 using de-mineralized water as the working fluid.",
+          "resolved": true,
+          "char_span": [
+            1490,
+            1610
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (ºC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.25,
+      "max": 2.34,
+      "unit": "μm",
+      "evidence": [
+        {
+          "quote": "Untreated Cu\n0.22\n0.28\n0.25\nSand blasted Cu\n1.99\n2.00\n1.95\nCNT coated Cu with diamond coating\n2.32\n2.36\n2.34",
+          "resolved": true,
+          "char_span": [
+            17622,
+            17730
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-5-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 133.0,
+      "max": 133.0,
+      "unit": "°",
+      "evidence": [
+        {
+          "quote": "While the CNT coated surface that provides a contact angle of 133° is hydrophobic.",
+          "resolved": true,
+          "char_span": [
+            27647,
+            27729
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-13-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "It is observed that the CNT coated surface enhances the heat flux in\nthe nucleate boiling regime by 48%",
+          "resolved": true,
+          "char_span": [
+            23546,
+            23649
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "In the present study, pool boiling heat transfer experiments are performed on a bare copper surface, a",
+          "resolved": true,
+          "char_span": [
+            1313,
+            1415
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (ºC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Experiments were conducted on the substrate surface area of 14 × 14 mm2 using de-mineralized water as the working fluid.",
+          "resolved": true,
+          "char_span": [
+            1490,
+            1610
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (ºC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The substrate is fixed tightly on the heater block, which is embedded with six cartridge heaters of total\ncapacity 1500 W.",
+          "resolved": true,
+          "char_span": [
+            1611,
+            1733
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-tw-tsat-c",
+              "number": null,
+              "title": "TW-TSat (ºC)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Once the\ntemperature in the copper block reached the steady state, all the\ntemperature data from the thermocouples were recorded",
+          "resolved": true,
+          "char_span": [
+            13981,
+            14109
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Pool boiling experiments were conducted by using de-mineralized\nwater.",
+            "resolved": true,
+            "char_span": [
+              13592,
+              13662
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-4-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "using de-mineralized water as the working fluid",
+            "resolved": true,
+            "char_span": [
+              1562,
+              1609
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (ºC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The obtained results of sandblasted and CNT coated surfaces were compared with that of the bare copper",
+            "resolved": true,
+            "char_span": [
+              2018,
+              2120
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (ºC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "sandblasted",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The cleaned copper substrate was sandblasted for 1 minute",
+            "resolved": true,
+            "char_span": [
+              8845,
+              8902
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-4-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The enhancement in the CHF compared to bare copper, for the sand blasted copper, is around 8.5%",
+            "resolved": true,
+            "char_span": [
+              23987,
+              24082
+            ],
+            "pages": [
+              7
+            ],
+            "sections": [
+              {
+                "id": "sec-6-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nanostructured",
+        "tier2": "cnt",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "an increment\nin the CHF takes place in the vertically aligned CNTs coated surface.",
+            "resolved": true,
+            "char_span": [
+              24854,
+              24936
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-6-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The length and\ndiameter of the CNT coatings can be measured with a highly magnified image as 300-500 nm and 50 nm respectively.",
+            "resolved": true,
+            "char_span": [
+              17179,
+              17306
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-4-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "chf",
+      "htc",
+      "boiling_curve",
+      "wall_superheat",
+      "onb",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "This was the drive behind this investigation in the case of pool boiling heat transfer\nleading to applications like electronics cooling.",
+            "resolved": true,
+            "char_span": [
+              5275,
+              5411
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-4-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Among the different heat transfer techniques in electronic\ndevices and microprocessors, pool boiling is an effective method due\nto its change of phase.",
+            "resolved": true,
+            "char_span": [
+              2698,
+              2849
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-tw-tsat-c",
+                "number": null,
+                "title": "TW-TSat (ºC)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+  "si": {
+    "q_flux_min": 1027.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 1416.0,
+    "D_h_min": 0.014,
+    "D_h_unit": "m",
+    "D_h_max": 0.014,
+    "contact_angle_min": 133.0,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 133.0
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.1789093393098899,
+    "Bo": 31.24165096918521
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:low",
+    "scale:conventional",
+    "wetting:hydrophobic"
+  ],
+  "unit_warnings": [
+    "Ra_surface.min: unrecognized unit 'μm'",
+    "Ra_surface.max: unrecognized unit 'μm'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Experiments were performed to simulate chip heat dissipation and cooling."
+        },
+        {
+          "quote": "This work has examined the effectiveness of carbon\nnanotubes (CNTs) in enhancing the pool boiling performance of low-contact-angle dielectric liquid FC-72 on silicon and copper surfaces similar to those used in the\nelectronics industry."
+        },
+        {
+          "quote": "This high degree of inconsistency is one of the\nkey challenges facing the implementation of pool boiling in\nelectronic cooling applications"
+        },
+        {
+          "quote": "Such a slope is\nhighly desirable in electronics cooling because it allows a\nchip to maintain a fairly constant temperature"
+        }
+      ]
+    }
+  ]
+}

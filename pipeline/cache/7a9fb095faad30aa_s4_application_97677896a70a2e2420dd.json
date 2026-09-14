@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "spacecraft thermal management [8,9], and high-power electronics cooling [10-13]"
+        },
+        {
+          "quote": "the present demands of increased heat removal capacities, coupled with the imperative for\nenhanced efficiency in heat transfer systems, give rise to a notable challenge"
+        }
+      ]
+    }
+  ]
+}

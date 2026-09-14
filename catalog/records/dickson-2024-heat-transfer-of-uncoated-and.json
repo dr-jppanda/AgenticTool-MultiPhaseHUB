@@ -1,0 +1,1023 @@
+{
+  "record_id": "dickson-2024-heat-transfer-of-uncoated-and",
+  "doc_id": "c4cea35fc0b3f15c",
+  "title": "Heat transfer of uncoated and nanostructure coated commercially micro-enhanced refrigeration tubes under pool boiling conditions",
+  "source_pdf": "dickson_2024_heat_transfer_of_uncoated_and.pdf",
+  "n_pages": 13,
+  "n_figures": 15,
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "\u20131. Schematic of the refrigerant circuit including the test chamber in pool boiling configuration."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 5,
+      "caption": "\u20132. Surface microstructure schematics of tubes tested."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 5,
+      "caption": "\u20133. Nanostructure identification on SEM photograph of CuO nanocoated copper sample."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 6,
+      "caption": "\u20134. Uncoated and coated micro-enhanced tube SEM observation."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 7,
+      "caption": "\u20135. Percentage uncertainties under pool boiling in 5 \u25e6C R134a."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 8,
+      "caption": "\u20131. Smooth tube pool boiling validation test in R134a at 5 \u25e6C."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 8,
+      "caption": "\u20131. Pool boiling HTCs of uncoated micro-enhanced tubes in R134a."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 9,
+      "caption": "3."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 9,
+      "caption": "\u20132. Pool boiling HTCs of coated plain and micro-enhanced tubes in R134a."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 10,
+      "caption": "\u20133. Surface enhancement ratio with respect to the plain roughened tube at 5 \u25e6C in R134a."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 10,
+      "caption": "\u20134. Coating heat transfer influence ratios of the plain and micro-enhanced tubes in R134a."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 10,
+      "caption": "\u20135. Images of pool boiling of uncoated and coated GEWA-B5 at 5 \u25e6C in R134a at 100 kW/m2."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 11,
+      "caption": "5 illustrates that the nucleation process itself appears dimin\u00ad"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 11,
+      "caption": "6, where the GEWA-B5 is boiling at 20 kW/m2 and instances of"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 11,
+      "caption": "\u20136. Bubble ejection impedance in coated GEWA-B5 re-entrant cavities in pool boiling at 20 kW/m2 and 5 \u25e6C in R134a."
+    }
+  ],
+  "cited_pages": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-6-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2
+    },
+    {
+      "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+      "number": null,
+      "title": "Heat transfer of uncoated and nanostructure coated commercially",
+      "level": 1
+    },
+    {
+      "id": "sec-4-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2
+    },
+    {
+      "id": "sec-7-table-4",
+      "number": null,
+      "title": "Table 4",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 28,
+    "resolved": 28,
+    "unresolved": 0,
+    "exact": 28
+  },
+  "points_ref": "points/dickson-2024-heat-transfer-of-uncoated-and.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Heat transfer of uncoated and nanostructure coated commercially micro-enhanced refrigeration tubes under pool boiling conditions",
+    "year": 2024,
+    "reason": "The authors report their own measured pool boiling heat transfer coefficients for uncoated and CuO-nanocoated enhanced tubes in R134a at 5 \u00b0C and 25 \u00b0C over 20\u2013100 kW/m2."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": 5.0,
+      "max": 25.0,
+      "unit": "\u25e6C",
+      "evidence": [
+        {
+          "quote": "re-entrant cavity style tubes will be tested at 5 \u25e6C and 25 \u25e6C in refrigerant",
+          "resolved": true,
+          "char_span": [
+            14741,
+            14818
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The uncoated tubes were tested in pool boiling at saturation tem\u00ad\nperatures of 5 \u25e6C and 25 \u25e6C in R134a across a range of heat fluxes",
+          "resolved": true,
+          "char_span": [
+            36128,
+            36260
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 20.0,
+      "max": 100.0,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "R-134a across a heat flux range of 20 kW/m2 to 100 kW/m2 where the",
+          "resolved": true,
+          "char_span": [
+            14819,
+            14885
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the heating water so that the heat fluxes range from a high of 100 kW/m2 to",
+          "resolved": true,
+          "char_span": [
+            19531,
+            19606
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "a low of 20 kW/m2 in increments of 10 kW/m2, with this decreasing heat",
+          "resolved": true,
+          "char_span": [
+            19607,
+            19677
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 19.0,
+      "max": 19.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "of 19 mm horizontal copper tubes heated by water to determine the effectiveness of this multiscale enhancement",
+          "resolved": true,
+          "char_span": [
+            956,
+            1066
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+              "number": null,
+              "title": "Heat transfer of uncoated and nanostructure coated commercially",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "All the tubes tested were of nominal 3\u20444\" outside diameter (19 mm)",
+          "resolved": true,
+          "char_span": [
+            21010,
+            21076
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": 566.0,
+      "max": 566.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "mately 19 mm) diameter and a heated length of 566 mm, with one low",
+          "resolved": true,
+          "char_span": [
+            20248,
+            20314
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.04,
+      "max": 0.75,
+      "unit": "\u03bcm",
+      "evidence": [
+        {
+          "quote": "0.75 \u03bcm with a standard deviation of 0.07 \u03bcm",
+          "resolved": true,
+          "char_span": [
+            22118,
+            22162
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "smooth tube (Ra = 0.04 \u03bcm) with its Cooper correlation [39]",
+          "resolved": true,
+          "char_span": [
+            34157,
+            34216
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-3",
+              "number": null,
+              "title": "Table 3",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 5.0,
+      "max": 80.0,
+      "unit": "\u25e6",
+      "evidence": [
+        {
+          "quote": "The hydrophobic uncoated tubes produced water droplet CAs between\n60\u25e6and 80\u25e6",
+          "resolved": true,
+          "char_span": [
+            26392,
+            26468
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-4-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "duced water droplet CAs of less than 5\u25e6",
+          "resolved": true,
+          "char_span": [
+            26524,
+            26563
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-4-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "was investigated under pool boiling of saturated refrigerant",
+          "resolved": true,
+          "char_span": [
+            844,
+            904
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+              "number": null,
+              "title": "Heat transfer of uncoated and nanostructure coated commercially",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The individually tested tubes were submerged in saturated",
+          "resolved": true,
+          "char_span": [
+            16612,
+            16669
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "cylinder",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "of 19 mm horizontal copper tubes heated by water to determine the effectiveness of this multiscale enhancement",
+          "resolved": true,
+          "char_span": [
+            956,
+            1066
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+              "number": null,
+              "title": "Heat transfer of uncoated and nanostructure coated commercially",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This study experimentally investigates the effect of multiscale en",
+          "resolved": true,
+          "char_span": [
+            14334,
+            14400
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "All tests were conducted in R134a refrigerant at a saturation tem",
+          "resolved": true,
+          "char_span": [
+            19078,
+            19143
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "refrigerant_hfc",
+        "tier2": "R134a",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Pool boiling HTCs of uncoated micro-enhanced tubes in R134a.",
+            "resolved": true,
+            "char_span": [
+              39074,
+              39134
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-7-table-4",
+                "number": null,
+                "title": "Table 4",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "All tests were conducted in R134a refrigerant at a saturation tem",
+            "resolved": true,
+            "char_span": [
+              19078,
+              19143
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The tubes tested were a plain tube roughened by sand",
+            "resolved": true,
+            "char_span": [
+              1122,
+              1174
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+                "number": null,
+                "title": "Heat transfer of uncoated and nanostructure coated commercially",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "structured",
+        "tier2": "fins",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "one low finned GEWA-KS with 19 fpi tested",
+            "resolved": true,
+            "char_span": [
+              20307,
+              20348
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "structured",
+        "tier2": "reentrant_cavities",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "cavity style tubes tested, the Turbo EHPII and the GEWA-B5",
+            "resolved": true,
+            "char_span": [
+              20383,
+              20441
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "nanostructured",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "copper_oxide_nanostructure_coating",
+        "evidence": [
+          {
+            "quote": "coated with a copper oxide (CuO) nanocoating",
+            "resolved": true,
+            "char_span": [
+              22493,
+              22537
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "superhydrophilic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "where the super hydrophilic CuO nanocoated tubes pro",
+            "resolved": true,
+            "char_span": [
+              26470,
+              26522
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-4-table-1",
+                "number": null,
+                "title": "Table 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "contact_angle",
+      "bubble_dynamics"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "hvacr",
+        "tier2": "refrigeration",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "current uses in fields such as refrigeration and nuclear energy, to future",
+            "resolved": true,
+            "char_span": [
+              3004,
+              3078
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+                "number": null,
+                "title": "Heat transfer of uncoated and nanostructure coated commercially",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Refrigeration tube manufacturers commercially produce many",
+            "resolved": true,
+            "char_span": [
+              3398,
+              3456
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+                "number": null,
+                "title": "Heat transfer of uncoated and nanostructure coated commercially",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "power_generation",
+        "tier2": "orc",
+        "stated": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "quote": "Solar energy generation using refrigerants in organic Rankine cycles [1,2]",
+            "resolved": true,
+            "char_span": [
+              3145,
+              3219
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+                "number": null,
+                "title": "Heat transfer of uncoated and nanostructure coated commercially",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "in particular still requires substantial improvements in heat transfer",
+            "resolved": true,
+            "char_span": [
+              3220,
+              3290
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+                "number": null,
+                "title": "Heat transfer of uncoated and nanostructure coated commercially",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence medium"
+      }
+    ]
+  },
+  "llm_title": "Heat transfer of uncoated and nanostructure coated commercially micro-enhanced refrigeration tubes under pool boiling conditions",
+  "si": {
+    "q_flux_min": 20000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 100000.0,
+    "D_h_min": 0.019,
+    "D_h_unit": "m",
+    "D_h_max": 0.019,
+    "L_heated_min": 0.5660000000000001,
+    "L_heated_unit": "m",
+    "L_heated_max": 0.5660000000000001
+  },
+  "fluid_properties": {
+    "rho_l": 1376.6778091870578,
+    "rho_v": 5.258054862122588,
+    "sigma": 0.015193391730183258,
+    "h_fg": 216968.60437912552,
+    "mu_l": 0.00037870381849047183,
+    "p_crit": 4059276.3737910665,
+    "T_sat_calc": 247.07616894214732
+  },
+  "derived": {
+    "L_cap": 0.0010628741125203974,
+    "Co": 0.055940742764231444,
+    "Bo": 319.55347376707266
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:high",
+    "scale:conventional"
+  ],
+  "unit_warnings": [
+    "T_sat.min: unrecognized unit '\u25e6C'",
+    "T_sat.max: unrecognized unit '\u25e6C'",
+    "Ra_surface.min: unrecognized unit '\u03bcm'",
+    "Ra_surface.max: unrecognized unit '\u03bcm'",
+    "contact_angle.min: unrecognized unit '\u25e6'",
+    "contact_angle.max: unrecognized unit '\u25e6'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 2,
+    "unconfirmed_fields": 2
+  },
+  "points_summary": {
+    "n_series": 6,
+    "n_points": 82,
+    "figures": [
+      "fig-3"
+    ],
+    "quantities": [
+      "htc"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "is to understand the nucleate boiling heat transfer enhancement"
+        },
+        {
+          "quote": "average roughness Ra was varied from 0.041 lm to 2.36 lm, and"
+        }
+      ]
+    }
+  ]
+}

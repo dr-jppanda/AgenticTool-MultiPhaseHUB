@@ -1,0 +1,131 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 5.0,
+    "max": 25.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "at saturation temperatures of 5 °C and 25 °C using refrigerant R-134a at heat fluxes from 20 to 90 kW/m2 and"
+      },
+      {
+        "quote": "were tested at saturation temperatures of 5 °C and 25 °C with a film"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 20.0,
+    "max": 90.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "at saturation temperatures of 5 °C and 25 °C using refrigerant R-134a at heat fluxes from 20 to 90 kW/m2 and"
+      },
+      {
+        "quote": "the enhancement decreasing by approximately 10% as the heat flux increases from 20 to 90 kW/m2 at 5 °C"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 19.05,
+    "max": 19.05,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "19.05 mm and length of 554 mm"
+      },
+      {
+        "quote": "All tubes tested had an outer diameter of"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 554.0,
+    "max": 554.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "19.05 mm and length of 554 mm"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "in this paper only single tubes were tested"
+      }
+    ]
+  },
+  "Ra_surface": {
+    "min": 0.1,
+    "max": 1.9,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "roughened with various grades of sandpaper to achieve roughnesses between 0.1 and 1.9 μm."
+      },
+      {
+        "quote": "to 1.91 μm in this study."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper (C 122), stainless steel (304), mild steel (A 179)"
+}

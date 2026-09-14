@@ -1,0 +1,121 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 100.3,
+    "max": 100.3,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "the FC-77 are as follows: Tsat 100.3°C"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 20.0,
+    "max": 300.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "exponents ranging from m=0.21 at 20 kW/m2 to m=0.19 at"
+      },
+      {
+        "quote": "0.09 at 50 kW/m2 and 100 kW/m2 and increases slightly to m"
+      },
+      {
+        "quote": "=0.11 at a heat flux of 300 kW/m2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 0.0,
+    "max": 0.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "to within 0.5°C of the saturation temperature."
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The 25.4 25.4 mm2 test surface is prepared on top of"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.027,
+    "max": 10.0,
+    "unit": "µm",
+    "evidence": [
+      {
+        "quote": "polished surface (Ra between 0.027 m and 0.038 m) to electrical discharge machined (EDM) surfaces with a roughness Ra ranging from 1.08 m to 10.0 m."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "aluminum"
+}

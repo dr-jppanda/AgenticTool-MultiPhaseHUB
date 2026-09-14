@@ -1,0 +1,212 @@
+{
+  "doc_id": "65ea3c2f49a05e43",
+  "source": "papers\\weibel_2013_pool_boiling_heat_transfer_from.pdf",
+  "text": "080908-1 / Vol. 135, AUGUST 2013\nTransactions of the ASME\nX\nX\nX\nX\n\u0394Tsat (K)\nq\" (kW/m\n2)\n0\n5\n10\n15\n20\n25\n30\n0\n20\n40\n60\n80\n100\n120\n850 - 1000 \u03bcm\n180 - 212 \u03bcm\n90 - 106 \u03bcm\nPolished\nPool Boiling Heat Transfer from Deformable Particulate Beds\nJustin A. Weibel, Suchismita Sarangi, and Suresh V. Garimella\nNSF Cooling Technologies Research Center\nSchool of Mechanical Engineering Purdue University, West Lafayette, Indiana, USA\nVAPOR BUBBLE SURFACE DEPARTURE\nPASSIVE SURFACE DEFORMATION\nPOOL BOILING THERMAL PERFORMANCE\nPool boiling heat transfer is measured from a particulate bed of loose copper particles that are able to freely\nmove on the polished copper surface beneath. The working fluid is FC-72. High-speed microscopic flow\nvisualization at 3000 frames per second (Ultima APX, Photron) enables observation of vapor-particle\ninteractions (VH-Z50L, Keyence). Free particle beds of 98, 196, and 925 m average particle diameter are\ndirectly compared to a baseline polished surface with average roughness < 0.1 m (top). Layer thickness to\nparticle diameter ratio is held constant. The largest particle size initially improves nucleate boiling performance,\nbut bed deformation is not observed, and critical heat flux is reduced due to vapor trapping in the porous layer.\nIn comparison, the smaller free particles retain nucleate boiling enhancement, but particles in the path of vapor\ndeparting from the surface are displaced and ejected into the liquid (middle). Visualizations confirm that\npassive deformation of the loose particulate bed eases vapor escape from the surface (bottom), enabling a\n32% reduction in surface superheat up to the same critical heat flux as measured for the polished surface.\n5.9 kW/m2, 180 212 m Particles\n4.0 kW/m2, 180 212 m Particles\n12 ms\n0 ms\n500 m\nBubble Breakthrough\nLocation\nParticle Ejection\n25 ms\nParticle Settling\n17 ms\nBubble Departure\n22 ms\n0 ms\n17 ms\n3 ms\n23 ms\n29 ms\n7 ms\n11 ms\n36 ms\n2 mm\nStable\nVapor Columns\nRestricted Nucleation Site\nVapor Layer Formation\nVapor Release\nBed Settling\nBubble\nDeparture\nDownloaded from asmedigitalcollection.\u200basme.\u200borg/\u200bheattransfer/\u200barticle-pdf/\u200b135/\u200b8/\u200b080908/\u200b6203973/\u200bht_135_08_080908.\u200bpdf by University Of North Carolina Charlotte user on 10 September 2026",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 2235
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 32,
+      "end": 57
+    },
+    {
+      "id": "sec-1-x",
+      "number": null,
+      "title": "X",
+      "level": 2,
+      "start": 57,
+      "end": 59
+    },
+    {
+      "id": "sec-2-x",
+      "number": null,
+      "title": "X",
+      "level": 2,
+      "start": 59,
+      "end": 61
+    },
+    {
+      "id": "sec-3-x",
+      "number": null,
+      "title": "X",
+      "level": 2,
+      "start": 61,
+      "end": 63
+    },
+    {
+      "id": "sec-4-x",
+      "number": null,
+      "title": "X",
+      "level": 2,
+      "start": 63,
+      "end": 65
+    },
+    {
+      "id": "sec-5-tsat-k",
+      "number": null,
+      "title": "\u0394Tsat (K)",
+      "level": 2,
+      "start": 65,
+      "end": 167
+    },
+    {
+      "id": "sec-6-polished",
+      "number": null,
+      "title": "Polished",
+      "level": 2,
+      "start": 167,
+      "end": 176
+    },
+    {
+      "id": "sec-7-pool-boiling-heat-transfer-from-deformab",
+      "number": null,
+      "title": "Pool Boiling Heat Transfer from Deformable Particulate Beds",
+      "level": 1,
+      "start": 176,
+      "end": 420
+    },
+    {
+      "id": "sec-8-vapor-bubble-surface-departure",
+      "number": null,
+      "title": "VAPOR\u0002BUBBLE\u0002SURFACE\u0002DEPARTURE\u0002",
+      "level": 2,
+      "start": 420,
+      "end": 451
+    },
+    {
+      "id": "sec-9-passive-surface-deformation",
+      "number": null,
+      "title": "PASSIVE\u0002SURFACE\u0002\u0002DEFORMATION",
+      "level": 2,
+      "start": 451,
+      "end": 479
+    },
+    {
+      "id": "sec-10-pool-boiling-thermal-performance",
+      "number": null,
+      "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+      "level": 2,
+      "start": 479,
+      "end": 1779
+    },
+    {
+      "id": "sec-11-bubble-breakthrough",
+      "number": null,
+      "title": "Bubble\u0002Breakthrough",
+      "level": 2,
+      "start": 1779,
+      "end": 1799
+    },
+    {
+      "id": "sec-12-location",
+      "number": null,
+      "title": "Location",
+      "level": 2,
+      "start": 1799,
+      "end": 1808
+    },
+    {
+      "id": "sec-13-particle-ejection",
+      "number": null,
+      "title": "Particle\u0002Ejection",
+      "level": 2,
+      "start": 1808,
+      "end": 1832
+    },
+    {
+      "id": "sec-14-particle-settling",
+      "number": null,
+      "title": "Particle\u0002Settling",
+      "level": 2,
+      "start": 1832,
+      "end": 1856
+    },
+    {
+      "id": "sec-15-bubble-departure",
+      "number": null,
+      "title": "Bubble\u0002Departure",
+      "level": 2,
+      "start": 1856,
+      "end": 1929
+    },
+    {
+      "id": "sec-16-stable",
+      "number": null,
+      "title": "Stable",
+      "level": 2,
+      "start": 1929,
+      "end": 1936
+    },
+    {
+      "id": "sec-17-vapor-columns",
+      "number": null,
+      "title": "Vapor\u0002Columns",
+      "level": 2,
+      "start": 1936,
+      "end": 1950
+    },
+    {
+      "id": "sec-18-restricted-nucleation-site",
+      "number": null,
+      "title": "Restricted\u0002Nucleation\u0002Site\u0002",
+      "level": 2,
+      "start": 1950,
+      "end": 1977
+    },
+    {
+      "id": "sec-19-vapor-layer-formation",
+      "number": null,
+      "title": "Vapor\u0002Layer\u0002Formation",
+      "level": 2,
+      "start": 1977,
+      "end": 1999
+    },
+    {
+      "id": "sec-20-vapor-release",
+      "number": null,
+      "title": "Vapor\u0002Release",
+      "level": 2,
+      "start": 1999,
+      "end": 2013
+    },
+    {
+      "id": "sec-21-bed-settling",
+      "number": null,
+      "title": "Bed\u0002Settling",
+      "level": 2,
+      "start": 2013,
+      "end": 2026
+    },
+    {
+      "id": "sec-22-bubble",
+      "number": null,
+      "title": "Bubble\u0002",
+      "level": 2,
+      "start": 2026,
+      "end": 2033
+    },
+    {
+      "id": "sec-23-departure",
+      "number": null,
+      "title": "Departure",
+      "level": 2,
+      "start": 2033,
+      "end": 2235
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "meta": {
+    "n_pages": 1,
+    "ingest": "pymupdf"
+  }
+}

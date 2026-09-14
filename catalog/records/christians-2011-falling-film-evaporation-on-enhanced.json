@@ -1,0 +1,810 @@
+{
+  "record_id": "christians-2011-falling-film-evaporation-on-enhanced",
+  "doc_id": "fa0bdedb01fe8738",
+  "title": "Falling film evaporation on enhanced tubes, part 1: Experimental results for pool boiling, onset-of-dryout and falling film evaporation",
+  "source_pdf": "christians_2011_falling_film_evaporation_on_enhanced.pdf",
+  "n_pages": 13,
+  "n_figures": 10,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 4,
+      "caption": "e Schematic of the refrigerant circuit in the Falling Film Facility."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 6,
+      "caption": "e Pool boiling measurements on tube Turbo-B5."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 7,
+      "caption": "e Pool boiling measurements on tube Gewa-B5."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 8,
+      "caption": "e Comparison of pool boiling measurements on tube"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 8,
+      "caption": "e Comparison of pool boiling measurements on tube"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 9,
+      "caption": "e Falling \ufb01lm evaporation on a Turbo-B5 tube bundle"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 9,
+      "caption": "e Falling \ufb01lm evaporation on a Gewa-B5 tube bundle"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 10,
+      "caption": "e Falling \ufb01lm multiplier for the Turbo-B5 tube bundle"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 10,
+      "caption": "e Falling \ufb01lm multiplier for the Gewa-B5 tube bundle"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 11,
+      "caption": "e Onset-of-dryout Reynolds numbers for the"
+    }
+  ],
+  "cited_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    12
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-6-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-25",
+      "number": "25",
+      "title": "October 2011",
+      "level": 2
+    },
+    {
+      "id": "sec-9-experimental-results-for-pool-boiling",
+      "number": null,
+      "title": "Experimental results for pool boiling",
+      "level": 2
+    },
+    {
+      "id": "sec-7-experimental-facility",
+      "number": null,
+      "title": "Experimental facility",
+      "level": 2
+    },
+    {
+      "id": "sec-1-experimental-results-for-pool-boiling-on",
+      "number": null,
+      "title": "Experimental results for pool boiling, onset-of-dryout and",
+      "level": 1
+    },
+    {
+      "id": "sec-10-experimental-results-for-falling-lm-in",
+      "number": null,
+      "title": "Experimental results for falling \ufb01lm in",
+      "level": 2
+    },
+    {
+      "id": "sec-8-experimental-methods-and-data-reduction",
+      "number": null,
+      "title": "Experimental methods and data reduction",
+      "level": 2
+    },
+    {
+      "id": "sec-12-conclusion",
+      "number": null,
+      "title": "Conclusion",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 19,
+    "resolved": 19,
+    "unresolved": 0,
+    "exact": 18,
+    "fuzzy": 1
+  },
+  "points_ref": "points/christians-2011-falling-film-evaporation-on-enhanced.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "evaporation",
+    "title": "Falling film evaporation on enhanced tubes, part 1: Experimental results for pool boiling, onset-of-dryout and falling film evaporation",
+    "year": 2012,
+    "reason": "The paper reports its own measured falling film evaporation and pool boiling heat transfer coefficients on Turbo-B5 and Gewa-B5 tubes with R-134a and R-236fa."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": 5.0,
+      "max": 15.0,
+      "unit": "C",
+      "evidence": [
+        {
+          "quote": "local pool boiling coefficients at 5, 10 and 15 C for heat fluxes",
+          "resolved": true,
+          "char_span": [
+            13543,
+            13608
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-6-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The tests were carried out at a saturation tempera-",
+          "resolved": true,
+          "char_span": [
+            1219,
+            1269
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-25",
+              "number": "25",
+              "title": "October 2011",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 0.9804
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 20.0,
+      "max": 80.0,
+      "unit": "kW m 2",
+      "evidence": [
+        {
+          "quote": "ranging from 20 to 80 kW m 2",
+          "resolved": true,
+          "char_span": [
+            13609,
+            13637
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-6-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Due to\nindustrial interest in low-heat flux data, it was attempted to\ngather data at heat fluxes lower than 20 kW m 2.",
+          "resolved": true,
+          "char_span": [
+            27854,
+            27972
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-9-experimental-results-for-pool-boiling",
+              "number": null,
+              "title": "Experimental results for pool boiling",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 0.0,
+      "max": 0.5,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "to bring the liquid close to saturation conditions at the test\nsection inlet (less than 0.5 K from saturation)",
+          "resolved": true,
+          "char_span": [
+            15093,
+            15203
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-7-experimental-facility",
+              "number": null,
+              "title": "Experimental facility",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 19.05,
+      "max": 19.05,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "a nominal outer diameter of 19.05 mm and a length of",
+          "resolved": true,
+          "char_span": [
+            18198,
+            18250
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-7-experimental-facility",
+              "number": null,
+              "title": "Experimental facility",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": 554.0,
+      "max": 554.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "554 mm. In total, ten instrumented tubes (i.e., five sub-",
+          "resolved": true,
+          "char_span": [
+            18251,
+            18308
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-7-experimental-facility",
+              "number": null,
+              "title": "Experimental facility",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": 10.0,
+      "max": 30.0,
+      "unit": "tubes",
+      "evidence": [
+        {
+          "quote": "row of ten horizontal tubes and a small tube bundle with three rows of 10 tubes each are",
+          "resolved": true,
+          "char_span": [
+            1005,
+            1093
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-25",
+              "number": "25",
+              "title": "October 2011",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "evaporation",
+      "tier2": "falling_film",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "falling film evaporation measurements on a single tube, a vertical row of ten horizontal tubes and a small tube bundle with three rows of 10 tubes each are",
+          "resolved": true,
+          "char_span": [
+            938,
+            1093
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-25",
+              "number": "25",
+              "title": "October 2011",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Experimental results for pool boiling, onset-of-dryout and\nfalling film evaporation",
+          "resolved": true,
+          "char_span": [
+            52,
+            135
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-results-for-pool-boiling-on",
+              "number": null,
+              "title": "Experimental results for pool boiling, onset-of-dryout and",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "tube_bundle",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "For single-array tests, these ten tubes were installed horizontally in a vertical array. For bundle tests, two additional",
+          "resolved": true,
+          "char_span": [
+            18427,
+            18548
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-7-experimental-facility",
+              "number": null,
+              "title": "Experimental facility",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Falling film evaporation on a Turbo-B5 tube bundle\nand single array at Tsat [ 5 C.",
+          "resolved": true,
+          "char_span": [
+            37762,
+            37844
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-10-experimental-results-for-falling-lm-in",
+              "number": null,
+              "title": "Experimental results for falling \ufb01lm in",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Tests were conducted by gradually decreasing the liquid\nfilm flow rate on the top tube at a fixed heat flux. The data\nwere logged only if steady state conditions were attained.",
+          "resolved": true,
+          "char_span": [
+            25562,
+            25738
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-8-experimental-methods-and-data-reduction",
+              "number": null,
+              "title": "Experimental methods and data reduction",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "refrigerant_hfc",
+        "tier2": "R134a",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "were tested using R-134a and R-236fa. The tests were carried out at a saturation temperature of Tsat 1\u20444 5 C",
+            "resolved": true,
+            "char_span": [
+              1181,
+              1289
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-25",
+                "number": "25",
+                "title": "October 2011",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "refrigerant_hfc",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "R236fa",
+        "evidence": [
+          {
+            "quote": "Experimental data collected for tubes Turbo-B5 and Gewa-B5\nusing refrigerants R-134a and R-236fa in both pool boiling and\nfalling film tests were presented and discussed.",
+            "resolved": true,
+            "char_span": [
+              45109,
+              45279
+            ],
+            "pages": [
+              12
+            ],
+            "sections": [
+              {
+                "id": "sec-12-conclusion",
+                "number": null,
+                "title": "Conclusion",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "structured",
+        "tier2": "reentrant_cavities",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the Wolverine Turbo-B5 and the Wieland Gewa-B5",
+            "resolved": true,
+            "char_span": [
+              1133,
+              1179
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-25",
+                "number": "25",
+                "title": "October 2011",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0,
+            "also_at": [
+              {
+                "char_span": [
+                  26296,
+                  26342
+                ],
+                "pages": [
+                  6
+                ],
+                "sections": [
+                  {
+                    "id": "sec-9-experimental-results-for-pool-boiling",
+                    "number": null,
+                    "title": "Experimental results for pool boiling",
+                    "level": 2
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              }
+            ]
+          },
+          {
+            "quote": "decrease could be due to progressive partial dryout of the",
+            "resolved": true,
+            "char_span": [
+              31205,
+              31263
+            ],
+            "pages": [
+              7
+            ],
+            "sections": [
+              {
+                "id": "sec-9-experimental-results-for-pool-boiling",
+                "number": null,
+                "title": "Experimental results for pool boiling",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "wall_superheat",
+      "dryout_quality"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "hvacr",
+        "tier2": "refrigeration",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "the standard in the refrigeration industry due to compelling advantages, such as smaller",
+            "resolved": true,
+            "char_span": [
+              654,
+              742
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-25",
+                "number": "25",
+                "title": "October 2011",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Horizontal falling film evaporators have the potential of displacing flooded evaporators as",
+            "resolved": true,
+            "char_span": [
+              562,
+              653
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-25",
+                "number": "25",
+                "title": "October 2011",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Falling film evaporation on enhanced tubes, part 1: Experimental results for pool boiling, onset-of-dryout and falling film evaporation",
+  "si": {
+    "T_sat_min": 278.15,
+    "T_sat_unit": "K",
+    "T_sat_max": 288.15,
+    "q_flux_min": 20000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 80000.0,
+    "dT_sub_min": 0.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 0.5,
+    "D_h_min": 0.01905,
+    "D_h_unit": "m",
+    "D_h_max": 0.01905,
+    "L_heated_min": 0.554,
+    "L_heated_unit": "m",
+    "L_heated_max": 0.554
+  },
+  "fluid_properties": {
+    "rho_l": 1278.0699907738835,
+    "rho_v": 17.130857490145793,
+    "sigma": 0.010730056589626323,
+    "h_fg": 194740.1486732562,
+    "mu_l": 0.00025011136205613005,
+    "p_crit": 4059276.3737910665,
+    "T_sat_calc": 278.15000000000003
+  },
+  "derived": {
+    "L_cap": 0.0009315230522483956,
+    "Co": 0.04889884788705488,
+    "Bo": 418.21802470264265
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:moderate",
+    "scale:conventional"
+  ],
+  "unit_warnings": [
+    "n_channels.min: unrecognized unit 'tubes'",
+    "n_channels.max: unrecognized unit 'tubes'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 1,
+    "unconfirmed_fields": 1
+  },
+  "points_summary": {
+    "n_series": 3,
+    "n_points": 48,
+    "figures": [
+      "fig-2"
+    ],
+    "quantities": [
+      "htc"
+    ]
+  }
+}

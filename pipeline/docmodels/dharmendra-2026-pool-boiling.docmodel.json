@@ -1,0 +1,423 @@
+{
+  "doc_id": "b5c452f3230f2d44",
+  "source": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\papers\\dharmendra_2026_pool_boiling.pdf",
+  "text": "Research Paper\nPool boiling heat transfer enhancement using vertically aligned\ncarbon nanotube coatings on a copper substrate\nM. Dharmendra a, S. Suresh a,*, C.S. Sujith Kumar b, Qiaqin Yang c\na Department of Mechanical Engineering, National Institute of Technology, Tiruchirappalli 620015, India\nb Department of Mechanical Engineering, Sree Buddha College of Engineering, Alappuzha, Kerala 690529, India\nc Department of Mechanical Engineering, College of Engineering, University of Saskatchewan, Saskatchewan SKS7N5A9, Canada\nH I G H L I G H T S\n\u2022 Vertically aligned carbon\nnanotubes were coated on copper\nsubstrate.\n\u2022 Diamond is used as the\nintermediate layer to reduce the\nintermediate resistance.\n\u2022 Pool boiling heat transfer studies\nwere conducted.\n\u2022 A 38% enhancement in critical heat\nflux was achieved using vertically\naligned carbon nanotube coating.\n\u2022 Shift of boiling curve toward the\nleft due to the wettability and fin\naction.\nG R A P H I C A L\nA B S T R A C T\n0\n250\n500\n750\n1000\n1250\n1500\n0\n4\n8\n12\n16\n20\n24\nHeat Flux (kW/m2)\nTW-TSat (oC)\nCNT\nBare Copper\nSand Blasted\nCHF\nIncipience\nA R T I C L E\nI N F O\nArticle history:\nReceived 2 May 2015\nAccepted 12 December 2015\nAvailable online 14 January 2016\nKeywords:\nPool boiling heat transfer\nCritical heat flux\nDiamond coating\nCNT coating\nA B S T R A C T\nIn the present study, pool boiling heat transfer experiments are performed on a bare copper surface, a\nsandblasted copper surface, and carbon nanotube coated copper substrates. Experiments were conducted on the substrate surface area of 14 \u00d7 14 mm2 using de-mineralized water as the working fluid.\nThe substrate is fixed tightly on the heater block, which is embedded with six cartridge heaters of total\ncapacity 1500 W. Heat fluxes were measured using J-type thermocouples, which were aligned vertically along the heater block and also 1 mm from the top of the substrate. The pool boiling heat transfer\nexperiments were conducted on bare, sandblasted and vertically aligned CNT coated copper substrates.\nThe obtained results of sandblasted and CNT coated surfaces were compared with that of the bare copper\nsurface. A remarkable enhancement of 38% in the CHF was observed on the CNT coated surface. The CNT\ncoated surface was found to be effective in increasing the nucleate boiling and the CHF.\n\u00a9 2016 Elsevier Ltd. All rights reserved.\n1. Introduction\nHeat transfer enhancement is the one of the major concerns in\nheat exchangers and micro electro mechanical system (MEMS). The\nrecent advancements in technology have contributed to a tremendous size reduction of electronic devices, which has led to a high\nheat flux. So, the cooling of these devices has become a challenging task. Among the different heat transfer techniques in electronic\ndevices and microprocessors, pool boiling is an effective method due\nto its change of phase. Different passive techniques are used to\nenhance heat transfer such as increase of sub cooling, increase of\nsurface roughness by surface modification and surface coating [1].\nAmong the different passive techniques, surface coating is an effi-\ncient method to improve the heat transfer characteristics by\nincreasing the effective heat transfer area, nucleation density, bubble\nfrequency and wettability [2-5].\n* Corresponding author. Tel.: +91 431 2503422; fax: +91 431 2500133.\nE-mail address: ssuresh@nitt.edu (S. Suresh).\nhttp://dx.doi.org/10.1016/j.applthermaleng.2015.12.081\n1359-4311/\u00a9 2016 Elsevier Ltd. All rights reserved.\nApplied Thermal Engineering 99 (2016) 61-71\nContents lists available at ScienceDirect\nApplied Thermal Engineering\njournal homepage: www.elsevier.com/locate/apthermeng\nSurface coatings can be macro-structured, micro-structured, and\nnano-structured; among them, nano-structured coatings have potential application in MEMS devices. Nano-structured coating\npossesses the following desired properties: high surface area to\nvolume ratio, smaller volume and mass, and high convective heat\ntransfer coefficient; these causes the removal of large amounts of\nheat flux. Porosity, fin action and surface roughness of the\nnanostructured coating are the major parameters which enhances\nthe heat transfer [6-13]. Extensive research has been carried out\non pool boiling using surface coating. Ahn et al. conducted flow\nboiling and pool boiling analyses on different metallic substrates\ncoated with TiO2, SiO2 and Ag nano particles. For pool boiling and\nflow boiling, a significant increase in the critical heat flux (CHF) was\nrecorded for all coated surfaces. The enhancement of CHF on coated\nsurfaces is mainly due to change in wettability and capillarity which\nincrease liquid spreading and actively supplied cooling water to the\nheating surface. Sujith Kumar et al. [14] conducted the flow boiling\nheat transfer experiments and found that 21.6% of CHF was enhanced at the flux rate of 283 kg/m2s over carbon nanotubes with\ndiamond coating acting as intermediate layer on a copper sub-\nstrate for the demineralized water as a working fluid. Similar kind\nof surface coating was thought to be effective in case of pool boiling\nand is tried in this work. The investigation may lead to some deeper\ninsights into the actual performance of vertically aligned CNTs for\nthe enhancement of phase change heat transfer. This was the drive\nbehind this investigation in the case of pool boiling heat transfer\nleading to applications like electronics cooling. Mudawar and Anderson [3] found out a pool boiling augmentation on finned and\nmicrostudded surfaces. These surfaces are more effective to enhance\nthe CHF due to increase in surface area with a mild increase in the\nfin volume. Ahn et al. [6] conducted pool boiling experiments on\nCNT coated silicon substrates. Experiments were conducted on bare\nsilicon wafer and two silicon wafers, each deposited with a uniform\nlayer of vertically aligned MWCNTs of different heights of 9 \u03bcm and\n25 \u03bcm respectively. A maximum enhancement of 40% in CHF was\nobtained for the 25 \u03bcm height CNT coated surface. Ujereh et al. [4]\nconducted pool boiling experiments for assessing the impact of CNT\ncoating on both copper and silicon substrates. Experiments were\nconducted using FC-72 as the working fluid. They obtained 35% of\nenhancement in CHF for the coated substrate than for the bare\nsubstrates.\nThe recent advances in nanotechnology have led to the development of carbon nanotube (CNT) coatings over metallic substrates,\nwhich are the most efficient way to remove the high heat flux from\nsmall areas. Pathak et al. [15] coated the CNT fins over the shape\nmemory alloy wire, and conducted a study on heat transfer. They\nfound an appreciable enhancement in the cooling rate of the CNT\ncoated wire compared to the uncoated one. The enhancement in\nthe cooling rate was due to the high thermal conductivity of the\nCNT and increase in the total heat transfer area.\nJean-Marc Bonard et al. [16] stated that a major problem for CNT\ncoatings with the metallic substrate is the poor adhesion between\nthe CNT and the substrate, which will increase the intermediate re-\nsistance. Extensive research is being carried out to overcome this\nproblem. The adhesion between the metal and the CNT can be increased by using an intermediate layer. Kumar et al. [17] used omega\nbond gluing agent as an intermediate layer to increase the adhesion between the CNT and the stainless steel substrate. Song et al.\n[18] reported that adding a thin layer of indium improved the adhesion between the CNT arrays and the substrate. Khanikar et al.\n[19] conducted a flow boiling heat transfer studies on CNT coated\ncopper substrates. They prepared the CNT coating over the copper\nsubstrate, with a tri-layer of titanium, aluminium and iron as the\nintermediate metal catalysts. The titanium layer gives high bonding\nstrength for the CNT, the aluminium layer was used for segregating the annealed iron nano particles, and the iron layer acts as a\ncatalyst for the CNT growth. Lin et al. [20] used the Al2O3 intermediate layer as a thermal interface material to coat the vertically\naligned CNTs on the copper substrate.\nIn the present work, to improve the adhesion between the CNTs\nand the Cu substrate, a diamond intermediate layer was coated\nbetween the CNTs and the copper. Furthermore, to enhance the adhesion between the diamond layer and the copper substrate, a\ndiamond layer deposition was achieved on a sandblasted copper sub-\nstrate. The hot filament chemical vapour deposition technique is used\nfor coating the diamond and the CNT. Pool boiling heat transfer\nstudies were conducted on the CNT coated copper substrate, bare\ncopper and sand blasted copper substrate.\n2. Experiment\n2.1. Double-layered structure deposition\nThe oxygen-free copper substrate was etched with HNO3 and HCl,\nand then ultrasonic cleaning was carried out in a bath containing\n99% ethanol for 30 minutes. The cleaned copper substrate was sandblasted for 1 minute, and prepared for the HFCVD deposition. Copper\nsubstrate was first ultrasonically seeded in a suspension of ethanol\nand nano-size diamond powders, and placed in the HFCVD chamber\nfor the deposition. The precursor gases are CH4 (2 vol. %) and H2 (98\nvol. %) with a total flow rate of 50 sccm and the pressure inside the\nchamber was maintained at 20 torr at 400 \u00b0C substrate back temperature. For CNTs growth: a ferric nitrate catalyst was coated on\nthe diamond layer by spin coating, and the spin coating time was\nset at 30 seconds. A dc-bias voltage of -500 V and a glow discharge current of 100 mA was supplied to assist the CNT alignment\ngrowth in a CH4 (20 vol. %) and H2 (80 vol. %), with a gas mixture\nof total gas flow rate of 50 sccm.\n2.2. Details of characterization equipment\nThe surface morphology of the Cu substrate and diamond coatings was observed using SEM (JSM-6010). The surface roughness\nwas measured by MitatoyoSuftest (ISO 1997 standard, cut off length\n20 mm, resolution: 0.0001 \u03bcm). The phase analysis was done by the\nRaman Microscope (Renishaw 2000) and XRD (RigakuGeigerflex\nXRD). Static contact angle of the surface was measured by contact\nangle metre (Holmarc, HO-IAD-CAM-01A).\n2.3. Experimental apparatus\nThe constructional details of the experimental setup used in this\nstudy are shown in Fig. 1. The experimental setup consists of the\nfollowing components: 1) a viewing chamber, 2) test plate 3) heating\nblock, 4) auxiliary heater, 5) reflux condenser, 6) insulation, 7) pressure transducer, 8) data logger and j type thermocouples are used\nwhere temperatures to be measured and the viewing chamber are\nmade of acrylic enclosure. The copper test plate is heated by using\nsix cartridge heaters with a capacity of 250 W each. The rate of heat\nis controlled by an autotransformer of the range of 0-2000 W. An\nauxiliary heater was provided for controlling the fluid bulk temperature, and a water cooled condenser is used for condensing the\nvapour produced during the pool boiling process. A thick layer of\nglass wool insulation was provided for reducing the heat loss to the\nsurroundings. Heat loss in the radial direction in the heater block\nwas analyzed using COMSOL multiphysics software and was found\nto be negligible. This result was well expected as the heater block\nwas well insulated radially using Teflon and glass wool, thus minimizing the heat loss to negligible values. Three J type thermocouples\nwere inserted at 1 mm below the top surface of the copper sub-\nstrate for measuring the surface temperatures along the length of\nthe substrate and two J type thermocouples were inserted 4 mm\n62\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\napart in the copper substrate along the vertical section. The bulk\ntemperature of the fluid is measured by using a 1 mm diameter J\ntype thermocouple. The instantaneous temperatures measured by\nthe thermocouples were digitalized using a data logger (data taker\ndt85). All thermocouples were calibrated using constant temperature oil bath with a calibrated digital thermometer. The maximum\nerror in the temperature measurement was found to be \u00b10.5 \u00b0C. All\nuncovered parts of heating section were insulated with a thick layer\nof glass wool and Teflon block.\n2.4. Data analysis\nq\nk T\nT\nx\n= -\n-\n2\n1\n\u0394\n(1)\nThe experimental wall heat flux data are obtained by calculating the temperature gradient in the vertical direction of the substrate.\nThe boiling heat transfer coefficient can be calculated from the\nheat flux, the average surface and the average fluid temperatures\nusing the formula given below.\nh\nq\nT\nT\n=\n-\ns\nf\n(2)\n2.5. Experimental uncertainty analysis\nThe thermocouples were calibrated using a digital thermometer and a constant temperature oil bath. The thermocouples were\ncalibrated by maintaining the constant temperature bath in the\nsteady state at different temperatures, in the operating range of the\nthermocouples. The uncertainty in the temperature measurement\nwas \u00b10.5 \u00b0C. The uncertainty in position was found to be \u00b1 2.1%, and\nthat of thermal conductivity was \u00b11%. The experimental uncertainty in the heat flux in the vertical direction in the copper test section,\nand the boiling heat transfer coefficient were estimated by the Kline\nand McClintock method [21].\n\u03c9\n\u03c9\n\u03c9\n\u03c9\n\u03c9\nq\nk\nT\nT\nx\nq\nk\nT\nT\nT\nT\nx\n= \u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f+\n-\n\u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f+\n-\n\u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f+ \u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f\n2\n1\n2\n1\n2\n2\n2\n1\n2\n\u0394\n\u0394\n2\n1\n2\n\u23a1\n\u23a3\n\u23a2\n\u23a4\n\u23a6\n\u23a5\n(3)\n\u03c9\n\u03c9\n\u03c9\n\u03c9\nh\nq\nTs\ns\nf\nTf\ns\nf\nh\nq\nT\nT\nT\nT\n= \u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f+\n-\n\u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f+\n-\n\u239b\n\u239d\u239c\n\u239e\n\u23a0\u239f\n\u23a1\n\u23a3\n\u23a2\n\u23a2\n\u23a4\n\u23a6\n\u23a5\n\u23a5\n2\n2\n2\n1\n2\n(4)\nThe experimental uncertainty for the wall heat flux and boiling\nheat transfer coefficient was estimated to be in the range of \u00b1 3.57%\nand \u00b12.35% respectively.\n2.6. Experimental procedure\nPool boiling experiments were conducted by using de-mineralized\nwater. Prior to the experiment, the water was boiled vigorously for\n30 minutes to remove the dissolved gases. The bulk temperature\nof the water was maintained constant by using an auxiliary heater.\nThe heat was supplied to the testing plate in small increments by\nsix electrical cartridge heaters inserted in a copper block. Once the\ntemperature in the copper block reached the steady state, all the\ntemperature data from the thermocouples were recorded by using\na data logger. After all the measurements were taken, the heat flux\nof the testing plate was increased, and the measurement procedure was repeated. The experiment was repeated for different values\nof heat flux until the CHF is encountered which can be identified\nby an abnormal rise in the surface temperature [6].\nFig. 1. Schematic of experimental setup and arrangement of thermocouples to measure heat flux.\n63\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\n3. Result and discussion\n3.1. Characterization of the coating\nFig. 2 shows the SEM image of the surface morphology of untreated (A) and sandblasted (B) Cu substrate. It can be observed that\nthe surface roughness has significantly increased after sandblasting. The surface roughness measurement results in Table 1 can prove\nit. Fig. 3 shows the SEM image of diamond coatings on untreated\nCu substrate (A) and sandblasted Cu substrate (B). The diamond coatings were partly peeled off from the untreated Cu substrate and were\nstayed on sand blasted Cu substrate. Diamond and Cu have a large\nthermal expansion mismatch. When a diamond coated on Cu cools\ndown from a higher deposition temperature, the Cu substrate shrinks\na lot while diamond has much less contractions [21]. In the case\nof a diamond coating on the bare copper surface, a high stress will\noccur between these two layers and will result in cracks in the\ndiamond coatings. Part of the diamond coating may peel off from\nthe substrate due to the high stress and low affinity between\ndiamond and Cu [14]. In Fig. 3(A), some cracks formed on the\ndiamond coatings on the bare Cu substrate can be observed. These\ncracks also resulted from the stress between diamond coatings and\nthe Cu substrate. On comparing SEM images of the diamond coating\non the bare and the sandblasted copper, we can infer that the sandblasting treatment improved the adhesion between the diamond\nand the Cu substrate. This is due to mechanical interlocking between\ncopper surface and diamond coating [14].\nFig. 4 shows the XRD patterns of the samples presented in Fig. 3.\nThe diamond and Cu have a similar crystal lattice and their main\nXRD diffraction peaks are very close [22]. The peaks at 50.1\u00b0, 59.7\u00b0\nand 89.1\u00b0 are the diffractions from the (111), (200), and (220) patterns of Cu. The diamond diffraction pattern is weak in the untreated\nCu substrate because some of them peel off, and reduce the diffraction intensity. Comparing the untreated to the sandblasted\nsample, the left shift of the diamond [111] pattern and [220] pattern\nis because of the stress between the diamond and Cu substrate.\nFig. 5(A and B) shows the SEM images of the CNT coated Cu sub-\nstrates with and without the diamond intermediate layer. The growth\nof CNT is controlled by the sputtering time of catalyst preparation\nand the deposition time of the CNT. The vertically aligned CNTs were\nachieved by a DC-plasma hot filament CVD process. In the present\ncoated sample, the catalyst's spinning time and deposition time are\nlimited to 90 seconds and 20 minutes respectively. The length and\ndiameter of the CNT coatings can be measured with a highly magnified image as 300-500 nm and 50 nm respectively. Tap water flow\ntest is conducted to find CNT adhesion on copper substrate with a\nmass flow rate of 10 l/min and the distance between tap and the\nFig. 2. SEM images of the (A) bare copper surface and (B) sand blasted copper.\nTable 1\nSurface roughness results.\nSurfaces\nX direction\n(\u03bcm)\nY direction\n(\u03bcm)\nAverage\n(\u03bcm)\nUntreated Cu\n0.22\n0.28\n0.25\nSand blasted Cu\n1.99\n2.00\n1.95\nCNT coated Cu with diamond coating\n2.32\n2.36\n2.34\nFig. 3. EM images of diamond coating on the (A) bare copper surface and (B) sand blasted copper.\n64\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\ncoated surface is maintained around 20 cm. This test is done at room\ntemperature condition. The test is carried out for 20 min. After the\ntap water flow test, we observed a good adhesion of the CNT on the\ndiamond intermediate layer, compared to that without the intermediate layer. An increase in the adhesion is due to the formation of a\ncarbon bond between the diamond and CNT. This increase in adhesion\nproduces less intermediate resistance between the substrate and\ncoating.\nTable 2 shows the variation of surface roughness values of CNT\ncoated surface with and without the diamond intermediate layer\nfor before and after conducting the tap water flow test. The surface\nroughness of CNT coated Cu without diamond intermediate layer\nis decreasing as some of the CNTs were washed away from the\nsurface due to poor adhesion.\nIn Fig. 6(A), a sharp peak centred at 1335 cm-1 represents a high\nquality diamond. The impurity of the diamond is a barrier for thermal\nconducting. Thus, this high purity would have a high thermal conductivity. The shift in the diamond peak is due to the stress produced\nby the mechanical interlock between the diamond and sand blasted\ncopper surface. In Fig. 6(B), the peaks centred at 1350 cm-1 and\n1580 cm-1 are the peaks of CNT respectively. These peaks confirm\nthe existence of the CNT.\nFig. 4. XRD patterns of the diamond coating on (A) untreated copper and (B) sandblasted copper.\nTable 2\nSurface roughness variation by tap water flow test\nCNT coated Cu surface\nBefore conducting\nthe test (\u03bcm)\nAfter conducting\nthe test (\u03bcm)\nWith diamond coating\n2.34\n2.26\nWithout diamond coating\n2.14\n1.23\n65\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\n3.2. Validation of experimental setup\nTo validate the experimental setup, experiments were conducted with de-mineralized water as the working fluid. Experiments\nwere conducted with bare copper as the test plates, and the obtained results were compared with the equation proposed by the\nRohsenow [23].\nq\nh\ng\nC\nT\nT\nC h\nfg\nl\nv\npl\ns\nsat\nsf\nfg\nl\nn\n=\n-\n(\n)\n\u23a1\n\u23a3\u23a2\n\u23a4\n\u23a6\u23a5\n-\n(\n)\n\u23a1\n\u23a3\u23a2\n\u23a4\n\u23a6\u23a5\n\u03bc\n\u03c1\n\u03c1\n\u03c3\n1\n1\n2\n3\nPr\n(5)\nFrom Fig. 7, we can conclude that the obtained experimental\nresults were comparable with the theoretical values. The maximum\nerror percentage obtained was around 9.5%. As there is not much\ndifference between the theoretical and the experimental values obtained, the test section is considered to be valid.\n3.3. Pool boiling heat transfer studies\nPool boiling experiments were conducted with an initial bulk\ntemperature of de-mineralized water at 90 \u00b0C. The pool boiling heat\nflux data of CNT coated Cu and sand blasted Cu were compared\nwith that of the bare Cu. During the experimentation, we found\nthat the commencement of nucleation for the CNT coated surface\nand sand blasted surface occurred at a lower surface temperature\nand lower heat flux as compared to that of the bare copper surface.\nThe nucleation sites for the CNT coated surface were more due to\nits higher relative roughness compared to the sand blasted copper.\nThe higher nucleation density will lead to an early onset of boiling;\nthereby, wall superheat of the sand blasted surface decreases for\ncorresponding heat flux considered with the bare copper surface.\nLarger heat fluxes were obtained from the sand blasted copper and\nCNT coated surface with respect to wall superheat. The transition\nfrom nucleate to film boiling over sand blasted copper and bare\ncopper is rapid compared to the CNT coated surface. In the case of\nthe CNT coated surface, the initial bubble density was higher due\nto its higher surface roughness, but its hydrophobicity slowed down\nthe growth of the formed bubbles. At higher heat flux, the bubbles\nspread over the surface, causing coalescence [5], which leads to a\nslow transition from nucleate to film boiling. Another major reason\nfor the increase in the bubble nucleation over the CNT coated surface\nis the protruding nanostructures. This in turn increases the effective surface area near the wall, leading to increase in the nucleation\nsites.\n3.4. Heat flux data\nThe amount of heat flux supplied to the water using the copper\nheating block was calculated using Eqn. (1). Fig. 8 shows the saturated pool boiling curves for the three different surfaces (bare copper\nsurface, sandblasted copper surface, and CNT-coated surface). The\ndata were obtained from the average of the temperature measurements at the three thermocouple locations and the initial bulk\ntemperature of the fluid.\nThe shapes of the boiling curves for all the above mentioned surfaces were almost the same but a leftward temperature shift occurred\nin the case of the CNT coated surface for different heat fluxes. From\nthe boiling curves, we can infer that in the CNT coated surface the\nFig. 5. SEM images of CNT coating (A) on diamond coated Cu, (B) on bare Cu, (C) on diamond coated Cu after tap water test, and (D) on bare copper after tap water test.\n66\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\nwall superheat is less than that of the other two samples for all the\nmeasured conditions. This anomalous behaviour is due to hydrophobicity, fin action, increasing surface area and high relative surface\nroughness. For the sandblasted copper, in a low heat flux region,\nthere is a reduction in the wall superheat and this effect was close\nenough to CNT coated sample. Close to the critical heat flux region,\nthe wall superheat of the bare copper and sand blasted copper is\nalmost same. In the case of sand blasted copper, due to its higher\nrelative roughness, the initial nucleation starts immediately and a\nhike in CHF was also found due to the higher heat transfer area. It\nis observed that the CNT coated surface enhances the heat flux in\nthe nucleate boiling regime by 48%, and that of sand blasted copper\nis 12%, with respect to the bare copper surface.\n3.5. Critical heat flux\nTable 3 shows the variation of the critical heat flux and surface\nroughness of different tested samples. Both the CNT coated surface\nand sand blasted surface shows an enhancement in the CHF with\nrespect to the bare copper surface. The enhancement in the CHF compared to bare copper, for the sand blasted copper, is around 8.5%\nFig. 6. Raman spectrum of (A) diamond coating on sand blasted Cu. (B) CNT coating on the diamond coated Cu.\n67\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\nand that of CNT coating is 38%. From Table 1, we can compare the\nsurface roughness of all the three surfaces. The CNT coated surface\ngives a maximum increase in the surface roughness, compared to\nother two surfaces.\nCNTs maintained in a vertical direction not only increase the\nsurface area but also increase the fin effectiveness (nano-fin\neffect) because copper substrate has lower thermal conductivity\nthan the axial thermal conductivity of individual vertically aligned\nCNTs.\nAHN et al. [6] suggested that nano fin effect caused to enhance\nlocal quenching of the heater surface due to which an increment\nin the CHF takes place in the vertically aligned CNTs coated surface.\nThe surface roughness of the sand blasted surface is higher than that\nof the bare copper surface. An increase in the surface roughness increases the total area for heat transfer which will enhance the CHF\nof the coated surface as compared to the bare surface.\n3.6. Boiling heat transfer coefficient\nThe effective heat transfer coefficient is calculated using Eqn. (2)\nup to the critical heat flux. Fig. 9 presents the variation of the boiling\nheat transfer coefficient with heat flux, for three different samples.\nThe CNT coatings show a very large enhancement in the heat transfer coefficient compared to the other two samples. The maximum\nincrease of 80% in heat transfer coefficient is obtained from the CNT\ncoated surface compared to the bare copper surface. The higher heat\ntransfer coefficient of the CNT coated surface is due to its high surface\nroughness, effective heat transfer area and Nano fin effect. The use\nof an intermediate diamond coating reduces the intermediate re-\nsistance of the CNT coating over the copper surface by increasing\nthe adhesion. The diamond provides the carbon bonding between\nthe CNT and copper. A reduction in the intermediate resistance leads\nto a higher heat transfer rate by maintaining a constant temperature between the top surface and the tip of the fin. For the sand\nblasted copper sample, the boiling heat transfer coefficient is slightly\nhigher than that of the bare Cu due to its higher surface roughness. An increase in the surface roughness increases the effective\nsurface area for heat transfer which in turn increases the heat transfer rate from the surface.\n0.00\n20.00\n40.00\n60.00\n80.00\n100.00\n120.00\n140.00\n5.00\n10.00\n15.00\n20.00\n25.00\nHeat flux( q\") W/cm2\n(Tw-Tsat) oC\nExperimental Values\nRohsenow equation values\nFig. 7. Comparison of experiment pool boiling results obtained for the bare copper with the results obtained for the proposed equation.\n0.00\n250.00\n500.00\n750.00\n1000.00\n1250.00\n1500.00\n0\n4\n8\n12\n16\n20\n24\nHeat Flux (W/cm2)\nTW-TSat (oC)\nCNT\nBare Copper\nSand Blasted\nCHF\nIncipience\nFig. 8. Pool boiling curve for different surfaces.\nTable 3\nMeasured CHF values of the tested surfaces.\nSi. no\nTested surface\nCHF (kW/m2)\n1\nCNT coated Cu\n1.416\n2\nSandblasted copper\n1.114\n3\nBare copper\n1.027\n68\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\n3.7. Wettability effects\nThe wetting ability of water on different surfaces is evaluated\nby measuring the contact angle of the water on the surfaces. Fig. 10\nshows the contact angle on the bare copper, sand blasted Cu, and\nCNT coatings. It can be seen from Fig. 10 that the contact angles of\nthe bare copper and sand blasted copper are less than 90o; hence,\nit is hydrophilic in nature. While the CNT coated surface that provides a contact angle of 133\u00b0 is hydrophobic. The hydrophobicity\nof the CNT coated surface is due to the combined effect of diamond\nintermediate and CNT coating. The wettability is the highest for the\nbare Cu and the lowest for the CNT coatings. Boiling begins earlier\n0\n20\n40\n60\n80\n100\n120\n0.00\n500.00\n1000.00\n1500.00\nHeat Transfer coefficient (kW/m2oC)\nHeat Flux (kW/m2)\nCNT\nBare copper\nSand Blasted\nFig. 9. Variation of the boiling heat transfer coefficient for different surfaces.\nFig. 10. Static contact angle of (a) bare copper, (b) sand blasted copper, and (c) CNT coated copper substrates.\n69\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\nfor the CNT than the other two surfaces due to the early detachment of bubbles from the surfaces. This would enhance the boiling\nheat transfer performance of the CNT coated surfaces in the low heat\nflux region.\nAs the heat flux increases, the bubble density increases, which\nreduces the boiling heat transfer of copper surface without coating,\nbut this phenomenon was not occurring on the CNT coated surface.\nThe fin action of CNT hinders the growth of the bubbles. This action\nof the fins can enhance the pool boiling heat transfer characteristics of the CNT coated surface in the high heat flux region.\n4. Conclusions\nThe pool boiling heat flux has been measured and analyzed on\nthe sandblasted Cu, CNT coated copper and bare copper surfaces\nunder an initial bulk temperature of de-mineralized water at 90 \u00b0C.\nThe key findings from the study are as follows:\n1. Early onset of boiling is obtained for both the CNT and sand\nblasted Cu samples compared to the bare Cu sample due to higher\nnucleation density. This effect is due to the hyrophobicity and\nhigh relative roughness for the CNT coated samples. Sand blasted\ncopper shows an early onset only due to the high relative\nroughness.\n2. The boiling behaviour is almost similar for all the tested samples.\nIn the case of the CNT, a leftward shift in boiling is obtained compared to the sand blasted copper and bare copper surfaces. For\nthe CNT coated sample, the leftward shift in the boiling curve\nat low heat flux is due to high nucleation density resulting from\nits hydrophobic behaviour.\nIn the case of the CNT coated surface, an increase and leftward\nshift of the CHF are found due to the fin effect and increase in surface\narea; thereby, the boiling curve of the CNT coated sample continues along the left side of the sand blasted copper curve and bare\ncopper curve.\nFor the CNT coated and sand blasted copper surfaces compared with the bare copper, an enhancement in the CHF of 38% and\n8.5% respectively were obtained. An enhancement in the heat transfer coefficient of 80% and 13%, respectively, was found in the CNT\ncoated and sand blasted surfaces, compared with the bare copper\nsurface. Increases in the CHF and heat transfer coefficient are mainly\ndue to the increase in the effective surface area for heat transfer.\nThe CNT coated surface shows the better enhancement due to its\nfin action, high thermal conductivity, and lower intermediate re-\nsistance between the CNT and the surface with an intermediate\ndiamond coating.\nAcknowledgements\nThe authors wish to thank the Department of Science and Technology, Government of India (DST Sanction letter No.SB/S3/MMER/\n0059/2014 dated 16 June 2015), for its financial support to this work.\nThe authors also thank the Canadian Government for granting permission to avail the Commonwealth Scholarship to visit the\nUniversity of Saskatchewan to undertake the collaborative work. This\nwork is also supported by the Canada Research Chair Program and\nthe Natural Sciences and Engineering Research Council of Canada\n(NSERC).\nNomenclature\nAc\nArea of cross section [m2]\nCpl\nSpecific heat of the liquid [J/kg \u00b0C]\nCsf\nExperimental\nconstant\ndepends\non\nsurface\nfluid\ncombinations\nVap\nVapourization\nG\nMass velocity [kg/m2 s]\nh\nBoiling heat transfer coefficient [W/m2 k]\nhfg\nEnthalpy of vaporization [J/kg]\nk\nThermal conductivity [W/m k]\nq\nHeat flux [W/m2]\nT\nTemperature [\u00b0C]\nT1, T2\nTemperature measured from heater section in vertical direction [\u00b0C]\nTf\nAverage fluid temperature [\u00b0C]\nTsat\nSaturated temperature of the fluid [\u00b0C]\nTs\nAverage surface temperature [\u00b0C]\nGreek symbols\n\u0394x\nVertical distance between thermocouples [m]\n\u03bc\nDynamic viscosity of fluid [N-s/m2]\n\u03c1\nDensity [kg/m3]\n\u03c9\nUncertainty\n\u03c3\nSurface tension of the liquid vapour interface [N/m]\nSubscripts\nTot\nTotal\nSub\nSubcooled\nv\nVapour\nw\nBottom wall\nact\nActual\nc\nCross section\nf\nFluid\nin\nInlet\nl\nLiquid\nn\nExperimental constant depends on the fluid\nout\nOutlet\nAbbreviations\nCHF\nCritical heat flux [W/cm2]\nCNT\nCarbon nanotube\nDC\nDirect current\nDLC\nDiamond like carbon\nCu\nCopper\nHFCVD\nHot filament chemical vapour deposition\nMEMS\nMicro electro mechanic system\nONB\nOnset of nucleate boiling\nSEM\nScanning electron microscope\nXRD\nX-ray diffraction\nsccm\nStandard cubic centimetres per minute\nCVT\nconstant voltage transformer\nReferences\n[1] Y.A. Cengel, Heat and Mass Transfer, Tata McGraw- Hill publishing company\nlimited, New Delhi, 2007.\n[2] H.S. Ahn, M.O. Kim, The effect of micro/nanoscale structures on CHF\nenhancement, Nucl. Eng. Mater. 43 (3) (2011) 205-216.\n[3] I. Mudawar, T.M. Anderson, Optimization of enhanced surfaces for high flux\nchip cooling by pool boiling, J. Electron. Packaging, 115 (1993) 89-99.\n[4] S.O. Ujereh Jr., I. Mudawar, P.B. Amama, T.S. Fisher, W. Qu, Enhanced pool boiling\nusing carbon nanotube arrays on a silicon surface, Proceedings of IMECE. (2005)\n5-11.\n[5] H.T. Phan, N. Caney, P. Marty, S. Colasson, J. Gavillet, How does wettability\ninfluence nuceleate boiling?, C.R.Mecanique 337 (2009) 251-259.\n[6] H.S. Ahn, V. Sathyamurthi, D. Banerjee, Pool boiling experiments on a nano-\nstructured surface, IEEE Trans. Compon. Packag. Tech. 32 (2009) 156-162.\n[7] S. Kalaiselvam, M.S. Gugan, E. Kuraloviyan, R. Meganathan, A.N. Priyan, M.R.\nSwaminathan, Experimental investigation of anodized/ spray pyrolysed\nnanoporous structure on heat transfer augmentation, J. Thermal Sci. 18 (2009)\n358-363.\n[8] M.Y. Ali, F. Yang, R. Fang, C. Li, J. Khan, Thermohydraulic characteristics of a\nsingle-phase microchannel heat sink coated with copper nanowires, FHMT 2\n(2011).\n70\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71\n[9] C.R. Dietz, Single Phase forced convection in a microchannel with carbon\nnanotubes for electronic cooling applications (M.S. Thesis), Georgia Institute\nof Technology, Atlanta, GA (2007).\n[10] W. Lin, R. Zhang, K. Moon, C.P. Wong, Synthesis of high quality vertically aligned\ncarbon nanotubes on bulk copper substrate for thermal management, IEEE 33\n(2) (2010) 370-376.\n[11] T. Kunugi, K. Muko, M. Shibahara, Ultrahigh heat transfer enhancement using\nnano-porous layer, Superlattice Microst 35 (2004) 531-542.\n[12] F. Sofos, T.E. Karakasidis, A. Liakopoulos, Surface wettability effects on flow in\nrough wall nanochannels, Microfluid Nanofluidics 12 (2012) 25-31.\n[13] E. Chiavazzo, P. Asinari, Enhancing surface heat transfer by carbon nanofins:\ntowards an alternative to nanofluids?, Nanoscale Res. Lett. 6 (2011) 249.\n[14] C.S. Sujith Kumar, S. Suresh, L. Yang, Q. Yang, S. Aravind, Flow boiling heat\ntransfer enhancement using carbon nanotube coatings, Appl. Ther. Eng. 65 (1)\n(2014) 166-175.\n[15] A. Pathak, J. AuBuchon, D. Brei, J. Shaw, J. Luntz, S. Jin, Carbon nanotube (CNT)\nfins for enhanced cooling of shape memory alloy wire, P SOC PHOTO-OPT INS\n69291K (2008).\n[16] J.-M. Bonard, C. Klinke, Degradation and failure of carbon nanotube field\nemitters, Phys. Rev. B 67 (2003) 115406.\n[17] C.S. Sujith Kumar, S. Suresh, K. Rajiv, Heat transfer enhancement by nano\nstructured carbon nanotube coating, Int. J. Sci. Eng. Res. 3 (2012).\n[18] Y.I. Song, G.Y. Kim, H.K. Choi, H.J. Jeong, K.K. Kim, C.-M. Yang, et al., Fabrication\nof carbon nanotube field emitters using a dip-coating method, Chem. Vap.\nDeposition. 12 (2006) 375-379.\n[19] V. Khanikar, I. Mudawar, T. Fisher, Effects of carbon nanotube coating on flow\nboiling in a micro-channel, Int. J. Heat Mass Transfer. 52 (2009) 3805-3817.\n[20] W. Lin, R. Zhang, K. Moon, C.P. Wong, Synthesis of high quality vertically aigned\ncarbon nanotubes on bulk copper substrate for thermal management, IEEE 33\n(2) (2010) 370-376.\n[21] Q.H. Fan, E. Pereira, Diamond deposition on copper: studies on nucleation,\ngrowth, and adhesion behavior, J. Mater. Sci. 34 (1999) 1353-1365.\n[22] L.S. Pan, Diamond: Electronic Properties and Applications, Kluwer Academic\nPublishers, Norwell, 1995.\n[23] J.P. Holman, Experimental Methods for Engineers, seventh ed., Tata McGraw\nHill Education Private Limited, New Delhi, 2007.\n71\nM. Dharmendra et al./Applied Thermal Engineering 99 (2016) 61-71",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 3647
+    },
+    {
+      "number": 2,
+      "start": 3647,
+      "end": 11596
+    },
+    {
+      "number": 3,
+      "start": 11596,
+      "end": 14598
+    },
+    {
+      "number": 4,
+      "start": 14598,
+      "end": 17897
+    },
+    {
+      "number": 5,
+      "start": 17897,
+      "end": 19588
+    },
+    {
+      "number": 6,
+      "start": 19588,
+      "end": 22874
+    },
+    {
+      "number": 7,
+      "start": 22874,
+      "end": 24260
+    },
+    {
+      "number": 8,
+      "start": 24260,
+      "end": 27261
+    },
+    {
+      "number": 9,
+      "start": 27261,
+      "end": 28351
+    },
+    {
+      "number": 10,
+      "start": 28351,
+      "end": 33959
+    },
+    {
+      "number": 11,
+      "start": 33959,
+      "end": 36390
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-research-paper",
+      "number": null,
+      "title": "Research Paper",
+      "level": 2,
+      "start": 0,
+      "end": 14
+    },
+    {
+      "id": "sec-1-pool-boiling-heat-transfer-enhancement-u",
+      "number": null,
+      "title": "Pool boiling heat transfer enhancement using vertically aligned",
+      "level": 1,
+      "start": 14,
+      "end": 1019
+    },
+    {
+      "id": "sec-2-heat-flux-kw-m2",
+      "number": null,
+      "title": "Heat Flux (kW/m2)",
+      "level": 2,
+      "start": 1019,
+      "end": 1037
+    },
+    {
+      "id": "sec-3-tw-tsat-c",
+      "number": null,
+      "title": "TW-TSat (\u00baC)",
+      "level": 2,
+      "start": 1037,
+      "end": 3566
+    },
+    {
+      "id": "sec-4-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1,
+      "start": 3566,
+      "end": 17532
+    },
+    {
+      "id": "sec-5-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 17532,
+      "end": 19311
+    },
+    {
+      "id": "sec-6-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2,
+      "start": 19311,
+      "end": 26629
+    },
+    {
+      "id": "sec-7-heat-flux-q-w-cm2",
+      "number": null,
+      "title": "Heat flux( q\") W/cm2",
+      "level": 1,
+      "start": 26629,
+      "end": 26912
+    },
+    {
+      "id": "sec-8-heat-flux-w-cm2",
+      "number": null,
+      "title": "Heat Flux (W/cm2)",
+      "level": 2,
+      "start": 26912,
+      "end": 26930
+    },
+    {
+      "id": "sec-9-tw-tsat-c",
+      "number": null,
+      "title": "TW-TSat (\u00baC)",
+      "level": 2,
+      "start": 26930,
+      "end": 26943
+    },
+    {
+      "id": "sec-10-cnt",
+      "number": null,
+      "title": "CNT",
+      "level": 2,
+      "start": 26943,
+      "end": 26947
+    },
+    {
+      "id": "sec-11-bare-copper",
+      "number": null,
+      "title": "Bare Copper",
+      "level": 2,
+      "start": 26947,
+      "end": 26959
+    },
+    {
+      "id": "sec-12-sand-blasted",
+      "number": null,
+      "title": "Sand Blasted",
+      "level": 2,
+      "start": 26959,
+      "end": 27038
+    },
+    {
+      "id": "sec-13-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2,
+      "start": 27038,
+      "end": 28004
+    },
+    {
+      "id": "sec-14-heat-transfer-coefficient-kw-m2-c",
+      "number": null,
+      "title": "Heat Transfer coefficient (kW/m2\u00baC)",
+      "level": 2,
+      "start": 28004,
+      "end": 28040
+    },
+    {
+      "id": "sec-15-heat-flux-kw-m2",
+      "number": null,
+      "title": "Heat Flux (kW/m2)",
+      "level": 2,
+      "start": 28040,
+      "end": 30839
+    },
+    {
+      "id": "sec-16-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 30839,
+      "end": 31379
+    },
+    {
+      "id": "sec-17-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 31379,
+      "end": 32624
+    },
+    {
+      "id": "sec-18-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 32624,
+      "end": 36390
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Schematic of experimental setup and arrangement of thermocouples to measure heat \ufb02ux.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "shows the SEM image of the surface morphology of un-",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-2_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "shows the XRD patterns of the samples presented in Fig. 3.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-4_p4.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(A and B) shows the SEM images of the CNT coated Cu sub-",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-5_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "SEM images of the (A) bare copper surface and (B) sand blasted copper.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-2_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "EM images of diamond coating on the (A) bare copper surface and (B) sand blasted copper.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "XRD patterns of the diamond coating on (A) untreated copper and (B) sandblasted copper.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-4_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "SEM images of CNT coating (A) on diamond coated Cu, (B) on bare Cu, (C) on diamond coated Cu after tap water test, and (D) on bare copper after tap water test.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-5_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Raman spectrum of (A) diamond coating on sand blasted Cu. (B) CNT coating on the diamond coated Cu.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-6_p7.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Comparison of experiment pool boiling results obtained for the bare copper with the results obtained for the proposed equation.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-7_p8.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Pool boiling curve for different surfaces.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-8_p8.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Variation of the boiling heat transfer coe\ufb03cient for different surfaces.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-9_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Static contact angle of (a) bare copper, (b) sand blasted copper, and (c) CNT coated copper substrates.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2470092773438,
+        793.6719970703125
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test8\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dharmendra-2026-pool-boiling\\dharmendra_2026_pool_boiling_fig-10_p9.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "shows the variation of surface roughness values of CNT",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "shows the variation of the critical heat \ufb02ux and surface",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 11,
+    "ingest": "pymupdf"
+  }
+}

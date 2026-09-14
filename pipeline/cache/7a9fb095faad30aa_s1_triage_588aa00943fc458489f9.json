@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Effect of Surface Wettability on Nanoparticle Deposition during Pool Boiling on Laser-Textured Copper Surfaces",
+  "year": 2024,
+  "reason": "The authors report their own measured pool boiling curves, CHF and HTC values (e.g., \"CHF values of 1209 kW m-2 and 1462 kW m-2 were recorded\") on laser-textured copper surfaces with TiO2-water nanofluids."
+}

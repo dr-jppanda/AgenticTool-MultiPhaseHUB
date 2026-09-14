@@ -1,0 +1,100 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The pool boiling heat transfer on copper nanowire arrays has been experimentally studied."
+      },
+      {
+        "quote": "It can be seen that the introducing of the\nnanowire arrays shifts the boiling curve to the top left corner,\nwhich means both the HTC and the CHF have been significantly\nenhanced."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built\nand submerged in the test fluid (DI water)"
+      },
+      {
+        "quote": "The top surface, which was synthesized with copper nanowire array on, was\ndirectly contacted with test fluid"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Pool boiling experiments were conducted under steady-state\nconditions."
+      },
+      {
+        "quote": "For each\nheating power, the system was kept for about half an hour waiting\ntime to make sure that the steady-state condition was satisfied."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "submerged in the test fluid (DI water), which was then heated\nup to its saturation temperature (100 C) at 1 atm"
+        },
+        {
+          "quote": "the surface contact angles of DI water on copper nanowire arrays have\nalso been measured"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "nanostructured",
+      "tier2": "nanowire",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Five different\ncopper nanowire arrays with various lengths (3 mm, 5 mm, 10 mm, 20 mm, and 30 mm) have been electroplated on bare smooth copper surfaces."
+        },
+        {
+          "quote": "Cu\nnanowire arrays are synthesized directly on the top surface of the\ncopper block via electroplating using a commercial available porous\nalumina membrane (PAA) template"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "a reference (control) experiment was performed at first\nusing polished bare smooth copper surface"
+        },
+        {
+          "quote": "Boiling on plain smooth\ncopper surface serves as the primary control for the boiling performance comparison."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

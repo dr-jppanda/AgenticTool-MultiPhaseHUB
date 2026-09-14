@@ -1,0 +1,310 @@
+{
+  "record_id": "mchale-2013-nucleate-boiling-from-smooth-and-rough-part2",
+  "n_crops": 16,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        38.52000045776367,
+        62.21099853515625,
+        566.7569580078125,
+        152.13897705078125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-p1-01.png",
+      "n_panels": 6,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Test substrate parameters.",
+      "page": 3,
+      "bbox": [
+        307.5274963378906,
+        651.8905029296875,
+        558.0659790039062,
+        753.1932983398438
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-1.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Surface maps were \ufb01ltered with cutoff frequency determined by the predicted bubble base diameter: (a) frequency response of the \ufb01lter for FC-72, (b) Blackman- windowed 1-D sinc \ufb01lter, (c) un\ufb01ltered section for surface 5, (d) surface 5 after low-pass \ufb01ltering, and (e) high-frequency surface roughness features remaining after subtracting (d) from (c).",
+      "page": 4,
+      "bbox": [
+        28.711761474609375,
+        63.906005859375,
+        556.7559814453125,
+        740.3817138671875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-1.png",
+      "n_panels": 41,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Approximate convex decomposition of bubble objects in an image: (a) original image, (b) binary image after segmentation, and (c) decomposition of objects by the convexity measure of McHale and Garimella [27] .",
+      "page": 5,
+      "bbox": [
+        226.91082763671875,
+        185.07098388671875,
+        566.591064453125,
+        434.5802307128906
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-2.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Comparison of surface parameters before and after \ufb01ltering (present data).",
+      "page": 5,
+      "bbox": [
+        38.51969909667969,
+        63.58826446533203,
+        558.0620727539062,
+        165.14480590820312
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-2.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Correlation of experimental boiling curves assuming the relationship h = C h \u0005 q 0.83 provides a basis for comparison independent of heat \ufb02ux, while introducing relatively little error. MAE for the present data is 12.4%; while for the data of [17] , the MAE is 5.2%.",
+      "page": 6,
+      "bbox": [
+        28.711639404296875,
+        62.977020263671875,
+        287.7632141113281,
+        323.1219177246094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-3.png",
+      "n_panels": 507,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Correlation of C h with selected surface parameters. All C h data are shown for present work, while only average values are shown for the data of Jones et al. [17] . Correlations are generally better with \ufb01ltered surface parameters for FC \ufb02uids and un\ufb01ltered surface parameters for water.",
+      "page": 7,
+      "bbox": [
+        38.51969909667969,
+        63.7760009765625,
+        566.5640258789062,
+        571.720458984375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-4.png",
+      "n_panels": 1470,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Experimental trends in mean bubble departure diameter with respect to several correlating variables.",
+      "page": 8,
+      "bbox": [
+        28.71200180053711,
+        63.57196044921875,
+        556.7559814453125,
+        560.892333984375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-5.png",
+      "n_panels": 637,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Comparisons of experimental data and predicted values from curve \ufb01ts between mean bubble departure diameter and selected variables.",
+      "page": 9,
+      "bbox": [
+        38.52000045776367,
+        63.666015625,
+        566.5640258789062,
+        544.0545654296875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-6.png",
+      "n_panels": 370,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Comparisons of experimental data and predicted values for power curve \ufb01ts between mean bubble growth period t d or total ebullition period s and heat \ufb02ux, and departure diameter.",
+      "page": 10,
+      "bbox": [
+        28.71179962158203,
+        63.4110107421875,
+        556.7559814453125,
+        387.411865234375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-7.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-7.png",
+      "n_panels": 447,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Measured bubble diameters as a function of growth time for surface 1 at (a) low, (b) medium, and (c) high heat \ufb02uxes. Chaotic behavior appears to increase with heat \ufb02ux. The growth relationships shown in panels (2) and (3), D \u0003 t 1/3 remain approximately valid as q increases.",
+      "page": 11,
+      "bbox": [
+        38.519012451171875,
+        63.87396240234375,
+        566.572265625,
+        664.0987548828125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-8.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-8.png",
+      "n_panels": 47,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Measured bubble diameters as a function of growth time for surface 5 at (a) low, (b) medium\u2013low, and (c) medium heat \ufb02uxes. High nucleation site densities at medium to high heat \ufb02uxes inhibited good time domain measurements.",
+      "page": 12,
+      "bbox": [
+        28.71179962158203,
+        63.74798583984375,
+        556.7749633789062,
+        664.6968994140625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-9.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-9.png",
+      "n_panels": 49,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Comparisons of variation of experimental contact angle h with calculated surface parameters. Filtered surface parameters do not generally provide better correlation for wetting.",
+      "page": 13,
+      "bbox": [
+        38.51969909667969,
+        63.77801513671875,
+        566.5640258789062,
+        539.7457275390625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-10.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-10.png",
+      "n_panels": 240,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "(a) Approximate void fraction distribution above surface 3 at three different heat \ufb02uxes. (b) Maximum void fraction can be correlated with normalized nucleate boiling heat \ufb02ux. The present data (FC-72) compare well with those of Iida and Kobayasi [57] (water).",
+      "page": 14,
+      "bbox": [
+        28.7117919921875,
+        63.501007080078125,
+        556.7664184570312,
+        512.5330810546875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-11.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\fig-11.png",
+      "n_panels": 84,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Summary of relative uncertainties for linear correlations between C h and selected predictive variables. Last 2 columns are p ratios of un\ufb01ltered parameter to \ufb01ltered parameter, and each parameter to overall best parameter, A r , respectively.",
+      "page": 15,
+      "bbox": [
+        38.51905822753906,
+        63.58826446533203,
+        566.6327514648438,
+        611.5182495117188
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-3.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Summary of correlations between D d and selected variables.",
+      "page": 15,
+      "bbox": [
+        38.51969909667969,
+        630.2337646484375,
+        225.93125915527344,
+        654.24755859375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\tab-4.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "record_id": "jones-2009-the-influence-of-surface-roughness",
+  "n_crops": 15,
+  "crops": [
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "\u201e a \u2026 Schematic of pool boiling facility and \u201e b \u2026 top view of test block showing the locations of thermocouples and car- tridge heaters",
+      "page": 2,
+      "bbox": [
+        308.0859069824219,
+        31.79498291015625,
+        555.5946044921875,
+        326.02203369140625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Surface roughness measurements",
+      "page": 3,
+      "bbox": [
+        308.0849609375,
+        31.586647033691406,
+        555.5610961914062,
+        153.57363891601562
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-1.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Surface topography of test surfaces over an area of 400 \u00c3 300 \u0001 m 2 as measured by an optical pro\ufb01lometer: \u201e a \u2026 0.038 \u0001 m polished surface, \u201e b \u2026 1.08 \u0001 m EDM surface, \u201e c \u2026 2.22 \u0001 m EDM surface, and \u201e d \u2026 5.89 \u0001 m EDM surface",
+      "page": 4,
+      "bbox": [
+        56.64149856567383,
+        31.795913696289062,
+        502.10009765625,
+        279.67266845703125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Boiling curves for water: \u201e a \u2026 heat \ufb02ux versus wall superheat and \u201e b \u2026 heat transfer coef\ufb01cient versus heat \ufb02ux",
+      "page": 4,
+      "bbox": [
+        68.09918975830078,
+        491.30328369140625,
+        544.0992431640625,
+        737.4623413085938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Boiling curves for FC-77: \u201e a \u2026 heat \ufb02ux versus wall superheat and \u201e b \u2026 heat transfer coef\ufb01cient versus heat \ufb02ux",
+      "page": 5,
+      "bbox": [
+        68.09918975830078,
+        31.794952392578125,
+        544.0992431640625,
+        289.2339172363281
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-4.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Boiling curves showing the hysteresis effect for \u201e a \u2026 water and \u201e b \u2026 FC-77, where q _ indicates data obtained in order of increasing heat \ufb02ux and q ` indicates those in order of decreasing heat \ufb02ux. It is noted that a smaller heat \ufb02ux increment was used experimentally than is indicated in \u201e b \u2026 ; only a fraction of the data are included to improve readability of the \ufb01gure.",
+      "page": 6,
+      "bbox": [
+        68.09918975830078,
+        31.79498291015625,
+        544.0991821289062,
+        312.2205505371094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-5.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Photographs of the boiling process in water for varying heat \ufb02ux and surface roughness. The physical width of each image is approximately 25 mm.",
+      "page": 6,
+      "bbox": [
+        158.09918212890625,
+        445.7430419921875,
+        454.0990905761719,
+        735.0499877929688
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-6.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Photographs of the boiling process in FC-77 for varying heat \ufb02ux and surface roughness. The physical width of each image is approximately 7.3 mm.",
+      "page": 7,
+      "bbox": [
+        158.09918212890625,
+        31.795059204101562,
+        454.09912109375,
+        320.6219482421875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-7.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-7.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Dependence of heat transfer coef\ufb01cient on surface roughness for \u201e a \u2026 water and \u201e b \u2026 FC-77. The solid lines represent a curve \ufb01t through all \ufb01ve experimental data points \u201e one polished surface and four EDM surfaces \u2026 . The dashed lines in \u201e b \u2026 represent a curve \ufb01t to only the four EDM surfaces \u201e excluding the 0.027 \u0001 m polished surface \u2026 .",
+      "page": 8,
+      "bbox": [
+        68.09918975830078,
+        31.795944213867188,
+        544.0991821289062,
+        318.7685241699219
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-8.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-8.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "tab-2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Dependence of heat transfer coef\ufb01cient on surface roughness",
+      "page": 8,
+      "bbox": [
+        56.639190673828125,
+        448.49493408203125,
+        555.6123657226562,
+        759.2203369140625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-2.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Dependence of heat \ufb02ux exponent n in the relationship h \u00ca q n on surface roughness",
+      "page": 9,
+      "bbox": [
+        56.64070129394531,
+        31.793975830078125,
+        304.1654052734375,
+        302.01983642578125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-9.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-9.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "tab-3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Nucleate boiling correlations",
+      "page": 10,
+      "bbox": [
+        56.64112854003906,
+        31.586647033691406,
+        395.63299560546875,
+        132.46282958984375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\tab-3.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Comparison between experimental data and predictions from the Cooper correlation \u2020 32,33 \u2021 for \u201e a \u2026 water and \u201e b \u2026 FC-77",
+      "page": 11,
+      "bbox": [
+        68.09918975830078,
+        31.7958984375,
+        544.0991821289062,
+        366.191650390625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-10.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-10.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "Comparison between experimental data and predictions from the Goren\ufb02o correlation \u2020 34 \u2021 for \u201e a \u2026 water and \u201e b \u2026 FC-77",
+      "page": 11,
+      "bbox": [
+        56.640380859375,
+        404.306884765625,
+        544.0991821289062,
+        735.0499267578125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-11.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-11.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-12",
+      "kind": "figure",
+      "label": "Fig 12",
+      "caption": "Comparison between experimental data and predictions from the Leiner correlation \u2020 59 \u2021 for \u201e a \u2026 water and \u201e b \u2026 FC-77",
+      "page": 12,
+      "bbox": [
+        68.09918975830078,
+        31.7958984375,
+        544.0991821289062,
+        309.2749328613281
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-12.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\jones-2009-the-influence-of-surface-roughness\\fig-12.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    }
+  ]
+}

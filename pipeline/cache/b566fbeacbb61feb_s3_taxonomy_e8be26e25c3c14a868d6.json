@@ -1,0 +1,132 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The copper and PDMS-coated surfaces both exhibit nucleate boiling; more active nucleation sites are observed on the hydrophobic PDMS-coated surface"
+      },
+      {
+        "quote": "Boiling experiments were carried out in a closed-chamber pool boiling facility"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "All PDMS-coated and Teflon-coated surfaces were fabricated on aluminum test blocks while a copper test block was used for the smooth copper baseline surface."
+      },
+      {
+        "quote": "top-down view of the thermocouple locations and the surface footprint area corresponding to each thermocouple rake"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "temperature and pressure data is collected for each steady state point, defined as the surface temperature changing by less than 0.25°C/hr"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the chamber is filled with deionized water which is then degassed"
+        },
+        {
+          "quote": "The pressure is used to determine the saturation temperature of the water."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Smooth surfaces were not etched."
+        },
+        {
+          "quote": "a copper test block was used for the smooth copper baseline surface"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "hydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Both smooth and textured surfaces are coated with polydimethylsiloxane (PDMS), a hydrophobic material with high contact angle hysteresis, and Teflon, a hydrophobic material with low contact angle hysteresis."
+        },
+        {
+          "quote": "Hydrophobic wetting properties were attained by coating the surface with low-surface-energy polymers."
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Textured to minimize contact angle hysteresis, the superhydrophobic PDMS-coated surface also has a high static contact angle (151°), but paired with a high receding contact angle (147°)."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "etched",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Surface textures for the parahydrophobic surfaces were fabricated via chemical etching of aluminum [41]. The surface was etched for 4 hr in a 0.25 M solution of NaOH at room temperature"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The surface texture for the superhydrophobic surface was created via laser etching (ULS, PLS6MW, 1.06 μm fiber laser)."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

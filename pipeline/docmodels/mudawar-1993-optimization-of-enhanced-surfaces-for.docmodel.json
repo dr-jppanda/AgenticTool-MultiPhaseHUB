@@ -1,0 +1,1180 @@
+{
+  "doc_id": "29e9eb0106665862",
+  "source": "papers\\mudawar_1993_optimization_of_enhanced_surfaces_for.pdf",
+  "text": "I. Mudawar\nAssociate Professor\nand Director.\nT. M. Anderson1\nBoiling and Two-Phase Flow Laboratory,\nSchool of Mechanical Engineering,\nPurdue University,\nWest'tafayette, IN 47907\nOptimization of Enhanced Surfaces\nfor High Flux Chip Cooling by Pool\nB\nH 1 B\noiling\nA high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities of enhanced metallic surface attachments built upon\na 12.7 x 12.7 mm2 base area. It is shown how experimental nucleate boiling data\nfor aflat chip and for chips with low-profile microstructures can be used as input\nboundary conditions in the numerical prediction of boiling performances of high\nflux, smooth and microstructured extended cylindrical surfaces. A technique for\nextending the applicability of the numerical results to cylindrical fin arrays is demonstrated with the aid of experimental data obtained for these surfaces. Surface\nenhancement resulted in chip planform heat fluxes of 105.4 and 159.3 fV/cm2, for\nsaturated and 35\u00b0C subcooled FC-72, respectively.\n1\nIntroduction\nThe continuing trend of increasing computer power has\ndriven the number of logic devices etched onto an integrated\ncircuit up at a rapid pace. The quest toward developing lower\npower logic devices has been overwhelmed by concurrent increases in switching speed and number of devices per unit area.\nConsequently, more powerful cooling technologies must be\ndeveloped to help sustain the trends of increased miniaturization and computational power.\nDirect liquid immersion cooling has great potential as a\nsuccessor to air cooling and indirect liquid cooling technologies. Currently, several immersion-cooled computers are in\noperation. The Cray-2, for example, relies on a slow moving\nflow of a dielectric fluorocarbon liquid (FC-77) to dissipate\nheat by forced convection and localized boiling (Danielson et\nal., 1986). Because of its dielectric properties and chemical\ninertness, the FC family of fluorocarbons (manufactured by\n3M) appears to be the obvious choice for direct immersion\ncooling of electronic hardware.\nWhile direct immersion has been studied in the context of\nsingle-phase forced convection (Tuckerman and Pease, 1981;\nSamant and Simon, 1986; Ramadhyani and Incropera, 1987;\nMaddox and Mudawar, 1989; Mudawar and Maddox, 1989),\nfalling films (Mudawar et al., 1987; Grimley et al., 1988), and\nflow boiling (Samant and Simon, 1986; Maddox and Mudawar,\n1989; Mudawar and Maddox, 1989; McGillis et al., 1991),\npool boiling remains a very attractive cooling option due to\nthe unique attribute of passive fluid circulation. Having no\nmechanical pumps, pool boiling hardware are less complex,\neasier to seal and free of pump-induced fluid pulsation.\nFormer Graduate Research Assistant; current address: Data Systems Division,\nIBM, Poughkeepsie, NY 12602.\nContributed by the Electrical and Electronic Packaging Division for publication in the JOURNAL OF ELECTRONIC PACKAGING. Manuscript received by the\nEEPD May 5, 1992; revised manuscript received November 17, 1992. Associate\nTechnical Editor: B. G. Sammakia.\nCompared to forced convection, pool boiling offers few\noptions for enhancement of heat transfer. Liquid velocity in\na flow channel enhances both single and two-phase convection\nand postpones critical heat flux (CHF) by sweeping away bubbles before they form an insulating vapor blanket. In pool\nboiling, however, the relatively weak liquid flow is induced\nonly by natural convection prior to the onset of boiling and,\nthereafter, by buoyancy and bubble motion. Unfortunately,\ninduced flow cannot be easily controlled, therefore, attempts\nat enhancing pool boiling performance are limited to variations\nof (1) fluid conditions, type of coolant, saturation pressure,\nand subcooling (Mudawar and Anderson, 1990); or (2) surface\nstructure, either on a microscopic scale (Messina and Park,\n1981; Anderson and Mudawar, 1989) or by a large increase of\nsurface area (Marto and Lepere, 1982; Nakayama et al., 1984;\nAnderson and Mudawar, 1990).\nThe planar nature of the electronic chip lends itself to the\nattachment of extended surfaces to increase surface area and,\ntherefore, the transfer rate from the chip. Several boiling fin\ndesign methods have been proposed in the past (Haley and\nWestwater, 1966; Cumo et al., 1968; Cash et al., 1971), but\nthe specific requirements for electronic cooling were first addressed by Nakayama et al. (1984). Using a cylindrical fin\nconstructed of stacked porous plates, they were able to dissipate over 110 W/cm2 (based on planform area) in FC-72.\nThe present study is intended as a general guide to the packaging engineer in designing boiling fins for electronic cooling.\nThis is achieved through adaptation of experimental nucleate\nboiling data measured for a flat chip and for low-profile microstructured chips in predicting boiling performance of smooth\nand microstructured extended surfaces, respectively. It is also\nthe objective of this paper to examine means of combining\nseveral levels of surface enhancement to boost CHF above the\nchip fluxes predicted for future very large scale integration\n(VLSI) chips.\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/89\nCopyright \u00a9 1993 by ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\n2\nExperimental Methods\nThe liquid encapsulated electronic cooling environment was\nsimulated inside a stainless steel pressure vessel. As shown in\nFig. 1, the vessel was fitted with three ports. A module housing\nthe simulated chip was inserted through one port, while the\nother two ports were fitted with quartz windows, providing\noptical access in directions parallel and normal to the chip\nsurface. The fluorocarbon liquid (FC-72 or FC-87) was pre-\nheated by an immersion heater submerged in the liquid, and\nprotection against heat loss to the ambient was achieved by a\nband heater which was wrapped around the vessel. A watercooled condenser, coiled in the upper section of the vessel,\nmaintained saturation conditions throughout the boiling tests.\nDuring subcooled tests, the vessel was completely filled with\nliquid and independent control of liquid temperature and pressure required connecting the vessel to an external pressurization/expansion tank.\nFigure 2 shows a sectional diagram of the test heater module.\nThe enhanced surfaces were built upon a 4.78 mm-thick base\nchip having a cross-sectional area of 12.7 x 12.7 mm2. The\nchip was soldered to the end of a high-purity copper bar which\nconducted heat from a cartridge heater to the chip. The chip\nheat flux was determined by a linear fit to temperatures measured by four thermocouples which were inserted along the axis\nof the bar. The average base temperature for the enhanced\nsurfaces was determined by extrapolating the temperature\nreading of a thermocouple embedded in the chip based on the\nmeasured thermal flux. Repeatability in the data was within\n\u00b10.05\u00b0C for heat fluxes smaller than 1 W/m2 and \u00b10.1\u00b0C\nfor higher fluxes. Further details on the calibration and accuracy of the heater measurements can be found in a previous\narticle by the authors (Anderson and Mudawar, 1989). The\nsame article details the procedure for obtaining boiling data.\nBecause temperature and heat flux measurements provide\nlittle insight into the growth, size and placement of active\nboiling patches on an enhanced surface, visual observation\nplayed a vital role in helping to understand boiling behavior.\nAn extensive photographic library was created to document\nspecific boiling events for later interpretation. High speed film\nand digital video cameras were also used to capture brief sequences of boiling, but the most useful information came from\nstill photography. Still photography was used in every boiling\nexperiment to capture the changing pattern of boiling with\nincreasing heat flux. A Nikon camera was used in conjunction\nwith a Vivitar 55 mm automacro lens and Vivitar 152 strobflash.\nQuartz Viewports\nmmersion\nHeater\n-.-\nBulk Fluid\nLiquid Line [\nTemperatun\nto Charging\nP r o b e\nVessel\nFig. 1\nLongitudinal and cross-sectional diagrams of the test chamber\nNomenclature\na =\nAb =\n-^chip\n~\nAe =\nA: =\nA, =\nA;\nA, =\nD =\nDb =\ng =\nkf =\nempirical constant\nbase area of cylindrical fin\nchip planform area (12.7 x\n12.7 mm2)\nplanform area of finned element on a chip\nAe/Ab\nheat transfer area of cylindrical fin\nAf/Ab\nratio of total heat transfer\narea of enhanced surface to\nchip planform area =\nAt/Achip\ntotal heat transfer area of\nenhanced surface\ndiameter of cylindrical fin\nbubble departure diameter\nacceleration due to gravity\nthermal conductivity of liquid\nL = length of cylindrical fin\nL+ = aspect ratio of cylindrical fin\n= L/D\n^chip = chip length and width (12.7\nmm)\nm = number of finned elements\non a chip\nn = empirical constant\nNuB = average Nusselt number for a\nhorizontal cylinder of diame-\n1D\nterZ) = -\n_\n(AD*/\nNu/ = average Nusselt number for a\nvertical plate of height\n(AT)kf\nPry = Prandtl number of liquid\nq = heat flux based on chip planform area ^4chiP\nqb = heat flux of reference (flat,\nmicrogroove or microstud)\nsurface based on planform\narea\nQf = total heat transfer rate from\ncylindrical fin\nq\u201e, = critical heat flux (CHF)\nbased on chip planform area\nV^chip)\n7m,f]at = critical heat flux from a vertical flat surface\n<?m = normalized CHF value for\nenhanced surface\n<7m,flat\nr - radial distance from axis of\ncylindrical fin\nRafl = Rayleigh number for a horizontal cylinder of diameter\nD_gj3AAT)D3\nVjUf\n90/Vol. 115, MARCH 1993\nTransactions of the ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nStainless Sleel Tube\nInsulolion\n(Perlite)\nInsulolion\nHeater Bar\n(G-7 Fiberglass)\n(Oxygen - Free Copper)\n..Therm\nSolder\n\u2022 Healer\ncouples\nLayer\nChip Altachment\n(Oxygen-Free Copper)\nAdapte r Plate\nG-IO Fiberglass)\nAir Gaps\nFig. 2 Sectional diagram of the test heater\nThe light source provided the required luminosity during short\nflash durations, resulting in a 1/3000 second exposure time.\n3\nNumerical Results\nPractical Design Considerations.\nThe design of finned surfaces for electronic chips must satisfy several stringent re-\nquirements. Of paramount importance are: (1) increasing\ncritical heat flux above the maximum expected chip heat flux,\n(2) maintaining chip temperature below an acceptable limit,\n(3) preventing the temperature excursion at incipient boiling\ncommonly encountered with low contact angle fluids, and (4)\nlimiting the accumulation of vapor on the chip surface in order\nto minimize the growth of a thick vapor bubble layer on multichip modules. Although extended surfaces can be expected\nto satisfy the requirement of increasing heat dissipation from\nthe chip, the choice of a fin geometry may promote many\nadverse effects, making requirements (2), (3), and (4) hard to\nachieve. Thus, increasing heat dissipation by finning must be\naccompanied by such important design changes as subcooling\nthe dielectric fluid or using a fluid with a boiling point much\nlower than the maximum acceptable chip temperature.\nPreventing the incipience excursion leaves very few acceptable geometries for fin design. Anderson and Mudawar (1989)\nexamined the feasibility of enhancing chip cooling performance\nby machining microstructures (rectangular microgrooves or\nsquare microstuds) into the surface. They reported a significant\nreduction in wall superheat and CHF enhancement by factors\nas high as 2.51 over a smooth surface; yet, these attractive\nresults were coupled with incipience temperature excursions as\nhigh as 14.3 \u00b0C. Mudawar and Anderson (1990) attempted to\nreduce the incipience excursion on a vertically mounted chip\nby the high thermal mass of a tapered (pyramid-shaped) fin\nwith microgrooves machined into its perimeter. Boiling was\nobserved to commence near the base. The inclined downward\nfacing side of the tapered fin allowed bubbles from the base\nto rapidly activate boiling on the entire surface, resulting in a\nnoticeable excursion in the base temperature. Thus, they suggested that enhanced electronic cooling surfaces be designed\nto spread nucleation in a gradual manner with increasing heat\nflux. They concluded that chip extended surface geometries\nshould be limited to horizontal, cylindrical shapes. The present\nstudy examines the cylindrical shape as a basic building block\nin the design of enhanced surfaces.\nNumerical Results for Fin Effectiveness.\nNumerical heat\nconducting codes were used to predict the effectiveness of\nsmooth horizontal cylindrical fins in saturated FC-72 and FC-\n87 having boiling points of 56\u00b0C and 30\u00b0C at one atmosphere,\nrespectively. Fin effectiveness solutions were generated for a\ncylindrical fin in FC-72 enhanced circumferentially by either\nmicrogrooves or microstuds. Various fin materials were examined to evaluate the influence of thermal conductivity on\nfin effectiveness. Copper, aluminum and brass, having conductivities of 391, 240 and 110 W/m-K, respectively, were the\nreference materials for the numerical study.\nThe sumulation of fin heat transfer during natural convection and nucleate boiling was simplified by assuming constant\nthermal conductivity, fluid temperature and base temperature,\nand by ignoring radiative heat transfer. The cylindrical fins\nwere assumed to experience axisymmetric heat transfer according to the equation\ndx2 + rdr\n= 0\n(1)\nwhere x is the distance from the base measured along to the\nfin axis and r emanates radially from the axis.\nThe calculation domain was divided into a uniform grid of\ncontrol volumes following the procedure suggested by Patankar (1980). Following Haley and Westwater (1966) and Nakayama et al. (1984), the local boiling heat transfer flux on\nthe fin surface at a distance x from the base was assumed equal\nNomenclature (cont.)\nRa,\nRayleigh number for a vertical plate of height\n/= g/3/(AT)/3\nAT\nATh\nT\n- T\nJ\nVV\n-* oo\nwall temperature drop at incipience\nAT, = = Twj - Ta (or TWgi - Tsat\nfor saturated boiling)\nATm = wall superheat at CHF\nATsat = wall superheat = Tw - rsat\nATmb = bulk liquid subcooling = Tsat\n- T\nTy, = mean temperature at the base\nof enhanced surface attachment\nT\u201ej = incipient boiling temperature\nat the base of enhanced surface\nT\u201e = bulk liquid temperature\n7^85\nX =\n\u00ab/\nechip\n85\u00b0C base temperature\ncharacterisitic fin width and\nfin clearance of microgrooves\nand microstuds = 0.305 mm\ndistance from the base of the\ncylindrical fin measured\nalong axis\nthermal diffusivity of liquid\nexpansion coefficient of liquid\nbubble departure diameter\nscaling factor\neffectiveness of finned element =\n[Q/+gb(Ae-Ab)]/\n[QbAe]\neffectiveness of cylindrical\nfin =-4\nQbAb\noverall effectiveness of enhanced surface\nVe =\nV/\n\\D =\nefficiency of finned element\n=\n\\Qf+qb(Ae-Ab)}/\n[gb(Af+Ae-Ab)]\nefficiency of cylindrical fin\nQiAf\nTaylor \"most dangerous\nwavelength\"\nr\ni\n~iU2\n[(Pf~Ps)gj\nTaylor wavelength\n1/2\nn\n=\n2TT\nvj = kinematic viscosity of liquid\nPf = density of liquid\npg = density of vapor\na = surface tension\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/91\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nLow - Profile\nMicrogroove Surface\nLow - Profile\nMicrostud Surface\n10\u00b0\nioJ\n10'\nr\nitf\n1\n'\n'\n1\nVertical Low-Profile\n~\nFlat\nMicrogroove\nMicrostud\n-\n.\n\u2022\n.Saturated FC-72\n\"\n^ \u00a3\n:\n/ /\n/ /\n!/\nIt 1\nll\nI\nH\n/\n// k\n'\u2022\nil\n1/\n11\n/\n' //\n\u2022'''W\n-''\n///\n/\n//\n''\n//\n/\nV\n/\n/\n/\nI . .1\n1\nReference\n,-'>\n/ /\n/ '\n/\n/Y\nI\n/\ny^C\n/ /\n/ /\n,\n1\nSurfaces\n-\n*\n/\n, '\n1\n/\n/ > . /\n/ \\\\\n\\\\\nif\n/'/\n-\n/ /\n/\n- 3 5 t Subcooled\nFC-72\n_\n-\n-\ni\n100\nI\n10\nAT (\u00b0C)\nFig. 3\nReference boiling curves used in the numerical effectiveness\nplots\nTable 1(a)\nPower law coefficients for the linearized smooth\nsurface boiling curve (saturated FC-72)\n<7(i<r\ng = a(Arsat)\"\n' W/m2), Arsa CO\nRegion\nArsat range\nI\nII\nIII\nIV\nV\n0.070305\n0.0042862\n6.20582 X10~6\n0.043817\n1.771535\n0.961112\n2.409421\n5.355373\n1.959946\n0.669954\n0.0-6.9\n6.9-9.2\n9.2-13.6\n13.6-17.6\n17.6-38.1\nTable 1(b)\nPower law coefficients for linearized smooth surface boiling curve (saturated FC-87)\nq = a(ATsat)\"\n<7(10-4W/m2), Arsa (\u00b0C)\nRegion\nArsat c o\ni\nII\nin\nIV\nV\n0.069711\n0.016067\n6.577022\n0.088282\n2.596540\n1.072335\n2.150660\n0.025611\n1.796897\n0.551379\n0.0-3.9\n3.9-6.5\n6.5-11.4\n11.4-15.1\n15.1-33.5\nTable 2(a)\nPower law coefficients for linearized low-profile\nmicrogroove reference surface boiling curve (saturated FC-72)\n4(10\na = a(ATSMf\n\"\" W/m2), ATsa CO\nRegion\nArsa, range\nI\nII\nIII\nIV\nV\nVI\n0.066036\n1.874859 XlO - 5\n0.067283\n0.181361\n5.080478\n3.045850\n1.147633\n6.166540\n1.960001\n1.579018\n0.484374\n0.627932\n0.0-5.1\n5.1-7.0\n7.0-13.5\n13.5-21.0\n21.0-35.3\n35.3-47.5\nTable 2(b)\nPower law coefficients for linearized low-profile\nmicrostud reference surface boiling curve (saturated FC-72)\nfl = a(Arsat)\"\n<7(10~4 W/m2), ATsat C O\nRegion\nATsat range\nI\nII\nIII\nIV\nV\nVI\n0.112661\n1.587379 xl0~ 4\n6.226659 x 10~3\n0.216195\n4.761849\n2.865880\n1.074969\n5.296950\n3.285856\n1.663139\n0.541072\n0.690070\n0.0-4.7\n4.7-6.2\n6.2-8.9\n8.9-15.8\n15.8-30.2\n30.2-45.6\nto that of an isothermal surface at the same temperature re-\ngardless of surface orientation. The specific relationships between the heat flux and surface superheat were obtained from\nmulti-segment linearized curve fits to data obtained for boiling\non a flat vapor-blasted surface, and low-profile microgroove\nand microstud reference surfaces, Fig. 3, measured previously\nby the authors (Anderson and Mudawar, 1989). Since the incipience temperature excursion is surface specific, and practically nonexistent with extended cylindrical surfaces (as shall\nbe demonstrated in the experimental results of the present\nstudy), the linearized boiling curves of the low-profile micro-\ngroove and microstud reference surfaces were adjusted in the\nincipience excursion region by a downward extrapolation of'\nthe linearized segment corresponding to nucleate boiling following incipience, to the point of intersection with the linearized fit to the natural convection data. Tables 1 and 2 give\nthe power law coefficients for the linearized boiling curve data\nin the form\n<? = \u00ab(A7;at)\"\n(2)\nwhere the power law coefficients a and n are valid only within\nthe temperature range specified. The upper limits on wall superheat values in Tables 1 and 2 correspond to the C H F point\nassociated with the individual reference surface.\nNatural convection is sensitive to both surface geometry and\norientation. To systematically model natural convection, the\nnon-boiling regions of the experimentally-determined, linearized boiling curves were replaced with appropriate information based on geometry-specific correlations. The natural\nconvection heat transfer from the perimeter of the cylinder\nwas calculated by the Churchill and Chu (1975a) correlation\nfor a horizontal cylinder,\nN u D =\n0.60 +\n0.387 Rajf\n[l + (0.559/Pr/)9/16]8/27\n(3)\nThe natural convection heat transfer coefficient for the circular\ntip was evaluated by dividing the tip area into thin vertical flat\nplates and integrating over the tip area. The heat transfer\ncoefficient for each flat plate of length / was determined by\nChurchill and Chu's (1975b) correlation\nNu,=\n0.825 +\n0.387 Ra,'\n[1 + ( 0 . 4 9 2 / P r /\n(4)\n92 /Vol. 115, MARCH 1993\nTransactions of the ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nCYLINDRICAL FIN in FC-72\nFig. 4(a)\nCYLINDRICAL FIN in FC-87\nFig. 4(b)\nFig. 4\nEffectiveness plots for heat transfer from a horizontal smoothsurfaced cylindrical fin to (a) saturated FC-72 and (b) saturated FC-87\nThe numerical results are presented in Figs. 4 and 5 as plots\nof fin effectiveness, ef, versus aspect ratio, L +, for a given\nsaturated fluid with fixed fin thermal conductivity and base\nsuperheat, Arsat. The fin effectiveness is defined as the total\nheat transfer rate from the fin, Qf, normalized by the heat\ntransfer rate from the reference flat or low-profile microfinned\nsurface, Fig. 3, having a planform area and temperature equal\nto those of the fin base.\n1\nQiAb\n(5)\nThe experimentally determined values of qb axe. given in Table\n3 for several fluid/surface combinations and four values of\nbase superheat. Fin efficiency, r//, which represents a measure\nof the reduced performance due to conduction resistance within\nthe fin is defined as\n_ Qf\nVf=^f\n(6)\nwhere Af is the total heat transfer area of the fin. Thus, effectiveness and efficiency are directly related by the ratio of\ntotal heat transfer area to base area,\n/ \u00a3 = ^ E\nMICROGROOVE-ENHANCED CYLINDRICAL FIN in FC-72\n^\nAspect Ralio, L\nFig. 5(a)\nMICROSTUD-ENHANCED CYLINDRICAL FIN in FC-72\nCopper\n^ = r\n.-\n^\n\u2022\n^\nz\n-.\n-\n-\nr\n.\n\u2022\n'\nAluminum\n~\n-^=zz:\nf\n- ^ = z r ^\n~\n7\n\" ~\n-.\nGrass\n*~~ =. ^^=~,\n\u2022\n^\n=\nr\n\u2022 -\n.\n<*Tsa,\n10\u00b0C\n20\u00b0C\n30\"C\nAO'C\nAspect Ratio,\nL*\nFig. 5(b)\nFig. 5\nEffectiveness plots for heat transfer to saturated FC-72 from a\nhorizontal cylindrical fin with (a) microgroove and (b) microstud enhancement\nFor a given thermal conductivity and base superheat, Figs.\n4 and 5 show effectiveness increases with aspect ratio to a peak\nvalue after which it remains constant or decreases. The maximum value of effectiveness is indicative of a trade-off between\nincreased surface area and increased conduction resistance.\nIncreasing fin diameter promotes peak effectiveness values at\nlower aspect ratios for a related reason. The tip of a large\ndiameter fin comprises a large fraction of total fin heat transfer\narea and, therefore, convects a large portion of the heat. This\nmoves the peak effectiveness point toward lower aspect ratios\ncompared with small diameter fins. Decreasing the thermal\nconductivity leads to decreased effectiveness for a fixed ge-\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/93\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nTable 3 Heat flux data for normalization of fin heat transfer\nrates\nHeat flux of reference surface based on planform\narea, g6(10\"4 W/m2)\nBase superheat\nArsat CQ\nFlat reference surface\n(FC-72)\nFlat reference surface\n(FC-87)\nLow-profile\nmicrogroove reference surface\n(FC-72)\nLow-profile\nmicrostud reference surface\n(FC-72)\n10\n1.41\n6.98\n6.14\n9.95\n20 \u2022\n13.18\n13.54\n20.56\n24.08\n30\n17.30\n16.94\n26.39\n29.99\n40\n-\n-\n30.88\n36.54\nometry and may even result in effectiveness values below unity.\nThis trend is clearly observed in Figs. 4 and 5 for large diameter\nfins with large aspect ratios. The high internal conduction\nresistances of these fins confine nucleate boiling to a very short\ndistance from the base, leaving most of the fin surface undergoing natural convection, a condition less favorable than a bare\nsurface undergoing boiling. Figures 4 and 5 demonstrate that,\nfor a specific fin material at high base temperature, the effectiveness curves for various diameters initially follow a common path, while at low base superheat the curves diverge at\nrelatively low aspect ratios.\nElemental Approach to Determining Enhanced Surface Performance.\nAn elemental approach was employed in the calculation of effectiveness for the enhanced surfaces. Elements\nof surface area, Ae, were defined as identical sections of the\nflat surface of a chip to which a cylindrical (pin) fin is attached.\nSuperposition of the heat transfer rate from a fin and the\nsurrounding bare surface of an element was based on the assumption that the heat flux/wall superheat characteristics of\nthe bare surface are insensitive to the presence of the fin. The\nprimary advantage of this elemental approach is the ease of\nextension to computing the effectiveness of an entire chip covered with multiple fins. The surface was assumed to be covered\nwith elements of identical effectiveness. One obvious limitation\nto this assumption is the complexity of natural convection over\nmulti-finned surfaces and the lack of uniformity in the convection coefficient between the various elements. However,\nnumerical results demonstrate that variations in the magnitude\nof the natural convection coefficient have a weak influence on\nthe heat transfer rate from fins undergoing mostly nucleate\nboiling. Another limitation of the elemental analysis is the\npotential thickening of a vapor bubble layer on multi-finned\nsurfaces. This problem is addressed in detail in conjunction\nwith the experimental results of this study.\nKnowing the effectiveness of the fin itself, the effectiveness\nand efficiency of a finned element of axt&Ae can be determined\nfrom the relations\nee=l + At\nA;+A;-I\nA;\n1 + - J -\n(8)\n(9)\nAt-\\\nwhere A+\ne =Ae/Ab.\nFor chips covered with m identical elements, the overall chip\neffectiveness is determined by the area-weighted average\n1\n'\"\nThe proper layout and sizing of elements on a chip surface\nSHORT SMOOTH STUD\nLONG SMOOTH STUD\n4 PIN SURFACE\n9 PIN SURFACE\nFig. 6 Geometries of smooth studs and pin fin arrays\nis limited by the possibility of severe vapor coalescence and\naccumulation between the fins, which may promote the formation of a vapor blanket and result in CHF. Because the\ncritical spacing between fins is related to the generation of\nvapor bubbles, it is proposed that the spacing be related to the\nbubble departure diameter, Db, by a scaling factor 7. Bondurant and Westwater (1971) tested radially finned horizontal\ntubes boiling in R-113 and found that the critical clearance\nbetween fins was in the range of the nucleate boiling departure\ndiameter. Further experiments by Klein and Westwater (1971)\nusing a nine pin array confirmed that a bubble departure diameter was the optimal spacing for fin arrays. Based on these\nfindings, the scaling factor, 7, was set equal to one for the\ndesign of enhanced boiling surfaces used in the present study.\nPhotographs obtained in the present study indicated the average Db value for saturated boiling of FC-72 and FC-87 was\napproximately 0.61 mm. Accordingly, the diameter of pin fins\narranged in an m x m array on a square chip of length Z,chiP\nwas determined as\nD\n^chip ~ rn Dj,\nm\n(11)\n4\nExperimental Results\nThe numerical codes used to generate the effectiveness plots\nwere modified to output boiling curves based on the geometries\nof several enhanced surface structures used in the experimental\nstudy. The numerical predictions estimate boiling performance\nup to the CHF point corresponding to the flat, microgroove\nor microstud reference surfaces. The generalized nature of the\nnumerical scheme allows much flexibility in the specification\nof design envelope. For the present study, various metallic\nattachments were designed to enhance heat transfer from a\n12.7 x 12.7 mm2 simulated microelectronic heat source.\n4.1 Pin-Fin Surface Geometries. The experimental enhancement surfaces were based on cylindrical shapes fabricated\nfrom high purity copper and arranged either as single studs or\nin pin arrays. Each of the enhanced surfaces was vapor blasted\nwith an air/water/silica slurry to ensure uniform surface characteristics (Anderson and Mudawar, 1989). The two smooth\nstud enhanced surfaces, Fig. 6, differed only in length. The\n94/Vol. 115, MARCH 1993\nTransactions of the ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nTable 4\nRatio of total heat transfer area to planform base\narea for the enhanced surfaces of the present study\n(alPlanform area of chip A'h;p = 1.61 em'.\n(blAt included the heat transfer area of the extended surface plus the unfinned\nchip base area.\nq = 28.6 Wlcm2\nFig. 7\nDevelopment of boiling pattern on the long smooth stud In sat.\nurated Fe.87 with increasing heat flux\nq = 105.8 W/cm2 (Following CHF)\nwas very vigorous and bubble coalescence into large vapor jets\nand columns was very noticeable. Isolated nucleate boiling was\nconfined to regions near to or on the tip. Transition to film\nboiling occurred at qm= 105.8 W/cm2\u2022 The stud tip and perimeter were fully encased in a fairly smooth vapor layer which\naccumulated vapor at the upper surface of stud. The vapor\nwas released from the crests of five vapor waves having a mean\nwavelength of 8.0 mm compared to a predicted Taylor's \"most\ndangerous wavelength\" in FC-87 of AD=7.87 mm.\nFigure 8 shows side and end views of boiling on the 4-pin\nsurface in saturated FC-87. As in the case of boiling from a\nsingle cylindrical stud, nucleation was initiated near the base\nof the pins. At fluxes slightly above incipience, the nucleation\nfront moved toward the pin tips, totally engulfing the upper\npins, while the lower pins were partially undergoing natural\nconvection. However, a slight increase in heat flux to approximately 6 percent of CHF activated nucleation over the\nentire surface. This would indicate that numerical models of\nboiling heat transfer from a pin fin array based on identical\nheat transfer performances of individual pins would be less\nsuccessful for heat fluxes close to incipience. When the heat\nflux was increased to the CHF value of 89.8 W/ cm2, a single\ncontinuous vapor blanket engulfed the enhanced surface, al-\n1.00\n2.26\n2.39\n4.96\n10.89\n6.15\n5.62\n6.95\n7.65\n9.14\nArea ratio(b)\n+\nAt\nA r =--\nA chip\n1.61\n3.54\n3.85\n8.00\n17.57\n9.92\n9.06\n11.21\n12.34\n14.74\nTotal heat transfer\nsurface area(a)\nAt (cm2)\nFlat (reference)\nLow profile microgroove\n(reference)\nLow profile microstud\n(reference)\nShort smooth stud\nLong smooth stud\n4 pin\n9 pin\nAxial microgroove stud\nRadial microgroove stud\nMicrostud stud\nEnhanced surface\nGeometry\n16 mm \"short\" smooth stud conformed to typical packaging\nlimitations, while the 40 mm long smooth stud was tested for\nphotographic analysis of the interactions of multiple modes\nof heat transfer on a horizontal cylinder.\nThe 4-pin and 9-pin surfaces, Fig. 6, provided information\non the performances of pin fin arrays. The spacing between\nthe pins was set at one bubble departure diameter and the\nlength-to-diameter aspect ratio was set at 2 to enforce practical\nspatial packaging requirements of multichip modules. The 4\nand 9-pin structures were fabricated from a single bar of oxygen-free copper by electric-discharge machining (EDM) to\nalleviate the contact resistance that accompanies soldered assembly. Table 4 details the actual heat transfer areas and the\nratios of total surface to chip base areas for each of the enhanced chip attachments.\nThe enhancement of boiling by extended surfaces can be\nmeasured in different forms as discussed in the previous section. To a packaging engineer charged with dissipating the\nmaximum possible heat rate from an electronic device of fixed\ndimensions while maintaining the desired device temperature,\nthe most meaningful measure of heat flux is total heat transfer\nrate divided by the surface area of the device; heat flux based\non the total wetted area of the enhanced surface attachment\nis of little importance in this situation provided the enhancement meets the volumetric constraints in the packaging of\nmulti-module electronic hardware. For this reason, unless specified otherwise, the boiling curves presented hereafter have\nbeen based on heat dissipation rate per unit chip planform\narea, 12.7 x 12.7 mm2, and mean temperature at the base of\nthe enhanced surface attachment, Tw\u2022\nFlow Visualization ofBoiling on Pin-Fin Surfaces.\nSeveral\nexperiments were performed with the long, smooth stud to\nphotograph the evolution of boiling pattern with increased heat\nflux. Figure 7 shows side and end views of the stud in saturated\nFC-87. One distinct feature of boiling behavior at heat fluxes\nslightly above incipience is the concentration of active nucleation sites near the upper side of the stud. This observation\nillustrates one weakness with axisymmetric numerical models\nfor boiling on cylindrical fins. As heat flux was increased, the\nnucleation front advanced toward the tip with more circumferential boiling uniformity except for a narrow region close\nto the nucleation front. Close-up end-view examination of the\nsurface showed the bubbles emanating normal to the stud\nsurface with a uniform bubble departure diameter independent\nof circumferential location. However, this phenomenon was\nvisually obscured by the buoyancy forces pulling the bubbles\ntoward the upper surface ofthe stud. As heat flux was increased\nto only 27 percent of CHF, nucleation covered the entire perimeter except for the tip, which was partially undergoing\nnatural convection in liquid. Boiling near the base of the stud\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/95\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\n100\n1a' LL~~~-'--L~L-~~---'---'--L.LLLL---.J\n1\n10\n5\nr---\nN\nE\n,i\n0-\n10\n4\no\nLong Stud\n6T j\"\"B.2\u00b0C\nCHF\",105.8x104 W/m 2\no\nShort Stud\ndTj=5.2\u00b0C\nCHF\"\" 81.8x104 W/m 2\n-\nShort Stud Numerical Solution\nSmooth Studs\nFC-B7\nCHF\n_______\nIncipience ..\nTss \\7\nFig. 9\nBoiling curves for the long and short smooth studs In saturated\nFC.87\nq =29 W cm2\nq = 0.35 W/cm\n2\nq = 89.8 W/cm2 (Jus! Before CHF)\nq = 89.8 W/cm2 (Following CHF)\nFig. 8\nDevelopment of boiling pattern on the 4.pln surface In saturated\nFC.87 with increasing heat flux\nlowing a periodic release of vapor in discrete volumes. The\nformation of a thin continuous vapor blanket on the perimeter\nand tip regions of the pins signaled transition to film boiling.\nSaturated Boiling on Pin-Fin Surfaces.\nFigure 9 shows FC-\n87 boiling data for the long and short smooth studs displayed\nin Fig. 6. The slope of the natural convection line is greater\nthan the predicted slope for a horizontal cylinder. End effects\ncaused by the presence of the heat source module at the stud\nbase may account for this discrepancy. In the nucleate boiling\nregion the numerical solution fits the experimental data closely.\nThis result lends credibility to the modeling assumption that\nlocalized boiling heat transfer from a non-isothermal surface\nis similar to that from an isothermal surface at the same temperature regardless of surface orientation. However, it should\nbe emphasized that the numerical study was not specifically\naimed at predicting CHF since the hydrodynamic conditions\nassociated with CHF on a cylinder differ markedly from those\non a vertical flat surface. Although the upper heat flux limit\nfor the numerically-determined boiling curve corresponds to\nlocal enhanced surface conditions identical to those of a flat\nsurface at CHF, the upper limit should merely be treated as\nsignaling a tendency of the surface to promote local vapor\nblanketing.\nAlthough the long stud had over twice the surface area of\nthe short stud, Fig. 9 shows CHF for the long stud was only\n30 percent higher. Based on photographic analysis of the boiling stud, it can be concluded that the modest enhancement is\na result of local dryout near the base of the fin. As the base\nheat flux and superheat rose to a point great enough to sustain\na small but stable vapor blanket, the insulating effect of the\nblanket introduced additional conduction resistance between\nthe fin base and the now decreased nucleate boiling heat transfer area. Thus, the base superheat increased in response to the\ncombined effects of increased internal conduction resistance\nand decreased heat transfer area. Further increase in base heat\nflux pushed the fin heat transfer equilibrium toward a condition where the vapor blanket area increased unrestrained and\ncaused CHF.\nThe validity of superposition of cylindrical fin elements was\ntested using the 4 and 9-pin surfaces shown in Fig. 6. Experimental data in the nucleate boiling region for the 4-pin surface,\nFig. lO(a), are closely predicted by the numerical model based\non superposition of four identical elements, each carrying a\nsmooth stud. The 9-pin surface, Fig. lO(b), apparently experienced more pin-to-pin interference than the 4-pin array since\nthe 9-pin data is shifted by approximately 2.5\u00b0C to the left of\nthe predicted curve. Nevertheless, the agreement is still acceptable for electronic packaging purposes.\n4.2\nMulti-Level Surface Enhancement.\nThe surface enhancement results of the pin-fin surfaces reported in this paper\nas well as those of the low-profile microgroove and microstud\nsurfaces and of other flat, textured surfaces (Anderson and\nMudawar, 1989) all point to the potential for significant enhancement of boiling performance which can result from combining the various augmentation geometries into a single chip\nsurface attachment. Figure 11 shows three surface attachments\nwhose geometries were based upon three levels of enhancement: (1) a single extended cylindrical stud, (2) low profile\nmicrostructures machined into the stud perimeter, and (3) microscopic surface characteristics achieved by blasting the surface with an air/water/silica slurry prior to testing. The axial\nand radial microgroove enhanced studs were constructed by\ngrooving a smooth stud along the axial and radial directions,\nrespectively. The microstud-enhanced stud consisted of a microstud geometry machined into the smooth stud. The surface\nmicrostructures shown in Fig. 11 are identical to those of the\nlow-profile reference surfaces (see Fig. 3). Figure 11 also shows\nvarious length scales associated with the microstructured stud\nattachments. The microscopic characteristics resulting from\nvapor blasting influence the incipience and low nucleation den-\n96/ Vol. 115, MARCH 1993\nTransactions of the ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\n10e\n10a\n10J\n4-Pin Surface ' FC-72\nO AT\u201e.62.B\u00b0C\nCHF.102.3X10\" W/m8\nNumerical Solution\n10\n100\nATsat (\u00b0C)\nFig. 10(a)\nSTUD\nCORE\n4rrC\n\\/ \"*\nvAJ tv^j\n.KW\n^\u2022isog\nX\"3os\n-3s3\nAXIAL\nMICROGROOVE\nRADIAL MICROGROOVE\nMICROSTUD\n106\nio4\n9-Pin Surface\nFC-72\nIncipience\nT \u201e V\nO\nATj=5.5\u00b0C\nCHF=83.8x10'1 W/m2\nNumerical Solution\n10\nATSQt (\u00b0C)\nFig. 10(b)\n100\nFig. 10\nBoiling curves for the (a) 4-pin and (b) 9-pin surfaces in saturated\nFC-72\nsity regions of the boiling curve (Anderson and Mudawar,\n1989). The machined microstructures, on the other hand, act\nas active nucleation sites during more developed boiling since\nthe characteristic fin and gap widths for these microstructures\nare smaller than a typical bubble departure diameter. The\ndiameter of the studs was roughly two times greater than the\nTaylor wavelength, \\T (5.87 mm for FC-72) and approximately equal to the Taylor \"most dangerous\" wavelength\nXfl( = VlXr) associated with CHF. Therefore, it was expected\nthat CHF would be accompanied by the formation of a single\nvapor blanket in the cross-wise plane of these fins.\nData for the microgroove-enhanced surfaces in saturated\nFC-72 are shown in Fig. 12(a). In the natural convection region,\nTypical diameter of\nvapor blasted cavny\nDiameter of\nentranced studs\nlogarithmic\nlength (mm)\nTypical\nbubble\ndeparture\ndiameter\nTaylor\nWavelengiri\nFig. 11\nGeometries of the enhanced stud surface and associated characteristic length scales\nthe axially-grooved stud turbulated the induced liquid flow\nmore effectively than the radially-grooved stud as evidenced\nby the higher natural convection heat transfer rate for the\naxially-grooved stud. Numerically, the distinction between the\ndirection of the grooves is not taken into consideration; hence,\nthe predicted boiling curves are equivalent for both structures,\nbased on the low-profile microgroove data provided in Fig. 3\nand Table 2(a). Figure 12(b) shows a slight discrepancy between\nnumerical predictions and experimental data for the microstudenhanced stud based on the reference low-profile microstud\ndata given in Fig. 3 and Table 2{b), especially in the low heat\nflux region. This surface achieved a CHF value of 105.4\nW/cm2 in saturated FC-72, the highest of all the enhanced\nsurface geometries.\nExperiments were performed to combine the attractive features of subcooled boiling with the high CHF values of the\nenhanced-stud surfaces. Comparisons of saturated and sub-\ncooled boiling curves for the low profile microstud reference\nsurface, Fig. 3, and microstud-enhanced stud, Fig. 11, are\nshown in Figs. 13(a) and 13(b), respectively. Figure 13(c) shows\nhow subcooling eliminated the incipience excursion associated\nwith saturated boiling on the reference microstud surface and\nincreased CHF by 42 percent. The numerical results for sub-\ncooled boiling show good agreement with the microstud-enhanced stud, Fig. 13(b), like it did for saturated boiling. The\nsame surface produced the highest heat flux in the present\nstudy with subcooled boiling. The 159.3 W/cm2 heat dissipation capability of this surface suggests pool boiling is a viable\nalternative for cooling even very high power electronic chips.\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/97\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nm6\n105\n104\n1 n 3\n>\u2022\n\u2022 i\ni\ni\ni\n1 1 1 1\ni\nMicrogroove-Enhanced Stud\nFC-72\n- CHF\nmr^Y\nIncipience - ^\nr-u^\n7\na[\n7\na\n\u00b0/b-*\n^//\nO\nAxial grooves\nATI=3.6\u00b0C\n<Cf/\nCHF=92.8x104 W/m2\n/\nD Radial grooves AT,=4.4\u00b0C\n/\nCHF=82.6x104 W/m2 .\n/\nNumerical Solution\n/\n106\n104r\n103\nMicrostud SL\n7\n\u2022\nCHF\n. \\,<>\n.\n-\n'\n-\n:\n-\n-\n-\n-\n-\n<\u2022\nrface\nFC-72\n/\n/\n/\n/\n/\n/\n/\nI\nP\n<7\n/P\n/ 6\n/ /\n/\nn\nAT,Ub= \u00b0 \u00b0 c\nCHF-51\nATsub-35\u00b0C\nAT,\n\u00a3>\n^\nff\n/P\ni - C *\n= 15.2\u00b0C\n1x10' W/m2\nAT, -41.8\u00b0C\nCHF.72.4x10'1 W/m2\n1 1\n~\nV\n-\n\u201e\n-\n-\n-\n-\n-\n-\n:\n-\n-\nATn.8\u00b0C \"\n.1\n10\n100\nAT sat\n\u00b0c)\nFig. 12(a)\n10\nAT(\u00b0C)\nFig. 13(a)\n100\n1\n1-i-i-r-n-n\n1\n1 - i - i - r\nMicrostud-Enhanced Stud\nFC-72\nCHF\n\u00bb\nIncipience -41\nO\nAT,-5.8\u00b0C\nCHF.105.4x10< W/m2\nNumerical Solution\nj_l_\n10e\n105\nto4\n10J\n1\n10\n100\nATSQt (\u00b0C)\nFig. 12(b)\nFig. 12\nBoiling curves for the (a) axially and radially grooved enhanced\nstud and (b) microstud-enhanced stud in saturated FC-72\n1\n'\n'\n1\n1\nMicrostud-Enhanced Stud\nFC-72\n, / # h * '\n:\n- CHF\nB-\n\" Incipience\n^\n- T,s\u00ab\n'\n\"\n\u2022\n-\n-\n_\n'\n-\n-\n/\n/\n/\n/\n/\n/\n1 P\n/ p\n/A\n/ //\n-\n//7\n/\n-\no\n/to\n:\n/ D\n/\nR\n/\nK>\nD\n]&\u2022+\nfP\n~-\nJp\nP\n-\n_\n-\nNumerical Solution\ntor ATsub = 35\"C\nATsub = 0'C\nAT . 5 . 8 C\n.\nCHF= 105.4x10-' W/m2\nAT,\u201e\u201e . 35'C AT = 44.8 C\nCHF= 159.3x10' W/m2\n10J\n1\n10\n100\nAT(\u00b0C)\nFig. 13(6)\nFig. 13\nEffect of subcooling on the boiling curves for (a) the low-profile\nmicrostud reference surface and (b) microstud-enhanced stud in FC-72\nFigure 14 shows a comparison of boiling behavior from the\nmicrostud-enhanced stud in saturated FC-72 and 35 \u00b0C sub-\ncooled FC-72. Saturated boiling followed the general trend of\nboiling from a horizontal cylindrical surface. Nucleation commenced near the base with bubble departure diameters greater\nthan the 0.305 mm microstud gap. Full activation of nucleate\nboiling over the entire perimeter and portions of the tip occurred at only 10.4 percent of CHF. Fully-developed boiling\nwith severe vapor effusion was observed at approximately 46.5\npercent of CHF. Following CHF, a thin vapor film formed\non the perimeter and tip regions, and vapor was released at\nthe upper surface of the stud from one or two jets. Subcooled\ntests, Fig. 14, showed very noticeable differences in boiling\nbehavior compared with saturated boiling. First, the bubbles\nwere much smaller and emerged from within the microstud\ngaps. Second, most of the bubbles condensed in the subcooled\npool just after departing the enhanced surface. Even during\nfully-developed boiling (# = 28.6 W/cm2), the large mass of\nvapor was almost totally condensed over a vertical distance\nequivalent to the stud diameter. Condensation at the vapor-\n98/Vol. 115, MARCH 1993\nTransactions of the AS ME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\n2.0\n1.5\nFlal Surface\n1.0\n0.5\n.6.\nSmooth Stud (Long)\nI\nD \u00b0 Microstud-EnhancOO Stud\nI\no\nRadial Mk:'?9roove-Enhanc&d Stud\no\nAxial Microgroove..Enhanced Stud\nA \u00b0 4.Pin Surface\no 0\n9..Pi:' Surface\nA\nSmdoth Stud (Short)\nso\n0\nMlcrostud\nMicrogroove\n~\nO'--~_...l-_~---l-~--'---~-J\n0.0\n5\n151~--r-~-r;:=:::::::==:;1\nID\nO\nA\nSaturated FC.72\n1\nSubcooled Fe-72\nSaturated FC-87\n10\n+A,\n+\nqm\nFig. 15\nCHF fin effectiveness for all the enhanced surfaces of the\npresent study\nSummary\nThe present study involved an examination of several surface\ngeometries for the purpose of enhancing heat transfer from\nhigh power electronic chips. Specific results from the study\nare as follows:\n1. The heat transfer performances of horizontal boiling cylindrical fins can be successfully predicted using two-dimensional axisymmetric heat diffusion models. The assumption\nthat localized boiling heat transfer from an extended surface\nis similar to that from an isothermal surface at the same temperature, regardless of surface orientation, was proven effective in predicting boiling performance, except for low post-\nincipience heat fluxes.\n2. The elemental analysis based on extending single fin numerical results to fin arrays was successful in predicting boiling\ncurves for 4-pin and 9-pin enhanced surfaces. This approach\nconstitutes a practical tool in the design of enhanced surfaces\nfor multichip modules.\n3. Combining different levels of enhancement is an effective\nmeans of improving chip heat dissipation rate. An optimum\nenhanced surface was constructed from a single extended cylindrical stud with microstructures machined into the stud perimeter, followed by blasting the surface with an air/water/\nsilica slurry.\n4. Subcooling is very effective in enhancing boiling performance and increasing CHF. Subcooling may be necessary\nfor controlling bubble boundary layer growth on high power\nmultichip modules.\n5. The combined use of extended surfaces and subcooling\nis a viable alternative for cooling very high power electronic\nchips. Microstructured extended surfaces resulted in chip heat\nfluxes (based on planform area) of 105.4 and 159.3 W/cm2 in\nsaturated and 35 DC subcooled FC-n, respectively.\nAcknowledgment\n. Support for this research by the IBM corporation is gratefully acknowledged. The authors also appreciate receiving FC-\nnand FC-87 fluid samples from the Industrial Chemical Products Division of 3M.\nReferences\nAnderson, T. M., and Mudawar, I., 1989, \"Microelectronic Cooling by Enhanced Pool Boiling of a Dielectric Fluorocarbon Liquid,\" ASME Journal of\nHeat Transfer, Vol. 11, pp. 752-759.\nBondurant, D. L., and Westwater, J. W., 1971, \"Performance of Transverse\nq =29.0 W/cm2\nq =12 3 W/cm2\nq =83.5 W/cm2\nq = 159.3 W/cm2\n(Following CHF)\n35t SUBCOOLED FC-72\nq = 19 W/cm2\nq =11.0 W/cm2\nq =490 W/cm2\nq =1054 W/cm2\n(Following CHF)\nSATURATED FC-72\nliquid interface of the vapor layer surrounding the enhanced\nsurface during film boiling also reduced the amount of vapor\nconsiderably, and vapor was released from the stud in relatively\nsmall bubbles which diminished in size following departure\ninto the subcooled liquid.\nVery important practical conclusions may be drawn from\nthese subcooled boiling experiments. First, subcooling significantly enhances boiling performance and increases CHF. Subcooling may be essential in controlling bubble boundary layer\ngrowth on high power multichip modules.\n4.3\nCHF Results.\nFigure 15 shows a compilation of CHF\ndata normalized with respect to CHF for a vertical flat surface\n(20.3 W/cm2) for all the surfaces examined in the present study.\nEach surface is represented by its value of A~, the ratio of\ntotal surface area to planform base area provided in Table 4.\nThe dimensionless CHF shown in Fig. 15 is a measure of\n\"CHF fin efficiency\" since\nq,~ = q,,,Achip =~ (A:) -t\n(12)\nqm,flatAt\nqm,flat\nThe normalized CHF value q;n = 1 corresponds to surfaces\nwhose CHF enhancement over a flat surface is balanced by\nthe increased conduction resistance Within the extended surface. The conduction resistance raises the base temperature,\npromoting the formation of a localized vapor blanket in that\nregion. Only the flat microstud surface effectively delayed CHF\nsince it increased surface area considerably with only a mild\nincrease in fin volume compared with the pin fin and enhanced\nstud surfaces.\nFig. 14\nComparison of the development of boiling pattern on the mi.\ncrostud.enhanced stud in saturated and subcooled FC.72\nJournal of Electronic Packaging\nMARCH 1993, Vol. 115/99\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm\nFins for Boiling Heat Transfer,\" Chem. Eng. Prog. Symp. Series, Vol. 113,\npp. 30-37.\nCash, D. R., Klein, G. J., and Westwater, J. W., 1971, \"Approximate Optimum Fin Design for Boiling Heat Transfer,\" ASME Journal of Heal Transfer,\nVol. 93, pp. 19-24.\nChurchill, S. W., and Chu, H. H. S., 1975a, \"Correlating Equations for\nLaminar and Turbulent Free Convection from a Horizontal Cylinder,\" Int. J.\nHeat Mass Transfer, Vol. 18, pp. 1049-1053.\nChurchill, S. W., and Chu, H. H. S., 1975b, \"Correlating Equations for\nLaminar and Turbulent Free Convection from a Vertical Plate,\" Int. J. Heat\nMass Transfer, Vol. 18, pp. 1323-1329.\nCumo, M., Lopez, S., and Pinchera, G. C , 1966, \"Numerical Calculations\nof Extended Surface Efficiency,\" Chem. Eng. Prog. Symp. Series, Vol. 59, pp.\n225-233.\nDanielson, R. D., Krajewski.N., andBrost, J., 1986, \"Cooling of a Superfast\nComputer,\" Electronic Packaging and Production, Vol. 26, pp. 44-45.\nGrimley, T. G., Mudawar, L, and Incropera, F. P., 1988, \"Limits to Critical\nHeat Flux Enhancement in a Liquid Film Falling over a Structured Surface\nwhich Simulates a Microelectronic Chip,\" ASME Journal of Heat Transfer,\nVol. 110, pp. 535-538.\nHaley, K. W., and Westwater, J. W., 1966, \"Boiling Heat Transfer from\nSingle Fins,\" Proceedings 3rd International Heat Transfer Conference, Chicago,\nIllinois, Vol. 3, pp. 245-258.\nKlein, G. J., and Westwater, J. W., 1971, \"Heat Transfer from Multiple\nSpines to Boiling Liquids,\" AIChE J., Vol. 17, pp. 1050-1056.\nMaddox, D. E., and Mudawar, L, 1989, \"Single and Two-Phase Convective\nHeat Transfer from Smooth and Enhanced Microelectronic Heat Sources in a\nRectangular Channel,\" ASME Journal of Heat Transfer, Vol. Ill, pp. 1045-\n1052.\nMarto, P. J., and Lepere, V. J., 1982, \"Pool Boiling Heat Transfer from\nEnhanced Surfaces to Dielectric Fluids,\" ASME Journal of Heat Transfer, Vol.\n104, pp. 292-299.\nMcGillis, W. R., Carey, V. P., and Strom, B. D., 1991, \"Geometry Effects\non Critical Heat Flux for Subcooled Convective Boiling from an Array of Heated\nElements,\" ASME Journal of Heat Transfer, Vol. 113, pp. 463-471.\nMessina, A. D., and Park, E. L., 1981, \"Effects of Precise Arrays of Pits\non Nucleate Boiling,\" Int. J. Heat Mass Transfer, Vol. 24, pp. 141-145.\nMudawar, I., and Anderson, T. M., 1990, \"Parametric Investigation into the\nEffects of Pressure, Subcooling, Surface Augmentation and Choice Coolant on\nPool Boiling in the Design of Cooling Systems for High Power Density Chips,\"\nASME Journal of Electronic Packaging, Vol. 112, pp. 375-382.\nMudawar, I., Incropera, T. A., and Incropera, F. P., 1987, \"Microelectronic\nCooling by Fluorocarbon Liquid Films,\" Proc. Int. Symp. on Cooling Technology for Electronic Equipment, Honolulu, March, pp. 340-357.\nMudawar, I., and Maddox, D. E., 1989, \"Critical Heat Flux in Subcooled\nFlow Boiling of Fluorocarbon Liquid on a Simulated Electronic Chip in a Vertical\nRectangular Channel,\" Int. J. Heat Mass Transfer, Vol. 32, pp. 379-394.\nNakayama, W., Nakajima, T., and Hirasawa, S., 1984, \"Heat Sink Studs\nHaving Enhanced Boiling Surfaces for Cooling of Microelectronic Components,\" ASME Paper 84-WA/HT-89.\nPatankar, S. V., 1980, Numerical Heat Transfer and Fluid Flow, Hemisphere\nPublishing Corp., New York.\nRamadhyani, S., and Incropera, F. P., 1987, \"Forced Convection Cooling\nof Discrete Heat Sources with and without Surface Enhancement,\" Proc. Int.\nSymp. on Cooling Technology for Electronic Equipment, Honolulu, Mar., pp.\n249-264.\nSamant, K. R., and Simon, T. W., 1986, \"Heat Transfer from a Small, High-\nHeat-Flux Patch to a Subcooled Turbulent Flow,\" ASME Paper 86-HT-22.\nTuckerman, D. B., and Pease, R. F., 1981, \"High-Performance Heat Sinking\nfor VLSI,\" IEEE Electronic Device Letters, Vol. 2, pp. 126-129.\nIf you are planning\nTo Move, Please\nNotify The\nASME-Order Dep't\n22 Law Drive\nP.O. Box 2300\nFairfield, NJ 07007-2300\nDon't Wait!\nDon't Miss An Issue!\nAllow Ample Time To\nEffect Change.\nChange of Address Form for the Journal of Electronic Packaging\nPresent Address - Affix Label or Copy Information from Label\nPrint New Address Below\nName\nAttention.\nAddress _\nCity\n. State or Country.\n.Zip.\n100/Vol. 115, MARCH 1993\nTransactions of the ASME\nDownloaded 29 Jul 2010 to 128.211.163.127. Redistribution subject to ASME license or copyright; see http://www.asme.org/terms/Terms_Use.cfm",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5348
+    },
+    {
+      "number": 2,
+      "start": 5348,
+      "end": 9708
+    },
+    {
+      "number": 3,
+      "start": 9708,
+      "end": 15237
+    },
+    {
+      "number": 4,
+      "start": 15237,
+      "end": 19429
+    },
+    {
+      "number": 5,
+      "start": 19429,
+      "end": 21952
+    },
+    {
+      "number": 6,
+      "start": 21952,
+      "end": 27303
+    },
+    {
+      "number": 7,
+      "start": 27303,
+      "end": 32650
+    },
+    {
+      "number": 8,
+      "start": 32650,
+      "end": 37544
+    },
+    {
+      "number": 9,
+      "start": 37544,
+      "end": 40888
+    },
+    {
+      "number": 10,
+      "start": 40888,
+      "end": 43640
+    },
+    {
+      "number": 11,
+      "start": 43640,
+      "end": 48279
+    },
+    {
+      "number": 12,
+      "start": 48279,
+      "end": 52599
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-I",
+      "number": "I",
+      "title": "Mudawar",
+      "level": 2,
+      "start": 0,
+      "end": 44
+    },
+    {
+      "id": "sec-1-t-m-anderson1",
+      "number": null,
+      "title": "T. M. Anderson1",
+      "level": 2,
+      "start": 44,
+      "end": 177
+    },
+    {
+      "id": "sec-2-optimization-of-enhanced-surfaces",
+      "number": null,
+      "title": "Optimization of Enhanced Surfaces",
+      "level": 1,
+      "start": 177,
+      "end": 246
+    },
+    {
+      "id": "sec-3-b",
+      "number": null,
+      "title": "B",
+      "level": 1,
+      "start": 246,
+      "end": 1049
+    },
+    {
+      "id": "sec-4-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 2,
+      "start": 1049,
+      "end": 5127
+    },
+    {
+      "id": "sec-5-journal-of-electronic-packaging",
+      "number": null,
+      "title": "Journal of Electronic Packaging",
+      "level": 2,
+      "start": 5127,
+      "end": 5159
+    },
+    {
+      "id": "sec-6-march-1993-vol-115-89",
+      "number": null,
+      "title": "MARCH 1993, Vol. 115/89",
+      "level": 2,
+      "start": 5159,
+      "end": 5183
+    },
+    {
+      "id": "sec-7-copyright-1993-by-asme",
+      "number": null,
+      "title": "Copyright \u00a9 1993 by ASME",
+      "level": 2,
+      "start": 5183,
+      "end": 5350
+    },
+    {
+      "id": "sec-8-experimental-methods",
+      "number": null,
+      "title": "Experimental Methods",
+      "level": 2,
+      "start": 5350,
+      "end": 8095
+    },
+    {
+      "id": "sec-9-fig-1",
+      "number": null,
+      "title": "Fig. 1",
+      "level": 2,
+      "start": 8095,
+      "end": 8102
+    },
+    {
+      "id": "sec-10-longitudinal-and-cross-sectional-diagram",
+      "number": null,
+      "title": "Longitudinal and cross-sectional diagrams of the test chamber",
+      "level": 2,
+      "start": 8102,
+      "end": 8164
+    },
+    {
+      "id": "sec-11-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 8164,
+      "end": 8200
+    },
+    {
+      "id": "sec-12-a",
+      "number": null,
+      "title": "A: =",
+      "level": 1,
+      "start": 8200,
+      "end": 8213
+    },
+    {
+      "id": "sec-13-a",
+      "number": null,
+      "title": "A, =",
+      "level": 1,
+      "start": 8213,
+      "end": 9543
+    },
+    {
+      "id": "sec-14-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 9543,
+      "end": 10098
+    },
+    {
+      "id": "sec-15-numerical-results",
+      "number": null,
+      "title": "Numerical Results",
+      "level": 2,
+      "start": 10098,
+      "end": 13841
+    },
+    {
+      "id": "sec-16-nomenclature-cont",
+      "number": null,
+      "title": "Nomenclature (cont.)",
+      "level": 2,
+      "start": 13841,
+      "end": 13987
+    },
+    {
+      "id": "sec-17-at-twj-ta-or-twgi-tsat",
+      "number": null,
+      "title": "AT, = = Twj - Ta (or TWgi - Tsat",
+      "level": 2,
+      "start": 13987,
+      "end": 15041
+    },
+    {
+      "id": "sec-18-journal-of-electronic-packaging",
+      "number": null,
+      "title": "Journal of Electronic Packaging",
+      "level": 2,
+      "start": 15041,
+      "end": 15421
+    },
+    {
+      "id": "sec-19-it-1",
+      "number": null,
+      "title": "It 1",
+      "level": 2,
+      "start": 15421,
+      "end": 15429
+    },
+    {
+      "id": "sec-20-i",
+      "number": null,
+      "title": "I",
+      "level": 2,
+      "start": 15429,
+      "end": 15431
+    },
+    {
+      "id": "sec-21-h",
+      "number": null,
+      "title": "H",
+      "level": 2,
+      "start": 15431,
+      "end": 15486
+    },
+    {
+      "id": "sec-22-v",
+      "number": null,
+      "title": "V",
+      "level": 2,
+      "start": 15486,
+      "end": 15531
+    },
+    {
+      "id": "sec-23-i",
+      "number": null,
+      "title": "I",
+      "level": 2,
+      "start": 15531,
+      "end": 15641
+    },
+    {
+      "id": "sec-24-i",
+      "number": null,
+      "title": "I",
+      "level": 2,
+      "start": 15641,
+      "end": 15646
+    },
+    {
+      "id": "sec-25-at-c",
+      "number": null,
+      "title": "AT (\u00b0C)",
+      "level": 2,
+      "start": 15646,
+      "end": 15654
+    },
+    {
+      "id": "sec-26-fig-3",
+      "number": null,
+      "title": "Fig. 3",
+      "level": 2,
+      "start": 15654,
+      "end": 15661
+    },
+    {
+      "id": "sec-27-reference-boiling-curves-used-in-the-num",
+      "number": null,
+      "title": "Reference boiling curves used in the numerical effectiveness",
+      "level": 2,
+      "start": 15661,
+      "end": 15728
+    },
+    {
+      "id": "sec-28-table-1-a",
+      "number": null,
+      "title": "Table 1(a)",
+      "level": 2,
+      "start": 15728,
+      "end": 15739
+    },
+    {
+      "id": "sec-29-power-law-coefficients-for-the-linearize",
+      "number": null,
+      "title": "Power law coefficients for the linearized smooth",
+      "level": 2,
+      "start": 15739,
+      "end": 15918
+    },
+    {
+      "id": "sec-6-20582",
+      "number": "6.20582",
+      "title": "X10~6",
+      "level": 2,
+      "start": 15918,
+      "end": 16040
+    },
+    {
+      "id": "sec-31-table-1-b",
+      "number": null,
+      "title": "Table 1(b)",
+      "level": 2,
+      "start": 16040,
+      "end": 16051
+    },
+    {
+      "id": "sec-32-power-law-coefficients-for-linearized-sm",
+      "number": null,
+      "title": "Power law coefficients for linearized smooth sur-",
+      "level": 2,
+      "start": 16051,
+      "end": 16181
+    },
+    {
+      "id": "sec-33-arsat-c-o",
+      "number": null,
+      "title": "Arsat c o",
+      "level": 2,
+      "start": 16181,
+      "end": 16339
+    },
+    {
+      "id": "sec-34-table-2-a",
+      "number": null,
+      "title": "Table 2(a)",
+      "level": 2,
+      "start": 16339,
+      "end": 16350
+    },
+    {
+      "id": "sec-35-power-law-coefficients-for-linearized-lo",
+      "number": null,
+      "title": "Power law coefficients for linearized low-profile",
+      "level": 2,
+      "start": 16350,
+      "end": 16542
+    },
+    {
+      "id": "sec-1-874859",
+      "number": "1.874859",
+      "title": "XlO - 5",
+      "level": 2,
+      "start": 16542,
+      "end": 16704
+    },
+    {
+      "id": "sec-37-table-2-b",
+      "number": null,
+      "title": "Table 2(b)",
+      "level": 2,
+      "start": 16704,
+      "end": 16715
+    },
+    {
+      "id": "sec-38-power-law-coefficients-for-linearized-lo",
+      "number": null,
+      "title": "Power law coefficients for linearized low-profile",
+      "level": 2,
+      "start": 16715,
+      "end": 18850
+    },
+    {
+      "id": "sec-0-387",
+      "number": "0.387",
+      "title": "Rajf",
+      "level": 2,
+      "start": 18850,
+      "end": 19199
+    },
+    {
+      "id": "sec-0-387",
+      "number": "0.387",
+      "title": "Ra,'",
+      "level": 2,
+      "start": 19199,
+      "end": 19264
+    },
+    {
+      "id": "sec-41-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 19264,
+      "end": 19454
+    },
+    {
+      "id": "sec-42-fig-4-a",
+      "number": null,
+      "title": "Fig. 4(a)",
+      "level": 2,
+      "start": 19454,
+      "end": 19489
+    },
+    {
+      "id": "sec-43-fig-4-b",
+      "number": null,
+      "title": "Fig. 4(b)",
+      "level": 2,
+      "start": 19489,
+      "end": 19499
+    },
+    {
+      "id": "sec-44-fig-4",
+      "number": null,
+      "title": "Fig. 4",
+      "level": 2,
+      "start": 19499,
+      "end": 19506
+    },
+    {
+      "id": "sec-45-effectiveness-plots-for-heat-transfer-fr",
+      "number": null,
+      "title": "Effectiveness plots for heat transfer from a horizontal smooth-",
+      "level": 2,
+      "start": 19506,
+      "end": 20640
+    },
+    {
+      "id": "sec-46-fig-5-a",
+      "number": null,
+      "title": "Fig. 5(a)",
+      "level": 2,
+      "start": 20640,
+      "end": 20863
+    },
+    {
+      "id": "sec-47-fig-5",
+      "number": null,
+      "title": "Fig. 5",
+      "level": 2,
+      "start": 20863,
+      "end": 20870
+    },
+    {
+      "id": "sec-48-effectiveness-plots-for-heat-transfer-to",
+      "number": null,
+      "title": "Effectiveness plots for heat transfer to saturated FC-72 from a",
+      "level": 2,
+      "start": 20870,
+      "end": 23030
+    },
+    {
+      "id": "sec-49-elemental-approach-to-determining-enhanc",
+      "number": null,
+      "title": "Elemental Approach to Determining Enhanced Surface Per-",
+      "level": 2,
+      "start": 23030,
+      "end": 24578
+    },
+    {
+      "id": "sec-50-a-a-i",
+      "number": null,
+      "title": "A;+A;-I",
+      "level": 2,
+      "start": 24578,
+      "end": 24607
+    },
+    {
+      "id": "sec-51-at",
+      "number": null,
+      "title": "At-\\",
+      "level": 1,
+      "start": 24607,
+      "end": 24849
+    },
+    {
+      "id": "sec-4",
+      "number": "4",
+      "title": "PIN SURFACE",
+      "level": 2,
+      "start": 24849,
+      "end": 24863
+    },
+    {
+      "id": "sec-9",
+      "number": "9",
+      "title": "PIN SURFACE",
+      "level": 2,
+      "start": 24863,
+      "end": 26066
+    },
+    {
+      "id": "sec-54-experimental-results",
+      "number": null,
+      "title": "Experimental Results",
+      "level": 2,
+      "start": 26066,
+      "end": 26694
+    },
+    {
+      "id": "sec-4-1",
+      "number": "4.1",
+      "title": "Pin-Fin Surface Geometries. The experimental en-",
+      "level": 2,
+      "start": 26694,
+      "end": 27138
+    },
+    {
+      "id": "sec-56-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 27138,
+      "end": 32454
+    },
+    {
+      "id": "sec-57-journal-of-electronic-packaging",
+      "number": null,
+      "title": "Journal of Electronic Packaging",
+      "level": 2,
+      "start": 32454,
+      "end": 37379
+    },
+    {
+      "id": "sec-58-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2,
+      "start": 37379,
+      "end": 37866
+    },
+    {
+      "id": "sec-59-fig-10-b",
+      "number": null,
+      "title": "Fig. 10(b)",
+      "level": 2,
+      "start": 37866,
+      "end": 41223
+    },
+    {
+      "id": "sec-60-i",
+      "number": null,
+      "title": "I",
+      "level": 2,
+      "start": 41223,
+      "end": 41225
+    },
+    {
+      "id": "sec-61-p",
+      "number": null,
+      "title": "P",
+      "level": 2,
+      "start": 41225,
+      "end": 41400
+    },
+    {
+      "id": "sec-62-at-sat",
+      "number": null,
+      "title": "AT sat",
+      "level": 2,
+      "start": 41400,
+      "end": 41411
+    },
+    {
+      "id": "sec-63-fig-12-a",
+      "number": null,
+      "title": "Fig. 12(a)",
+      "level": 2,
+      "start": 41411,
+      "end": 41432
+    },
+    {
+      "id": "sec-64-fig-13-a",
+      "number": null,
+      "title": "Fig. 13(a)",
+      "level": 2,
+      "start": 41432,
+      "end": 41608
+    },
+    {
+      "id": "sec-65-atsqt-c",
+      "number": null,
+      "title": "ATSQt (\u00b0C)",
+      "level": 1,
+      "start": 41608,
+      "end": 41619
+    },
+    {
+      "id": "sec-66-fig-12-b",
+      "number": null,
+      "title": "Fig. 12(b)",
+      "level": 2,
+      "start": 41619,
+      "end": 41630
+    },
+    {
+      "id": "sec-67-fig-12",
+      "number": null,
+      "title": "Fig. 12",
+      "level": 2,
+      "start": 41630,
+      "end": 41638
+    },
+    {
+      "id": "sec-68-boiling-curves-for-the-a-axially-and-rad",
+      "number": null,
+      "title": "Boiling curves for the (a) axially and radially grooved enhanced",
+      "level": 2,
+      "start": 41638,
+      "end": 41914
+    },
+    {
+      "id": "sec-69-r",
+      "number": null,
+      "title": "R",
+      "level": 1,
+      "start": 41914,
+      "end": 41918
+    },
+    {
+      "id": "sec-70-k",
+      "number": null,
+      "title": "K>",
+      "level": 2,
+      "start": 41918,
+      "end": 41934
+    },
+    {
+      "id": "sec-71-jp",
+      "number": null,
+      "title": "Jp",
+      "level": 2,
+      "start": 41934,
+      "end": 41937
+    },
+    {
+      "id": "sec-72-p",
+      "number": null,
+      "title": "P",
+      "level": 2,
+      "start": 41937,
+      "end": 42094
+    },
+    {
+      "id": "sec-73-fig-13-6",
+      "number": null,
+      "title": "Fig. 13(6)",
+      "level": 2,
+      "start": 42094,
+      "end": 42105
+    },
+    {
+      "id": "sec-74-fig-13",
+      "number": null,
+      "title": "Fig. 13",
+      "level": 2,
+      "start": 42105,
+      "end": 43474
+    },
+    {
+      "id": "sec-75-transactions-of-the-as-me",
+      "number": null,
+      "title": "Transactions of the AS ME",
+      "level": 2,
+      "start": 43474,
+      "end": 43692
+    },
+    {
+      "id": "sec-76-i",
+      "number": null,
+      "title": "I",
+      "level": 1,
+      "start": 43692,
+      "end": 43694
+    },
+    {
+      "id": "sec-77-d-microstud-enhancoo-stud",
+      "number": null,
+      "title": "D \u00b0 Microstud-EnhancOO Stud",
+      "level": 1,
+      "start": 43694,
+      "end": 43722
+    },
+    {
+      "id": "sec-78-i",
+      "number": null,
+      "title": "I",
+      "level": 1,
+      "start": 43722,
+      "end": 43794
+    },
+    {
+      "id": "sec-79-a-4-pin-surface",
+      "number": null,
+      "title": "A \u00b0 4.Pin Surface",
+      "level": 1,
+      "start": 43794,
+      "end": 43945
+    },
+    {
+      "id": "sec-80-id",
+      "number": null,
+      "title": "ID",
+      "level": 2,
+      "start": 43945,
+      "end": 46029
+    },
+    {
+      "id": "sec-81-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 46029,
+      "end": 52084
+    },
+    {
+      "id": "sec-22",
+      "number": "22",
+      "title": "Law Drive",
+      "level": 2,
+      "start": 52084,
+      "end": 52599
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": ", the vessel was fitted with three ports. A module housing",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "shows a sectional diagram of the test heater module.",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-2_p2.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Sectional diagram of the test heater",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-2_p3.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "(a)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-4_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "(b)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-4_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-4_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(a)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-5_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(b)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-5_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-5_p5.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Geometries of smooth studs and pin fin arrays",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-6_p6.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-7_p7.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "caption": "shows side and end views of boiling on the 4-pin",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-8_p7.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-9_p8.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-8_p8.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "caption": "shows FC-",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-9_p8.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "(a)",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-10_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "(b)",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-10_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-10_p9.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-11_p9.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "(a)",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-12_p10.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "(a)",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-13_p10.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "(b)",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-12_p10.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-12_p10.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "(6)",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-13_p10.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-13_p10.png"
+    },
+    {
+      "id": "fig-14",
+      "label": "Figure 14",
+      "caption": "shows a comparison of boiling behavior from the",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        611.0,
+        791.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-14_p10.png"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "caption": "",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-15_p11.png"
+    },
+    {
+      "id": "fig-15",
+      "label": "Figure 15",
+      "caption": "shows a compilation of CHF",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-15_p11.png"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "caption": "",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\mudawar_1993_optimization_of_enhanced_surfaces_for_fig-14_p11.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "(a)",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "(b)",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "(a)",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "(b)",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "Heat flux data for normalization of fin heat transfer",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 12,
+    "ingest": "pymupdf"
+  }
+}

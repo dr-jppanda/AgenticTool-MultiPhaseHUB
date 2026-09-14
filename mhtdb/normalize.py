@@ -61,13 +61,34 @@ _TEMP_ABS_F = {"f", "°f", "degf", "fahrenheit"}
 _ABSOLUTE_TEMP_FIELDS = {"T_sat"}
 
 
+_SUPERSCRIPT_MAP = str.maketrans({
+    "⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5",
+    "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9", "⁻": "-", "⁺": "+",
+})
+
+
 def _clean_unit(u: str | None) -> str:
     if u is None:
         return ""
     s = u.strip().lower()
+    s = s.translate(_SUPERSCRIPT_MAP)
     s = s.replace(" ", "").replace("·", "").replace("−", "-")
     s = s.replace("º", "°")            # masculine ordinal, as OCR reads degrees
     s = re.sub(r"^\[|\]$", "", s)
+    # Space-separated SI exponent notation ("kW m-2", "W cm-2", "kW m^-2")
+    # collapses, once spaces are stripped above, to "kwm-2"/"kwm^-2" --
+    # rewrite the implicit per-area division back to the slash form
+    # _UNIT_FACTORS keys use (which drop the minus sign: "kw/m2", not
+    # "kw/m-2").
+    s = re.sub(r"^((?:k|m)?w)m\^?-?(\d+)$", r"\1/m\2", s)
+    s = re.sub(r"^((?:k|m)?w)cm\^?-?(\d+)$", r"\1/cm\2", s)
+    # A figure's printed area exponent ("²") sometimes survives PDF text
+    # extraction as a single unrecognisable character -- a font glyph with
+    # no ToUnicode mapping decodes to U+FFFD or similar. The only physically
+    # sensible reading of "w/cm<junk>" or "w/m<junk>" in this catalog is an
+    # area exponent, so one stray trailing character there is read as "2"
+    # rather than losing the whole unit (and the point along with it).
+    s = re.sub(r"^((?:k|m)?w/c?m)[^\w/-]$", r"\g<1>2", s)
     return s
 
 
@@ -226,7 +247,7 @@ _NUMERIC_FIELDS = [
 # the dimensionless groups and producing confident-looking nonsense.
 _PLAUSIBLE: dict[str, tuple[float, float]] = {
     "p_sat": (1e2, 5e7),          # 1 mbar .. 500 bar
-    "T_sat": (100.0, 1200.0),     # K, absolute
+    "T_sat": (4.0, 1200.0),       # K, absolute -- LHe (4.2K) is the coldest cryogen in scope
     "G": (0.1, 1e4),              # kg/m2/s
     "q_flux": (1.0, 1e9),         # W/m2
     "x_quality": (-1.0, 1.2),

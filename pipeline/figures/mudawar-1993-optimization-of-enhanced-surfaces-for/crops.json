@@ -1,0 +1,234 @@
+{
+  "record_id": "mudawar-1993-optimization-of-enhanced-surfaces-for",
+  "n_crops": 12,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        44.0,
+        5.91998291015625,
+        567.0399780273438,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p1-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p2-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 2,
+      "bbox": [
+        44.0,
+        5.67999267578125,
+        567.52001953125,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p2-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p2-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p3-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 3,
+      "bbox": [
+        44.0,
+        5.67999267578125,
+        567.52001953125,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p3-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p3-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p4-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 4,
+      "bbox": [
+        44.0,
+        5.67999267578125,
+        567.52001953125,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p4-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p4-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p5-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 5,
+      "bbox": [
+        43.0,
+        5.20001220703125,
+        567.239990234375,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p5-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p5-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "tab-3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Heat flux data for normalization of fin heat transfer rates",
+      "page": 6,
+      "bbox": [
+        25.631999969482422,
+        38.523983001708984,
+        585.3679809570312,
+        789.4559936523438
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\tab-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\tab-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Ratio of total heat transfer area to planform base area for the enhanced surfaces of the present study",
+      "page": 7,
+      "bbox": [
+        26.131999969482422,
+        39.577674865722656,
+        585.867919921875,
+        790.4559936523438
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\tab-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\tab-4.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p8-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        42.5,
+        9.20001220703125,
+        566.5,
+        790.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p8-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p8-01.jpg",
+      "n_panels": 2,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p9-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        44.0,
+        5.20001220703125,
+        568.0,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p9-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p9-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p10-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 10,
+      "bbox": [
+        44.0,
+        5.44000244140625,
+        567.760009765625,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p10-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p10-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p11-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 11,
+      "bbox": [
+        40.4000244140625,
+        5.75,
+        568.0,
+        786.3099975585938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p11-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p11-01.jpg",
+      "n_panels": 2,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p12-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 12,
+      "bbox": [
+        42.0,
+        5.67999267578125,
+        569.3599853515625,
+        786.0
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p12-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mudawar-1993-optimization-of-enhanced-surfaces-for\\fig-p12-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    }
+  ]
+}

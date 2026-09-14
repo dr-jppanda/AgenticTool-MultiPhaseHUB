@@ -1,0 +1,127 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 56.6,
+    "max": 56.6,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "After reaching its saturation temperature (56.6 C), the liquid was allowed to boil vigorously for 45 min. to expel noncondensible gases."
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 18.1,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "with incipient superheats\nof 7.9 and 7.1 C and corresponding CHF values of 18.1\nand 17.1 W/cm2"
+      },
+      {
+        "quote": "Boiling tests commenced by increasing power input to\nthe test surface in 0.5 W/cm2 increments."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 0.0,
+    "max": 0.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "The cartridge heaters' power was subsequently reduced to 50 W to maintain saturated conditions."
+      },
+      {
+        "quote": "T1 is the average of temperatures\nmeasured by two thermocouples immersed in the saturated\nliquid pool"
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": 7.1,
+    "max": 32.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "The two light array tests show good repeatability throughout the nucleate boiling region, with incipient superheats\nof 7.9 and 7.1 C"
+      },
+      {
+        "quote": "Based on visual observation, fully developed\nboiling for the bare silicon surface occurred at a superheat\nof 32 C compared to only 10 C for the CNT-coated surface."
+      }
+    ]
+  },
+  "D_h": {
+    "min": 12.7,
+    "max": 12.7,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The bare silicon substrates were formed by dicing the wafer into 12.7 mm 12.7 mm square chips using a Tempress 602 dicing saw."
+      },
+      {
+        "quote": "A copper chip was machined to the same size of the aforementioned silicon chips."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "silicon and copper (with CNT coatings)"
+}

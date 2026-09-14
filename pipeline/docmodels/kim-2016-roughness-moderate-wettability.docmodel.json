@@ -1,0 +1,400 @@
+{
+  "doc_id": "ac05c6f35c398cea",
+  "source": "papers\\kim_2016_roughness_moderate_wettability.pdf",
+  "text": "Effect of surface roughness on pool boiling heat transfer at a heated\nsurface having moderate wettability\nJinsub Kim, Seongchul Jun, Ram Laksnarain, Seung M. You \u21d1\nMechanical Engineering Department, Erik Jonsson School of Engineering and Computer Science, The University of Texas at Dallas, 800 W. Campbell Rd., Richardson, TX 75080,\nUnited States\na r t i c l e\ni n f o\nArticle history:\nReceived 11 December 2015\nReceived in revised form 12 May 2016\nAccepted 13 May 2016\nAvailable online 10 June 2016\nKeywords:\nPool boiling\nSurface roughness\nCritical heat flux (CHF)\nContact angle\nCapillary wicking\na b s t r a c t\nThe effect of surface roughness on pool boiling heat transfer coefficient and critical heat flux (CHF) at a\ncopper surface having moderate wettability was studied in saturated water. Copper surfaces were polished with sandpapers of different average surface roughness (Ra), ranging from 0.041 lm to 2.36 lm.\nTest measurements included static and dynamic contact angles for each of the nine surfaces tested.\nAlthough the surface roughness, Ra, moderately influenced the contact angles, pool boiling test results\nsuccessfully correlated with the coefficient, Csf, in the well-known Rohsenow correlation. The CHF\nshowed noticeably strong dependence and an enhanced performance on the surface roughness as well.\nThe CHF at the roughest surface (Ra = 2.36 lm) was 1625 kW/m2, which is approximately twice as much\nof that at the smoothest surface (Ra = 0.041 lm). The large increase in CHF with increasing surface\nroughness is considered to be a consequence of the capillary wicking from the surrounding liquid to\nthe dry spot. A model for the CHF is obtained by modifying an existing correlation for pool boiling with\nthe inclusion of the capillary wicking effect, and a comparison of the results with the experimental data\nshows good agreement when the wicking effect is included in the correlation.\n2016 Elsevier Ltd. All rights reserved.\n1. Introduction\nSurface characteristics of heated surfaces are considered one of\nthe most dominant factors affecting boiling heat transfer. Many\nresearchers have studied the effect of surface roughness on the\npool boiling heat transfer since Jakob's study of its effects on pool\nboiling [1]. Using rigorous experiments, Rohsenow [2] included the\nsurface effects in his boiling correlation by matching the surface-\nfluid combination to the proper coefficient, Csf. Subsequently, many\nstudies have revealed the relationship between roughened surfaces\nand an increase in the number of nucleation sites, resulting in augmented boiling heat transfer [3-6]. Recent research efforts are\nfocused on boiling heat transfer with a more complex surface\nexhibiting multiscale roughness [7], surface roughness accompanying a wettability change [8], and roughness in complex geometries [9]. A few attempts have been made to develop more\naccurate correlations between heat transfer coefficient h and\nroughness parameters [10-12]; these correlations were tabulated\nand compared with experimental data by Jones et al. [13]. Even\nthough there are many correlations available, based on extensive\nexperimentation with a variety of fluids over a range of pressures,\nthey do not all have a simple physical reasoning, unlike the Rohsenow correlation. Therefore, the first objective of the present study\nis to understand the nucleate boiling heat transfer enhancement\ndue to surface roughness by establishing the relationship between\nthe average roughness Ra and the coefficient Csf in the conventional\nRohsenow correlation.\nIn contrast to the clear relation between heat transfer coefficient\nand surface roughness [13], the effect of surface roughness on the\ncritical heat flux (CHF) is still obscure. Many researchers believed\nthat the CHF is triggered by the hydrodynamic instability [14]\nand does not include the effect of the surface condition, viz. surface\nroughness and wettability. The surface conditions were overlooked\nfor a long time until Ramilison et al. [15] reported that they are\nimportant and concluded that the wettability effect on CHF is more\nprominent than the roughness effect. Many other studies related to\nthe effect of surface roughness on the CHF were performed [16-18]\nand their data showed varying augmentation of CHF with increasing surface roughness. However, the extent of the augmentation\nwas no more than \u00b120%. Although surface roughness shows somewhat limited enhancement of CHF for typical metal surfaces, recent\nstudies on the effect of surface roughness on hydrophilic silicon\nsurfaces exhibited a much larger augmentation of CHF, unlike metal\nsurfaces. Some researchers have focused on the combined effect of\nwettability and surface micro/nanostructures on silicon surfaces.\nhttp://dx.doi.org/10.1016/j.ijheatmasstransfer.2016.05.067\n0017-9310/ 2016 Elsevier Ltd. All rights reserved.\n\u21d1Corresponding author. Tel.: +1 972 883 4619.\nE-mail address: you@utdallas.edu (S.M. You).\nInternational Journal of Heat and Mass Transfer 101 (2016) 992-1002\nContents lists available at ScienceDirect\nInternational Journal of Heat and Mass Transfer\njournal homepage: www.elsevier.com/locate/ijhmt\nThey have treated super-hydrophilic coating on well-designed arti-\nficial microstructures. These types of microstructures were fabricated on silicon wafer surfaces because micro-fabrication on\nsilicon surfaces is fully developed as an accurate and mature technique. Some of these studies reported a surprisingly large increase\nin CHF on super-hydrophilic structured surfaces [7,19,20]. Rahman\net al. [20] attained the CHF of as high as 2570 kW/m2 on their\nhierarchically-structured silicon surface using the bio-template of\nthe tobacco mosaic virus. The increase seems to be beyond the limit\nthat can be attained by wettability alone. It is hypothesized that the\ncapillary wicking effect prevents dry-out of the heated surface, thus\nresulting in augmented CHF. From the studies on silicon surfaces, it\nis optimistic to anticipate similar results on metal surfaces provided\nthey are hydrophilic. O'Hanley et al. [8] pointed out that surface\nconditions including wettability, roughness, and porosity should\nbe considered as separate parameters for precisely estimating the\neffect of each parameter on CHF. The present study is intended to\nstart from roughened copper surfaces having moderate wettability,\nwhich means normal copper surfaces with contact angles of\napproximately 60-70 . Because it is not super-hydrophilic but still\nhydrophilic, it is expected that the wettability effect is relatively\nsmall, but capillary wicking due to the roughness change is still\neffective. Simultaneously, the static and dynamic contact angles\nare also measured in order to investigate the variation of contact\nangles with increasing surface roughness. On the basis of the experimental data, a CHF correlation including the capillary wicking is\nproposed that is appropriate for metal surfaces by using roughness\nparameter Ra.\n2. Experimental setup\n2.1. Surface preparation and characterization\nCopper blocks of size 10 mm 10 mm 3 mm were prepared\nto serve as test surfaces. The top and bottom surfaces were\npolished with a 600 grit sandpaper and cleaned by sonicating in\nan isopropyl alcohol (IPA) solution, after which a 20-X heating element was soldered to the bottom side of the copper block. In order\nto measure the temperature, a 30 AWG type T thermocouple was\ninserted into a hole drilled at the center of the copper block, where\nthe hole is located at the 1.5 mm below the boiling surface. The top\nsurfaces were polished again with various sandpapers having 2000,\n600, 220, and 80 grit, and a compound that was a mixture of alumina and silicon oxide nanoparticles and tallow. The compound\nproduced a smoother surface than that obtained by the sandpaper\npolishing process. The polishing was performed in one direction,\nwhich naturally made unidirectional scratches on the copper surfaces. The number of strokes for polishing was increased with\nincreasing sandpaper grit because more strokes were required for\nmaking smoother surfaces. Although the number of strokes was\n50 for the 220 and 80 grit sandpapers, it was 100 for the 600 grit\nsandpaper and approximately 300 for the 2000 grit sandpaper. A\ntotal of nine samples were prepared, two samples for each sandpaper and one for the compound.\nThe polished surfaces were characterized in two ways: wettability measurement and roughness measurement. Before the boiling test, the static and dynamic contact angles for each surface\nwere measured using a goniometer (KRUSS, DSA30). The volume\nof the sessile droplet was 11.5 ll for static contact angles. For\nadvancing contact angles, the initial droplet of 30 ll was set up\non the surface and the volume was increased to 50 ll by feeding\nwater at a rate of 20 ll/min. For receding contact angles, the droplet of 50 ll at the end of the advancing process shrank to zero\nvolume at a rate of 20 ll/min. After the boiling test, the static\nand dynamic contact angles were measured again to see how\nmuch the angles were changed during the test. The surface\nroughness was measured using the surface roughness tester\n(Mitutoyo, SJ-210). The tip radius of the probe was 2 lm, the\nmeasuring force was 0.75 mN, and the evaluation length was\n4 mm. Each sample was scanned at six different points to obtain\nthe representative roughness. The roughness definition and the\nmeasurement\ntechnique\nfollows\nstandard\nISO\n4287-1997\npractices.\nNomenclature\na\nexponent in the Rohsenow correlation\nA\nconstant\nC\nconstant\nCp\nspecific heat [J/kg K]\nCsf\ncoefficient in the Rohsenow correlation\nDb\nbubble diameter [m]\nF\nforce [N]\ng\ngravity [m/s2]\nh\nheat transfer coefficient [W/m2 K]\nhfg\nlatent heat [J/kg]\nHb\nbubble height [m]\nm\nexponent for surface roughness\nn\nexponent for heat flux\nN\nnumber of capillary tubes\nP\npressure [Pa]\nPr\nPrandtl number\nq00\nheat flux [W/m2]\nr\nroughness factor\nR\nradius [m]\nRa\naverage roughness [m]\nRq\nroot mean squared roughness [m]\nRz\nten-point average roughness [m]\nS\naccommodation factor\nSm\nmean spacing [m]\nT\ntemperature [K]\nGreek symbols\nDT\nwall superheat (=Tw Tsat) [K]\nh\ncontact angle [ ]\nkT\nTaylor unstable wavelength [m]\nl\nviscosity [N s/m2]\nq\ndensity [kg/m3]\nr\nsurface tension [N/m]\nSubscripts\n0\nreference\nC\ncapillary\nCHF\ncritical heat flux\nG\ngravity\nI\ninterface\nl\nliquid\nM\nmomentum\nsat\nsaturation\nS\nsurface tension\nv\nvapor\nw\nwall\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\n993\n2.2. Pool boiling test section and test procedure\nFig. 1 shows the design of the test heater used in collecting data\nfor the pool boiling experiments. A polished copper block bonded\nwith the heating element is placed on the polycarbonate substrate\nand surrounded with epoxy adhesives (3M DP420) having low\nthermal conductivity of 0.18 W/m K, as shown in Fig. 1. The polished top surface is exposed to the exterior and acts as a boiling\nsurface for the experiment. Fig. 2 shows a detailed drawing of\nthe test chamber used in the experiment. A Graham-type coil condenser was used to condense and return the generated vapor to the\nchamber. The generated bubbles were observed through the sight\nglasses situated at the front and rear sides, and a high-speed camera was installed to capture them during the experiment. The saturated liquid temperature and vapor temperature were measured\nusing type T thermocouple probes inserted inside the chamber. A\npressure transducer (0-172 kPa, \u00b10.25% accuracy) was connected\nto the chamber in order to measure the internal saturation\npressure.\nApproximately 2 l of distilled water was filled into the chamber\nwith the test heater assembly placed at the center of the test chamber. Noncondensable gas in the water was removed by boiling the\nwater with immersion heaters and band heaters for 1 h as a part of\nthe degassing process. The immersion heaters were then turned\noff, but the band heaters were kept on so that the water was maintained in its saturation state. Once the liquid temperature and\ninternal pressure became stable, the test was initiated by applying\nthe specified current to the test heater. The wall temperature, liquid temperature, vapor temperature, and pressure were measured,\nas well as the input current by measuring the voltage across a\nshunt resistor that was connected serially with the heater in the\ncircuit. The input heat was calculated from the measured values\nof input current and voltage drop across the test heater. Once the\nwall temperature reached steady state, the current was increased\nto the next specified value. The temperatures were averaged every\n20 s and the steady state was considered to exist when the temperature difference was less than 0.1 C between two consecutive\naverage\nvalues.\nThe\npower\nincrement\nwas\nvaried\nto\nbe\n10-20 kW/m2 at the incipience, 100 kW/m2 at the nucleate boiling\nregime, and 50 kW/m2 at near CHF. The boiling test was terminated when CHF occurred, defined by an abrupt increase in wall\ntemperature by more than 20 C when compared to the value at\nthe previous power input. The CHF was determined to be the average of the previous steady power input and the current power\ninput which showed abrupt increase in wall temperature.\n2.3. Uncertainty\nThe uncertainty analysis was performed by using the Kline and\nMcClintock method for single-sample experiments [21]. The uncertainty of saturation temperature (Tsat) was calculated from the\nuncertainty of the pressure measurement. Because the pressure\ntransducer has an accuracy of \u00b10.25% in full range (0-172 kPa),\nthe uncertainty of the saturation temperature is estimated as\n\u00b10.1 K. The wall temperature was determined using the Fourier's\nlaw for conduction through the 1.5 mm copper block from the\nthermocouple location to the boiling surface. The wall temperature\n(Tw) has an uncertainty of \u00b10.5 K. Input power, which is calculated\nfrom the measured voltage drop and current, has an error of\n\u00b10.2 kW/m2 at q00 = 1000 kW/m2. Heat loss through the epoxy\ninsulation layer was estimated as 0.5% of total heat dissipation\nby a simple numerical calculation. The heater area's uncertainty\nwas estimated as 5% of the total heated area. The uncertainty of\nFig. 1. Design of the test heater for the boiling experiment.\nFig. 2. Detailed drawing of the boiling test chamber.\n994\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\nthe surface roughness was estimated statistically by assuming that\nthe roughness data follow a normal distribution. With the confi-\ndence level at 95%, the average roughness of the second sample\npolished with 600 grit was 0.114 \u00b1 0.004 lm (\u00b13.5% error, smallest)\nand the roughness average of the first sample polished with 80 grit\nwas 1.95 \u00b1 0.16 lm (\u00b18.3% error, largest).\n3. Results and discussion\nTable 1 shows the roughness parameters of all nine surfaces\nfrom the smoothest surface (compound) to the roughest surface\n(80 grit). The definition of the average roughness Ra and the root\nmean squared average Rq, which are commonly used roughness\nparameters, are as follows:\nRa 1\u20444 1\nn\nX\nn\ni1\u204441\njyij\n\u00f01\u00de\nRq 1\u20444\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\n1\nn\nX\nn\ni1\u204441\ny2\ni\nv\nu\nu\nt\n\u00f02\u00de\nRz, as defined by the ISO standards, is the average of the five highest\npeaks and five deepest valleys. Sm refers to the mean spacing\nbetween peaks. Sm can provide information in the transverse direction, which is important for estimating the number of scratches per\nunit width. In some studies, a minimum height or a minimum depth\nis employed for ignoring small peaks, but in the present study no\nrestriction was placed in counting the peaks. Because boiling heat\ntransfer is related to the length scale of the heated surface, Ra was\nchosen as the representative roughness parameter in this study.\nThe average roughness increased from 0.041 lm for the surface polished with compound to 2.36 lm for the surface polished with the\n80 grit sandpaper. SEM images in Fig. 3 clearly show the different\nstructures of the tested surfaces. The height (or the depth) of the\nunidirectional scratches increased with increasing Ra, whereas the\nnumber\nof\nscratches\ndecreases\nfrom\nthe\nsmooth\nsurface\n(Ra = 0.057 lm) to the rough surface (Ra = 2.36 lm). However, in\ncase of the smoothest surface of Ra = 0.041 lm (compound) the\nnumber of scratches also decreased, which means it had only sparse\nscratches. Mean spacing, Sm, expresses exactly the reverse trend as\nthe number of scratches because Sm is inversely proportional to the\nnumber of scratches. It increases with increasing roughness from\n2000 grit to 80 grit, as well as the surface polished with the\ncompound.\nBoth the static and dynamic contact angles were measured for\nall nine surfaces. The unidirectional scratches require two different\nviewing angles for measuring the contact angles: parallel to the\nscratches and normal to the scratches. Fig. 4 depicts the sessile\ndrops captured in the two directions for the representative surface\nwith Ra = 0.169 lm (600 grit #1). The contact angles captured parallel to the scratches normally have higher values because the\nmovement of contact lines is limited by the contact line pinning\neffect [22]. In contrast, the contact angles captured normal to the\nscratches showed lower values as the sessile drops spread easily\nthrough the scratches. Contact angles were measured before the\nboiling tests as well as after in order to investigate how much\nthe contact angles changed during the tests. Static contact angles\nof all nine surfaces captured in the two directions are shown in\nFig. 5. Static angles in the parallel direction, measured before the\nboiling tests, show only a slight increase with Ra, approximately\n70 . The static contact angles in the normal direction are lower\nthan those in the parallel direction because of the pinning and\nspreading effects, respectively, in those directions. It is noticeable\nthat the static angle in the normal direction decreases with\nincreasing roughness. This means that the spreading through the\nscratches increases as the surface becomes rougher. Because the\nspreading is caused by the capillary wicking, it can be inferred that\nthe capillary wicking effect is increased with increasing surface\nroughness. Hence, the final averages of static contact angles in both\ndirections have limited variation according to the surface roughness because of the opposing tendencies between contact line pinning in the parallel direction and spreading in the normal direction.\nThe\ndistribution\nof\nthe averaged\nstatic\ncontact angles\nwas\n64.5 \u00b1 5 . The trends of the static contact angles after the boiling\ntests are the same as those before the boiling tests, but contact\nangles at both directions were increased by 5-15 for all surfaces.\nThe increase of the contact angles during the boiling tests is\nthought to result from the oxidation of the copper surfaces even\nat low temperatures near 100 C [23].\nThe dynamic contact angles (advancing and receding contact\nangles) were also measured as shown in Fig. 6, where the dynamic\ncontact angles for the surface with Ra = 0.169 lm (600 grit #1) are\nshown. Although the advancing contact angle is nearly constant\nthroughout the growth period of the droplet, the receding contact\nangle exhibits a monotonic decrease during most of the shrinkage\nperiod of the droplet as a result of the contact line pinning effect.\nBecause the receding of the triple contact line occurs only near\nthe end of the shrinkage period, the receding contact angles were\nevaluated for only 5 s after the contact line actually moved. The\nadvancing and receding contact angles with regard to Ra are shown\nin Fig. 7. The trend of the advancing contact angles with Ra is similar to that of the static contact angles except for somewhat higher\nvalues by approximately 10-15 . The receding contact angles also\nshow a similar trend to the static contact angles, but they have\nmuch lower values of approximately 10 compared with the static\ncontact angles. The variation of the receding contact angles according to Ra was not large, which implies negligible CHF variation with\nincreasing Ra because the CHF is believed to be closely related to\nthe receding contact angle [24]. This is why a large variation of\nCHF with Ra, which is observed later in the pool boiling curves, cannot be explained solely by the wettability effect.\nBoiling curves for all the tested surfaces having different roughness are shown in Fig. 8. It is clearly demonstrated that the boiling\ncurve shifts to the left as Ra increases, which indicates better nucleate boiling heat transfer performance with increasing Ra. This is\nconsistent with previous studies that dealt with the effect of surface roughness on nucleate boiling heat transfer [4,6,25]. However,\nthe change in CHF with increasing Ra in Fig. 8 is considerably large.\nThe CHF was merely 775 kW/m2 at the smoothest surface of\nRa = 0.041 lm, whereas CHF at the roughest surface of Ra = 2.36 lm\nwas as much as 1625 kW/m2, which is more than the double of\nthat at the smoothest surface. Therefore, the effects of surface\nroughness on nucleate boiling heat transfer and CHF must be\ninvestigated more thoroughly.\nFirst, nucleate boiling heat transfer is known to be strongly\naffected by surface roughness as indicated in various studies. The\nsurface roughness is considered to enhance the nucleate boiling\nTable 1\nRoughness parameters for all nine surfaces tested.\nSample\nRoughness [lm]\nRa\nRq\nRz\nSm\nCompound\n0.041\n0.055\n0.438\n20.9\n2000 grit #1\n0.061\n0.080\n0.699\n15.1\n2000 grit #2\n0.057\n0.076\n0.699\n13.1\n600 grit #1\n0.169\n0.231\n1.93\n16.3\n600 grit #2\n0.114\n0.157\n1.41\n14.7\n220 grit #1\n0.590\n0.787\n5.47\n24.8\n220 grit #2\n0.997\n1.31\n8.57\n27.2\n80 grit #1\n1.95\n2.49\n13.8\n40.7\n80 grit #2\n2.36\n3.01\n16.3\n44.5\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\n995\nbecause of the increased number of active nucleation sites. In fact,\nthe coefficient, Csf, in the well-known Rohsenow correlation for\nnucleate boiling heat transfer should be a function of surface\nroughness and wettability. Some researchers have suggested\nempirical correlations for the roughness effect on nucleate boiling\nheat transfer [10-12]. However, it is necessary to incorporate the\neffect of surface roughness directly into Csf because the constant\nshould be affected by both contact angle and roughness. In the\npresent study, all polished copper surfaces exhibit moderate\ncontact angles of approximately 65 in the parallel and normal\ndirections. Because the contact angles are maintained to be within\nthe marginal range for all nine cases, Csf is believed to be correlated\naccording to the surface roughness.\nq00\nllhfg\nr\ng\u00f0ql qv\u00de\n1=2\n1\u20444\n1\nCsf\n1=a\nPr 1=a\nl\nCplDT\nhfg\n1=a\n\u00f03\u00de\nFig. 3. SEM images of surfaces having different roughness ( 1000).\nFig. 4. Static contact angles at two directions: (a) parallel to the scratches, (b) normal to the scratches (Ra = 0.169 lm, 600 grit #1).\nFig. 5. Static contact angles for all nine surfaces at the parallel and normal directions.\n996\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\nEq. (3) is the Rohsenow correlation for water, where a is\nreported as 0.33 [2]. Converting Eq. (3) into a dimensionless form\nof heat flux (q00) and heat transfer coefficient (h), the equation\nyields:\nh\nh0\n1\u20444\n1\nCsf\nq00\nq00\n0\nn\n\u00f04\u00de\nwhere; h0 1\u20444 llCpl\nPrl\ng\u00f0ql qv\u00de\nr\n1=2\n;\nq00\n0 1\u20444 llhfg\ng\u00f0ql qv\u00de\nr\n1=2\n;\nn 1\u20444 1 a:\nThe coefficient Csf can be regarded as a function of surface\nroughness Ra only, because the contact angles are similar; it is\nassumed as\n1\nCsf\n1\u20444 f\u00f0Ra\u00de 1\u20444 A\nRa\nRa0\nm\n\u00f05\u00de\nRa0 is 0.4 lm, which is a representative surface roughness for typical metal surfaces [11]. Exponent m and coefficient A are assumed\nconstants. Combining Eqs. (4) and (5), the final form results in\nh\nh0\n1\u20444 A\nRa\nRa0\nm q00\nq00\n0\nn\n\u00f06\u00de\nThe value of A in Eq. (6) can be computed from the experimental\ndata by assuming the value for n as 0.67 from the original Rohsenow correlation. It is also possible to study the effect of roughness\non the variation in parameter n by performing the best fit from the\nexperimental data for h and q. Fig. 9 shows the relation between\ndimensionless h and dimensionless q00 for all the surfaces tested\nFig. 7. Advancing and receding contact angles with Ra for two different directions.\nFig. 6. Measurement of dynamic contact angles (Ra = 0.169 lm): (a) advancing contact angle (before boiling, parallel), (b) receding contact angle (before boiling, parallel).\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\n997\nin this study. Exponent n of the trend line for each Ra is determined\nand plotted against as shown in the inset, indicating a variation in\nn according to dimensionless Ra. Exponent n is found to decrease\nmoderately from 0.80 to 0.63 with increasing Ra, as shown by\nn 1\u20444 0:698\nRa\nRa0\n0:057\n\u00f07\u00de\nBy substituting n values and all the measured data of h, q00, and\nRa for Eq. (6), constants A and m are obtained from the best fitting\nfor the data. The final correlation of Eq. (6) assuming n = 0.67 as a\nconstant is\nh\nh0\n1\u20444 84:3\nRa\nRa0\n0:109 q00\nq00\n0\n0:67\n\u00f08\u00de\nand the final correlation for n as a function of Ra in Eq. (7) is\nh\nh0\n1\u20444 83:3\nRa\nRa0\n0:136 q00\nq00\n0\n0:698\u00f0Ra=Ra0\u00de 0:057\n\u00f09\u00de\nEqs. (8) and (9) can be compared with the experimental data.\nFig. 10 provides a comparison of the experimental data with Eq.\n(8) assuming n = 0.67. Most of the dimensionless heat transfer\ncoefficients obtained from the correlation (Eq. (8)) are in good\nagreement with the experimental data except for the high heat flux\nregion on the rough surface. Because the nucleate boiling heat\ntransfer is more affected by partial blanketing of vapor approaching CHF, the correlation for the nucleate boiling seems to deviate\nat a heat flux exceeding 80% of the CHF values. Nevertheless, the\nmean absolute error was calculated to be 6.7%, which is satisfactory. The correlation using more complicated n as a function of\nRa (Eq. (9)) was also compared with the current data, and it showed\nan absolute error of 5.3%. Though the correlation using a more\naccurate estimation of n gives slightly better accuracy, it is\nrecommended to use a simpler form with n = 0.67. In summary,\nthe coefficient Csf is proposed as the following correlation with\ndimensionless Ra:\n1\nCsf\n1\u20444 84:3\nRa\nRa0\n0:109\n\u00f010\u00de\nAlthough Csf is a function of contact angle as well as surface\nroughness, Eq. (10) is likely to be applicable to surfaces having\nmoderate wettability similar to the surfaces tested in the present\nstudy. A more generalized and complete correlation of Csf should\nbe acquired through further studies on the roughness effect for\nvarious wetting surfaces.\nThe boiling curves in Fig. 8 exhibit significant changes of the\nCHF with surface roughness. Many researchers have simply\nreported this behavior as augmentation of CHF due to surface\nroughness. However, the extent of augmentation demonstrated\nby the experimental data shows large differences according to\nthe surface type, such as metal surfaces or silicon wafer surfaces.\nCHF variation with changing roughness on the metal surfaces has\nbeen reported to be approximately 10-20% in general [15,18]. In\ncontrast, recent studies on CHF enhancement with silicon wafer\nsurfaces show much larger augmentations with increasing roughness factor r, where roughness factor r is defined as the ratio of\nthe actual contact area to the projected area [7,19,26,27].\nTable 2 summarizes various studies regarding the effect of surface roughness on CHF for both metal surfaces and silicon wafer\nsurfaces. CHF enhancement for metal surfaces is at most 10-20%\nexcept for the data measured by Ferjanc\u02c7ic\u02c7 and Golobic\u02c7 [28] for\netched surfaces, which exhibited approximately a 50% enhancement. Surfaces polished with sandpapers normally showed a\n10-20% increase in CHF, whereas surfaces etched in diluted acid\nexhibited larger enhancements, as much as 51%. In contrast, the\nFig. 10. Comparison between experimental data and the correlation (Eq. (8)).\nFig. 9. Relation between dimensionless h and dimensionless q00 according to the\nsurface roughness.\nFig. 8. Boiling curves with increasing Ra from 0.041 lm to 2.36 lm.\n998\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\nenhancement of CHF on silicon wafer surfaces is more pronounced\nand shows more than a 100% increase in CHF, depending on the\nroughness factor, r. The considerably higher enhancement of CHF\non the silicon surfaces can be attributed to the increased capillary\nwicking phenomenon with increasing surface roughness. Moreover, because most silicon surfaces were super-hydrophilic, aided\nby the nanostructures, it is believed that capillary wicking is more\nintensive in the microgeometries on the silicon surfaces. Because\ncapillary pressure exists if the surface is hydrophilic, the copper\nsurfaces having moderate wettability in the present study certainly\nhave the capillary wicking effect.\nIt is already discussed that the static and dynamic contact angles\nviewed\nin\nthe\nnormal-to-the-scratch\ndirection\nconsistently\ndecrease with increasing Ra because of the capillary wicking (Figs. 5\nand 7). Fig. 11 shows the model of a hovering bubble on the\nmodified surface structures created by the current surface roughness following the original model proposed by Haramura and Katto\n[29]. They explained that CHF occurs at the dry-out when the liquid\nsublayer beneath the hovering bubble completely evaporates. In\nthe case of a perfectly smooth surface, the liquid amount in the liquid sublayer is established at the initial stage of the bubble cycle\nwithout any additional supply. However, for roughened surfaces,\nadjacent liquid is likely to be transported to the sublayer by capillary wicking. This additional liquid supply could delay the dry-out\nof the liquid sublayer at the same q00 where CHF occurs at the perfectly smooth surface, thus augmenting the CHF at the roughened\nsurface. Because the capillary wicking increases further with surface roughness, the augmentation of CHF is predicted to increase\nas well. The CHF measurements in the present study clearly\ndemonstrate this fact with CHF increasing from 775 kW/m2 at the\nsmoothest surface (Ra = 0.041 lm) to 1625 kW/m2 at the roughest\nsurface (Ra = 2.36 lm).\nThe CHF model, including the wettability effect on the conventional hydrodynamic model, was first proposed by Kandlikar [24].\nHe successfully added the wettability effect in his CHF model by\nbalancing momentum change due to evaporation with the gravity\nand surface tension forces exerted on the bubble. Recently, some\nresearchers considered the contribution of surface roughness to\nCHF as an additional term to Kandlikar's CHF model. Ahn et al.\n[19] ascribed the large increase of CHF on their super-hydrophilic\nsurfaces to the existence of additional liquid spreading above the\nwettability effect. This liquid spreading is thought to be another\nexpression of capillary wicking. As shown in Table 2, Chu et al.\n[7] modified the Kandlikar correlation to accommodate the effect\nof surface roughness by changing cos h to r cos h, where r is the\nroughness factor. Kim et al. [27] also proposed a CHF correlation\nincluding the surface roughness effect by adding a capillary wicking term to the Kandlikar model. Although various attempts were\nmade to fit the capillary effect into the CHF model for explaining\nthe large augmentation on silicon surfaces, an appropriate CHF correlation accounting for the roughness effect on metal surfaces is\ndifficult to analyze. Because a different roughness parameter r is\nnormally used for silicon surfaces, a new correlation using Ra is\nrequired to account for the roughness effect on CHF for metal\nsurfaces.\nFor CHF modeling on the present metal surfaces, it can be\nthought of as having many small capillary tubes beneath the vapor\nbubble as shown in Fig. 12. Force balance between momentum\nchange due to evaporation and forces acting on the vapor bubble\ncan then be analyzed in a similar way to Kandlikar's original\napproach, with an additional capillary force term. Quan et al.\n[30] first considered capillary wicking due to surface roughness\nas an additional force term in the force balance equation:\nFM 1\u20444 FS;1 \u00fe FS;2 \u00fe FG \u00fe FC\n\u00f011\u00de\nwhere FM is the momentum change due to the evaporation at the\ninterface and Fs,1, Fs,2, FG, and FC refer to surface force at the bottom\nof the bubble, surface force at the top of the bubble, gravity force,\nand capillary wicking force, respectively.\nFM 1\u20444 1\nqv\nq00\nI\nhfg\n2\nHb\n\u00f012\u00de\nTable 2\nPrevious studies regarding the effect of surface roughness on CHF for metal and silicon surfaces.\nSurface\ntype\nAuthor\nSurface Fluid\nRoughness\nparameter\nRoughness\nrange\nWettability\nh\nEffect on CHF\nCorrelation\nMetal\nRamilison\net al. [15]*\nCopper Various\nRms\nroughness,\nRq\n2-12 lm\nVarious\n0-\n40\n\u00b110-20%\nenhancement\nq00\nCHF\nq00\nCHF;Z 1\u20444 0:0336\u00f0p hr\u00de3:0\u00f0Rq\u00de0:125\nFerjanc\u02c7ic\u02c7\nand Golobic\u02c7\n[16,28]\nSS 302,\nsteel\n1010\nFC-72,\nwater\nRa\n0.02-1.5 lm\nNot reported\n-\nMax 51%\nincrease\n(etched\nsurface)\nq00\nCHF 1\u20444 a ln\u00f0Ra\u00de \u00fe b\nAhmad et al.\n[17]\nCopper R-123\nPa (Ra\nwithout\ncut-off\nfilter)\n3.5 lm\nHighly wetting fluid\n-\n225 kW/m2\nNo correlation\nGuan et al.\n[18]**\nBrass\nPentane,\nhexane,\nFC-72\nRq\n0.15-5 lm\nHighly wetting fluids\n-\nIncreases 1.15\ntimes\nq00\nCHF\nq00\nCHF;smooth 1\u20444\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\nA2\u00fe\nffiffiffiffiffiffiffiffi\nA4\u00fe4\np\n2\nq\nSi wafer Honda et al.\n[26]\nSi\nFC-72\nr\n2.2\nNot reported\n-\nIncreases 1.8-\n2.3 times\nNo correlation\nChu et al.\n[7]***\nSi\nWater\nr\n3.6-13.3\nSuper-hydrophilic\n(micro/nanostructure)\n0\nMax.\n2500 kW/m2\nK 1\u20444\n1\u00fecos h\n16\n2\u00f01\u00fer cos hrec\u00de\np\u00f01\u00fecos h\u00de \u00fe p\n4 \u00f01 \u00fe cos h\u00de cos /\nh\ni1=2\nO'Hanley\net al. [8]\nSi\nWater\nRa/Rq/Rz/r\n0.4-7.2 lm (Ra),\n0-1.44 (r)\nHydrophilic and\nhydrophobic\n0-\n140\nRoughness has\nno effect\nNo correlation\nKim et al.\n[27]\nSi\nWater\nr\n6.46-10.75\nSuper-hydrophilic\n(nanostructure)\n6.97-\n10.5\n1145-\n2143 kW/m2\nq00\nCHF 1\u20444 q00\nCHF;Kandlikar \u00fe Bhfgql\u00f01 a\u00deW2=k2\nRT\nGuan et al.\n[18]**\nSi\nPentane,\nhexane,\nFC-72\nd (hoodoo\ndia.)\n10-80 lm\nHighly wetting fluids\n-\nIncreases\n1.05-1.67\ntimes\nq00\nCHF\nq00\nCHF;smooth 1\u20444\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\nA2\u00fe\nffiffiffiffiffiffiffiffi\nA4\u00fe4\np\n2\nq\n* hr: receding contact angle.\n** A: a dimensionless variable including the fluid properties and the wicking velocity.\n*** K: CHF parameter coming from the relation q00\nCHF 1\u20444 K hfgq1=2\nv\nrg\u00f0ql qv\u00de\n1=4.\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\n999\nFS;1 1\u20444 r\n\u00f013\u00de\nFS;2 1\u20444 r cos h\n\u00f014\u00de\nFG 1\u20444 1\n2 g\u00f0ql qv\u00deH2\nb\n\u00f015\u00de\nwhere the gravity force is formulated with regard to a horizontal\nheated surface facing upward. Bubble height Hb is related to bubble\ndiameter Db by geometry and Db is assumed to be half of the Taylor\nunstable wavelength kT in the same way that the Kandlikar model\ndoes.\nHb 1\u20444 Db\n2 \u00f01 \u00fe cos h\u00de\n\u00f016\u00de\nDb 1\u20444 kT\n2 1\u20444 p\nr\ng\u00f0ql qv\u00de\n1=2\n\u00f017\u00de\nCapillary force can be derived starting from the Young-Laplace\nequation for capillary pressure inside a small tube:\nPc 1\u20444 2r cos h\nRc\n\u00f018\u00de\nwhere Rc refers to the radius of the capillary tube. Now, it is\nassumed that many capillary tubes lie beneath a large vapor bubble.\nThen, Rc is reasonably inferred to be proportional to the average\nroughness, Ra:\nRc / Ra\n\u00f019\u00de\nThe capillary force is determined by multiplying the capillary\npressure and the tube cross-sectional area:\nFC 1\u20444 NpR2\ncPc 1\u20444 pNR2\nc\n2r cos h\nRc\n1\u20444 2pNRcr cos h\n\u00f020\u00de\nThe number of capillary tubes N is also considered to be inversely proportional to the mean spacing of the surface roughness Sm:\nN / 1\nSm\n\u00f021\u00de\nUsing Eqs. (19) and (22), we can arrive at a relationship for capillary force as\nFC 1\u20444 2pC\nRa\nSm\nr cos h\n\u00f022\u00de\nIn Eq. (22), C is a constant of proportionality.\nSubstituting all force terms, Eqs. (12)-(15) and (22), into Eq.\n(11) results in\n1\nqv\nq00\nI\nhfg\n2\nHb 1\u20444 r \u00fe r cos h \u00fe 1\n2 g\u00f0ql qv\u00deH2\nb\n\u00fe 2prC\nRa\nSm\ncos h\n\u00f023\u00de\nRearranging Eq. (23) obtains\nq00\nI 1\u20444 hfgq1=2\nv\nrg\u00f0ql qv\u00de\n1=4 2\np \u00fe p\n4 \u00f01 \u00fe cos h\u00de \u00fe 4C cos h\n1 \u00fe cos h\nRa\nSm\n1=2\n\u00f024\u00de\nIf the surface roughness is neglected, then the last term in the\nbracket on the right side in Eq. (24) disappears and the remaining\nequation is the same as that of Kandlikar's CHF model of the horizontally oriented surface. Once heat flux at the interface q00\nI is\nderived, CHF at the heated wall can be obtained through the following relation between q00\nI and q00\nCHF [24]:\nq00\nCHF 1\u20444 \u00f01 \u00fe cos h\u00de\n16\nq00\nI\n\u00f025\u00de\nThough Eq. (25) is based on physical reasoning, the predicted\nvalue on the mirror surface (Ra 0) exhibits a large difference from\nthe empirical data reported by some researchers. Although Eq. (25)\ngives a CHF value of 1205 kW/m2 for a mirror surface having a contact angle of 50 , the measured CHF ranges from 700 kW/m2 to\n1000 kW/m2 [7,19,27]. To accommodate the difference in CHF at\nthe mirror surface, a factor S is introduced for the final CHF\ncorrelation:\nq00\nCHF 1\u20444 S hfgq1=2\nv\nrg\u00f0ql qv\u00de\n1=4\n\u00f01 \u00fe cos h\u00de\n16\n2\np \u00fe p\n4 \u00f01 \u00fe cos h\u00de \u00fe 4C cos h\n1 \u00fe cos h\nRa\nSm\n1=2\n\u00f026\u00de\nFig. 11. Structure of a hovering bubble including liquid supply by capillary wicking (modification of the original drawing by Haramura and Katto [29]).\nFig. 12. Small capillary tubes beneath the bubble for modeling capillary wicking\ndue to surface roughness.\n1000\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\nIn the present study, the accommodation factor S and the constant C were obtained from Eq. (26) using the measured data-contact angles, roughness parameters (Ra and Sm), and CHFs. The static\ncontact angles captured in the parallel and normal directions to the\nscratches were averaged at all roughened surfaces. The averaged\nstatic contact angle, which was calculated to be 64.5 , is employed\nfor the calculation of S and C because the average at each surface\nshowed similar values within \u00b15 . The S and C values are found\nto be 0.811 and 87.8 for the current data set. The current value\nof accommodation factor S, 0.811, is almost identical to the value\nof 0.823 suggested by Ahn et al. [19]. As a result, the curves calculated from the final CHF correlation (Eq. (26)) at different contact\nangles (10 , 30 , 50 , and 70 ) exhibited a trend with increasing\nsurface roughness at different wettability in Fig. 13. The present\ndata are also plotted in the figure with the relevant curve obtained\nat 64.5 , the average static contact angle measured in the present\nstudy. The data show good agreement with the correlation, with\na mean absolute error of 4.1%. Fig. 13 also indicates the possibility\nof attaining higher CHF than 2500 kW/m2 at the super-hydrophilic\nroughened surfaces (h = 10 and 30 in the figure). Additional studies on super-hydrophilic and hydrophobic metal surfaces would\ngive us full understandings of the combined effect of roughness\nand wettability on CHF in boiling heat transfer.\n4. Conclusions\nThe effect of surface roughness on the nucleate boiling heat\ntransfer and CHF at copper surfaces having moderate contact\nangles in pool boiling of saturated water was investigated. The\naverage roughness Ra was varied from 0.041 lm to 2.36 lm, and\nstatic and dynamic contact angles were measured before and after\neach boiling test for all nine surfaces. From the test results and discussion, the following conclusions are deduced.\nBoth static and dynamic contact angles for tested surfaces\nshowed similar behavior with increasing surface roughness.\nThe contact angles viewed in the parallel direction tend to\nincrease with Ra, while the contact angles viewed in the normal\ndirection tend to decrease with Ra. This behavior is considered\nto result from the contact line pinning (parallel direction) and\ncapillary wicking (normal direction).\nIt was confirmed that surface roughness enhances nucleate\nboiling heat transfer because of the increased number of active\nnucleation sites. For a boiling surface having moderate wettability, coefficient Csf in the Rohsenow correlation was successfully\ncorrelated with regard to the dimensionless average roughness.\nThe heat transfer coefficient calculated from the proposed correlation shows good agreement with the experimental data.\nCHF exhibited considerable augmentation with increasing surface roughness. It increased from 775 kW/m2 at the smoothest\nsurface (Ra = 0.041 lm) to 1625 kW/m2 at the roughest surface\n(Ra = 2.36 lm). The large augmentation is believed to result\nfrom capillary wicking on the roughened surface. An appropriate CHF correlation including the capillary wicking effect was\nproposed for metal surfaces and it showed good agreement\nwith the experimental data (average 4% difference).\nReferences\n[1] M. Jakob, Heat Transfer, vol. 1, Wiley, New York, 1949, pp. 631-642.\n[2] W.M. Rohsenow, A Method of Correlating Heat Transfer Data for Surface\nBoiling of Liquids, MIT Division of Industrial Cooperation, Cambridge, Mass,\n1951.\n[3] H.M. Kurihara, J.E. Myers, The effects of superheat and surface roughness on\nboiling coefficients, AIChE J. 6 (1) (1960) 83-91.\n[4] R.I. Vachon, G.E. Tanger, D.L. Davis, G.H. Nix, Pool boiling on polished and\nchemically etched stainless-steel surfaces, J. Heat Transfer 90 (2) (1968) 231-\n238.\n[5] B.B. Mikic, W.M. Rohsenow, A new correlation of pool-boiling data including\nthe effect of heating surface characteristics, J. Heat Transfer 91 (2) (1969) 245-\n250.\n[6] A. Luke, Pool boiling heat transfer from horizontal tubes with different surface\nroughness, Int. J. Refrig 20 (8) (1997) 561-574.\n[7] K.H. Chu, Y.S. Joung, R. Enright, C.R. Buie, E.N. Wang, Hierarchically structured\nsurfaces for boiling critical heat flux enhancement, Appl. Phys. Lett. 102 (15)\n(2013) 151602.\n[8] H. O'Hanley, C. Coyle, J. Buongiorno, T. McKrell, L.W. Hu, M. Rubner, R. Cohen,\nSeparate effects of surface roughness, wettability, and porosity on the boiling\ncritical heat flux, Appl. Phys. Lett. 103 (2) (2013) 024102.\n[9] A.S. Moita, E. Teodori, A.L.N. Moreira, Influence of surface topography in the\nboiling mechanisms, Int. J. Heat Fluid Flow 52 (2015) 50-63.\n[10] M.G. Cooper, Saturation nucleate pool boiling-a simple correlation, Int. Chem.\nEng. Symp. Ser. 86 (2) (1984) 785-793.\n[11] D. Gorenflo, D. Kenning, H2 Pool Boiling, Springer, Berlin Heidelberg, 2010, pp.\n757-792.\n[12] W. Leiner, Heat transfer by nucleate pool boiling-general correlation based on\nthermodynamic similarity, Int. J. Heat Mass Transfer 37 (5) (1994) 763-769.\n[13] B.J. Jones, J.P. McHale, S.V. Garimella, The influence of surface roughness on\nnucleate pool boiling heat transfer, J. Heat Transfer 131 (12) (2009) 121009.\n[14] N. Zuber (Thesis), Hydrodynamic aspects of boiling heat transfer, 1959. No.\nAECU-4439.\n[15] J.M. Ramilison, P. Sadasivan, J.H. Lienhard, Surface factors influencing burnout\non flat heaters, J. Heat Transfer 114 (1) (1992) 287-290.\n[16] I. Golobic\u02c7, K. Ferjanc\u02c7ic\u02c7, The role of enhanced coated surface in pool boiling CHF\nin FC-72, Heat Mass Transf. 36 (6) (2000) 525-531.\n[17] S.W. Ahmad, T.G. Karayiannis, D.B.R. Kenning, A. Luke, Compound effect of\nEHD and surface roughness in pool boiling and CHF with R-123, Appl. Therm.\nEng. 31 (11) (2011) 1994-2003.\n[18] C.K. Guan, B. Bon, J. Klausner, R. Mei, Comparison of CHF enhancement on\nmicrostructured surfaces with a predictive model, Heat Transfer Eng. 35 (5)\n(2014) 452-460.\n[19] H.S. Ahn, H.J. Jo, S.H. Kang, M.H. Kim, Effect of liquid spreading due to nano/\nmicrostructures on the critical heat flux during pool boiling, Appl. Phys. Lett.\n98 (7) (2011) 071908.\n[20] M.M. Rahman, E. \u00d6l\u00e7erog \u0306lu, M. McCarthy, Role of wickability on the critical\nheat flux of structured superhydrophilic surfaces, Langmuir 30 (37) (2014)\n11225-11234.\n[21] S.J.\nKline,\nF.A.\nMcClintock,\nDescribing\nuncertainties\nin\nsingle-sample\nexperiments, Mech. Eng. 75 (1) (1953) 3-8.\n[22] Y.V. Kalinin, V. Berejnov, R.E. Thorne, Contact line pinning by microfabricated\npatterns: effects of microscale topography, Langmuir 25 (9) (2009) 5391-\n5397.\n[23] D.L. Cocke, R. Schennach, M.A. Hossain, D.E. Mencer, H. McWhinney, J.R. Parga,\nM. Kesmea, J.A.G. Gomes, M.Y.A. Mollah, The low-temperature thermal\noxidation of copper, Cu3O2, and its influence on past and future studies,\nVacuum 79 (1) (2005) 71-83.\n[24] S.G. Kandlikar, A theoretical model to predict pool boiling CHF incorporating\neffects of contact angle and orientation, J. Heat Transfer 123 (6) (2001) 1071-\n1079.\nFig. 13. Trend of Eq. (26) at different contact angles of 10 , 30 , 50 , and 70 and\ncomparison with the measured data at the contact angle of 64.5 .\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002\n1001\n[25] M.G. Kang, Effect of surface roughness on pool boiling heat transfer, Int. J. Heat\nMass Transfer 43 (22) (2000) 4073-4085.\n[26] H. Honda, H. Takamastu, J.J. Wei, Enhanced boiling of FC-72 on silicon chips\nwith micro-pin-fins and submicron-scale roughness, J. Heat Transfer 124 (2)\n(2002) 383-390.\n[27] B.S. Kim, H. Lee, S. Shin, G. Choi, H.H. Cho, Interfacial wicking dynamics and its\nimpact on critical heat flux of boiling heat transfer, Appl. Phys. Lett. 105 (19)\n(2014) 191601.\n[28] K. Ferjanc\u02c7ic\u02c7, I. Golobic\u02c7, Surface effects on pool boiling CHF, Exp. Thermal Fluid\nSci. 25 (7) (2002) 565-571.\n[29] Y. Haramura, Y. Katto, A new hydrodynamic model of critical heat flux,\napplicable widely to both pool and forced convection boiling on submerged\nbodies in saturated liquids, Int. J. Heat Mass Transfer 26 (3) (1983) 389-399.\n[30] X. Quan, L. Dong, P. Cheng, A CHF model for saturated pool boiling on a heated\nsurface with micro/nano-scale structures, Int. J. Heat Mass Transfer 76 (2014)\n452-458.\n1002\nJ. Kim et al. / International Journal of Heat and Mass Transfer 101 (2016) 992-1002",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5145
+    },
+    {
+      "number": 2,
+      "start": 5145,
+      "end": 10461
+    },
+    {
+      "number": 3,
+      "start": 10461,
+      "end": 14363
+    },
+    {
+      "number": 4,
+      "start": 14363,
+      "end": 21800
+    },
+    {
+      "number": 5,
+      "start": 21800,
+      "end": 23069
+    },
+    {
+      "number": 6,
+      "start": 23069,
+      "end": 24534
+    },
+    {
+      "number": 7,
+      "start": 24534,
+      "end": 28234
+    },
+    {
+      "number": 8,
+      "start": 28234,
+      "end": 34465
+    },
+    {
+      "number": 9,
+      "start": 34465,
+      "end": 37321
+    },
+    {
+      "number": 10,
+      "start": 37321,
+      "end": 44549
+    },
+    {
+      "number": 11,
+      "start": 44549,
+      "end": 45644
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-jinsub-kim-seongchul-jun-ram-laksnarain-",
+      "number": null,
+      "title": "Jinsub Kim, Seongchul Jun, Ram Laksnarain, Seung M. You \u21d1",
+      "level": 1,
+      "start": 105,
+      "end": 5049
+    },
+    {
+      "id": "sec-1-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1,
+      "start": 5049,
+      "end": 9455
+    },
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 9455,
+      "end": 34465
+    },
+    {
+      "id": "sec-3-fs-1-r",
+      "number": null,
+      "title": "FS;1 \u00bc r",
+      "level": 1,
+      "start": 34465,
+      "end": 34481
+    },
+    {
+      "id": "sec-4-fs-2-r-cos-h",
+      "number": null,
+      "title": "FS;2 \u00bc r cos h",
+      "level": 1,
+      "start": 34481,
+      "end": 34986
+    },
+    {
+      "id": "sec-5-pc-2r-cos-h",
+      "number": null,
+      "title": "Pc \u00bc 2r cos h",
+      "level": 1,
+      "start": 34986,
+      "end": 35343
+    },
+    {
+      "id": "sec-6-fc-npr2",
+      "number": null,
+      "title": "FC \u00bc NpR2",
+      "level": 1,
+      "start": 35343,
+      "end": 35628
+    },
+    {
+      "id": "sec-7-fc-2pc",
+      "number": null,
+      "title": "FC \u00bc 2pC",
+      "level": 1,
+      "start": 35628,
+      "end": 35804
+    },
+    {
+      "id": "sec-8-hb-r-r-cos-h-1",
+      "number": null,
+      "title": "Hb \u00bc r \u00fe r cos h \u00fe 1",
+      "level": 1,
+      "start": 35804,
+      "end": 35899
+    },
+    {
+      "id": "sec-9-i-hfgq1-2",
+      "number": null,
+      "title": "I \u00bc hfgq1=2",
+      "level": 2,
+      "start": 35899,
+      "end": 36866
+    },
+    {
+      "id": "sec-10-chf-s-hfgq1-2",
+      "number": null,
+      "title": "CHF \u00bc S \u0001 hfgq1=2",
+      "level": 2,
+      "start": 36866,
+      "end": 40583
+    },
+    {
+      "id": "sec-11-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 40583,
+      "end": 45644
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "shows the design of the test heater used in collecting data",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-1_p3.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Design of the test heater for the boiling experiment.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Detailed drawing of the boiling test chamber.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-2_p3.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Static angles in the parallel direction, measured before the",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-5_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "SEM images of surfaces having different roughness (\u00011000).",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-3_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Static contact angles at two directions: (a) parallel to the scratches, (b) normal to the scratches (Ra = 0.169 lm, 600 grit #1).",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-4_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Static contact angles for all nine surfaces at the parallel and normal directions.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-5_p5.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Advancing and receding contact angles with Ra for two different directions.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-7_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Measurement of dynamic contact angles (Ra = 0.169 lm): (a) advancing contact angle (before boiling, parallel), (b) receding contact angle (before boiling, parallel).",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-6_p6.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "provides a comparison of the experimental data with Eq.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-10_p7.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Comparison between experimental data and the correlation (Eq. (8)).",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-10_p7.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Relation between dimensionless h and dimensionless q00 according to the",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-9_p7.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Boiling curves with increasing Ra from 0.041 lm to 2.36 lm.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-8_p7.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Structure of a hovering bubble including liquid supply by capillary wicking (modi\ufb01cation of the original drawing by Haramura and Katto [29]).",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-11_p9.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Small capillary tubes beneath the bubble for modeling capillary wicking",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-12_p9.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "Trend of Eq. (26) at different contact angles of 10\u0003, 30\u0003, 50\u0003, and 70\u0003 and",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2016-roughness-moderate-wettability\\kim_2016_roughness_moderate_wettability_fig-13_p10.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "shows the roughness parameters of all nine surfaces",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "summarizes various studies regarding the effect of sur-",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 11,
+    "ingest": "pymupdf"
+  }
+}

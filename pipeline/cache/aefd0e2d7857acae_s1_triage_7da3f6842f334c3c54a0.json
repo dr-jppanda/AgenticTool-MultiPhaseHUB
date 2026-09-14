@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool boiling experiment characteristics on the pure copper surface",
+  "year": 2023,
+  "reason": "The paper reports its own steady-state pool boiling measurements on a pure copper surface, tabulating heat flux, wall superheat, HTC (72.25 kW/(m2.K)) and CHF (1093.28 kW/m2)."
+}

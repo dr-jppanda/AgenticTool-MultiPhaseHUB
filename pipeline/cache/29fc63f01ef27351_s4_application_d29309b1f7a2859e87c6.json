@@ -1,0 +1,32 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "these four quantities are measured from high-speed movies of saturated pool boiling of FC-77 from two aluminum surfaces of different roughness at four different heat fluxes to generate a detailed database of experimental results."
+        },
+        {
+          "quote": "It is suggested that new bubble nucleation correlations be\ndeveloped which incorporate the important effect of surface\nroughness, so that recent developments in mechanistic modeling\ncan be applied for a broad range of boiling surfaces."
+        }
+      ]
+    },
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": false,
+      "confidence": "low",
+      "evidence": [
+        {
+          "quote": "refrigeration cycles, and electronics. Roughened or otherwise en"
+        },
+        {
+          "quote": "Cooling Technologies Research Center, School of Mechanical Engineering and Birck Nanotechnology Center, Purdue University, West Lafayette, IN 47907-2088, USA"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "record_id": "allred-2018-superhydrophobic-trl",
+  "extractor": "mhtdb-digitize/v1",
+  "series": [
+    {
+      "series_id": "fig-4-shpho-cb",
+      "figure_id": "fig-4",
+      "label": "SHPho-CB",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          4.18,
+          2.47
+        ],
+        [
+          7.06,
+          5.59
+        ],
+        [
+          9.18,
+          9.71
+        ],
+        [
+          12.97,
+          17.14
+        ],
+        [
+          14.79,
+          20.57
+        ],
+        [
+          22.58,
+          24.57
+        ],
+        [
+          24.66,
+          28.19
+        ],
+        [
+          26.74,
+          31.81
+        ],
+        [
+          29.0,
+          35.62
+        ]
+      ],
+      "confidence": 0.85,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Panel (a) only (top-left panel of this multi-panel figure). Curve isolated by red RGB color mask (square markers, red dotted connecting line); marker centers found as connected-component centroids of red-colored pixels. Axis calibrated from the plot frame border pixels (x=0 at px147.5, x=30 at px984.5; y=0 at px673.5, y=120 at px43.5), cross-checked against the pixel positions of the printed tick-label glyphs (0,5,10,...,30 and 0,20,...,120), which matched the frame-based calibration within ~1 px. No embedded vector paths were present for this panel (flat raster image)."
+    },
+    {
+      "series_id": "fig-4-shpho-wenzel",
+      "figure_id": "fig-4",
+      "label": "SHPho-Wenzel",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          6.98,
+          8.61
+        ],
+        [
+          7.96,
+          18.48
+        ],
+        [
+          8.64,
+          28.19
+        ],
+        [
+          9.03,
+          37.94
+        ],
+        [
+          9.48,
+          47.96
+        ],
+        [
+          9.67,
+          57.8
+        ],
+        [
+          9.92,
+          67.5
+        ],
+        [
+          10.32,
+          76.5
+        ],
+        [
+          10.53,
+          87.34
+        ],
+        [
+          10.79,
+          97.52
+        ],
+        [
+          11.11,
+          107.43
+        ],
+        [
+          11.42,
+          114.67
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Panel (a) only. Curve isolated by blue RGB color mask (circular markers, blue dotted connecting line); markers are well separated with no overlap from other curves, giving a clean detection. Same axis calibration as the SHPho-CB series. A blue arrow near the top of this curve points to panel (b), not a data point, and was excluded (it forms a much larger, wider connected component than the circular markers and was filtered out)."
+    },
+    {
+      "series_id": "fig-4-hydrophilic",
+      "figure_id": "fig-4",
+      "label": "Hydrophilic",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          10.8,
+          12.47
+        ],
+        [
+          14.59,
+          26.48
+        ],
+        [
+          17.11,
+          40.66
+        ],
+        [
+          18.78,
+          54.67
+        ],
+        [
+          19.55,
+          68.85
+        ],
+        [
+          19.46,
+          83.81
+        ],
+        [
+          19.45,
+          98.18
+        ],
+        [
+          22.0,
+          110.95
+        ]
+      ],
+      "confidence": 0.8,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Panel (a) only, the bare-copper reference surface. Curve isolated by green RGB color mask (diamond markers, green dotted connecting line). Near x\u224819.5\u00b0C the curve rises almost vertically through three closely-spaced diamond markers; these were still individually resolved as separate connected components and ordered by increasing heat flux to follow the curve. A green arrow near the top of the curve (pointing to panel (b)) was excluded as it forms a much larger connected component than the diamond markers. Same axis calibration as the other two series."
+    },
+    {
+      "series_id": "fig-4-zuber-chf",
+      "figure_id": "fig-4",
+      "label": "Zuber [1]",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          109.9
+        ],
+        [
+          30.0,
+          109.9
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Horizontal black reference line (Zuber critical-heat-flux correlation, annotated 'Zuber [1]' with a leader line), not one of the three tested surfaces, but included since it is a distinguishable, clearly labeled series spanning the full plot width at a constant heat flux (~110 W/cm2). Row position measured directly from the solid black horizontal line's pixel rows."
+    }
+  ]
+}

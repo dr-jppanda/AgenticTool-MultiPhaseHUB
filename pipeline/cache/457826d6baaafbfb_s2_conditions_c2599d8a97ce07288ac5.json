@@ -1,0 +1,115 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 2.1,
+    "max": 115.0,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "film boiling occurred shortly after incipience, prior to reaching steady-state conditions for the first heat flux test point of 2.1 W=cm2"
+      },
+      {
+        "quote": "up to a heat flux of 45 W=cm2, at which point testing ceased"
+      },
+      {
+        "quote": "Nucleate boiling is observed until CHF occurs at 110 W=cm2, matching the limit predicted by Zuber [1]."
+      },
+      {
+        "quote": "surface to operate in the nucleate boiling regime up to a CHF of 115 W=cm2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": 158.0,
+    "max": 165.0,
+    "unit": "deg",
+    "evidence": [
+      {
+        "quote": "Laser-etched copper surface with PDMS coating\n158 deg"
+      },
+      {
+        "quote": "Nanostructured\nsuperhydrophobic\n165 deg"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

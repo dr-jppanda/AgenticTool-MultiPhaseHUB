@@ -1,0 +1,576 @@
+{
+  "record_id": "howard-2008-photographic-study-of-pool-boiling",
+  "doc_id": "77cbb7e02dcf070c",
+  "title": "Photographic study of pool boiling CHF from a downward-facing convex surface",
+  "source_pdf": "howard_2008_photographic_study_of_pool_boiling.pdf",
+  "n_pages": 7,
+  "n_figures": 10,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 1,
+      "caption": "shows a schematic of the test apparatus. It consists of a 3.2-"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 2,
+      "caption": "(b) shows detailed dimensions of an individual heater. To"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 2,
+      "caption": "shows boiling curves for the nine heaters forming the 90-"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 2,
+      "caption": "(b) shows the transient progression of the temperature"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Test apparatus for pool boiling from downward-facing convex surface."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "(a) Arrangement of heaters along downward-facing convex surface. (b) Single heater details. (c) Heater insulation."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "Vapor layer along downward-facing convex surface at 25% of CHF."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 5,
+      "caption": "(a) Local boiling curves for nine heaters. (b) Transient heater temperatures following CHF."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "Development of vapor layer along downward-facing convex surface at CHF−."
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "Development of vapor layer for heaters 1 and 2 at CHF−."
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-0-alicia-h-howard-issam-mudawar",
+      "number": null,
+      "title": "Alicia H. Howard, Issam Mudawar ⁎",
+      "level": 1
+    },
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-1-international-communications-in-heat-and",
+      "number": null,
+      "title": "International Communications in Heat and Mass Transfer",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 12,
+    "resolved": 12,
+    "unresolved": 0,
+    "exact": 12
+  },
+  "points_ref": "points/howard-2008-photographic-study-of-pool-boiling.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Photographic study of pool boiling CHF from a downward-facing convex surface",
+    "year": 2008,
+    "reason": "The paper reports its own steady-state heat flux and surface temperature measurements plus boiling curves and photographic CHF observations for pool boiling of FC-87 on a downward-facing convex surface (\"Heat transfer measurements and photographic studies are performed to capture the detailed evolution of the liquid-vapor interface near critical heat flux (CHF)\")."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 2.0,
+      "max": 2.0,
+      "unit": "°C",
+      "evidence": [
+        {
+          "quote": "Immersion heaters in the reservoir are used to maintain the\nbulk fluid temperature at a subcooling of 2 °C.",
+          "resolved": true,
+          "char_span": [
+            4307,
+            4414
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-alicia-h-howard-issam-mudawar",
+              "number": null,
+              "title": "Alicia H. Howard, Issam Mudawar ⁎",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 3.2,
+      "max": 3.2,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "The test\nsurface, with a width of 3.2 mm and a 102.6-mm radius, consists of a series of nine heaters that dissipate\nequal power.",
+          "resolved": true,
+          "char_span": [
+            572,
+            700
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-alicia-h-howard-issam-mudawar",
+              "number": null,
+              "title": "Alicia H. Howard, Issam Mudawar ⁎",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The heated surface and liquid cavity in the flange are both\n3.2-mm thick, which helps restrain transverse fluid motion and render\nthe liquid-vapor interface very discernible.",
+          "resolved": true,
+          "char_span": [
+            4057,
+            4231
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-alicia-h-howard-issam-mudawar",
+              "number": null,
+              "title": "Alicia H. Howard, Issam Mudawar ⁎",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "inclined",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "oxygen-free copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": "fully_developed",
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Near-saturated pool boiling experiments and flow visualization\nstudies were performed on a 90-degree slice of a downward-facing\nconvex surface to explore liquid-vapor interfacial behavior near CHF.",
+          "resolved": true,
+          "char_span": [
+            16043,
+            16240
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "As the bubbles grow in volume, they begin to coalesce into a\nvapor layer on the bottom heaters.",
+          "resolved": true,
+          "char_span": [
+            13837,
+            13932
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "downward_facing_convex_surface",
+      "evidence": [
+        {
+          "quote": "nine\nheaters are inserted along the curved portion of the G-10 spacer to\ncreate a 90-degree downward-facing convex surface with a radius of\n102.6 mm.",
+          "resolved": true,
+          "char_span": [
+            3907,
+            4056
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-alicia-h-howard-issam-mudawar",
+              "number": null,
+              "title": "Alicia H. Howard, Issam Mudawar ⁎",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": false,
+      "gate_reason": "new vocabulary term"
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "localized steady state measurements of both heat flux and\nsurface temperature",
+          "resolved": true,
+          "char_span": [
+            3474,
+            3551
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-alicia-h-howard-issam-mudawar",
+              "number": null,
+              "title": "Alicia H. Howard, Issam Mudawar ⁎",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "During\ntesting, steady state thermocouple readings are curve-fit to radial\nlocation",
+          "resolved": true,
+          "char_span": [
+            6316,
+            6399
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-international-communications-in-heat-and",
+              "number": null,
+              "title": "International Communications in Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "FC-87",
+        "evidence": [
+          {
+            "quote": "It consists of a 3.2-\nmm thick boiling flange that is connected to a large reservoir where\nthe bulk fluid, Fluorinert FC-87, is stored and conditioned.",
+            "resolved": true,
+            "char_span": [
+              3625,
+              3776
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-alicia-h-howard-issam-mudawar",
+                "number": null,
+                "title": "Alicia H. Howard, Issam Mudawar ⁎",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Prior to each test, the heater surfaces are polished lightly with a\nCrocus cloth and cleaned with acetone to ensure reproducible boiling\nresults.",
+            "resolved": true,
+            "char_span": [
+              6722,
+              6867
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-international-communications-in-heat-and",
+                "number": null,
+                "title": "International Communications in Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "nuclear",
+        "tier2": "accident_loca",
+        "stated": true,
+        "evidence": [
+          {
+            "quote": "research, and maintaining reactor vessel integrity during a severe",
+            "resolved": true,
+            "char_span": [
+              1861,
+              1927
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-alicia-h-howard-issam-mudawar",
+                "number": null,
+                "title": "Alicia H. Howard, Issam Mudawar ⁎",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogenics",
+        "tier2": "superconducting",
+        "stated": true,
+        "evidence": [
+          {
+            "quote": "vessels during a fire, cooling electronic cables in superconductivity",
+            "resolved": true,
+            "char_span": [
+              1791,
+              1860
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-alicia-h-howard-issam-mudawar",
+                "number": null,
+                "title": "Alicia H. Howard, Issam Mudawar ⁎",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Photographic study of pool boiling CHF from a downward-facing convex surface",
+  "si": {
+    "dT_sub_min": 2.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 2.0,
+    "D_h_min": 0.0032,
+    "D_h_unit": "m",
+    "D_h_max": 0.0032
+  },
+  "fluid_properties": {},
+  "derived": {},
+  "derived_tags": [
+    "scale:conventional"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-14",
+    "pending": 2,
+    "unconfirmed_fields": 2
+  },
+  "points_summary": {
+    "n_series": 4,
+    "n_points": 35,
+    "figures": [
+      "fig-3"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

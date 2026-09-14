@@ -1,0 +1,457 @@
+{
+  "doc_id": "c4cea35fc0b3f15c",
+  "source": "papers\\dickson_2024_heat_transfer_of_uncoated_and.pdf",
+  "text": "Applied Thermal Engineering 236 (2024) 121757\nAvailable online 6 October 2023\n1359-4311/\u00a9 2023 Elsevier Ltd. All rights reserved.\nResearch Paper\nHeat transfer of uncoated and nanostructure coated commercially\nmicro-enhanced refrigeration tubes under pool boiling conditions\nDian Dickson a, Bradley D. Bock a,*, John R. Thome b\na Department of Mechanical and Aeronautical Engineering, Faculty of Engineering, the Built Environment and IT, University of Pretoria, Pretoria, South Africa\nb JJ Cooling Innovation, Ecole Polytechnique F \u0301ed \u0301erale de Lausanne (EPFL) Park, B\u02c6atiment A, CH-1015 Lausanne, Switzerland\nA R T I C L E I N F O\nKeywords:\nNanostructures\nMultiscale\nHeat transfer coefficients\nPool boiling\n3D enhanced\nA B S T R A C T\nThe heat transfer performance of commercially produced micro-enhanced tubes with and without a nanocoating\nwas investigated under pool boiling of saturated refrigerant. These multiscale enhancements were on the outside\nof 19 mm horizontal copper tubes heated by water to determine the effectiveness of this multiscale enhancement\ntechnique on industrially relevant tubes and geometry. The tubes tested were a plain tube roughened by sand\u00ad\npaper, a low finned GEWA-KS tube and two micro-enhanced re-entrant cavity tubes, the GEWA-B5 and EHPII.\nThe tubes were tested in R134a at saturation temperatures of 5 \u25e6C and 25 \u25e6C across a range of heat fluxes from\n20 kW/m2 to 100 kW/m2 under pool boiling conditions. The nanocoating applied to the tubes produced a forest\nof copper oxide nanostructures on the surface, increasing wickability of the surface. A Scanning Electron Mi\u00ad\ncroscopy showed that copper oxide nanocoatings coated all micro-enhanced tubes evenly without impeding the\nsurface features or significantly blocking the re-entrant cavities. For the uncoated tubes in pool boiling, the heat\ntransfer coefficients of the EHPII was up to 519 % greater than those of the plain roughened tube, the GEWA-B5\nwas up to 539 % higher than the roughened tube and the GEWA-KS was at best 64 % higher than those of the\nplain roughened tube. Increases in the saturation temperature to 25 \u25e6C produced minor improvements in heat\ntransfer coefficients. The application of the copper oxide nanocoating resulted in generally decreased heat\ntransfer performance by approximately 40 % on average compared to the uncoated tubes, with the GEWA-B5\ntube the worst affected. Degradation of the heat transfer is thought on plain surfaces to be due to the flooding\nof nucleation sites, while re-entrant cavity style enhanced surfaces were thought to experience degraded sensible\nand latent heat transfer due to impeded flow in the microstructure capillary channel, as bubbles were noted to be\ntrapped in the channels. It is recommended that the heat transfer at much higher heat flux ranges be explored for\npossible HTC enhancement.\n1. Introduction\nPool boiling of refrigerants on the outside of tubes is a commercially\nimportant process, with applications in a wide array of fields, from\ncurrent uses in fields such as refrigeration and nuclear energy, to future\nopportunities in electronics cooling and solar energy generation. Solar\nenergy generation using refrigerants in organic Rankine cycles [1,2] in\nparticular still requires substantial improvements in heat transfer\neffectiveness to reduce capital costs to allow for competitiveness with\nexisting photovoltaic systems [3].\nRefrigeration tube manufacturers commercially produce many\nmicro-enhanced tubes that enhanced the outside tube surface heat\ntransfer coefficients (HTCs). The addition of fins primarily increases the\nheat transfer through increased surface area [4] while re-entrant cavities\nare used for pool boiling to increase heat transfer through the action of\nthe fluid flowing through the cavity network driven by a bubble\npumping action, resulting in increased sensible and evaporation heat\ntransfer, while also increasing nucleation site density [5].\nMultiscale enhancements however may offer the next step in heat\ntransfer enhancement. It was observed that there was an impact on heat\ntransfer by multiple surface enhancements through micro dendritic fin\narrays on a copper substrate which increased HTCs by approximately\n200 % compared to a plain surface in a review by Liang and Mudawar\n[6]. Commercially micro-enhanced tubes comprise tubes with intricate\n3D structures easily visible on its surface which preliminary enhances\nheat transfer. A multiscale enhancement approach is undertaken where\nthese 3D enhanced tubes are coated with a nanostructure coating which\n* Corresponding author.\nE-mail address: bradley.bock@up.ac.za (B.D. Bock).\nContents lists available at ScienceDirect\nApplied Thermal Engineering\njournal homepage: www.elsevier.com/locate/apthermeng\nhttps://doi.org/10.1016/j.applthermaleng.2023.121757\nReceived 14 June 2023; Received in revised form 5 September 2023; Accepted 6 October 2023\nApplied Thermal Engineering 236 (2024) 121757\n2\nmay enhance the heat transfer coefficients even further in a quick and\ninexpensive way. A study by Im et al. [7] in the same review recorded an\nundisclosed but measurable improvement in HTCs under pool boiling\nconditions on a multiscale surface composed of microgrooves with CuO\nflower-like nanocoatings.\nA variety of nanocoatings exist, typically with the focus of creating\neither hydrophobic or hydrophilic surface properties, as well as other\nrelevant properties, such as surface wickability. Typically, on plain\nsurfaces, it is believed that hydrophilic coatings deliver lower HTCs\nunder pool boiling than hydrophobic coatings as they result in HTC\ndegradation from nucleation site flooding [8-12].\nAn experimental study by Sen et al. [13] conducted water pool\nboiling heat transfer on copper oxide (CuO) nanocoated copper plate\nsurfaces prepared with grade 1000 grit sandpaper to micro-enhance the\ntube for more nucleation sites. The creation of both hydrophilic and\nhydrophobic surfaces was possible through simple changes to the same\nbase chemical solution used for the coating. It was found that the\nenhanced capillary action feeding water to the microstructure nucle\u00ad\nation sites prohibited early onset of a vapour blanket to increase the CHF\npoint. It was also found that the CuO nanocoated hydrophobic surface\nenhanced the heat transfer the most, with HTCs approximately 2 times\nmore than the bare copper surface. The hydrophilic surface also\nenhanced heat transfer, where the HTCs were approximately 1.3 times\nmore than the bare copper surface HTCs at best. It was stated that the\nhydrophobic surface requires less surface energy for the onset of\nnucleate boiling - where the low affinity to liquid by the surface influ\u00ad\nence the wettability to result in lower energy exertion by the surface\ntension of the liquid to draw up away from the surface. However, such\nsurfaces reaches the CHF point very soon as opposed to the hydrophilic\nsurface [13].\nAn experimental investigation by Patel et al. [14] tested boiling of\nwater on CuO nanocoated copper plates showed that the hydrophilic\nsurface increased HTCs between 40 % and 80 %. The CuO coating\nsynthesis was through a spinning technique which increased the\nwettability and nucleation site density [14]. The roughness was also\nincreased by this particular CuO coating type and is the likely cause of\nthe significant increase in nucleation site density.\nWhen considering multiscale enhancements, the interaction of the\nhydrophilic nanostructures together with microstructures may be\nbeneficial, as studies [6,15,16] suggest high surface wettability from\nextreme hydrophilic nanocoatings may increase HTCs on micro-\nenhanced tubes under pool boiling due to less internal dryout among\nthe microstructures during boiling because of the surface's strong liquid\naffinity. This has been proven for microstructures that themselves wick\nliquids. A study by Kunugi et al. [17] found HTC enhancement through a\nCuO nanoparticle coating performing around 200 % better than a bare\ncopper plate for a co-current heat exchanger case, as well as performing\nheat transfer experiments on CuO, carbon-nanotube and aluminium\noxide coatings on plain copper to show an approximate 180 % heat\ntransfer enhancement. However, the exact mechanism for this heat\ntransfer remains vague and requires further investigation. A significant\nobservation was that the cases in which HTC enhancement took place\nwas mostly on porous nanocoatings. It should be noted though that this\ncan also be achieved with microporous coatings. Lee et al. [18] created\nporous layers as micro-scale enhancements by coating copper powders\nthrough a sintering process on plain tubes to enhance wettability and\nimprove wicking. It was found that the heat transfer was doubled\nthrough the aid of the coating facilitating capillary wicking for complete\nwetting.\nWhen using nanostructures to facilitate the wicking, the results\nappear to be unclear among literature regarding the enhancement of\nheat transfer. This can be observed as by the experiments where copper\nmicropillars have been oxidized to create a 'structured' CuO nano\u00ad\ncoating by Chu et al. [6,10,19]. Vertical copper dendrites in a multiscale\nNomenclature\nSymbol\nC\nconstant or coefficient\ncp\nspecific heat capacity [J/kg\u22c5K]\nD\ndiameter [m]\nd\ndifference [m]\nf\nfriction factor\npH\npower of Hydrogen\nh\nheat transfer coefficient\n[\nW/m2\u22c5K\n]\nk\nthermal conductivity [W/m\u22c5K]\nK\nratio\nm\nmass [kg]\nNu\nNusselt number\nPr\nPrandtl number\nq\nheat flux\n[\nW/m2]\nR\nthermal resistance\n[\nm2\u22c5K/W\n]\nRe\nReynolds number\nT\ntemperature [K]\nU\noverall heat transfer coefficient\n[\nW/m2\u22c5K\n]\nx\nlength [m]\nSubscripts\nave\naverage\nCuO\ncopper oxide nanocoated\ng\ngas\nGnie\nattributed to Gnielinski's correlation\nh\nhydraulic (effective Reynolds diameter)\ni\nwith respect to tube inside\nmid\nmidpoint of tube\no\nwith respect to tube outside\nor\nouter root diameter\nq\nwith respect to heat flux\nr\nrefrigerant\nsat\nsaturated state\nsurf\nrelative to plain surface\nsup\nwall superheat\nt\nwith respect to the tube wall\nT\nwith respect to temperature\nw\nwater\nAbbreviations\nCO2\nCarbon dioxide\nCuO\nCopper Oxide\nenhanced With respect to the 3D microstructured tube\nRa\nRoughness Average\nroughened With respect to the plain roughened tube\nCA\nContact Angle\nCERG\nClean Energy Research Group\nCHF\nCritical Heat Flux\nFF\nFalling Film\nfpi\nfins per inch\nfps\nframes per second\nHTC\nHeat Transfer Coefficient\npH\nPower of Hydrogen\nPTFE\nPolytetrafluoroethylene\nRe\nReynolds number\nRO\nReverse Osmosis\nSEM\nScanning Electron Microscope\nUP\nUniversity of Pretoria\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n3\nenhancement fashion have also been used to create very intricate\nenhanced surfaces, which resulted in boiling HTCs as much as twice of\nthe plain copper surface [6,20].\nRahman and McCarthy [21] analysed the mechanisms of HTC\nenhancement by a variety of CuO nanocoated plain copper substrates. It\nwas found that a hydrophilic CuO nanostructure coating degraded HTCs\nsignificantly by approximately 19 % through restricting nucleation sites\nand was attributed to the smaller nucleation site activity requiring a\ngreater superheat to activate them. A hydrophobic-hydrophilic surface\nconstructed from polytetrafluoroethylene (PTFE) dots on a hydrophilic\nsubstrate was found to increase nucleation activation and enhance heat\ntransfer by 116 % compared to the plain hydrophilic substrate. Another\nmore complex design of a heterogeneous surface was intuitively con\u00ad\nstructed to combine the hydrophobic and hydrophilic properties by\nalternating between superhydrophobic PTFE and CuO coated strips on\nthe surface to induce mixed wettability to enhance both HTCs and the\nCHF. The PTFE coatings were shown to lower the superheat required for\nnucleation and consequently enhanced HTCs, while the combination of\nPTFE and CuO on the heterogenous surface proved to greatly enhance\nthe ebullition cycle through the hydrophilic portions of the surface\nwhere liquid wickability was desired and the hydrophobic portions of\nthe surface where nucleation and heat transfer was desired. These\nbiphilic surfaces outperformed normal nanocoated surface with a 270 %\nincrease in HTCs [21].\nA case of heat transfer enhancement was observed by Xu and Li [22]\nwhere the HTCs were increased through a CuO nanocoated grooved\nplate by a maximum of 15 %. They also tested an uncoated and a CuO\nnanocoated flat grooved plate. Their experiments indicated that heat\ntransfer enhancement took place during tests where the flat plate was\nsimultaneously heated and cooled at different regions along with\ncontinuous boiling. It was speculated that the heat transfer enhancement\nwas due to the super-hydrophilic surface created by the CuO nano\u00ad\ncoating, where the prevention of dryout was enforced by coolant being\nwicked to the dryout spots as opposed to the uncoated flat plate.\nA chlorofluoro hydrophobic coating applied to commercially\nenhanced microstructured tubes under falling film boiling was\ncompared to uncoated tubes in a study performed by Jin et al. [8] and\nshowed an increase of up to 60 % in HTCs. It was speculated that the\nhydrophobic coating offered less frictional resistance for two-phase flow\nthrough the micro capillary channels to aid in the liquid supply to\nnucleation sites and to assist in the bubble pumping action [8].\nThe majority of the studies on multiscale enhancements thus have\nfocussed on adding nanostructures onto laboratory developed micro\u00ad\nstructures up to this point, typically using sintered porous structures,\nmicrochannels, fins and pin fins [6,23,24] or meshes [25]. Depending on\nthe definition of multiscale enhancement, practically none use re-\nentrant microcavities [6,25], and none to our knowledge combine the\ncurrent industrially developed microstructures, the so-called 3D\nenhanced surfaces such as the Turbo-B or GEWA-B series of pool boiling\nsurfaces, with nanostructures. Previous studies have typically also been\nconducted on small flat plates instead of the more industrially relevant\ntube geometry, and typically do not use pressurised HFC refrigerant, but\nrather water or fluorinerts at atmospheric pressure.\nThus there is an opportunity to test whether nanostructure induced\nsurface wicking can beneficially combine with the network of re-entrant\ncavities present on 3D enhanced tubes under the industrially relevant\nconditions of pressurized refrigerant.\nThis study experimentally investigates the effect of multiscale en\u00ad\nhancements on heat transfer of refrigerant pool boiling by coating\ncommercially produced enhanced copper tubes with a wickable CuO\nnanocoating. This is done in the hope of combining the two sets of\nbeneficial heat transfer mechanisms the two scales of enhancement have\npreviously seen to provide. A plain, low finned and two '3D enhanced'\nre-entrant cavity style tubes will be tested at 5 \u25e6C and 25 \u25e6C in refrigerant\nR-134a across a heat flux range of 20 kW/m2 to 100 kW/m2 where the\nheating is provided by water. This study also provides an opportunity to\npublish pool boiling data for 19 fpi GEWA-KS and EHPII tubes with R-\n134a in the open academic literature for the first time.\n2. Experimental setup\n2.1. Experiment facility\nThe falling film (FF) boiling rig at the University of Pretoria (UP) was\nused to perform the pool boiling experiments. The detailed description\nof the FF rig can be found in Roques [26] and Bock [16], but the\nrefrigerant circuit and test chamber shown in Fig. 2-1 are briefly\ndescribed here.\nThe refrigerant circuit, shown in Fig. 2-1(a), conditions the refrig\u00ad\nerant and controls the saturation pressure to the set point for a study\nthrough the combination of electrical kettle evaporator and an overhead\ncondenser, which combined counteract the load imparted on the circuit\nby the test chamber. The FF rig test chamber houses the tubes which\nwere tested individually in pool boiling mode in this study. Liquid\nrefrigerant was boiled by the testing tube through heating water passing\nthrough the inside of the tube. The resulting refrigerant vapour from this\nboiling process exits the top of the test chamber and goes to on overhead\ncondenser, which after being condensed falls down to the lower level of\nthe rig which acts as a refrigerant reservoir. Here the electrical kettle\nevaporator heats the liquid back to saturation temperature, whereafter\nthe variable speed refrigerant pump returns the liquid to the test\nchamber at a controlled flow rate.\n2.2. Test chamber\nThe test chamber, as shown in the schematic of Fig. 2-1(b), was\nconfigured for the pool boiling setting and has internal dimensions of\n566 \u00d7 650 \u00d7 69 mm, and provides the testing environment for pool\nboiling. The individually tested tubes were submerged in saturated\nrefrigerant within the test chamber and, except for the movement\ninduced by the boiling itself, the fluid was stationary. The untested tubes\nin the stack are insulated at the ends to reduce external influence on the\ntest chamber.\nThe liquid refrigerant enters at the top of the chamber to submerge\nthe tested tube in a liquid pool. The liquid pool level height was\nmeasured using the pressure differential between the bottom and top\ntransducers and the hydrostatic formula, and was automatically\ncontrolled to a constant level with a proportional-integral-derivative\n(PID) control system linked to the feed rate of the refrigerant gear pump.\nThe pool was controlled to be 40 \u00b1 10 mm above the tested tube. In the\npool boiling configuration as seen in Fig. 2-1(b), all the chamber valves\nare closed except for the top valve where refrigerant vapour can rise and\nexit to the overhead condenser.\nA specialized thermocouple rod containing 3 equidistant, opposite\nextending pairs of type K thermocouples and covering a 554 mm span\nwas situated inside the tested tube and used to measure the heating\nwater temperature profile along the length of the tube. A polynomial fit\nof the temperature profile was used obtain the mid-point temperature\ngradient and thus heat flux of the tube. This thermocouple rod has\ncopper wire wrapped around its length to serve as a water mixer.\nThere are Endress + Hauser PMC 731 pressure transducers at the top\nand bottom of the testing chamber which measure the pressure and\ncompare the saturation pressure to the calculated saturation pressure\nbased on the K-type thermocouples situated around the testing chamber\nto ascertain that no affecting non-condensable gases are present in the\nsystem. In this study the difference between the saturation temperature\nmeasured directly from the thermocouples and that calculated from the\nsaturation pressure was less than 0.2 \u25e6C, indicating the vacuuming\nprocess used during the charging of the rig was successful in ensuring\nminimal presence of non-condensable gases.\nAll pool boiling experiments were visually observed through 6 glass\nwindows on either side of the testing chamber. A Photron FASTCAM\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n4\nMini UX100 [16], set to record at 2 000 frames per second (fps), was\nadditionally used for this study with a Tokina 100 mm f/2.8 AT-X PRO\n1:1 Macro lens.\n2.3. Test procedure\nAll tests were conducted in R134a refrigerant at a saturation tem\u00ad\nperature of 5 \u25e6C under pool boiling conditions. Given the lack of\nexperimental data for the EHPII and GEWA-KS tube in open literature,\nthese surfaces were also tested at 25 \u25e6C. This also assisted in under\u00ad\nstanding the influence of changes in operating pressure on the heat\ntransfer processes of these multiscale surfaces.\nThe pool boiling tests consisted of varying the temperature of the\nheating water so that the heat fluxes range from a high of 100 kW/m2 to\na low of 20 kW/m2 in increments of 10 kW/m2, with this decreasing heat\nflux ensuring quicker initial facility stabilisation. Comprehensive boiling\nhysteresis studies were not conducted for this study, but previous work\nby the authors on plain tubes noted boiling hysteresis to only occur\nbelow approximately 5 kW/m2 for R-134a and so was not a focal point\nfor this study. Heat fluxes and external heat transfer coefficients (HTCs)\nwere recorded at the midpoint of the tube.\n2.4. Tube samples\n2.4.1. Tubes tested\nThis study was conducted on one plain roughened tube and three\ncommercially micro-enhanced tubes all with nominal 3\u20444\" (approxi\u00ad\nmately 19 mm) diameter and a heated length of 566 mm, with one low\nfinned GEWA-KS with 19 fpi tested, and two '3D enhanced' re-entrant\ncavity style tubes tested, the Turbo EHPII and the GEWA-B5. Key tube\ndimensions are presented in Table 1:\nSchematic representations of the surfaces are depicted in Fig. 2-2.\nThe surface of the EHPII tube, illustrated in Fig. 2-2 (b), is made to\nappear like scales slotted into each other. The GEWA-B5 microstructured\nillustrated in Fig. 2-2(b) comprises mushroom-like pin fins to form a\nnetwork of re-entrant cavities. All of the enhanced tubes have inner\nenhancements to boost the internal convective heat transfer. The in\u00ad\nfluence of these enhancements is categorized through a Wilson plot\nmethodology.\n2.4.2. Uncoated tubes\nAll the tubes tested were of nominal 3\u20444\" outside diameter (19 mm)\nand 568 mm long. The uncoated tubes were initially prepared with a\nstandardised cleaning procedure. The tubes were fully submerged in a\nweak 5 % acidity acetic acid solution for 1 h to clean the surface. The\ntubes were exposed to still atmosphere to age for 12 h after which they\nwere rinsed with Reverse Osmosis (RO) water and acetone. The pro\u00ad\ncedure to nanocoating CuO on copper was derived from the outline\ngiven by Enright et al. [27]. Furthermore, the roughened plain tube was\nprepared with grit 40 sandpaper by dry sanding the tubes longitudinally\nby hand. The sanding of the tubes mechanically removes the surface\nsediments and copper carbonate layers and thus they were also aged in\natmosphere and rinsed afterwards with RO water and acetone. Surface\nroughness of the rough tube was measured on a flat copper plate that\nwas sanded with the same relative intensity as the tube with a Mitutoyo\nSJ 210 Surftest Profilometer using the ISO 1997 standard and a cut-off\nlength of 0.8 mm which resulted in a roughness average value (Ra) of\n0.75 \u03bcm with a standard deviation of 0.07 \u03bcm. It should be noted that the\nsurface roughness's measured in this study did not match those\nmeasured in Bock [16] where the same grit sandpapers where used,\nwhich highlights the influence of the user on the intensity of a manual\nsanding process.\n2.4.3. Coated tubes\nA set of micro-enhanced tubes and a roughened tube were surface\ncoated with a copper oxide (CuO) nanocoating. The tubes to be coated\nwere prepared according to a specific set of consistent steps to ensure\nthat the same CuO was produced on each tube. The CuO Type I nano\u00ad\ncoating of Nam and Ju [28] and Enright et al. [27] was used in this\nstudy. The chemicals used for the coating process are summarised in\nFig. 2-1. Schematic of the refrigerant circuit including the test chamber in pool boiling configuration.\nTable 1\nTested tubes diameters.\nTube\nDo[mm]\nDor[mm]\nDi[mm]\nRoughened\n19.1\n19.1\n16.7\nGEWA-B5\n18.8\n17.4\n16.0\nGEWA-KS\n18.8\n17.2\n14.9\nEHPII\n18.9\n18.6\n16.0\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n5\nTable 2, indicating the constituent proportions in weight percentage:\nThe chemical coating event is a 2-step process where Copper (I)\noxide is first produced which then binds with the free suspended hy\u00ad\ndroxide ions within the solution to produce Copper (II) oxide [27,28].\nThe resultant CuO nanostructures on the surface are described as having\nsharp-like point structures with prominent blade protrusions throughout\nthe nanocoating with an approximate height of 1 \u03bcm, blade width of\n300 nm and a blade thickness of 100 nm [27,29]. At certain pH values\nthere should be different visible elements that constitute the nano\u00ad\nstructures which consist of CuO nanorods at pH = 8, CuO nanosheets at\npH = 10 and CuO nanoflowers at pH = 11 [30]. The pH of the coating\nsolution estimated to be pH = 12.56. With this, all the nanostructure\nelements should be present in the resultant coating. This is verified with\ntheir identification in Fig. 2-3 from a scanning electron microscope\n(SEM) image taken of one the surfaces coated.\nThe thermal conductivity of CuO is estimated to be as low as 33 W/\nmK [31]. However, by comparing the thermal resistances of the CuO\nnanocoating to that of a plain copper tube wall, it was estimated that the\nCuO coating only increases the wall thermal resistance by 1.2 % due to it\nbeing a very thin coating (cross sections suggest a thickness of only 1.5\n\u03bcm [16,27] and is thus not a significant factor to consider regarding its\ninfluence on heat transfer.\nThe coatings on all the micro-enhanced tubes were investigated with\nSEM. It was determined that a uniform nanocoating along the profile of\nthe micro-enhanced tube surface was achieved without any significant\nclogging nor obstruction of the microstructures. Since the CuO is\nextremely non-conductive it causes the surface to charge up with elec\u00ad\ntrons when subjected to the electron beam in the SEM so that it cannot\nsuccessfully render a true image. The samples were first coated with a\nthin layer of carbon using a Quorum Q150T ES Carbon Coater and\nvaporizing pure carbon sticks in a sealed vacuum chamber to alleviate\nthis problem. The deposited conductive layer does not affect the nano\u00ad\nstructures beneath, but merely makes them possible for viewing. The\nuncoated and coated tubes comparisons through SEM micrographs are\nshown in Fig. 2-4.\nSome blockages of the EHPII microstructure pores did occur and\nconsisted of a sponge-like webbing across the pores. It is also observed\nthat the blockages are not at every crevice, where an estimated 12.5 % of\nall scales have these blockages. Whether these seemingly delicate web\u00ad\nbings draped across the pore openings would survive the vigorous\nboiling process is also debatable, but was not confirmed in this study.\nFrom the SEM images shown in Fig. 2-4, the nanocoating could uni\u00ad\nformly cover the entirety of the intricate surfaces, including the GEWA-\nB5 and EHPII tubes. This characteristic of the CuO nanocoating was\nattributed to the self-limiting nature by which the nanocoating solution\nbinds with the copper surface, preventing a thick coating from forming.\nThe wettability of the surfaces was also thought to be enhanced. This\nwas explored by water droplet contact angle (CA) tests on all the tubes.\nThe hydrophobic uncoated tubes produced water droplet CAs between\n60\u25e6and 80\u25e6, where the super hydrophilic CuO nanocoated tubes pro\u00ad\nduced water droplet CAs of less than 5\u25e6. Furthermore, the CuO coating\nSEM images visually coincide with the CuO nanostructure SEM images\ncaptured by Sen et al. [13], who investigated hydrophilic and hydro\u00ad\nphobic CuO nanostructure coated copper surfaces, suggesting a hydro\u00ad\nphilic coating was achieved.\n2.5. Data reduction\nThe detailed data reduction, procedures, uncertainty calculations\nand the Wilson plot for the FF rig were described by Habert [32]. Only\nthe principal quantities are described here in brief.\nFig. 2-2. Surface microstructure schematics of tubes tested.\nTable 2\nChemicals for CuO coating constituent weight\npercentages in solution.\nChemical\nWeight\n[%]\nNaClO2\n3.75\nNaOH\n5\nNa3PO4\u22c512H2O\n10\nH2O\n100\nFig. 2-3. Nanostructure identification on SEM photograph of CuO nanocoated copper sample.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n6\n2.5.1. Local heat flux\nThe local heat flux calculated at the centre of the tube length was\nused to determine the local HTCs at that point. Equation (1) was used to\ncalculate heat flux:\n \u0307q =  \u0307mw\u22c5cp,w\n\u03c0\u22c5Do\n\u22c5dTw\ndx\n(1)\nWhere  \u0307mw denotes the measured heating water mass flow rate and Do the\nnominal tube outside diameter.\nA 2nd degree polynomial fit was applied to the temperatures\nmeasured along the length of the tube to obtain the temperature profile\ndTw\ndx . The specific heat capacity, cp,w, and all other thermophysical prop\u00ad\nerties, were estimated using CoolProp v.6.4.1 open-source module.\n2.5.2. Overall heat transfer coefficient relative to outside tube surface\nThe local midpoint overall HTC, Uo,mid, is calculated from equation\n(2), using the calculated refrigerant saturation temperature, Tr,sat:\nUo,mid =\n \u0307qo,mid\nTr,sat -Tw,mid\n(2)\nWhere  \u0307qo,mid is the heat flux evaluated at the middle of the tube via a 2nd\ndegree polynomial fit applied to the temperature profile obtained along\nthe tube length, Tr,sat being the theoretically calculated refrigerant\nsaturation temperature and Tw,mid the heating water temperature at the\nmiddle of the tube.\n2.5.3. Internal heat transfer coefficient\nThe internal heat transfer coefficient is calculated using a modified\nGnielinski correlation by altering the leading coefficient Ci through a\nWilson plot analysis to account for the inner tube enhancements and the\npresence of the tube mixer. The internal heat transfer coefficient was\ntherefore calculated in equation (3):\nhi = Nu*\nGnie\u22c5\n(kw\nDh\n)\n(3)\nWhere Dh denotes the hydraulic diameter of the inside tube to accom\u00ad\nmodate effects of the thermocouple probe diameter inside the testing\ntube kw being the water thermal conductivity.\nThe modified Gnielinski correlation, Nu*\nGnie, was used as described in\n(4):\nNu*\nGnie = Ci((f/8)(Rew -1000)Prw)/(1 + 12.7(f/8)0.5(Pr2/3\nw\n-1))\n(4)\nThe friction factor was calculated with Petukhov's formulation [33],\nwhile Ci is the internal Wilson plot coefficient to characterise the in\u00ad\nternal heat transfer effects and modify the Gnielinski correlation\naccordingly.\nThe Wilson plot coefficient, Ci, for each tube tested is shown in\nTable 3. As can be seen, the 3D enhanced tubes have the highest internal\nWilson plot coefficient and highest internal heat transfer due to the\nadvanced helical structures present on the inner tube surface.\n2.5.4. Thermal wall resistance\nThe resistance to heat transfer the wall poses was calculated through\nequation (5):\nRt =\nDo\u22c5ln\n(\nDor\nDi\n)\n2\u22c5kt\n(5)\nWhere kt is the estimated thermal conductivity of copper, and was taken\nas kt of 340 W/mK [34].\n2.5.5. Outside tube surface heat transfer coefficient\nConsidering the thermal network and when normalized to outside\ntube surface area, the external heat transfer coefficient, ho, is given by\nequation (6):\nho =\n(\n1\nUo,mid\n-Rt -\n1\nhi\n\u22c5Do\nDi\n)-1\n(6)\nWhere Uo,mid is the determined overall heat transfer coefficient with\nrespect to the middle of the tube, Rt the calculated thermal wall resis\u00ad\ntance, hi the determined internal heat transfer coefficient and Do and Di\nthe respective outer and inner diameter of the tube.\n2.5.6. Heat flux exponent\nThe influence of heat flux are quantified by equation (7):\nho = a\u22c5 \u0307qnq\n(7)\n2.5.7. Enhancement heat transfer influence ratio\nThe effect of the 3D surface enhancements on heat transfer were\nobserved through a ratio of the heat transfer coefficients of the micro\u00ad\nstructured tube to those of the plain roughened tube at the same testing\nheat flux point. This was done by calculating a polynomial best-fit curve\nto each of the heat transfer curves and dividing the HTCs of each of the\nmicro-enhanced tubes by the HTCs of the plain roughened tube over the\ntesting heat flux range in intervals of 10 kW/m2. This ratio, Ksurf, was\nFig. 2-4. Uncoated and coated micro-enhanced tube SEM observation.\nTable 3\nWilson plot coefficients for tubes.\nTube\nWilson plot coefficient,Ci\nPlain roughed\n1.28\nGEWA-KS\n3.91\nGEWA-B5\n4.20\nEHPII\n4.48\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n7\ncalculated for both uncoated and coated cases as in equation (8):\nKsurf = henhanced\nhroughened\n(8)\n2.5.8. Coating heat transfer influence ratio\nThe heat transfer influence the CuO coating imposes on HTCs was\nquantified as the ratio of the heat transfer performance of the CuO\ncoated tube, ho,CuO, to the heat transfer performance of the same un\u00ad\ncoated tube, ho at the same heat flux and refrigerant conditions. The\ncalculation was performed by fitting a polynomial equation to the ho\ndata to obtain a HTC at the same heat flux as that of the ho,CuO data. This\nratio is defined as KCuO and is given by equation (9):\nKCuO = ho,CuO\nho\n(9)\n2.6. Uncertainty\nThe uncertainties of temperature probes were found to be 0.1 K, and\nthe pressure and mass flow rate probes were found to be 0.2 %, and all\nwere calculated according to the uncertainty analysis techniques by\nDunn [35] which accommodates the acquired bias and precision in\ncalculating probe uncertainty. The uncertainties of calculated quantities\nwere determined using the 'Law of Propagation of Uncertainty' as\ndescribed by JCGM 100:2008 [36], with the full derivation of these\ncalculation found in Bock [37]. The maximum and minimum un\u00ad\ncertainties of the key calculated quantities are summarized in Table 4,\nwith the average across all points measured also shown:\nThe behaviour of the uncertainties of the quantities contained in\nTable 4 is illustrated through Fig. 2-5, where the higher uncertainty\npercentages are expected at the lower heat flux range. This study makes\nuse of ratios to aide analysis, as these ratios are calculated using the\nsame measurement sensors and so have correlated inputs [37] and as\nsuch lower uncertainties. For example, the uncertainty of the coating\nheat transfer influence ratio, KCuO, has typically single digit un\u00ad\ncertainties across most of the heat flux range.\n3. Validation\nCondensation tests were conducted on a plain smooth tube that has\nbeen sanded by hand with 1200 grit sandpaper at 30 \u25e6C saturation\ntemperature R134a to validate the results from the FF Rig. The results\nagreed well with Nusselt's solution [38], with 91 % of the smooth tube\nHTCs within 5 % of the Nusselt solution. Furthermore, the results were\nfound to generally be in reasonable alignment to other research data\n[16].\nPool boiling tests were also performed using a plain tube that was\nprepared to relate to previous researchers' tested samples. The Cooper\ncorrelation [39] and the Gorenflo and Kenning Model [40] were also\ncompared to the pool boiling results. The accuracy of the Cooper cor\u00ad\nrelation [39] was investigated by Ji et al. [41] to deduce its credibility to\nmeasure against. Fig. 3-1 illustrated pool boiling results conducted on a\nsmooth tube (Ra = 0.04 \u03bcm) with its Cooper correlation [39] and Gor\u00ad\nenflo and Kenning Model [40]; Bock [37] with a smooth tube (Ra = 0.12\n\u03bcm) with its Cooper correlation [39] for determination of its validity;\nand Ji et al. [41] with a tube of an assumed roughness of Ra = 0.3 \u03bcm.\nWith this, it is established in Fig. 3-1 that there are many influences\non pool boiling HTCs yet to be properly researched and documented,\nleading to a general lack in consistency in pool boiling results among\nstudies. This is especially observed above where Ji et al. [41] and Bock\n[37] produced approximately the same results where the surface tube\nroughness of Bock [37] is about half of Ji et al. [41].\nIt is seen that the data from the current study matches the Cooper\ncorrelation [39] well with an average deviation of 3.3 %, where no\ndivergence takes place across the heat flux range. The Gorenflo and\nKenning Model [40] related very well in the beginning but diverged\nsignificantly (up to 17 %) with increased heat flux. These results support\nthe findings the by Li and Hrnjak [42] and discovered by Gorenflo et al.\n[43], that the Gorenflo and Kenning model [40] is more accurate at\nlower heat fluxes, and that a greater investigation into the thermo\u00ad\nphysical properties, especially surface tension, of the working fluid need\nto be incorporated into the models for industrial pool boiling\napplications.\nThe same trends regarding the Cooper [39] and Gorenflo and\nKenning Model [40] in Fig. 3-1 can be seen regarding the initial high\naccuracy and divergence in a comparative study performed by Sajjad\net al. [44].\nThe lower HTCs from the current study compared to Bock [37] were\nmost likely due to the lower surface roughness, with the Cooper corre\u00ad\nlation [39] using an input of 0.04 \u03bcm and 0.12 \u03bcm illustrating this.\nThe condensation and pool boiling results were considered to show\nsufficient agreement to consider the facility validated.\n4. Results and discussion\n4.1. Uncoated\nThe uncoated tubes were tested in pool boiling at saturation tem\u00ad\nperatures of 5 \u25e6C and 25 \u25e6C in R134a across a range of heat fluxes and\ntheir HTCs are found in Fig. 4-1.\nIt is observed in Fig. 4-1(a) at 5 \u25e6C that the 3D enhanced tubes per\u00ad\nformed the best followed by the low finned tube and then the roughened\ntube. The roughened tube HTCs increased by about 175 % across the\nheat flux range and the GEWA-KS tube increased by about 160 % across\nthe heat flux range. This is typical for simple plain surfaces such as these,\nwith increases in heat flux resulting from progressively more active\nnucleation sites being activated by the higher wall superheats.\nThe EHPII tube and the GEWA-B5 tube meanwhile had little\ndependence on heat flux. This insensitivity to heat flux has been noted\nbefore in other 3D enhanced re-entrant cavity style tubes [45,46] with\nTable 4\nSummary of all pool boiling heat flux and HTC uncertainties.\nOverall average\nuncertainty\n[%]\nAverage uncertainty at\n20 kW/m2\n[%]\nAverage uncertainty at\n100 kW/m2\n[%]\nq\n10.7\n21.7\n7.0\nho\n24.4\n48.1\n16.3\nKCuO\n5.1\n14.8\n1.6\nFig. 2-5. Percentage uncertainties under pool boiling in 5 \u25e6C R134a.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n8\nsome cases showing a plateau region for only portions of the heat flux\nrange tested [47,48]. This is thought to be due to the complex interac\u00ad\ntion between the liquid flowing within the network of microchannels on\nthe surface of these tubes and the vapour emerging from the nucleation\nsites, with greater vapour clogging [48] or internal dryout [46] possibly\noccurring as heat fluxes are increased, so counteracting any further\nimprovements in heat transfer.\nThe EHPII and GEWA-KS tubes in 25 \u25e6C saturation temperature\nperformed similar to the 5 \u25e6C saturation temperature case, but where the\nGEWA-KS HTCs improved, the EHPII HTCS slightly declined. The EHPII\ntube persisted with little dependence on heat flux with a decrease in HTC\nof -1.18 % over the testing heat flux range, whereas the GEWA-KS tube\nwith a 13.8 % increase in HTCs. The EHPII tube's HTCs average devi\u00ad\nation of -10 % compared to the 5 \u25e6C saturation temperature case\nindicates a minor decline in heat transfer performance, whereas the\nGEWA-KS with an average improvement of 25.5 % compared to the 5 \u25e6C\nsaturation temperature shows greater improvement with an increase in\nsaturation temperature.\n4.2. Coated\nThe same pool boiling test was repeated for the CuO nanocoated tube\nsets shown in Fig. 4-2. Heat transfer data for CuO nanocoated com\u00ad\nmercial tubes are non-existent for comparison at the time of writing.\nAs seen in Fig. 4-2(a) for a 5 \u25e6C saturation temperature, the HTCs of\nthe coated EHPII tube and the GEWA-B5 tube significantly performed\nbetter than the GEWA-KS tube followed by the roughened tube. As with\nthe uncoated case, the HTCs of the GEWA-KS and roughened tube\nFig. 3-1. Smooth tube pool boiling validation test in R134a at 5 \u25e6C.\nFig. 4-1. Pool boiling HTCs of uncoated micro-enhanced tubes in R134a.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n9\nincreased linearly on the log-log plot. With an increase in saturation\ntemperature, it was seen in Fig. 4-2(b) for a 25 \u25e6C that the coated EHPII\ntube had an increase in HTCs of 60 % and the GEWA-KS tube with an\noverall increase of 210 % across the heat flux range. Furthermore,\nincreasing the saturation temperature from 5 \u25e6C to 25 \u25e6C, the same\nbehaviour is seen where the coated EHPII tube's HTCs decreased overall\nby about 3.4 % while the coated GEWA-KS tube's HTCs increased overall\nby about 30 %.\n4.3. Influence of heat flux\nThe influence of heat flux was characterised through the exponents\nof the relation.\nho = a\u22c5 \u0307qnq of the uncoated and nanocoated tubes and are listed in\nTable 5.\nTable 5 indicates that the CuO nanocoating influenced the surface\nboiling mechanics to generally increase the boiling exponent nq so that\nthe HTCs have a greater sensitivity to changes in heat flux. The boiling\nexponent of the roughened tube and the GEWA-KS tube, both of which\ncan be considered plain surfaces, are lower than the plain tube boiling\nexponents of 0.67 used by Cooper [49] or the 0.81 predicted by Gorenflo\net al. [43], but the Gewa-KS exponent did decrease as the reduced\npressure was increased from 5 to 25 \u25e6C, in line with the trend predicted\nby Gorenflo et al.'s [43] correlation. The exponents of the 3D enhanced\ntubes are close to zero, highlighting their insensitivity to changes in heat\nflux across the range tested in this study.\n4.4. Influence of enhancements\nThe ratio of the HTCs of the enhanced tubes to that of the plain\nroughened tube used in this study were calculated at 5 \u25e6C in R134a in\norder to investigate the effect of the surface enhancements over the plain\nroughened surface with respect to heat transfer and is illustrated in\nFig. 4-3.\nIt is shown in Fig. 4-3 that the intricate enhancements on the micro-\nenhanced tubes greatly increased the heat transfer performance\ncompared to the plain tube, where both the GEWA-B5 and the EHPII\ntube performed similarly when uncoated in Fig. 4-3(a) where the min\u00ad\nimum enhancement was at 100 kW/m2 with a factor of 2.5 and a\nmaximum enhancement of 6.2 at 20 kW/m2, where the 2 points had a\nlinear trend.\nThe GEWA-KS had a fairly constant enhancement ratio of around 1.6\nto 1.9 in both the uncoated and coated case. The GEWA-KS has\napproximately 1.8 times the area of a plain tube of same nominal\ndiameter [50] and thus the simple low fin enhancements mainly im\u00ad\nproves heat transfer through the provision of a higher effective heat\ntransfer surface area.\n4.5. Influence of the CuO coating\nThe coating heat transfer influence ratios, KCuO, of all the pool\nboiling cases were calculated and are collectively presented in Fig. 4-4.\nThe HTC enhancement or deterioration are described through a KCuO\nfactor respectively greater or smaller than 1.\nThe CuO coating did not improve HTCs on the roughened tube with\nan average KCuO of 0.85 across the range of heat fluxes tested. The CuO\nnanocoating on the GEWA-KS low fin tube is observed in Fig. 4-4 to have\nhad minimal influence on heat transfer where the average KCuO value\nwas 0.91 for a 5 \u25e6C saturation temperature and 0.95 for a 25 \u25e6C satu\u00ad\nration temperature. With the average KCuO values being slightly lower\nthan 1, heat transfer is only slightly diminished. The coated GEWA-B5\ntube had HTC ratios from 0.7 to 0.58 of those of the uncoated GEWA-\nB5 tube and an average KCuO of 0.6. It was therefore influenced the\nmost by the coating where it previously performed with HTCs 318 %\ngreater than those of the roughened plain tube in the uncoated case. The\nCuO nanocoating on the EHPII tube is seen not to have a great impact on\nthe heat transfer where the average KCuO was 0.89 for the 5 \u25e6C saturation\ntemperature case and a slightly higher 0.97 for the 25 \u25e6C case.\nAt high heat fluxes, the HTCs were seen to be unchanged at 5 \u25e6C but\nwere slightly enhanced at 25 \u25e6C. However, at low heat fluxes, the\ncoating lowered heat transfer performance with the KCuO value being as\nlow as 0.7 for both saturation temperatures. The general upward trends\nof the KCuO values for both saturation temperatures in Fig. 4-4 suggest\nfurther investigation of possible greater heat transfer enhancement at\nvery high heat fluxes outside of those tested may be possible.\nFig. 4-2. Pool boiling HTCs of coated plain and micro-enhanced tubes in R134a.\nTable 5\nHeat flux exponents of uncoated and nanocoated tubes.\nUncoated\nCoated\nSaturation Temperature [\u25e6C]\nTube\nnq\nnq\n5\nEHPII\n0.06\n0.29\nGEWA-B5\n-0.10\n-0.04\nGEWA-KS\n0.57\n0.69\nRoughened\n0.61\n0.78\n25\nEHPII\n-0.02\n0.23\nGEWA-KS\n0.48\n0.66\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n10\nFig. 4-3. Surface enhancement ratio with respect to the plain roughened tube at 5 \u25e6C in R134a.\n(a) 5\u00b0C\n(b) 25\u00b0C\nFig. 4-4. Coating heat transfer influence ratios of the plain and micro-enhanced tubes in R134a.\nFig. 4-5. Images of pool boiling of uncoated and coated GEWA-B5 at 5 \u25e6C in R134a at 100 kW/m2.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n11\nThe worst result from the coating was found in the case of the GEWA-\nB5 tube, where the HTCs were almost halved. This merited further visual\ninspection of the boiling phenomena on the uncoated and coated GEWA-\nB5 tubes to understand the reasons for this. Fig. 4-5 illustrates high\nspeed images of the GEWA-B5 tube at 100 kW/m2 in R134a at a 5 \u25e6C\nsaturation temperature.\nFig. 4-5 illustrates that the nucleation process itself appears dimin\u00ad\nished resulting in a general lower bubble density on the surface of the\ncoated tube compared to the uncoated tube. From visual inspection of\nthe high speed vide it also appears that the coated CuO tube had slower\nbubble development and ejection, although it was not possible to\nquantify this meaningfully from the images obtained.\nA further likely contribution to the diminished heat transfer is that\nthe coated GEWA-B5 seemed to have non-periodic bubble generation\nand slow nucleation at the micro-channel crevices, where substantial\nvapour entrapment occurred within these crevices. This is illustrated in\nFig. 4-6, where the GEWA-B5 is boiling at 20 kW/m2 and instances of\nthis entrapment are indicated with red circles, where bubbles can be\nseen to be trapped within the re-entrant cavities. The uncoated GEWA-\nB5 tube meanwhile boiled as expected, where the active nucleation\nsites produced bubbles that were ejected from micro-channel crevices\nfollowed by a new bubble in periodic fashion.\nThis entrapped vapour seen in Fig. 4-6 in the crevices was prominent\nand pulsated, with an occasional build up and release of a large bubble\nfrom a cavity. It appears that the bubbles were kept in place by the\noverhangs of the re-entrant cavities without the aid of a superheating\nmicrolayer for the bubble to rapidly grow and overcome the liquid\nsurface tension. This behaviour of the coated surface was present at\nhigher heat fluxes too. It is likely thus that part of the heat transfer\nperformance loss can be attributed to this behaviour of the coated sur\u00ad\nface, where bubble release is hindered and a portion of the internal\nsurfaces of the cavities could be covered by a vapour lining, preventing\nthe micro-channels from enhancing nucleation heat transfer. The extent\nof this is unfortunately unknown, as this is not visible from the video as it\nis hidden within the micro-enhancements.\nLastly, as the reduction in heat transfer performance may be due to\nthe disruption of the GEWA-B5 enhanced heat transfer mechanism\nwithin its re-entrant cavity network. The interconnected re-entrant\ncavities are thought to significantly enhance heat transfer as liquid is\ndrawn through these channels by the 'pumping' caused by bubble de\u00ad\nparture from nucleation sites [37]. This mechanism have been disrupted\nby the reduced ejection of bubbles from the re-entrant cavities leading to\na weaker bubble pumping action at the cavity openings causes for an\noverall slower fluid movement through the micro-channel network and\nthus less sensible heat transfer.\nFurthermore, the presence of the rough and hydrophilic CuO coating\non the interior of the re-entrant cavity network may have posed greater\nresistance to general liquid flow within the micro-channels. This com\u00ad\nplements the deductions made by Jin et al. [8] in their study where a\nhydrophobic chlorofluoro coating was applied to commercially micro-\nenhanced boiling tubes and where found to enhancement heat trans\u00ad\nfer, which was thought to be caused by the low surface energy nature of\nthe coating reducing the friction within the microchannels, allowing for\nincreased fluid flow and easier elimination of vapour from these\nchannels.\nThese findings thus suggest that the hopes of reduced dryout within\nthe microchannels and subsequent improved heat transfer were not\nrealised because of the hydrophilic coating and any possible are over\u00ad\npowered by the disruption to the enhanced boiling process. The hy\u00ad\ndrophobic surfaces thus appear to be more promising approach to\nmultiscale enhancement of commercially produced micro-enhanced\ntubes, as seen in the work of Jin et al. The CuO coating used in this\nstudy may itself be modified to have a hydrophobic nature by altering\nthe reagents or their concentrations during coating [12].\n5. Conclusion\nThis study experimentally investigated the ability of multiscale\nphysical enhancements to enhance refrigerant pool boiling HTCs\nthrough the addition of a wickable CuO nanocoating to commercially\nproduced microstructured tube surfaces in the hope of combining the\ntwo sets of beneficial heat transfer mechanisms the two scales of\nenhancement have previously seen to provide. For the first time, un\u00ad\ncoated and CuO nanocoated sets of roughened, low finned GEWA-KS,\nand 3D enhanced re-entrant cavity GEWA-B5 and EHPII tubes were\ntested under pool boiling of R134a at saturation temperatures of 5 \u25e6C\nand 25 \u25e6C across a heat flux range of 20 kW/m2 to 100 kW/m2.\nThe study's analyses lead to the following valuable points:\n1. The uncoated enhanced tubes performed well against the uncoated\nroughened tube, with the HTCs of the low finned GEWA-KS up to 64\n% greater, the EHPII tube up to 519 % greater and the GEWA-B5 up\nto 539 % greater than an uncoated plain roughened tube at 5 \u25e6C.\n2. The CuO nanocoating reduced heat transfer for all tubes tested at low\nheat fluxes, while at higher fluxes it had minimal impact. The\naverage reduction factor across the heat flux range tested compared\nto the uncoated tubes was 0.85 for the roughened tube, 0.91 for the\nGEWA-KS, 0.89 for the EHPII, and 0.60 for the GEWA-B5 at 5 \u25e6C.\n3. The EHPII and GEWA-KS were tested at both 5 \u25e6C to 25 \u25e6C. This\nchange had a minimal effect on heat transfer for the EHPII tube,\nwhile the GEWA-KS HTCs increased by between 15 % and 30 % as\nsaturation temperature was increased.\n4. The coated GEWA-B5 was noted to trap bubbles within the re-entrant\ncavity network, likely contributing to the decreased heat transfer\nseen.\n5. The CuO nanocoating is likely to have degraded heat transfer the by\nreducing the nucleation sites on the plain surfaces. The 3D enhanced\nsurfaces may have suffered from the rough coating reducing liquid\nflow within the re-entrant cavity network, as well as possible\nnucleation site reduction.\nConsidering the wide array of nanocoating's available, other coat\u00ad\nings may have better success that the coating tested in this study. But\ncoatings that produce high roughness's should be avoided on 3D\nenhanced tubes due to the expected heat transfer degradation seen in\nthis study.\nFig. 4-6. Bubble ejection impedance in coated GEWA-B5 re-entrant cavities in pool boiling at 20 kW/m2 and 5 \u25e6C in R134a.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n12\nCRediT authorship contribution statement\nDian Dickson: Validation, Investigation. Bradley D. Bock: Valida\u00ad\ntion. John R. Thome: Conceptualization, Validation, Writing - review\n& editing.\nDeclaration of Competing Interest\nThe authors declare that they have no known competing financial\ninterests or personal relationships that could have appeared to influence\nthe work reported in this paper.\nData availability\nData will be made available on request.\nAcknowledgements\nThe authors express their gratitude to the Renewable Energy Hub\nand Spokes Programme of the Department of Science and Innovation\n(DSI), and Wieland Group for the supply of the tubes tested.\nReferences\n[1] H.J. Lombard, Small Solar Organic Rankine Cycle for Electricity Generation,\nMechanical Engineering, Department of Mechanical and Mechatronic Engineering\nStellenbosch University, Stellenbosch, 2015.\n[2] P. Lu, et al., Design and optimization of organic Rankine cycle based on heat\ntransfer enhancement and novel heat exchanger: A review, Energies 16 (3) (2023)\npp, https://doi.org/10.3390/en16031380.\n[3] V.R. Patil, V.I. Biradar, R. Shreyas, P. Garg, M.S. Orosz, N.C. Thirumalai, Technoeconomic comparison of solar organic Rankine cycle (ORC) and photovoltaic (PV)\nsystems with energy storage, Renew. Energy 113 (2017) 1250-1260, https://doi.\norg/10.1016/j.renene.2017.06.107.\n[4] C.M. Kruse, et al., \"Enhanced pool-boiling heat transfer and critical heat flux on\nfemtosecond laser processed stainless steel surfaces,\" (in en), Int. J. Heat Mass\nTransf. 82 (2015) 109-116, https://doi.org/10.1016/j.\nijheatmasstransfer.2014.11.023.\n[5] A. Joseph, et al., \"An experimental investigation on pool boiling heat transfer\nenhancement using sol-gel derived nano-CuO porous coating,\" (in en), Exp. Therm\nFluid Sci. 103 (2019) 37-50, https://doi.org/10.1016/j.\nexpthermflusci.2018.12.033.\n[6] G. Liang, I. Mudawar, Review of pool boiling enhancement by surface\nmodification, Int. J. Heat Mass Transf. 128 (2019) 892-933, https://doi.org/\n10.1016/j.ijheatmasstransfer.2018.09.026.\n[7] Y. Im, C. Dietz, S.S. Lee, Y. Joshi, Flower-Like CuO nanostructures for enhanced\nboiling, Nanoscale Microscale Thermophys. Eng. 16 (3) (2012) 145-153, https://\ndoi.org/10.1080/15567265.2012.678564.\n[8] P.-H. Jin, et al., Liquid film boiling on plain and structured tubular surfaces with\nand without hydrophobic coating, Int. Commun. Heat Mass Transfer 125 (2021),\n105284, https://doi.org/10.1016/j.icheatmasstransfer.2021.105284.\n[9] D. Attinger, et al., Surface engineering for phase change heat transfer: A review (in\nEn), MRS Energy & Sustainability 1 (1) (2014) 4, https://doi.org/10.1557/\nmre.2014.9.\n[10] C.G. Jothi Prakash, R. Prasanth, Enhanced boiling heat transfer by nano structured\nsurfaces and nanofluids, Renew. Sustain. Energy Rev. 82 (2018/02/01/ 2018,)\n4028-4043, https://doi.org/10.1016/j.rser.2017.10.069.\n[11] S. Massachusetts, et al., Institute of Technology. Center for Materials Separate\neffects of surface roughness, wettability, and porosity on the boiling critical heat\nflux, 2014, Available: http://hdl.handle.net/1721.1/86912.\n[12] B. K \u0308oro \u0306glu, K.S. Lee, C. Park, Nano/micro-scale surface modifications using copper\noxidation for enhancement of surface wetting and falling-film heat transfer, Int. J.\nHeat Mass Transf. 62 (2013) 794-804, https://doi.org/10.1016/j.\nijheatmasstransfer.2013.03.040.\n[13] P. Sen, S. Kalita, D. Sen, S. Das, A.K. Das, \"Pool boiling heat transfer on a micro-\nstructured copper oxide surface with varying wettability,\" (in en), Chem. Eng.\nTechnol. 45 (5) (2022) 808-816, https://doi.org/10.1002/ceat.202100558.\n[14] G. Patel, S.S. Gajghate, A. Pal, U. Nath, S. Bhaumik, S. Das, \"Experimental\ninvestigation on nucleate pool boiling heat transfer enhancement for nano-\nstructured copper oxide coated heating surface,\" (in en), J. Phys.Conference Series\n1240 (1) (2019), 012093, https://doi.org/10.1088/1742-6596/1240/1/012093.\n[15] X. Li, I. Cole, J. Tu, \"A review of nucleate boiling on nanoengineered surfaces - The\nnanostructures, phenomena and mechanisms,\" (in en), Int. J. Heat Mass Transf.\n141 (2019) 20-33, https://doi.org/10.1016/j.ijheatmasstransfer.2019.06.069.\n[16] B.D. Bock, \"Surface influences on falling film boiling and pool boiling of saturated\nrefrigerants: influences of nanostructures, roughness and material on heat transfer,\ndryout and critical heat flux of tubes,\" PhD Thesis, University of Pretoria, 2020.\n[17] T. Kunugi, K. Muko, M. Shibahara, Ultrahigh heat transfer enhancement using\nnano-porous layer, Superlattice. Microst. 35 (3-6) (2004) 531-542, https://doi.\norg/10.1016/j.spmi.2004.04.002.\n[18] S. Lee, B. K \u0308oro \u0306glu, C. Park, Experimental investigation of capillary-assisted solution\nwetting and heat transfer using a micro-scale, porous-layer coating on horizontaltube, falling-film heat exchanger, Int. J. Refrig 35 (4) (2012) 1176-1187, https://\ndoi.org/10.1016/j.ijrefrig.2011.11.015.\n[19] K.-H. Chu, Y. Soo Joung, R. Enright, C.R. Buie, E.N. Wang, \"Hierarchically\nstructured surfaces for boiling critical heat flux enhancement,\" (in en), Appl. Phys.\nLett. 102 (15) (2013), 151602, https://doi.org/10.1063/1.4801811.\n[20] Y.-Q. Wang, et al., \"Copper vertical micro dendrite fin arrays and their superior\nboiling heat transfer capability,\" (in en), Appl. Surf. Sci. 422 (2017) 388-393,\nhttps://doi.org/10.1016/j.apsusc.2017.05.251.\n[21] M.M. Rahman, M. McCarthy, \"Boiling Enhancement on Nanostructured Surfaces\nwith Engineered Variations in Wettability and Thermal Conductivity,\" (in en), Heat\nTransfer Eng. 38 (14-15) (2017) 1285-1295, https://doi.org/10.1080/\n01457632.2016.1242961.\n[22] P. Xu, Q. Li, \"Visualization study on the enhancement of heat transfer for the\ngroove flat-plate heat pipe with nanoflower coated CuO layer,\" (in en), Appl. Phys.\nLett. 111 (14) (2017), 141609, https://doi.org/10.1063/1.4986318.\n[23] S.K. Singh, D. Sharma, Review of pool and flow boiling heat transfer enhancement\nthrough surface modification, Int. J. Heat Mass Transf. 181 (2021), 122020,\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2021.122020.\n[24] S.A. Khan, M.A. Atieh, M. Ko\u00e7, Micro-nano scale surface coating for nucleate\nboiling heat transfer: A critical review, Available: Energies 11 (11) (2018) 3189 htt\nps://www.mdpi.com/1996-1073/11/11/3189.\n[25] D.E. Kim, D.I. Yu, D.W. Jerng, M.H. Kim, H.S. Ahn, Review of boiling heat transfer\nenhancement on micro/nanostructured surfaces, Exp. Therm Fluid Sci. 66 (2015/\n09/01/ 2015,) 173-196, https://doi.org/10.1016/j.expthermflusci.2015.03.023.\n[26] J.-F. Roques, Falling film evaporation on a single tube and on a tube bundle, EPFL,\n2004 2004.\n[27] R. Enright, N. Miljkovic, N. Dou, Y. Nam, E.N. Wang, \"Condensation on\nSuperhydrophobic Copper Oxide Nanostructures,\" (in en), J. Heat Transfer 135 (9)\n(2013), 091304, https://doi.org/10.1115/1.4024424.\n[28] Y. Nam, Y.S. Ju, A comparative study of the morphology and wetting\ncharacteristics of micro/nanostructured Cu surfaces for phase change heat transfer\napplications, J. Adhes. Sci. Technol. 27 (20) (2013) 2163-2176, https://doi.org/\n10.1080/01694243.2012.697783.\n[29] Y. Nam, S. Sharratt, G. Cha, Y.S. Ju, \"Characterization and modeling of the heat\ntransfer performance of nanostructured cu micropost wicks,\" (in en), J. Heat\nTransfer 133 (10) (2011), 101502, https://doi.org/10.1115/1.4004168.\n[30] K. Sahu, R. Singhal, S. Mohapatra, \"Morphology controlled CuO nanostructures for\nefficient catalytic reduction of 4-nitrophenol,\" (in en), Catal. Lett. 150 (2) (2020)\n471-481, https://doi.org/10.1007/s10562-019-03009-w.\n[31] M. Liu, M.C. Lin, C. Wang, Enhancements of thermal conductivities with Cu, CuO,\nand carbon nanotube nanofluids and application of MWNT/water nanofluid on a\nwater chiller system, Nanoscale Res. Lett. 6 (1) (2011) 297, https://doi.org/\n10.1186/1556-276X-6-297.\n[32] M. Habert, J.R. Thome, Falling-film evaporation on tube bundle with plain and\nenhanced tubes-Part I: Experimental results, Experiment. Heat Transfer 23 (4)\n(2010) 259-280.\n[33] B.S. Petukhov, Heat transfer and friction in turbulent pipe flow with variable\nphysical properties, in: Adv. Heat Transfer, vol. 6, Elsevier, 1970, pp. 503-564.\n[34] C. D. A. Inc. Copper.org - C12200 Alloy. (accessed).\n[35] P.F. Dunn, Measurement, Data Analysis, and Sensor Fundamentals for Engineering\nand Science, CRC Press LLC, Boca Raton, 2011.\n[36] I. BIPM, I. IFCC, I. ISO, and O. IUPAP, Evaluation of measurement data-guide to\nthe expression of uncertainty in measurement, JCGM 100: 2008 GUM 1995 with\nminor corrections, in: Joint Committee for Guides in Metrology, 2008.\n[37] B. D. Bock, \"Surface influences on falling film boiling and pool boiling of saturated\nrefrigerants,\" (in en), p. 191, 2020.\n[38] W. Nusselt, Die oberflachenkondensation des wasserdamphes, VDI-Zs 60 (1916)\n541.\n[39] M. G. Cooper, \"Saturated nucleate pool boiling-a simple correlation,\" 1984, pp.\n785-793.\n[40] V. H. Atlas, \"VDI-Gesellschaft Verfahrenstechnik und Chemieingenieurwesen\n(GVC),\" in: Ch. Part D-Thermophysical Properties, Springer-Verlag, Berlin/\nHeidelberg Germany, pp. 121-613, 2010.\n[41] W.-T. Ji, C.-Y. Zhao, Y.-L. He, W.-Q. Tao, Experimental validation of Cooper\ncorrelation at higher heat flux, Int. J. Heat Mass Transfer 90 (2015) 1241-1243.\n[42] H. Li, P. Hrnjak, \"Heat transfer coefficient, pressure drop, and flow patterns of\nR1234ze(E) evaporating in microchannel tube,\" (in en), Int. J. Heat Mass Transf.\n138 (2019) 1368-1386, https://doi.org/10.1016/j.\nijheatmasstransfer.2019.05.036.\n[43] D. Gorenflo, E. Baumh \u0308ogger, G. Herres, S. Kotthoff, \"Prediction methods for pool\nboiling heat transfer: A state-of-the-art review,\" (in en), Int. J. Refrig 43 (2014)\n203-226, https://doi.org/10.1016/j.ijrefrig.2013.12.012.\n[44] U. Sajjad, I. Hussain, C.-C. Wang, \"A high-fidelity approach to correlate the\nnucleate pool boiling data of roughened surfaces,\" (in en), Int. J. Multiph. Flow\n142 (2021), 103719, https://doi.org/10.1016/j.ijmultiphaseflow.2021.103719.\n[45] J.F. Roques, J.R. Thome, Falling films on arrays of horizontal tubes with R134a,\npart 1: Boiling heat transfer results for four types of tubes, Heat Transfer Eng. 28\n(5) (2007) 398-414.\n[46] M. Christians, J.R. Thome, Falling film evaporation on enhanced tubes, part 1:\nExperimental results for pool boiling, onset-of-dryout and falling film evaporation,\nInt. J. Refrig 35 (2) (2012) 300-312.\nD. Dickson et al.\nApplied Thermal Engineering 236 (2024) 121757\n13\n[47] D. Jung, K. An, J. Park, Nucleate boiling heat transfer coefficients of HCFC22,\nHFC134a, HFC125, and HFC32 on various enhanced tubes, Int. J. Refrig 27 (2)\n(2004) 202-206, https://doi.org/10.1016/S0140-7007(03)00124-5.\n[48] Y. Lee, D.-G. Kang, J.-H. Kim, D. Jung, Nucleate boiling heat transfer coefficients of\nhfo1234yf on various enhanced surfaces, Int. J. Refrig 38 (2014) 198-205, https://\ndoi.org/10.1016/j.ijrefrig.2013.09.014.\n[49] M. Cooper, Saturation nucleate pool boiling: A simple correlation, in: Institute of\nChemical Engineering Symposium Series, 1984, vol. 86, no. 2, 1984, pp. 785-793.\n[50] W.-W. AG, Wieland GEWA-K, GEWA-KS - Low-finned Tubes. [Online]. Available:\nhttps://www.wieland.com/en/Media/Files/brochures/wieland-gewa-k-gewa-ks-l\now-finned-tubes.pdf.\nD. Dickson et al.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4898
+    },
+    {
+      "number": 2,
+      "start": 4898,
+      "end": 10512
+    },
+    {
+      "number": 3,
+      "start": 10512,
+      "end": 18855
+    },
+    {
+      "number": 4,
+      "start": 18855,
+      "end": 23109
+    },
+    {
+      "number": 5,
+      "start": 23109,
+      "end": 27348
+    },
+    {
+      "number": 6,
+      "start": 27348,
+      "end": 31400
+    },
+    {
+      "number": 7,
+      "start": 31400,
+      "end": 37303
+    },
+    {
+      "number": 8,
+      "start": 37303,
+      "end": 39157
+    },
+    {
+      "number": 9,
+      "start": 39157,
+      "end": 43796
+    },
+    {
+      "number": 10,
+      "start": 43796,
+      "end": 44167
+    },
+    {
+      "number": 11,
+      "start": 44167,
+      "end": 50848
+    },
+    {
+      "number": 12,
+      "start": 50848,
+      "end": 61284
+    },
+    {
+      "number": 13,
+      "start": 61284,
+      "end": 62134
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-research-paper",
+      "number": null,
+      "title": "Research Paper",
+      "level": 2,
+      "start": 129,
+      "end": 144
+    },
+    {
+      "id": "sec-1-heat-transfer-of-uncoated-and-nanostruct",
+      "number": null,
+      "title": "Heat transfer of uncoated and nanostructure coated commercially",
+      "level": 1,
+      "start": 144,
+      "end": 4674
+    },
+    {
+      "id": "sec-2-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1,
+      "start": 4674,
+      "end": 9156
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 9156,
+      "end": 22940
+    },
+    {
+      "id": "sec-4-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 22940,
+      "end": 27099
+    },
+    {
+      "id": "sec-5-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2,
+      "start": 27099,
+      "end": 31250
+    },
+    {
+      "id": "sec-6-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2,
+      "start": 31250,
+      "end": 36990
+    },
+    {
+      "id": "sec-7-table-4",
+      "number": null,
+      "title": "Table 4",
+      "level": 2,
+      "start": 36990,
+      "end": 43547
+    },
+    {
+      "id": "sec-8-table-5",
+      "number": null,
+      "title": "Table 5",
+      "level": 2,
+      "start": 43547,
+      "end": 50897
+    },
+    {
+      "id": "sec-9-credit-authorship-contribution-statement",
+      "number": null,
+      "title": "CRediT authorship contribution statement",
+      "level": 2,
+      "start": 50897,
+      "end": 50938
+    },
+    {
+      "id": "sec-10-dian-dickson-validation-investigation-br",
+      "number": null,
+      "title": "Dian Dickson: Validation, Investigation. Bradley D. Bock: Valida\u00ad",
+      "level": 2,
+      "start": 50938,
+      "end": 51084
+    },
+    {
+      "id": "sec-11-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of Competing Interest",
+      "level": 2,
+      "start": 51084,
+      "end": 51289
+    },
+    {
+      "id": "sec-12-data-availability",
+      "number": null,
+      "title": "Data availability",
+      "level": 2,
+      "start": 51289,
+      "end": 51347
+    },
+    {
+      "id": "sec-13-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 51347,
+      "end": 51554
+    },
+    {
+      "id": "sec-14-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 51554,
+      "end": 62134
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "\u20131. Schematic of the refrigerant circuit including the test chamber in pool boiling configuration.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-2_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "\u20132. Surface microstructure schematics of tubes tested.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-2_p5.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "\u20133. Nanostructure identification on SEM photograph of CuO nanocoated copper sample.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-2_p5.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "\u20134. Uncoated and coated micro-enhanced tube SEM observation.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-2_p6.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "\u20135. Percentage uncertainties under pool boiling in 5 \u25e6C R134a.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-2_p7.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "\u20131. Smooth tube pool boiling validation test in R134a at 5 \u25e6C.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-3_p8.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20131. Pool boiling HTCs of uncoated micro-enhanced tubes in R134a.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p8.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "3.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p9.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20132. Pool boiling HTCs of coated plain and micro-enhanced tubes in R134a.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p9.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20133. Surface enhancement ratio with respect to the plain roughened tube at 5 \u25e6C in R134a.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p10.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20134. Coating heat transfer influence ratios of the plain and micro-enhanced tubes in R134a.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p10.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20135. Images of pool boiling of uncoated and coated GEWA-B5 at 5 \u25e6C in R134a at 100 kW/m2.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p10.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "5 illustrates that the nucleation process itself appears dimin\u00ad",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p11.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "6, where the GEWA-B5 is boiling at 20 kW/m2 and instances of",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p11.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "\u20136. Bubble ejection impedance in coated GEWA-B5 re-entrant cavities in pool boiling at 20 kW/m2 and 5 \u25e6C in R134a.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\dickson-2024-heat-transfer-of-uncoated-and\\dickson_2024_heat_transfer_of_uncoated_and_fig-4_p11.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": ", indicating the constituent proportions in weight percentage:",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "As can be seen, the 3D enhanced tubes have the highest internal",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "is illustrated through Fig. 2-5, where the higher uncertainty",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-5",
+      "caption": "",
+      "page": 9,
+      "rows": []
+    },
+    {
+      "id": "tab-5",
+      "caption": "indicates that the CuO nanocoating influenced the surface",
+      "page": 9,
+      "rows": []
+    },
+    {
+      "id": "tab-5",
+      "caption": "",
+      "page": 9,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 13,
+    "ingest": "pymupdf"
+  }
+}

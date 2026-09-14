@@ -1,0 +1,837 @@
+{
+  "record_id": "clark-2019-identification-of-nucleate-boiling-as",
+  "doc_id": "1363f916dade40b9",
+  "title": "Identification of nucleate boiling as the dominant heat transfer mechanism during confined two-phase jet impingement",
+  "source_pdf": "clark_2019_identification_of_nucleate_boiling_as.pdf",
+  "n_pages": 7,
+  "n_figures": 6,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "(a) Cross-sectional view of the test section, (b) schematic diagram of the oriﬁce plate conﬁguration for jet impingement and pool boiling, and (c) ﬂow loop diagram."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "(a) shows boiling curves corresponding to four different jet"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 5,
+      "caption": "(a) Boiling curves and (b) heat transfer coefﬁcients as a function of heat ﬂux for the jet impingement conﬁguration (corresponding to Vj = 1 m/s, 3 m/s, 6 m/s, and"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 5,
+      "caption": "(a and c) Boiling curves and (b and d) heat transfer coefﬁcients as a function of heat ﬂux for the jet impingement conﬁguration (corresponding to Vj = 9 m/s and 1 m/s,"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 6,
+      "caption": "Critical heat ﬂux (CHF) for the jet impingement (corresponding to Vj = 1 m/s,"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "Comparison of high-speed video frames across four jet velocities (Vj = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H/d = 3) at a constant non-dimensional heat input (Bl* = 0.76). The"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-82-4",
+      "number": "82.4",
+      "title": "W/cm2. The manufacturer-speciﬁed accuracy of the outlet",
+      "level": 2
+    },
+    {
+      "id": "sec-4-reynolds-number-qvjd-m",
+      "number": null,
+      "title": "Reynolds number (qvjd/m)",
+      "level": 2
+    },
+    {
+      "id": "sec-46-3",
+      "number": "46.3",
+      "title": "W/cm2, the boiling curve slope changes at this spacing and the",
+      "level": 2
+    },
+    {
+      "id": "sec-21-9",
+      "number": "21.9",
+      "title": "W/cm2 in the pool boiling conﬁguration. These comparisons",
+      "level": 2
+    },
+    {
+      "id": "sec-2-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1
+    },
+    {
+      "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+      "number": null,
+      "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 23,
+    "resolved": 23,
+    "unresolved": 0,
+    "exact": 23
+  },
+  "points_ref": "points/clark-2019-identification-of-nucleate-boiling-as.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "evaporation",
+    "title": "Identification of nucleate boiling as the dominant heat transfer mechanism during confined two-phase jet impingement",
+    "year": 2019,
+    "reason": "The paper reports its own steady-state boiling curves, heat transfer coefficients, and CHF values (e.g., 27.8 W/cm2, 21.9 W/cm2) measured for confined two-phase jet impingement of HFE-7100 compared with pool boiling."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 98.6,
+      "max": 103.2,
+      "unit": "kPa",
+      "evidence": [
+        {
+          "quote": "The outlet pressure ranged from 98.6 to 103.2 kPa for the data at CHF and would have negligible effect on the CHF through a change in fluid properties.",
+          "resolved": true,
+          "char_span": [
+            21752,
+            21903
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-82-4",
+              "number": "82.4",
+              "title": "W/cm2. The manufacturer-speciﬁed accuracy of the outlet",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "using the immersion heater to maintain saturation temperature in the reservoir at atmospheric pressure (101.3 kPa)",
+          "resolved": true,
+          "char_span": [
+            14051,
+            14165
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 21.9,
+      "max": 82.4,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "±0.87 C at the highest recorded heat flux of 82.4 W/cm2",
+          "resolved": true,
+          "char_span": [
+            17092,
+            17147
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            },
+            {
+              "id": "sec-82-4",
+              "number": "82.4",
+              "title": "W/cm2. The manufacturer-speciﬁed accuracy of the outlet",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "A maximum CHF of 27.8 W/cm2 was achieved for this jet velocity, again at an orifice-to-target spacing of 3 jet diameters, relative to the CHF of 21.9 W/cm2 in the pool boiling configuration.",
+          "resolved": true,
+          "char_span": [
+            24724,
+            24914
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-46-3",
+              "number": "46.3",
+              "title": "W/cm2, the boiling curve slope changes at this spacing and the",
+              "level": 2
+            },
+            {
+              "id": "sec-21-9",
+              "number": "21.9",
+              "title": "W/cm2 in the pool boiling conﬁguration. These comparisons",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "until ultimately terminating in a significantly lower CHF (57.6 W/cm2) than the other cases",
+          "resolved": true,
+          "char_span": [
+            23919,
+            24010
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-46-3",
+              "number": "46.3",
+              "title": "W/cm2, the boiling curve slope changes at this spacing and the",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 8.0,
+      "max": 8.0,
+      "unit": "C",
+      "evidence": [
+        {
+          "quote": "cooling is set at 8 C relative to the saturation temperature calculated using the measured test section chamber pressure",
+          "resolved": true,
+          "char_span": [
+            14368,
+            14488
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 2.0,
+      "max": 2.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "single 2 mm-diameter orifice is used; the jet velocity",
+          "resolved": true,
+          "char_span": [
+            7134,
+            7188
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "an orifice plate with a single 2 mm-diameter orifice located at the center of the plate is mounted to the bottom of the plenum",
+          "resolved": true,
+          "char_span": [
+            10851,
+            10977
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": 2.0,
+      "max": 2.0,
+      "unit": "l/d",
+      "evidence": [
+        {
+          "quote": "The orifice aspect ratio (l/d) is chosen to be 2, to minimize pressure drop according to Ref. [15].",
+          "resolved": true,
+          "char_span": [
+            11239,
+            11338
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "n_channels": {
+      "min": 1.0,
+      "max": 1.0,
+      "unit": "orifice",
+      "evidence": [
+        {
+          "quote": "A single jet is chosen instead of a jet array in order to maximize the possible range of jet velocities",
+          "resolved": true,
+          "char_span": [
+            11003,
+            11106
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "Ra_surface": {
+      "min": 0.5,
+      "max": 0.5,
+      "unit": "lm",
+      "evidence": [
+        {
+          "quote": "Using the smooth surface with a roughness (Ra) of 0.5 lm, in one of the current experiments",
+          "resolved": true,
+          "char_span": [
+            16048,
+            16139
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "oxygen-free copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "evaporation",
+      "tier2": "jet_impingement",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "heat transfer from a copper surface is experimentally characterized in both confined jet impingement and pool boiling configurations",
+          "resolved": true,
+          "char_span": [
+            1251,
+            1383
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+              "number": null,
+              "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "This result confirms that nucleate boiling is the dominant heat transfer mechanism",
+          "resolved": true,
+          "char_span": [
+            2297,
+            2379
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+              "number": null,
+              "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "plate with a single 2 mm-diameter orifice located at the center of",
+          "resolved": true,
+          "char_span": [
+            10862,
+            10928
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The copper block is equipped with three thermocouple rakes located along",
+          "resolved": true,
+          "char_span": [
+            12663,
+            12735
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "velocities of 6 m/s and 9 m/s, and steady-state data are recorded",
+          "resolved": true,
+          "char_span": [
+            14628,
+            14693
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "2 min, providing approximately 60 data points that are averaged",
+          "resolved": true,
+          "char_span": [
+            14822,
+            14885
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-4-reynolds-number-qvjd-m",
+              "number": null,
+              "title": "Reynolds number (qvjd/m)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": "HFE-7100",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "charged with the dielectric fluid HFE-7100",
+            "resolved": true,
+            "char_span": [
+              7805,
+              7847
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Prior to the start of an experiment, the HFE-7100 is thoroughly",
+            "resolved": true,
+            "char_span": [
+              13559,
+              13622
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-4-reynolds-number-qvjd-m",
+                "number": null,
+                "title": "Reynolds number (qvjd/m)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Using the smooth surface with a roughness (Ra) of",
+            "resolved": true,
+            "char_span": [
+              16048,
+              16097
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-4-reynolds-number-qvjd-m",
+                "number": null,
+                "title": "Reynolds number (qvjd/m)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": null,
+        "stated": true,
+        "evidence": [
+          {
+            "quote": "Thermal management of high-power electronics requires cooling strategies capable of dissipating high\nheat fluxes while maintaining the device at low operating temperatures.",
+            "resolved": true,
+            "char_span": [
+              596,
+              768
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+                "number": null,
+                "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Generally, confined impingement geometries are used in electronics cooling applications, where the flow\nis constrained between the hot surface and orifice plate.",
+            "resolved": true,
+            "char_span": [
+              893,
+              1054
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+                "number": null,
+                "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Two-phase jet impingement heat transfer is a viable method for\nthermal management of high-density electronics systems.",
+            "resolved": true,
+            "char_span": [
+              2935,
+              3053
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+                "number": null,
+                "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella ⇑",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Identification of nucleate boiling as the dominant heat transfer mechanism during confined two-phase jet impingement",
+  "si": {
+    "p_sat_min": 98600.0,
+    "p_sat_unit": "Pa",
+    "p_sat_max": 103200.0,
+    "q_flux_min": 219000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 824000.0,
+    "dT_sub_min": 8.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 8.0,
+    "D_h_min": 0.002,
+    "D_h_unit": "m",
+    "D_h_max": 0.002
+  },
+  "fluid_properties": {
+    "rho_l": 1418.0,
+    "rho_v": 9.9,
+    "sigma": 0.0102,
+    "h_fg": 111600.0,
+    "mu_l": 0.00037,
+    "p_crit": 2230000.0
+  },
+  "derived": {
+    "L_cap": 0.0008594547157228833,
+    "Co": 0.4297273578614416,
+    "Bo": 5.415193672549019,
+    "p_reduced": 0.04524663677130045
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:high",
+    "pressure:low",
+    "scale:minichannel"
+  ],
+  "unit_warnings": [
+    "aspect_ratio.min: unrecognized unit 'l/d'",
+    "aspect_ratio.max: unrecognized unit 'l/d'",
+    "n_channels.min: unrecognized unit 'orifice'",
+    "n_channels.max: unrecognized unit 'orifice'",
+    "Ra_surface.min: unrecognized unit 'lm'",
+    "Ra_surface.max: unrecognized unit 'lm'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-14",
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 5,
+    "n_points": 69,
+    "figures": [
+      "fig-2"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

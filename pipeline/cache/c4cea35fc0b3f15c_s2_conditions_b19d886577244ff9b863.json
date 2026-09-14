@@ -1,0 +1,137 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 5.0,
+    "max": 25.0,
+    "unit": "◦C",
+    "evidence": [
+      {
+        "quote": "re-entrant cavity style tubes will be tested at 5 ◦C and 25 ◦C in refrigerant"
+      },
+      {
+        "quote": "The uncoated tubes were tested in pool boiling at saturation tem­\nperatures of 5 ◦C and 25 ◦C in R134a across a range of heat fluxes"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 20.0,
+    "max": 100.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "R-134a across a heat flux range of 20 kW/m2 to 100 kW/m2 where the"
+      },
+      {
+        "quote": "the heating water so that the heat fluxes range from a high of 100 kW/m2 to"
+      },
+      {
+        "quote": "a low of 20 kW/m2 in increments of 10 kW/m2, with this decreasing heat"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 19.0,
+    "max": 19.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "of 19 mm horizontal copper tubes heated by water to determine the effectiveness of this multiscale enhancement"
+      },
+      {
+        "quote": "All the tubes tested were of nominal 3⁄4\" outside diameter (19 mm)"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 566.0,
+    "max": 566.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "mately 19 mm) diameter and a heated length of 566 mm, with one low"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.04,
+    "max": 0.75,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "0.75 μm with a standard deviation of 0.07 μm"
+      },
+      {
+        "quote": "smooth tube (Ra = 0.04 μm) with its Cooper correlation [39]"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 5.0,
+    "max": 80.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "The hydrophobic uncoated tubes produced water droplet CAs between\n60◦and 80◦"
+      },
+      {
+        "quote": "duced water droplet CAs of less than 5◦"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

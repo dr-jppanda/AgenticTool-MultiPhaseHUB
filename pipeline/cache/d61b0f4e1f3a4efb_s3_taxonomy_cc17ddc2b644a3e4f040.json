@@ -1,0 +1,126 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "nucleate boiling regime and higher are of primary interest in this study"
+      },
+      {
+        "quote": "Pool boiling heat transfer enhancement by novel and more traditional porous surfaces"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "a plain, flat copper surface"
+      },
+      {
+        "quote": "predicts a value of 17.8 W/cm2 for HFE on the plain flat copper"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "each data point taken at our standard criterion for steady state, which is"
+      },
+      {
+        "quote": "a strict observance of dTw"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "HFE-7300",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "a segregated hydrofluoroether, HFE-7300"
+        },
+        {
+          "quote": "Values of critical heat flux for HFE-7300 are given in Table 2."
+        }
+      ]
+    },
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "CHF could not be measured for water due to the limitation of the power supply used"
+        },
+        {
+          "quote": "DI water pool boiling curves for the enhanced surfaces and the plain surface"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The bare copper sheet was of unpolished mill-grade finish prior to enhancement."
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": "sintered",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "To prepare the sintered copper surface shown in Figure 1a, spherical copper particles"
+        },
+        {
+          "quote": "The porosity of the sintered layer, obtained by weight and volume"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Growth of a dense, vertically aligned array of MWCNTs on a catalyzed copper"
+        },
+        {
+          "quote": "a flat copper surface covered with an array of copper-metallized MWCNTs"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "chf",
+    "wall_superheat",
+    "htc",
+    "onb"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "rtd"
+  ]
+}

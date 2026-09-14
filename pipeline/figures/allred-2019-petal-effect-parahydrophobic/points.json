@@ -1,0 +1,226 @@
+{
+  "record_id": "allred-2019-petal-effect-parahydrophobic",
+  "extractor": "mhtdb-digitize/v1",
+  "series": [
+    {
+      "series_id": "fig-7-smooth-copper",
+      "figure_id": "fig-7",
+      "label": "smooth copper",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          9.9,
+          7.4
+        ],
+        [
+          11.7,
+          16.2
+        ],
+        [
+          12.9,
+          25.9
+        ],
+        [
+          13.9,
+          35.5
+        ],
+        [
+          14.7,
+          45.1
+        ],
+        [
+          15.6,
+          54.7
+        ],
+        [
+          16.3,
+          64.4
+        ],
+        [
+          17.1,
+          73.2
+        ],
+        [
+          18.0,
+          83.8
+        ],
+        [
+          18.5,
+          93.9
+        ],
+        [
+          19.7,
+          112.6
+        ]
+      ],
+      "confidence": 0.8,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Gray filled-circle markers, isolated by RGB color mask (89,89,89) after tick calibration from axis labels 0/10/20/30/40 (x) and 0/20/40/.../140 (y). The last two interior points (~18.0, ~18.5 K) were partially occluded by the overlapping blue 'smooth PDMS' marker near CHF; centroids taken from the visible gray fragment. The grey X near the top is an extrapolation-arrow annotation, not a data point, and was excluded."
+    },
+    {
+      "series_id": "fig-7-smooth-pdms",
+      "figure_id": "fig-7",
+      "label": "smooth PDMS",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          7.9,
+          6.7
+        ],
+        [
+          9.5,
+          15.6
+        ],
+        [
+          10.9,
+          23.9
+        ],
+        [
+          11.9,
+          32.9
+        ],
+        [
+          12.9,
+          41.3
+        ],
+        [
+          13.9,
+          49.6
+        ],
+        [
+          17.9,
+          92.0
+        ],
+        [
+          18.7,
+          99.8
+        ]
+      ],
+      "confidence": 0.72,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Blue filled-circle markers (distinguished from the blue filled-square 'para PDMS' series by shape: fill-area/bounding-box ratio ~0.6-0.8 for circles vs ~1.0 for squares, after color-masking pure blue (0,0,255) and eroding away the thin dashed connector line). Two interior rungs (~x=14-16 K) are missing: at those points the smooth-copper gray marker is drawn on top and fully occludes the blue circle, so no reliable centroid could be extracted there; left out rather than fabricated. Excludes the small blue 'X' annotation mark near CHF, which is an arrow/extrapolation annotation, not a data point."
+    },
+    {
+      "series_id": "fig-7-para-pdms",
+      "figure_id": "fig-7",
+      "label": "para PDMS",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          5.8,
+          7.2
+        ],
+        [
+          7.5,
+          15.8
+        ],
+        [
+          9.2,
+          24.7
+        ],
+        [
+          10.6,
+          33.7
+        ],
+        [
+          12.0,
+          42.7
+        ],
+        [
+          13.1,
+          50.5
+        ],
+        [
+          14.3,
+          59.4
+        ],
+        [
+          15.4,
+          68.4
+        ],
+        [
+          16.4,
+          77.4
+        ],
+        [
+          17.4,
+          85.8
+        ]
+      ],
+      "confidence": 0.85,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Blue filled-square markers, isolated from the blue filled-circle 'smooth PDMS' series by shape (fill-area/bounding-box ratio ~1.0 for squares) after color masking and erosion to remove the dashed connector line. All 10 markers visible along this curve were cleanly resolved (no occlusion)."
+    },
+    {
+      "series_id": "fig-7-shpho-pdms",
+      "figure_id": "fig-7",
+      "label": "SHPho PDMS",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          5.6,
+          1.0
+        ],
+        [
+          12.5,
+          5.4
+        ],
+        [
+          19.0,
+          9.4
+        ],
+        [
+          27.3,
+          13.8
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Red filled-triangle markers, isolated by color mask (255,0,0) and eroded to remove the dashed connector line; the similarly colored legend triangle icon and 'SHPho PDMS' legend text were excluded by position/size. Only 4 markers are present on this low, near-flat curve."
+    }
+  ]
+}

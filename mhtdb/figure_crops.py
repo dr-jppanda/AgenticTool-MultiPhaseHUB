@@ -1,4 +1,4 @@
-"""S0b — tight figure/table crops, one file per element.
+"""S8 — tight figure/table crops, one file per element.
 
 `s0_ingest` detects a figure from its *caption line* and, when asked for an
 image, renders the **whole page**. That is enough to show a reader where a
@@ -55,6 +55,8 @@ MIN_SIDE = 45.0         # ignore clusters smaller than this on either side
 MIN_AREA = 6000.0       # ...or smaller than this in area (rules, logos, glyphs)
 CAPTION_GAP = 90.0      # a caption further than this from its graphic is a guess
 PAD = 4.0               # breathing room around the union rect
+AXIS_LABEL_MARGIN = 42.0    # bridges a tick-label column + a rotated axis title
+AXIS_LABEL_MAX_CHARS = 40   # longer than any real tick label or axis title
 
 
 @dataclass
@@ -184,6 +186,68 @@ def _substantial_unlabelled(c: _Cluster) -> bool:
     if c.raster and c.rect.width * c.rect.height >= 8000:
         return True
     return len(c.parts) >= 8
+
+
+def _looks_like_axis_text(text: str, r: "fitz.Rect") -> bool:
+    """Is this text block a tick label or axis title, not a caption or body text?
+
+    Axis labels are never part of a vector drawing or an embedded image --
+    they're page text -- so `_graphic_boxes` never sees them, and a cluster's
+    rect is always cropped exactly at the plot's own drawn lines. That is
+    precisely where the axis numbers a digitizer needs to calibrate against
+    live, since they're printed just outside the plot border. Short length
+    plus a shape that's either a single compact line (a tick number) or
+    tall-and-narrow (a rotated axis title) tells them apart from a caption or
+    a paragraph, which are long, and from a section heading, which is wide.
+    """
+    text = text.strip()
+    if not text or len(text) > AXIS_LABEL_MAX_CHARS:
+        return False
+    if _CAPTION.match(text) or _CROSSREF.match(text):
+        return False
+    rotated = r.height > 3 * max(r.width, 1.0)
+    if rotated:
+        return True
+    # A non-rotated axis element is a tick number or a short axis title --
+    # never more than a handful of words. A section heading ("3.6. Boiling
+    # heat transfer coefficient") is just as short and single-line, but
+    # reads as a sentence fragment; capping the word count separates them
+    # without hand-listing every possible axis-title wording.
+    return r.height < 20 and r.width < 150 and len(text.split()) <= 4
+
+
+def _expand_for_axis_labels(rect: "fitz.Rect", page, exclude: list["fitz.Rect"]) -> "fitz.Rect":
+    """Grow a figure's rect to swallow nearby axis tick labels and titles.
+
+    Only text just outside one edge of the *original* rect, overlapping its
+    span along the other axis, and axis-label-shaped (see
+    `_looks_like_axis_text`) qualifies. Checked against the original
+    boundary rather than re-checked after each addition on purpose: a tick
+    label and the axis title beside it are typically both within margin of
+    the plot's own drawn edge already, so one pass catches them together,
+    while re-evaluating against a rect that keeps growing would let a chain
+    of short blocks walk the crop straight into a neighbouring column.
+    """
+    fixed = fitz.Rect(rect)
+    grown = fitz.Rect(rect)
+    for b in page.get_text("dict")["blocks"]:
+        if b["type"] != 0:
+            continue
+        br = fitz.Rect(b["bbox"])
+        text = "".join(sp["text"] for ln in b["lines"] for sp in ln["spans"])
+        if not _looks_like_axis_text(text, br):
+            continue
+        if any(not (br & ex).is_empty for ex in exclude):
+            continue
+        near_left = 0 <= fixed.x0 - br.x1 <= AXIS_LABEL_MARGIN
+        near_right = 0 <= br.x0 - fixed.x1 <= AXIS_LABEL_MARGIN
+        near_top = 0 <= fixed.y0 - br.y1 <= AXIS_LABEL_MARGIN
+        near_bottom = 0 <= br.y0 - fixed.y1 <= AXIS_LABEL_MARGIN
+        v_overlap = br.y1 >= fixed.y0 - 6 and br.y0 <= fixed.y1 + 6
+        h_overlap = br.x1 >= fixed.x0 - 6 and br.x0 <= fixed.x1 + 6
+        if ((near_left or near_right) and v_overlap) or ((near_top or near_bottom) and h_overlap):
+            grown |= br
+    return grown
 
 
 # ------------------------------------------------------------------ captions
@@ -464,10 +528,11 @@ def extract_crops(
                 eid = f"fig-{cap.number}"
                 label, caption = cap.label, cap.text
                 rect = cl.rect | cap.rect
+                rect = _expand_for_axis_labels(rect, page, exclude=[cap.rect])
             else:
                 eid = f"fig-p{pno}-{idx:02d}"
                 label, caption = "", ""
-                rect = fitz.Rect(cl.rect)
+                rect = _expand_for_axis_labels(fitz.Rect(cl.rect), page, exclude=[])
 
             if eid in seen:                  # same number twice (continued panels)
                 eid = f"{eid}-p{pno}-{idx:02d}"

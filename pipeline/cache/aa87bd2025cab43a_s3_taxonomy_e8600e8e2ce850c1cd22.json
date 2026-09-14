@@ -1,0 +1,117 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Pool boiling heat transfer is measured with two individual working fluids on copper surfaces\nenhanced with sintered copper powder and carbon nanotubes."
+      },
+      {
+        "quote": "Heat fluxes in the fully developed nucleate boiling\nregime and higher are of primary interest in this study"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The surfaces consisted of a plain, flat copper surface, a sintered copper surface, a flat copper\nsurface covered with an array of copper-metallized MWCNTs"
+      },
+      {
+        "quote": "fabricated by preparing the surface on a 25.4-mm\nby 25.4-mm by 1.0 mm thick pure (99.99%) copper sheet"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "All data presented in this work are those of\nthe first test for each sample with each data point taken at our standard criterion for steady state"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "HFE-7300",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The working fluids are a\nsegregated hydrofluoroether, HFE-7300, and deionized water."
+        }
+      ]
+    },
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling curves for the four surfaces are compared in Figures 3 and 4 with HFE-7300 and\nDI water, respectively."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The bare copper sheet was of unpolished\nmill-grade finish prior to enhancement."
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": "sintered",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "For preparing the sintered copper surface shown in Figure 1(a), spherical copper particles\n(Alfa Aesar 42623, 99.9% pure) were sieved with 140- and 170-mesh screens"
+        },
+        {
+          "quote": "The\nporosity of the sintered layer, obtained by weight and volume measurements, was 65%."
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Growth of a dense, vertically aligned array of multi-walled (MW) CNTs on a catalyzed\ncopper substrate [as shown in Figure 1(b)] was achieved by microwave-plasma chemical vapor\ndeposition (MPCVD)"
+        },
+        {
+          "quote": "The fourth test surface consisted of a CNT array grown on sintered copper spheres"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "chf",
+    "wall_superheat",
+    "onb",
+    "htc"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "rtd"
+  ]
+}

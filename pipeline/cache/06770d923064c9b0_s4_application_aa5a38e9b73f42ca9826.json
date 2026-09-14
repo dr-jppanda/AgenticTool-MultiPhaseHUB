@@ -1,0 +1,35 @@
+{
+  "targets": [
+    {
+      "tier1": "cryogenics",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Emerging technologies in cryogenics,\nsuperconductivity, and aerospace increasingly rely on fluids such as liquid\nnitrogen (LN2), liquid hydrogen (LH2), and liquid oxygen (LO2), which operate at\nextremely low temperatures."
+        },
+        {
+          "quote": "This advancement is expected to\nmarkedly improve the design, safety, and performance of cryogenic thermal\nmanagement systems."
+        },
+        {
+          "quote": "These reductions in error confirm the enhanced agreement between\npredictions and experimental data achieved by the updated correlation,\nparticularly for LH2 and LN2, thereby strengthening its suitability for\npractical cryogenic thermal applications."
+        }
+      ]
+    },
+    {
+      "tier1": "aerospace",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "All correlations developed in this study, except for qʹʹ\nCHF, are formu­\nlated based on terrestrial gravity conditions. To extend their appli­\ncability to space-based systems, gravity scaling must be performed."
+        },
+        {
+          "quote": "which is expected to be incorporated\nupon acquisition of additional reduced gravity data from the authors'\nupcoming parabolic flight experiments"
+        }
+      ]
+    }
+  ]
+}

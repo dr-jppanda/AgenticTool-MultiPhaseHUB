@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "hvacr",
+      "tier2": "refrigeration",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Falling film evaporators in the refrigeration industry offer a number of advantages over their flooded counter-"
+        },
+        {
+          "quote": "Lower\ncharge evaporators in particular have safety advantages when poisonous or flammable refrigerants are used."
+        }
+      ]
+    }
+  ]
+}

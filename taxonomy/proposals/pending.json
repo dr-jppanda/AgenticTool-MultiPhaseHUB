@@ -1,46 +1,84 @@
 [
   {
-    "facet": "surface_enhancement",
-    "term": "copper_oxide_nanostructures",
-    "nearest_parent": "nanostructured",
-    "records": [
-      "chu-2013-cuo-hierarchical-wang-miljkovic"
-    ],
-    "n": 1
-  },
-  {
     "facet": "fluid",
-    "term": "HFE-7300",
+    "term": "FC-87",
     "nearest_parent": "dielectric",
     "records": [
-      "mchale-2011-smooth-sintered-copper"
+      "howard-2008-photographic-study-of-pool-boiling",
+      "mudawar-1993-optimization-of-enhanced-surfaces-for"
+    ],
+    "n": 2
+  },
+  {
+    "facet": "surface_enhancement",
+    "term": "free_particle_layer",
+    "nearest_parent": "porous_coating",
+    "records": [
+      "kim-2014-investigation-of-boiling-heat-transfer",
+      "sarangi-2015-effect-of-particle-size-on"
+    ],
+    "n": 2
+  },
+  {
+    "facet": "fluid",
+    "term": "R236fa",
+    "nearest_parent": "refrigerant_hfc",
+    "records": [
+      "christians-2011-falling-film-evaporation-on-enhanced"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "surface_enhancement",
+    "term": "copper_oxide_nanostructure_coating",
+    "nearest_parent": "nanostructured",
+    "records": [
+      "dickson-2024-heat-transfer-of-uncoated-and"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "configuration",
+    "term": "downward_facing_convex_surface",
+    "nearest_parent": "surface",
+    "records": [
+      "howard-2008-photographic-study-of-pool-boiling"
+    ],
+    "n": 1
+  },
+  {
+    "facet": "surface_enhancement",
+    "term": "electrical_discharge_machined",
+    "nearest_parent": "roughened",
+    "records": [
+      "jones-2009-the-influence-of-surface-roughness"
     ],
     "n": 1
   },
   {
     "facet": "fluid",
-    "term": "benzene",
-    "nearest_parent": "natural",
+    "term": "FC-77",
+    "nearest_parent": "dielectric",
     "records": [
-      "htl-tr-1951-005"
+      "mchale-2010-bubble-nucleation-characteristics-in-pool"
     ],
     "n": 1
   },
   {
-    "facet": "fluid",
-    "term": "ethanol",
-    "nearest_parent": "natural",
+    "facet": "surface_enhancement",
+    "term": "edm_machined",
+    "nearest_parent": "roughened",
     "records": [
-      "htl-tr-1951-005"
+      "mchale-2010-bubble-nucleation-characteristics-in-pool"
     ],
     "n": 1
   },
   {
-    "facet": "fluid",
-    "term": "n-pentane",
-    "nearest_parent": "natural",
+    "facet": "surface_enhancement",
+    "term": "loose_particulate_bed",
+    "nearest_parent": "porous_coating",
     "records": [
-      "htl-tr-1951-005"
+      "weibel-2013-pool-boiling-heat-transfer-from"
     ],
     "n": 1
   }

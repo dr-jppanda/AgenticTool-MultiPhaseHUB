@@ -1,0 +1,94 @@
+{
+  "phenomenon": {
+    "tier1": "evaporation",
+    "tier2": "falling_film",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "falling film boiling and pool boiling on the outside of horizontal plain tubes"
+      },
+      {
+        "quote": "Thus this study focusses on falling film boiling on plain tubes in"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "cylinder",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Falling film boiling and pool boiling on plain circular tubes: Influence of"
+      },
+      {
+        "quote": "while in this paper only single tubes were tested"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The purpose of this study was therefore to experimentally measure the influence of surface material and roughness on the heat transfer of"
+      },
+      {
+        "quote": "Studies were conducted on a falling film experimental system as"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": "R134a",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The refrigerant used in this study was R-134a."
+        },
+        {
+          "quote": "using refrigerant R-134a at heat fluxes from 20 to 90 kW/m2"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "roughened with various grades of sandpaper to achieve roughnesses between 0.1 and 1.9 μm"
+        },
+        {
+          "quote": "the copper tubes could be roughened with\nsandpaper (Grits 1200, 600, 100 and 40) by hand"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Thus this study focusses on falling film boiling on plain tubes in"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "dryout_quality"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

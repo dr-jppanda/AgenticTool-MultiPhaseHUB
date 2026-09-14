@@ -1,0 +1,750 @@
+{
+  "doc_id": "95888c43a8745723",
+  "source": "papers\\moze_2022_laser_textured_sam_untreated_copper.pdf",
+  "text": "Citation: Mo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.;\nSteinb\u00fccher, M.; Golobi\u02c7c, I.;\nGjerke\u0161, H. Nanosecond\nLaser-Textured Copper Surfaces\nHydrophobized with Self-Assembled\nMonolayers for Enhanced Pool\nBoiling Heat Transfer. Nanomaterials\n2022, 12, 4032. https://doi.org/\n10.3390/nano12224032\nAcademic Editors: Oleg Vitrik and\nAleksandr Kuchmizhak\nReceived: 26 October 2022\nAccepted: 15 November 2022\nPublished: 16 November 2022\nPublisher's Note: MDPI stays neutral\nwith regard to jurisdictional claims in\npublished maps and institutional affiliations.\nCopyright:\n\u00a9 2022 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nnanomaterials\nArticle\nNanosecond Laser-Textured Copper Surfaces Hydrophobized\nwith Self-Assembled Monolayers for Enhanced Pool Boiling\nHeat Transfer\nMatic Mo\u017ee 1,*\n, Matev\u017e Zupan\u02c7ci\u02c7c 1\n, Miha Steinb\u00fccher 2, Iztok Golobi\u02c7c 1\nand Henrik Gjerke\u0161 3,*\n1\nFaculty of Mechanical Engineering, University of Ljubljana, A\u0161ker\u02c7ceva 6, 1000 Ljubljana, Slovenia\n2\nHelios TBLUS d.o.o., Koli\u02c7cevo 65, 1230 Dom\u017eale, Slovenia\n3\nSchool of Engineering and Management, University of Nova Gorica, Vipavska 13, 5000 Nova Gorica, Slovenia\n*\nCorrespondence: matic.moze@fs.uni-lj.si (M.M.); henrik.gjerkes@ung.si (H.G.)\nAbstract: Increased cooling requirements of many compact systems involving high heat fluxes\ndemand the development of high-performance cooling techniques including immersion cooling\nutilizing pool boiling. This study presents the functionalization of copper surfaces to create interfaces\nfor enhanced pool boiling heat transfer. Three types of surface structures including a crosshatch\npattern, shallow channels and deep channels were developed using nanosecond laser texturing to\nmodify the surface micro- and nanomorphology. Each type of surface structure was tested in the asprepared superhydrophilic state and superhydrophobic state following hydrophobization, achieved\nthrough the application of a nanoscale self-assembled monolayer of a fluorinated silane. Boiling\nperformance evaluation was conducted through three consecutive runs under saturated conditions at\natmospheric pressure utilizing water as the coolant. All functionalized surfaces exhibited enhanced\nboiling heat transfer performance in comparison with an untreated reference. The highest critical\nheat flux of 1697 kW m-2 was achieved on the hydrophobized surface with shallow channels. The\nhighest heat transfer coefficient of 291.4 kW m-2 K-1 was recorded on the hydrophobized surface\nwith deep channels at CHF incipience, which represents a 775% enhancement over the highest values\nrecorded on the untreated reference. Surface microstructure was identified as the key reason for\nenhanced heat transfer parameters. Despite large differences in surface wettability, hydrophobized\nsurfaces exhibited comparable (or even higher) CHF values in comparison with their hydrophilic\ncounterparts, which are traditionally considered as more favorable for achieving high CHF values.\nA significant reduction in bubble departure diameter was observed on the hydrophobized surface\nwith deep channels and is attributed to effective vapor entrapment, which is pointed out as a major\ncontributing reason behind the observed extreme boiling heat transfer performance.\nKeywords: nucleate boiling; heat transfer enhancement; heat transfer coefficient; surface functionalization;\nlaser texturing; hydrophobization\n1. Introduction\n1.1. Boiling Heat Transfer\nBoiling represents an efficient heat transfer mechanism allowing the removal of concentrated thermal loads at small temperature differences between the hot surface and the\ncooling medium. Its uses include cooling of fuel rods and reactor pressure vessels in certain\ntypes of nuclear reactors [1,2] and heat removal from (micro)electronic processors and\ncomponents [3,4]. The main heat transfer parameters that define its heat transfer intensity\nare the heat flux (i.e., the heat transfer rate per unit area), surface superheat (i.e., temperature difference between the boiling surface and the cooling medium) and the heat transfer\ncoefficient (i.e., the ratio between heat flux and surface superheat in a given operating\npoint). It is desirable for boiling to be able to remove large heat fluxes at low surface\nsuperheat, which results in high values of the heat transfer coefficient (HTC).\nNanomaterials 2022, 12, 4032. https://doi.org/10.3390/nano12224032\nhttps://www.mdpi.com/journal/nanomaterials\nNanomaterials 2022, 12, 4032\n2 of 20\nPool boiling is the basic form of boiling, taking place in a macroscopically stationary\npool of liquid. Furthermore, pool boiling can be classified into several regimes based\non the physical phenomena on the boiling surface. The most important regime from an\nengineering standpoint is nucleate boiling, which starts when the first vapor bubbles start\nto form on the surface and natural convection is no longer intense enough to remove\nthe heat load. This point is denoted as onset of nucleate boiling (ONB). With increasing\nheat flux, the number of active nucleation sites producing bubbles and bubble departure\nfrequency increase, alongside increasing coalescence (i.e., merging) of bubbles. When the\ncoalescence is intense enough to cause a vapor film to form on the surface, the so-called\ncritical heat flux (CHF) is said to have been reached and the process transitions towards\nfilm boiling. CHF incipience therefore represents the upper heat flux limit of the nucleate\nboiling regime, which should not be exceeded during operation to avoid a massive increase\nin surface temperature and damage to or destruction of the cooled component.\nWhile the boiling offers intense heat transfer with heat transfer coefficients for pool\nboiling of saturated water at atmospheric pressure reaching several tens of kW m-2 K-1\non polished or otherwise untreated surfaces, several applications require the enhancement\nof boiling intensity in the form of earlier ONB, increased HTC and delayed CHF, therefore\nwidening the range within which efficient and safe cooling can be provided. The condition\nof the boiling surface and its interaction with the working fluid (namely wettability and\nwickability) importantly influence the intensity of boiling heat transfer and have been\nfocused upon by researchers trying to improve phase-change cooling in the last decade.\nBased on the current knowledge, the boiling surface should include cavities or other morphological features with the ability to entrap vapor and therefore serve as active nucleation\nsites. Additionally, higher surface wettability (e.g., (super)hydrophilicity) favorably affects\nthe delay of CHF, but at the cost of delayed boiling onset. Conversely, poorly wettable\n(hydrophobic) surfaces expedite the ONB but are typically more inclined towards early\nvapor film formation, thus lowering the CHF value. Nevertheless, several studies have\nshown that correct degassing of otherwise superhydrophobic textured surfaces can simultaneously allow the enhancement of all the aspects of nucleate boiling; that is, lowering the\nONB and increasing both the HTC and the CHF [5,6].\n1.2. Boiling Heat Transfer Enhancement via Surface Functionalization\nSeveral recent reviews [7-11] revealed the vast number of approaches to boiling heat\ntransfer enhancement. These include the use of surface treatments to induce surface micro-\nand nanostructure, porous coatings, hydrophilic or hydrophobic coatings, deposition of\nnanoparticles and/or use of nanofluids, machining of extended surfaces or fabrication of\nvarious surface features on the (sub)micron scale. Some recent studies are reviewed in the\nfollowing paragraphs.\nAhmadi et al. [12] studied the effect of functional surfaces with gradient mixed wettability on flow boiling in a high aspect ratio microchannel. They found a notable heat\ntransfer enhancement using biphilic surfaces with mixed wettability regions compared\nto the reference sample. Visualization showed that biphilic surfaces reduce the bubbly\nflow regime and extend the slug regime. Le Ba et al. [13] added halloysite nanotubes to\ndeionized water to create a nanofluid, which was boiled on horizontal copper tubes. A\nminor heat transfer enhancement was obtained at low heat flux values. Cho et al. [14] used\npowder injection molding to fabricate micro-patterned surfaces with submillimeter pins.\nTwo types of functionalized surfaces were prepared, and a CHF and HTC enhancement\nwas recorded on both of them compared to the entreated reference surface. Mo\u017ee et al. [15]\ninvestigated the difference in boiling on a hydrophilic and a hydrophobic surface with the\nsame morphology by first performing boiling tests on a titanium surface (functionalized\nthrough hydrothermal treatment to induce TiO2 nanotube growth) in the as-fabricated state,\nfollowed by drying, hydrophobization, and further tests in the hydrophobic state. It was\nshown that hydrophobization importantly decreases the ONB, increases the HTC and significantly narrows the surface temperature distributions. Freitas et al. [16] studied boiling of\nNanomaterials 2022, 12, 4032\n3 of 20\nnanofluids on biphilic surfaces, both experimentally and numerically. It was found that the\nbiphilic pattern importantly influences bubble coalescence, while the nanofluid had only a\nminor effect on the boiling performance. Galicia et al. [17] investigated the enhancement\nof subcooled flow boiling using a high porosity sintered fiber coating on the surface. The\nresults showed that while the porous coating can enhance the heat transfer, it will degrade\nthe performance if it is too thick. The enhancement was attributed to increased nucleation\nsite density, larger surface area, enhanced water supply ability through the porous structure,\nand the vapor entrapment ability of the porous coating. Similar results were obtained in\na related study by Otomo et al. [18]. Mo\u017ee et al. [19] used chemical etching to fabricate\nmicrocavities or porous structures on aluminum samples, while selected samples were\nsubsequently also hydrophobized. Pool boiling experiments with water and self-rewetting\nfluids showed that major enhancements of the heat transfer coefficients are possible with\nits highest recorded values exceeding 300 kW m-2 K-1. Kaniowski and Pastuszko [20]\ninvestigated the effect of open microchannels, fabricated through machining, on pool boiling heat transfer with water. The obtained results revealed that major enhancement of\nboth the CHF and the HTC are possible, with the highest reported HTC reaching almost\n400 kW m-2 K-1. Kamel and Lezsovits [21] used a tungsten oxide nanofluid to enhance\npool boiling performance, but the results showed a decrease of the HTC in most cases.\nThe authors attributed this to deposition of a nanoparticle layer onto the boiling surface,\nwhich increased the thermal resistance. Kim et al. [22] fabricated a microdome structure\non an aluminum substrate using direct metal forming and a custom glassy carbon mold.\nA moderate increase in both the HTC and CHF was observed during experiments with\npool boiling of water. Mo\u017ee et al. [23] used two types of chemical treatment to induce\nnanostructure formation on copper surfaces, which were subsequently tested under pool\nboiling conditions with water, water/butanol mixtures and Novec 649 dielectric fluid.\nBoth types of functionalized surfaces offered enhanced heat transfer, while a degradation\nof surface was detected when the butanol/water self-rewetting mixture was boiled on\nthem, which was attributed to a chemical reaction with copper compounds on the surface.\nMukherjee et al. [24] investigated the possibility of enhancing pool boiling heat transfer\nwith silica nanoparticles mixed into water to create a non-metallic-oxide nanofluid. While\na modest improvement of the HTC and CHF was observed, deposition of nanoparticles\nonto the surface during boiling resulted in increased bubble diameter and reduced active\nnucleation site density. Pranoto et al. [25] studied the role of pin fin array configurations\non pool boiling heat transfer enhancement and found that the pin fin arrays importantly\ninfluence bubble dynamics and affect the boiling performance. Had\u017ei \u0301c et al. [26] showed\nthat laser-textured surfaces, already enhancing the boiling performance on their own, can\nbe combined with boiling of a nanofluid to further enhance the CHF value. However, this\nenhancement is at the expense of significantly increased surface superheat, resulting in\nlower HTC values. Orman et al. [27] researched the influence of surface laser treatment on\nboiling heat transfer using water and ethanol. A significant influence of laser processing\nparameters on heat flux dissipated from surfaces with laser-induced grooves or microfins\nwas observed. Recently, Sajjad et al. [28] used a deep learning approach coupled with\nexplainable artificial intelligence to evaluate the liquid-to-vapor phase change heat transfer\nin nanoporous surface coatings alongside a parameter sensitivity analysis of nanoporous\nsurface coatings. Heat flux, the substrate's thermal conductivity, and pore diameter were\nfound to be the most influential parameters. The proposed method can be used to optimize\nnanoporous coated surfaces for a variety of working fluids.\n1.3. Laser-Textured Surfaces for Boiling Enhancement\nLaser texturing is an increasingly popular method for surface engineering in many\nfields, including tribology [29] and droplet size separation [30]. As recent references and\nreviews [31] clearly indicate, laser texturing is also commonly used to functionalize boiling\nsurfaces to enhance their heat transfer performance. This subsection reviews the most\nNanomaterials 2022, 12, 4032\n4 of 20\ninfluential previous research on the use of direct laser texturing to produce functionalized\nsurfaces for enhanced boiling heat transfer.\nA series of studies by Kruse et al., Costa-Greger et al. and Gogos et al. [32-36]\nfocused on femtosecond laser texturing of surfaces to enhance boiling heat transfer. They\nachieved an enhancement of both the HTC and the CHF on stainless steel and copper\nsurface. More importantly they also showed that a porous oxide/nanoparticle layer formed\nduring the laser texturing process can have significant negative effects on the boiling\nperformance by increasing the thermal resistance of the surface. Kong et al. [37] used\ndirect laser writing to produce laser-induced graphene on polyamide surfaces. When\ntested with the FC-72 dielectric fluid, a twofold-to-threefold increase in the CHF and HTC\nwas obtained compared to an untreated surface. Eid et al. [38] used laser machining to\ncreate cavities with diameters of several hundred micrometers on brass surfaces. The\nlatter were then tested under pool boiling conditions with an alumina nanofluid and\nthe results showed that the major enhancement of heat transfer performance in terms of\nincreased CHF and HTC ensues due to laser-fabricated surface features, while the nanofluid\nprovides a minor additional enhancement. Another series of interconnected studies was\nperformed by Zupan\u02c7ci\u02c7c et al., Gregor\u02c7ci\u02c7c et al., Mo\u017ee at al., Sitar et al., Zak\u0161ek et al. and\nVoglar et al. [6,39-47]. These studies showed that direct laser texturing can be used to create\nmicrocavities on boiling surfaces, which are suitable for vapor entrapment and serve as\nactive nucleation sites [39,40]. Furthermore, it was shown that laser-textured surfaces\nexhibit more favorable stability during long-term exposure to boiling [41], but changes in\nsurface chemistry and morphology appear during their repeated exposure to CHF [42].\nCombining the laser texturing with subsequent hydrophobization [6] and/or creating\nbiphilic surfaces with mixed wettability [43,44] was shown to significantly enhance the\nboiling performance with water and mixtures [45]. Control over the location of nucleating\nareas through the use of local laser texturing also enabled research of boiling heat transfer\nmechanisms by utilizing the heat flux partitioning approach [46]. In addition to applying\nlaser texturing to metals and alloys such as copper, aluminum and stainless steel, it was\nalso shown that boiling on silicon surfaces can be significantly enhanced [47]. The latter\nwas also researched by Serdyukov et al. [48], who reported major enhancements of the heat\ntransfer coefficient alongside earlier ONB in comparison with both the polished and the\nuntreated sample. Novel methods of laser surface texturing, such as fabrication of curved,\nmeandering grooves with submicrometer spacing by laser irradiation in liquid [49], could\nalso possibly be applied to functionalize surfaces for enhanced phase-change heat transfer.\n1.4. Motivation and Goals of the Present Study\nThe present study aims to further investigate the possibility of significant HTC and\nCHF enhancements by combining direct laser texturing of copper surfaces with subsequent\nhydrophobization. Allred et al. [5] have shown that degassed microstructure boiling\nsurfaces that otherwise exhibit superhydrophobicity can be used for efficient boiling heat\ntransfer if boiling is initiated from the Wenzel wetting regime. Our previous study [6],\nwhich included fabricated microcavities on aluminum surfaces coated with a nanoscopic\nlayer of a fluorinated silane, further explored and confirmed this idea.\nIn this study, three types of laser-textured copper surfaces were fabricated and tested\nboth in the as-prepared superhydrophilic state and after hydrophobization with the use of\na self-assembled monolayer of fluorinated silane (i.e., in a superhydrophobic state). Three\napproaches to surface structuring were evaluated and compared to one another, namely\nfabrication of (i) a crosshatch structure, (ii) shallow channels or (iii) deep channels. The\nproperties of surfaces were evaluated using scanning electron microscopy and contact angle\nmeasurements performed before and after boiling experiments. Pool boiling performance\nof all surfaces was evaluated under atmospheric pressure and at saturated conditions using\ntwice-distilled water. Stability of functionalized surfaces was evaluated through three\nconsecutive experimental runs, characterizing the boiling curve up to CHF incipience. Heat\nNanomaterials 2022, 12, 4032\n5 of 20\ntransfer coefficients and critical heat flux values were compared, while a high-speed video\nanalysis was used to analyze bubble dynamics and their departure diameters.\n2. Materials and Methods\n2.1. Samples\nSamples used within the study were manufactured from a copper rod of electrolytic\npurity (>99.9% Cu). All samples were sanded with progressively finer sandpaper and\nfinished with a P1200 and P2000 grit paper. Roughness of samples after the pretreatment\nwas approx. Ra = 0.20 \u03bcm as measured with a profilometer. All samples were cleaned\nwith isopropanol to remove dust, grease and other contaminants. One sample was tested\nwithout further treatment and used as a reference; it is denoted as the \"REF\" sample. All\nother samples underwent laser texturing as described in the following subsection.\n2.2. Surface Laser Texturing\nA nanosecond fiber laser texturing system (JPT Opto-electronics Co., Ltd., M7 30 W\nMOPA; \u03bb = 1064 nm) was used to modify the surface structure of samples. The laser beam is\ndirected across the surface with an F-Theta lens with a working area of 70 \u00d7 70 mm2 and a\nfocal distance of 100 mm. The focused beam spot diameter is approx. 25 \u03bcm, the laser beam\nquality M2 < 1.3 (manufacturer data) and the maximal power of the laser source 30 W. The\nsoftware ezCAD 2 (Beijing JCZ Technology Co., Ltd., Beijing, China) was used to design\nthe surface treatment patterns and control the laser system during the laser treatment.\nParameters of the laser system used in the fabrication of each sample were determined\nthrough preliminary testing to achieve the desired surface structures. All parameters are\nprovided in Table 1. The first sample was textured with a crosshatch pattern with constant\nspacing of 60 \u03bcm between the consecutive lines. The sample was denoted as \"CH\". The\nsecond sample was textured only in one direction to create parallel channels with a variable\nspacing between them. The spacing was cyclically varied between 35 \u03bcm and 65 \u03bcm\nby 5 \u03bcm to produce porous ridges of various widths and provide the best probability of\nmicrocavity formation. This concept was successfully demonstrated and described in detail\nin our previous publications [6,39,42]. The fluence of laser pulses was reduced to create\nshallow channels on the sample surface and the sample was accordingly denoted as \"SC\".\nFinally, the third sample was laser textured using the same pattern as the \"SC\" sample\nbut with a significantly higher pulse fluence to produce deep channels; the sample was\ndenoted as \"DC\".\nTable 1. Laser-texturing used to functionalize the copper samples.\nSample\nPulse\nLength (ns)\nPulse\nFrequency (kHz)\nScanning\nSpeed (mm s-1)\nAverage\nFluence (J cm-2)\nPattern\nCH & CH-H\n40\n125\n125\n48.9\ncrosshatch (0\u25e6and 90\u25e6),\nspacing \u2206x = 60 \u03bcm\nSC & SC-H\n30\n500\n500\n12.2\nparallel lines (0\u25e6),\ncyclically variable\nspacing \u2206x = {35-65} \u03bcm\nDC & DC-H\n45\n110\n110\n55.6\nparallel lines (0\u25e6),\ncyclically variable\nspacing \u2206x = {35-65} \u03bcm\n2.3. Surface Hydrophobization\nSelected samples were hydrophobized using chemical vapor deposition (CVD) of a fluorinated silane. To perform the treatment, 0.05 mL of (heptadecafluoro-1,1,2,2-tetrahydrodecyl)\ntrimethoxysilane (abbreviated to HTMS; Gelest Inc., Morrisville, PA, USA) was mixed with\n0.95 mL of toluene (\u226599.7%, Honeywell International Inc., Charlotte, NC, USA) in a 5 mL\nglass vial at room temperature. The samples and the vial were placed in a plastic container,\nNanomaterials 2022, 12, 4032\n6 of 20\nwhich was then covered with aluminum foil. The container was placed in a preheated oven\nat 90 \u25e6C for 90 min at atmospheric pressure for the self-assembled monolayer to form. After\n90 min, the oven was turned off and the container was allowed to cool down before the\nsamples were removed. During the CVD process, a self-assembled monolayer of fluorinated\nsilane molecules is formed on the surface with a thickness of approx. 2.5 nm [50]. This coating\nprocess was previously used to functionalize aluminum samples and shown to be sufficiently\nstable for boiling experiments [6,19,44].\nTable 2 lists all samples used in the study together with the observed contact angle\nof water on their surface as recorded immediately after the last step of their fabrication.\nEach functionalized sample was produced in two variants: one was only laser textured (no\nsuffix), while the other was hydrophobized after the laser texturing (\"-H\" suffix). After\nhydrophobization, all samples exhibited superhydrophobicity with a roll-off angle below\n5\u25e6and a contact angle higher than 150\u25e6. Conversely, all non-hydrophobized laser-textured\nsamples exhibited contact angle below 1\u25e6and were in the saturated Wenzel regime [51].\nA hydrophobized version of the untreated sample was not fabricated. It was previously\nshown that hydrophobization of a nominally flat surface only has a limited effect on boiling\nperformance [6], hence this experiment was not repeated.\nTable 2. List of samples used in the study.\nSample\nTreatment\nDescription\nContact Angle\nREF\nnone\nuntreated reference sample\n93\u25e6\nCH\nlaser texturing\nhydrophilic sample with a crosshatch pattern\n<1\u25e6\nCH-H\nlaser texturing +\nhydrophobization\nhydrophobized sample with a crosshatch pattern\n160\u25e6\nSC\nlaser texturing\nhydrophilic sample with a pattern of shallow channels\n<1\u25e6\nSC-H\nlaser texturing +\nhydrophobization\nhydrophobized sample with a pattern of shallow channels\n154\u25e6\nDC\nlaser texturing\nhydrophilic sample with a pattern of deep channels\n<1\u25e6\nDC-H\nlaser texturing +\nhydrophobization\nhydrophobized sample with a pattern of deep channels\n154\u25e6\n2.4. Surface Analysis\nThe surface of the samples was analyzed using a scanning electron microscope (SEM;\nQuattro S, ThermoFisher Scientific Inc., Waltham, MA, USA), utilizing both BSE and SE\nimaging at an accelerating voltage of 10 kV.\nWettability of the samples was evaluated through sessile drop contact angle measurements with a contact angle goniometer (Ossila Ltd., Sheffield, UK). On each surface, 5 drops\n(approx. 20 \u03bcL) were deposited onto different parts of it and proprietary Ossila software\nwas used to evaluate the resulting images of the contact angle between the water droplet\nand the surface. All measurements were performed at room temperature.\nFigure 1 shows SEM images of all types of surfaces used within the study at different\nmagnifications. On the untreated reference surface REF, only toolmarks from the sandpaper\npretreatment are evident. Crosshatch (CH) sample exhibits a distinct cross surface texture,\nresulting from the treatment in two directions, perpendicular to one another. The direction\nof the second laser beam pass is more pronounced as that of the first pass due to the\nrelatively high pulse fluence of the laser treatment. The shallow channel (SC) sample\nexhibits traces of laser texturing which are approximately as wide as the diameter of\nthe laser beam in the focal position. These channels are normally poorly visible and are\nhighlighted through the use of BSE imaging (SE images are shown for all other surfaces).\nFinally, the bottom row of Figure 1 shows the morphology of the deep channel (DC) sample,\nwhere much deeper traces of the laser beam passes are evident and caused by higher pulse\nfluence. Both the valley and the ridges produced through solidification of molten and\nejected material appear porous with cavities in the micron and submicron range. According\nNanomaterials 2022, 12, 4032\n7 of 20\nto the established literature, such cavities are highly suitable for vapor entrapment and\ntypically provide a major enhancement to boiling performance [6,52-54].\nFigure 1. SEM images of the untreated reference surface (REF) and three types of laser-textured\nsurfaces: crosshatch surface (CH), shallow channel surface (SC) and deep channel surface (DC).\n2.5. Pool Boiling Experimental Setup\nAn evaluation of the pool boiling heat transfer performance was performed with a\npreviously described setup [19,23], hence only a brief description will be provided here. The\nsetup consists of a glass cylinder clamped between two flanges serving as the boiling vessel.\nThe vapor is led through a vent in the upper flange into a glass condenser, from which it is\nreturned to the vessel. The vessel temperature is mounted though two K-type immersion\nthermocouples, while an immersion heater is used to control the bulk temperature and to\ndegas the fluid before the experiments. The setup is schematically shown in the upper part\nof Figure 2 alongside the auxiliary equipment for power supply and data acquisition.\nThe sample is mounted onto a copper heating block, which hosts three 400 W cartridge\nheaters to supply heat to the bottom of the sample. A PEEK flange is used together with\nNanomaterials 2022, 12, 4032\n8 of 20\nsilicone O-rings to provide a seal against the lower flange, through which the entire heater\nassembly is inserted into the boiling vessel. The sample/heater assembly is shown in the\nlower left part of Figure 2.\nFigure 2. Experimental setup (top), heating block and sample assembly (bottom left) and sample\ndimensions including thermocouple locations (bottom right).\nThe sample itself is cylindrical with the diameter of the boiling surface being 14 mm.\nThe bottom part of the sample is a flange through which the sample is bolted onto the\nheater block. Three K-type thermocouples were glued into the sample to record the axial\ntemperature gradient within the sample, which is subsequently used to determine the heat\nflux and extrapolate the surface temperature. The cross-section of the sample is shown in\nthe bottom right part of Figure 2.\n2.6. Data Reduction and Measurement Uncertainty\nTemperatures within the sample and in the boiling vessel recorded during the measurements were used to calculate the relevant heat transfer parameters. Firstly, the spatial\ntemperature gradient within the sample in the direction of heat conduction was evaluated\nusing the following equation [55]:\n\u2206T\n\u2206x = Ts,3 -Ts,1\n2\u2206x1\n(1)\nwhere Ts,1 and Ts,3 are temperature measured in the sample in positions denoted in Figure 2,\nwhile \u2206x1 = 5 mm represents the distance between two neighboring thermocouples. To\ncalculate the heat flux, thermal conductivity of the copper needs to be accounted for. It\nwas recently shown [55] that a temperature-dependent value should be used to minimize\nthe uncertainty. Hence, a previously defined equation, formulated on the basis of thermal\ndiffusivity measurements, was utilized to evaluate the thermal conductivity of the sample at\nits mean temperature (calculated as the arithmetic mean of all three temperatures measured\nin the sample):\nk(T) = 0.000283T2 -0.1646T + 378.07\n(2)\nNanomaterials 2022, 12, 4032\n9 of 20\nThe latter equation accepts temperature in \u25e6C and returns thermal conductivity in\nW m-1 K-1. From the spatial temperature gradient and thermal conductivity, the heat flux\nwas calculated as:\n.q = k\u2206T\n\u2206x\n(3)\nSurface superheat was determined through extrapolation of the surface temperature:\nTw = Ts,1 -\n.q\u2206x2\nk\n(4)\nIn Equation (4), Tw denotes temperature of the boiling surface and \u2206x2 = 5.3 mm\nthe distance from the uppermost thermocouple to the surface of the sample. The surface\ntemperature is extrapolated in two calculation steps. First, an estimated value is calculated\nby using the thermal conductivity evaluated through Equation (2) at temperature Ts,1. In\nthe second step, arithmetic mean temperature between Ts,1 and the estimated Tw is used to\nre-evaluate the thermal conductivity and calculate the final boiling surface temperature\nusing Equation (4). Surface superheat is then determined by subtracting the average bulk\ntemperature within the boiling vessel from the calculated surface temperature:\nTw -Tsat = Tw -T f\n(5)\nFinally, the heat transfer coefficient (HTC) is calculated as the ratio between the heat\nflux and the corresponding surface superheat:\nh =\n.q\nTw -Tsat\n(6)\nMethodology suggested in [55] was used to evaluate the measurement uncertainty of\nall three main heat transfer parameters. Contributing uncertainties of individual parameters\ninclude (i) the uncertainty of the distance between the thermocouples (u(\u2206x1) = 0.16 mm;\nevaluated experimentally), (ii) the uncertainty of the distance between the uppermost thermocouple and the boiling surface (u(\u2206x2) = 0.18 mm; evaluated experimentally), (iii) the\nuncertainty of the thermocouple temperature measurements (u(T) = 0.19 K at 100 \u25e6C and\nu(T) = 0.30 K at 250 \u25e6C; evaluated experimentally) and (iv) the uncertainty of thermal conductivity (ur(k) \u223c= 1.5%; estimated based on the accuracy of thermal diffusivity measurements).\nMeasurement uncertainty was evaluated on three selected samples at heat flux values\nof approx. 250 kW m-2 and at 1000 kW m-2, representing low and high heat flux within\nthe nucleate boiling regime. The heat flux uncertainty on the untreated reference sample\nis 4.3% at 250 kW m-2 and 2.4% at 1000 kW m-2. These uncertainty values are also\nvalid for other samples since heat flux uncertainty is not influenced by the heat transfer\nperformance of an individual sample. The surface superheat uncertainty on the untreated\nreference sample is 2.3% at 250 kW m-2 and 2.5% at 1000 kW m-2. The heat transfer\ncoefficient uncertainty on the untreated reference sample is 4.8% at 250 kW m-2 and 3.5%\nat 1000 kW m-2. The second selected sample for the uncertainty evaluation was the SC-H\nsample, which exhibited the highest overall CHF values. On this sample, the surface\nsuperheat uncertainty is 4.3% at 250 kW m-2 and 4.9% at 1000 kW m-2, while the heat\ntransfer coefficient uncertainty was calculated to be 6.1% at 250 kW m-2 and 5.3% at\n1000 kW m-2. Finally, measurement uncertainty evaluation was also performed for the\nDC-H sample, which exhibited the highest heat transfer coefficient values and by far the\nlowest surface superheat values. On this sample, the surface superheat uncertainty is 7.2%\nat 250 kW m-2 and 14.5% at 1000 kW m-2, while the heat transfer coefficient uncertainty\nwas calculated to be 8.4% at 250 kW m-2 and 14.7% at 1000 kW m-2. Higher uncertainty\nvalues are a consequence of very low surface superheat values.\nNanomaterials 2022, 12, 4032\n10 of 20\n2.7. Measurement Protocol\nIdentical measurement protocol was used to determine the heat transfer performance\nof all samples. After the surface of the sample was functionalized, the sample was mounted\nonto the heater assembly and the edge was sealed with epoxy to prevent parasitic nucleation.\nThe assembly was then mounted through the bottom flange of the boiling vessel, which\nwas subsequently filled with approx. 200 mL of twice-distilled water. The water was\nheated to saturation and degassed through vigorous boiling for at least 45 min prior to first\nmeasurements. During this time, a heat flux of approx. 400 kW m-2 was applied to the\nsample to establish nucleate boiling and help get rid of air, which was possibly entrapped\non the surface.\nBefore starting an experimental run, the sample and the water were cooled to 90 \u25e6C\nto condense any entrapped vapor. The temperature of the water was then brought to\nsaturation again, while the heating power on the cartridge heaters below the sample\nwas slowly increased. During the measurement, the heating power was very slowly but\ncontinuously increased at a rate of approx. 0.2 kW m-2 s-1 within the natural convection\nregime and up to 2 kW m-2 s-1 within the nucleate boiling regime. This allows for faster\nevaluation of the boiling curve and prevents possible changes in the boiling surface due to\nprolonged boiling and/or exposure to water from influencing the results. This methodology\nwas experimentally and numerically confirmed to be a very good approximation of the\nsteady-state measurements [6,19].\nThe measurement was conducted until the CHF was reached. At this point, the heaters\nwere turned off and the sample was allowed to cool down below saturation temperature\nof the water. Afterwards, the measurement was repeated until a total of three runs were\nconducted on each sample.\nDuring the measurements, a high-speed camera (Photron FASTCAM Mini UX100,\nPhotron Limited, Tokyo, Japan) was used to capture the phenomena on and above the\nboiling surface. Recordings were made at heat fluxes of 50 kW m-2 and 100 kW m-2, where\nindividual bubbles were still observable. At higher heat flux values, the intense coalescence\nof bubbles on most functionalized surfaces obscured the dynamics and identification of\ndiameters of individual bubbles.\n3. Results\n3.1. Reference Experiments\nFirstly, boiling experiments were conducted on an untreated surface with the intention\nof setting a baseline for further experiments with functionalized surfaces. Comparison\nof boiling curves obtained during three consecutive measurements on the REF surface\nare shown in Figure 3a. The obtained critical heat flux of approx. 1000 kW m-2 matches\ntypical values reported in the literature [55] for untreated copper surfaces operating under\nthe given test conditions (saturated boiling of water at atmospheric pressure). Boiling\ncurves remained stable and within the measurement uncertainty (temperature-wise) during\nthe three repetitions of the test. A small decrease in CHF was observed and could be\nattributed to the appearance of different surface oxide species due to high temperatures\nof the sample when the CHF incipience occurs. This was previously reported in [42],\nwhere transformation of CuO into Cu2O was shown to take place during the post-CHF\ntemperature increase as a result of the low-temperature annealing effect.\nHeat transfer coefficients recorded on the reference surface are shown in Figure 3b. The\nhighest values are reached at the point of CHF incipience with the maximal recorded value\nof 33.3 kW m-2 K-1 being observed during the second experimental run. In comparison\nto one another, the heat transfer coefficient values measured during the three consecutive\nruns generally differ by less than 10%.\n3.2. Performance of Individual Functionalized Surfaces\nPerformance of functionalized surfaces was evaluated using the same methodology as\nfor the untreated reference sample. For each type of laser-engineered surface morphology,\nNanomaterials 2022, 12, 4032\n11 of 20\nresults for the as-fabricated (superhydrophilic) and hydrophobized (superhydrophobic)\nversion of the surface are shown and compared.\nFigure 3. Boiling performance of the untreated reference sample (REF) evaluated through (a) boiling\ncurves and (b) heat transfer coefficients at selected heat fluxes.\nFigure 4a shows a comparison of boiling curves recorded on the crosshatch patterned\nsurface in the as-prepared state (CH) and hydrophobized state (CH-H). Enhanced CHF\nvalues in comparison with the untreated surface (shown with a grey curve) were obtained\nin both cases. Specifically, an enhancement of 36% and 31% was recorded during the\nfirst experimental run on surfaces CH and CH-H in comparison with the first run on\nthe untreated surface, respectively. Positive boiling curve stability was observed for the\nhydrophilic CH sample, while a slight decrease in surface superheat (approx. 2.5 K at CHF\nincipience) was observed during the second and third experimental run in comparison\nwith the first test on surface CH-H. Since this shift is greater than the surface superheat\nmeasurement uncertainty, it needs to be attributed to surface changes. The most likely\nexplanation is additional removal of air entrapped on the surface during the first CHF\nincipience or changes in the surface chemistry and/or morphology.\nFigure 4. Boiling performance of the crosshatch sample (CH) evaluated through (a) boiling curves\nand (b) heat transfer coefficients at selected heat fluxes.\nNanomaterials 2022, 12, 4032\n12 of 20\nFigure 4b shows a comparison of heat transfer coefficients at specific heat flux levels\nfor the CH, CH-H and the reference surface. On both functionalized surfaces, the highest\nHTC values were again recorded at the point of CHF incipience with the highest value\nfor the as-prepared CH surface being 56.3 kW m-2 K-1 and for the hydrophobized CH-H\nsurface being 78.7 kW m-2 K-1. The latter values represent an improvement of 69% and\n136% in comparison with the maximal value recorded on the untreated surface. For both\nversions of the crosshatch surface, critical heat flux values are within 10% of each other.\nFigure 5a shows a comparison of boiling curves obtained on the as-prepared surface\nwith shallow channels (SC) and its hydrophobized variant (SC-H) alongside the boiling\ncurve for the untreated reference surface. Both functionalized surfaces exhibit significantly\nenhanced CHF values with a 56% and a 59% enhancement recorded on the SC and the\nSC-H surface, respectively, in comparison with the untreated surface.\nFigure 5. Boiling performance of the shallow channel sample (SC) evaluated through (a) boiling\ncurves and (b) heat transfer coefficients at selected heat fluxes.\nThe highest CHF value of 1697 kW m-2 was recorded during the third experimental\nrun on the SC-H surface, where the CHF value gradually increased during the measurements by approx. 8% from the first to the last measurement. Otherwise, very positive\nstability was observed on both the SC and SC-H surface with minute deviations between\nthe repeated runs on each surface.\nHeat transfer coefficients recorded on the SC and SC-H surfaces are compared to\none another and to those for the untreated sample in Figure 5b. Both functionalized\nsurfaces exhibited increased HTC values with the highest values of 55.1 kW m-2 K-1 and\n85.1 kW m-2 K-1 recorded at the point of CHF incipience on the SC and SC-H surface,\nrespectively. This represents a 65% and a 156% enhancement over the performance of the\nuntreated surface, respectively. Favorable stability of the heat transfer coefficient was also\nconfirmed with stable values recorded at the same heat flux levels during consecutive tests\non each surface.\nFinally, Figure 6a compares the boiling curves recorded on the surface with deep\nchannels in the as-fabricated hydrophilic state (DC) and the hydrophobized state (DC-H),\nwhile the boiling curve for the untreated surface is again shown in grey color. Both version\nof the functionalized surface achieved greater CHF values in comparison with the reference\nsurface, but the enhancement was not as pronounced as on other types of functionalized\nsurfaces (i.e., crosshatch and shallow channel surfaces). Specifically, a CHF of 1253 kW m-2\nwas recorded during the first run on the DC surface, marking a 27% enhancement over\nthe reference surface. A CHF of 1050 kW m-2 was recorded during the first run on the\nhydrophobized DC-H surface, marking an enhancement of 7% over the performance of the\nNanomaterials 2022, 12, 4032\n13 of 20\nuntreated surface. The CHF values recording during three consecutive evaluations of an\nindividual surface remained very stable.\nFigure 6. Boiling performance of the deep channel sample (DC) evaluated through (a) boiling curves\nand (b) heat transfer coefficients at selected heat fluxes.\nWhile the CHF enhancement achieved using the deep channel surfaces was limited,\nthese surfaces provided by far the greatest heat transfer coefficients recorded within the\nstudy. A comparison of HTC values at selected heat flux levels is shown in Figure 6b. On\nthe hydrophilic DC surface, a highest HTC of 112.3 kW m-2 K-1 was recorded at CHF\nincipience during the first experimental run, representing a 237% enhancement over the\nperformance of the untreated surface. Exceptional heat transfer performance was also\nobserved on the hydrophobized variant of the deep channel surface (i.e., DC-H), where the\nhighest recorded heat transfer coefficient measured 291.4 kW m-2 K-1 and was recorded\nat the point of CHF incipience during the second experimental run. This HTC value is\none order of magnitude greater than that exhibited by the untreated surface, marking a\n775% enhancement.\nWhile the boiling curves exhibited favorable stability in terms of CHF values, a notable\nshift towards lower surface superheat values was detected after the first boiling run. The\nmaximal shift measured approx. 5 K on the DC surface (observed at 500 kW m-2) and\napprox. 2 K on the DC-H surface (observed at CHF incipience). However, once the shift had\noccurred, the position of the boiling curve stabilized, which was previously observed [42]\non laser-textured copper surfaces during multiple consecutive boiling tests.\n3.3. Comparison of Boiling Performance\nTo compare the heat transfer performance of the functionalized surfaces to one another, two figures are presented. Firstly, Figure 7a shows a comparison of the boiling\ncurves obtained on all surfaces during the first experimental run, while Figure 7b shows\na comparison of the corresponding heat transfer coefficients. For all three types of functionalized surfaces, the following general findings can be made: (i) the hydrophobized\nvariant of the surface always outperformed the hydrophilic variant in terms of the heat\ntransfer coefficient achieved at the same heat flux and (ii) the hydrophilic variant of each\nsurface always exhibited either a comparable or higher CHF value than its hydrophobic\ncounterpart. All surfaces exhibited enhanced HTC and CHF values in comparison with the\nuntreated surface.\nNanomaterials 2022, 12, 4032\n14 of 20\nFigure 7. Comparison of boiling performance of all samples during the first experimental run through\n(a) boiling curves and (b) heat transfer coefficients at selected heat fluxes.\nSince a shift in the boiling curve during consecutive boiling tests was detected on some\nfunctionalized surfaces, a further comparison of their performance is made in Figure 8a\nin terms of boiling curves and Figure 8b in terms of heat transfer coefficient, in both cases\nrecorded during the last (i.e., third) experimental run. For all three types of functionalized\nsurfaces, the hydrophobized variant also outperformed its hydrophilic counterpart in terms\nof HTC at every heat flux level. However, a gradual increase in the CHF value was observed\non the hydrophobic version of the shallow channel surface, meaning that the hydrophilic\nsurfaces no longer universally outperformed the hydrophobic surfaces in terms of the CHF\nvalue. Since a positive shift in the boiling curve (i.e., towards lower surface superheat\nvalues) was observed (if observed at all), the enhancement provided by the functionalized\nsurfaces in comparison with the untreated reference surface mostly increased during the\nsecond and third experimental run.\nFigure 8. Comparison of boiling performance of all samples during the third experimental run\nthrough (a) boiling curves and (b) heat transfer coefficients at selected heat fluxes.\nNanomaterials 2022, 12, 4032\n15 of 20\n3.4. High-Speed Videography Analysis\nTo help explain the differences in boiling heat transfer performance both between\nthe three types of surfaces and between the hydrophilic and hydrophobic variant of each\nsurface, high-speed videography results were analyzed to determine the bubble diameter\non each surface at two heat flux levels, where individual bubbles could still be observed.\nAn example of the snapshots of the boiling process is shown in Figure 9, where bubble\ndynamics on the hydrophilic deep channel (DC) surface at 50 kW m-2 and 100 kW m-2\n(Figure 9a) are compared to the dynamics on the hydrophobic deep channel surface (DC-H)\nat the same heat flux levels (Figure 9b). It is clearly observable that the hydrophobized\nvariant of the surface provides significantly enhanced active nucleation site density and\nsmaller vapor bubbles were formed during the boiling process.\nFigure 9. High-speed snapshots of the boiling process at 50 kW m-2 and 100 kW m-2 on (a) hydrophilic and (b) hydrophobic version of the deep channel surface (DC and DC-H, respectively).\nAt least 10 bubbles were analyzed during boiling on each surface at each heat flux\nlevel used in the analysis to determine the average bubble diameter at the moment of\ndeparture (i.e., the bubble departure diameter) and the standard deviation of the values.\nThese results are summarized in Table 3, from which it is observable that hydrophobized\nvariants of each surface (with the exception of SC-H at 50 kW m-2) exhibited significantly\nsmaller bubble departure diameters than the hydrophilic counterpart at the same heat flux.\nTable 3. Bubble departure diameters at 50 kW m-2 and 100 kW m-2 including standard deviation.\nSample\nDb @ 50 kW m-2 (mm)\nDb @ 100 kW m-2 (mm)\nREF\n1.6 \u00b1 0.3\n2.4 \u00b1 0.3\nCH\n2.0 \u00b1 0.3\n3.1 \u00b1 0.4\nCH-H\n1.2 \u00b1 0.1\n2.6 \u00b1 0.2\nSC\n2.0 \u00b1 0.1\n2.0 \u00b1 0.3\nSC-H\n3.1 \u00b1 0.7\n1.8 \u00b1 0.2\nDC\n1.1 \u00b1 0.1\n1.6 \u00b1 0.2\nDC-H\n0.7 \u00b1 0.1\n1.0 \u00b1 0.2\n4. Discussions\nThe results of experimental evaluation of boiling heat transfer of functionalized surfaces have shown that all fabricated surfaces are capable of enhancing both the critical heat\nflux and the heat transfer coefficient in comparison with the untreated reference surfaces.\nHere, we aim to explain the mechanisms behind the enhancement and interpret the reasons\nfor differences between different surface morphologies (i.e., the three types of surfaces-\nCH, SC and DC) and between the hydrophobic and hydrophilic variant of an individual\nsurface (i.e., surfaces with or without the \"-H\" suffix).\nLaser texturing modifies the surface morphology and surface chemistry of the treated\nsurface. Typically, laser ablation as used within this study (and most others) causes the\nappearance of either singular craters or lines of craters, which form valleys surrounded by\nridges of resolidified material. The latter is typically rich in oxide species and porous to\nNanomaterials 2022, 12, 4032\n16 of 20\nsome extent. When the line spacing between consecutive laser beam passes is appropriately\nmatched with the width of laser-induced damage to the surface, microcavities appear on\nthe ridges. These were previously shown [6,39,40] to significantly enhance the boiling\nperformance by serving as active nucleation sites from which vapor bubbles form and\ngrow. Such microcavities are observable on the SEM micrographs of surfaces CH and DC\nas shown in Figure 2. Additionally, microcavities can also appear without the overlap of\nadjacent ridges [40], which is the case for surface SC in Figure 2. Presence of microcavities\nenables vapor embryos to become entrapped on the surface and start nucleating at low\nsurface superheat values. The superior performance of laser-textured surfaces fabricated\nwithin this study can therefore be partly contributed to the morphology of laser-textured\nstructures on the functionalized surfaces.\nVarious oxide species tend to form during laser texturing of metallic materials when\nthe ablated and/or molten material is exposed to the ambient atmosphere containing\noxygen. In case of copper, the predominant oxide species will be the copper(II) oxide CuO,\nwhile the copper(I) oxide (Cu2O) can also be present and will be prevalent if the laser texturing is performed in an inert atmosphere such as argon [42]. Universally, laser-textured\nsurfaces tend to exhibit (super)hydrophilicity immediately after laser texturing is carried\nout, since the oxide species boast high surface energy. However, after exposure to ambient\nair, the wettability of laser-textured surfaces decreases [56], which can be attributed to\nthe deposition of various intrinsically hydrophobic compounds onto the surface [57-59].\nAll surfaces tested within the study in the as-prepared (i.e., superhydrophilic) state exhibited significantly increased CHF values, which is commonly reported for well-wettable\nsurfaces [23,60-62]. Therefore, an assumption could be made that the surface hydrophilicity provided an additional enhancement in the combination with the aforementioned\nvapor-entrapping microstructure.\nHowever, the hydrophobized variants of all functionalized surfaces also provided\na CHF enhancement in comparison with the untreated surface. While poorly wettable\n(i.e., hydrophobic and superhydrophobic) surfaces have historically been dismissed as\nsuitable for boiling enhancement, it was shown that with appropriate degassing, the\nWenzel wetting regime can be achieved under boiling conditions without the negative\neffects of air/vapor entrapment across the entire surface [5] that would lead to an early\ntransition to film boiling. When superhydrophobicity is combined with microcavity surface\nmicrostructure, significant enhancements of boiling performance have been obtained on\naluminum samples [6,19]. Here, a similar result was obtained on hydrophobized lasertextured copper surfaces with increased CHF and HTC values recorded on all three types of\nhydrophobized surfaces. Since similar CHF values were obtained for each pair of surfaces\nwith the same microstructure as evident from Figures 7 and 8, it can be concluded that\nsurface hydrophilicity has a much smaller influence on the CHF than the appropriate\nsurface microstructure.\nIn addition to variations in the surface microstructure, the oxide layer thickness can\nalso significantly influence boiling performance. It was convincingly shown in multiple\nstudies by Kruse et al. [33,34,36] that the thick oxide layers with low thermal conductivity\ncan degrade boiling performance. In the present study, crosshatch and deep channel (CH\nand DC) surfaces were textured at much higher laser pulse fluence values, resulting in\ngreater laser-induced damage to the surface and thicker oxide layers [63,64]. Conversely, a\nlower pulse fluence was used on the shallow channel (SC) surface, resulting in a thinner\noxide layer (i.e., less thermal energy per unit area was introduced to the sample during the\nlaser texturing) and less vapor trapping structure. Deep structures present on CH and DC\nsurfaces, which greatly enhance the HTC and ONB, become problematic at high heat flux\nlevels due to vapor spreading and a possible local dryout, which can cause an early CHF\nonset. This matches experimental observations in terms of CHF values very well, as the\nhighest CHF value by far was recorded on both versions of the SC surface.\nSurface hydrophobization was found to shift the boiling curve towards lower surface\nsuperheat values on all samples used within the study. Lower surface energy provided\nNanomaterials 2022, 12, 4032\n17 of 20\nby the fluorinated monolayer coating positively influences nucleation characteristics by\nallowing for easier vapor entrapment and onset of nucleate boiling at lower surface superheat values [6]. When this is combined with vapor entrapping microstructure such\nas microcavities, the bubble diameter is decreased significantly in comparison with the\nhydrophilic counterparts, as evident from the values in Table 3 for both the CH-H and\nDC-H surfaces. This matches previous reports of reduced bubble diameters by 50% or more\non hydrophobized microcavity surfaces [19].\nFinally, a recent study [15] provided an in-depth understanding of how the surface\nmorphology and wettability affect boiling heat transfer. Specifically, experiments were\nfirst performed on a hydrophilic surface, which was subsequently hydrophobized and\ntested again in a hydrophobic state, so that the exact same surface morphology was present\nduring both tests. High-speed recording in the visible and IR spectrum revealed that\nthe smaller bubble diameter and the larger density of active nucleation sites positively\naffect the uniformity of the boiling surface temperature. It can therefore be reasoned\nthat the smaller bubble departure diameters as observed within the present study on\nhydrophobized surfaces also correspond to narrower surface temperature distributions\nand contribute to the extremely high HTC values observed on the surface with the smallest\nbubbles, i.e., the hydrophobized deep channel surface (DC-H).\n5. Conclusions\nThree types of laser-textured surfaces were fabricated and tested both in the asfabricated superhydrophilic state and superhydrophobic state after hydrophobization\nwith a self-assembled monolayer of a fluorinated silane. Each surface was evaluated under\nsaturated pool boiling conditions at atmospheric pressure using water as the working fluid.\nThe following conclusions are made based on the obtained results:\n1.\nAll laser-functionalized surfaces exhibited enhanced boiling heat transfer performance\nin comparison with an untreated reference surface. The recorded highest critical heat\nflux enhancement was achieved on a hydrophobized shallow channel surface (SC-H),\nwhere a CHF of 1697 kW m-2 was recorded during the third experimental run.\n2.\nIn addition to increased critical heat flux, significant enhancements of the heat transfer\ncoefficient were observed. Specifically, the hydrophobized surface with deep channels\n(DC-H) provided an HTC of 291.4 kW m-2 K-1 at CHF incipience, which represents\na 775% enhancement over the highest values recorded on the untreated reference.\n3.\nFunctionalized surfaces exhibited positive stability and repeatable boiling curves. A\nshift towards lower superheat values was observed on the deep channel surfaces after\nthe first experimental run, which may be attributed to additional degassing of the\nsurface during the post-CHF transition towards film boiling.\n4.\nSurface microstructure was identified as the key reason for enhanced heat transfer\nparameters. Despite large differences in surface wettability, hydrophobized surfaces\nexhibited comparable (and in one case even higher) CHF values in comparison with\ntheir hydrophilic counterparts, which are traditionally considered as more favorable\nfor achieving high CHF values.\n5.\nA significant reduction in bubble departure diameter was observed on the bestperforming surface DC-H, which exhibited the highest HTC value. The small bubble\ndeparture diameter is attributed to effective vapor entrapment in the deep surface\nstructures and is pointed out as a major contributing reason for the observed extreme\nboiling heat transfer performance.\nFuture research will be focused on pursuing individual factors contributing to higher\nheat transfer performance as identified within this study by optimizing surface treatment parameters to provide the highest CHF or HTC possible. Additionally, we will\nattempt to combine both approaches to produce heterogeneously wettable (i.e., biphilic)\nsurfaces to concomitantly exploit the advantage granted by different types of laser-made\nsurface structures.\nNanomaterials 2022, 12, 4032\n18 of 20\nAuthor Contributions: Conceptualization, I.G. and H.G.; Methodology, M.M. and M.S.; Software,\nM.Z.; Validation, I.G.; Formal analysis, M.S. and M.Z.; Investigation, M.M.; Resources, I.G.; Data\ncuration, M.M. and M.Z.; Writing-original draft preparation, M.M.; Writing-review and editing,\nM.Z., M.S. and I.G.; Visualization, M.M. and H.G.; Supervision, I.G. and H.G.; Project administration,\nM.S. and I.G.; Funding acquisition, M.Z. and I.G. All authors have read and agreed to the published\nversion of the manuscript.\nFunding: The authors acknowledge the financial support from the state budget by the Slovenian\nResearch Agency (Program No. P2-0223 and Project Nos. J2-2486 and N2-0251).\nData Availability Statement: Data is available from the corresponding author upon reasonable request.\nConflicts of Interest: The authors declare no conflict of interest.\nReferences\n1.\nTong, L.S. Heat transfer in water-cooled nuclear reactors. Nucl. Eng. Des. 1967, 6, 301-324. [CrossRef]\n2.\nTrojer, M.; Azizian, R.; Paras, J.; McKrell, T.; Atkhen, K.; Bucci, M.; Buongiorno, J. A margin missed: The effect of surface oxidation\non CHF enhancement in IVR accident scenarios. Nucl. Eng. Des. 2018, 335, 140-150. [CrossRef]\n3.\nAnderson, T.M.; Mudawar, I. Microelectronic cooling by enhanced pool boiling of a dielectric fluorocarbon liquid. J. Heat Transf.\n1989, 111, 752-759. [CrossRef]\n4.\nA Bar-Cohen, K.J.L.G. Cooling the electronic brain. Mech. Eng. 2011, 133, 38-41. [CrossRef]\n5.\nAllred, T.P.; Weibel, J.A.; Garimella, S.V. Enabling Highly Effective Boiling from Superhydrophobic Surfaces. Phys. Rev. Lett. 2018,\n120, 174501. [CrossRef]\n6.\nMo\u017ee, M.; Senega\u02c7cnik, M.; Gregor\u02c7ci\u02c7c, P.; Ho\u02c7cevar, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Laser-Engineered Microcavity Surfaces with\na Nanoscale Superhydrophobic Coating for Extreme Boiling Performance. ACS Appl. Mater. Interfaces 2020, 12, 24419-24431.\n[CrossRef]\n7.\nKang, D.; Lee, J.; Chakraborty, A.; Lee, S.E.; Kim, G.; Yu, C. Recent Advances in Two-Phase Immersion Cooling with Surface\nModifications for Thermal Management. Energies 2022, 15, 1214. [CrossRef]\n8.\nMukherjee, S.; Ebrahim, S.; Mishra, P.C.; Ali, N.; Chaudhuri, P. A Review on Pool and Flow Boiling Enhancement Using\nNanofluids: Nuclear Reactor Application. Processes 2022, 10, 177. [CrossRef]\n9.\nMoghadasi, H.; Malekian, N.; Saffari, H.; Gheitaghy, A.M.; Zhang, G.Q. Recent advances in the critical heat flux amelioration of\npool boiling surfaces using metal oxide nanoparticle deposition. Energies 2020, 13, 4026. [CrossRef]\n10.\nKhan, S.A.; Atieh, M.A.; Ko\u00e7, M. Micro-nano scale surface coating for nucleate boiling heat transfer: A critical review. Energies\n2018, 11, 3189. [CrossRef]\n11.\nMeena, C.S.; Kumar, A.; Roy, S.; Cannavale, A.; Ghosh, A. Review on Boiling Heat Transfer Enhancement Techniques. Energies\n2022, 15, 5759. [CrossRef]\n12.\nAhmadi, V.E.; Aboubakri, A.; Sadaghiani, A.K.; Sefiane, K.; Ko \u0327sar, A. Effect of functional surfaces with gradient mixed wettability\non flow boiling in a high aspect ratio microchannel. Fluids 2020, 5, 5-9. [CrossRef]\n13.\nLe Ba, T.; Baqer, A.; Kamel, M.S.; Gr\u00f3f, G.; Odhiambo, V.O.; Wongwises, S.; Ferenc, L.; Szil\u00e1gyi, I.M. Experimental Study of\nHalloysite Nanofluids in Pool Boiling Heat Transfer. Molecules 2022, 27, 729. [CrossRef]\n14.\nCho, H.; Godinez, J.; Han, J.S.; Fadda, D.; You, S.M.; Lee, J.; Park, S.J. Fabrication of micro-patterned surface for pool-boiling\nenhancement by using powder injection molding process. Materials 2019, 12, 507. [CrossRef]\n15.\nMo\u017ee, M.; Had\u017ei \u0301c, A.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Boiling heat transfer enhancement on titanium through nucleation-promoting\nmorphology and tailored wettability. Int. J. Heat Mass Transf. 2022, 195, 123161. [CrossRef]\n16.\nFreitas, E.; Pontes, P.; Cautela, R.; Bahadur, V.; Miranda, J.; Ribeiro, A.; Souza, R.; Oliveira, J.; Copetti, J.; Lima, R.; et al. Pool\nBoiling of Nanofluids on Biphilic Surfaces: An Experimental and Numerical Study. Nanomaterials 2021, 11, 125. [CrossRef]\n17.\nGalicia, E.S.; Otomo, Y.; Saiwai, T.; Takita, K.; Orito, K.; Enoki, K. Subcooled Flow Boiling Heat Flux Enhancement Using High\nPorosity Sintered Fiber. Appl. Sci. 2021, 11, 5883. [CrossRef]\n18.\nOtomo, Y.; Galicia, E.S.; Enoki, K. Enhancement of subcooled flow boiling heat transfer with high porosity sintered fiber metal.\nAppl. Sci. 2021, 11, 1237. [CrossRef]\n19.\nMo\u017ee, M.; Vajc, V.; Zupan\u02c7ci\u02c7c, M.; \u0160ulc, R.; Golobi\u02c7c, I. Pool boiling performance of water and self-rewetting fluids on hybrid\nfunctionalized aluminum surfaces. Processes 2021, 9, 1058. [CrossRef]\n20.\nKaniowski, R.; Pastuszko, R. Pool Boiling of Water on Surfaces with Open Microchannels. Energies 2021, 14, 3062. [CrossRef]\n21.\nKamel, M.S.; Lezsovits, F. Experimental Investigation on Pool Boiling Heat Transfer Performance Using Tungsten Oxide WO3\nNanomaterial-Based Water Nanofluids. Materials 2020, 13, 1922. [CrossRef] [PubMed]\n22.\nKim, J.; Hong, D.; Badshah, M.A.; Lu, X.; Kim, Y.K.; Kim, S.M. Direct metal forming of a microdome structure with a glassy\ncarbon mold for enhanced boiling heat transfer. Micromachines 2018, 9, 376. [CrossRef]\n23.\nMo\u017ee, M.; Vajc, V.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Hydrophilic and hydrophobic nanostructured copper surfaces for efficient pool\nboiling heat transfer with water, water/butanol mixtures and novec 649. Nanomaterials 2021, 11, 3216. [CrossRef]\nNanomaterials 2022, 12, 4032\n19 of 20\n24.\nMukherjee, S.; Ali, N.; Aljuwayhel, N.F.; Mishra, P.C.; Sen, S.; Chaudhuri, P. Pool boiling amelioration by aqueous dispersion of\nsilica nanoparticles. Nanomaterials 2021, 11, 2138. [CrossRef]\n25.\nPranoto, I.; Rahman, M.A.; Waluyo, J. The Role of Pin Fin Array Configurations and Bubble Characteristics on the Pool Boiling\nHeat Transfer Enhancement. Fluids 2022, 7, 232. [CrossRef]\n26.\nHad\u017ei \u0301c, A.; Mo\u017ee, M.; Arhar, K.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Effect of Nanoparticle Size and Concentration on Pool Boiling Heat\nTransfer with TiO2 Nanofluids on Laser-Textured Copper Surfaces. Nanomaterials 2022, 12, 2611. [CrossRef] [PubMed]\n27.\nOrman, \u0141.J.; Radek, N.; Pietraszek, J.; Szczepaniak, M. Analysis of enhanced pool boiling heat transfer on laser-textured surfaces.\nEnergies 2020, 13, 2700. [CrossRef]\n28.\nSajjad, U.; Hussain, I.; Hamid, K.; Ali, H.M.; Wang, C.-C.; Yan, W.-M. Liquid-to-vapor phase change heat transfer evaluation and\nparameter sensitivity analysis of nanoporous surface coatings. Int. J. Heat Mass Transf. 2022, 194, 123088. [CrossRef]\n29.\nDuarte, M.; Lasagni, A.; Giovanelli, R.; Narciso, J.; Louis, E.; M\u00fccklich, F. Increasing Lubricant Film Lifetime by Grooving\nPeriodical Patterns Using Laser Interference Metallurgy. Adv. Eng. Mater. 2008, 10, 554-558. [CrossRef]\n30.\nJereb, S.; Zupan\u02c7ci\u02c7c, M.; Mo\u017ee, M.; Golobi\u02c7c, I. Predicting the drop size passing through a superhydrophobic orifice. Phys. Fluids\n2022, 34, 117117. [CrossRef]\n31.\nKumar, G.U.; Suresh, S.; Kumar, C.S.S.; Back, S.; Kang, B.; Lee, H.J. A review on the role of laser textured surfaces on boiling heat\ntransfer. Appl. Therm. Eng. 2020, 174, 115274. [CrossRef]\n32.\nCosta-Greger, J.; Tsubaki, A.; Gerdes, J.; Anderson, M.; Zuhlke, C.; Alexander, D.; Shield, J.; Gogos, G. Pool Boiling Inversion and\nHysteresis with Femtosecond Laser Processed 304 Stainless Steel Surfaces for Heat Transfer Enhancement. In Proceedings of the\n2020 19th IEEE InterSociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems, Orlando, FL, USA,\n21-23 July 2020; pp. 298-305.\n33.\nKruse, C.; Peng, E.; Zuhlke, C.; Shield, J.; Alexander, D.; Ndao, S.; Gogos, G. Role of copper oxide layer on pool boiling\nperformance with femtosecond laser processed surfaces. In Proceedings of the 15th International Conference on Nanochannels\nMicrochannels-Minichannels, ICNMM 2017, ASME, Cambridge, MA, USA, 27-30 August 2017.\n34.\nGogos, G.; Zuhlke, C.; Kruse, C.; Ndao, S.; Shield, J.E.; Lucis, M.; Anderson, T.; Alexander, D. Effects of Femtosecond Laser\nSurface Processed Nanoparticle Layers on Pool Boiling Heat Transfer Performance. J. Therm. Sci. Eng. Appl. 2017, 10, 031009.\n35.\nKruse, C.; Tsubaki, A.; Zuhlke, C.; Anderson, T.; Alexander, D.; Gogos, G.; Ndao, S. Secondary pool boiling effects. Appl. Phys.\nLett. 2016, 108, 051602. [CrossRef]\n36.\nKruse, C.; Tsubaki, A.; Zuhlke, C.; Alexander, D.; Anderson, M.; Peng, E.; Shield, J.; Ndao, S.; Gogos, G. Influence of Copper Oxide\non Femtosecond Laser Surface Processed Copper Pool Boiling Heat Transfer Surfaces. J. Heat Transf. 2019, 141, 1-9. [CrossRef]\n37.\nKong, D.; Kang, M.; Kim, K.Y.; Jang, J.; Cho, J.; In, J.B.; Lee, H. Hierarchically Structured Laser-Induced Graphene for Enhanced\nBoiling on Flexible Substrates. ACS Appl. Mater. Interfaces 2020, 12, 37784-37792. [CrossRef]\n38.\nEid, E.I.; Al-Nagdy, A.A.; Khalaf-Allah, R.A. Nucleate pool boiling heat transfer above laser machining heating surfaces with\ndifferent micro-cavity geometric shape for water-aluminum oxide nanofluid. Exp. Heat Transf. 2022, 35, 688-707. [CrossRef]\n39.\nZupan\u02c7ci\u02c7c, M.; Mo\u017ee, M.; Gregor\u02c7ci\u02c7c, P.; Golobi\u02c7c, I. Nanosecond laser texturing of uniformly and non-uniformly wettable micro\nstructured metal surfaces for enhanced boiling heat transfer. Appl. Surf. Sci. 2017, 399, 480-490. [CrossRef]\n40.\nGregor\u02c7ci\u02c7c, P.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Scalable Surface Microstructuring by a Fiber Laser for Controlled Nucleate Boiling\nPerformance of High- and Low-Surface-Tension Fluids. Sci. Rep. 2018, 8, 7461. [CrossRef]\n41.\nMo\u017ee, M. Effect of boiling-induced aging on pool boiling heat transfer performance of untreated and laser-textured copper\nsurfaces. Appl. Therm. Eng. 2020, 181, 116025. [CrossRef]\n42.\nMo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Ho\u02c7cevar, M.; Golobi\u02c7c, I.; Gregor\u02c7ci\u02c7c, P. Surface chemistry and morphology transition induced by critical\nheat flux incipience on laser-textured copper surfaces. Appl. Surf. Sci. 2019, 490, 220-230. [CrossRef]\n43.\nVoglar, J.; Gregor\u02c7ci\u02c7c, P.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Boiling performance on surfaces with capillary-length-spaced one- and\ntwo-dimensional laser-textured patterns. Int. J. Heat Mass Transf. 2018, 127, 1188-1196. [CrossRef]\n44.\nMo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Pattern geometry optimization on superbiphilic aluminum surfaces for enhanced pool boiling\nheat transfer. Int. J. Heat Mass Transfer 2020, 161, 120265. [CrossRef]\n45.\nZak\u0161ek, P.; Zupan\u02c7ci\u02c7c, M.; Gregor\u02c7ci\u02c7c, P.; Golobi\u02c7c, I. Investigation of Nucleate Pool Boiling of Saturated Pure Liquids and Ethanol-\nWater Mixtures on Smooth and Laser-Textured Surfaces. Nanoscale Microscale Thermophys. Eng. 2020, 24, 29-42. [CrossRef]\n46.\nZupan\u02c7ci\u02c7c, M.; Gregor\u02c7ci\u02c7c, P.; Bucci, M.; Wang, C.; Aguiar, G.M.; Bucci, M. The wall heat flux partitioning during the pool boiling of\nwater on thin metallic foils. Appl. Therm. Eng. 2022, 200, 117638. [CrossRef]\n47.\nSitar, A.; Mo\u017ee, M.; Crivellari, M.; Schille, J.; Golobi\u02c7c, I. Nucleate pool boiling heat transfer on etched and laser structured silicon\nsurfaces. Int. J. Heat Mass Transfer 2020, 147, 118956. [CrossRef]\n48.\nSerdyukov, V.; Starinskiy, S.; Malakhov, I.; Safonov, A.; Surtaev, A. Laser texturing of silicon surface to enhance nucleate pool\nboiling heat transfer. Appl. Thermal Eng. 2021, 194, 117102. [CrossRef]\n49.\nSenega\u02c7cnik, M.; Gregor\u02c7ci\u02c7c, P. Diffraction-driven laser surface nanostructuring: Towards patterning with curved periodic surface\nstructures. Appl. Surface Sci. 2023, 610, 155486. [CrossRef]\n50.\nBoyina, K.S.; Mahvi, A.J.; Chavan, S.; Park, D.; Kumar, K.; Lira, M.; Yu, Y.; Gunay, A.A.; Wang, X.; Miljkovic, N. Condensation\nfrosting on meter-scale superhydrophobic and superhydrophilic heat exchangers. Int. J. Heat Mass Transfer 2019, 145, 118694.\n[CrossRef]\nNanomaterials 2022, 12, 4032\n20 of 20\n51.\nGregor\u02c7ci\u02c7c, P.; \u0160etina-Bati\u02c7c, B.; Ho\u02c7cevar, M. Controlling the stainless steel surface wettability by nanosecond direct laser texturing\nat high fluences. Appl. Phys. A Mater. Sci. Process. 2017, 123, 766. [CrossRef]\n52.\nHsu, Y.Y. On the Size Range of Active Nucleation Cavities on a Heating Surface. J. Heat Transf. 1962, 84, 207-213. [CrossRef]\n53.\nJones, S.F.; Evans, G.M.; Galvin, K.P. Bubble nucleation from gas cavities-A review. Adv. Colloid Interface Sci. 1999, 80, 27-50.\n[CrossRef]\n54.\nAttinger, D.; Frankiewicz, C.; Betz, A.R.; Schutzius, T.M.; Ganguly, R.; Das, A.; Kim, C.-J.; Megaridis, C.M. Surface engineering for\nphase change heat transfer: A review. MRS Energy Sustain. 2014, 1, 1-40. [CrossRef]\n55.\nMo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Investigation of the scatter in reported pool boiling CHF measurements including analysis of\nheat flux and measurement uncertainty evaluation methodology. Appl. Thermal Eng. 2020, 169, 114938. [CrossRef]\n56.\nGregor\u02c7ci\u02c7c, P.; Conradi, M.; Hribar, L.; Ho\u02c7cevar, M. Long-term influence of laser-processing parameters on (Super)hydrophobicity\ndevelopment and stability of stainless-steel surfaces. Materials 2018, 11, 2240. [CrossRef]\n57.\nGregor\u02c7ci\u02c7c, P. Comment on \"Bioinspired Reversible Switch between Underwater Superoleophobicity/Superaerophobicity and\nOleophilicity/Aerophilicity and Improved Antireflective Property on the Nanosecond Laser-Ablated Superhydrophobic Titanium\nSurfaces\". ACS Appl. Mater. Interfaces 2020, 13, 2117-2127. [CrossRef]\n58.\nYang, Z.; Liu, X.; Tian, Y. Insights into the wettability transition of nanosecond laser ablated surface under ambient air exposure. J.\nColloid Interface Sci. 2019, 533, 268-277. [CrossRef]\n59.\nLong, J.; Zhong, M.; Fan, P.; Gong, D.; Zhang, H. Wettability conversion of ultrafast laser structured copper surface. J. Laser Appl.\n2015, 27, S29107. [CrossRef]\n60.\nChen, R.; Lu, M.-C.; Srinivasan, V.; Wang, Z.; Cho, H.H.; Majumdar, A. Nanowires for Enhanced Boiling Heat Transfer. Nano Lett.\n2009, 9, 548-553. [CrossRef]\n61.\nBetz, A.R.; Jenkins, J.; Kim, C.J.; Attinger, D. Boiling heat transfer on superhydrophilic, superhydrophobic, and superbiphilic\nsurfaces. Int. J. Heat Mass Transf. 2013, 57, 733-741. [CrossRef]\n62.\nRahman, M.M.; \u00d6l\u00e7ero \u0306glu, E.; McCarthy, M. Role of wickability on the critical heat flux of structured superhydrophilic surfaces.\nLangmuir 2014, 30, 11225-11234. [CrossRef]\n63.\nCarvalho, L.; Pacquentin, W.; Tabarant, M.; Maskrot, H.; Semerok, A. Growth of micrometric oxide layers for the study of metallic\nsurfaces decontamination by laser. EPJ Web Conf. 2017, 153, 07038. [CrossRef]\n64.\nFlorian, C.; Wonneberger, R.; Undisz, A.; Kirner, S.V.; Wasmuth, K.; Spaltmann, D.; Kr\u00fcger, J.; Bonse, J. Chemical effects during\nthe formation of various types of femtosecond laser-generated surface structures on titanium alloy. Appl. Phys. A Mater. Sci.\nProcess. 2020, 126, 1-11. [CrossRef]",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4591
+    },
+    {
+      "number": 2,
+      "start": 4591,
+      "end": 9192
+    },
+    {
+      "number": 3,
+      "start": 9192,
+      "end": 13771
+    },
+    {
+      "number": 4,
+      "start": 13771,
+      "end": 18316
+    },
+    {
+      "number": 5,
+      "start": 18316,
+      "end": 21768
+    },
+    {
+      "number": 6,
+      "start": 21768,
+      "end": 25692
+    },
+    {
+      "number": 7,
+      "start": 25692,
+      "end": 27004
+    },
+    {
+      "number": 8,
+      "start": 27004,
+      "end": 28937
+    },
+    {
+      "number": 9,
+      "start": 28937,
+      "end": 32406
+    },
+    {
+      "number": 10,
+      "start": 32406,
+      "end": 36432
+    },
+    {
+      "number": 11,
+      "start": 36432,
+      "end": 37945
+    },
+    {
+      "number": 12,
+      "start": 37945,
+      "end": 40950
+    },
+    {
+      "number": 13,
+      "start": 40950,
+      "end": 43520
+    },
+    {
+      "number": 14,
+      "start": 43520,
+      "end": 44946
+    },
+    {
+      "number": 15,
+      "start": 44946,
+      "end": 47858
+    },
+    {
+      "number": 16,
+      "start": 47858,
+      "end": 52452
+    },
+    {
+      "number": 17,
+      "start": 52452,
+      "end": 56581
+    },
+    {
+      "number": 18,
+      "start": 56581,
+      "end": 61972
+    },
+    {
+      "number": 19,
+      "start": 61972,
+      "end": 68269
+    },
+    {
+      "number": 20,
+      "start": 68269,
+      "end": 71224
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-publisher-s-note-mdpi-stays-neutral",
+      "number": null,
+      "title": "Publisher\u2019s Note: MDPI stays neutral",
+      "level": 2,
+      "start": 410,
+      "end": 534
+    },
+    {
+      "id": "sec-1-copyright",
+      "number": null,
+      "title": "Copyright:",
+      "level": 2,
+      "start": 534,
+      "end": 809
+    },
+    {
+      "id": "sec-2-nanosecond-laser-textured-copper-surface",
+      "number": null,
+      "title": "Nanosecond Laser-Textured Copper Surfaces Hydrophobized",
+      "level": 1,
+      "start": 809,
+      "end": 922
+    },
+    {
+      "id": "sec-3-heat-transfer",
+      "number": null,
+      "title": "Heat Transfer",
+      "level": 1,
+      "start": 922,
+      "end": 936
+    },
+    {
+      "id": "sec-4-matic-mo-e-1",
+      "number": null,
+      "title": "Matic Mo\u017ee 1,*",
+      "level": 2,
+      "start": 936,
+      "end": 4481
+    },
+    {
+      "id": "sec-5-nanomaterials-2022-12-4032-https-doi-org",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032. https://doi.org/10.3390/nano12224032",
+      "level": 2,
+      "start": 4481,
+      "end": 4591
+    },
+    {
+      "id": "sec-6-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 4591,
+      "end": 9192
+    },
+    {
+      "id": "sec-7-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 9192,
+      "end": 13771
+    },
+    {
+      "id": "sec-8-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 13771,
+      "end": 18316
+    },
+    {
+      "id": "sec-9-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 18316,
+      "end": 20935
+    },
+    {
+      "id": "sec-10-sample",
+      "number": null,
+      "title": "Sample",
+      "level": 2,
+      "start": 20935,
+      "end": 20942
+    },
+    {
+      "id": "sec-11-pulse",
+      "number": null,
+      "title": "Pulse",
+      "level": 2,
+      "start": 20942,
+      "end": 20948
+    },
+    {
+      "id": "sec-12-length-ns",
+      "number": null,
+      "title": "Length (ns)",
+      "level": 2,
+      "start": 20948,
+      "end": 20960
+    },
+    {
+      "id": "sec-13-pulse",
+      "number": null,
+      "title": "Pulse",
+      "level": 2,
+      "start": 20960,
+      "end": 20966
+    },
+    {
+      "id": "sec-14-frequency-khz",
+      "number": null,
+      "title": "Frequency (kHz)",
+      "level": 2,
+      "start": 20966,
+      "end": 20982
+    },
+    {
+      "id": "sec-15-scanning",
+      "number": null,
+      "title": "Scanning",
+      "level": 2,
+      "start": 20982,
+      "end": 20991
+    },
+    {
+      "id": "sec-16-speed-mm-s-1",
+      "number": null,
+      "title": "Speed (mm s\u22121)",
+      "level": 2,
+      "start": 20991,
+      "end": 21006
+    },
+    {
+      "id": "sec-17-average",
+      "number": null,
+      "title": "Average",
+      "level": 2,
+      "start": 21006,
+      "end": 21014
+    },
+    {
+      "id": "sec-18-fluence-j-cm-2",
+      "number": null,
+      "title": "Fluence (J cm\u22122)",
+      "level": 2,
+      "start": 21014,
+      "end": 21031
+    },
+    {
+      "id": "sec-19-pattern",
+      "number": null,
+      "title": "Pattern",
+      "level": 2,
+      "start": 21031,
+      "end": 21768
+    },
+    {
+      "id": "sec-20-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 21768,
+      "end": 23287
+    },
+    {
+      "id": "sec-21-sample",
+      "number": null,
+      "title": "Sample",
+      "level": 2,
+      "start": 23287,
+      "end": 23294
+    },
+    {
+      "id": "sec-22-treatment",
+      "number": null,
+      "title": "Treatment",
+      "level": 2,
+      "start": 23294,
+      "end": 23304
+    },
+    {
+      "id": "sec-23-description",
+      "number": null,
+      "title": "Description",
+      "level": 2,
+      "start": 23304,
+      "end": 23316
+    },
+    {
+      "id": "sec-24-contact-angle",
+      "number": null,
+      "title": "Contact Angle",
+      "level": 2,
+      "start": 23316,
+      "end": 25692
+    },
+    {
+      "id": "sec-25-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 25692,
+      "end": 27004
+    },
+    {
+      "id": "sec-26-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 27004,
+      "end": 28937
+    },
+    {
+      "id": "sec-27-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 28937,
+      "end": 32406
+    },
+    {
+      "id": "sec-28-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 32406,
+      "end": 36432
+    },
+    {
+      "id": "sec-29-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 36432,
+      "end": 37945
+    },
+    {
+      "id": "sec-30-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 37945,
+      "end": 40950
+    },
+    {
+      "id": "sec-31-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 40950,
+      "end": 43520
+    },
+    {
+      "id": "sec-32-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 43520,
+      "end": 44946
+    },
+    {
+      "id": "sec-33-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 44946,
+      "end": 46675
+    },
+    {
+      "id": "sec-34-sample",
+      "number": null,
+      "title": "Sample",
+      "level": 2,
+      "start": 46675,
+      "end": 46682
+    },
+    {
+      "id": "sec-35-db-50-kw-m-2-mm",
+      "number": null,
+      "title": "Db @ 50 kW m\u22122 (mm)",
+      "level": 2,
+      "start": 46682,
+      "end": 46702
+    },
+    {
+      "id": "sec-36-db-100-kw-m-2-mm",
+      "number": null,
+      "title": "Db @ 100 kW m\u22122 (mm)",
+      "level": 2,
+      "start": 46702,
+      "end": 47858
+    },
+    {
+      "id": "sec-37-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 47858,
+      "end": 52452
+    },
+    {
+      "id": "sec-38-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 52452,
+      "end": 56581
+    },
+    {
+      "id": "sec-39-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 56581,
+      "end": 57477
+    },
+    {
+      "id": "sec-40-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 57477,
+      "end": 58637
+    },
+    {
+      "id": "sec-41-modi-cations-for-thermal-management-ener",
+      "number": null,
+      "title": "Modi\ufb01cations for Thermal Management. Energies 2022, 15, 1214. [CrossRef]",
+      "level": 2,
+      "start": 58637,
+      "end": 58831
+    },
+    {
+      "id": "sec-42-nano-uids-nuclear-reactor-application-pr",
+      "number": null,
+      "title": "Nano\ufb02uids: Nuclear Reactor Application. Processes 2022, 10, 177. [CrossRef]",
+      "level": 2,
+      "start": 58831,
+      "end": 60741
+    },
+    {
+      "id": "sec-43-porosity-sintered-fiber-appl-sci-2021-11",
+      "number": null,
+      "title": "Porosity Sintered Fiber. Appl. Sci. 2021, 11, 5883. [CrossRef]",
+      "level": 2,
+      "start": 60741,
+      "end": 60937
+    },
+    {
+      "id": "sec-44-appl-sci-2021-11-1237-crossref",
+      "number": null,
+      "title": "Appl. Sci. 2021, 11, 1237. [CrossRef]",
+      "level": 2,
+      "start": 60937,
+      "end": 61431
+    },
+    {
+      "id": "sec-45-nanomaterial-based-water-nano-uids-mater",
+      "number": null,
+      "title": "Nanomaterial-Based Water Nano\ufb02uids. Materials 2020, 13, 1922. [CrossRef] [PubMed]",
+      "level": 2,
+      "start": 61431,
+      "end": 61972
+    },
+    {
+      "id": "sec-46-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 61972,
+      "end": 62337
+    },
+    {
+      "id": "sec-47-heat-transfer-enhancement-fluids-2022-7-",
+      "number": null,
+      "title": "Heat Transfer Enhancement. Fluids 2022, 7, 232. [CrossRef]",
+      "level": 2,
+      "start": 62337,
+      "end": 62782
+    },
+    {
+      "id": "sec-48-energies-2020-13-2700-crossref",
+      "number": null,
+      "title": "Energies 2020, 13, 2700. [CrossRef]",
+      "level": 2,
+      "start": 62782,
+      "end": 64802
+    },
+    {
+      "id": "sec-49-lett-2016-108-051602-crossref",
+      "number": null,
+      "title": "Lett. 2016, 108, 051602. [CrossRef]",
+      "level": 2,
+      "start": 64802,
+      "end": 68269
+    },
+    {
+      "id": "sec-50-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2,
+      "start": 68269,
+      "end": 69746
+    },
+    {
+      "id": "sec-51-surfaces-acs-appl-mater-interfaces-2020-",
+      "number": null,
+      "title": "Surfaces\u201d. ACS Appl. Mater. Interfaces 2020, 13, 2117\u20132127. [CrossRef]",
+      "level": 2,
+      "start": 69746,
+      "end": 69957
+    },
+    {
+      "id": "sec-52-colloid-interface-sci-2019-533-268-277-c",
+      "number": null,
+      "title": "Colloid Interface Sci. 2019, 533, 268\u2013277. [CrossRef]",
+      "level": 2,
+      "start": 69957,
+      "end": 70672
+    },
+    {
+      "id": "sec-53-langmuir-2014-30-11225-11234-crossref",
+      "number": null,
+      "title": "Langmuir 2014, 30, 11225\u201311234. [CrossRef]",
+      "level": 2,
+      "start": 70672,
+      "end": 71187
+    },
+    {
+      "id": "sec-54-process-2020-126-1-11-crossref",
+      "number": null,
+      "title": "Process. 2020, 126, 1\u201311. [CrossRef]",
+      "level": 2,
+      "start": 71187,
+      "end": 71224
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "shows SEM images of all types of surfaces used within the study at different",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-1_p6.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "SEM images of the untreated reference surface (REF) and three types of laser-textured",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-1_p7.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "Experimental setup (top), heating block and sample assembly (bottom left) and sample",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-2_p8.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "Boiling performance of the untreated reference sample (REF) evaluated through (a) boiling",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-3_p11.png"
+    },
+    {
+      "id": "fig-4a",
+      "label": "Figure 4a",
+      "caption": "shows a comparison of boiling curves recorded on the crosshatch patterned",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-4a_p11.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "Boiling performance of the crosshatch sample (CH) evaluated through (a) boiling curves",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-4_p11.png"
+    },
+    {
+      "id": "fig-4b",
+      "label": "Figure 4b",
+      "caption": "shows a comparison of heat transfer coef\ufb01cients at speci\ufb01c heat \ufb02ux levels",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-4b_p12.png"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Figure 5a",
+      "caption": "shows a comparison of boiling curves obtained on the as-prepared surface",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-5a_p12.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "Boiling performance of the shallow channel sample (SC) evaluated through (a) boiling",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-5_p12.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "Boiling performance of the deep channel sample (DC) evaluated through (a) boiling curves",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-6_p13.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "caption": "Comparison of boiling performance of all samples during the \ufb01rst experimental run through",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-7_p14.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "caption": "Comparison of boiling performance of all samples during the third experimental run",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-8_p14.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "caption": "High-speed snapshots of the boiling process at 50 kW m\u22122 and 100 kW m\u22122 on (a) hy-",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\moze-2022-laser-textured-sam-untreated-copper\\moze_2022_laser_textured_sam_untreated_copper_fig-9_p15.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "Laser-texturing used to functionalize the copper samples.",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "lists all samples used in the study together with the observed contact angle",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "List of samples used in the study.",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "Bubble departure diameters at 50 kW m\u22122 and 100 kW m\u22122 including standard deviation.",
+      "page": 15,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 20,
+    "ingest": "pymupdf"
+  }
+}

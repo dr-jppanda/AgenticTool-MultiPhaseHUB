@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool Boiling Heat Transfer from Deformable Particulate Beds",
+  "year": 2013,
+  "reason": "The authors report their own measured pool boiling curves and CHF for FC-72 on loose copper particulate beds versus a polished surface, with high-speed visualization."
+}

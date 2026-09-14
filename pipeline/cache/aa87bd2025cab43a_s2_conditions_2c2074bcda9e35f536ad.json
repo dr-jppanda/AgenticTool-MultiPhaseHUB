@@ -1,0 +1,121 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "atmospheric pressure is investigated for sintered copper surfaces employing carbon nanotubes"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 55.0,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "boiling curve for water was limited to 55 W/cm2 because of difficulties with the cooling"
+      },
+      {
+        "quote": "Therefore heat flux beyond 26.4 W/cm2 could not be imposed."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 0.4,
+    "max": 38.6,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "Sintered copper\n24.2\n38.6\n33.7"
+      },
+      {
+        "quote": "Sintered copper\n6.6 ± 2.3\n1.07 ± 0.38\n0.4 ± 0.1"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "Each heater block, measuring 25.4 mm x 25.4 mm x 36.6 mm, is fabricated of"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": 20.0,
+    "max": 120.0,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "estimate the contact angles to be, to first order, 20° and 120° for HFE-7300 and DI water,"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

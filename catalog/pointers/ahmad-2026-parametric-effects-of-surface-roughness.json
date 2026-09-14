@@ -1,0 +1,943 @@
+{
+  "record_id": "ahmad-2026-parametric-effects-of-surface-roughness",
+  "doc_id": "06770d923064c9b0",
+  "title": "Parametric effects of surface roughness, material, size, orientation, pressure, and subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity",
+  "source_pdf": "ahmad_2026_parametric_effects_of_surface_roughness.pdf",
+  "n_pages": 20,
+  "n_figures": 23,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 4,
+      "caption": "Variation of thermal conductivity of metals with temperature (taken"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "further illustrates the influence of surface roughness on the NB"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 5,
+      "caption": "Surface roughness profile (adapted from Cai et al. [26]), and definition of key statistical parameters [25]."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 6,
+      "caption": "Predictions of the baseline NB HTC correlation [11] against data for (a)"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 6,
+      "caption": "NB heat flux versus wall superheat for LHe for rough surfaces with"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "NB heat flux versus wall superheat for LHe comparing the effect of"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 7,
+      "caption": "NB heat flux versus wall superheat for different inlet subcoolings for (a) LHe and (b) LH2, and Predictions of (c) baseline NB HTC [11] and (d) updated NB"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 8,
+      "caption": "Predictions of (a) baseline NB HTC and (b) updated NB HTC for com­"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 9,
+      "caption": "highlights the importance of incorporating a multiplier to"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 9,
+      "caption": ", demonstrate good agreement with the CHF data across a range of"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 9,
+      "caption": "CHF dependence on heated surface material for LHe. (Data taken from"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 9,
+      "caption": "Variation of CHF for LN2 with heater characteristic length normalized"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 10,
+      "caption": "The baseline correlation predicts a predominantly increasing"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 10,
+      "caption": "Variation of minimum wall temperature with reduced pressure ac­"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 11,
+      "caption": "Variation of minimum wall temperature with reduced pressure for"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 11,
+      "caption": "Variation of Tw,min with reduced pressure for different surface mate­"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 12,
+      "caption": "It is evident that the updated formulation effectively captures"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 13,
+      "caption": "Variation of q˝min with reduced pressure for different surface materials"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "page": 14,
+      "caption": ", predictions from the baseline FB correlation were compared to"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "page": 14,
+      "caption": "(b), where the correlation incorporating the factor FS,FB shows"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "page": 14,
+      "caption": "(a) LN2 FB data from [43] for different heated surface sizes, (b) FB"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "page": 14,
+      "caption": "FB predictions based on baseline and newly updated correlations"
+    },
+    {
+      "id": "fig-16",
+      "label": "Fig. 16",
+      "page": 15,
+      "caption": "Comparison of FB HTC predictions across different cryogens using the baseline correlation [16] and new updated correlation. (Data taken from Ahmad et al."
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    17,
+    18
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-0-faraz-ahmad-a",
+      "number": null,
+      "title": "Faraz Ahmad a",
+      "level": 1
+    },
+    {
+      "id": "sec-4-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2
+    },
+    {
+      "id": "sec-3-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2
+    },
+    {
+      "id": "sec-1-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1
+    },
+    {
+      "id": "sec-5-table-2-continued",
+      "number": null,
+      "title": "Table 2 (continued)",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 22,
+    "resolved": 22,
+    "unresolved": 0,
+    "exact": 20,
+    "fuzzy": 2
+  },
+  "points_ref": null,
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "correlation_only",
+    "contains_dataset": false,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Parametric effects of surface roughness, material, size, orientation, pressure, and subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity",
+    "year": 2026,
+    "reason": "The work develops updated multiplier-based correlations for cryogenic pool boiling regimes using \"an expanded database compiled from the literature\" rather than reporting its own measurements or simulations."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 0.1,
+      "max": 4.5,
+      "unit": "MPa",
+      "evidence": [
+        {
+          "quote": "the database spans cryogenic fluids with boiling temperatures ranging from 4.2 K (lLHe at 0.1 MPa) to 187 K (LCH4 at 4.5 MPa) [10]",
+          "resolved": true,
+          "char_span": [
+            16559,
+            16689
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": 4.2,
+      "max": 187.0,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "since the database spans cryogenic fluids with boiling temperatures ranging from 4.2 K (lLHe at 0.1 MPa) to 187 K (LCH4 at 4.5 MPa) [10]",
+          "resolved": true,
+          "char_span": [
+            16553,
+            16689
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": 1.0,
+      "max": 1.0,
+      "unit": "g",
+      "evidence": [
+        {
+          "quote": "in terrestrial gravity",
+          "resolved": true,
+          "char_span": [
+            148,
+            170
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [],
+          "match": "exact",
+          "score": 1.0,
+          "also_at": [
+            {
+              "char_span": [
+                15526,
+                15548
+              ],
+              "pages": [
+                3
+              ],
+              "sections": [
+                {
+                  "id": "sec-2-nomenclature",
+                  "number": null,
+                  "title": "Nomenclature",
+                  "level": 2
+                }
+              ],
+              "match": "exact",
+              "score": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "n_data_points": {
+      "min": 2285.0,
+      "max": 2908.0,
+      "unit": null,
+      "evidence": [
+        {
+          "quote": "This filtering reduced the dataset from an initial 2908 data points to 2285.",
+          "resolved": true,
+          "char_span": [
+            20509,
+            20585
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "copper, platinum, aluminum, and stainless steel"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity",
+          "resolved": true,
+          "char_span": [
+            84,
+            170
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "established baseline heat\ntransfer coefficient (HTC) correlations for nucleate boiling (NB), transition boiling (TB), and film boiling (FB), as\nwell as correlations for the critical heat flux (CHF) and minimum heat flux (MHF)",
+          "resolved": true,
+          "char_span": [
+            818,
+            1043
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-faraz-ahmad-a",
+              "number": null,
+              "title": "Faraz Ahmad a",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "significant advancement in predictive modeling of cryogenic pool boiling on flat surfaces",
+          "resolved": true,
+          "char_span": [
+            14534,
+            14623
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "that earlier work was pri­marily confined to saturated, steady-state conditions on flat surfaces\nwith horizontal and vertical orientations",
+          "resolved": true,
+          "char_span": [
+            11622,
+            11761
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "correlation_only",
+      "tier2": "correlation_only",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Updated correlations for the boiling regimes and transition points were\ndeveloped based on an expanded database compiled from the literature.",
+          "resolved": true,
+          "char_span": [
+            1330,
+            1471
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-faraz-ahmad-a",
+              "number": null,
+              "title": "Faraz Ahmad a",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the correla­tions developed in this study were based on a comprehensive pool\nboiling database compiled from a wide range of published sources",
+          "resolved": true,
+          "char_span": [
+            16162,
+            16304
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "cryogen",
+        "tier2": "nitrogen",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "predictions from both the baseline correlation [16] and the newly updated FB formulation are\ncompared against experimental data for LN2, LH2, and LAr",
+            "resolved": true,
+            "char_span": [
+              69787,
+              69936
+            ],
+            "pages": [
+              17
+            ],
+            "sections": [
+              {
+                "id": "sec-4-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "hydrogen",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "for LH2 the MAE decreases\nsubstantially, from 33.71 % to 12.77 %",
+            "resolved": true,
+            "char_span": [
+              70124,
+              70188
+            ],
+            "pages": [
+              17
+            ],
+            "sections": [
+              {
+                "id": "sec-4-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "helium",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "This trend is supported by\nexperimental data for liquid helium (LHe), as shown in Fig. 8.",
+            "resolved": true,
+            "char_span": [
+              40949,
+              41038
+            ],
+            "pages": [
+              9
+            ],
+            "sections": [
+              {
+                "id": "sec-3-table-1",
+                "number": null,
+                "title": "Table 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "argon",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "A modest improvement is also\nobserved for LAr, with the MAE reduced from 13.07 % to 11.58 %.",
+            "resolved": true,
+            "char_span": [
+              70190,
+              70282
+            ],
+            "pages": [
+              17
+            ],
+            "sections": [
+              {
+                "id": "sec-4-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the effect of roughness on the NB\nHTC diminished substantially, suggesting that these surfaces could be\nreasonably classified as smooth",
+            "resolved": true,
+            "char_span": [
+              23589,
+              23724
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-3-table-1",
+                "number": null,
+                "title": "Table 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "In contrast, surfaces with Ra > 0.1 μm\nexhibited noticeable enhancement in nucleate boiling performance and\nwere thus categorized as rough.",
+            "resolved": true,
+            "char_span": [
+              23726,
+              23865
+            ],
+            "pages": [
+              5
+            ],
+            "sections": [
+              {
+                "id": "sec-3-table-1",
+                "number": null,
+                "title": "Table 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "the inclusion of a surface roughness multiplier in the NB\ncorrelation reduces MAE from 47.68% to 22.43% for rough surface data",
+            "resolved": true,
+            "char_span": [
+              1993,
+              2119
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-faraz-ahmad-a",
+                "number": null,
+                "title": "Faraz Ahmad a",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat"
+    ],
+    "measurement_modality": []
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "cryogenics",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Emerging technologies in cryogenics,\nsuperconductivity, and aerospace increasingly rely on fluids such as liquid\nnitrogen (LN2), liquid hydrogen (LH2), and liquid oxygen (LO2), which operate at\nextremely low temperatures.",
+            "resolved": true,
+            "char_span": [
+              5439,
+              5660
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "This advancement is expected to\nmarkedly improve the design, safety, and performance of cryogenic thermal\nmanagement systems.",
+            "resolved": true,
+            "char_span": [
+              12991,
+              13116
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-2-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "These reductions in error confirm the enhanced agreement between\npredictions and experimental data achieved by the updated correlation,\nparticularly for LH2 and LN2, thereby strengthening its suitability for\npractical cryogenic thermal applications.",
+            "resolved": true,
+            "char_span": [
+              70283,
+              70532
+            ],
+            "pages": [
+              17
+            ],
+            "sections": [
+              {
+                "id": "sec-4-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "aerospace",
+        "tier2": null,
+        "stated": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "quote": "All correlations developed in this study, except for qʹʹ\nCHF, are formu­\nlated based on terrestrial gravity conditions. To extend their appli­\ncability to space-based systems, gravity scaling must be performed.",
+            "resolved": true,
+            "char_span": [
+              76977,
+              77187
+            ],
+            "pages": [
+              18
+            ],
+            "sections": [
+              {
+                "id": "sec-5-table-2-continued",
+                "number": null,
+                "title": "Table 2 (continued)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "which is expected to be incorporated\nupon acquisition of additional reduced gravity data from the authors'\nupcoming parabolic flight experiments",
+            "resolved": true,
+            "char_span": [
+              34473,
+              34617
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-3-table-1",
+                "number": null,
+                "title": "Table 1",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence medium"
+      }
+    ]
+  },
+  "llm_title": "Parametric effects of surface roughness, material, size, orientation, pressure, and subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity",
+  "routed_to": "pointers",
+  "si": {
+    "p_sat_min": 100000.0,
+    "p_sat_unit": "Pa",
+    "p_sat_max": 4500000.0,
+    "T_sat_min": 4.2,
+    "T_sat_unit": "K",
+    "T_sat_max": 187.0,
+    "gravity_level_min": 1.0,
+    "gravity_level_unit": "g",
+    "gravity_level_max": 1.0,
+    "n_data_points_min": 2285.0,
+    "n_data_points_unit": "-",
+    "n_data_points_max": 2908.0
+  },
+  "fluid_properties": {
+    "rho_l": 544.6049487100837,
+    "rho_v": 109.83674480989978,
+    "sigma": 0.0009202233939499643,
+    "h_fg": 101446.52593382135,
+    "mu_l": 4.157634870024637e-05,
+    "p_crit": 3395800.444647145,
+    "T_sat_calc": 118.27391760702335
+  },
+  "derived": {
+    "L_cap": 0.00046457668368665115,
+    "p_reduced": 0.6773071732249542
+  },
+  "derived_tags": [
+    "gravity:terrestrial",
+    "pressure:high",
+    "size:large"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 1,
+    "unconfirmed_fields": 1
+  }
+}

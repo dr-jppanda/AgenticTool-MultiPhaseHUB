@@ -1,0 +1,221 @@
+{
+  "doc_id": "77cbb7e02dcf070c",
+  "source": "papers\\howard_2008_photographic_study_of_pool_boiling.pdf",
+  "text": "Photographic study of pool boiling CHF from a downward-facing convex surface\u2606\nAlicia H. Howard, Issam Mudawar \u204e\nBoiling and Two-phase Flow Laboratory, School of Mechanical Engineering, Purdue University, West Lafayette, IN 47907, USA\nA B S T R A C T\nA R T I C L E\nI N F O\nAvailable online 23 April 2008\nKeywords:\nCritical heat flux\nPool boiling\nPhotographic study\nHeat transfer measurements and photographic studies are performed to capture the detailed evolution of the\nliquid-vapor interface near critical heat flux (CHF) for a 90-degree downward-facing convex surface. The test\nsurface, with a width of 3.2 mm and a 102.6-mm radius, consists of a series of nine heaters that dissipate\nequal power. Instrumentation within each heater facilitates localized heat flux and temperature\nmeasurements along the convex surface, and transparent front and back windows enable optical access to\na fairly two-dimensional liquid-vapor interface. Near CHF, vapor behavior along the convex surface is\ncyclical, repeatedly forming a stratified vapor layer at the bottom of the convex surface, which stretches as\nmore vapor is generated, and then flows upwards along from the surface. Subsequently, heaters at the\nbottom of the convex surface, followed by the other heaters, are wetted with liquid before the nucleation/\ncoalescence/stratification/release process is repeated. This study proves that despite the pronounced\nthickening of the vapor layer as it propagates upwards along the convex surface, CHF always commences on\nthe bottom of the surface.\n\u00a9 2008 Elsevier Ltd. All rights reserved.\n1. Introduction\nPool boiling from the underside of downward-facing convex\nsurfaces is important in many engineering applications. Examples\ninclude heat treating of metallic parts, handling hazardous chemical\nvessels during a fire, cooling electronic cables in superconductivity\nresearch, and maintaining reactor vessel integrity during a severe\nnuclear accident.\nEl-Genk and Glebov [1] examined critical heat flux (CHF) on\ndownward-facing convex surfaces by quenching curved disks in water.\nThey reported that CHF first occurs at the bottom of the surface and\nthen moves radially outward as the quenching continued, causing CHF\nto be lowest at the heated surface edge. Cheung and Haddad [2]\ninvestigated saturated and subcooled boiling from hemispherical\nsurfaces under both transient (quenching) and steady state conditions\nand, unlike El-Genk and Glebov, found CHF to be lowest at the bottommost point of the hemisphere. They constructed an empirical localized\nCHF model based on the hypothesis of micro-vapor jets bursting\nthough a liquid sublayer. However, the photographs presented by\nHaddad and Cheung do not substantiate the existence of the microcvapor jets.\nMost prior studies [1-4] are limited in their ability to capture the\nCHF mechanism, and their use of transient experiments may not\nproduce accurate CHF data. Furthermore, useful photographic results\nare quite sparse, and those that are available lack clarity because of\nthree-dimensional effects. Additionally, recommendations concerning\nthe location of minimum CHF are sometimes inconsistent.\nThe key objective of the present investigation is to capture the\nevolution of the liquid-vapor interface near CHF for a downwardfacing convex surface. An experimental apparatus is developed to\nfacilitate (1) high-resolution photographic depiction of a two-\ndimensional slice of a 90-degree downward-facing convex surface,\nand (2) localized steady state measurements of both heat flux and\nsurface temperature.\n2. Experimental methods\nFig. 1 shows a schematic of the test apparatus. It consists of a 3.2-\nmm thick boiling flange that is connected to a large reservoir where\nthe bulk fluid, Fluorinert FC-87, is stored and conditioned. The flange\nincludes an insulative G-10 spacer as well as front and back\ntransparent polycarbonate windows. As shown in Fig. 2(a), nine\nheaters are inserted along the curved portion of the G-10 spacer to\ncreate a 90-degree downward-facing convex surface with a radius of\n102.6 mm. The heated surface and liquid cavity in the flange are both\n3.2-mm thick, which helps restrain transverse fluid motion and render\nthe liquid-vapor interface very discernible.\nThree thermocouples measure the bulk liquid temperature within\nthe flange. Immersion heaters in the reservoir are used to maintain the\nbulk fluid temperature at a subcooling of 2 \u00b0C. A water-cooled\ncondenser coil in the reservoir recaptures most of the vapor. The\nInternational Communications in Heat and Mass Transfer 35 (2008) 793-799\n\u2606Communicated by W.J. Minkowycz.\n\u204e Corresponding author.\nE-mail address: mudawar@ecn.purdue.edu (I. Mudawar).\n0735-1933/$ - see front matter \u00a9 2008 Elsevier Ltd. All rights reserved.\ndoi:10.1016/j.icheatmasstransfer.2008.03.003\nContents lists available at ScienceDirect\nInternational Communications in Heat and Mass Transfer\njournal homepage: www.elsevier.com/locate/ichmt\nreservoir is vented to the ambient to prevent any pressure fluctuations\nin the system due to the vapor production.\nFig. 2(b) shows detailed dimensions of an individual heater. To\nconstruct the heaters, a plate of oxygen-free copper is turned on a\nlathe to form a ring with the diameters and thicknesses shown. The\nring is then cut into multiple pieces such that the bulk of each copper\npiece is a section spanning 8.8 \u030a, except for the bottom (wetted) surface,\nwhich spans 10.0 \u030a. When the nine heaters are assembled together, as\nillustrated in Fig. 2(a), the heater construction minimizes circumferential heat flow between heaters while producing a continuous\nboiling surface. For reference purposes, the heaters are numbered\nsequentially from 1 (bottom-most heater) to 9 (top heater). Heat\nlosses are minimized by sandwiching the heaters between G-10\ninsulation, and covering the top portions of the heaters with fiberglass\nbatting, as illustrated in Fig. 2(c). Heat is supplied from a thick film\nresistor that is silver-soldered onto each copper heater. The nine\nheaters are powered by a single 120 V a.c. variac.\nThree type-K thermocouples are embedded along the centerline of\neach heater at three radial distances from the wetted surface as shown\nin Fig. 2(b). The thermocouples are packed into 0.8-mm diameter\nholes with thermal grease and sealed in place with epoxy. During\ntesting, steady state thermocouple readings are curve-fit to radial\nlocation, using the assumption of one-dimensional radial heat\nconduction (T=C11n r+C2) to determine both the surface temperature\nand the heat flux. Heat flux is also calculated by dividing the power\nsupplied by a resistor (determined from the output of current and\nvoltage transducers) by the wetted area of the respective heater.\nPrior to each test, the heater surfaces are polished lightly with a\nCrocus cloth and cleaned with acetone to ensure reproducible boiling\nresults. The copper heaters as well as immersion heaters in the bulk\nreservoir are then turned on for about 45 min to both purge any non-\ncondensable gases from the liquid and maintain near-saturated\nboiling conditions.\nBoth video images and still photographs are utilized to record\nboiling behavior at various intervals in the nucleate boiling regime as\nwell as just prior to, and immediately following, CHF. The video\nimages capture a temporal record of the boiling process, while the still\nphotographs produce the higher resolution images necessary to\ndistinguish and measure interfacial features. Video images are\nrecorded with a Canon L1 camera, and still photographs are captured\nwith a Nikon FM2 35 mm camera. Photographs of the entire 90-degree\nconvex surface are taken with a 55 mm lens. Photographs of individual\nheater locations along the convex surface are captured with a 2X\nteleconverter in conjunction with a 14 mm auto-extension ring.\nUncertainty in the heat fluxes calculated from the voltage and\ncurrent transducer readings is estimated at less than 0.5%; all heat flux\ndata presented in this paper are therefore based on the transducer\nmeasurements. The uncertainty in surface temperature using this heat\nflux and the aforementioned curve fitting procedure ranges from 1.7\nto 2.6 \u00b0C. Heat loss through the insulation is estimated at less than 5%\nof the measured electrical heat input.\n3. Experimental results\n3.1. Nucleate boiling and CHF measurements\nFig. 3 shows boiling curves for the nine heaters forming the 90-\ndegree downward-facing convex surface. The downward-facing\nportion of the convex surface inhibits natural convection around\nheaters 1 and 2, inciting boiling at a superheat temperature of\n\u0394Tsatb2 \u00b0C, rather than the typical 10 \u00b0C value for upward-facing\nsurfaces in Fluorinerts [5]. Boiling commences on the lowest heaters\n(1 and 2) and then propagates up the convex surface. The nucleate\nboiling regime is similar for all nine heaters. The unsteady rise in\nsurface temperature associated with CHF occurs at heaters 1 and 2\nfirst, followed by the other heaters.\nIt is clear from Fig. 3 that heater 9 is the coolest for any heat flux,\nwhile heater 1 is the hottest, followed by heater 2. As the heat flux is\nincreased, the degradation in heat transfer from heaters 1 and 2\nbecomes more pronounced. This is believed to be the result of vapor\nstratification on these two lower heaters, contrasted with the\nadditional cooling available to heaters 3 through 9 from the\nbuoyancy-driven liquid-vapor flow along the convex surface.\nStable heat fluxes approximately equal to 95% of CHF are hereafter\ndenoted as CHF-, and heat fluxes slightly greater than CHF as CHF+.\nFig. 3(b) shows the transient progression of the temperature\nexcursion. Notice that none of the heaters detect an immediate\nrapid temperature rise following a power increment from CHF-.\nHowever, once initiated, the temperature rise at CHF+ is almost twice\nas large as at CHF-. At approximately 2 min into CHF+, a sharp increase\nin the temperature-time gradient ensues for heaters 1 and 2. Since\nthese two heaters are essentially insulated with vapor, heat starts to\n\"leak\" into heater 3, causing the temperature gradient of heater 3 to\nincrease as well. Within 5 min, heaters 3 and 4 begin experiencing a\nsharp temperature rise. At approximately 5.5 min, heater 1 is turned\noff by the data acquisition system, but the experiment is allowed to\ncontinue for another minute so that the temperature excursions in\nheaters 2 through 4 could be further observed. It is speculated that\nhad the test been allowed to continue, all remaining heaters would\nhave eventually experienced a similar rapid temperature rise. The\ntransient data in Fig. 3(a) reveal CHF is triggered at the most\ndownward-facing heaters (1 and 2) and then propagates up the\nconvex surface.\n3.2. Flow visualization results\nTo gain further insight into the CHF mechanism, both still and\nvideo photography are used to record boiling phenomena at various\nintervals in the nucleate boiling region as well as just prior to and\nimmediately following CHF.\nFigs. 4-6 show still photographs of the liquid-vapor interface on\nthe convex surface for different conditions. Because the test apparatus\nis backlit, the heater surface appears as a black quarter-circle. The\nreference grid, measurement scale, and heater numbers are affixed to\nthe back polycarbonate plastic window of the test flange and are\nvisible in all the photos. Grid lines denoting radial position are spaced\nin 1-cm increments, while those denoting angular position are spaced\n10\u00b0 apart, corresponding to individual heater locations.\nNomenclature\nC1, C2\ncoefficients in one-dimensional radial conduction\nequation\nq\u2032\u2032\nheat flux\nr\nradial coordinate\nt\ntime\nT\ntemperature\nTf\nbulk liquid temperature\nTs\nheater surface temperature\n\u0394Tsat\nexcess heater surface temperature, Ts-Tsat\n\u0394Tsub\nliquid subcooling, Tsat-Tf\nGreek symbol\n\u03b8\norientation angle\nSubscripts\nf\nbulk liquid\nsat\nsaturation\n794\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799\nAs discussed earlier, boiling commences on the bottom heaters (1\nand 2). As the individual bubbles traverse the heated surface, they\naccumulate additional vapor, causing them to grow in size and form\noblong bubbles. At incipience, the oblong bubbles are small and\nseparated by large segments of liquid. As the heat flux is increased,\nthese bubbles grow longer and the length of the liquid segment\nbetween bubbles shorter. Fig. 4 shows a photo of the convex surface at\n25% of CHF. The photo is representative of what is observed in video\nimages for low heat flux conditions. Clearly shown is a wavy liquid-\nvapor interfacial behavior reminiscent of observations by Howard and\nMudawar [5,6] for pool boiling CHF at different orientations, as well as\nby Galloway and Mudawar [7] and Sturgis and Mudawar [8] for flow\nboiling CHF.\nAt heat fluxes above 75% of CHF, the boiling process becomes\ncyclical in nature. The period of the cycle does not increase or decrease\nwith increasing heat flux. Instead it remains fairly constant at 0.12 s\nper cycle, even during CHF+. Because of this cyclical behavior, high\nheat flux pool boiling on the convex surface cannot be accurately\nrepresented by a single photo. Figs. 5 and 6 show two series of five\nphotographs taken at CHF-for the full convex surface and the two\nbottom heaters, respectively. Even though the photos in the two\nfigures are taken at different times, they depict equivalent phases of a\nsingle boiling cycle; the top photo in each figure represents the\nbeginning of a cycle and the bottom photo the end. Because of the\nlarge span of the convex surface, different boiling patterns occur\nsimultaneously on different portions of the surface during a single\ncycle. The following is a description of the boiling cycle starting at\nheaters 1 and 2:\n(a) First, liquid wets the bottom heaters (1 and 2), and discrete\nbubbles are formed.\n(b) As the bubbles grow in volume, they begin to coalesce into a\nvapor layer on the bottom heaters.\n(c) The vapor layer engulfs heaters 1 and 2 and grows in length to\ncover an increasing fraction of the convex surface area.\n(d) The vapor layer on heaters 1 and 2 thins out as the vapor travels\naway from these heaters. The vapor layer grows shorter and\nthicker as it travels upwards along the convex surface.\nFig. 1. Test apparatus for pool boiling from downward-facing convex surface.\n795\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799\n(e) The bottom heaters and, subsequently, the other heaters, are\nwetted with liquid for a brief period before the boiling\nnucleation/coalescence/stratification/release process is\nrepeated.\nPhotographs at 75% of CHF (not shown here) are very similar to\nthose in Figs. 5 and 6 for CHF-, except that a thin sublayer of liquid is\nsometimes observed within the vapor wave for the lower heat flux.\nThis liquid sublayer is not observed in photos taken at 90% of CHF or\nhigher, as shown in Figs. 5 and 6, proving the liquid sublayer had dried\nout for the most part.\nHoward and Mudawar [5] noted that at high heat flux conditions\nleading to CHF, vapor behavior on a flat downward-facing surface\nexperiencing pool boiling is categorically different from that for all\nother surface orientations. In the downward-facing CHF region\nobserved by Howard and Mudawar, which ranges from 165\u00b0 to 180\u00b0,\nvapor bubbles grow and coalesce together, eventually covering most\nof the heater surface. As the vapor layer continues to grow, it reaches\nan edge where the vapor is released by buoyancy. Liquid is then able to\nwet the heater surface, causing a revival of bubble nucleation and\ninitiating a new nucleation/coalescence/stratification/release cycle.\nThis is very similar to the vapor behavior observed on the convex\nsurface. Additionally, heaters 1 and 2, where CHF commences on the\nconvex surface, have equivalent orientations of 160\u00b0 to 180\u00b0, which are\ncomparable with the orientation range of the downward-facing CHF\nregion (165\u00b0 to 180\u00b0) observed and predicted by Howard and\nMudawar for FC-72 on a flat inclined surface.\n4. Conclusions\nNear-saturated pool boiling experiments and flow visualization\nstudies were performed on a 90-degree slice of a downward-facing\nconvex surface to explore liquid-vapor interfacial behavior near CHF.\nKey conclusions from the study are as follows:\n(1) Boiling commences on the bottom heaters (1 and 2), and then\npropagates up the convex surface. Nucleate boiling occurs with\nexcess temperatures much smaller than those experienced on\nupward-facing flat surfaces.\n(2) The orientations of the bottom heaters (1 and 2) inhibit natural\nconvection, while the buoyancy-driven liquid-vapor flow along\nthe convex surface increases heat transfer from the other\nheaters (3 through 9). This causes the temperatures of the\nbottom heaters to be higher than all other heaters, regardless of\nheat flux. As the heat flux increases, cooling deficiencies of the\nbottom heaters become even more pronounced.\nFig. 2. (a) Arrangement of heaters along downward-facing convex surface. (b) Single heater details. (c) Heater insulation.\n796\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799\n(3) Near CHF, the boiling is cyclical in nature. Individual bubbles\nnucleate, grow, and coalesce together, forming a vapor layer\nthat essentially insulates the heaters for brief periods of time.\nAs the vapor layer departs, the bottom heaters, followed by the\nother heaters, are wetted with liquid before the nucleation/\ncoalescence/stratification/release process is repeated. This\nboiling cycle is similar to the cycle previously observed by the\nauthors near CHF on flat downward-facing heaters.\n(4) CHF commences on the bottom heaters (1 and 2), which have\nequivalent orientations of 160\u00b0 to 180\u00b0. These orientations are\ncomparable with the orientation range of the downward-facing\nCHF region observed and predicted by Howard and Mudawar\n[5] for flat downward-facing heaters.\nReferences\n[1] M.S. El-Genk, A.G. Glebov, Transient pool boiling from downward-facing curved\nsurfaces, Int. J. Heat Mass Transfer 38 (1995) 2209-2224.\n[2] F.B. Cheung, K.H. Haddad, A hydrodynamic critical heat flux model for saturated\npool boiling on a downward facing curved heating surface, Int. J. Heat Mass Transfer\n40 (1997) 1291-1302.\n[3] T.Y. Chu, B.L. Bainbridge, R.B. Simpson, J.H. Bentz, Ex-vessel boiling experiments:\nlaboratory and reactor scale testing of the flooded cavity concept for in-vessel core\nretention-Part I: observations of quenching of downward-facing surfaces, Nucl.\nEng. Des. 169 (1977) 77-88.\n[4] T.G. Theofanous, S. Syri, T. Salmassi, O. Kymalainen, H. Tuomisto, Critical heat flux\nthrough curved, downward facing thick walls, Nucl. Eng. Des. 151 (1994) 247-258.\n[5] A.H. Howard, I. Mudawar, Orientation effects on pool boiling critical heat flux (CHF)\nand modeling of CHF for near-vertical surfaces, Int. J. Heat Mass Transfer 42 (1999)\n1665-1688.\n[6] I. Mudawar, A.H. Howard, C.O. Gersey, An analytical model for near-saturated pool\nboiling CHF on vertical surfaces, Int. J. Heat Mass Transfer 40 (1997) 2327-2339.\n[7] J.E. Galloway, I. Mudawar, CHF mechanism in flow boiling from a short heated wall-\nI. Examination of near-wall conditions with the aid of photomicrography and high\nspeed video imaging, Int. J. Heat Mass Transfer 36 (1993) 2511-2526.\n[8] J.C. Sturgis, I. Mudawar, Critical heat flux in a long, rectangular channel subjected to\none-sided heating-I. Flow visualization, Int. J. Heat Mass Transfer 42 (1999)\n1835-1847.\nFig. 4. Vapor layer along downward-facing convex surface at 25% of CHF.\nFig. 3. (a) Local boiling curves for nine heaters. (b) Transient heater temperatures following CHF.\n797\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799\nFig. 5. Development of vapor layer along downward-facing convex surface at CHF-.\n798\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799\nFig. 6. Development of vapor layer for heaters 1 and 2 at CHF-.\n799\nA.H. Howard, I. Mudawar / International Communications in Heat and Mass Transfer 35 (2008) 793-799",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4941
+    },
+    {
+      "number": 2,
+      "start": 4941,
+      "end": 11954
+    },
+    {
+      "number": 3,
+      "start": 11954,
+      "end": 14423
+    },
+    {
+      "number": 4,
+      "start": 14423,
+      "end": 17155
+    },
+    {
+      "number": 5,
+      "start": 17155,
+      "end": 19773
+    },
+    {
+      "number": 6,
+      "start": 19773,
+      "end": 19957
+    },
+    {
+      "number": 7,
+      "start": 19957,
+      "end": 20124
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-alicia-h-howard-issam-mudawar",
+      "number": null,
+      "title": "Alicia H. Howard, Issam Mudawar \u204e",
+      "level": 1,
+      "start": 77,
+      "end": 4838
+    },
+    {
+      "id": "sec-1-international-communications-in-heat-and",
+      "number": null,
+      "title": "International Communications in Heat and Mass Transfer",
+      "level": 1,
+      "start": 4838,
+      "end": 11505
+    },
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 11505,
+      "end": 17932
+    },
+    {
+      "id": "sec-3-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 17932,
+      "end": 19166
+    },
+    {
+      "id": "sec-I",
+      "number": "I",
+      "title": "Examination of near-wall conditions with the aid of photomicrography and high",
+      "level": 2,
+      "start": 19166,
+      "end": 20124
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "shows a schematic of the test apparatus. It consists of a 3.2-",
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-1_p1.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "(b) shows detailed dimensions of an individual heater. To",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-2_p2.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "shows boiling curves for the nine heaters forming the 90-",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-3_p2.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(b) shows the transient progression of the temperature",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-3_p2.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Test apparatus for pool boiling from downward-facing convex surface.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "(a) Arrangement of heaters along downward-facing convex surface. (b) Single heater details. (c) Heater insulation.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-2_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Vapor layer along downward-facing convex surface at 25% of CHF.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-4_p5.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(a) Local boiling curves for nine heaters. (b) Transient heater temperatures following CHF.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-3_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Development of vapor layer along downward-facing convex surface at CHF\u2212.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-5_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Development of vapor layer for heaters 1 and 2 at CHF\u2212.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\howard_2008_photographic_study_of_pool_boiling_fig-6_p7.png"
+    }
+  ],
+  "tables": [],
+  "meta": {
+    "n_pages": 7,
+    "ingest": "pymupdf"
+  }
+}

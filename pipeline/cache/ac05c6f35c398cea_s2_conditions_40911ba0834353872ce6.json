@@ -1,0 +1,120 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 775.0,
+    "max": 1625.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "It increased from 775 kW/m2 at the smoothest\nsurface (Ra = 0.041 lm) to 1625 kW/m2 at the roughest surface\n(Ra = 2.36 lm)."
+      },
+      {
+        "quote": "The CHF was merely 775 kW/m2 at the smoothest surface of\nRa = 0.041 lm, whereas CHF at the roughest surface of Ra = 2.36 lm\nwas as much as 1625 kW/m2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 10.0,
+    "max": 10.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "Copper blocks of size 10 mm 10 mm 3 mm were prepared\nto serve as test surfaces."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.041,
+    "max": 2.36,
+    "unit": "µm",
+    "evidence": [
+      {
+        "quote": "The average roughness Ra was varied from 0.041 lm to 2.36 lm, and"
+      },
+      {
+        "quote": "Copper surfaces were polished with sandpapers of different average surface roughness (Ra), ranging from 0.041 lm to 2.36 lm."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 64.5,
+    "max": 64.5,
+    "unit": "degrees",
+    "evidence": [
+      {
+        "quote": "static contact angle, which was calculated to be 64.5 , is employed"
+      },
+      {
+        "quote": "The\ndistribution\nof\nthe averaged\nstatic\ncontact angles\nwas\n64.5 ± 5 ."
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

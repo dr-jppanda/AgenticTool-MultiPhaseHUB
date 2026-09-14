@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Inherent scatter in pool boiling critical heat flux on reference surfaces",
+  "year": 2024,
+  "reason": "The authors recorded 125 of their own boiling curves and CHF values on bare copper surfaces in saturated water pool boiling, reporting raw data tables."
+}

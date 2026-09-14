@@ -1,0 +1,127 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "All measurements were performed at atmospheric\npressure, and the stability was confirmed by the stable temperature of the saturation."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 2021.0,
+    "unit": "kW m-2",
+    "evidence": [
+      {
+        "quote": "2021 kW m-2, representing double the value obtained on the untreated reference"
+      },
+      {
+        "quote": "The highest CHF of 1457 kW m-2 was recorded at 0.1 wt.%, which"
+      },
+      {
+        "quote": "was continuously increased at a rate of 2 kW m-2 s-1"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": 100.0,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "until a surface superheat was reached (~100 K, representing a safety limit"
+      },
+      {
+        "quote": "very high surface superheat values (up to 100 K) were"
+      }
+    ]
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.15,
+    "max": 0.15,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "Each sample was first sanded using P1200 and P2000 grit sandpaper to achieve a surface\nroughness of approx. 0.15 μm."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 13.5,
+    "max": 82.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "the contact angle of the bare copper surface was 82◦before the boiling experiments"
+      },
+      {
+        "quote": "The contact angle after boiling with the 0.1 wt.% nanofluid was 13.5◦"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

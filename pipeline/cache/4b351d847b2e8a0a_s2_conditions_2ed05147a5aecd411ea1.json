@@ -1,0 +1,125 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "The vapor\ntrap is open to ambient so as to maintain the chamber at atmospheric pressure during testing."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 56.0,
+    "max": 56.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "the pool is filled with 40 ml of\nfluorinert liquid FC-72, which has the following thermophysical\nproperties: Tsat = 56 C"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 161.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "Free particles in the diameter range of 45-53 lm\nyield the maximum CHF (161 kW/m2), 44% higher than that of a\npolished surface."
+      },
+      {
+        "quote": "It may be\nnoted here that the CHF reached by this smallest particle size considered is higher than that for the polished surface (112 kW/m2)."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 1.3,
+    "max": 20.4,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "The 90-106 lm\nparticles show the maximum decrease in wall superheat compared\nto a polished surface at 72 kW/m2 (20.4 K-1.3 K)."
+      },
+      {
+        "quote": "The onset of nucleate boiling\noccurs at a higher wall superheat (9.5 K for 90-106 lm particles\ncompared to 6.8 K for 180-212 lm)"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The copper block has a smooth\n25.4 25.4 mm top surface exposed to the working fluid."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 20.0,
+    "max": 20.0,
+    "unit": "nm",
+    "evidence": [
+      {
+        "quote": "This procedure results in a mirror-finish surface with roughness RRMS = 20 nm, as measured by a non-contact 3D scanning\nwhite light interferometer"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

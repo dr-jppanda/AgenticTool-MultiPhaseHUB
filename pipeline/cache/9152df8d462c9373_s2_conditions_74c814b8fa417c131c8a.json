@@ -1,0 +1,131 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 50.0,
+    "max": 1389.0,
+    "unit": "kW m-2",
+    "evidence": [
+      {
+        "quote": "in the heat flux range between 50 kW m-2 and the average CHF"
+      },
+      {
+        "quote": "with the lowest and highest CHF values being 902 kW m-2 and 1389 kW m-2, respectively"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 20.1,
+    "max": 27.7,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "The highest and lowest superheat temperatures obtained were 27.7 K and 20.1 K, respectively, alongside with average value of 24.5 K."
+      }
+    ]
+  },
+  "D_h": {
+    "min": 14.0,
+    "max": 14.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The manufacturing process for bare copper samples (electrolytic purity, >99.9 % Cu) with 14 mm diameter"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.2,
+    "max": 0.23,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "The average surface roughness of the first group of boiling test surfaces was 0.20 μm, with a standard deviation of 0.02 μm."
+      },
+      {
+        "quote": "The mean surface roughness of these additional samples was 0.23 μm, with a standard deviation of 0.02 μm."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 45.0,
+    "max": 95.4,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "with a maximum recorded value of 95.4◦and a minimum recorded value of 45◦"
+      },
+      {
+        "quote": "Before boiling, the mean apparent contact angle for 25 tested samples was 73.8◦± 14.5◦"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": 125.0,
+    "max": 125.0,
+    "unit": "boiling curves",
+    "evidence": [
+      {
+        "quote": "In this study, a total of 125 experimental runs were conducted to measure the pool boiling performance of 25 bare copper samples."
+      },
+      {
+        "quote": "The study recorded 125 boiling curves and CHF values on nominally\nidentical bare copper surfaces"
+      }
+    ]
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Nucleate boiling from smooth and rough surfaces - Part 2: Analysis of surface roughness effects on nucleate boiling",
+  "year": 2013,
+  "reason": "The paper reports its own quantitative saturated pool boiling measurements in FC-72 — boiling curves, bubble departure diameters, growth and ebullition periods, and void fraction obtained from high-speed visualization on ITO heaters of controlled roughness."
+}

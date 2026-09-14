@@ -1,0 +1,125 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The present work focuses on exploring the possibility of concomitant enhancement of pool boiling heat transfer by using TiO2-water nanofluid"
+      },
+      {
+        "quote": "the laser-induced microcavities were filled with nanoparticles, leading to a decrease in contact"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Samples for boiling experiments were prepared on high purity copper (>99.9% Cu)."
+      },
+      {
+        "quote": "Each sample was first sanded using P1200 and P2000 grit sandpaper to achieve a surface"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "was continuously increased at a rate of 2 kW m-2 s-1. The chosen methodology of a slow"
+      },
+      {
+        "quote": "All measurements were performed at atmospheric pressure, and the stability was confirmed by the stable temperature of the saturation."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the base fluid (twice-distilled water)"
+        },
+        {
+          "quote": "the boiling performance of the bare copper surface and the laser textured surface was first evaluated utilizing"
+        }
+      ]
+    },
+    {
+      "tier1": "nanofluid",
+      "tier2": "tio2_water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The pool boiling performance of TiO2-water nanofluids with two different sizes of"
+        },
+        {
+          "quote": "Two mass concentrations of 0.001 wt.% and\n0.1 wt.% are used, along with two nanoparticle sizes of 4-8 nm and 490 nm."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "One sample was tested without any further treatment, and it is denoted"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All other samples underwent direct laser texturing"
+        },
+        {
+          "quote": "To perform the laser texturing, a nanosecond pulsed fiber laser was used"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "nanoparticle_deposit",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "SEM images of the laser-textured sample LT after exposure to boiling 0.1 wt.% nanofluid"
+        },
+        {
+          "quote": "The buildup\nof a highly wettable TiO2 layer on the surface is identified as the main reason for the observed performance."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

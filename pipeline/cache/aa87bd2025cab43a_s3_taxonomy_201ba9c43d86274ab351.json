@@ -1,0 +1,114 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Pool boiling heat transfer is measured with two individual working fluids on copper surfaces"
+      },
+      {
+        "quote": "Heat fluxes in the fully developed nucleate boiling"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The surfaces consisted of a plain, flat copper surface, a sintered copper surface, a flat copper"
+      },
+      {
+        "quote": "preparing the surface on a 25.4-mm\nby 25.4-mm by 1.0 mm thick pure (99.99%) copper sheet"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "the first test for each sample with each data point taken at our standard criterion for steady state,"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "HFE-7300",
+      "evidence": [
+        {
+          "quote": "segregated hydrofluoroether, HFE-7300, and deionized water."
+        }
+      ]
+    },
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling curves for the four surfaces are compared in Figures 3 and 4 with HFE-7300 and"
+        },
+        {
+          "quote": "segregated hydrofluoroether, HFE-7300, and deionized water."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The bare copper sheet was of unpolished"
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": "sintered",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "For preparing the sintered copper surface shown in Figure 1(a), spherical copper particles"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Growth of a dense, vertically aligned array of multi-walled (MW) CNTs on a catalyzed"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "chf",
+    "wall_superheat",
+    "onb",
+    "htc"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "rtd"
+  ]
+}

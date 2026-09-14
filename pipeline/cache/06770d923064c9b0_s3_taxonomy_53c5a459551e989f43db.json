@@ -1,0 +1,124 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": null,
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity"
+      },
+      {
+        "quote": "established baseline heat\ntransfer coefficient (HTC) correlations for nucleate boiling (NB), transition boiling (TB), and film boiling (FB), as\nwell as correlations for the critical heat flux (CHF) and minimum heat flux (MHF)"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "significant advancement in predictive modeling of cryogenic pool boiling on flat surfaces"
+      },
+      {
+        "quote": "that earlier work was pri­marily confined to saturated, steady-state conditions on flat surfaces\nwith horizontal and vertical orientations"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "correlation_only",
+    "tier2": "correlation_only",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Updated correlations for the boiling regimes and transition points were\ndeveloped based on an expanded database compiled from the literature."
+      },
+      {
+        "quote": "the correla­tions developed in this study were based on a comprehensive pool\nboiling database compiled from a wide range of published sources"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "cryogen",
+      "tier2": "nitrogen",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "predictions from both the baseline correlation [16] and the newly updated FB formulation are\ncompared against experimental data for LN2, LH2, and LAr"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "hydrogen",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "for LH2 the MAE decreases\nsubstantially, from 33.71 % to 12.77 %"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "helium",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This trend is supported by\nexperimental data for liquid helium (LHe), as shown in Fig. 8."
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "argon",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "A modest improvement is also\nobserved for LAr, with the MAE reduced from 13.07 % to 11.58 %."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the effect of roughness on the NB\nHTC diminished substantially, suggesting that these surfaces could be\nreasonably classified as smooth"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "In contrast, surfaces with Ra > 0.1 μm\nexhibited noticeable enhancement in nucleate boiling performance and\nwere thus categorized as rough."
+        },
+        {
+          "quote": "the inclusion of a surface roughness multiplier in the NB\ncorrelation reduces MAE from 47.68% to 22.43% for rough surface data"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat"
+  ],
+  "measurement_modality": []
+}

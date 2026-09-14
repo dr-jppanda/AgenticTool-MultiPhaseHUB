@@ -124,7 +124,7 @@ fundamental           ← use when the paper states no application
 ```
 
 This facet is usually **inferred**, not stated, so it gets special handling: it requires an evidence
-span, carries an explicit confidence, and `fundamental` is an always-available, non-penalized escape.
+span, and `fundamental` is an always-available, non-penalized escape.
 A model asked to name an application will always name one; the schema has to make "none stated" the
 easy answer.
 
@@ -173,7 +173,7 @@ Patterns borrowed, and from where:
 | Extract → verify → reconcile | self-consistency / LLM-as-critic | Second pass hunts contradictions instead of re-guessing |
 | Content-addressed caching | build systems | 1000 papers × prompt iterations; re-runs must be free |
 | Inner/outer loop | autonomous-research two-loop designs | Inner = label a paper. Outer = evolve the taxonomy from accumulated proposals |
-| Review queue for low confidence only | human-in-the-loop triage | You review ~10%, not 100% |
+| Review queue for unstated/uncertain picks only | human-in-the-loop triage | You review ~10%, not 100% |
 
 ### Stages
 
@@ -184,12 +184,12 @@ S1  triage      paper_type, contains_dataset?, primary phenomenon.  Cheap model.
                 review_compilation exits here into `pointers/`, not `records/`.
 S2  conditions  Facet H numeric envelope, original units + evidence span per field.
 S3  taxonomy    Facets A–E, G from controlled vocab, or `propose_new` + rationale.
-S4  application Facet F only, with confidence + evidence, `fundamental` freely available.
+S4  application Facet F only, with evidence, `fundamental` freely available.
 S5  normalize   DETERMINISTIC. units→SI, CoolProp properties, dimensionless groups, binning→tags.
 S6  verify      Given record + paper: flag unsupported/contradicted fields.  Plus a *mechanical*
                 check that every evidence quote literally occurs in the source text.
 S7  commit      catalog/records/{id}.json (git) → rebuild SQLite index.
-S8  points      LATER. Digitize operating points for a priority subset → point table.
+S9  points      LATER. Digitize operating points for a priority subset → point table.
 ```
 
 Splitting S2/S3/S4 is deliberate: three ~15-field schemas beat one 60-field schema by a wide margin,
@@ -290,7 +290,7 @@ mht-datahub/
 | **2** | Eval harness; expand gold to 30–40 | Scorecard reproducible, evidence check passing |
 | **3** | Batch 100–200. Curate proposals → taxonomy v0.2. Re-run S3+S5 | Hierarchical F1 ≥ 0.8 on facets A–E |
 | **4** | Dashboard + coverage map | Searchable locally |
-| **5** | Full corpus; S8 point digitization for priority subset | — |
+| **5** | Full corpus; S9 point digitization for priority subset | — |
 
 **Phase 0 is not optional and the LLM does not do it.** Hand-designing tiers 1–2 from 10 real papers
 is what prevents a taxonomy that looks reasonable and classifies nothing. Let the model propose
@@ -303,11 +303,11 @@ is what prevents a taxonomy that looks reasonable and classifies nothing. Let th
 | Risk | Mitigation |
 |---|---|
 | **Unit chaos** — W/cm² vs kW/m², bar/MPa/psia, G in lb/ft²·h | Normalization layer is mandatory, never optional; store original unit + SI side by side |
-| **Application-target hallucination** | Evidence required; `fundamental` free; confidence tracked; scored separately in eval |
+| **Application-target hallucination** | Evidence required; `fundamental` free; scored separately in eval |
 | **Duplicate data across papers** — reuse of PU-BTPFL, Groeneveld LUT | `derived_from` provenance field; dedup on (fluid, geometry, envelope) fingerprint |
 | **Review/correlation papers entering as datasets** | S1 triage gate → `pointers/` |
 | **Taxonomy drift across versions** | Version stamped per record; regression scorecard gates amendments |
-| **Figure-only data** — many papers report envelopes only in plots | Accept `null` in Phase 1–4; defer to S8 digitization. Do *not* let the model estimate from captions |
+| **Figure-only data** — many papers report envelopes only in plots | Accept `null` in Phase 1–4; defer to S9 digitization. Do *not* let the model estimate from captions |
 | **Paywalled PDFs** | DOI path degrades to abstract-only; mark `extraction_completeness: partial` so it never silently looks like a full record |
 
 ---

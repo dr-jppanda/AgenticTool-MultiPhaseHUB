@@ -1,0 +1,709 @@
+{
+  "doc_id": "7a9fb095faad30aa",
+  "source": "papers\\berce_2024_wettability_nanoparticle_deposition.pdf",
+  "text": "Citation: Berce, J.; Had\u017ei \u0301c, A.; Mo\u017ee,\nM.; Arhar, K.; Gjerke\u0161, H.; Zupan\u02c7ci\u02c7c,\nM.; Golobi\u02c7c, I. Effect of Surface\nWettability on Nanoparticle\nDeposition during Pool Boiling on\nLaser-Textured Copper Surfaces.\nNanomaterials 2024, 14, 311. https://\ndoi.org/10.3390/nano14030311\nAcademic Editors: Florian Ion Tiberiu\nPetrescu, Manuel M. Pi\u00f1eiro and\nGang Shi\nReceived: 23 December 2023\nRevised: 16 January 2024\nAccepted: 1 February 2024\nPublished: 4 February 2024\nCopyright: \u00a9 2024 by the authors.\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article\ndistributed\nunder\nthe\nterms\nand\nconditions of the Creative Commons\nAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/\n4.0/).\nnanomaterials\nArticle\nEffect of Surface Wettability on Nanoparticle Deposition during\nPool Boiling on Laser-Textured Copper Surfaces\nJure Berce 1\n, Armin Had\u017ei \u0301c 1\n, Matic Mo\u017ee 1\n, Klara Arhar 1, Henrik Gjerke\u0161 2, Matev\u017e Zupan\u02c7ci\u02c7c 1\nand Iztok Golobi\u02c7c 1,*\n1\nFaculty of Mechanical Engineering, University of Ljubljana, A\u0161ker\u02c7ceva 6, 1000 Ljubljana, Slovenia;\njure.berce@fs.uni-lj.si (J.B.); armin.hadzic@fs.uni-lj.si (A.H.); matic.moze@fs.uni-lj.si (M.M.);\nklara.arhar@fs.uni-lj.si (K.A.); matevz.zupancic@fs.uni-lj.si (M.Z.)\n2\nSchool of Engineering and Management, University of Nova Gorica, Vipavska 13, 5000 Nova Gorica, Slovenia;\nhenrik.gjerkes@ung.si\n*\nCorrespondence: iztok.golobic@fs.uni-lj.si; Tel.: +386-1-4771-420\nAbstract: Prior studies have evidenced the potential for enhancing boiling heat transfer through\nmodifications of surface or fluid properties. The deployment of nanofluids in pool boiling systems is\nchallenging due to the deposition of nanoparticles on structured surfaces, which may result in performance deterioration. This study addresses the use of TiO2-water nanofluids (mass concentrations\nof 0.001 wt.% and 0.1 wt.%) in pool boiling heat transfer and concurrent mitigation of nanoparticle deposition on superhydrophobic laser-textured copper surfaces. Samples, modified through\nnanosecond laser texturing, were subjected to boiling in an as-prepared superhydrophilic (SHPI)\nstate and in a superhydrophobic state (SHPO) following hydrophobization with a self-assembled\nmonolayer of fluorinated silane. The boiling performance assessment involved five consecutive\nboiling curve runs under saturated conditions at atmospheric pressure. Results on superhydrophilic\nsurfaces reveal that the use of nanofluids always led to a deterioration of the heat transfer coefficient\n(up to 90%) compared to pure water due to high nanoparticle deposition. The latter was largely\nmitigated on superhydrophobic surfaces, yet their performance was still inferior to that of the same\nsurface in water. On the other hand, CHF values of 1209 kW m-2 and 1462 kW m-2 were recorded at\n0.1 wt.% concentration on both superhydrophobic and superhydrophilic surfaces, respectively, representing a slight enhancement of 16% and 27% compared to the results obtained on their counterparts\ninvestigated in water.\nKeywords: nanoparticles; nanoparticle deposition; nanofluids; laser texturing; hydrophobization;\nboiling heat transfer\n1. Introduction\nPool boiling, recognized for its exceptional efficacy of heat dissipation, has found application in various industrial systems, including air conditioning [1,2], heat exchangers [3-5],\ndomestic refrigerators [6,7], spacecraft thermal management [8,9], and high-power electronics cooling [10-13]. In recent decades, various cooling methodologies have been advanced\nfor the purpose of heat dissipation, encompassing techniques involving porous media,\nmicrochannel heat sinks, spray cooling, as well as natural and forced convection, among\nothers. Among these approaches, pool boiling has emerged as a notably efficient method,\ndemonstrating superior heat dissipation efficacy compared to prevalent contemporary cooling techniques. Notably, a select few, namely, spray cooling, microchannel heat sinks, and\nheat removal techniques involving porous media, exhibit comparable or slightly lower efficiency levels within the spectrum of contemporary cooling technologies [13-15]. However,\nthe present demands of increased heat removal capacities, coupled with the imperative for\nenhanced efficiency in heat transfer systems, give rise to a notable challenge. In response to\nthis challenge, recent research efforts have concentrated on augmenting key parameters\nNanomaterials 2024, 14, 311. https://doi.org/10.3390/nano14030311\nhttps://www.mdpi.com/journal/nanomaterials\nNanomaterials 2024, 14, 311\n2 of 17\nof boiling heat transfer, specifically the heat transfer coefficient (HTC) and critical heat\nflux (CHF). The latter represents the upper limit of nucleate boiling, manifesting when\nthe surface is covered with an excessive population of bubbles at high heat flux, leading\nto extensive coalescence and the formation of an insulating vapor blanket. This blanket\nsignificantly reduces heat transfer intensity. The heat transfer coefficient is defined as the\nratio between dissipated heat flux and the corresponding wall superheat, denoting the\ntemperature differential between the boiling surface and the bulk fluid. HTC is calculated\nby the following equation:\nh =\n.q\nTw -Tsat\n(1)\nIn Equation (1),\n.q presents the heat flux, while Tw presents the calculated surface\ntemperature and Tsat presents the saturation temperature of the bulk fluid.\nTo enhance boiling performance, one method involves manipulating the thermophysical properties of the boiling fluid, often achieved by adding nanoparticles to the base fluid,\nthereby forming nanofluids [16,17]. While certain studies have demonstrated improved\nboiling performance with nanofluids, challenges arise in controlling the thickness of deposited nanoparticles on surfaces, causing added thermal resistance and deterioration of\nheat transfer, resembling particulate fouling [18,19]. Addressing this, various parameters\nsuch as nanoparticle concentration [20,21], type [22,23], size [24], and deposition time during boiling [25,26] have been investigated to optimize heat transfer performance. Higher\nconcentrations result in a reduction in HTC, attributed to elevated thermal resistance due\nto the growth of the deposited layer on the surface [27,28]. Furthermore, studies focused\non the investigation of the effect of nanofluid boiling time demonstrated that an increase in\nnanofluid boiling time results in the formation of a deposited nanoparticle layer, leading to\na reduction in contact angle and an increase in CHF [16,29]. However, it was also reported\nthat the deposition of nanoparticles on the heated surface decreased the boiling HTC due\nto the rise in thermal resistance [15,29].\nIn addition to concentration and deposition time, the material and size of nanoparticles, as well as nanofluid preparation, influence boiling efficiency. Dadhich et al. [30] and\nFang et al. [28] highlighted the considerable necessity for a comprehensive database encompassing thermal properties across various materials and nanoparticle size ranges. Moreover,\nwe previously showed [29] that nanofluids with small (4-8 nm) and large (490 nm) nanoparticles lead to the deterioration of HTC on copper surfaces with laser-induced structure\nin comparison to the results obtained with pure water on laser-engineered surfaces. The\ndeterioration of HTC was more pronounced with the utilization of larger nanoparticles,\nwhich was mainly attributed to the filling of laser-induced microcavities with particles that\nare approximately similar in size. One of the most promising ways to utilize nanofluid\nto have a positive effect on heat transfer efficiency in boiling systems is to reduce the\ndeposition rates of nanoparticles on boiling surfaces.\nFurthermore, a more promising method for enhancing boiling heat transfer involves\ntailoring surface morphology and topology. Various techniques, including electrochemical\nprocesses [31,32], chemical vapor deposition [33], laser texturing [34,35], and wet/dry\netching [36], have been employed to fabricate surfaces with porous structures [37], micropin fins [38], nanowire and nanoflower structures [39], and microcavities [40] on boiling\ninterfaces. Surfaces with tailored interfaces have demonstrated increased CHF due to\naugmented liquid supply. Moreover, altering surface wettability has been explored to\nimprove liquid supply, thereby enhancing CHF and HTC. Hydrophilic surfaces have been\nassociated with higher CHF values, while surfaces with opposite wetting properties reduce\nthe energy barrier for nucleate boiling onset, leading to improved HTCs, especially at low\nand medium heat fluxes. However, such surfaces are incapable of limiting bubble merging,\nwhich leads to a lower CHF value compared to surfaces with better wetting properties.\nNevertheless, recent research findings presented by Allred et al. [41] and Mo\u017ee et al. [40]\ndemonstrate that significant enhancement of HTC can be achieved on adequately degassed\nsuperhydrophobic surfaces, without causing a drastic reduction in CHF. Furthermore, sur-\nNanomaterials 2024, 14, 311\n3 of 17\nfaces denoted as \"(super)biphilic\" that exhibit heterogeneous wettability with juxtaposed\nhydrophilic and hydrophobic regions have the aim of manipulating nucleation phenomena\nwhile considering the interplay of liquid and vapor flows, which can lead to simultaneous\nenhancement of HTC and CHF [42-45].\nThe surfaces with tailored wettability and their effect on boiling performance are\nmostly tied to tests with pure water. Although there are several studies that have tested\nnanofluid boiling performance on structured surfaces with tailored wetting properties,\nstructured surfaces that exhibited a superhydrophilic wetting state demonstrated the greatest critical heat flux, but also the deterioration of HTC, due to filling the artificial cavities\nwith nanoparticles, resulting in reduced nucleation site density [29,46]. Furthermore, Fre-\nitas et al. [47] investigated the pool boiling performance and bubble dynamics of nanofluids\non biphilic surfaces. The low-wettable areas enable the control of bubble merging, while\nthe highly wettable surroundings promote the liquid supply, contributing to the cooling\nof the surface. Furthermore, they showed that low-concentrated nanofluids have a minor\ninfluence on bubble dynamics and heat transfer efficiency during boiling. Ultimately, a\nsingle study, published by Ji et al. [48], was identified as having previously integrated\nsurfaces possessing hydrophobic and superhydrophobic properties with the utilization of\nnanofluids to augment boiling heat transfer. For the superhydrophobic surface with higher\nroughness (contact angle 153.0\u25e6), boiling heat transfer was enhanced at a heat flux less than\n93 kW m-2, and then the heat transfer degraded at a higher heat flux.\nThere is limited research examining the boiling performance of nanofluids on laserfunctionalized surfaces with tailored wettability, despite the seemingly great potential\nfor enhancement of boiling performance and the possibility of mitigating the deposition\nof nanoparticles during nanofluid boiling by tailoring the wettability of the structured\nsurfaces. In an effort to address this gap, we conducted an examination of the pool boiling\nperformance of TiO2-water nanofluids at two mass concentrations (0.001 and 0.1 wt.%) of\nnanoparticle sizes of 4-8 nm, on superhydrophilic and superhydrophobic laser-textured\ncopper surfaces. Five consecutive pool boiling curve measurements were performed\non each surface at atmospheric pressure. Laser-functionalized surfaces were developed\nutilizing nanosecond laser texturing, followed by the application of hydrophobic monolayer\ncoating using a 3 mM solution of 2-propanol and fluorinated alkyl phosphonic acid. To\nclarify the effect of nanoparticle deposition on boiling performance, surface characteristics\nafter boiling tests with nanofluids were analyzed using contact angle measurements and\nscanning electron microscopy.\n2. Materials and Methods\n2.1. Surface Preparation and Analysis\nHigh-purity copper samples (>99.9%) were used to perform the pool boiling experiments. The top part of the samples served as a boiling interface, which was first sanded\nwith sandpapers P1200 and P2000, and then cleaned with 2-propanol prior to testing or sub-\nsequent treatment. The achieved roughness (Ra) of the sanded samples was approximately\n0.2 \u03bcm. The surface roughness of the tested samples was measured using a Mitutoyo SJ-310\ndevice (Mitutoyo Corporation, Kanagawa, Japan). Among the tested samples, one was\ntested without any further treatment and served as a reference surface, while other samples\nunderwent further functionalization of the boiling interface.\nThe first step in functionalizing surfaces was laser texturing performed with a nanosecond\nfiber laser (JPT Opto-electronics Co., Ltd., Shenzhen, China, M7 30 W MOPA; \u03bb = 1064 nm).\nThe laser beam was directed across the surface with an F-Theta lens with a working area\nof 70 \u00d7 70 mm2 and a focal distance of 100 mm. The focused beam spot diameter was\napprox. 25 \u03bcm, the laser beam quality M2 < 1.3 (manufacturer data), and the maximal\npower of the laser source was 30 W. Surface treatment patterns were designed in ezCAD\n2 software, which was also used to control the laser system during the laser treatment. The\nmicrostructure on surfaces was fabricated utilizing a pattern of equidistant parallel lines\nNanomaterials 2024, 14, 311\n4 of 17\n(\u2206x = 60 \u03bcm) with the following laser processing parameters: pulse duration of 45 ns, pulse\nfrequency of 110 kHz, and maximum laser power of 30 W.\nThree samples after laser texturing underwent further functionalization that included\nhydrophobization utilizing a solution of 3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-\nhenicosafluorododecylphosphonic acid (abbreviated to FDPA, CAS Nr. 252237-39-1, abcr\nGmbH product code AB254085). FDPA was dissolved in 2-propanol (Honeywell, ACS\nreagent, Charlotte, NC, USA, \u226599.5%) at a concentration of 3 mM. The hydrophobization\nprocess of the surfaces was performed by pipetting three drops of FDPA solution onto the\nsample. Furthermore, samples were left to dry at room temperature for 5 min, then in the\noven at 80 \u25e6C for another 15 min.\nThe collection of surfaces and boiling fluids prepared and tested within the study is\nsummarized in Table 1.\nTable 1. Summary of tested working fluids and surfaces within this study.\nSample Name\nWorking Fluid\nConcentration\n(wt.%)\nStatic Contact Angle (\u25e6)\nBefore Boiling\nAfter Boiling\nREF\nWater\n/\n61\n93\nSHPI\nWater\n/\n0\n110\nSHPO\nWater\n/\n164\n148\nSHPI-0.001%\nTiO2-water\n0.001\n0\n17\nSHPI-0.1%\nTiO2-water\n0.1\n0\n0\nSHPO-0.001%\nTiO2-water\n0.001\n164\n79\nSHPO-0.1%\nTiO2-water\n0.1\n164\n20\nThe examination of functionalized surface properties involved utilizing scanning\nelectron microscopy (SEM) and contact angle measurements. To analyze the micro- and\nnanostructure of the surfaces, a scanning electron microscope (ThermoFisher Scientific\nQuattro S, Waltham, MA, USA) was employed, employing both backscattered electron\n(BSE) and secondary electron (SE) imaging at an accelerating voltage of 10 kV. Figure 1\nshows SEM images of the untreated and laser-engineered surfaces before they underwent\nboiling tests. Contact angle measurements were conducted using a goniometer (Ossila,\nSheffield, UK), and the assessments were carried out with twice-distilled water at room\ntemperature. These measurements were performed on the prepared and tested samples\nboth immediately before and after the boiling test within the scope of this study. The static\ncontact angle results for the tested surfaces are presented in Table 1.\nFigure 1. SEM images of the reference samples: (a) untreated surface and (b) laser-engineered surface.\nNanomaterials 2024, 14, 311\n5 of 17\n2.2. Nanofluid Preparation\nThe titanium dioxide-water nanofluids employed in this investigation were prepared\nusing twice-distilled water, previously degassed utilizing vigorous boiling, and TiO2\nnanoparticles. The stability of nanofluid solutions was maintained by utilizing ultrasonic vibration. The selection of TiO2 nanoparticles for this study was motivated by their\ncommendable chemical and physical stability, coupled with their hydrophilic properties,\npreviously observed to augment the critical heat flux (CHF) value in boiling experiments,\nwhich could be helpful to the augmentation of CHF on superhydrophobic surfaces, due to\ntheir known characteristic of decreasing the CHF.\nThe nanofluid solutions consisted of small nanoparticles, ranging in size from 4 to\n8 nm (Carl Roth, Karlsruhe, Germany; ROTInanoMETIC \u226599.9%), and were prepared\nat two distinct mass concentrations: 0.1 and 0.001 wt.%. Before the preparation of each\nsolution, 100 mL of twice-distilled water underwent degassing for 45 min through vigorous\nboiling to mitigate the presence of non-condensable gases. In the first step of nanofluid\npreparation for both concentrations, twice the amount of nanoparticles was dispersed in\n100 mL of degassed twice-distilled water. Subsequently, the nanofluids underwent one hour\nof sonication immediately after preparation in an ultrasonic bath (ASonic, Ultrasonic Cleaner-Pro 30, 40 kHz, 120 W) to ensure homogeneity and mitigate the potential for irregularities\nin the distribution of nanoparticles. The other 100 mL of twice-distilled water was used\nfor the degassing of the superhydrophobic surface and removing entrapped gasses from\nsurface cavities. This protocol of degassing both the surface and the solution removed the\nneed for using the nanofluid solution for degassing within the boiling chamber and the\npossible reduction of nanoparticle concentration due to their deposition on the immersion\nheater. The final nanofluid solutions of 200 mL with concentrations of 0.001 wt.% and\n0.1 wt.% were produced by mixing 100 mL of double-concentrated, previously prepared\nnanofluid solutions into 100 mL of twice-distilled water within the boiling chamber.\n2.3. Experimental Setup\nThe assessment of boiling performance on laser-textured surfaces with tailored wettability was conducted through the utilization of a previously established experimental\nsetup, depicted in Figure 2. Boiling tests were performed utilizing a glass boiling chamber\nwith an inner diameter of 60 mm. The working fluid temperature was monitored using\ntwo submerged K-type thermocouples at varying heights within the chamber. A condenser,\ncooled by a secondary water loop, was positioned atop the assembly to maintain a consistent water level during experiments. Temperature signals were recorded as raw voltages at\na rate of 10 Hz, employing a DAQ device (KRYPTIONi-8xTH; Dewesoft, Trbovlje, Slovenia)\nand Dewesoft X3 2022.1 software. Further details about the experimental setup can be\nfound in our previous work [29,43].\n2.4. Data Reduction and Measurement Uncertainty\nAltogether, five temperatures were measured during the experiment-three inside\nthe sample and two in the water. From these, the heat flux, surface superheat, and heat\ntransfer coefficient were calculated and recorded in real time with the DewesoftX3 2022.1\nsoftware, while the post-processing was conducted with Mathworks MATLAB R2021a. The\nflowchart of data post-processing conducted with MATLAB is presented in Figure 3. More\ndetails are available in our previous work [43,49].\nBriefly, the temperature-dependent thermal conductivity was determined at the average sample temperature, calculated as the arithmetic mean of three thermocouple measurements. The heat flux was computed using Fourier's law of one-dimensional heat\nconduction, utilizing the temperature gradient derived from the thermocouple readings.\nSurface superheat was derived as the difference between the sample surface and water\ntemperatures. The latter was determined as the arithmetic mean of both submerged thermocouple measurements, while the surface temperature was estimated using the measurement\nNanomaterials 2024, 14, 311\n6 of 17\nclosest to the surface (upper sample thermocouple) and the heat flux. The heat transfer\ncoefficient was then obtained by dividing the heat flux by the surface superheat.\nFigure 2. (a) Experimental setup; (b) cross section of the sample and the heating assembly; and\n(c) dimensions of the sample, including the position of thermocouples.\nFigure 3. Flowchart of processing the data obtained during pool measurements.\nNanomaterials 2024, 14, 311\n7 of 17\nThe measurement uncertainty of heat transfer parameters is presented in Table 2.\nTable 2. Measurement uncertainty.\nHeat Flux Level\n(kW m-2)\nHeat Flux\n(%)\nHeat Transfer Coefficient\n(%)\nSurface Superheat\n(K)\n250\n9-11\n10-13\n0.4\n1000\n5\n12-16\n0.8\n2.5. Measurement Procedure\nBoiling experiments for every combination of working fluid and surface featuring\ncustomized wettability comprised five runs. Each run involved recording the boiling curves\nup to the CHF, spanning a duration of 45 min. Throughout the boiling curve recording, the\nheat flux was slowly increased, following the methodology outlined by Mo\u017ee et al. [50].\nUpon reaching CHF, the experimental run was completed, and the surface was allowed to\ncool down below 90 \u25e6C, which lasted approximately 15 min. Overall, the whole boiling test\nof a given sample was completed in a 5 h period.\n3. Results\n3.1. Pool Boiling Heat Transfer in Water\nThe evaluation of the boiling performance of the reference surface (REF) using twicedistilled water as a working fluid is shown in Figure 4. The untreated reference surface\nrepresents the initial state prior to any further functionalization. The highest CHF on\nuntreated surfaces was 1084 kW m-2 and the highest HTC of 51 kW m-2 K-1 at CHF\nwas recorded during the fifth experimental run. During five repetitions of boiling tests on\nuntreated surfaces, the shift of boiling curves towards lower superheat was observed. A\n4.3 K reduction of surface superheat at high heat flux level (800 kW m-2) near CHF was\nrecorded, which can be attributed to the change of wetting state of the reference surface, i.e.,\nfrom hydrophilic (contact angle of 61\u25e6) to hydrophobic (contact angle of 93\u25e6) after exposure\nto boiling.\nFigure 4. (a) Boiling curves and (b) heat transfer coefficients on the reference surface.\nFigure 5 shows the boiling performance (Figure 5a-boiling curves and Figure 5b-heat\ntransfer coefficients at different heat flux levels) obtained on a superhydrophilic laserengineered surface. Laser texturing of untreated copper surfaces forms microchannels\nNanomaterials 2024, 14, 311\n8 of 17\nand microcavities, which can serve to enhance liquid supply and increase nucleation site\ndensity, respectively [43,51]. The highest CHF of 1152 kW m-2 was recorded during the\nfirst experimental run. At CHF, the largest HTC value of 128 kW m-2 K-1 was recorded,\nand an enhancement over the reference surface of 150% was calculated. The remarkable\nenhancement of HTC can be attributed to the occurrence of secondary boiling effects near\nthe CHF, leading to a significant reduction of surface superheat. The incipience of secondary\nboiling effects can be the result of the increase in the number of nucleation sites at high\nheat flux levels, where bubbles begin to nucleate not just within microcavities, but also on\nthe peaks of the laser structure [43,52]. Moreover, the shift of the boiling curve towards\nlower superheats was also observed, with a 3.3 K reduction of superheat recorded at heat\nflux near the CHF (800 kW m-2). This is the result of surface chemistry transformation\noccurring at high temperatures after reaching the first CHF during film boiling, as shown\nby Mo\u017ee et al. [53].\nFigure 5.\n(a) Boiling curves and (b) heat transfer coefficients on the superhydrophilic lasertextured surface.\nFigure 6 shows the boiling performance (Figure 6a-boiling curves and Figure 6b-HTCs\nat different heat flux levels) obtained on a superhydrophobic laser-engineered surface.\nLaser-induced cavities on the surface act as favored locations for nucleation during the\nboiling process, especially after the hydrophobization process. The static contact angle of\n164\u25e6\u00b1 0.7\u25e6was recorded on superhydrophobic surfaces before boiling tests, while after\nexposure to boiling, a value of 140\u25e6\u00b1 0.8\u25e6was measured. The highest HTC of 108 kW\nm-2 K-1 at CHF was obtained during the third experimental run, with an enhancement\nof 112% over the reference surface. The average HTC of 97 kW m-2 K-1, obtained on\nsuperhydrophobic surfaces during five boiling tests, was similar to the average HTC\n(99 kW m-2 K-1) recorded on a superhydrophilic (SHPI) surface. The shift of boiling\ncurves towards lower superheat was also observed on the superhydrophobic (SHPO)\nsurface, with a 0.2 K reduction of surface superheat at a heat flux of 500 kW m-2 from\nthe first to the fifth experimental run. On the other hand, at the same heat flux values, a\n3.9 K reduction of superheat was recorded on a superhydrophilic surface, indicating that\nthe SHPO sample is significantly more stable than the SHPI surface. The CHF values during\nthe five boiling tests were similar to the CHF values obtained on the reference surface.\nNanomaterials 2024, 14, 311\n9 of 17\nFigure 6.\n(a) Boiling curves and (b) heat transfer coefficients on the superhydrophobic lasertextured surface.\n3.2. Boiling Heat Transfer on Superhydrophilic Surfaces with TiO2-Water Nanofluid\nBoiling curves recorded on a superhydrophilic laser-engineered surface using TiO2\nwater nanofluid at two distinct concentrations are shown in Figure 7. Boiling curves\nobtained with lower concentrations were stable, and an increase in CHF of 35% from the\nfirst to the fifth experimental run was observed. On the other hand, boiling curves obtained\nwith higher concentrations were unstable, and they shifted toward higher superheats with\na low increase of CHF from the first to the second experimental run, followed by a decrease\nfrom the second to the fifth experimental run. The shift towards higher superheats obtained\nfor the 0.1 wt.% nanofluid can be attributed to decreasing nucleation site density due\nto the deposition of nanoparticles in microcavities with each consecutive run. At high\nnanoparticle concentrations, the deposited layer on the surface becomes thicker, which\nleads to greater thermal resistance and decreases the HTC. However, the highest CHF of\n1462 kW m-2 was recorded at higher concentrations, representing an improvement of 35%\ncompared to the highest CHF obtained on the reference sample. The CHF values obtained\nat 0.1 wt.% were higher compared to the CHF values achieved at 0.001 wt.%, which can\nbe attributed to better wetting properties (i.e., the static contact angle recorded on the\nsurface after boiling with 0.1 wt.% nanofluid was around 3\u25e6, while on the surface after\nboiling, 0.001% wt.% nanofluid was 110\u25e6). The observed effect of concentration on CHF is\nin agreement with the findings presented in the literature [29,54].\nHeat transfer coefficients obtained at various heat flux levels on superhydrophilic laserengineered surfaces employing TiO2-water nanofluid at 0.001 and 0.1 wt.% concentrations\nare presented in Figure 8. The findings indicate that the heat transfer coefficients during five\nconsecutive experimental runs at 0.001 wt.% remain remarkably consistent, exhibiting no\ndiscernible alterations. In contrast, the boiling performance at 0.1 wt.% shows a pronounced\ndeterioration from the first to the fifth run. This decrease can be predominantly attributed\nto a reduction in nucleation site density on the structured surface, stemming from the\ndeposition of nanoparticles onto the surface, or more precisely, filling the laser-induced\nmicrocavities, and thus influencing boiling performance. Furthermore, the disparities in\nboiling performance over an extended boiling duration at different concentrations can\nbe attributed to the quantity of nanoparticles present in the nanofluid capable of being\ndeposited onto the surface during boiling. Consequently, the initial experimental run at\n0.1 wt.% reveals an increased deposition of nanoparticles on the surface, effectively filling\nmore laser-induced cavities and forming a thicker nanoparticle layer compared to the\nNanomaterials 2024, 14, 311\n10 of 17\nsurface after the first experimental run at 0.001 wt.%. Following five hours of boiling at\nboth concentrations, a substantial contrast in the deposited nanoparticle layers on the tested\nsurfaces became apparent.\nFigure 7. Boiling curves of TiO2-water nanofluid on a superhydrophilic laser-textured surface at\n(a) 0.001 wt.% and (b) 0.1 wt.% concentrations of TiO2 nanoparticles.\nFigure 8. Heat transfer coefficients of TiO2-water nanofluid on a superhydrophilic laser-textured\nsurface at (a) 0.001 wt.% and (b) 0.1 wt.% concentrations of TiO2 nanoparticles.\nCorroborating this, the conducted SEM analysis (Figure 9) demonstrates that a very\nthin deposited layer of TiO2 nanoparticles persists on the laser-engineered structure after\nfive hours of boiling at 0.001 wt.% and is only evident at higher magnifications. Conversely,\nduring boiling at higher concentrations (0.1 wt.%), the deposited nanoparticles on the\nsurface manifest more evidently, filling a substantial portion of the laser-engineered surface\nchannels and forming a thicker nanoparticle layer. Thickening of the deposit on the surface\nresults in additional thermal resistance, which can also result in the deterioration of the\nheat transfer coefficient. Similar observations of the effect of concentration on the deposited\nlayer and further on boiling performance can be found in the literature [27,55,56].\nNanomaterials 2024, 14, 311\n11 of 17\nFigure 9. SEM images of superhydrophilic samples after boiling at concentrations of 0.001 wt.% (left)\nand 0.1 wt.% (right).\n3.3. Boiling Heat Transfer on Superhydrophobic Surfaces with TiO2-Water Nanofluid\nThe boiling performance of TiO2 nanofluid (at concentrations of 0.001 wt.% and\n0.1 wt.%) on superhydrophobic laser-engineered surfaces was assessed employing the\nsame approach as that applied to their superhydrophilic counterparts. Five boiling curves\nwere recorded up to CHF incipience for both concentrations, resulting in five-hour boiling\ntests for each concentration on superhydrophobic samples. The boiling curves corresponding to a concentration of 0.001 wt.% are shown in Figure 10a, while those for a concentration\nof 0.1 wt.% are illustrated in Figure 10b. It was observed that the boiling curves acquired\non superhydrophobic surfaces with nanofluids were unstable, exhibiting a shift toward\nhigher superheats after the initial experimental run. The shift of boiling curves with each\nconsecutive run is the result of a decrease in nucleation site density that can be attributed\nto the deposition of nanoparticles that were filling the microcavities. The CHF values\ndemonstrated an upward trend from the first to the fifth run on superhydrophobic surfaces\nat both concentrations, achieving the most substantial increase of 19% at 0.1 wt%. This\nincrease in CHF is ascribed to a thicker and more porous layer that formed on superhydrophobic surfaces due to the deposition of hydrophilic TiO2 nanoparticles with each\nfollowing run. The deposited hydrophilic nanoparticles covering the superhydrophobic\nsurface result in the transition of wetting from superhydrophobicity towards hydrophilicity.\nThe latter was confirmed by contact angle measurements after boiling, where the SHPO\nsurface after boiling in a higher nanofluid concentration exhibited a contact angle of 20\u25e6,\nwhile after boiling in 0.001 wt.%, an average apparent contact angle of 79\u25e6was measured.\nHydrophilic porous boiling interface induces an increase in liquid supply towards dry\nspots during bubble departures, universally enhancing the critical heat flux by mitigating\ndryout spots [57,58]. Nonetheless, in comparison with their superhydrophilic counterparts,\nsuperhydrophobic surfaces manifested lower CHF values after five consecutive runs at\nboth tested concentrations. This observation aligns with findings from boiling studies on\nsuperhydrophilic and superhydrophobic surfaces with water, where it is well-established\nthat superhydrophilic surfaces tend to delay dryout and augment CHF, whereas poorly\nwettable surfaces (superhydrophobic) typically fail to impede bubble coalescence, leading\nto the transition into film boiling at lower heat flux values [43,59,60].\nThe HTC values during nanofluid boiling on superhydrophobic surfaces at various\nheat flux levels are presented in Figure 11. The highest HTCs were observed during\nthe first run at a heat flux near the CHF for both tested concentrations. Specifically, at\n0.001 wt.%, the maximum HTC reached 96 kW m-2 K-1, signifying an 88% enhancement\nover its superhydrophilic counterpart. Subsequent experimental runs revealed a decrease\nin HTC values towards the fifth run at both concentrations, attributed to nanoparticle deposition on surfaces. The deposition of nanoparticles in laser-induced microcavities resulted\nin decreased nucleation site density, thereby deteriorating the heat transfer coefficient. At\nNanomaterials 2024, 14, 311\n12 of 17\n0.1 wt.%, the most substantial decrease in HTC, 75% from the first to the fifth run, was\nobserved, which is 10% less than that observed on the superhydrophilic counterpart. The\ndecrease in HTC on superhydrophobic surfaces can be ascribed to the hydrophobic coating,\npotentially mitigating nanoparticle deposition on the laser structure, thereby lowering\nthe decrease in nucleation site density and lowering the HTC deterioration. A detailed\ndiscussion on the impact of superhydrophobic coating on the mitigation of nanoparticle\ndeposition onto structured surfaces is provided in the subsequent section. Furthermore, a\ncomparative analysis of results obtained with nanofluids on superhydrophobic surfaces\nand water on reference surfaces reveals improvements in HTC and CHF of up to 90% and\n20%, respectively. This enhancement is predominantly attributed to laser-induced cavities\non surfaces rather than the addition of nanoparticles to the base fluid.\nFigure 10. Boiling curves of TiO2-water nanofluid on a superhydrophobic laser-textured surface at\n(a) 0.001 wt.% and (b) 0.1 wt.% concentrations of TiO2 nanoparticles.\nFigure 11. Heat transfer coefficients of TiO2-water nanofluid on a superhydrophobic laser-textured\nsurface at (a) 0.001 wt.% and (b) 0.1 wt.% concentrations of TiO2 nanoparticles.\nNanomaterials 2024, 14, 311\n13 of 17\nFurthermore, SEM images presented in Figure 12 show that the deposition of a thicker\nlayer of nanoparticles occurred on the superhydrophobic (SHPO) sample subjected to boiling at a higher concentration, in contrast to the sample subjected to a lower concentration.\nThe observed augmentation in the thickness of the TiO2-deposited nanoparticle layer on\nsuperhydrophobic surfaces is concomitant with an increase in nanoparticle concentration,\nwhich is an analogous trend observed in superhydrophilic samples. As previously mentioned, the larger thickness of the nanoparticle layer may induce greater thermal resistance,\nthereby resulting in a more pronounced degradation of boiling performance.\nFigure 12. SEM images of superhydrophobic samples after boiling at concentrations of 0.001 wt.%\n(left) and 0.1 wt.% (right).\n3.4. Nanoparticle Deposition and Its Influence on Boiling Heat Transfer\nFrom observations noted in previous sections, one can observe the similarities between\nthe boiling of nanofluids and particulate fouling during nucleate pool boiling. Clearly,\nthe local deposition of nano-sized particular matter onto the modified topography plays\na key role in measurable changes in overall pool boiling performance with time. The\nlatter can best be characterized by a shift of the pool boiling curve to higher superheats,\nwhich is to an extent also influenced by: (i) the stochastic nature of nucleation site activation/deactivation after each run; (ii) the CHF-induced changes to surface morphology\n(note the improvement in performance of the SHPI sample in water after the first CHF\nincipience due to oxide transformations); and (iii) the dynamic testing procedure affecting\ndeposition. Hence, to reduce these influences, the mean wall superheat was computed\nin the heat flux region between 50 kW m-2 and 900 kW m-2 for all tested surface-fluid\ncombinations (see Figure 13). In this way, one can more accurately compare the boiling\ncurve shifts, which are indicative of performance degradation (or improvement) and thus\ncorrelated to nanoparticle deposition. The values clearly show the impact of nanoparticle\ndeposition (or lack thereof) on surface temperature changes for all the tested surface-fluid\ncombinations. The SHPI and SHPO samples exhibited a small shift of -3.5 K and +0.2 K\nafter the five tests in pure water, respectively, which indicates that changes are not induced\nonly by deposition. However, in the absence of a deposit-forming element, these shifts are\nminimal or even beneficial (towards lower superheats). When nanoparticles are present,\nthe smaller concentration of 0.001wt.% appears to influence the SHPO surface to a larger\nextent (+4.5 K shift, compared to the +1.2 K shift of the SHPI sample), which may originate\nfrom the more pronounced change of wetting of the SHPO surface. The transition towards\nits improved wetting points to an increase in surface energy, which increases the energy\nbarrier for nucleation and results in bubble formation at a higher surface superheat [61].\nOn the other hand, the SHPI sample's wettability changes to a much smaller extent. The\nlatter observations indicate that, at very low nanoparticle concentrations, the dominant influence on boiling curve shifts appears not to be the added thermal resistance of the deposit\nNanomaterials 2024, 14, 311\n14 of 17\nbut instead the change in wetting properties, correlated to the deposit accumulation and\noxide growth.\nFigure 13. Nanoparticle deposition-induced changes, characterized by mean pool boiling curve wall\ntemperature in the heat flux range of 50-900 kW m-2 and corresponding sample surface images.\nPlots of samples boiled in clean water are included to serve as a reference and point out that boiling\nperformance also changes in clean water, where no deposition was observed.\nOn the contrary, when both samples were tested in a nanofluid of 0.1 wt.%, the\nrespective shifts of +23.5 K and +15.5 K were much more pronounced, pointing towards a\nlarger and dominant effect of added thermal resistance, originating from a thick deposit\nlayer that covered the surface (see SEM micrographs in Figures 9 and 12). In respect to this,\nthe SHPO surface degraded slower and to a smaller extent, pointing towards improved\nmitigation of surface deposition, as also evident by less surface discoloration (see sample\nimages in Figure 13). This may be attributed to the weaker adhesion of particles to the SHPO\nsample with low surface energy, as well as to the distinct features of superhydrophobic\nnano- and microstructured surfaces. Namely, the trapped gas and vapor content within\nsuch surface structures is much higher than within their unhydrophobized counterpart,\nacting as a mitigative blanket against deposition. The increased affinity towards the gaseous\nphase promotes bubble nucleation, resulting in vigorous lateral and vertical coalescence of\nmany small and fast-forming bubbles over the surface. Consequently, near-wall turbulence\nand shear stress are increased, which has previously been shown to mitigate particulate\ndeposition [19].\nThe discussion above is especially relevant when considering a combination of nanoparticles and boiling surface materials, where the latter has a higher thermal conductivity than\nthe former, such as the combination used in this study. In such cases, it is critical to mitigate\nthe deposition of nanoparticles as much as possible to avoid inducing a large thermal resistance. In contrast, if highly conductive nanoparticles were used, the deposition-mitigative\nfeature would likely have a smaller influence, which will be the focus of our future studies.\n4. Conclusions\nThe pool boiling performance of TiO2-water nanofluids at two distinct concentrations\n(0.001 wt.% and 0.1 wt.%) was studied on laser-engineered surfaces in superhydrophilic\nNanomaterials 2024, 14, 311\n15 of 17\nand superhydrophobic states. The following conclusions were drawn based on the obtained\nexperimental results:\n1.\nSuperhydrophobic and superhydrophilic laser-engineered surfaces exhibited an HTC\nenhancement of up to 120% over the reference surface due to fabricated microcavities\nthat led to increased nucleation site density.\n2.\nThe boiling of nanofluids on functionalized (i.e., superhydrophilic and superhydrophobic laser-engineered) surfaces failed to provide an additional improvement in\nthe HTC compared to boiling pure water.\n3.\nAt a low nanoparticle concentration, the influence of nanofluid on boiling performance\nis minimal, with CHF values comparable to those obtained using pure water on\nboth the untreated, superhydrophilic and superhydrophobic laser-textured surfaces.\nOn the other hand, at a high nanoparticle concentration, superhydrophobic and\nsuperhydrophilic laser-textured surfaces exhibited CHF enhancement up to 30% over\ntheir counterparts tested with pure water.\n4.\nBoiling performance changes can be connected to nanoparticle deposition on the\nsurface, where the superhydrophobic surface outperforms its non-hydrophobized\ncounterpart at high concentrations. The influence of deposit-induced added thermal\nresistance is smaller at low nanofluid concentrations, and instead, the changes appear\nto be governed by a deposit-induced wettability transition.\nAuthor Contributions: Conceptualization, I.G. and H.G.; methodology, M.M. and J.B.; software,\nM.M., J.B. and M.Z.; validation, I.G., H.G. and M.Z.; formal analysis, K.A., A.H. and J.B.; investigation,\nJ.B. and A.H.; resources, I.G.; data curation, M.M. and K.A.; writing-original draft preparation,\nA.H., K.A. and J.B.; writing-review and editing, M.M. and J.B.; visualization, A.H., K.A. and J.B.;\nsupervision, H.G., M.Z. and I.G.; project administration, I.G.; funding acquisition, I.G. and M.Z. All\nauthors have read and agreed to the published version of the manuscript.\nFunding: The authors acknowledge the financial support from the state budget of the Slovenian\nResearch Agency (Program No. P2-0223 and Project Nos. J2-50085 and N2-0251).\nData Availability Statement: Data are available from the authors upon reasonable request.\nConflicts of Interest: The authors declare no conflicts of interest.\nReferences\n1.\nLiang, G.; Chen, Y.; Yang, H.; Li, D.; Shen, S. Nucleate Boiling Heat Transfer and Critical Heat Flux (CHF) from Micro-Pit Surfaces.\nInt. J. Heat Mass Transf. 2020, 152, 119510. [CrossRef]\n2.\nRahimian, A.; Kazeminejad, H.; Khalafi, H.; Akhavan, A.; Mirvakili, S.M. Boiling Heat Transfer and Critical Heat Flux Enhancement Using Electrophoretic Deposition of SiO2 Nanofluid. Sci. Technol. Nucl. Install. 2019, 2019, 1272156. [CrossRef]\n3.\nHernandez, R.; Folsom, C.P.; Woolstenhulme, N.E.; Jensen, C.B.; Bess, J.D.; Gorton, J.P.; Brown, N.R. Review of Pool Boiling\nCritical Heat Flux (CHF) and Heater Rod Design for CHF Experiments in TREAT. Prog. Nucl. Energy 2020, 123, 103303. [CrossRef]\n4.\nAhn, H.S.; Sathyamurthi, V.; Banerjee, D. Pool Boiling Experiments on a Nano-Structured Surface. IEEE Trans. Components Packag.\nTechnol. 2009, 32, 156-165. [CrossRef]\n5.\nRahman, M.M.; McCarthy, M. Boiling Enhancement on Nanostructured Surfaces with Engineered Variations in Wettability and\nThermal Conductivity. Heat Transf. Eng. 2017, 38, 1285-1295. [CrossRef]\n6.\nBarber, J.; Brutin, D.; Tadrist, L. A Review on Boiling Heat Transfer Enhancement with Nanofluids. Nanoscale Res. Lett. 2011,\n6, 280. [CrossRef] [PubMed]\n7.\nSong, S.L.; Lee, J.H.; Chang, S.H. CHF Enhancement of SiC Nanofluid in Pool Boiling Experiment. Exp. Therm. Fluid Sci. 2014, 52,\n12-18. [CrossRef]\n8.\nHu, H.; Xu, C.; Zhao, Y.; Shaeffer, R.; Ziegler, K.J.; Chung, J.N. Modification and Enhancement of Cryogenic Quenching Heat\nTransfer by a Nanoporous Surface. Int. J. Heat Mass Transf. 2015, 80, 636-643. [CrossRef]\n9.\nCai, Z.; Wang, B.; Liu, S.; Li, H.; Luo, S.; Dong, Z.; Wang, Y. Enhancing Boiling Heat Transfer on a Superheated Surface by\nSurfactant-Laden Droplets. Langmuir 2022, 38, 10375-10384. [CrossRef]\n10.\nKong, D.; Kang, M.; Kim, K.Y.; Jang, J.; Cho, J.; In, J.B.; Lee, H. Hierarchically Structured Laser-Induced Graphene for Enhanced\nBoiling on Flexible Substrates. ACS Appl. Mater. Interfaces 2020, 12, 37784-37792. [CrossRef]\n11.\nGouda, R.K.; Pathak, M.; Khan, M.K. Pool Boiling Heat Transfer Enhancement with Segmented Finned Microchannels Structured\nSurface. Int. J. Heat Mass Transf. 2018, 127, 39-50. [CrossRef]\nNanomaterials 2024, 14, 311\n16 of 17\n12.\nSong, Y.; Gong, S.; Vaartstra, G.; Wang, E.N. Microtube Surfaces for the Simultaneous Enhancement of Efficiency and Critical\nHeat Flux during Pool Boiling. ACS Appl. Mater. Interfaces 2021, 13, 12629-12635. [CrossRef]\n13.\nMudawar, I. Recent Advances in High-Flux, Two-Phase Thermal Managment. J. Therm. Sci. Eng. Appl. 2013, 5, 021012. [CrossRef]\n14.\nSmakulski, P.; Pietrowicz, S. A Review of the Capabilities of High Heat Flux Removal by Porous Materials, Microchannels and\nSpray Cooling Techniques. Appl. Therm. Eng. 2016, 104, 636-646. [CrossRef]\n15.\nLiang, G.; Mudawar, I. Review of Pool Boiling Enhancement with Additives and Nanofluids. Int. J. Heat Mass Transf. 2018, 124,\n423-453. [CrossRef]\n16.\nTaylor, R.A.; Phelan, P.E. Pool Boiling of Nanofluids: Comprehensive Review of Existing Data and Limited New Data. Int. J. Heat\nMass Transf. 2009, 52, 5339-5347. [CrossRef]\n17.\nKim, H. Enhancement of Critical Heat Flux in Nucleate Boiling of Nanofluids: A State-of-Art Review. Nanoscale Res. Lett. 2011,\n6, 415. [CrossRef]\n18.\nBerce, J.; Zupan\u02c7ci\u02c7c, M.; Mo\u017ee, M.; Golobi\u02c7c, I. Infrared Thermography Observations of Crystallization Fouling in a Plate Heat\nExchanger. Appl. Therm. Eng. 2023, 224, 120116. [CrossRef]\n19.\nPeyghambarzadeh, S.M.; Vatani, A.; Jamialahmadi, M. Influences of Bubble Formation on Different Types of Heat Exchanger\nFouling. Appl. Therm. Eng. 2013, 50, 848-856. [CrossRef]\n20.\nCiloglu, D.; Bolukbasi, A. A Comprehensive Review on Pool Boiling of Nanofluids. Appl. Therm. Eng. 2015, 84, 45-63. [CrossRef]\n21.\nManetti, L.L.; Stephen, M.T.; Beck, P.A.; Cardoso, E.M. Evaluation of the Heat Transfer Enhancement during Pool Boiling Using\nLow Concentrations of Al2O3-Water Based Nanofluid. Exp. Therm. Fluid Sci. 2017, 87, 191-200. [CrossRef]\n22.\nSuriyawong, A.; Wongwises, S. Nucleate Pool Boiling Heat Transfer Characteristics of TiO2-Water Nanofluids at Very Low\nConcentrations. Exp. Therm. Fluid Sci. 2010, 34, 992-999. [CrossRef]\n23.\nSantos, R.; Moita, A.S.; Ribeiro, A.P.C.; Moreira, A.L.N. The Impact of Alumina Nanofluids on Pool Boiling Performance on\nBiphilic Surfaces for Cooling Applications. Energies 2022, 15, 372. [CrossRef]\n24.\nPeng, H.; Ding, G.; Hu, H.; Jiang, W. Effect of Nanoparticle Size on Nucleate Pool Boiling Heat Transfer of Refrigerant/Oil\nMixture with Nanoparticles. Int. J. Heat Mass Transf. 2011, 54, 1839-1850. [CrossRef]\n25.\nKiyomura, I.S.; Manetti, L.L.; da Cunha, A.P.; Ribatski, G.; Cardoso, E.M. An Analysis of the Effects of Nanoparticles Deposition\non Characteristics of the Heating Surface and ON Pool Boiling of Water. Int. J. Heat Mass Transf. 2017, 106, 666-674. [CrossRef]\n26.\nKim, H.; Buongiorno, J.; Hu, L.W.; McKrell, T. Nanoparticle Deposition Effects on the Minimum Heat Flux Point and Quench\nFront Speed during Quenching in Water-Based Alumina Nanofluids. Int. J. Heat Mass Transf. 2010, 53, 1542-1553. [CrossRef]\n27.\nHuang, C.K.; Lee, C.W.; Wang, C.K. Boiling Enhancement by TiO2 Nanoparticle Deposition. Int. J. Heat Mass Transf. 2011, 54,\n4895-4903. [CrossRef]\n28.\nFang, X.; Chen, Y.; Zhang, H.; Chen, W.; Dong, A.; Wang, R. Heat Transfer and Critical Heat Flux of Nanofluid Boiling: A\nComprehensive Review. Renew. Sustain. Energy Rev. 2016, 62, 924-940. [CrossRef]\n29.\nHad\u017ei \u0301c, A.; Mo\u017ee, M.; Arhar, K.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Effect of Nanoparticle Size and Concentration on Pool Boiling Heat\nTransfer with TiO2 Nanofluids on Laser-Textured Copper Surfaces. Nanomaterials 2022, 12, 2611. [CrossRef] [PubMed]\n30.\nDadhich, M.; Prajapati, O.S. A Brief Review on Factors Affecting Flow and Pool Boiling. Renew. Sustain. Energy Rev. 2019, 112,\n607-625. [CrossRef]\n31.\nRishi, A.M.; Gupta, A.; Kandlikar, S.G. Improving Aging Performance of Electrodeposited Copper Coatings during Pool Boiling.\nAppl. Therm. Eng. 2018, 140, 406-414. [CrossRef]\n32.\nPatil, C.M.; Santhanam, K.S.V.; Kandlikar, S.G. Development of a Two-Step Electrodeposition Process for Enhancing Pool Boiling.\nInt. J. Heat Mass Transf. 2014, 79, 989-1001. [CrossRef]\n33.\nMo\u017ee, M.; Had\u017ei \u0301c, A.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Boiling Heat Transfer Enhancement on Titanium through Nucleation-Promoting\nMorphology and Tailored Wettability. Int. J. Heat Mass Transf. 2022, 195, 123161. [CrossRef]\n34.\nSerdyukov, V.; Starinskiy, S.; Malakhov, I.; Safonov, A.; Surtaev, A. Laser Texturing of Silicon Surface to Enhance Nucleate Pool\nBoiling Heat Transfer. Appl. Therm. Eng. 2021, 194, 117102. [CrossRef]\n35.\nTa, D.V.; Dunn, A.; Wasley, T.J.; Kay, R.W.; Stringer, J.; Smith, P.J.; Connaughton, C.; Shephard, J.D. Nanosecond Laser Textured\nSuperhydrophobic Metallic Surfaces and Their Chemical Sensing Applications. Appl. Surf. Sci. 2015, 357, 248-254. [CrossRef]\n36.\nLiang, G.; Mudawar, I. Review of Pool Boiling Enhancement by Surface Modification. Int. J. Heat Mass Transf. 2019, 128, 892-933.\n[CrossRef]\n37.\nRanjan, A.; Ahmad, I.; Gouda, R.K.; Pathak, M.; Khan, M.K. Enhancement of Critical Heat Flux (CHF) in Pool Boiling with\nAnodized Copper Surfaces. Int. J. Therm. Sci. 2022, 172, 107338. [CrossRef]\n38.\nRanjan, A.; Priy, A.; Ahmad, I.; Pathak, M.; Khan, M.K. Pool Boiling Heat Transfer Characteristics of a Stepped Microchannel\nStructured Heating Surface. Int. J. Multiph. Flow 2023, 160, 104351. [CrossRef]\n39.\nSujith Kumar, C.S.; Udaya Kumar, G.; Mata Arenales, M.R.; Hsu, C.C.; Suresh, S.; Chen, P.H. Elucidating the Mechanisms\nbehind the Boiling Heat Transfer Enhancement Using Nano-Structured Surface Coatings. Appl. Therm. Eng. 2018, 137, 868-891.\n[CrossRef]\n40.\nMo\u017ee, M.; Senega\u02c7cnik, M.; Gregor\u02c7ci\u02c7c, P.; Ho\u02c7cevar, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Laser-Engineered Microcavity Surfaces with\na Nanoscale Superhydrophobic Coating for Extreme Boiling Performance. ACS Appl. Mater. Interfaces 2020, 12, 24419-24431.\n[CrossRef] [PubMed]\nNanomaterials 2024, 14, 311\n17 of 17\n41.\nAllred, T.P.; Weibel, J.A.; Garimella, S.V. Enabling Highly Effective Boiling from Superhydrophobic Surfaces. Phys. Rev. Lett. 2018,\n120, 174501. [CrossRef]\n42.\nMotezakker, A.R.; Sadaghiani, A.K.; \u00c7elik, S.; Larsen, T.; Villanueva, L.G.; Ko \u0327sar, A. Optimum Ratio of Hydrophobic to\nHydrophilic Areas of Biphilic Surfaces in Thermal Fluid Systems Involving Boiling. Int. J. Heat Mass Transf. 2019, 135, 164-174.\n[CrossRef]\n43.\nHad\u017ei \u0301c, A.; Mo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Superbiphilic Laser-Microengineered Surfaces with A Self-Assembled Monolayer\nCoating for Exceptional Boiling Performance. Adv. Funct. Mater. 2023, 2310662, 1-14. [CrossRef]\n44.\nSerdyukov, V.; Patrin, G.; Malakhov, I.; Surtaev, A. Biphilic Surface to Improve and Stabilize Pool Boiling in Vacuum. Appl. Therm.\nEng. 2022, 209, 118298. [CrossRef]\n45.\nTeodori, E.; Palma, T.; Valente, T.; Moita, A.S.; Moreira, A.L.N. Bubble Dynamics and Heat Transfer for Pool Boiling on Hydrophilic,\nSuperhydrophobic and Biphilic Surfaces. J. Phys. Conf. Ser. 2016, 745, 032132. [CrossRef]\n46.\nCoursey, J.S.; Kim, J. Nanofluid Boiling: The Effect of Surface Wettability. Int. J. Heat Fluid Flow 2008, 29, 1577-1585. [CrossRef]\n47.\nFreitas, E.; Pontes, P.; Cautela, R.; Bahadur, V.; Miranda, J.; Ribeiro, A.P.C.; Souza, R.R.; Oliveira, J.D.; Copetti, J.B.; Lima, R.;\net al. Article Pool Boiling of Nanofluids on Biphilic Surfaces: An Experimental and Numerical Study. Nanomaterials 2021, 11, 125.\n[CrossRef] [PubMed]\n48.\nJi, W.-T.; Zhao, P.-F.; Zhao, C.-Y.; Ding, J.; Tao, W.-Q. Pool Boiling Heat Transfer of Water and Nanofluid Outside the Surface with\nHigher Roughness and Different Wettability. Nanoscale Microscale Thermophys. Eng. 2018, 22, 296-323. [CrossRef]\n49.\nMo\u017ee, M.; Vajc, V.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Hydrophilic and Hydrophobic Nanostructured Copper Surfaces for Efficient Pool\nBoiling Heat Transfer with Water, Water/Butanol Mixtures and Novec 649. Nanomaterials 2021, 11, 3216. [CrossRef] [PubMed]\n50.\nMo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Golobi\u02c7c, I. Investigation of the Scatter in Reported Pool Boiling CHF Measurements Including Analysis\nof Heat Flux and Measurement Uncertainty Evaluation Methodology. Appl. Therm. Eng. 2020, 169, 114938. [CrossRef]\n51.\nMahamudur Rahman, M.; Pollack, J.; Mccarthy, M. Increasing Boiling Heat Transfer Using Low Conductivity Materials. Sci. Rep.\n2015, 5, 12-14. [CrossRef]\n52.\nKruse, C.M.; Anderson, T.; Wilson, C.; Zuhlke, C.; Alexander, D.; Gogos, G.; Ndao, S. Enhanced Pool-Boiling Heat Transfer and\nCritical Heat Flux on Femtosecond Laser Processed Stainless Steel Surfaces. Int. J. Heat Mass Transf. 2015, 82, 109-116. [CrossRef]\n53.\nMo\u017ee, M.; Zupan\u02c7ci\u02c7c, M.; Ho\u02c7cevar, M.; Golobi\u02c7c, I.; Gregor\u02c7ci\u02c7c, P. Surface Chemistry and Morphology Transition Induced by Critical\nHeat Flux Incipience on Laser-Textured Copper Surfaces. Appl. Surf. Sci. 2019, 490, 220-230. [CrossRef]\n54.\nTruong, B.H. Determination of Pool Boiling Critical Heat Flux Enhancement in Nanofluids. In Proceedings of the ASME\nInternational Mechanical Engineering Congress and Exposition, Seattle, WA, USA, 11-15 November 2007; pp. 289-299.\n55.\nPark, S.D.; Moon, S.B.; Bang, I.C. Effects of Thickness of Boiling-Induced Nanoparticle Deposition on the Saturation of Critical\nHeat Flux Enhancement. Int. J. Heat Mass Transf. 2014, 78, 506-514. [CrossRef]\n56.\nKhan, A.; Ali, H.M. A Comprehensive Review Pool Boiling Using Nanofluids. Therm. Sci. 2019, 23, 3209-3237. [CrossRef]\n57.\nMori, S.; Mt Aznam, S.; Okuyama, K. Enhancement of the Critical Heat Flux in Saturated Pool Boiling of Water by Nanoparticle-\nCoating and a Honeycomb Porous Plate. Int. J. Heat Mass Transf. 2015, 80, 1-6. [CrossRef]\n58.\nLi, J.; Fu, W.; Zhang, B.; Zhu, G.; Miljkovic, N. Ultrascalable Three-Tier Hierarchical Nanoengineered Surfaces for Optimized\nBoiling. ACS Nano 2019, 13, 14080-14093. [CrossRef] [PubMed]\n59.\nBetz, A.R.; Jenkins, J.; Kim, C.J.; Attinger, D. Boiling Heat Transfer on Superhydrophilic, Superhydrophobic, and Superbiphilic\nSurfaces. Int. J. Heat Mass Transf. 2013, 57, 733-741. [CrossRef]\n60.\nPontes, P.; Cautela, R.; Teodori, E.; Moita, A.S.; Moreira, A.L.N. Experimental Description of Bubble Dynamics and Heat Transfer\nProcesses Occurring on the Pool Boiling of Water on Biphilic Surfaces. Appl. Therm. Eng. 2020, 178, 115507. [CrossRef]\n61.\nCole, R. Boiling Nucleation. Adv. Heat Transf. 1974, 10, 85-166.\nDisclaimer/Publisher's Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4522
+    },
+    {
+      "number": 2,
+      "start": 4522,
+      "end": 9052
+    },
+    {
+      "number": 3,
+      "start": 9052,
+      "end": 13416
+    },
+    {
+      "number": 4,
+      "start": 13416,
+      "end": 15741
+    },
+    {
+      "number": 5,
+      "start": 15741,
+      "end": 19916
+    },
+    {
+      "number": 6,
+      "start": 19916,
+      "end": 20367
+    },
+    {
+      "number": 7,
+      "start": 20367,
+      "end": 22456
+    },
+    {
+      "number": 8,
+      "start": 22456,
+      "end": 25076
+    },
+    {
+      "number": 9,
+      "start": 25076,
+      "end": 28124
+    },
+    {
+      "number": 10,
+      "start": 28124,
+      "end": 29534
+    },
+    {
+      "number": 11,
+      "start": 29534,
+      "end": 33023
+    },
+    {
+      "number": 12,
+      "start": 33023,
+      "end": 34360
+    },
+    {
+      "number": 13,
+      "start": 34360,
+      "end": 37688
+    },
+    {
+      "number": 14,
+      "start": 37688,
+      "end": 40195
+    },
+    {
+      "number": 15,
+      "start": 40195,
+      "end": 44719
+    },
+    {
+      "number": 16,
+      "start": 44719,
+      "end": 50541
+    },
+    {
+      "number": 17,
+      "start": 50541,
+      "end": 55334
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-nanomaterials-2024-14-311-https",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311. https://",
+      "level": 2,
+      "start": 209,
+      "end": 735
+    },
+    {
+      "id": "sec-1-effect-of-surface-wettability-on-nanopar",
+      "number": null,
+      "title": "Effect of Surface Wettability on Nanoparticle Deposition during",
+      "level": 1,
+      "start": 735,
+      "end": 799
+    },
+    {
+      "id": "sec-2-pool-boiling-on-laser-textured-copper-su",
+      "number": null,
+      "title": "Pool Boiling on Laser-Textured Copper Surfaces",
+      "level": 1,
+      "start": 799,
+      "end": 846
+    },
+    {
+      "id": "sec-3-jure-berce-1",
+      "number": null,
+      "title": "Jure Berce 1",
+      "level": 2,
+      "start": 846,
+      "end": 4413
+    },
+    {
+      "id": "sec-4-nanomaterials-2024-14-311-https-doi-org-",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311. https://doi.org/10.3390/nano14030311",
+      "level": 2,
+      "start": 4413,
+      "end": 4522
+    },
+    {
+      "id": "sec-5-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 4522,
+      "end": 9052
+    },
+    {
+      "id": "sec-6-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 9052,
+      "end": 13416
+    },
+    {
+      "id": "sec-7-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 13416,
+      "end": 14420
+    },
+    {
+      "id": "sec-8-sample-name",
+      "number": null,
+      "title": "Sample Name",
+      "level": 2,
+      "start": 14420,
+      "end": 14432
+    },
+    {
+      "id": "sec-9-working-fluid",
+      "number": null,
+      "title": "Working Fluid",
+      "level": 2,
+      "start": 14432,
+      "end": 14446
+    },
+    {
+      "id": "sec-10-concentration",
+      "number": null,
+      "title": "Concentration",
+      "level": 2,
+      "start": 14446,
+      "end": 14467
+    },
+    {
+      "id": "sec-11-static-contact-angle",
+      "number": null,
+      "title": "Static Contact Angle (\u25e6)",
+      "level": 2,
+      "start": 14467,
+      "end": 14492
+    },
+    {
+      "id": "sec-12-before-boiling",
+      "number": null,
+      "title": "Before Boiling",
+      "level": 2,
+      "start": 14492,
+      "end": 14507
+    },
+    {
+      "id": "sec-13-after-boiling",
+      "number": null,
+      "title": "After Boiling",
+      "level": 2,
+      "start": 14507,
+      "end": 15741
+    },
+    {
+      "id": "sec-14-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 15741,
+      "end": 19916
+    },
+    {
+      "id": "sec-15-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 19916,
+      "end": 20367
+    },
+    {
+      "id": "sec-16-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 20367,
+      "end": 20518
+    },
+    {
+      "id": "sec-17-heat-flux-level",
+      "number": null,
+      "title": "Heat Flux Level",
+      "level": 2,
+      "start": 20518,
+      "end": 20543
+    },
+    {
+      "id": "sec-18-heat-flux",
+      "number": null,
+      "title": "Heat Flux",
+      "level": 2,
+      "start": 20543,
+      "end": 20557
+    },
+    {
+      "id": "sec-19-heat-transfer-coefficient",
+      "number": null,
+      "title": "Heat Transfer Coefficient",
+      "level": 2,
+      "start": 20557,
+      "end": 20587
+    },
+    {
+      "id": "sec-20-surface-superheat",
+      "number": null,
+      "title": "Surface Superheat",
+      "level": 2,
+      "start": 20587,
+      "end": 22456
+    },
+    {
+      "id": "sec-21-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 22456,
+      "end": 25076
+    },
+    {
+      "id": "sec-22-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 25076,
+      "end": 28124
+    },
+    {
+      "id": "sec-23-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 28124,
+      "end": 29534
+    },
+    {
+      "id": "sec-24-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 29534,
+      "end": 33023
+    },
+    {
+      "id": "sec-25-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 33023,
+      "end": 34360
+    },
+    {
+      "id": "sec-26-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 34360,
+      "end": 37688
+    },
+    {
+      "id": "sec-27-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 37688,
+      "end": 40195
+    },
+    {
+      "id": "sec-28-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 40195,
+      "end": 42512
+    },
+    {
+      "id": "sec-29-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 42512,
+      "end": 42659
+    },
+    {
+      "id": "sec-30-int-j-heat-mass-transf-2020-152-119510-c",
+      "number": null,
+      "title": "Int. J. Heat Mass Transf. 2020, 152, 119510. [CrossRef]",
+      "level": 2,
+      "start": 42659,
+      "end": 43346
+    },
+    {
+      "id": "sec-31-technol-2009-32-156-165-crossref",
+      "number": null,
+      "title": "Technol. 2009, 32, 156\u2013165. [CrossRef]",
+      "level": 2,
+      "start": 43346,
+      "end": 43508
+    },
+    {
+      "id": "sec-32-thermal-conductivity-heat-transf-eng-201",
+      "number": null,
+      "title": "Thermal Conductivity. Heat Transf. Eng. 2017, 38, 1285\u20131295. [CrossRef]",
+      "level": 2,
+      "start": 43508,
+      "end": 44231
+    },
+    {
+      "id": "sec-33-surfactant-laden-droplets-langmuir-2022-",
+      "number": null,
+      "title": "Surfactant-Laden Droplets. Langmuir 2022, 38, 10375\u201310384. [CrossRef]",
+      "level": 2,
+      "start": 44231,
+      "end": 44655
+    },
+    {
+      "id": "sec-34-surface-int-j-heat-mass-transf-2018-127-",
+      "number": null,
+      "title": "Surface. Int. J. Heat Mass Transf. 2018, 127, 39\u201350. [CrossRef]",
+      "level": 2,
+      "start": 44655,
+      "end": 44719
+    },
+    {
+      "id": "sec-35-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 44719,
+      "end": 45235
+    },
+    {
+      "id": "sec-36-spray-cooling-techniques-appl-therm-eng-",
+      "number": null,
+      "title": "Spray Cooling Techniques. Appl. Therm. Eng. 2016, 104, 636\u2013646. [CrossRef]",
+      "level": 2,
+      "start": 45235,
+      "end": 45592
+    },
+    {
+      "id": "sec-37-mass-transf-2009-52-5339-5347-crossref",
+      "number": null,
+      "title": "Mass Transf. 2009, 52, 5339\u20135347. [CrossRef]",
+      "level": 2,
+      "start": 45592,
+      "end": 45919
+    },
+    {
+      "id": "sec-38-exchanger-appl-therm-eng-2023-224-120116",
+      "number": null,
+      "title": "Exchanger. Appl. Therm. Eng. 2023, 224, 120116. [CrossRef]",
+      "level": 2,
+      "start": 45919,
+      "end": 46102
+    },
+    {
+      "id": "sec-39-fouling-appl-therm-eng-2013-50-848-856-c",
+      "number": null,
+      "title": "Fouling. Appl. Therm. Eng. 2013, 50, 848\u2013856. [CrossRef]",
+      "level": 2,
+      "start": 46102,
+      "end": 46647
+    },
+    {
+      "id": "sec-40-concentrations-exp-therm-fluid-sci-2010-",
+      "number": null,
+      "title": "Concentrations. Exp. Therm. Fluid Sci. 2010, 34, 992\u2013999. [CrossRef]",
+      "level": 2,
+      "start": 46647,
+      "end": 46842
+    },
+    {
+      "id": "sec-41-biphilic-surfaces-for-cooling-applicatio",
+      "number": null,
+      "title": "Biphilic Surfaces for Cooling Applications. Energies 2022, 15, 372. [CrossRef]",
+      "level": 2,
+      "start": 46842,
+      "end": 47920
+    },
+    {
+      "id": "sec-42-comprehensive-review-renew-sustain-energ",
+      "number": null,
+      "title": "Comprehensive Review. Renew. Sustain. Energy Rev. 2016, 62, 924\u2013940. [CrossRef]",
+      "level": 2,
+      "start": 47920,
+      "end": 48530
+    },
+    {
+      "id": "sec-43-appl-therm-eng-2018-140-406-414-crossref",
+      "number": null,
+      "title": "Appl. Therm. Eng. 2018, 140, 406\u2013414. [CrossRef]",
+      "level": 2,
+      "start": 48530,
+      "end": 48711
+    },
+    {
+      "id": "sec-44-int-j-heat-mass-transf-2014-79-989-1001-",
+      "number": null,
+      "title": "Int. J. Heat Mass Transf. 2014, 79, 989\u20131001. [CrossRef]",
+      "level": 2,
+      "start": 48711,
+      "end": 49127
+    },
+    {
+      "id": "sec-45-boiling-heat-transfer-appl-therm-eng-202",
+      "number": null,
+      "title": "Boiling Heat Transfer. Appl. Therm. Eng. 2021, 194, 117102. [CrossRef]",
+      "level": 2,
+      "start": 49127,
+      "end": 50541
+    },
+    {
+      "id": "sec-46-nanomaterials-2024-14-311",
+      "number": null,
+      "title": "Nanomaterials 2024, 14, 311",
+      "level": 2,
+      "start": 50541,
+      "end": 51370
+    },
+    {
+      "id": "sec-47-eng-2022-209-118298-crossref",
+      "number": null,
+      "title": "Eng. 2022, 209, 118298. [CrossRef]",
+      "level": 2,
+      "start": 51370,
+      "end": 54384
+    },
+    {
+      "id": "sec-48-boiling-acs-nano-2019-13-14080-14093-cro",
+      "number": null,
+      "title": "Boiling. ACS Nano 2019, 13, 14080\u201314093. [CrossRef] [PubMed]",
+      "level": 2,
+      "start": 54384,
+      "end": 54577
+    },
+    {
+      "id": "sec-49-surfaces-int-j-heat-mass-transf-2013-57-",
+      "number": null,
+      "title": "Surfaces. Int. J. Heat Mass Transf. 2013, 57, 733\u2013741. [CrossRef]",
+      "level": 2,
+      "start": 54577,
+      "end": 55334
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "SEM images of the reference samples: (a) untreated surface and (b) laser-engineered surface.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-1_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "(a) Experimental setup; (b) cross section of the sample and the heating assembly; and",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-2_p6.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "Flowchart of processing the data obtained during pool measurements.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-3_p6.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "(a) Boiling curves and (b) heat transfer coefficients on the reference surface.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-4_p7.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "shows the boiling performance (Figure 5a\u2014boiling curves and Figure 5b\u2014heat",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-5_p7.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-5_p8.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "shows the boiling performance (Figure 6a\u2014boiling curves and Figure 6b\u2014HTCs",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-6_p8.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-6_p9.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Figure 7",
+      "caption": "Boiling curves of TiO2\u2013water nanofluid on a superhydrophilic laser-textured surface at",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-7_p10.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "caption": "Heat transfer coefficients of TiO2\u2013water nanofluid on a superhydrophilic laser-textured",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-8_p10.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "caption": "SEM images of superhydrophilic samples after boiling at concentrations of 0.001 wt.% (left)",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-9_p11.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Figure 10",
+      "caption": "Boiling curves of TiO2\u2013water nanofluid on a superhydrophobic laser-textured surface at",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-10_p12.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Figure 11",
+      "caption": "Heat transfer coefficients of TiO2\u2013water nanofluid on a superhydrophobic laser-textured",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-11_p12.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Figure 12",
+      "caption": "SEM images of superhydrophobic samples after boiling at concentrations of 0.001 wt.%",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-12_p13.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Figure 13",
+      "caption": "Nanoparticle deposition-induced changes, characterized by mean pool boiling curve wall",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        841.8900146484375
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\berce-2024-wettability-nanoparticle-deposition\\berce_2024_wettability_nanoparticle_deposition_fig-13_p14.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "Summary of tested working fluids and surfaces within this study.",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "Measurement uncertainty.",
+      "page": 7,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 17,
+    "ingest": "pymupdf"
+  }
+}

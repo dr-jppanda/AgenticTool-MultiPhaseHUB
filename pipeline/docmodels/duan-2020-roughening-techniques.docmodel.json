@@ -1,0 +1,477 @@
+{
+  "doc_id": "a8d87de935db5089",
+  "source": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\papers\\duan_2020_roughening_techniques.pdf",
+  "text": "International Journal of Heat and Mass Transfer 159 (2020) 120054\nContents lists available at ScienceDirect\nInternational Journal of Heat and Mass Transfer\njournal homepage: www.elsevier.com/locate/hmt\nPool boiling heat transfer of saturated water on rough surfaces with\nthe effect of roughening techniques\nSimiao Fan a , b , Lishi Jiao c , Kai Wang b , d , Fei Duan b , \u2217\na Energy Research Institute @ NTU, Interdisciplinary Graduate School, Nanyang Technological University, 21 Nanyang Link, 637371, Singapore\nb School of Mechanical and Aerospace Engineering, Nanyang Technological University, 50 Nanyang Avenue, 639798, Singapore\nc School of Materials Science and Engineering, Hebei University of Science and Technology, Shijiazhuang, 050018, China\nd Institute of Refrigeration and Cryogenics, Zhejiang University, Hangzhou 310027, China\na r t i c l e\ni n f o\nArticle history:\nReceived 13 March 2020\nRevised 5 June 2020\nAccepted 7 June 2020\nAvailable online 22 June 2020\nKeywords:\nPool boiling\nSurface roughness\nContact angle\nHeat transfer\nAreal arithmetical mean height\na b s t r a c t\nThe effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water. Eight testing surfaces were fabricated on plain copper through three preparation methods including random polishing, unidirectional polishing, and femtosecond laser machining. The surface\nroughness in the present study is characterized by the areal (three dimensional, 3D) roughness parameter. In the two dimensional (2D) profile roughness analysis, we know that a profile can be separated into\nthe large-scale component (waviness) and the short-scale component (roughness). The arithmetical mean\nheight of the profile, the waviness and the roughness are denoted as Pa, Wa , and Ra , respectively. However, there are no such kind of parameters defined in the 3D roughness analysis. To distinguish them, we\ndefine Sa p and Sa in this study, corresponding to Pa and Ra in the 2D roughness parameters. The pool\nboiling experiments show that a rougher surface has higher heat transfer coefficient than a smoother\none only within the same surface preparation method, if the surface roughness is characterized by Sa p .\nFor the surfaces prepared by the different techniques, the laser processed rough surface with Sa p = 3 . 40\n\u03bcm could have deteriorated heat transfer coefficient compared with the relatively smooth one polished\nby the 180 grit sandpaper with Sa p = 1 . 29 \u03bcm. However, the different trend is observed when the surface\nroughness is characterized by Sa . By applying a standardized filtration process, the large-scale component\nof the surface can be removed, and the areal arithmetical mean height calculated from the remaining part\nis denoted as Sa . The boiling curves are found to shift monotonically to the left as Sa becomes larger, re-\ngardless of the surface preparation methods. The enhancement in heat transfer coefficient of rougher surfaces is attributed to a combined result of larger nucleation sites, smaller departure bubbles and higher\nbubble departure frequencies, according to the visualization study. On the other hand, the critical heat\nflux (CHF) does not show a clear trend with the surface roughness when the different surface preparation methods are involved, no matter Sa p or Sa is used. The measurements of static contact angle infer\nthat the CHF is not only dependent on surface roughness, but also highly related to surface wettability. A\ncorrelation is developed to well predict the heat transfer coefficient from the experiments as a function\nof Sa , especially in the fully developed nucleate boiling region.\n\u00a9 2020 Elsevier Ltd. All rights reserved.\n1. Introduction\nPool boiling, as a passive two-phase cooling method, is expected to be a solution for the thermal management of devices\nwith high heat dissipation rate. The basic heat removal mechanism of pool boiling is so-called bubble nucleation, which is found\nto highly depend on the surface-coolant interaction. The effects of\nsurface characteristics on pool boiling have attracted a lot of atten-\n\u2217Corresponding author.\nE-mail address: feiduan@ntu.edu.sg (F. Duan).\ntion from researchers. Among these surface characteristics, surface\nroughness and contact angle are the two factors influencing the\npool boiling heat transfer most. Although the surface roughness\nhas been extensively investigated for several decades, its effect on\npool boiling heat transfer is still not fully understood. The roughened surface is usually believed to enhance boiling heat transfer by\nproviding more nucleation sites and/or larger effective heat transfer area [1-4] . Therefore, the surface roughness is normally characterized by arithmetic mean roughness Ra or effective heat transfer area ratio r (the ratio of the actual heat transfer area and its\nprojected area) in the previous studies. Chu et al. [5] systemathttps://doi.org/10.1016/j.ijheatmasstransfer.2020.120054\n0017-9310/\u00a9 2020 Elsevier Ltd. All rights reserved.\n2\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\nList of Symbols\nC, C 1 , C 2 constant\nC p\nspecific heat\nC sf\nRohsenow constant\ng\ngravity\nh\nheat transfer coefficient\nJa\nJakob number\nk\nthermal conductivity\nL\nlatent heat\nNu\nNusselt number\nPr\nPrandlt number\nq\nheat flux\nr\neffective heat transfer area ratio\nRa\narithmetical mean height of roughness component\nRq\nroot-mean-square of roughness component\nSa\nextension of Ra to a surface\nSa p\nextension of Pa to a surface\nT\ntemperature\nt\ntime\nT sat\nwall superheat\nx\ndistance\n\u03bc\ndynamic viscosity\n\u03c3\nsurface tension\n\u03c1\ndensity\n\u03b8\ncontact angle\nSubscripts\nl\nliquid\nsat\nsaturation\nv\nvapor\nw\nwall\nSuperscripts\nn, s\ncorrelation exponents\nically investigated the pool boiling heat transfer performance on\nsurfaces with the effective heat transfer area ratio r ranging from\n1.79 to 5.94. Based on their experimental results, the CHF increased\nmonotonously with r due to roughness-amplified capillary pumping. On the other hand, the heat transfer coefficient did not show\na clear trend with r . Moita et al. [6] also found that surfaces with\nlarger r could not assure a higher boiling heat transfer coefficient.\nThey demonstrated that larger r could indeed increase the liquidsolid contact area, hence improving the heat transfer coefficient.\nHowever, sometimes it also caused the early formation of vapor\nblanket due to the severe interaction mechanism and coalescence\neffect of the nucleation bubbles. This phenomenon would deteriorate the heat transfer coefficient and even overcome the bene-\nfits of the increased liquid-solid contact area. Compared to the effective heat transfer area ratio r , the arithmetic mean roughness\nRa is used more frequently to characterize the surface roughness.\nMany researchers visualized increased number of nucleation sites\non surfaces with larger Ra , which is believed responsible for the\nenhancement of heat transfer coefficient [3,7,8] . However, some\ndifferent observations are also reported. Benjamin and Balakrishnan [9] found the number of nucleation sites was not consistently\nincreased with Ra . It decreased at first and then increased, as the\nRa became larger. Kozitskii [10] indicated that the nucleation boiling heat transfer coefficient increased with larger Ra up to a point\n( Ra = 0 . 95 \u03bcm), beyond which no improvement occurred. Similar\ntrend was also reported by Jabardo [11] and El-Genk and Suszko\n[12] .\nThe major obstacle to fully understand the effects of surface\nroughness on pool boiling comes from the large variances in the\nreported data. Generally, these inconsistent experimental data are\nconsidered as a result of various surface roughening techniques,\nroughness measurement uncertainties and different experimental\nconditions such as working fluid, surface material and surface wettability. Jones et al. [7] conducted pool boiling experiments to investigate the effect of surface roughness on a aluminum surface\nin water and FC-77 respectively. They observed totally different\neffects of the surface roughness on the heat transfer coefficient\nin the two working fluids, even though the other experimental\nconditions were controlled the same. Kim and his group studied\nthe effect of surface roughness on pool boiling heat transfer on\na superhydrophilic [8] , a moderate-wetted [4] and a hydrophobic\nsurface [13] , respectively. On the superhydrophilic and moderatewetted surfaces, the nucleate boiling heat transfer coefficient was\nenhanced as the surface roughness increased, even though several\ncases exhibited deviation from the overall trends. However, the experiments on the hydrophobic surface showed totally different re-\nsults. On the hydrophobic surface, the nucleate boiling heat transfer coefficient of a rougher surface was initially higher than that of\na smoother one but decreased rapidly to a very low value in moderate and high heat flux regime, leading to an early occurrence of\nCHF. They explained that such trend was a result of the early formation of vapor blanket on the hydrophobic surface, same as that\ndemonstrated by Moita et al. [6] .\nThe surface roughening techniques are essential in studying the\nroughness effects on pool boiling. Researchers have emphasized\nthat the surface roughness is meaningless without specifying the\nsurface roughening technique. Berenson [14] found the lapped surface had higher heat transfer coefficient than the emery-polished\none, although the lapped surface was smoother. Vachon et al.\n[15] prepared surfaces by unidirectionally polishing and chemically\netching. The heat transfer coefficients of surfaces with these two\nsurface roughening techniques were different even though the Rq\n(root-mean-square roughness) was similar. Other researchers also\npointed out the necessity of using a consistent surface roughening technique when studying the effect of surface roughness on\npool boiling [16,17] . The reason is that surfaces prepared by some\nroughening techniques have higher tendency to bubble nucleation,\nregardless of the surface roughness. Besides, the standardized surface roughness parameters, such as Ra and Rq , are statistical average values which cannot indicate the actual surface texture, especially the number of nucleation cavities. A smooth surface indicated by small Ra or Rq can also have a lot of cavities for nucleation. Many researchers reported the inadequacy of using an\nindividual statistical parameter to characterize the surface roughness for pool boiling [2,15,17,18] . In fact, Berenson believed that a\n\"rougher\" surface in pool boiling should be that has more cavities\nnecessary for nucleation, but not the one with a larger value of Ra\nor Rq . Some researchers developed methods to measure the surface\nactive cavity size, in order to determine the potential nucleation\nsites quantitatively [19-22] . However, their methods are based on\nthe simplistic treatment of the surface texture and wetting phenomenon. The accurate quantitative prediction of the nucleation\nsites is still unrealizable. Researchers still need to characterize the\nsurface roughness with the aid of standardized roughness parameters.\nThe present study aims to investigate the effect of surface\nroughness on copper surfaces. The experiments were conducted\nin the saturated water at atmospheric pressure. A total of eight\ntesting surfaces were prepared by three different surface roughening techniques, respectively. The different surface roughening techniques can introduce different f eatures of surface texture. These\nfeatures can be effectively eliminated by applying a novel pre-\nprocessing method before surface roughness measurement. The\ntrends in the nucleate boiling heat transfer coefficient and CHF\nwere discussed and the bubble dynamics was studied using a high\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n3\nOK\nDAQ\nsystem\nPower\nsupply\nPID\ncontroller\nPower\nsupply\nThermocouple\nCopper coil\nPressure gauge\nWater bath\nT1, T2 and T3\nEpoxy\nImmersion heater\nCartridge heater\nThermal insulation\nmaterials\nCopper\nRTV sealant\nT4\nLED\nCamera\nT1\nT2\nT3\n} \u2206x23 =6 mm\n} \u2206x3w=4 mm\nTeflon\nHoles for inserting\ncartridge heater\n} \u2206x12 =6 mm\n(a)\n(b)\nFig. 1. (a) Schematic diagram of the experimental apparatus, (b) detailed drawing of the heating block.\nspeed camera in order to help understand the boiling heat transfer\nperformance. Based on the experimental data, a correlation including the effect of surface roughness was proposed by using the arial\nroughness parameter Sa .\n2. Experimental setup and procedures\n2.1. Experimental setup\nThe schematic diagram of the experimental setup is shown in\nFig. 1 (a). The whole apparatus consists of a boiling chamber, a testing part, a temperature measurement system and a visualization\nsystem. The boiling chamber has a transparent side wall and top\ncover made of Acrylic in order to perform visualization study. The\nbase plate of the boiling chamber is made of Teflon for the thermal insulation purpose. Experiments were conducted in this chamber using distilled water under atmospheric pressure. A pressure\ngauge is connected to the chamber in order to monitor the inter-\nnal pressure. A copper coil, together with water bath, is performed\nas a vapor condenser. The condenser is able to condense the vapor\ngenerated in the chamber and maintain the liquid level constant.\nFour immersion heaters are installed inside the boiling chamber\nto provide heat to the liquid. These immersion heaters are connected to a proportional-integral-derivative (PID) controller, which\ncan control the liquid temperature by detecting it with a K-type\nthermocouple. In this experiment, the liquid temperature is kept at\naround 99.5 \u25e6C, which is the saturation temperature at atmospheric\npressure. In the testing part, a copper block is surrounded by the\nthermal insulation material. The testing surface on the top of the\ncopper block has a dimension of 20 \u00d7 20 mm 2 . The copper block\nis heated by four heaters with the capability of providing a maximum heat flux of 150 W/cm 2 . Three thermocouples with hot junction diameter of 0.5 mm are aligned 4 mm, 10 mm and 16 mm\nfrom the testing surface in the center of the copper block with\nholes of 0.6 mm, as shown in Fig. 1 (b). During the experiments,\nthe bubbles were prior to generate at the edge of the testing surface. Methods of eliminating the edge nucleation sites had been\nperformed. The one shown in Fig. 1 is proved to efficiently reduce\nthe edge nucleation sites. The space between the copper and the\nteflon holder is first filled with RTV sealant and then covered by a\nfluidic thermal insulation material 3M Epoxy DP 460. There is still\nnucleation sites at the edge using this method due to the different\nthermal expansion rate of the copper, RTV sealant and the epoxy.\nBut this method could effectively reduce the number of the edge\nnucleation sites to an acceptable range. The temperature measurement system includes four K-type thermocouples, a data acquisition system (Agilent 34972A LXI Data acquisition Unit) and a computer. All the thermocouples were calibrated using a dry block calibrator (Techne Ucal 400+) with an accuracy of 0.2 \u25e6C. The visualization system includes a LED light source (Leica CLS150 LED), a\nhigh speed camera (Fastec Imaging HiSpec 2G Mono) and a computer. Bubbles at the boiling surface were captured and recorded\nby the visualization system at a frame rate of 20 0 0fps during the\nexperiments.\n2.2. Surface preparation\nThe modified surfaces in this experiment were prepared by two\ndifferent methods. Before applying the surface preparation methods, the surface was first randomly polished with 2400 grit sandpaper (Struers Silicon Carbide Grinding Paper) and cleaned by sonicating in distilled water. The treated surface served as base surface in the experiment. The base surface was then roughened by\nunidirectional polishing with rougher sandpapers (80, 120, 180,\n60 0, and 120 0 grit) or femtosecond laser processing. A total of\neight samples were prepared, including five unidirectionally polished surfaces, two laser processed surfaces and a base surface\nas reference. Two important surface characteristics, surface roughness and static contact angle, were measured on the testing surfaces. The surface roughness was measured by a 3D optical surface metrology system, Leica DCM-8. The measurement results are\n4\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\nFig. 2. Measurement results of the surface topography and surface wettability.\nillustrated in Fig. 2 . It can be found that the unidirectionally polished surface has a lot of irregular scratches, while the femtosecond laser processed samples have periodically fluctuating surface\ntexture as shown in Fig. 2 (g) and (h). Based on the specification\nstandards from ISO (international Organization of Standardization),\nthe raw measured data is defined as surface topography which\ncontains all the surface features, while what we concerned is only\npart of them, i.e., surface roughness. Therefore, the following pre-\nprocessing is applied before analyzing the surface roughness parameters.\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n5\n(c)\n(d)\n(e)\n(f)\n(g)\n(i) Roughness\nStep 1: Eliminating outliers\nStep 2: Levelling\nStep 3: Extracting interest region\nStep 4: Filling in missing data point\nStep 5: Denoising\n(a)\nStep 6: Filtering\n(b)\n(h) Waviness\nFig. 3. Example of the pre-processing before the roughness parameter evaluation.\nAs shown in Fig. 3 , Fig. 3 (a) is the raw measured surface. It can\nbe found that some bad points compress the surface dynamic, impeding us from obtaining detained information on the surface. This\ncan be seen more clearly on the depth distribution of the measured surface ( Fig. 3 (b)). A few number of deep holes covers most\nof the depth range (from 20.3 \u03bcm to 50.9 \u03bcm), while the main\nbody of the surface (over 99.9% number of point) locates only at\n0-20.3 \u03bcm. This phenomenon is an inherent drawback of the non-\ncontact instrument, as explained by the manufacturer. A spatial filter operator, with a median denoising filter 3 \u00d7 3, could eliminate\nthe bad points (Step 1). The surface is then leveled by subtracting\nthe least square plane from the whole surface area (Step 2). The\nleveled surface ( Fig. 3 (d)) is a rectangular one. A square area is extracted from the leveled surface for better analysis (Step 3). During the measurement, some data points were not measured due to\nvarious reasons. These missing points are filled in using a smooth\nshape calculated from the neighboring points (Step 4). After that,\na median smoothing filter 7 \u00d7 7 is applied to the surface in order to eliminate noise and improve image quality (Step 5). For surface texture, there are two geometrical product specifications published by the International Organization for Standardization (ISO),\ni.e., ISO 4287 and ISO 25178. The ISO 4287 specifies the terms, definitions and surface texture parameters based on profile method\n(2D), while the ISO 25178 collects the international standards re-\nlating to surface texture based on areal method (3D). The denoised\nsurface after Step 5 can be treated as the S-F surface in ISO 25178,\n6\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n(a) Original profile\nFor profile\nFor surface\n(b) Waviness (long-scale component)\n(c) Roughness (short-scale component)\n(a) Original surface texture\n(b) Waviness (long-scale component)\n(c) Roughness (short-scale component)\nFig. 4. Illustration of applying the robust gaussian filter (25 \u03bcm cut-off) on the profile and surface, respectively.\nwhich is a surface obtained after applying an F-operator (a filter\nto correct tilt and suppress the nominal surface texture characterization). The areal primary parameters Sa p (corresponds to Pa in\nISO 4287) and the effective heat transfer area ratio r can be calculated from this surface. As shown in Fig. 3 (g), the S-F surface\nstill consists of long wavelength component (waviness) and short\nwavelength component (roughness). For pool boiling, the waviness\npart is obviously too large for nucleation cavities which are only\nin micro-scale. Therefore, the denoised surface is split into waviness components ( Fig. 3 (h)) and roughness components ( Fig. 3 (i)),\nby applying an areal robust gaussian filter with a cut-off of 25\n\u03bcm. The surface roughness parameters are then calculated from the\nroughness components ( Fig. 3 (i)) according to ISO 25178 standard.\nIn the filtration process, selecting appropriate cut-off value (the\nlimit wavelength between the long-scale component and short-\nscale component) is critical in order to separate roughness from\nwaviness properly. There is not a generally accepted criterion for\ndetermining the cut-off value, especially for the areal filter. The\nchoice of cut-off value is very empirical and highly dependent\non the practical application. In present study, the cut-off is determined as a result of many attempts, and a cut-off value of 25\n\u03bcm is finally selected in order to assure that the irrelevant long-\nscale component is well removed and the short-scale component\nwhich has similar magnitude with the nucleation cavities can be\nremained as much as possible, as shown in Fig. 4 . In the ISO 25178\nstandard, both the areal arithmetical mean height calculated from\nFig. 3 (g) and that calculated from Fig. 3 (i) are denoted as Sa . To\ndistinguish them, the former one is denoted as Sa p in this study.\nAll the measured results are summarized in Table 1 . It should be\nnoticed that all the parameters are calculated by averaging the re-\nsults of three scans in different locations on each surface.\nTable 1\nSummary of the roughness parameter measurements on the testing\nsurfaces.\nSample\nr\nSa p ( \u03bcm)\nSa ( \u03bcm)\nReference sample\n1\n0.06\n0.045\nSandpaper polished 1200 grit\n1.02\n0.25\n0.17\nSandpaper polished 600 grit\n1.06\n0.53\n0.37\nSandpaper polished 180 grit\n1.08\n1.29\n0.57\nSandpaper polished 120 grit\n1.13\n1.87\n0.83\nSandpaper polished 80 grit\n1.24\n3.48\n1.22\nFemtosecond laser processed 1\n1.15\n3.40\n0.38\nFemtosecond laser processed 2\n1.02\n0.42\n0.15\nThe static contact angle is measured by an optical contact angle measuring and contour analysis system, DataPhysics OCA 15EC.\nThe volume of the sessile droplet in the measurement is 10 \u03bcL. It\nshould be noticed that the static contact angle of the testing surfaces (except the reference sample) is different when the camera\nis aligned in different directions. Therefore, the measurement was\nperformed in two different directions, i.e., camera was placed either parallel or normal to the scratches, as shown in Fig. 5 (a). The\nmeasurement results of two directions on each surface are illustrated in Fig. 2 . The static contact angle is an average value of\nthe measurements in two directions. And for each direction, the\nmeasurement was repeated three times at different locations. In\ngeneral, the static contact angle of a testing surface was calculated\nby averaging six measurement results which were measured from\nthree different locations and two directions. The results of the contact angle measurement as a function of surface roughness Sa are\nshown in Fig. 5 (b). All the testing surface are hydrophobic. However, their hydrophobicity shows significant disparity due to dif-\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n7\nContact angle: 122\u00b0\nContact angle: 103.8\u00b0\nCamera\nCamera\n(i) Camera is placed parallel to the scratches\n(ii) Camera is placed normal to the scratches\n(a)\n(b)\nSurface roughness Sa (\u03bcm)\nStatic contact angle \u03b8 (\u00b0)\nSandpaper polished surface\nLaser-machined surface\n180\n150\n120\n90\n0\n0.5\n1.0\n1.5\n2.0\nFig. 5. (a) Static contact angle measurement at different directions, (b) relation between static contact angle and surface roughness Sa .\nferent surface preparation methods. The static contact angle of the\nlaser processed surfaces is much larger than that of the sandpaper\npolished surfaces. For the polished surfaces, the static contact angle initially increases with surface roughness and remains a constant for further increase in surface roughness. This relationship\nbetween the static contact angle and the surface roughness is different from the results reported in previous literature [13,23,24] .\nThe specific surface topography in the experiment can be a possible reason of this trend. As we know, the static contact angle\nhighly depends on the spreading effect of the sessile drop on the\ntesting surfaces. Rougher surface with larger scratches could obstruct droplet from spreading on the surface, especially in the direction normal to the scratches. Therefore, the static contact angle\nis increased as the surface becomes rougher. This increase does not\noccur anymore when the surface roughness Sa is larger than 0.57\n\u03bcm. Beyond which, the obstruction effect of the droplet spreading has encountered a threshold value. Further increase in surface roughness will not cause the surface more hydrophobic. On\nthe other hand, for the femtosecond laser processed surfaces, the\nstatic contact angles of both surfaces were around 153 \u25e6. The surface roughness had negligible effect on the static contact angle.\n2.3. Experimental procedures\nThe boiling chamber was filled with distilled water to a level\nabout 150 mm above the testing surface. Before the experiment,\nthe water was first heated up by the immersion heaters and boiled\nfor around one hour in order to release the non-condensable gases.\nAfter degassing, the PID controller was set to 99.5 \u25e6C and the liquid was maintained at saturation state. Once the internal pressure\n8\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\nand liquid temperature got stabilized, a settled voltage was applied\nto the test heaters. The wall temperature would experience an initial increase and gradually reach steady state. In this experiment,\nwe considered the wall temperature became stable when the variation of the thermocouple measurement in the cooper block was\nless than 0.2 \u25e6C within one minute. The temperatures were calculated by averaging 30 measured values in the steady state. Bubble\ndynamics in the steady state were also recorded by the visualization system. The voltage was then increased to next predetermined\nvalue and the same recording procedure was repeated until the occurrence of a sudden increase of the measured temperature (temperature of the copper block increased over 20 \u25e6C in one minute).\nOnce the abrupt increase occurred, the power to the test heaters\nmust be shut down immediately in order to protect the boiling\nsurface from burnout. The critical heat flux (CHF) was determined\nas the heat flux just before the sudden increase of the measured\ntemperature. It is a remarkable fact that all the experiments were\nconducted once the surfaces had been prepared. The aging effect\nof surfaces is not considered in present study. Additional studies\non the roughness effects of pool boiling as a function of time will\nbe performed in our future work.\n2.4. Calculations and uncertainty analysis\nThe heat flux through the surface can be calculated from the\nmeasured results of three pieces of axially aligned thermocouple\nusing a one-dimension heat conduction model,\nq = -k T\nx\n(1)\nwhere k is the thermal conductivity of the copper, T is the temperature difference and x is the corresponding distance. Three\ndifferent values of heat flux q can be calculated based on different\ncombinations of the thermocouples. The variance of these values\nis negligible in the nucleate boiling regime. In order to lower the\nuncertainty of distance, the results based on T 1 and T 3 (as shown\nin Fig. 1 (b)) are used in the present study. Therefore, Eq. (1) can be\nwritten as.\nq = k T 1 -T 3\nx 13\n(2)\nThe wall temperature T w can be then determined by T 3 and\nheat flux q ,\nT w = T 3 -q x 3 w\nk\n(3)\nwhere x 3 w is the distance between thermocouple T 3 and the top\nwall of the copper block. The heat transfer coefficient h can be calculated as follows,\nh =\nq\nT sat\n(4)\nin which T sat is wall superheat and can be calculated by:\nT sat = T w -T sat\n(5)\nwhere T sat is the liquid saturation temperature.\nUncertainties of the calculated parameters mainly come from\ntemperature measurement error and position error of the thermocouples. The thermocouple with a diameter of 0.5 mm is inserted\ninto an 0.6 mm diameter hole. Therefore, the maximum error for\ndistance of two thermocouples is 0.1 mm. Assuming the conductivity has a relative error of 1%. Based on the methodology of Kline\n[25] , the uncertainties of heat flux and surface temperature can be\nobtained by Eqs. (6) and (7) ,\n\u03b4q\nq =\n( \u03b4k\nk ) 2 + ( \u03b4T 1\nT 1 -T 3 ) 2 + ( \u03b4T 3\nT 1 -T 3 ) 2 + ( \u03b4 x 13\nx 13 ) 2\n(6)\nPresent work Sa=0.045 \u03bcm\nCooke and Kandlikar [28]\nJun et al. [26]\nKwark et al. [29]\nSuriyawong and Wongwises [30]\nYang et al. [27]\nRohsenow Csf = 0.0107\nq (W/cm2)\n0\n20\n40\n60\n80\n100\n120\n140\n\u2206Tsat (oC)\n10\n20\n0\n160\n180\n40\n30\nRohsenow Csf = 0.0128 [32]\nFig. 6. Comparison of present experimental data with those in previous literature\nand Rohsenow correlation.\n\u03b4T w =\n\u03b4T 2\n3 + ( x 3 w\nk \u03b4q ) 2 + ( x 3 w q\nk 2 \u03b4k ) 2 + ( q\nk \u03b4 x 3 w ) 2\n(7)\nThe estimated maximum uncertainty for heat flux and wall\ntemperature were 1.4 W/cm 2 and 0.28 \u25e6C, respectively. The contact\nangle measurement had an accuracy of 0.1 \u25e6according to the manufacturer. The surface roughness parameter was obtained by averaging five independent measurement data and provided deviation\nless than 20% refer to the nominal value.\n3. Results and discussion\nTo validate the results of the present experiments, the experimental data of the reference surface ( Sa = 0.045 \u03bcm) are compared\nwith previous studies which are performed in similar experimental conditions, i.e., saturated water pool boiling on smooth copper\nsurface at atmosphere pressure. As shown in Fig. 6 , the present\nexperimental results are almost overlapped with the data from Jun\net al. [26] and Yang et al. [27] . However, some discrepancy is observed in the study of other researchers [28-30] . This is because\nthat nucleate boiling is such a complicated process which includes\na lot of influence factors. The difference in any influence factor,\nmeasurement accuracy and data processing method can be a possible reason of the discrepancy. Generally, the present experimental data is quite comparable with the previous studies. Besides the\nprevious data, the well-known Rohsenow correlation is also plotted in Fig. 6 . The correlation was derived by Rohsenow in 1951 and\nwas widely applied for predicting nucleate boiling heat transfer of\nsaturated pool boiling [31] .\nC p T sat\nL\n= C s f [ q\n\u03bcL\n\u03c3\ng(\u03c1l -\u03c1v ) ] 0 . 33 P r s\n(8)\nwhere C p is the liquid specific heat, L is the latent heat of vaporization, \u03bc and Pr are the liquid dynamic viscosity and Prandlt number respectively. The parameter s is usually equal to 1 for water\nand 1.7 for the other fluids, and C sf is a constant depending on\nthe liquid-surface combination. For water-copper combination, the\nRohsenow constant C sf is usually evaluated to 0.0128, as suggested\nby Vachon et al. [32] . The data from Kwark et al. and Suriyawong\nand Wongwises can fit the Rohsenow correlation with C s f = 0 . 0128\nwell [29,30] . However, this correlation can not predict other data\npoints in Fig. 6 . A new Rohsenow correlation with C s f = 0 . 0107 is\ndeveloped based on the present study and the data from Jun et al.\nand Yang et al. [26,27] . This new Rohsenow constant C s f = 0 . 0107\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n9\n\u2206Tsat (oC)\n5\n10\n15\n20\n0\nq (W/cm2)\n0\n30\n60\n90\n120\n150\nq (W/cm2)\n0\n30\n60\n90\n120\n150\nh (W/cm2.K)\n0\n5\n10\n15\n20\nSandpaper polished 80 grit\nSandpaper polished 120 grit\nSandpaper polished 180 grit\nSandpaper polished 1200 grit\nReference sample\nLaser processed 1\nLaser processed 2\n(a)\n(b)\nSandpaper polished 600 grit\nFig. 7. Pool boiling curves of all the testing surfaces, (a) heat flux q as a function of wall superheat T sat , (b) heat transfer coefficient h as a function of heat flux q .\ncan well predict the present data on reference surface and will be\napplied in the following discussion regarding correlation development.\nBoiling curves for all the eight testing surfaces are shown in\nFig. 7 . It can be found that when the effective heat transfer area\nratio r or Sa p (corresponds to Pa in ISO 4287) is used to represent\nsurface roughness (see also Table 1 ), there is not a clear trend of\nheat transfer coefficient with respect to surface roughness. Based\non the experimental results, the same conclusion as that from the\nprevious studies can be drawn, that is, the heat transfer coeffi-\ncient is an increase function of surface roughness only under a\nconsistent surface roughening technique. When two surfaces machined by different techniques are investigated in the pool boiling experiments, the one with smaller r or Sa p is able to show\nbetter heat transfer performance (see sandpaper polished 180 grit\nand laser processed 1). However, if the waviness components are\nremoved from the surface texture, as shown in Fig. 4 . It can be\neasily observed that the boiling curves shift to the left as the surface roughness parameter Sa (corresponds to Ra in ISO 4287) increases, regardless of the surface preparation method. The trend\ncan be seen more clearly in Fig. 7 (b). Rougher surface has consistently higher heat transfer coefficient than the smoother one. Besides, the heat transfer coefficient increases as heat flux q becomes\nlarger. A lot of researchers emphasized that surface roughness is\nmeaningless without specifying the surface roughening technique,\nsince they found that a smoother surface prepared by one surface\nroughening technique shows better heat transfer performance than\na rougher one prepared by another surface roughening technique\n[14-17] . However, different conclusion can be drawn based on the\npresent study. As we know, nucleation sites in pool boiling are in\nmicro-scale. Some surface roughening techniques which increase\nthe surface roughness parameter by enlarging large-scale surface\ntexture will not provide more potential nucleation sites hence improving nucleation boiling heat transfer coefficient, just like the\nlaser processed surfaces in the present study. Only when the same\nsurface roughening technique is used, the one with larger Sa p must\nprovide more potential nucleation sites. The experimental data can\neffectively support this point of view. As shown in Fig. 8 , three\ngroups of data are picked from the boiling curves, i.e., sandpaper polished 80 grit, sandpaper polished 600 grit and femtosecond\nlaser processed 1. The femtosecond laser processed 1 has similar\nSa p with the sandpaper polished 80 grit, while it has almost identical Sa with the sandpaper polished 600 grit after applying the\nstandardized filtration process. It can be found that the femtosecq (W/cm2)\n0\n30\n60\n90\n120\n150\n\u2206Tsat (oC)\n5\n10\n15\n0\nSandpaper polished P600\nLaser processed 1\n0.53\n3.40\n0.37\n0.38\nSandpaper polished P80\nSap (\u03bcm)\nSa (\u03bcm)\n3.48\n1.22\nFig. 8. Comparison of the experimental results of laser processed 1 with sandpaper\npolished 80 grit and sandpaper polished 600 grit.\nond laser processed 1 surface has overlapped boiling curve with\nthe sandpaper polished 600 grit surface, while the sandpaper polished 80 grit surface shows much better pool boiling heat transfer performance. Obviously, the sandpaper polished 80 grit surface\nis \"rougher\" than the femtosecond laser processed 1 surface from\nthe perspective of pool boiling, even though they have almost the\nsame unfiltered roughness parameter Sa p . It is inadequate to characterize the surface roughness by the unfiltered roughness parameters in pool boiling. The reason is that the unfiltered roughness\nparameters contain not only the characteristics of the micro-scale\ncomponent (rouhgness), but also a part of the characteristics of the\nlarge-scale surface texture which is irrelevant to bubble nucleation.\nThe standardized filtration process shown in Fig. 3 is able to eliminate the large-scale surface texture by applying the median denoising filter, the median smoothing filter, the areal gaussian filter with a cut-off of 25 \u03bcm and other operations suggested by ISO\n3274 and ISO 25178. The filtered roughness parameter Sa can be\na better way to characterize the surface roughness in pool boiling. It is reasonable to believe that the result in the present study\nis more close to the pure effect of the surface roughness by applying such filtered roughness parameter Sa . Besides, the choice of the\ncut-off value of the areal filter in the present study can be a possible benchmark for the unestablished standard of ISO 25178, at least\n10\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\nSa = 0.17 \u03bcm\nSa = 1.22 \u03bcm\nSa = 0.83 \u03bcm\nSa = 0.57 \u03bcm\nSa = 0.045 \u03bcm\nq = 4.70 W/cm2\nq = 6.60 W/cm2\nq = 8.60 W/cm2\nq = 20.70 W/cm2\nSa = 0.38 \u03bcm\nSa = 0.15 \u03bcm\nFig. 9. Comparison of the visualized results with increasing Sa .\nfor surfaces applying in the pool boiling. Different with the surface\nroughness, the variation of surface wettability for hydrophobic surfaces in present study seems to have limited effect on the pool\nboiling heat transfer coefficient. The femtosecond laser processed 1\nsurface has overlapped boiling curve with the sandpaper polished\n600 grit surface, although their contact angles are slightly different. Besides, the laser processed surface 2 ( Sa = 0 . 15 \u03bcm) and the\nsandpaper polished 1200 grits Sa = 0 . 17 \u03bcm also show the same\nresult. On the other hand, the surface roughening technique is able\nto influence the CHF. In the unidirectionally polished surfaces, the\nCHF indeed becomes smaller as the surface roughness decreases.\nHowever, the smoothest unidirectionally polished one ( Sa = 0 . 17\n\u03bcm) has a lower CHF than the reference surface (randomly polished) and the laser processed surface 2, even though it has a\nlarger surface roughness parameter. Moreover, the CHF of two laser\nprocessed surfaces is almost identical (around 93.5 W/cm 2 ), while\ntheir roughness parameters Sa p and Sa are totally different. All the\nresults demonstrate that the CHF is not a monotonic function of\nsurface roughness. The surface wettability also plays an important\nrole in determining the CHF.\nThe visualization studies of all the testing surfaces under a\nsame heat flux are shown in Fig. 9 and the supplementary animation. For a certain testing surface, there is a larger number of\nnucleation bubbles as the heat flux increases. This explains why\nthe nucleate boiling heat transfer coefficient h increases with the\nincreasing heat flux q . It can be also found that the number of nucleation bubbles always increases with the roughness parameter Sa\nat a certain heat flux. However, it should be noted that the relation between roughness parameter Sa and number of nucleation\nsites is only a qualitative observation. Quantitative description of\nthe potential nucleation sites can be received by size distribution\nof cavities on the surfaces, which has been conducted by some\nresearchers [19,21] . The details will not be discussed here due to\nlimited length. A simple quantitative analysis of bubble departure\ndiameter and bubble departure frequency is conducted using the\nimage processing program ImageJ. The results are shown in Fig. 10 .\nThree surfaces with totally different surface roughening techniques\nand surface roughness parameters are included in the analysis. The\nheat flux is fixed at 4.7 W/cm 2 . The results reveal that bubbles\ndeparture at a smaller diameter and higher frequency as the surface becomes rougher. This trend is consistent with that reported\nin Ref. [8] . The decreased bubble departure diameter and increased\nbubble departure frequency, together with the increased number of\nnucleation sites, result in the higher nucleate boiling heat transfer\ncoefficient h of a rougher surface regardless of the surface roughening technique.\nEq. (8) developed by Rohsenow follows the relation q \u221d T 3\nsat .\nHowever, this relation is found invalid for some reported data. The\nexponent in the q - T relation should be determined based on\nthe experimental conditions. Therefore, Eq. (8) is modified as follows,\nC p T sat\nL\n= C s f [ q\n\u03bcL\n\u03c3\ng(\u03c1l -\u03c1v ) ]\n1\nn P r s\n(9)\nwhere n represents the exponent in the q - T relation. In order\nto perform the data analysis better, Eq. (9) is converted into the\ndimensionless form,\nh\n\u03c3\ng(\u03c1l -\u03c1v )\nk\n= C -n\ns f ( C p T sat\nL\n) n -1 P r 1 -sn\n(10)\nIn the visualized study of bubble dynamics, the bubble departure diameter is often found proportional to\n\u03c3\ng(\u03c1l -\u03c1v ) [33-36] .\nTherefore, the left hand side of Eq. (10) can be regarded as Nusselt number taking the bubble departure diameter as characteristic\nlength. Eq. (10) can be then rewritten in the form of dimensionless\nnumbers,\nNu = CJa n -1 P r 1 -sn\n(11)\nwhere\nJa = C p T sat\nL\n(12)\nis the Jakob number, representing the ratio of sensible heat to latent heat absorbed during the boiling process. Nu is the Nusselt\nnumber of nucleation bubbles, and C is a constant depending on\nthe Rohsenow constant C sf and n . In Eq. (11) , s is still 1 for water and 1.7 for the other fluids. But C and n are dependent on the\nexperimental conditions. In the following analysis, they are correlated as a function of surface roughness Sa based on the experimental data. For convenience, the surface roughness Sa is also\nnondimensionalized to Sa\nSa 0 , where Sa 0 should be the representative surface roughness for typical metal surfaces.\nFollowing the suggestions of the other researchers in 2D pro-\nfile ( Ra ), the representatively areal arithmetical mean height Sa 0 is\nalso equal to 0.4 \u03bcm [4,37] . The parameter n in the above equation is first evaluated by performing best fit from the experimental\ndata. Fig. 11 shows the relation between Nu and Ja plotted on a\nlogarithmic scale. The n -1 value of a given testing surface can be\nthen determined as the slope of the straight line in the figure. n\nis then plotted as a function of Sa\nSa 0 on the bottom right corner of\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n11\n5 mm\nt = 0 s\nt = 0.02 s\nt = 0.04 s\nt = 0.06 s\nAverage bubble departure diameter: 2.80 mm\nt = 0 s\nt = 0.02 s\nt = 0.04 s\nt = 0.06 s\n5 mm\nAverage bubble departure diameter: 2.27 mm\nt = 0 s\nt = 0.02 s\nt = 0.04 s\nt = 0.06 s\n5 mm\nAverage bubble departure diameter: 1.82 mm\n(a) Reference sample Sa = 0.045 \u03bcm\n(b) Femtosecond laser processed 1 Sa = 0.38 \u03bcm\n(c) Sandpaper polished 120 grit Sa = 0.83 \u03bcm\nFig. 10. A simple case in evaluating bubble departure diameter and bubble departure frequency. Please also see the supplementary animation.\nJa\nNu\n0.01\n0.02\n0.03\n10\n100\n1000\nSa = 1.22 \u03bcm\nSa = 0.83 \u03bcm\nSa = 0.57 \u03bcm\nSa = 0.17 \u03bcm\nSa = 0.045 \u03bcm\nSa = 0.38 \u03bcm\nSa = 0.15 \u03bcm\nn\nSa/Sa0\n0\n1\n2\n3\n4\n3.2\n3.6\nFig. 11. Fitting and parameter development of the Nu -Ja curves.\nFig. 11 and it is found to increase almost linearly with Sa\nSa 0 ,\nn = 3 . 22 + 0 . 12 Sa\nSa 0\n(13)\nand the correlation for C as a function of Sa\nSa 0 can be then obtained\nby fitting the data points in Fig. 12 .\nC = 2 . 74 \u00d7 10 6 (1 + 0 . 46( Sa\nSa 0 ) 3 . 02 )\n(14)\nWe can summarize the final correlation in the dimensionless\nform,\nNu = C 1 (1 + C 2 ( Sa\nSa 0 ) 3 . 02 ) Ja n -1 P r 1 -sn\n(15)\nSa/Sa0\n0\n1\n2\n3\n4\n0\n1\u00d7107\n2\u00d7107\n3\u00d7107\n4\u00d7107\n5\u00d7107\nNu/(Jan-1Pr1-sn)\nNu/(Jan-1Pr1-sn)\n= 2.74\u00d7106(1+0.46(Sa/Sa0)3.02)\nFig. 12. Evaluation of C by plotting Nu/Ja n -1 Pr 1 -sn as a function of Sa / Sa 0 .\nwhere\nC 1 = 2 . 74 \u00d7 10 6\n(16)\nC 2 = 0 . 46\n(17)\nIt should be noticed that Eq. (15) is likely to be valid for hydrophobic surfaces having surface roughness Sa in the range of\n0.045 \u03bcm to 1.35 \u03bcm. Besides, the analysis of surface roughness Sa\nin present study is quite specific. It is not recommended to correlate other's experimental data with this equation, unless the same\nfiltration process is followed in the surface roughness analysis. It\nshould be also noticed that Eq. (15) can be only applied to predict\nthe heat transfer coefficient in the nucleate boiling region. Before\nboiling occurs, the heat is mainly removed by natural convection,\n12\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n0\n3\n6\n9\n12\nh experiment (W/cm2.K)\n0\n3\n6\n9\n12\nh correlation (W/cm2.K)\nSa = 1.22 \u03bcm\nSa = 0.83 \u03bcm\nSa = 0.57 \u03bcm\nSa = 0.17 \u03bcm\nSa = 0.045 \u03bcm\nSa = 0.38 \u03bcm\nSa = 0.15 \u03bcm\n+20%\n-20%\nFig. 13. Comparison between the experimental data and the predicted values by\nEq. (15) .\nwhich is a totally different heat transfer mechanism with nucleate boiling. Using Eq. (15) to predict the heat transfer performance\nat this stage will cause large deviation. Fig. 13 is a comparison of\nthe experimental data with the predicted value of Eq. (15) in the\nnucleate boiling region. The predicted values are in good agreement (within 20%) with the experimental data except for the low\nheat flux region (initial stage of bubble nucleation). In fact, the surface superheat at this region is very small, which results in a large\nrelatively error of the surface superheat since the absolute error\nof temperature measurement is a fixed value. As a result, the uncertainty of the heat transfer coefficient at this region is also very\nlarge and the result can not be completely trusted. The inaccurate\nmeasurement is the most likely reason for the inconsistence between the experimental data and the predicted values at low heat\nflux region. Nevertheless, Eq. (15) is able to predict the heat transfer coefficient in the partially and fully developed nucleate boiling\nregime within an acceptable accuracy for different surface roughness Sa .\n4. Conclusions\nThe effect of surface roughness on the nucleate boiling heat\ntransfer in a water pool was investigated. The copper surfaces\nused in the experiments were fabricated by three different surface\nroughening techniques (unidirectionally polished, randomly polished and laser processed) and had an average roughness in the\nrange of 0.045 \u03bcm to 1.35 \u03bcm. The different surface roughening\ntechniques could introduce different surface features and surface\nwettability. Bubble dynamics was also investigated to further understand the nucleate boiling heat transfer. Based on the results\nand discussion, the following conclusions were deduced:\n\u2022 The unidirectionally polished surface had a lot of irregular scratches, while the femtosecond laser processed samples\nshowed periodically fluctuating surface texture. For the sandpaper polished surfaces, the contact angle initially increased\nwith surface roughness and remained a constant as the surface roughness further increased. The trend was a result of\nthe spreading effect of the sessile droplet on the testing surfaces. Rougher surface with larger scratches could obstruct the\ndroplet from spreading on the surface, especially in the direction normal to the scratches. Therefore, the static contact angle was increased as the surface became rougher. This increase\ndid not occur anymore when the surface roughness Sa was\nlarger than 0.57 \u03bcm. Beyond which, the obstruction effect of the\ndroplet spreading had encountered a threshold value. A further\nincrease in surface roughness would not cause the surface more\nhydrophobic. On the other hand, for the femtosecond laser processed surfaces, the static contact angles of both surfaces were\naround 153 \u25e6. The surface roughness had negligible effect on the\nstatic contact angle.\n\u2022 By applying a standardized filtration process on the measured\nsurfaces, the boiling curves were found to shift to the left as\nthe surface roughness parameter Sa became larger, regardless of\nthe surface preparation method. The surface roughening technique had negligible effect on the nucleate boiling heat transfer coefficient once the large scale surface texture (surface form\nand waviness) were properly removed from the surface. On the\nother hand, the CHF was affected by both the surface roughness\nand surface roughening technique. It is not a monotonic function of surface roughness without specifying the surface roughening technique. The surface wettability also played an important role in determining the CHF.\n\u2022 The rough surfaces enhanced the nucleate boiling heat transfer\nby providing more nucleation sites, decreasing bubble departure diameter and increasing bubble departure frequency. Besides, the number of nucleation bubbles was found to increase\nwith heat flux, which well explained that the heat transfer co-\nefficient is an increasing function of heat flux in all boiling\ncurves.\n\u2022 A correlation was developed based on the best fitting of the\nexperimental data. The validation results showed that the correlation was able to well predict the heat transfer coefficient at\ndifferent surface roughness Sa , especially in the fully developed\nnucleate boiling region.\nDeclaration of Competing Interest\nThe authors declare that they have no known competing financial interests or personal relationships that could have appeared to\ninfluence the work reported in this paper.\nCRediT authorship contribution statement\nSimiao Fan: Conceptualization, Software, Data curation, Formal analysis, Writing - original draft, Writing - review & editing,\nValidation. Lishi Jiao: Conceptualization, Software, Data curation,\nWriting - original draft, Validation. Kai Wang: Conceptualization,\nSoftware, Data curation, Writing - original draft, Validation. Fei\nDuan: Conceptualization, Software, Formal analysis, Writing - original draft, Writing - review & editing, Validation.\nAcknowledgements\nThe authors would like to thank the support from DSTA-NTU\nresearch agreement and the IGS scholarship support.\nSupplementary material\nSupplementary material associated with this article can be\nfound, in the online version, at 10.1016/j.ijheatmasstransfer.2020.\n120054 .\nReferences\n[1] H.M. Kurihara , J.E. Myers , The effects of superheat and surface roughness on\nboiling coefficients, AlChE J. 6 (1960) 83-91 .\n[2] A. Luke , Pool boiling heat transfer from horizontal tubes with different surface\nroughness, Int. J. Refrig. 20 (1997) 561-574 .\n[3] Y.Y. Li , Z.H. Liu , B.C. Zheng , Experimental study on the saturated pool boiling\nheat transfer on nano-scale modification surface, Int. J. Heat Mass Transf. 84\n(2015) 550-561 .\nS. Fan, L. Jiao and K. Wang et al. / International Journal of Heat and Mass Transfer 159 (2020) 120054\n13\n[4] J. Kim , S. Jun , R. Laksnarain , S.M. You , Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability, Int. J. Heat\nMass Transf. 101 (2016) 992-1002 .\n[5] K.H. Chu , R. Enright , E.N. Wang , Structured surfaces for enhanced pool boiling\nheat transfer, Appl. Phys. Lett. 100 (2012) 241603 .\n[6] A.S. Moita , E. Teodori , A.L.N. Moreira , Influence of surface topography in the\nboiling mechanisms, Int. J. Heat Fluid Flow 52 (2015) 50-63 .\n[7] B.J. Jones , J.P. McHale , S.V. Garimella , The influence of surface roughness on\nnucleate pool boiling heat transfer, J. Heat Transf. 131 (2009) 121009 .\n[8] J. Kim , S. Jun , J. Lee , J. Godinez , S.M. You , Effect of surface roughness on pool\nboiling heat transfer of water on a superhydrophilic aluminum surface, J. Heat\nTransf. 139 (2017) 101501 .\n[9] R.J. Benjamin , A.R. Balakrishnan , Nucleation site density in pool boiling of saturated pure liquids: effect of surface microroughness and surface and liquid\nphysical properties, Exp. Therm. Fluid Sci. 15 (1997) 32-42 .\n[10] V.I. Kozitskii , Heat transfer coefficients for boiling of n-butane on surfaces of\nvarious roughness, Chem. Pet. Eng. 8 (1972) 23-24 .\n[11] J.M. Jabardo , An overview of surface roughness effects on nucleate boiling heat\ntransfer, Open Transp. Phenom. J. 2 (2010) 24-34 .\n[12] M.S. El-Genk , A. Suszko , Saturation nucleate boiling and correlations for\nPF-5060 dielectric liquid on inclined rough copper surfaces, J. Heat Transf. 136\n(2014) 81503 .\n[13] J.S. Kim , A. Girard , S. Jun , J. Lee , S.M. You , Effect of surface roughness on pool\nboiling heat transfer of water on hydrophobic surfaces, Int. J. Heat Mass Transf.\n118 (2018) 802-811 .\n[14] P.J. Berenson , Experiments on pool-boiling heat transfer, Int. J. Heat Mass\nTransf. 5 (1962) 985-999 .\n[15] R.I. Vachon , G.E. Tanger , D.L. Davis , G.H. Nix , Pool boiling on polished and\nchemically etched stainless-steel surfaces, J. Heat Transf. 90 (1968) 231-238 .\n[16] S.K.R. Chowdhury , R.H.S. Winterton , Surface effects in pool boiling, Int. J. Heat\nMass Transf. 28 (1985) 1881-1889 .\n[17] K. Ferjan \u02c7ci \u02c7c , I. Golobi \u02c7c , Surface effects on pool boiling CHF, Exp. Therm. Fluid\nSci. 25 (2002) 565-571 .\n[18] H. O'Hanley , C. Coyle , J. Buongiorno , T. McKrell , L.W. Hu , M. Rubner , R. Cohen ,\nSeparate effects of surface roughness, wettability, and porosity on the boiling\ncritical heat flux, Appl. Phys. Lett. 103 (2013) 024102 .\n[19] Y. Qi , J.F. Klausner , R. Mei , Role of surface structure in heterogeneous nucleation, Int. J. Heat Mass Transf. 47 (2004) 3097-3107 .\n[20] A. Luke , Active and potential bubble nucleation sites on different structured\nheated surfaces, Chem. Eng. Res. Des. 82 (2004) 462-470 .\n[21] A. Luke , Preparation, measurement and analysis of the microstructure of evaporator surfaces, Int. J. Therm. Sci. 45 (2006) 237-256 .\n[22] A. Luke , Preparation and analysis of different roughness structures for evaporator tubes, Heat Mass Transf. 45 (2009) 909-917 .\n[23] K.T. Hong , H. Imadojemu , R.L. Webb , Effects of oxidation and surface roughness\non contact angle, Exp. Therm. Fluid Sci. 8 (1994) 279-285 .\n[24] H. Nakae , R. Inui , Y. Hirata , H. Saito , Effects of surface roughness on wettability,\nActa Mater. 46 (1998) 2313-2318 .\n[25] S.J. Kline , The purposes of uncertainty analysis, J. Fluids Eng. 107 (1985)\n153-160 .\n[26] S. Jun , S. Sinha-Ray , A.L. Yarin , Pool boiling on nano-textured surfaces, Int. J.\nHeat Mass Transf. 62 (2013) 99-111 .\n[27] Y. Yang , X. Ji , J. Xu , Pool boiling heat transfer on copper foam covers with water\nas working fluid, Int. J. Therm. Sci. 49 (2010) 1227-1237 .\n[28] D. Cooke , S.G. Kandlikar , Effect of open microchannel geometry on pool boiling\nenhancement, Int. J. Heat Mass Transf. 55 (2012) 1004-1013 .\n[29] S.M. Kwark , M. Amaya , R. Kumar , G. Moreno , S.M. You , Effects of pressure, orientation, and heater size on pool boiling of water with nanocoated heaters,\nInt. J. Heat Mass Transf. 53 (2010) 5199-5208 .\n[30] A. Suriyawong , S. Wongwises , Nucleate pool boiling heat transfer characteristics of TiO 2 -water nanofluids at very low concentrations, Exp. Therm. Fluid Sci.\n34 (2010) 992-999 .\n[31] W.M. Rohsenow , A method of correlating heat transfer data for surface boiling\nof liquids, Trans. ASME 74 (1952) 969-975 .\n[32] R.I. Vachon , G.H. Nix , G.E. Tanger , Evaluation of constants for the Rohsenow\npool-boiling correlation, J. Heat Transf. 90 (1968) 239-246 .\n[33] R. Cole , Bubble frequencies and departure volumes at subatmospheric pressures, AlChE J. 13 (1967) 779-783 .\n[34] J. Kim , M.H. Kim , On the departure behaviors of bubble at nucleate pool boiling, Int. J. Multiphase Flow 32 (2006) 1269-1286 .\n[35] Y. Nam , E. Aktinol , V.K. Dhir , Y.S. Ju , Single bubble dynamics on a superhydrophilic surface with artificial nucleation sites, Int. J. Heat Mass Transf. 54\n(2011) 1572-1577 .\n[36] S. Bovard , H. Asadinia , G. Hosseini , S.A .A . Fazel , Investigation and experimental\nanalysis of the bubble departure diameter in pure liquids on horizontal cylindrical heater, Heat Mass Transf. 53 (2017) 1199-1210 .\n[37] D. Goreno , D. Kenning , in: H2 Pool Boiling, Springer, Berlin Heidelberg, 2010,\npp. 757-792 .",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5014
+    },
+    {
+      "number": 2,
+      "start": 5014,
+      "end": 11799
+    },
+    {
+      "number": 3,
+      "start": 11799,
+      "end": 16407
+    },
+    {
+      "number": 4,
+      "start": 16407,
+      "end": 17197
+    },
+    {
+      "number": 5,
+      "start": 17197,
+      "end": 19308
+    },
+    {
+      "number": 6,
+      "start": 19308,
+      "end": 23423
+    },
+    {
+      "number": 7,
+      "start": 23423,
+      "end": 25756
+    },
+    {
+      "number": 8,
+      "start": 25756,
+      "end": 31656
+    },
+    {
+      "number": 9,
+      "start": 31656,
+      "end": 36892
+    },
+    {
+      "number": 10,
+      "start": 36892,
+      "end": 42278
+    },
+    {
+      "number": 11,
+      "start": 42278,
+      "end": 44377
+    },
+    {
+      "number": 12,
+      "start": 44377,
+      "end": 50489
+    },
+    {
+      "number": 13,
+      "start": 50489,
+      "end": 55843
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1,
+      "start": 107,
+      "end": 5119
+    },
+    {
+      "id": "sec-1-list-of-symbols",
+      "number": null,
+      "title": "List of Symbols",
+      "level": 2,
+      "start": 5119,
+      "end": 19434
+    },
+    {
+      "id": "sec-2-for-profile",
+      "number": null,
+      "title": "For profile",
+      "level": 2,
+      "start": 19434,
+      "end": 19446
+    },
+    {
+      "id": "sec-3-for-surface",
+      "number": null,
+      "title": "For surface",
+      "level": 2,
+      "start": 19446,
+      "end": 21798
+    },
+    {
+      "id": "sec-4-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 21798,
+      "end": 28000
+    },
+    {
+      "id": "sec-5-t-w-t-3-q-x-3-w",
+      "number": null,
+      "title": "T w = T 3 \u2212q \u0002x 3 w",
+      "level": 2,
+      "start": 28000,
+      "end": 28831
+    },
+    {
+      "id": "sec-6-t-1-t-3-2-t-3",
+      "number": null,
+      "title": "T 1 \u2212T 3 ) 2 + ( \u03b4T 3",
+      "level": 1,
+      "start": 28831,
+      "end": 28853
+    },
+    {
+      "id": "sec-7-t-1-t-3-2-x-13",
+      "number": null,
+      "title": "T 1 \u2212T 3 ) 2 + ( \u03b4\u0002x 13",
+      "level": 1,
+      "start": 28853,
+      "end": 30787
+    },
+    {
+      "id": "sec-8-c-p-t-sat",
+      "number": null,
+      "title": "C p \u0002T sat",
+      "level": 2,
+      "start": 30787,
+      "end": 40438
+    },
+    {
+      "id": "sec-9-c-p-t-sat",
+      "number": null,
+      "title": "C p \u0002T sat",
+      "level": 2,
+      "start": 40438,
+      "end": 41080
+    },
+    {
+      "id": "sec-10-ja-c-p-t-sat",
+      "number": null,
+      "title": "Ja = C p \u0002T sat",
+      "level": 2,
+      "start": 41080,
+      "end": 43381
+    },
+    {
+      "id": "sec-11-sa-0-3-02",
+      "number": null,
+      "title": "Sa 0 ) 3 . 02 )",
+      "level": 2,
+      "start": 43381,
+      "end": 43468
+    },
+    {
+      "id": "sec-12-nu-c-1-1-c-2-sa",
+      "number": null,
+      "title": "Nu = C 1 (1 + C 2 ( Sa",
+      "level": 2,
+      "start": 43468,
+      "end": 49052
+    },
+    {
+      "id": "sec-13-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of Competing Interest",
+      "level": 2,
+      "start": 49052,
+      "end": 49257
+    },
+    {
+      "id": "sec-14-credit-authorship-contribution-statement",
+      "number": null,
+      "title": "CRediT authorship contribution statement",
+      "level": 2,
+      "start": 49257,
+      "end": 49298
+    },
+    {
+      "id": "sec-15-simiao-fan-conceptualization-software-da",
+      "number": null,
+      "title": "Simiao Fan: Conceptualization, Software, Data curation, For-",
+      "level": 2,
+      "start": 49298,
+      "end": 49560
+    },
+    {
+      "id": "sec-16-software-data-curation-writing-original-",
+      "number": null,
+      "title": "Software, Data curation, Writing - original draft, Validation. Fei",
+      "level": 2,
+      "start": 49560,
+      "end": 49627
+    },
+    {
+      "id": "sec-17-duan-conceptualization-software-formal-a",
+      "number": null,
+      "title": "Duan: Conceptualization, Software, Formal analysis, Writing - orig-",
+      "level": 2,
+      "start": 49627,
+      "end": 49745
+    },
+    {
+      "id": "sec-18-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 49745,
+      "end": 49872
+    },
+    {
+      "id": "sec-19-supplementary-material",
+      "number": null,
+      "title": "Supplementary material",
+      "level": 2,
+      "start": 49872,
+      "end": 50031
+    },
+    {
+      "id": "sec-20-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 50031,
+      "end": 55843
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a) Schematic diagram of the experimental apparatus, (b) detailed drawing of the heating block.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-1_p3.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a). The whole apparatus consists of a boiling chamber, a test-",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Measurement results of the surface topography and surface wettability.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-2_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Example of the pre-processing before the roughness parameter evaluation.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-3_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Illustration of applying the robust gaussian \ufb01lter (25 \u03bcm cut-off) on the pro\ufb01le and surface, respectively.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-4_p6.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(g) and that calculated from Fig. 3 (i) are denoted as Sa . To",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-3_p6.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(a) Static contact angle measurement at different directions, (b) relation between static contact angle and surface roughness Sa .",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-5_p7.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Comparison of present experimental data with those in previous literature",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-6_p8.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q .",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-7_p9.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "It can be found that when the effective heat transfer area",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-7_p9.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Comparison of the experimental results of laser processed 1 with sandpaper",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-8_p9.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Comparison of the visualized results with increasing Sa .",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-9_p10.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "A simple case in evaluating bubble departure diameter and bubble departure frequency. Please also see the supplementary animation.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-10_p11.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Fitting and parameter development of the Nu \u2212Ja curves.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-11_p11.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "and it is found to increase almost linearly with Sa",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-11_p11.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Evaluation of C by plotting Nu/Ja n \u22121 Pr 1 \u2212sn as a function of Sa / Sa 0 .",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-12_p11.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "Comparison between the experimental data and the predicted values by",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2449951171875,
+        793.9199829101562
+      ],
+      "image_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\duan_2020_roughening_techniques_fig-13_p12.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 6,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 13,
+    "ingest": "pymupdf"
+  }
+}

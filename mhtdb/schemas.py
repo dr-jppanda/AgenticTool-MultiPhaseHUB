@@ -143,7 +143,6 @@ class ApplicationPick(BaseModel):
             "you inferred it. An inferred application still needs evidence."
         )
     )
-    confidence: Literal["high", "medium", "low"]
     evidence: list[Evidence] = Field(default_factory=list)
 
 

@@ -1,0 +1,819 @@
+{
+  "record_id": "jones-2009-the-influence-of-surface-roughness",
+  "doc_id": "e0408d66600fc019",
+  "title": "The Influence of Surface Roughness on Nucleate Pool Boiling Heat Transfer",
+  "source_pdf": "jones_2009_the_influence_of_surface_roughness.pdf",
+  "n_pages": 14,
+  "n_figures": 13,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 2,
+      "caption": "\u0001a\u0002. The 25.4\u000325.4 mm2 test surface is prepared on top of"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 2,
+      "caption": ""
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": ""
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": ""
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": ""
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 6,
+      "caption": ""
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": ""
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": ""
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 9,
+      "caption": ""
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 11,
+      "caption": ""
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 11,
+      "caption": ""
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 12,
+      "caption": ""
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    13
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-14-experimental-procedure-deionized-water-a",
+      "number": null,
+      "title": "Experimental Procedure. Deionized water and FC-77",
+      "level": 2
+    },
+    {
+      "id": "sec-29-discussion",
+      "number": null,
+      "title": "Discussion",
+      "level": 2
+    },
+    {
+      "id": "sec-11-test-facility-the-pool-boiling-test-faci",
+      "number": null,
+      "title": "Test Facility. The pool boiling test facility is shown in",
+      "level": 2
+    },
+    {
+      "id": "sec-5-boiling-heat-transfer",
+      "number": null,
+      "title": "Boiling Heat Transfer",
+      "level": 1
+    },
+    {
+      "id": "sec-35-dependence-of-heat-transfer-coef-cient-o",
+      "number": null,
+      "title": "Dependence of heat transfer coefﬁcient on surface roughness",
+      "level": 2
+    },
+    {
+      "id": "sec-9-copyright-2009-by-asme",
+      "number": null,
+      "title": "Copyright © 2009 by ASME",
+      "level": 2
+    },
+    {
+      "id": "sec-13-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2
+    },
+    {
+      "id": "sec-68-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 19,
+    "resolved": 19,
+    "unresolved": 0,
+    "exact": 19
+  },
+  "points_ref": "points/jones-2009-the-influence-of-surface-roughness.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "The Influence of Surface Roughness on Nucleate Pool Boiling Heat Transfer",
+    "year": 2009,
+    "reason": "The paper reports its own pool boiling experiments in water and FC-77 on surfaces of varying roughness, with measured boiling curves, heat transfer coefficients, and CHF values."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": 100.3,
+      "max": 100.3,
+      "unit": "°C",
+      "evidence": [
+        {
+          "quote": "the FC-77 are as follows: Tsat 100.3°C",
+          "resolved": true,
+          "char_span": [
+            18767,
+            18805
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-14-experimental-procedure-deionized-water-a",
+              "number": null,
+              "title": "Experimental Procedure. Deionized water and FC-77",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 20.0,
+      "max": 300.0,
+      "unit": "kW/m2",
+      "evidence": [
+        {
+          "quote": "exponents ranging from m=0.21 at 20 kW/m2 to m=0.19 at",
+          "resolved": true,
+          "char_span": [
+            34299,
+            34353
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-29-discussion",
+              "number": null,
+              "title": "Discussion",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "0.09 at 50 kW/m2 and 100 kW/m2 and increases slightly to m",
+          "resolved": true,
+          "char_span": [
+            34047,
+            34105
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-29-discussion",
+              "number": null,
+              "title": "Discussion",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "=0.11 at a heat flux of 300 kW/m2",
+          "resolved": true,
+          "char_span": [
+            34106,
+            34139
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-29-discussion",
+              "number": null,
+              "title": "Discussion",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 0.0,
+      "max": 0.0,
+      "unit": "°C",
+      "evidence": [
+        {
+          "quote": "to within 0.5°C of the saturation temperature.",
+          "resolved": true,
+          "char_span": [
+            19511,
+            19557
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-14-experimental-procedure-deionized-water-a",
+              "number": null,
+              "title": "Experimental Procedure. Deionized water and FC-77",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 25.4,
+      "max": 25.4,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "The 25.4 25.4 mm2 test surface is prepared on top of",
+          "resolved": true,
+          "char_span": [
+            11730,
+            11782
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-11-test-facility-the-pool-boiling-test-faci",
+              "number": null,
+              "title": "Test Facility. The pool boiling test facility is shown in",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.027,
+      "max": 10.0,
+      "unit": "µm",
+      "evidence": [
+        {
+          "quote": "polished surface (Ra between 0.027 m and 0.038 m) to electrical discharge machined (EDM) surfaces with a roughness Ra ranging from 1.08 m to 10.0 m.",
+          "resolved": true,
+          "char_span": [
+            595,
+            743
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-5-boiling-heat-transfer",
+              "number": null,
+              "title": "Boiling Heat Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "aluminum"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The effect of surface roughness on pool boiling heat transfer is experimentally explored\nover a wide range of roughness values in water and FluorinertTMFC-77",
+          "resolved": true,
+          "char_span": [
+            330,
+            487
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-5-boiling-heat-transfer",
+              "number": null,
+              "title": "Boiling Heat Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Keywords: nucleate pool boiling, heat transfer, surface roughness",
+          "resolved": true,
+          "char_span": [
+            1888,
+            1953
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-5-boiling-heat-transfer",
+              "number": null,
+              "title": "Boiling Heat Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The 25.4 25.4 mm2 test surface is prepared on top of\nan aluminum test block.",
+          "resolved": true,
+          "char_span": [
+            11730,
+            11806
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-11-test-facility-the-pool-boiling-test-faci",
+              "number": null,
+              "title": "Test Facility. The pool boiling test facility is shown in",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "water\nhorizontal\nplate\naluminum\nsandpaper,\nEDM",
+          "resolved": true,
+          "char_span": [
+            39035,
+            39081
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-35-dependence-of-heat-transfer-coef-cient-o",
+              "number": null,
+              "title": "Dependence of heat transfer coefﬁcient on surface roughness",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All reported values of the surface temperature represent the average over an interval of at least 1 min, after the surface\ntemperature had reached equilibrium.",
+          "resolved": true,
+          "char_span": [
+            19785,
+            19944
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-14-experimental-procedure-deionized-water-a",
+              "number": null,
+              "title": "Experimental Procedure. Deionized water and FC-77",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Deionized water and FC-77\nwere used as the test fluids",
+            "resolved": true,
+            "char_span": [
+              18673,
+              18727
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-14-experimental-procedure-deionized-water-a",
+                "number": null,
+                "title": "Experimental Procedure. Deionized water and FC-77",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-77",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "two fluids with widely differing thermal\nproperties and wetting characteristics: water and FC-77, a perfluorinated dielectric fluid",
+            "resolved": true,
+            "char_span": [
+              11275,
+              11406
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-9-copyright-2009-by-asme",
+                "number": null,
+                "title": "Copyright © 2009 by ASME",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The test surfaces ranged from a\npolished surface (Ra between 0.027 m and 0.038 m)",
+            "resolved": true,
+            "char_span": [
+              563,
+              644
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-5-boiling-heat-transfer",
+                "number": null,
+                "title": "Boiling Heat Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "In both cases, the polishing was achieved using successively finer grits of sandpaper.",
+            "resolved": true,
+            "char_span": [
+              16548,
+              16634
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-13-transactions-of-the-asme",
+                "number": null,
+                "title": "Transactions of the ASME",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "electrical_discharge_machined",
+        "evidence": [
+          {
+            "quote": "The\nsurfaces were first fly-cut and then roughened using ram-type\nelectrical discharge machining EDM .",
+            "resolved": true,
+            "char_span": [
+              16719,
+              16821
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-13-transactions-of-the-asme",
+                "number": null,
+                "title": "Transactions of the ASME",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "onb",
+      "bubble_dynamics"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "evidence": [
+          {
+            "quote": "The effect of surface roughness on pool boiling heat transfer is experimentally explored",
+            "resolved": true,
+            "char_span": [
+              330,
+              418
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-5-boiling-heat-transfer",
+                "number": null,
+                "title": "Boiling Heat Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "it is therefore recommended that future research focus on developing new methods of characterizing boiling surfaces.",
+            "resolved": true,
+            "char_span": [
+              55809,
+              55925
+            ],
+            "pages": [
+              13
+            ],
+            "sections": [
+              {
+                "id": "sec-68-transactions-of-the-asme",
+                "number": null,
+                "title": "Transactions of the ASME",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "The Influence of Surface Roughness on Nucleate Pool Boiling Heat Transfer",
+  "si": {
+    "T_sat_min": 373.45,
+    "T_sat_unit": "K",
+    "T_sat_max": 373.45,
+    "q_flux_min": 20000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 300000.0,
+    "dT_sub_min": 0.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 0.0,
+    "D_h_min": 0.0254,
+    "D_h_unit": "m",
+    "D_h_max": 0.0254,
+    "Ra_surface_min": 2.6999999999999997e-08,
+    "Ra_surface_unit": "m",
+    "Ra_surface_max": 9.999999999999999e-06
+  },
+  "fluid_properties": {
+    "rho_l": 958.1335507899332,
+    "rho_v": 0.6041840227531847,
+    "sigma": 0.05886217433452969,
+    "h_fg": 2255611.2546180673,
+    "mu_l": 0.00028069823267134477,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.4499999999998
+  },
+  "derived": {
+    "L_cap": 0.0025036969562096546,
+    "Co": 0.09857074630746672,
+    "Bo": 102.92097944938229
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:high",
+    "scale:conventional"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-14",
+    "pending": 1,
+    "unconfirmed_fields": 1
+  },
+  "points_summary": {
+    "n_series": 5,
+    "n_points": 125,
+    "figures": [
+      "fig-3"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

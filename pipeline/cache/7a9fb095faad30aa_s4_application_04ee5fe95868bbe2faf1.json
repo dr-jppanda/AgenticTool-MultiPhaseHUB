@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "electronics cooling [10-13]"
+        },
+        {
+          "quote": "Pool boiling, recognized for its exceptional efficacy of heat dissipation, has found application in various industrial systems"
+        }
+      ]
+    }
+  ]
+}

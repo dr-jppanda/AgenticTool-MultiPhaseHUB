@@ -291,7 +291,7 @@ def test_hyphenated_quote_resolves_after_dehyphenation():
     assert d.locate("depends on the nucleation site density of the surface")
 
 
-# ------------------------------------------------------- confidence gating
+# ------------------------------------------------------------- review gating
 
 
 def _rec(**kw):
@@ -301,11 +301,11 @@ def _rec(**kw):
     return base
 
 
-def test_stated_high_confidence_application_is_confirmed():
+def test_stated_application_is_confirmed():
     from mhtdb.gating import gate_record
 
     r = _rec(application={"targets": [{
-        "tier1": "electronics_thermal", "stated": True, "confidence": "high",
+        "tier1": "electronics_thermal", "stated": True,
         "evidence": [{"quote": "q", "resolved": True}]}]})
     assert gate_record(r, {}) == []
     assert r["application"]["targets"][0]["confirmed"] is True
@@ -315,7 +315,7 @@ def test_inferred_application_is_gated():
     from mhtdb.gating import gate_record
 
     r = _rec(application={"targets": [{
-        "tier1": "nuclear", "stated": False, "confidence": "medium",
+        "tier1": "nuclear", "stated": False,
         "evidence": [{"quote": "q", "resolved": True}]}]})
     items = gate_record(r, {})
     assert len(items) == 1 and items[0].kind == "unstated_application"
@@ -328,7 +328,7 @@ def test_fundamental_is_never_gated():
     from mhtdb.gating import gate_record
 
     r = _rec(application={"targets": [
-        {"tier1": "fundamental", "stated": False, "confidence": "high", "evidence": []}]})
+        {"tier1": "fundamental", "stated": False, "evidence": []}]})
     assert gate_record(r, {}) == []
     assert r["application"]["targets"][0]["confirmed"] is True
 
@@ -357,7 +357,7 @@ def test_rejected_suggestions_never_return():
 
     mk = lambda: _rec(taxonomy={"fluid": [{"tier1": "mixture", "propose_new": "benzene",
                                            "evidence": []}]})
-    key = ReviewItem("t", "f", "new_term", "benzene", 0.85, "", []).key()
+    key = ReviewItem("t", "f", "new_term", "benzene", "", []).key()
     assert gate_record(mk(), {}), "sanity: it is raised when not rejected"
     assert gate_record(mk(), {key: {"rejected_on": "2026-01-01"}}) == []
 
@@ -367,15 +367,21 @@ def test_gating_never_removes_a_value():
     from mhtdb.gating import gate_record
 
     r = _rec(application={"targets": [{"tier1": "nuclear", "stated": False,
-                                       "confidence": "low", "evidence": []}]})
+                                       "evidence": []}]})
     gate_record(r, {})
     assert r["application"]["targets"][0]["tier1"] == "nuclear"
 
 
-def test_new_term_bar_is_higher_than_reuse():
-    from mhtdb.gating import AUTO_APPLY, NEW_TERM_APPLY
+def test_confirming_a_field_clears_any_stale_gate_reason():
+    """A field gated on one pass and confirmed on the next shouldn't keep the
+    old explanation around."""
+    from mhtdb.gating import gate_record
 
-    assert NEW_TERM_APPLY > AUTO_APPLY, (
-        "creating vocabulary is irreversible and affects every later record; "
-        "reusing it wrongly affects one"
-    )
+    r = _rec(application={"targets": [{"tier1": "nuclear", "stated": False,
+                                       "gate_reason": "stale", "evidence": []}]})
+    gate_record(r, {})
+    t = r["application"]["targets"][0]
+    t["stated"] = True
+    gate_record(r, {})
+    assert t["confirmed"] is True
+    assert "gate_reason" not in t

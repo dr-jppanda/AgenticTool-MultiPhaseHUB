@@ -1,0 +1,114 @@
+{
+  "p_sat": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "atm",
+    "evidence": [
+      {
+        "quote": "For saturated water at 1\natm, the capillary length is 2.51 mm"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 218.6,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "the pH 10 copper foam leads to the highest CHF among the foams at 218.6 W/cm2, which is 113 %\nlarger than polished copper"
+      },
+      {
+        "quote": "The CHF value for the polished\ncopper surface is 102.6 W/cm2, which is close to Zuber's limit of 110 W/\ncm2."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 15.83,
+    "max": 15.83,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "The maximum HTC for a polished copper surface is h = 6.4 W/cm2\nK at a wall superheat (ΔT = 15.83 °C)."
+      }
+    ]
+  },
+  "D_h": {
+    "min": 10.0,
+    "max": 10.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The heating element includes a\ncopper block with a boiling surface area of 10 mm × 10 mm"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

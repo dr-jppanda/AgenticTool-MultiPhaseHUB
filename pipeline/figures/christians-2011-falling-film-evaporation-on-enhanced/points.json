@@ -1,0 +1,264 @@
+{
+  "record_id": "christians-2011-falling-film-evaporation-on-enhanced",
+  "extractor": "mhtdb-digitize/v1",
+  "series": [
+    {
+      "series_id": "fig-2-T5C",
+      "figure_id": "fig-2",
+      "label": "Temperature = 5\u00b0C",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW m^-2",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW m^-2 K^-1",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          26.16,
+          27.72
+        ],
+        [
+          25.41,
+          26.67
+        ],
+        [
+          34.01,
+          25.8
+        ],
+        [
+          33.45,
+          25.07
+        ],
+        [
+          37.73,
+          22.65
+        ],
+        [
+          38.02,
+          22.86
+        ],
+        [
+          38.54,
+          23.93
+        ],
+        [
+          37.76,
+          23.1
+        ],
+        [
+          43.38,
+          22.36
+        ],
+        [
+          43.4,
+          22.34
+        ],
+        [
+          46.57,
+          22.16
+        ],
+        [
+          46.14,
+          21.87
+        ],
+        [
+          48.52,
+          21.58
+        ],
+        [
+          48.24,
+          21.45
+        ]
+      ],
+      "confidence": 0.93,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Filled blue circle markers (fill=stroke=blue), isolated by fill color and excluded the legend marker glyph. Axis calibrated from vector tick-label glyph positions (x: 0/20/40/60/80/100, y: 0/10/.../70). Marker centers taken as bounding-box centroids; error-bar whiskers (blue open strokes) were excluded from the point set."
+    },
+    {
+      "series_id": "fig-2-T10C",
+      "figure_id": "fig-2",
+      "label": "Temperature = 10\u00b0C",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW m^-2",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW m^-2 K^-1",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          25.81,
+          28.15
+        ],
+        [
+          26.1,
+          27.45
+        ],
+        [
+          30.39,
+          26.16
+        ],
+        [
+          29.85,
+          25.56
+        ],
+        [
+          33.97,
+          24.53
+        ],
+        [
+          33.67,
+          24.27
+        ],
+        [
+          38.42,
+          22.63
+        ],
+        [
+          36.63,
+          22.87
+        ],
+        [
+          44.0,
+          22.21
+        ],
+        [
+          44.74,
+          22.33
+        ],
+        [
+          51.88,
+          22.07
+        ],
+        [
+          53.18,
+          21.7
+        ],
+        [
+          53.16,
+          22.37
+        ],
+        [
+          53.62,
+          22.23
+        ],
+        [
+          55.48,
+          22.42
+        ],
+        [
+          55.36,
+          22.4
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Open red triangle markers (unfilled, red stroke, closed 3-segment path), isolated by stroke color and excluded the legend triangle glyph. Marker centers taken as bounding-box centroids of each triangle path."
+    },
+    {
+      "series_id": "fig-2-T15C",
+      "figure_id": "fig-2",
+      "label": "Temperature = 15\u00b0C",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW m^-2",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW m^-2 K^-1",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          28.47,
+          30.39
+        ],
+        [
+          28.42,
+          30.81
+        ],
+        [
+          32.16,
+          26.01
+        ],
+        [
+          32.23,
+          26.32
+        ],
+        [
+          36.63,
+          25.52
+        ],
+        [
+          36.22,
+          25.33
+        ],
+        [
+          42.46,
+          23.11
+        ],
+        [
+          42.36,
+          23.42
+        ],
+        [
+          45.02,
+          22.67
+        ],
+        [
+          45.02,
+          22.83
+        ],
+        [
+          51.42,
+          22.25
+        ],
+        [
+          51.21,
+          22.39
+        ],
+        [
+          57.79,
+          21.89
+        ],
+        [
+          57.84,
+          21.82
+        ],
+        [
+          63.69,
+          22.01
+        ],
+        [
+          63.67,
+          22.08
+        ],
+        [
+          67.22,
+          21.61
+        ],
+        [
+          67.58,
+          22.06
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Open green square markers (unfilled, green stroke), isolated by stroke color and excluded the legend square glyph. Marker centers taken as bounding-box centroids of each square path."
+    }
+  ]
+}

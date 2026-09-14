@@ -1,0 +1,477 @@
+{
+  "doc_id": "110f0b5d9775d619",
+  "source": "papers\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1.pdf",
+  "text": "Nucleate boiling from smooth and rough surfaces - Part 1: Fabrication\nand characterization of an optically transparent heater-sensor substrate\nwith controlled surface roughness\nJohn P. McHale, Suresh V. Garimella \u21d1\nCooling Technologies Research Center, an NSF IUCRC, School of Mechanical Engineering and Birck Nanotechnology Center, Purdue University, West Lafayette, IN 47907-2088, USA\na r t i c l e\ni n f o\nArticle history:\nReceived 21 February 2012\nReceived in revised form 30 July 2012\nAccepted 9 August 2012\nAvailable online 24 August 2012\nKeywords:\nPool boiling\nNucleate boiling\nSurface roughness\nHeater design\nITO\nTransparent conductive oxide\na b s t r a c t\nThe effect of surface roughness on nucleate boiling heat transfer is not clearly understood. This study is\ndevised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface\nwith controlled roughness. This first of two companion papers discusses details of the fabrication, construction, and operation of the experimental facility. Test pieces are fabricated from 50.8 mm 50.8 mm\n3.18 mm borosilicate glass squares that are roughened by abrading with diamond compound with particles of known size and then annealed in order to control small-scale roughness features. Heater/sensor\ndevices are fabricated by depositing indium tin oxide (ITO), a transparent electrically conductive material, on top of the roughened glass surfaces. A method for calibrating the ITO devices for use as temperature sensors is developed. Experimental boiling curves are reported for seven surfaces of different\nroughness tested in the perfluorinated fluorocarbon liquid, FC-72. The measured receding contact angle\nfor FC-72 on the ITO-coated surfaces is reported. The wall superheat during saturated pool boiling at\natmospheric pressure was found not to vary consistently with surface average roughness (Ra) values.\nQualitative differences between smooth and rough surface boiling visualizations obtained simultaneously from the side and from below the heaters are discussed.\n2012 Elsevier Inc. All rights reserved.\n1. Introduction\nNucleate boiling is widely relied upon as a highly effective\nmeans of dissipating heat from critical devices such as nuclear fuel\nrods, power electronics, and propulsion devices. Often the device\nefficiency, performance and operational safety of the device are\nclosely linked to the amount of power that can be dissipated while\nmaintaining the temperature within specified system limits. The\npower dissipation bottleneck is linked to the resistance to heat\nflow into the coolant via nucleate boiling; it is desirable to reduce\nthe wall superheat at all points of the boiling curve, and to predict\nit as closely as possible.\nSurface condition was found to significantly affect the boiling\ncurve even by early researchers such as Jakob [1]. Rohsenow [2] included a surface-fluid interaction factor Csf in his widely used pool\nboiling correlation, acknowledging the role of surface structure and\nliquid contact angle. Subsequent researchers [3-6] showed that the\npresence of cavities of certain size and shape was a necessary condition for nucleation of bubbles. Several experiments (e.g., [7-10])\nhave been conducted to ascertain values of wall superheat or Csf for\ndifferent surface roughness conditions. Surface roughness is a measurable quantity, and therefore a number of works [11-14] have\ntied their individual pool boiling heat transfer results to measured\nroughness parameters. The most commonly correlated roughness\nparameters are termed R values (Ra, Rq, Rp, etc.). Several correlations covering a wide range of fluids and R values are available,\nand were recently reviewed by Jones et al. [15]. Inconsistencies between experimental results and predictions from R-based correlations have been noted by several authors [14-17]. Jones [18]\nproposed a modification of the roughness factor in the Cooper\n[19] correlation, which somewhat decreased errors in predicted h\nvalues vs a large number of data sets from the literature.\nIt is widely acknowledged in the literature that the boiling\ncurve must depend on details of the nucleating bubbles, namely\nthe nucleation site density, bubble departure size and growth rate,\nand frequency of ebullition. The nucleation site density correlation\nof Hibiki and Ishii [20] is fairly definitive and agrees with the extant data to within approximately 50% - an impressive statistic\nconsidering the many orders of magnitude spanned. No broad, uniformly applicable correlation is available for bubble departure\ndiameters and frequencies, however, though a couple of recent\nmodels [21,22] have reported progress. A survey of the literature\non the subject (see, e.g., Carey [23]) reveals that there is a lack of\nagreement even on the important independent variables that\nshould be considered. McHale and Garimella [24] recently showed\n0894-1777/$ - see front matter 2012 Elsevier Inc. All rights reserved.\nhttp://dx.doi.org/10.1016/j.expthermflusci.2012.08.006\n\u21d1Corresponding author. Tel.: +1 765 494 5621.\nE-mail address: sureshg@purdue.edu (S.V. Garimella).\nExperimental Thermal and Fluid Science 44 (2013) 456-467\nContents lists available at SciVerse ScienceDirect\nExperimental Thermal and Fluid Science\njournal homepage: www.elsevier.com/locate/etfs\nthat surface roughness had an effect on departure diameter and\nfrequency in pool boiling of the dielectric liquid, FC-77.\nThe present work aims to improve the understanding of the effect of surface roughness on nucleate boiling heat transfer. A new\nexperimental facility is devised in which the heater surface and\nits roughness are well characterized, pool boiling is exhaustively\nvisualized for each test condition, and automated bubble measurements are obtained from the visualizations. Details of the fabrication, design, and operation of the experimental facility and test\npieces are reported here. Characterization of test surface roughness\nis discussed, and then the boiling heat transfer results are pre-\nsented. In a companion paper [25], a characteristic length scale is\ndeveloped for boiling from rough surfaces and new surface roughness measures are defined. The automated measurement technique employed for bubble measurements is assessed. Analysis\nof the heat transfer and bubble measurements is finally performed,\nelucidating trends that may contribute to the development of comprehensive correlations based on surface roughness.\n2. Device fabrication\nSeven optically transparent heater-sensor test pieces with different scales of surface roughness were prepared for this work.\nThe transparent substrates allowed for simultaneous visualizations\nof boiling to be obtained from the side and from below the heater.\nFabrication of the boiling substrates required three steps as described below: (1) surface roughening, (2) heater material coating,\nand (3) patterning.\n2.1. Surface roughening\nBlanks\nof\n50.8 mm 50.8 mm 3.18 mm\nborosilicate\nfloat\nglass squares (McMaster-Carr 8476K121) with both sides initially\nsmooth served as the starting material. Surface roughness was imparted to one side of each part by abrading with a diamond paste\n(Kay Diamond Products KG3013) containing particles of a known\nsize range. The details of the surface preparation process were as\nfollows.\nFirst, the test piece blanks were fixed into a wood block containing a shallow recess with double-sided tape. A small amount of\ndiamond paste and several drops of lubricating oil (Edge liquid)\nwere placed on the abrasion surface, a 153 mm 153 mm sheet\nof borosilicate float glass. The abrasive slurry was mixed and\nspread with a fingertip, and then the wood block fixture containing\nthe test blank was pressed against the abrasive. The fixture was\nmoved repeatedly in a random, somewhat circular path with 100\nrepetitions. The roughened test blanks were then removed from\nthe block and cleaned thoroughly in order in soap and water, toluene, acetone, and then isopropyl alcohol. Cleaning with the latter\nthree solvents was conducted for 5 min each in an ultrasonic\ncleaner.\nFollowing roughening and cleaning, the blanks were annealed\nin a tube furnace (Blue M model STF55321C) at temperatures of\nat least 725 C to remove radial and lateral cracks below the surface (see, e.g., [26]) which may otherwise act as invisible vapor trap\nsites. Different annealing conditions were applied to some surfaces\nin order to vary not only the size of roughness features, but their\nstructure as well. Abrasive particle nominal diameters dp,nom,\nannealing conditions, and resulting surface average and rms roughnesses (Ra and Rq, respectively) of each test substrate are listed in\nTable 1. SEM images of 250-lm particle abraded surfaces annealed\nunder different conditions are shown in Fig. 1 to show the effect of\nannealing conditions on surface structure.\n2.2. Heater material coating\nAfter annealing, the roughened faces of the parts were conformally coated with approximately 250 nm of indium tin oxide\n(ITO) using a sputtering technique. The resulting coated surfaces\nexhibited either a yellow or blue-indigo color, depending upon\nthe coating batch. Following ITO coating, the parts were again\ncleaned in toluene, acetone, and then methanol. 10 nm of titanium\nas an adhesion layer and then 200 nm of gold were evaporated\nNomenclature\nC\nconvection constant\nCsf\nRohsenow [2] surface-fluid interaction factor\ndp\nparticle diameter (m)\nh\nheat transfer coefficient (W/m2 K)\ni\ncounting index in summations\nk\nthermal conductivity (W/m K)\nn\nmaximum value of counting index in summations\nR\nelectrical resistance (O)\nRp\nvertical roughness parameter (lm)\nRa\naverage roughness (lm)\nRq\nroot-mean-square roughness (lm)\nq\nheat flux (W/cm2)\nt\ntime (s)\nT\ntemperature (K) (unless C is specified)\nDT\ntemperature difference with respect to saturation (K) or\n( C)\nx\nlateral surface length dimension (m)\ny\nlateral surface width dimension (m)\nz\nvertical surface height dimension (m)\nGreek\nh\nliquid side contact angle ( )\nx\nunder relaxation factor in Eqs. (5)-(7), dimensionless\nSubscripts\napp\napparent\nanneal\nannealing\ncalc\ncalculated value\nexp\nexperimental value\nhigh\nhighest of data set\nlow\nlowest of data set\nloss\nheat flux loss from test strip by spreading through sub-\nstrate\nmax\nmaximum\nnc\nof natural convection\nnew\nnext iteration value, Eqs. (5)-(7)\nnom\nnominal\nold\ncurrent iteration value, Eqs. (5)-(7)\np\nparticle\nr\nreceding\ns\nof the solid\nsat\nat saturation\ntot\ntotal heat flux\nw\nof the heated wall\n1\nconvection ambient\nSuperscripts\n\u2044\nvalue normalized by value at saturation\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n457\nsuccessively onto the ITO surface to provide for isopotential electrical contacts.\n2.3. Patterning\nThe parts were then subjected to a 2-step conventional microlithography process in order to pattern ITO heater strips and gold\ncontacts. The photolithography mask patterns are shown in\nFig. 2. Before each of the two steps, the test pieces were cleaned\nin toluene, acetone, and isopropanol for 5 min each, then prebaked\nfor 10 min in a 90 C oven to drive off residual liquid molecules.\nAZ-9260 (AZ Electronic Materials USA Corp.) positive photoresist\n(PR) was applied to the surface by spinning at 4000 rpm for 40 s,\nwith a 2-s ramp up in order to prevent the relatively massive test\npiece from slipping off the spinner vacuum chuck. The resulting PR\nthickness for the spin recipe was approximately 7 lm [27], enough\nto coat even the largest asperities (as verified by visual inspection\nunder a microscope). The PR-coated parts were softbaked in a\n110 C oven for 4 min, then inserted into the mask aligner (Karl\nSuss model MJB-3). After aligning the mask to the part, the coated\nsurface was subjected to UV light from the aligner's internal mercury arc lamp at an intensity of 1200 mJ/cm2 for 36 s. Following\nexposure, the test pieces were developed in a 3:1 solution of water\nand AZ 400 K for 2 min, and then hardbaked in a 90 C oven for\n10 min.\nIn the first patterning step, the entire heater and marker array\nwas patterned by successively etching the gold, titanium, and\nITO layers, removing all areas not appearing black in Fig. 2a. In\nthe second patterning step, the photoresist was patterned according to the black areas of Fig. 2b. Only gold and titanium were re-\nmoved in this step, leaving the ITO pattern unmodified.\nThe 200-nm gold layer was removed in approximately 2 min by\nimmersion in a gold-specific etchant containing potassium iodate\n(Transene Gold Etch TFA). The 10-nm titanium adhesion layer\nwas then etched using ''base piranha'' solution consisting of three\nparts NH4(OH) (29% by mass in water) to 1 part H2O2 (30% by mass\nin water), requiring about 30 s for complete removal. The ITO layer\nwas etched in concentrated HCl (37% by mass in water), a process\nthat required soaking between 5 and 15 min depending upon the\nITO coating batch. Undercutting of up to 10 lm was observed,\nthe HCl etch being anisotropic and local etch rates being highly\ndependent upon the material composition and/or surface geometry. After etching, the photoresist etch stop was removed by soaking in toluene, followed by acetone and then isopropanol.\nCompleted parts (see Fig. 3) contained four test strips of different widths flanked by gold electrodes with good adhesion and electrical contact properties, with minimum separations of 1 mm\nbetween electrical contacts for different strips. The test strips chosen for this study measured 25 mm long 400 lm wide, a width\nwhich was found experimentally to provide an optimum combination of heat transfer data and bubble visualization. Each completed\npart also contained a 25 mm long 16 mm wide test area so that\nsessile drop contact angle measurements could be performed on\na large ITO-coated area.\n3. Experimental facility\nThe experimental facility (shown in Fig. 4) for the boiling tests\nwas designed to be operated as a sealed system with good thermal\ncontrol and good optical and electrical access for a wide variety of\nmeasurements. The potential for chemical incompatibility across\nmany possible working fluids also required the number of\nTable 1\nTest substrate parameters.\nDevice\nno.\ndp,nom\n(lm)\nTanneal\n( C)\ntanneal\n(min)\nRa,low\n(lm)\nRa,high\n(lm)\nRq,low\n(lm)\nRq,high\n(lm)\n1\n-\n-\n-\n0.263\n0.341\n0.319\n0.423\n2\n15\n725\n5\n0.622\n0.726\n0.789\n0.930\n3\n30\n740\n15\n1.396\n1.649\n1.755\n2.09\n4\n100\n725\n5\n4.25\n5.17\n5.22\n6.66\n5\n250\n725\n5\n7.51\n13.04\n9.13\n16.46\n6\n100\n740\n15\n4.40\n5.48\n5.41\n7.16\n7\n100\n750\n45\n3.73\n5.04\n4.58\n6.38\nFig. 1. SEM photos of surface morphology change of roughened borosilicate glass\nwith increasing annealing temperature and soak time: (a) 725 C 5 min, (b)\n740 C 15 min, and (c) 750 C 45 min.\n458\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\nmaterials used in the facility to be limited. Plastics were avoided\nwhenever possible.\nThe working fluid used in the present tests, FC-72, has a low\nthermal conductivity relative to water - approximately 0.06 W/\nm K at 25 C [28]. In addition, the refractive index of FC-72 changes\nmoderately with temperature [29], which could result in severe\nindex gradients and thus significant local image distortions if the\nliquid pool temperature were allowed to stratify. Optical access\nwas required from four directions, complicating the application\nof a uniform temperature boundary condition preventing thermal\nstratification in the pool. The conflicting optical and thermal\nrequirements were resolved as follows.\n3.1. Sealing\nThe chamber was constructed of six PEEK sheets, each 19 mm\nthick (except for the 23.8-mm thick floor), fastened together to\nform an airtight thermally insulating box. PEEK was chosen as the\nwall material due to its excellent mechanical properties and chemical inertness, along with its robustness through thermal cycling.\nThe four walls were bonded using an epoxy sealant (Loctite Hysol\nE-214HP) known to have good compatibility with fluorochemical\nliquids, and were held together with screws at each joint. PTFE gaskets separated the floor and ceiling of the chamber from the walls;\nscrews from floor and ceiling into the walls maintained seals at the\njoints when assembled. Rectangular borosilicate glass viewing windows measuring 76.2 mm wide 50.8 mm high 4.76 mm thick\nwere located in the front and rear walls of the chamber, as well as\nin the ceiling. These were sealed with PTFE-encapsulated rubber\no-rings. The transparent test piece was set into a raised platform\nin the center of the chamber floor, also sealed from below with a\nsimilar o-ring. Each glass sealing part (including the test piece)\nwas held in place by one or two PEEK clamping parts screwed into\nthe facility box.\n3.2. Thermal control\nThe walls, floor, and ceiling of the chamber contained drilled\nchannels through which a secondary heating/cooling fluid was\npassed in order to fix the temperature of the pool. Also in the secondary fluid loop, a coiled stainless steel tube mounted in the ceiling of the chamber acted as a condenser to the working fluid when\nnecessary. An immersion-style cartridge heater was installed at the\nlowest point of the pool in order to bring the working fluid rapidly\nup to the saturation temperature and to allow the chamber to be\ndegassed by vigorous boiling. Heat was rejected from the cooling\nloop by a fan-cooled multipass finned heat exchanger. A second\npane of glass separated by a 25-mm sealed air gap was used to create an adiabatic boundary below the test piece. The bottom pane\nwas coated with ITO for resistive heating and maintained within\n5 C of the saturation temperature. Finally, hot air close to the saturation temperature was directed at the front glass viewing win-\n(b)\n(a)\nFig. 2. Two-stage mask used in pattern definition of (a) ITO, and (b) metallization.\nFig. 3. Photos of completed boiling test pieces: (a) surface 1, polished - reverse side,\nand (b) surface 4, 100-lm particle abraded - top side.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n459\ndow in order to prevent excess heat transfer at this surface (which\nwould otherwise lead to changes in refractive index of the working\nfluid and significant optical measurement errors).\n3.3. Instrumentation and optical access\nIn order to provide power and measurement across the four test\nstrips on the test piece, 16 sealed electrical couplings, eight on each\nside, were fixed into the floor of the pool chamber and sealed with\nE-214HP epoxy. Each heater/sensor was connected to the couplings in a 4-wire arrangement, with one pair of PTFE-coated lead\nwires and couplings carrying current and the other pair measuring\nthe voltage drop across the electrodes. Two gold-coated springloaded pins with hemispherical tips made contact with each electrode. The electrical contact resistance of each spring contact was\nmeasured to be approximately 0.1 O; all other connections in the\npower and instrumentation loops had resistances that were negligible in comparison. Solder joints between PTFE-coated lead wires\nwithin the pool and the spring pins were coated with E-214HP\nepoxy to prevent migration of metallic species from/to the solder\njoint. Because the working fluid FC-72 has a very high electrical\nresistivity (1.0 1015 O cm), it was unnecessary to electrically passivate either the test strips or the electrical connections exposed to\nthe fluid.\nComplete optical access to the test strips with backlighting illumination was desired from two orthogonal directions. The maximum\nfield of view for wide-angle recording (as in the present work) was\njust over 25 mm and the working distance was approximately\n20 cm through combined media, primarily air. Minimum window\ndimensions of 50.8 mm were chosen to accomplish wide angle viewing and allow sealing using clamping retainer components.\n3.4. Imaging and instrumentation\nTwo high-speed cameras were used to record boiling images of\nthe entire heater strip at 4000 frames per second, with 1/12,000 s\nexposure time. For the side view, a Photron Ultima APX was used at\n1024 512 resolution, while for the bottom view, a Photron 1024-\nPCI at 1024 256. Both cameras were equipped with identical\nmacro-lenses (Carl Zeiss Makro-Planar T 2/100, optical power\n2 ) set at a focal length of 100 mm and aperture f/2.8. The spatial\nresolution was 34.3 lm/pixel \u00b10.1%.\nBacklighting for the bottom and side view images was provided\nby two red LED light sources (Lightspeed Technologies model\nHPLS-36) pulsing alternately. The LEDs were synchronized with\nthe two high-speed cameras utilizing a TTL-level pulse/delay generator (Berkeley Nucleonics model 555). The pulse width for illumination (proportional to image intensity), generally about 3 ls,\nwas varied within \u00b12 ls for best image quality depending upon\nthe surface and boiling characteristics at each test point.\nThe pool temperature was monitored with a type-T thermocouple attached to the terminals nearest the internal reference junction of an Agilent 34970A data acquisition system and was\naccurate to within 0.5 C. The pool pressure was measured with a\ndigital pressure transducer (Omegadyne PX409-030A) and maintained at 102,700 \u00b1 1400 Pa. Heating and cooling for the secondary\nfluid loop was provided by a ThermoFisher Scientific Neslab EX17\ncirculating heater/chiller. The thermal control fluid was a 50/50\nmix of water and ethylene glycol and was maintained between\n61 and 67 C in order to maintain the pool at the desired pressure\nand temperature, compensating for heat losses from the facility.\nThe electrical power to the test strip was provided by a Kepco\nJQE DC power supply capable of output between 0-150 V and 0-\n1.5 A. All electrical measurements were made using the Agilent\ndata acquisition system. Voltage was measured directly, while current measurements were taken as voltage readings across precision shunt resistors (accuracy \u00b1 0.1%) placed in series with a test\nstrip. The uncertainty of the Agilent voltage measurements was\nnegligible compared to uncertainties in temperature and heat flux\ndiscussed later in this work. High-accuracy 4-wire resistance measurements were made by the Agilent system for each unpowered\ntest strip and shunt resistor (in unpowered state) between each\ntest point to avoid significant uncertainties due to resistor accuracy. Banana plug test leads were used to switch quickly between\npowered and unpowered measurement states for the heater strip.\n4. Experimental method\nPower-controlled boiling curves with decreasing heat input are\nreported in this work, including 13-14 data points collected for\neach test surface. Boiling tests were conducted after first degassing\nthe facility by vigorous boiling from the pool heater for 30 min\ncombined with periodic venting. Once the temperature and pressure in the system stabilized at the expected saturation temperature (57 C) and pressure (102,700 Pa) for a period of several\nminutes, the degassing procedure was deemed complete.\nLarge boiling incipience temperature overshoots are common\nfor the Fluorinert liquids (see, e.g., Jones et al. [15]). To circumvent\nthese temperature overshoots, the voltage input for each data\npoint was initiated at a high enough value to initiate vigorous transition boiling (at a nominal heat flux of approximately 200 kW/m2)\nand allowed to stabilize for a few seconds before decreasing or\nincreasing input voltage to the desired value. Voltage set points\nwere chosen based on the apparent value of critical heat flux and\nthe onset of nucleate boiling (ONB). The actual power dissipation\nand temperature were calculated later from the heater/sensor test\nstrip electrical data.\n1\n2\n3\n4\n4\n5\n6\n7\nFig. 4. Photo of experimental facility showing: (1) pool chamber, (2) secondary\nthermal loop, (3) test piece, (4) high speed cameras, (5) synchronized LED backlight,\n(6) pool thermocouple, and (7) pool pressure transducer.\n460\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n4.1. Temperature sensor calibration\nITO exhibits an approximately linear change in resistance with\nchanges in temperature [30]. The patterned traces on the sub-\nstrates in this work were intended to function as both heaters\nand as resistance temperature devices (RTDs) after calibration.\nThe resistance of each single ITO device, however, was found to\nbe extremely sensitive to atmospheric exposure, electrical activity,\nexposure to elevated temperature, and other long-term aging effects. This sensitivity of ITO device resistivity, which was noted\nby Pascual et al. [30] and Gregory and You [31], is likely due to\nsmall changes in chemical composition and the fact that conduction of electrons within the ternary compound may occur by several methods [32].\nA fast calibration approach was adopted in order to circumvent\nlong-term aging effects. Prior to testing each surface, the entire\nbase of the facility, including the installed test piece, was placed\nin an oven exposed to an ambient atmosphere. A small thermocouple was affixed to the boiling surface with Kapton tape, which was\nthen covered with a 12-mm thick layer of closed-cell silicone foam\ninsulation. The oven temperature was set to the upper limit of the\ncalibration, 100-120 C, the maximum temperature allowable before damaging the test leads. Once the measured temperature stabilized, power to the oven was turned off. The resistance of all four\ntest strips and the affixed thermocouple were simultaneously re-\ncorded as the interior of the oven cooled down over a period of\napproximately 2 h to 10 C below the saturation point. It is noted\nthat the thermal time constant of the test piece including the air\ngap was observed to be significantly less than that of the oven\nsystem.\nSample calibration curves over repeated tests are shown in\nFig. 5a for the 400-lm test strip of surface 5. Multiple tests, however, revealed large-scale shifts in the calibration curve. The resistance values R(T) of each test strip at a temperature T were\ntherefore normalized by their ''baseline'' resistance R(Tsat) at temperature Tsat:\nR \u00f0T\u00de R\u00f0T\u00de\nR\u00f0Tsat\u00de :\n\u00f01\u00de\nT vs R curves were highly repeatable, as shown in Fig. 5b. A\n2nd-degree polynomial (with little deviation from a straight line,\nexcept at high temperatures) was fit to the tabulated T vs R values;\nall temperatures reported in this work are those calculated from\nthe individual curve fits for each test strip. The baseline resistance\nR(Tsat) was measured for each data point during boiling tests, since\nthe resistance of the strip was often observed to change by unexpected amounts, indicating an in situ shift of the T vs R curve either\nto the right or left.\nDuring boiling tests, both the applied voltage and the current\nthrough the heater were measured for a sufficient period of time\nfor the voltage and current to reach a steady state (at least\n5 min). Both the input power to the strip and its resistance were\ndetermined from the measured voltage and current. Immediately\nprior to recording steady-state data, synchronized high-speed videos were taken for 0.5 s. Bubble ebullition behavior was extremely\nconsistent over time for each test condition, and 0.5 s was long enough to capture many consecutive ebullition cycles.\nBetween individual tests for successive data points, power to\nthe test strip was shut off and the system temperature was allowed\n(a)\n(b)\nR [\u03a9]\nT [\u00b0C]\n2020\n2040\n2060\n2080\n2100\n2120\n2140\n2160\n20\n40\n60\n80\n100\n120\nCalibration 1\nCalibration 2\nCalibration 3\nCalibration 4\nR\n* [-]\nT [\u00b0C]\n0.985\n0.99\n0.995\n1\n1.005\n1.01\n1.015\n1.02\n1.025\n1.03\n20\n40\n60\n80\n100\n120\nCalibration 1\nCalibration 2\nCalibration 3\nCalibration 4\nFig. 5. Repeatability of the temperature vs resistance calibration curves for the 400-\nlm test strip of surface 5: (a) unrepeatable results for unmodified resistance values,\nand (b) repeatable results using resistance values normalized according to Eq. (1).\n\u0394Tw [K]\nqapp [W/m\n2]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n50000\n100000\n150000\n200000\n250000\n300000\n350000\n400000\n450000\n500000\nTest 1\nTest 2\nFig.\n6. Apparent\nboiling\ncurves\n(heat\nflux\nuncorrected)\nmeasured\nby\nthe\n400 lm 25 mm ITO heater/sensor test strip of surface 5. Good repeatability was\nobtained between tests.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n461\nto equilibrate for a period of 5 min, during which the heater surface\ntemperature returned to the saturation point. During this time, the\nfour test leads to the test strip were switched between terminal\nconnections on a junction box so that the resistance of the unpowered strip at temperature Tsat could be measured by the data acquisition system.\n4.2. Repeatability\nGood repeatability of data obtained with this procedure was\nconfirmed by repeating the test for surface 5, as shown by the re-\nsults (apparent heat flux, uncorrected for thermal spreading in the\nsubstrate vs wall superheat) plotted in Fig. 6. The mean absolute\ndiscrepancy (MAD) between the two boiling curves accounting\nfor differences in heat flux, defined as:\nMAD 1\u20444 1\nn\nX\nn\ni1\u204441\nabs \u00f0DT1;i DT2;i\u00de\nDT1;max\n\u00f0q1;i q2;i\u00de\nq1;max\nd\u00f0DT\u00de\ndq\n1;i\n\"\n#\n;\n\u00f02\u00de\nwhich accounts for differences in both heat flux and temperature,\nwas 1.1% (percent of full scale). The mean discrepancy [MD, same\ndefinition as Eq. (2), but the term in brackets may carry a negative\nsign] was only 0.2% full scale, indicating that the boiling curves as a\nwhole were not significantly different. When normalizing the discrepancy between each pair of points by their average magnitude\nrather than the full-scale value, MAD was 2.5% and MD was 0.7%.\nThe practical temperature uncertainty of the facility, incorporating\nall factors, is therefore taken to be 2.5% for a single point and 1.1%\nfor an entire curve below the maximum calibration temperature\n(100-120 C). Above this temperature, linear extrapolations of the\ncalibration curves were used.\n4.3. Contact angle measurements\nThe liquid contact angle h is an important parameter in modeling boiling characteristics such as nucleation site density [20] and\nbubble departure diameter [23,33]. Static contact angle may be the\nmost important parameter representing the interaction between\nthe fluid and specific nucleation sites [20,34,35], although dynamic\nwetting phenomena may also be important [36,37]. Dynamic contact angles are known to be a strong function of interface velocity\n[38] and can affect the size and growth rate of vapor bubbles under\ncertain conditions [39]. Robust investigation of these effects is beyond the scope of the current work, but it is clear from the literature that h must be considered in some form whenever surface\neffects are evaluated.\nThe receding contact angle hr was measured for sessile, evaporating FC-72 droplets of 5 ll initial volume on surfaces 1-7, as given in Table 2. Measurements were conducted on an unheated\nsubstrate at room temperature (23 C) open to the laboratory environment. The evaporating receding angle was nearly independent\nof droplet size (an observation consistent with detailed evaporating droplet studies [40,41]). Static contact angles appeared to be\nless than 50% higher than the receding angles, but could not be pre-\ncisely measured due to evaporation. Receding angles, however,\ncould be measured repeatably, with small uncertainties.\nOptical effects due to the roughness of several of the surfaces\nprevented\nthe\ngoniometer\n(Rame-Hart\nModel\n290)\nfrom\ndistinguishing the droplets for all surfaces, especially when color\ninversion occurred for very rough surfaces and low-angle droplets.\nThe images from the goniometer - Table 2a - were therefore differenced with a clean (droplet-free) reference image - Table 2b, thresholded and finally fit with a circular arc - Table 2c - in order to\nTable 2\nReceding contact angles of FC-72 on ITO were measured for all surfaces by: (a) imaging with a backlit\ngoniometer, (b) absolute differencing of the image with a clean reference frame, and (c) fitting a spherical cap\nto the upper surface of the thresholded droplet image.\nS\n462\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\ndetermine the contact angle. In the differencing operation, intensity values between 0 and 1 of each pixel in the reference image\nwere subtracted from the corresponding values in the droplet image and the absolute value of the result was increased in contrast\nby 200%. Forty or more samples were analyzed for each surface\n(except for surface 5, for which 22 samples were analyzed), resulting in uncertainties between 0.4 and 1.0 . The contact angles decreased almost monotonically with measured Ra values.\n5. Data reduction\n5.1. Heat loss calculation\nIn constructing boiling curves, the temperature data (abscissa)\ncould be easily calculated from the calibration curves described\nin Section 4.1. The boiling heat flux data (ordinate), however, could\nnot be obtained in a similar direct manner. The power dissipation,\nor apparent heat flux qapp, and the heater area were known to high\naccuracy, but a significant amount of heat was dissipated into the\nfluid after conduction through the substrate to areas beyond the\nheater strip. The adiabatic boundary condition provided by the\nheated double pane arrangement below the test surface minimized\nheat loss from the test strip, but the spreading effect was still\nsignificant.\nA 2-D numerical model was implemented in the commercial\nsoftware program, FLUENT [42], in order to estimate the heat loss\nand boiling heat flux for test strips of different width under the following assumptions. The model consisted of a 3.18 mm 20 mm\nrectangular solid domain representing a cross section of the glass\ntest piece as shown in Fig. 7a. Symmetry conditions were imposed\non the right and left boundaries, while the bottom wall was set to\neither convection to air or adiabatic conditions in order to assess\nthe importance of different heat loss mechanisms. The upper heater surface was set to a temperature-dependent convection condition by means of a user-defined function (UDF). The UDF\napproximated convective boiling with the working fluid FC-72 at\nits saturation temperature 329 K. Heat transfer coefficients were\ntemperature-dependent, with values based on the FC-77 pool boiling experiment of Jones et al. [15]. Heat transfer coefficients above\nthe glass surface were also temperature-dependent, with values\nbased on the single-phase portion of the FC-77 curves of [15]. Heat\ninput to the test strip was modeled as a volumetric heat generation\nin the very thin ITO heater half-domain.\nResults of the parametric study shown in Fig. 7b indicate that\nmeasured values of heat flux would be subject to large errors, particularly for the narrower heater strips, if not corrected using the\nnumerical model. It is apparent from the plot that, as the representative length scale (the heater half-width) decreases, even a thermal insulator such as borosilicate glass (ks 1.4 W/m K) can lead\nto effective extended surface heat transfer.\nThe 400-lm test strip was selected for boiling tests due to its\nlower spreading heat loss than the 100-lm test strip and clearer\nvisualizations than the 1600-lm test strip. The boundary conditions in the numerical model were then modified to simulate each\nindividual test condition as closely as possible, with heat generation within the 400-lm test strip set to the experimental value.\nThe fundamental assumption of the numerical model is that the\nrelationship between heat transfer coefficient and temperature expressed by the average boiling curve for the entire surface is also\ntrue for the spatially varying temperature field associated with a\nparticular test condition. Therefore, an estimate of the true boiling\ncurve for a surface is needed for the convection boundary condition\nUDF. The single phase regime was modeled as:\nq 1\u20444 C\u00f0DT\u00de1:25;\n\u00f03\u00de\nor h 1\u20444 C\u00f0DT\u00de0:25\n\u00f04\u00de\nwhere the coefficient C is a parameter to be optimized and the DT\ndependence follows the natural convection formulation for the upward-facing surfaces of horizontal plates at lower Rayleigh numbers\n[43]. An upper limit of temperature was specified for the natural\nconvection portion of each boiling curve by inspection of the data.\nHeat transfer coefficients for the boiling portion of the curve were\npiecewise linear between best estimate values corresponding to\nthe experimental data points. The FLUENT model was then run as\na feedback loop in which a new, improved estimate of the boiling\ncurve was obtained after each converged set of results:\nCnew 1\u20444 Cold 1 x\nP\ni\u00f0Tw;exp;i Tw;calc;i\u00de\nP\niDTw;exp;i\n;\n\u00f05\u00de\nand qnew 1\u20444 qold 1 x DTw;exp DTw;calc\nDTw;exp\n\u00f06\u00de\n(a)\n(b)\nTemperature:\n328.8\n330.133 331.467\n332.8\n334.133\n400 \u03bcm strip, 50,000 W/m\n2\nestimated boiling curve on ITO heater\nnatural convection on glass top, T\u221e=329 K\n1.4 W/m\n2K convection on glass bottom, T\u221e=310 K\nITO HEATER\nsymmetry\nglass top\nglass bottom\nsymmetry\nq [W/m\n2]\n\u0394Tw [K]\nqloss/qtot [-]\n0\n50000\n100000\n150000\n200000\n0\n5\n10\n15\n20\n0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1\n100 \u03bcm\n1600 \u03bcm\n400 \u03bcm\n16000 \u03bcm\n16000 \u03bcm\n1600 \u03bcm\n400 \u03bcm\n100 \u03bcm\nFig. 7. Results of heat spreading simulations under simplified assumptions: (a)\ntemperature contours for the 400-lm heater strip at qapp = 50,000 W/m2; and (b)\nestimated effects of heater size and heat flux on the ratio of heat loss by spreading\nto total heat input.\nTable 3\nOverall error in wall superheat of apparent boiling curves (heat loss simulation vs\nexperimental values).\nDevice no.\nRa,low (lm)\nRMS error (K)\n1\n0.263\n0.843\n2\n0.622\n0.568\n3\n1.396\n0.746\n4\n4.25\n0.375\n5\n7.51\n0.332\n6\n4.40\n0.531\n7\n3.73\n0.470\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n463\nor hnew 1\u20444 hold DTw;calc x DTw;exp DTw;calc\nDTw;exp DTw;calc\n:\n\u00f07\u00de\nThe default value of the feedback underrelaxation factor x was\nunity, although in some cases it needed to be reduced initially in\norder to prevent negative values for h.\nUpon convergence of the FLUENT model for each feedback loop\niteration, the mean surface temperature of the simulated test strip\nwas calculated. New guesses obtained from Eqs. (6) and (7) were\nfed into the feedback loop, calling the FLUENT model repeatedly\nuntil the apparent boiling curves from the experiment were reproduced with minimal error. Root-mean-square (RMS) errors in temperature between reproduced and experimental boiling curves\nwere about 0.5 K on average and are given in Table 3. Sensitivity\nof the heat flux values to changes in input temperature suggest\nthat the uncertainty in individual heat flux values calculated from\nthe numerical simulations is around 20% for the nucleate boiling\nportion of the curve.\n5.2. Characterization of heater surface roughness\nComprehensive measurement of the surface roughness features\nis described here. Complete 3D maps of each test strip measuring\n25 mm 400 lm were obtained with a Zygo Newview 6200\nwhite-light optical interferometer at 50 magnification. A whitelight interferometer can only resolve very steep asperity angles at\nsuch a high magnification; the amount of x-y-z data for entire test\nstrips at this magnification, however, exceeded the software stitching limitations of the instrument. The profile data for individual\nscans were therefore stitched together using a custom MATLAB\n[44] code. Alignment features on the part were used to map the part\ncoordinate system (with origin at the center of the edge between the\nleft electrode and the 400-lm test strip, and the test strip extending\nin the positive x-direction) to the instrument coordinate system. The\nresulting irregular data points were Delaunay-triangulated using\nthe MATLAB command TriScatteredInterp() and mapped onto the\nregular mesh grid with x-range [0,25] and y-range [ 0.2,0.2] and\nidentical x- and y-dimension spatial resolution using the function's\nlinear interpolation option. Missing data points (NaN values) were\nautomatically filled by the triangulation-interpolation scheme.\nRa and Rq values shown in Table 1 were calculated for the entire\nsurface. There is no clear standard for the length scale that these\nmeasurements should span. Therefore, Ra and Rq were calculated\nfor interrogation windows of 400 lm length (y) and widths (x)\nranging from 1.767 lm (the horizontal resolution of the instru-\nFig. 8. Interrogation windows were selected over multiple length scales for calculation of average Ra and Rq surface roughness parameters (only the portion of the surface\nbetween x = 23 mm and x = 25 mm is shown for clarity of illustration).\n464\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\nment) to 25 mm. For each window, a base plane was fit to the data\nand the deviations from this plane were used in the calculations.\nFor interrogation widths less than 25 mm, all possible non-\noverlapping interrogation windows (as shown in Fig. 8) were\nevaluated and the values averaged. The lowest values invariably\nresulted from the smallest interrogation windows and highest values typically from the largest interrogation windows. The lowest Ra\nvalues are used in all plots and calculations in this paper and the\ncompanion paper [25] for the sake of consistency; it is noted that\nthe low and high values calculated for each surface were not very\ndifferent from each other (as shown in Table 1).\n6. Results\nPool boiling experiments were carried out for the 400-lm test\nstrips on all seven surfaces. Apparent (uncorrected) boiling curves\nfor the seven surfaces are shown in Fig. 9a, and the corrected heat\nflux values accounting for spreading in the substrate by the method of Section 5.1 are shown in Fig. 9b. In this section, properties of\nthe boiling curves are used to assess the quality of data obtained\nfrom the novel devices described in the present work. Quantitative\nand qualitative evaluations of the effect of surface roughness on\nboiling heat transfer and bubble nucleation characteristics are provided. Full statistical analyses of the heat transfer and bubble measurement data are presented in the companion paper [25].\n6.1. Support for reported measurements\nTo the authors' knowledge, ITO devices have not successfully\nbeen used as temperature sensors in any other study of boiling\nheat transfer, and few pool boiling experiments rely so heavily\nupon numerical simulation to determine heat flux values. Additional evidence that the measurements reported here are accurate\nis provided by the following internal consistencies.\nAll uncorrected boiling curves contain a nearly identical natural\nconvection portion, which further validates the approach used to\ncalibrate and measure temperature with the ITO devices. Natural\nconvection heat transfer is the result of transient conduction into\nthe fluid, subject to the instability-related time scale [45]. As such,\nmicron-scale roughness can have little effect on the heat transfer\nsince the surfaces are well wetted, i.e., there is good thermal contact between solid and liquid for all surfaces. Heat flux vs temperature curves for different surfaces in the single-phase regime\nwould therefore be expected to be identical, which is the present\ncase despite that each devices has been independently calibrated.\nAfter applying the heat flux correction, the natural convection\nportions of the various curves are still nearly identical. The numerical heat loss simulation applies the natural convection portion of\nthe curve over much of the upper surface of the test piece when\noptimizing the estimate of the true boiling curve in the feedback\nloop. Thus the calculated heat flux values for the boiling portion\nof the curve are thermally coupled to the natural convection portion. Since simulated values of natural convection are consistent\nand the same for different surfaces, the boiling portions of the\ncurves must also be consistent (though different). The calculated\nboiling curves can therefore be compared with a good degree of\naccuracy, even if an individual heat flux data point may only be\ncertain to within about 20%.\n6.2. Effect of surface roughness on boiling heat transfer\nBoiling curves for the roughened surfaces are characterized by\nDTw values significantly less than those for the smoother surfaces,\nas expected. The Ra values of surfaces 1-7 cover a wide range,\nwhile the boiling curves seem to lie along only three paths. Surprisingly, the boiling curves for surfaces 2 and 7 are almost identical,\nwhile the Ra value of surface 7 suggests that it should have similar\nperformance to surface 3 instead of surface 2. From Table 1, it can\nbe seen that the annealing conditions of surface 7 are more aggressive than for the other surfaces. Fig. 1 shows that these annealing\nconditions cause the fine-scale roughness features to disappear.\nClearly, Ra does not consistently indicate the heat transfer performance of a surface; the Ra measurement ignores fine scale roughness if larger scale asperities are present.\nSurface roughness is clearly a parameter of importance in determining critical heat flux as well as wall superheat. All surfaces\nreached critical heat flux except for surface 5, which did not reach\nan identifiable point of critical heat flux despite the appearance of\ndry patches on the surface at the highest value of apparent heat\nflux, 345,000 W/m2 as shown in Fig. 9a. Approximate values of critical heat flux (CHF) may be inferred from the data for the other surfaces. The wall superheat at the apparent point of CHF for surfaces\n2-7 averaged 29.7 K except for the polished surface, for which\nDTw,CHF was 38.5 K. The corrected critical heat flux qCHF varied\n(a)\n(b)\n\u0394Tw [K]\nqapp [W/m\n2]\n0\n20\n40\n60\n80\n100\n0\n50000\n100000\n150000\n200000\n250000\n300000\n350000\n400000\n450000\n500000\n1\n2\n3\n4\n5\n6\n7\n\u0394Tw [K]\nq [W/m\n2]\n20\n40\n60\n80\n100\n0\n50000\n100000\n150000\n200000\n250000\n300000\n1\n2\n3\n4\n5\n6\n7\n0\nFig. 9. Boiling curves for the seven surfaces tested: (a) apparent (uncorrected) heat\nflux values, and (b) heat flux values corrected by the method of Section 5.1.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n465\nbetween 147,000 W/m2 for the polished surface and 265,000 W/m2\nfor surface 4; qCHF did not appear to correlate well with Ra.\nAnother interesting feature of the test surfaces may be seen by\ncomparing Fig. 9a and b. Although normally absent for power-controlled surfaces, a 'transition' portion of the boiling curve beyond\nCHF is present and controllable. This is due to the fact that the test\nstrip temperature is strongly coupled to the saturation temperature of the fluid by short conduction paths through the substrate.\n6.3. Effects of surface roughness on bubble ebullition\nHigh speed video was simultaneously recorded in bottom and\nside view orientations for each test condition in which boiling occurred, as summarized in Table 4. These results are quantitatively\nanalyzed in the companion paper [25], but general features of the\nboiling are apparent by inspection. In the table, boiling images\nfrom surfaces 1 and 6, representative of smooth and rough surfaces, respectively, are compared for similar heat fluxes. Nucleation\nsite densities are considerably higher for the rough surface. Average bubble departure diameters appear to be somewhat higher\nfor the smooth surface. Departure frequencies, which can be observed in the accompanying videos, are not much different for\nsmooth and rough surfaces. Boiling at values of q near CHF is characterized by large intermittent dry vapor patches at the base of\nmacrobubbles (those formed by multiple mergers) remaining attached to the surface for somewhat prolonged periods. Macrobubbles are significantly larger and experience greater residence times\non the smooth surface than individual bubbles.\nThe active site density may be limited for surface 1 by the number of potential nucleation sites, which contributes to its higher\nwall superheat for a given heat flux. Surface 6, being very rough,\nhas an abundance of potential nucleation sites and many more\nsites active than surface 1. With more bubbles being generated\nper unit area, more of the area of surface 6 benefits from the four\nmechanisms of heat transfer [46] associated with bubble ebullition, rather than only the single-phase conduction mechanism. In\naddition, the bubbles generated by surface 6 seem to remain distinct from one another even at high heat fluxes; vapor patches\ndo not spread beyond the base of a single bubble until a much\nhigher surface heat flux than for surface 1. This may be explained\nby the higher wettability (lower fluid contact angle) on the rough\nsurface, and it could explain [47] its higher CHF than the smooth\nsurface 1.\n7. Conclusions\nA new type of pool boiling facility employing a transparent\nborosilicate glass substrate coated with indium tin oxide was\ndeveloped. The primary strengths of this facility are: (1) the good\ndegree of controllability of the surface roughness features, and\n(2) good optical access for high-quality visualizations from both\nthe side and below the boiling surface. Variation of the ITO heater/sensor resistance with factors other than temperature was taken into account to an excellent degree by normalization with its\nresistance at the saturation temperature, which could be easily\nmeasured between boiling data points. Thermal spreading through\nthe glass substrate was accounted for by 2-D numerical simulations. Surface roughness and liquid contact angle values were measured precisely for the heater surfaces. Resulting boiling curves\nrevealed the importance of the structure as well as the size of surface roughness features. Visualizations of bubble ebullition re-\nvealed bubbles to be smaller and more distinct for a rough\nsurface than for a smooth surface. Active nucleation site densities\nwere higher for the rough surface, and the vapor in contact with\nthe rough surface did not spread as freely as on the smooth surface.\nAcknowledgments\nFinancial support for this work was provided by the Indiana\n21st Century Research and Technology Fund and the Cooling Tech-\nTable 4\nVisual comparison of nucleate boiling from smooth and rough surfaces. The upper image in each block is the\nside view, while the lower image is the bottom view. Scale markings shown in bottom view images are\n500 lm long and spaced 500 lm apart.\n466\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\nnologies Research Center at Purdue University. Ms. Suchismita\nSarangi assisted in construction and operation of the experimental\nfacility, and Mr. Steve Titolo offered useful insights about the facility design. The authors also thank Northrop Grumman Corporation\nfor donating FC-72 working fluid and OPCO Laboratory of Fitchburg, MA for providing preliminary coating samples.\nReferences\n[1] M. Jakob, Heat transfer in evaporation and condensation-I, Mechanical\nEngineering 58 (1936) 643-660.\n[2] W.M. Rohsenow, A method of correlating heat transfer data for surface boiling\nof liquids, Transactions of the ASME 74 (1952) 969-976.\n[3] S.G. Bankoff, A.J. Hajjar, J.B.B. McGlothin, On nature and location of bubble\nnuclei in boiling from surfaces, Journal of Applied Physics 29 (1958) 1739-\n1741.\n[4] S.G. Bankoff, Entrapment of gas in the spreading of a liquid over a rough\nsurface, American Institute of Chemical Engineers Journal 4 (1958) 24-26.\n[5] P. Griffith, J.D. Wallis, The role of surface conditions in nucleate boiling,\nChemical Engineering Progress Symposium Series 56 (1960) 49-63.\n[6] Y.Y. Hsu, On the size range of active nucleation cavities in a heating surface,\nJournal of Heat Transfer 84 (1962) 207-216.\n[7] C. Corty, A.S. Foust, Surface variables in nucleate boiling, Chemical Engineering\nProgress Symposium Series 51 (1955) 1-12.\n[8] P. Berenson, Experiments on pool boiling heat transfer, International Journal of\nHeat and Mass Transfer 5 (1962) 985-999.\n[9] R. Vachon, G. Nix, G. Tanger, Evaluation of constants for the Rohsenow poolboiling correlation, Journal of Heat Transfer 90 (1968) 239-247.\n[10] I.L. Pioro, Experimental evaluation of constants for the Rohsenow pool boiling\ncorrelation, International Journal of Heat and Mass Transfer 42 (1998) 2003-\n2013.\n[11] H.M. Kurihara, J.E. Myers, The effects of superheat and surface roughness on\nboiling coefficients, American Institute of Chemical Engineers Journal 6 (1960)\n83-91.\n[12] K. Bier, D. Gorenflo, M. Salem, Y. Tanes, Pool boiling heat transfer and size of\nactive\nnucleation\ncenters\nfor\nhorizontal\nplates\nwith\ndifferent\nsurface\nroughness, in: Sixth International Heat Transfer Conference, Hemisphere\nPublishing Corp, Washington, DC, USA, 1978, pp. 151-156.\n[13] M.G. Kang, Effect of surface roughness on pool boiling heat transfer,\nInternational Journal of Heat and Mass Transfer 43 (2000) 4073-4085.\n[14] A. Luke, Pool boiling heat transfer from horizontal tubes with different surface\nroughness, International Journal of Refrigeration 20 (1997) 561-574.\n[15] B.J. Jones, J.P. McHale, S.V. Garimella, The influence of surface roughness on\nnucleate pool boiling heat transfer, Journal of Heat Transfer 131 (2009)\n121009.\n[16] R. Benjamin, A. Balakrishnan, Nucleation site density in pool boiling of\nsaturated pure liquids: effect of surface microroughness and surface and liquid\nphysical properties, Experimental Thermal and Fluid Science 15 (1997) 32-42.\n[17] A. Luke, Preparation and analysis of different roughness structures for\nevaporator tubes, Heat and Mass Transfer 45 (2009) 909-917.\n[18] B.J. Jones, Fundamental Studies of Thermal Transport and Liquid-Vapor Phase\nChange\nUsing\nMicroscale\nDiagnostic\nTechniques,\nPhD\nThesis,\nPurdue\nUniversity, West Lafayette, IN, 2010.\n[19] M. Cooper, Saturation nucleate pool boiling: a simple correlation, in: 1st UK\nNational Conference on Heat Transfer, 1984, pp. 785-793.\n[20] T.\nHibiki,\nM. Ishii,\nActive\nnucleation\nsite\ndensity\nin\nboiling\nsystems,\nInternational Journal of Heat and Mass Transfer 46 (2003) 2587-2601.\n[21] C. Yang, Y. Wu, X. Yuan, C. Ma, Study on bubble dynamics for pool nucleate\nboiling, International Journal of Heat and Mass Transfer 43 (2000) 203-208.\n[22] H.C. Lee, B.D. Oh, S.W. Bae, M.H. Kim, Single bubble growth in saturated pool\nboiling on a constant wall temperature surface, International Journal of\nMultiphase Flow 29 (2003) 1857-1874.\n[23] V.P. Carey, Liquid-Vapor Phase-Change Phenomena: An Introduction to the\nThermophysics of Vaporization and Condensation, Hemisphere Publishing\nCorp., Washington, DC, 1992.\n[24] J.P. McHale, S.V. Garimella, Bubble nucleation characteristics in pool boiling of\na wetting liquid on smooth and rough surfaces, International Journal of\nMultiphase Flow 36 (2010) 249-260.\n[25] J.P. McHale, S.V. Garimella, Nucleate boiling from smooth and rough surfaces -\nPart 2: analysis of surface roughness effects on nucleate boiling, Experimental\nThermal\nFluid\nScience,\nhttp://dx.doi.org/10.1016/j.expthermflusci.2012.\n08.005.\n[26] H. Wensink, S. Schlautmann, M.H. Goedbloed, M.C. Elwenspoek, Fine tuning\nthe roughness of powder blasted surfaces, Journal of Micromechanics and\nMicroengineering 12 (2002) 616-620.\n[27] AZ\nElectronic\nMaterials,\nAZ\n9260\nData\nPackage,\n<http://\nwww.nanofab.utah.edu/svn/public/documents/Non%20SOPs/Photoresist/\naz_9260_photoresist.pdf>, 2007 (accessed 06.10).\n[28] 3M Corporation, Fluorinert Electronic Liquid FC-72 Product Information, St.\nPaul, MN, 2000.\n[29] 3M Corporation, Fluorinert Liquids Product Manual, St. Paul, MN, 1986.\n[30] C.C. Pascual, S.M. Jeter, S.I. Abdel-Khalik, Visualization of boiling bubble\ndynamics using a flat uniformly heated transparent surface, International\nJournal of Heat and Mass Transfer 45 (2002) 691-696.\n[31] O.J. Gregory, T. You, Ceramic temperature sensors for harsh environments,\nSensors Journal IEEE 5 (2005) 833-838.\n[32] M. Mizuhashi, Electrical properties of vacuum-deposited indium oxide and\nindium tin oxide films, Thin Solid Films 70 (1980) 91-100.\n[33] W. Fritz, Berechnung des maximalvolume von dampfblasen, Physikalische\nZeitschrift 36 (1935) 379-388.\n[34] J.J. Lorenz, B.B. Mikic, W.M. Rohsenow, Effect of surface conditions on boiling\ncharacteristics,\nin:\nProc.\n5th\nInternational\nHeat\nTransfer\nConference,\nHemisphere, Tokyo, 1974, pp. 35-39.\n[35] W. Tong, A. Bar-Cohen, T.W. Simon, S.M. You, Contact angle effects on boiling\nincipience of highly-wetting liquids, International Journal of Heat and Mass\nTransfer 33 (1990) 91-103.\n[36] Y. Qi, J.F. Klausner, Heterogeneous nucleation with artificial cavities, Journal of\nHeat Transfer 127 (2005) 1189-1196.\n[37] K.\nCornwell,\nOn\nboiling\nincipience\ndue\nto\ncontact\nangle\nhysteresis,\nInternational Journal of Heat and Mass Transfer 25 (1982) 205-211.\n[38] A.M. Schwartz, S.B. Tejada, Studies of dynamic contact angles on solids, Journal\nof Colloid and Interface Science 38 (1972) 359-375.\n[39] A. Mukherjee, S.G. Kandlikar, Numerical study of single bubbles with dynamic\ncontact angle during nucleate pool boiling, International Journal of Heat and\nMass Transfer 50 (2007) 127-138.\n[40] H.Y. Erbil, G. McHale, M.I. Newton, Drop evaporation on solid surfaces:\nconstant contact angle mode, Langmuir 18 (2002) 2636-2641.\n[41] C. Bourges-Monnier, M.E.R. Shanahan, Influence of evaporation on contact\nangle, Langmuir 11 (1995) 2820-2829.\n[42] Fluent Inc., FLUENT 6.2 User's Guide, Lebanon, NH, 2005.\n[43] F. Incropera, D. DeWitt, Free Convection, in: Fundamentals of Heat and Mass\nTransfer, John Wiley & Sons, New York, 2002. pp. 539-592.\n[44] The Mathworks Inc., MATLAB Version 7.8.0, Natick, Massachussetts, 2009.\n[45] A. Bejan, Convection Heat Transfer, John Wiley & Sons, Hoboken, New Jersey,\n2004 (Chapters 4-5).\n[46] S. Moghaddam, K. Kiger, Physical mechanisms of heat transfer during single\nbubble nucleate boiling of FC-72 under saturation conditions. II: Theoretical\nanalysis, International Journal of Heat and Mass Transfer, 52 (2009) 1295-\n1303.\n[47] T.G. Theofanous, J.P. Tu, A.T. Dinh, T.N. Dinh, The boiling crisis phenomenon:\nPart I: Nucleation and nucleate boiling heat transfer, Experimental Thermal\nand Fluid Science 26 (2002) 775-792.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 456-467\n467",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5302
+    },
+    {
+      "number": 2,
+      "start": 5302,
+      "end": 10628
+    },
+    {
+      "number": 3,
+      "start": 10628,
+      "end": 14767
+    },
+    {
+      "number": 4,
+      "start": 14767,
+      "end": 18004
+    },
+    {
+      "number": 5,
+      "start": 18004,
+      "end": 23930
+    },
+    {
+      "number": 6,
+      "start": 23930,
+      "end": 28234
+    },
+    {
+      "number": 7,
+      "start": 28234,
+      "end": 32047
+    },
+    {
+      "number": 8,
+      "start": 32047,
+      "end": 37593
+    },
+    {
+      "number": 9,
+      "start": 37593,
+      "end": 40502
+    },
+    {
+      "number": 10,
+      "start": 40502,
+      "end": 45932
+    },
+    {
+      "number": 11,
+      "start": 45932,
+      "end": 50223
+    },
+    {
+      "number": 12,
+      "start": 50223,
+      "end": 57971
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-john-p-mchale-suresh-v-garimella",
+      "number": null,
+      "title": "John P. McHale, Suresh V. Garimella \u21d1",
+      "level": 1,
+      "start": 176,
+      "end": 5216
+    },
+    {
+      "id": "sec-1-experimental-thermal-and-fluid-science",
+      "number": null,
+      "title": "Experimental Thermal and Fluid Science",
+      "level": 1,
+      "start": 5216,
+      "end": 8654
+    },
+    {
+      "id": "sec-2-table-1-sem-images-of-250-lm-particle-ab",
+      "number": null,
+      "title": "Table 1. SEM images of 250-lm particle abraded surfaces annealed",
+      "level": 2,
+      "start": 8654,
+      "end": 9299
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 9299,
+      "end": 21623
+    },
+    {
+      "id": "sec-1-5",
+      "number": "1.5",
+      "title": "A. All electrical measurements were made using the Agilent",
+      "level": 2,
+      "start": 21623,
+      "end": 27307
+    },
+    {
+      "id": "sec-5-r",
+      "number": null,
+      "title": "R [\u03a9]",
+      "level": 2,
+      "start": 27307,
+      "end": 27313
+    },
+    {
+      "id": "sec-6-t-c",
+      "number": null,
+      "title": "T [\u00b0C]",
+      "level": 2,
+      "start": 27313,
+      "end": 27380
+    },
+    {
+      "id": "sec-7-calibration-1",
+      "number": null,
+      "title": "Calibration 1",
+      "level": 2,
+      "start": 27380,
+      "end": 27394
+    },
+    {
+      "id": "sec-8-calibration-2",
+      "number": null,
+      "title": "Calibration 2",
+      "level": 2,
+      "start": 27394,
+      "end": 27408
+    },
+    {
+      "id": "sec-9-calibration-3",
+      "number": null,
+      "title": "Calibration 3",
+      "level": 2,
+      "start": 27408,
+      "end": 27422
+    },
+    {
+      "id": "sec-10-calibration-4",
+      "number": null,
+      "title": "Calibration 4",
+      "level": 2,
+      "start": 27422,
+      "end": 27436
+    },
+    {
+      "id": "sec-11-r",
+      "number": null,
+      "title": "R",
+      "level": 2,
+      "start": 27436,
+      "end": 27444
+    },
+    {
+      "id": "sec-12-t-c",
+      "number": null,
+      "title": "T [\u00b0C]",
+      "level": 2,
+      "start": 27444,
+      "end": 27523
+    },
+    {
+      "id": "sec-13-calibration-1",
+      "number": null,
+      "title": "Calibration 1",
+      "level": 2,
+      "start": 27523,
+      "end": 27537
+    },
+    {
+      "id": "sec-14-calibration-2",
+      "number": null,
+      "title": "Calibration 2",
+      "level": 2,
+      "start": 27537,
+      "end": 27551
+    },
+    {
+      "id": "sec-15-calibration-3",
+      "number": null,
+      "title": "Calibration 3",
+      "level": 2,
+      "start": 27551,
+      "end": 27565
+    },
+    {
+      "id": "sec-16-calibration-4",
+      "number": null,
+      "title": "Calibration 4",
+      "level": 2,
+      "start": 27565,
+      "end": 27837
+    },
+    {
+      "id": "sec-17-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2,
+      "start": 27837,
+      "end": 27954
+    },
+    {
+      "id": "sec-18-test-1",
+      "number": null,
+      "title": "Test 1",
+      "level": 2,
+      "start": 27954,
+      "end": 27961
+    },
+    {
+      "id": "sec-19-test-2",
+      "number": null,
+      "title": "Test 2",
+      "level": 2,
+      "start": 27961,
+      "end": 36437
+    },
+    {
+      "id": "sec-20-cnew-cold-1-x",
+      "number": null,
+      "title": "Cnew \u00bc Cold 1 \u0005 x \u0006",
+      "level": 2,
+      "start": 36437,
+      "end": 36713
+    },
+    {
+      "id": "sec-1-4",
+      "number": "1.4",
+      "title": "W/m",
+      "level": 2,
+      "start": 36713,
+      "end": 36761
+    },
+    {
+      "id": "sec-22-ito-heater",
+      "number": null,
+      "title": "ITO HEATER",
+      "level": 2,
+      "start": 36761,
+      "end": 36823
+    },
+    {
+      "id": "sec-23-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2,
+      "start": 36823,
+      "end": 37661
+    },
+    {
+      "id": "sec-24-the-default-value-of-the-feedback-underr",
+      "number": null,
+      "title": "The default value of the feedback underrelaxation factor x was",
+      "level": 2,
+      "start": 37661,
+      "end": 41211
+    },
+    {
+      "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+      "number": null,
+      "title": "Pool boiling experiments were carried out for the 400-lm test",
+      "level": 2,
+      "start": 41211,
+      "end": 45460
+    },
+    {
+      "id": "sec-26-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2,
+      "start": 45460,
+      "end": 45584
+    },
+    {
+      "id": "sec-27-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2,
+      "start": 45584,
+      "end": 49740
+    },
+    {
+      "id": "sec-28-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 49740,
+      "end": 50599
+    },
+    {
+      "id": "sec-29-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 50599,
+      "end": 57971
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Before each of the two steps, the test pieces were cleaned",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-2_p3.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "SEM photos of surface morphology change of roughened borosilicate glass",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Two-stage mask used in pattern de\ufb01nition of (a) ITO, and (b) metallization.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-2_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Photos of completed boiling test pieces: (a) surface 1, polished \u2013 reverse side,",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Photo of experimental facility showing: (1) pool chamber, (2) secondary",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-4_p5.png"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "caption": "for the 400-lm test strip of surface 5. Multiple tests, how-",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-5a_p6.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Repeatability of the temperature vs resistance calibration curves for the 400-",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-5_p6.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Results of heat spreading simulations under simpli\ufb01ed assumptions: (a)",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-7_p8.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Interrogation windows were selected over multiple length scales for calculation of average Ra and Rq surface roughness parameters (only the portion of the surface",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-8_p9.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Boiling curves for the seven surfaces tested: (a) apparent (uncorrected) heat",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part1\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part1_fig-9_p10.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "SEM images of 250-lm particle abraded surfaces annealed",
+      "page": 2,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 3,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "",
+      "page": 11,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 12,
+    "ingest": "pymupdf"
+  }
+}

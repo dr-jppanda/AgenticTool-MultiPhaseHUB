@@ -1,0 +1,126 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 6.7,
+    "max": 8.3,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "smooth copper surface (heat flux: 8.3 W/cm2; superheat: 9.9 K)"
+      },
+      {
+        "quote": "film boiling from the smooth Teflon-coated surface (6.7"
+      },
+      {
+        "quote": "boiling behavior of (b) the parahydrophobic PDMS-coated surface (heat flux: 7.8 W/cm2; superheat: 5.8 K)"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 5.8,
+    "max": 36.7,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "boiling behavior of (b) the parahydrophobic PDMS-coated surface (heat flux: 7.8 W/cm2; superheat: 5.8 K)"
+      },
+      {
+        "quote": "W/cm2; 36.7 K). For high-speed videos of the boiling behavior, refer to Appendix A."
+      }
+    ]
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 400.0,
+    "max": 600.0,
+    "unit": "nm",
+    "evidence": [
+      {
+        "quote": "All surfaces were prepared by wet-sanding a metal test block to a roughness of 400-600 nm (Ra)"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 52.0,
+    "max": 151.0,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "having a static contact angle of 52° and a receding angle of ~10°"
+      },
+      {
+        "quote": "angle (151°), but paired with a high receding contact angle (147°)."
+      },
+      {
+        "quote": "has a high static contact angle (144°) and a low receding contact angle (~30°)"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "aluminum (PDMS- and Teflon-coated test blocks); copper (smooth baseline block)"
+}

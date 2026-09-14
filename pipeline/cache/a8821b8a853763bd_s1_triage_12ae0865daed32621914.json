@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Acoustic sensing for investigating critical heat flux enhancement during pool boiling on electrodeposited copper foams",
+  "year": 2024,
+  "reason": "The authors report their own measured pool boiling data on electrodeposited copper foams, e.g. \"The CHF value for the polished copper surface is 102.6 W/cm2\" and wicking fluxes/AE amplitudes from their own steady-state experiments."
+}

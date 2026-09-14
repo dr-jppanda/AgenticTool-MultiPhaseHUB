@@ -1,0 +1,253 @@
+{
+  "record_id": "mchale-2011-smooth-sintered-copper",
+  "n_crops": 13,
+  "crops": [
+    {
+      "element_id": "tab-2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Incipience of boiling from enhanced surfaces is always associated with the trapping of",
+      "page": 12,
+      "bbox": [
+        68.02400207519531,
+        358.5580139160156,
+        547.0220336914062,
+        711.0879516601562
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Measured values of critical heat flux (CHF) for HFE-7300 in boiling tests.",
+      "page": 31,
+      "bbox": [
+        72.10399627685547,
+        68.10798645019531,
+        541.8740234375,
+        275.4419860839844
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-1.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-2-p32",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Measured boiling incipience superheats for all surfaces and fluids tested, along with calculated incipient bubble radii. Values in table are the maximum single-phase wall superheats",
+      "page": 32,
+      "bbox": [
+        68.50399780273438,
+        68.10798645019531,
+        546.5300903320312,
+        276.8819885253906
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-2-p32.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\tab-2-p32.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p34-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 34,
+      "bbox": [
+        320.0,
+        68.0,
+        544.0,
+        239.29998779296875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p34-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 34,
+      "bbox": [
+        70.0,
+        70.09999084472656,
+        294.0,
+        239.29998779296875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-02.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-02.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p34-03",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 34,
+      "bbox": [
+        66.58399963378906,
+        258.97003173828125,
+        545.5339965820312,
+        526.9100341796875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-03.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p34-03.png",
+      "n_panels": 8,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p35-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 35,
+      "bbox": [
+        149.0,
+        68.0,
+        464.8500061035156,
+        432.8500061035156
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p35-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p35-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated,",
+      "page": 35,
+      "bbox": [
+        69.34400177001953,
+        456.04998779296875,
+        545.4599609375,
+        612.4219970703125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.84
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 36,
+      "bbox": [
+        66.58399963378906,
+        68.01522827148438,
+        545.5339965820312,
+        518.27001953125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-3.png",
+      "n_panels": 272,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 37,
+      "bbox": [
+        66.58399963378906,
+        68.01376342773438,
+        545.5339965820312,
+        536.75
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-4.png",
+      "n_panels": 235,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.",
+      "page": 38,
+      "bbox": [
+        68.02400207519531,
+        68.0,
+        531.97998046875,
+        374.0820007324219
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-5.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p39-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 39,
+      "bbox": [
+        122.75,
+        68.0,
+        491.25,
+        346.79998779296875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p39-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-p39-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering.",
+      "page": 39,
+      "bbox": [
+        78.34400177001953,
+        366.44000244140625,
+        536.6599731445312,
+        686.2520141601562
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\fig-6.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.84
+    }
+  ]
+}

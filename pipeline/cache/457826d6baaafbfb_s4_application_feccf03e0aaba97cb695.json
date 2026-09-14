@@ -1,0 +1,51 @@
+{
+  "targets": [
+    {
+      "tier1": "power_generation",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "industrial applications such as power generation, water distillation, and high-density cooling rely on heat transfer processes involving boiling"
+        },
+        {
+          "quote": "Boiling is central to heat exchange processes in staple\nindustries such as power generation and water distillation"
+        }
+      ]
+    },
+    {
+      "tier1": "process",
+      "tier2": "distillation",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Boiling is central to heat exchange processes in staple\nindustries such as power generation and water distillation"
+        }
+      ]
+    },
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "has emerged as the primary choice when extremely high\nheat fluxes need to be dissipated from high-power electronic\nsystems and nuclear reactors"
+        }
+      ]
+    },
+    {
+      "tier1": "nuclear",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "heat fluxes need to be dissipated from high-power electronic\nsystems and nuclear reactors"
+        }
+      ]
+    }
+  ]
+}

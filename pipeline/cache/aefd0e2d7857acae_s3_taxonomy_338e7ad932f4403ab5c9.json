@@ -1,0 +1,81 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "In this work, the recent saturated pool boiling experimental results were introduced, which were conducted at atmospheric pressure using the pure copper as heating surface and the distilled water as working fluid."
+      },
+      {
+        "quote": "leading to a transition from nucleate boiling regime to film boiling regime"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The upper part of the copper component was a cylinder with 20 mm in diameter and 36 mm in height"
+      },
+      {
+        "quote": "prevent boiling from occurring at the edge of the copper heating surface"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The heating component was switched on and kept at a steady-state condition, which is applied to calculate the heat flux and the boiling heat transfer performance."
+      },
+      {
+        "quote": "Each of the steady-state conditions was characterized by the maximum temperature fluctuations of T1, T2, and T3 no more than 0.5 °C/min."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the distilled water, as working fluid, was heated and maintained at saturation temperature (Tsat) by a K-type thermocouple"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Before the experiment, the pure copper surface of the heating component was polished by 2000 mesh sandpaper and cleaned with 95% ethyl alcohol."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

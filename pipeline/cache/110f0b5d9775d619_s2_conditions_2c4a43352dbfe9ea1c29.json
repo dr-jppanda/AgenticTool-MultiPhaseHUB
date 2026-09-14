@@ -1,0 +1,136 @@
+{
+  "p_sat": {
+    "min": 102700.0,
+    "max": 102700.0,
+    "unit": "Pa",
+    "evidence": [
+      {
+        "quote": "The pool pressure was measured with a\ndigital pressure transducer (Omegadyne PX409-030A) and maintained at 102,700 ± 1400 Pa."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 57.0,
+    "max": 57.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "Once the temperature and pressure in the system stabilized at the expected saturation temperature (57 C) and pressure (102,700 Pa) for a period of several\nminutes, the degassing procedure was deemed complete."
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 345000.0,
+    "unit": "W/m2",
+    "evidence": [
+      {
+        "quote": "which did not reach\nan identifiable point of critical heat flux despite the appearance of\ndry patches on the surface at the highest value of apparent heat\nflux, 345,000 W/m2 as shown in Fig. 9a"
+      },
+      {
+        "quote": "The corrected critical heat flux qCHF varied"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 29.7,
+    "max": 38.5,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "The wall superheat at the apparent point of CHF for surfaces\n2-7 averaged 29.7 K except for the polished surface, for which\nDTw,CHF was 38.5 K."
+      }
+    ]
+  },
+  "D_h": {
+    "min": 400.0,
+    "max": 400.0,
+    "unit": "µm",
+    "evidence": [
+      {
+        "quote": "The test strips chosen for this study measured 25 mm long 400 lm wide, a width\nwhich was found experimentally to provide an optimum combination of heat transfer data and bubble visualization."
+      },
+      {
+        "quote": "The 400-lm test strip was selected for boiling tests due to its\nlower spreading heat loss than the 100-lm test strip and clearer\nvisualizations than the 1600-lm test strip."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 25.0,
+    "max": 25.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "Complete 3D maps of each test strip measuring\n25 mm 400 lm were obtained with a Zygo Newview 6200\nwhite-light optical interferometer at 50 magnification."
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.263,
+    "max": 13.04,
+    "unit": "µm",
+    "evidence": [
+      {
+        "quote": "Device no.\nRa,low (lm)\nRMS error (K)\n1\n0.263\n0.843"
+      },
+      {
+        "quote": "5\n250\n725\n5\n7.51\n13.04\n9.13\n16.46"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": 13.0,
+    "max": 14.0,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "Power-controlled boiling curves with decreasing heat input are\nreported in this work, including 13-14 data points collected for\neach test surface."
+      }
+    ]
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "indium tin oxide (ITO) coating on borosilicate glass"
+}

@@ -1,0 +1,158 @@
+{
+  "record_id": "howard-2008-photographic-study-of-pool-boiling",
+  "n_crops": 8,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        38.52000045776367,
+        52.693321228027344,
+        566.5768432617188,
+        141.48101806640625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-p1-01.png",
+      "n_panels": 5,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "(b) shows detailed dimensions of an individual heater. To construct the heaters, a plate of oxygen-free copper is turned on a lathe to form a ring with the diameters and thicknesses shown. The ring is then cut into multiple pieces such that the bulk of each copper piece is a section spanning 8.8 \u02da , except for the bottom (wetted) surface, which spans 10.0 \u02da . When the nine heaters are assembled to",
+      "page": 2,
+      "bbox": [
+        29.731998443603516,
+        49.177978515625,
+        394.5494079589844,
+        487.34246826171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-2.jpg",
+      "n_panels": 3,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.57
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Test apparatus for pool boiling from downward-facing convex surface.",
+      "page": 3,
+      "bbox": [
+        105.02043914794922,
+        49.17828369140625,
+        499.0419921875,
+        524.87939453125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.88
+    },
+    {
+      "element_id": "fig-2-p4-01",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "(a) Arrangement of heaters along downward-facing convex surface. (b) Single heater details. (c) Heater insulation.",
+      "page": 4,
+      "bbox": [
+        112.84410095214844,
+        52.18304443359375,
+        473.6619873046875,
+        498.80072021484375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-2-p4-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-2-p4-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.91
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "(a) Local boiling curves for nine heaters. (b) Transient heater temperatures following CHF.",
+      "page": 5,
+      "bbox": [
+        85.57499694824219,
+        49.17828369140625,
+        518.4879760742188,
+        326.9078369140625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.88
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Vapor layer along downward-facing convex surface at 25% of CHF.",
+      "page": 5,
+      "bbox": [
+        58.02199935913086,
+        336.10107421875,
+        355.5284423828125,
+        540.980224609375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-4.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.88
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Development of vapor layer along downward-facing convex surface at CHF \u2212 .",
+      "page": 6,
+      "bbox": [
+        98.33067321777344,
+        49.17828369140625,
+        488.2860107421875,
+        509.91253662109375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-5.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.88
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Development of vapor layer for heaters 1 and 2 at CHF \u2212 .",
+      "page": 7,
+      "bbox": [
+        192.10072326660156,
+        49.17828369140625,
+        412.8583984375,
+        544.0416259765625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\howard-2008-photographic-study-of-pool-boiling\\fig-6.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.88
+    }
+  ]
+}

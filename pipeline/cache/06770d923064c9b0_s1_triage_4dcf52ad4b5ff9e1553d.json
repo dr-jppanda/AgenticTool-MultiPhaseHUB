@@ -1,0 +1,8 @@
+{
+  "paper_type": "correlation_only",
+  "contains_dataset": false,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Parametric effects of surface roughness, material, size, orientation, pressure, and subcooling on different regimes of cryogenic pool boiling curve in terrestrial gravity",
+  "year": 2026,
+  "reason": "The work develops updated multiplier-based correlations for cryogenic pool boiling regimes using \"an expanded database compiled from the literature\" rather than reporting its own measurements or simulations."
+}

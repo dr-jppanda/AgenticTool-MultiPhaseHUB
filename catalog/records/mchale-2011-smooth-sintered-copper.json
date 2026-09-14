@@ -1,128 +1,218 @@
 {
   "record_id": "mchale-2011-smooth-sintered-copper",
-  "doc_id": "31216fd0067ff06b",
-  "title": "Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and Without Carbon Nanotubes",
+  "doc_id": "aa87bd2025cab43a",
+  "title": "Pool boiling performance comparison of smooth and sintered copper surfaces with and without carbon nanotubes",
   "source_pdf": "mchale_2011_smooth_sintered_copper.pdf",
-  "n_pages": 21,
-  "n_figures": 7,
+  "n_pages": 39,
+  "n_figures": 13,
   "figures": [
-    {
-      "id": "fig-1",
-      "label": "Figure 1",
-      "page": 8,
-      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of sintered copper"
-    },
     {
       "id": "fig-2",
       "label": "Figure 2",
       "page": 9,
-      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated and (b) top view"
+      "caption": "Each heater block, measuring 25.4 mm x 25.4 mm x 36.6 mm, is fabricated of"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 33,
+      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 33,
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated,"
     },
     {
       "id": "fig-3",
       "label": "Figure 3",
-      "page": 11,
-      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface (color \ufb01gure available"
+      "page": 33,
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
     },
     {
       "id": "fig-4",
       "label": "Figure 4",
-      "page": 12,
-      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface (color \ufb01gure available"
-    },
-    {
-      "id": "fig-3",
-      "label": "Figure 3",
-      "page": 12,
-      "caption": "), and one boiling curve for water was limited to 55 W/cm2 because of dif\ufb01culties"
+      "page": 33,
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface."
     },
     {
       "id": "fig-5",
       "label": "Figure 5",
-      "page": 18,
+      "page": 33,
       "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix."
     },
     {
       "id": "fig-6",
       "label": "Figure 6",
-      "page": 18,
+      "page": 33,
+      "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering."
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 34,
+      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 35,
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated,"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "page": 36,
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface."
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 37,
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface."
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 38,
+      "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix."
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "page": 39,
       "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering."
     }
   ],
   "cited_pages": [
-    4,
+    2,
+    3,
+    7,
     8,
+    9,
     10,
-    14,
-    18,
-    19
+    11,
+    12,
+    15,
+    16,
+    19,
+    21,
+    31,
+    32
   ],
   "cited_sections": [
     {
-      "id": "sec-20-pool-boiling-heat-transfer",
+      "id": "sec-9-introduction",
       "number": null,
-      "title": "POOL BOILING HEAT TRANSFER",
+      "title": "INTRODUCTION",
       "level": 2
     },
     {
-      "id": "sec-21-heat-loss-calculation",
+      "id": "sec-15-boiling-curves",
       "number": null,
-      "title": "Heat Loss Calculation",
+      "title": "Boiling curves",
       "level": 2
     },
     {
-      "id": "sec-56-conclusions",
+      "id": "sec-19-critical-heat-flux",
+      "number": null,
+      "title": "Critical heat flux",
+      "level": 2
+    },
+    {
+      "id": "sec-25-surface",
+      "number": null,
+      "title": "Surface",
+      "level": 2
+    },
+    {
+      "id": "sec-28-di-water",
+      "number": null,
+      "title": "DI water†",
+      "level": 2
+    },
+    {
+      "id": "sec-11-experimental-method",
+      "number": null,
+      "title": "EXPERIMENTAL METHOD",
+      "level": 2
+    },
+    {
+      "id": "sec-7-abstract",
+      "number": null,
+      "title": "ABSTRACT",
+      "level": 2
+    },
+    {
+      "id": "sec-12-heat-loss-calculation",
+      "number": null,
+      "title": "Heat loss calculation",
+      "level": 2
+    },
+    {
+      "id": "sec-21-conclusions",
       "number": null,
       "title": "CONCLUSIONS",
       "level": 2
     },
     {
-      "id": "sec-50-pool-boiling-heat-transfer",
+      "id": "sec-10-test-piece-fabrication",
       "number": null,
-      "title": "POOL BOILING HEAT TRANSFER",
+      "title": "TEST PIECE FABRICATION",
       "level": 2
     },
     {
-      "id": "sec-11-and-without-carbon-nanotubes",
+      "id": "sec-17-boiling-hysteresis",
       "number": null,
-      "title": "AND WITHOUT CARBON NANOTUBES",
-      "level": 2
-    },
-    {
-      "id": "sec-18-pool-boiling-heat-transfer",
-      "number": null,
-      "title": "POOL BOILING HEAT TRANSFER",
-      "level": 2
-    },
-    {
-      "id": "sec-12-introduction",
-      "number": null,
-      "title": "INTRODUCTION",
+      "title": "Boiling hysteresis",
       "level": 2
     }
   ],
   "evidence_stats": {
-    "total": 13,
-    "resolved": 13,
+    "total": 22,
+    "resolved": 22,
     "unresolved": 0,
-    "exact": 13
+    "exact": 22
   },
   "points_ref": "points/mchale-2011-smooth-sintered-copper.points.json",
-  "extractor": "configured-default/p1@codex",
+  "extractor": "claude-opus-5/p2@claude-code",
   "triage": {
     "paper_type": "experimental",
     "contains_dataset": true,
     "primary_phenomenon": "pool_boiling",
-    "title": "Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and Without Carbon Nanotubes",
+    "title": "Pool boiling performance comparison of smooth and sintered copper surfaces with and without carbon nanotubes",
     "year": 2011,
-    "reason": "The paper states, \u201cPool boiling heat transfer is measured with two individual working fluids on copper surfaces enhanced with sintered copper powder and carbon nanotubes.\u201d"
+    "reason": "The paper reports its own measured pool boiling curves, incipience superheats, and CHF values for HFE-7300 and DI water on smooth, sintered, and CNT-coated copper surfaces."
   },
   "conditions": {
     "p_sat": {
       "min": null,
       "max": null,
       "unit": null,
-      "evidence": []
+      "evidence": [
+        {
+          "quote": "atmospheric pressure is investigated for sintered copper surfaces employing carbon nanotubes",
+          "resolved": true,
+          "char_span": [
+            2953,
+            3045
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-9-introduction",
+              "number": null,
+              "title": "INTRODUCTION",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "T_sat": {
       "min": null,
@@ -138,9 +228,52 @@
     },
     "q_flux": {
       "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
+      "max": 55.0,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "boiling curve for water was limited to 55 W/cm2 because of difficulties with the cooling",
+          "resolved": true,
+          "char_span": [
+            19718,
+            19806
+          ],
+          "pages": [
+            12
+          ],
+          "sections": [
+            {
+              "id": "sec-15-boiling-curves",
+              "number": null,
+              "title": "Boiling curves",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Therefore heat flux beyond 26.4 W/cm2 could not be imposed.",
+          "resolved": true,
+          "char_span": [
+            28061,
+            28120
+          ],
+          "pages": [
+            16
+          ],
+          "sections": [
+            {
+              "id": "sec-19-critical-heat-flux",
+              "number": null,
+              "title": "Critical heat flux",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "x_quality": {
       "min": null,
@@ -155,10 +288,53 @@
       "evidence": []
     },
     "dT_wall": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
+      "min": 0.4,
+      "max": 38.6,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "Sintered copper\n24.2\n38.6\n33.7",
+          "resolved": true,
+          "char_span": [
+            48798,
+            48828
+          ],
+          "pages": [
+            31
+          ],
+          "sections": [
+            {
+              "id": "sec-25-surface",
+              "number": null,
+              "title": "Surface",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Sintered copper\n6.6 ± 2.3\n1.07 ± 0.38\n0.4 ± 0.1",
+          "resolved": true,
+          "char_span": [
+            49405,
+            49452
+          ],
+          "pages": [
+            32
+          ],
+          "sections": [
+            {
+              "id": "sec-28-di-water",
+              "number": null,
+              "title": "DI water†",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "D_h": {
       "min": 25.4,
@@ -166,20 +342,20 @@
       "unit": "mm",
       "evidence": [
         {
-          "quote": "Each heater block, measuring 25.4 mm \u00d7 25.4 mm \u00d7 36.6 mm, was\nfabricated of oxygen-free copper.",
+          "quote": "Each heater block, measuring 25.4 mm x 25.4 mm x 36.6 mm, is fabricated of",
           "resolved": true,
           "char_span": [
-            21202,
-            21297
+            15613,
+            15687
           ],
           "pages": [
-            10
+            9
           ],
           "sections": [
             {
-              "id": "sec-20-pool-boiling-heat-transfer",
+              "id": "sec-11-experimental-method",
               "number": null,
-              "title": "POOL BOILING HEAT TRANSFER",
+              "title": "EXPERIMENTAL METHOD",
               "level": 2
             }
           ],
@@ -213,10 +389,32 @@
       "evidence": []
     },
     "contact_angle": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
+      "min": 20.0,
+      "max": 120.0,
+      "unit": "°",
+      "evidence": [
+        {
+          "quote": "estimate the contact angles to be, to first order, 20° and 120° for HFE-7300 and DI water,",
+          "resolved": true,
+          "char_span": [
+            33019,
+            33109
+          ],
+          "pages": [
+            19
+          ],
+          "sections": [
+            {
+              "id": "sec-19-critical-heat-flux",
+              "number": null,
+              "title": "Critical heat flux",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "gravity_level": {
       "min": null,
@@ -242,20 +440,41 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "Heat fluxes in the fully developed nucleate boiling regime and higher are of primary interest in this study;",
+          "quote": "Pool boiling heat transfer is measured with two individual working fluids on copper surfaces\nenhanced with sintered copper powder and carbon nanotubes.",
           "resolved": true,
           "char_span": [
-            23407,
-            23515
+            1381,
+            1532
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-7-abstract",
+              "number": null,
+              "title": "ABSTRACT",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Heat fluxes in the fully developed nucleate boiling\nregime and higher are of primary interest in this study",
+          "resolved": true,
+          "char_span": [
+            17830,
+            17937
           ],
           "pages": [
             10
           ],
           "sections": [
             {
-              "id": "sec-21-heat-loss-calculation",
+              "id": "sec-12-heat-loss-calculation",
               "number": null,
-              "title": "Heat Loss Calculation",
+              "title": "Heat loss calculation",
               "level": 2
             }
           ],
@@ -272,21 +491,41 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "The surfaces consisted of a plain, flat copper surface; a sintered copper surface; a flat copper surface covered with an array of copper-metallized MWCNTs;",
+          "quote": "The surfaces consisted of a plain, flat copper surface, a sintered copper surface, a flat copper\nsurface covered with an array of copper-metallized MWCNTs",
           "resolved": true,
           "char_span": [
-            45723,
-            45878
+            37156,
+            37310
           ],
           "pages": [
-            18,
-            19
+            21
           ],
           "sections": [
             {
-              "id": "sec-56-conclusions",
+              "id": "sec-21-conclusions",
               "number": null,
               "title": "CONCLUSIONS",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "fabricated by preparing the surface on a 25.4-mm\nby 25.4-mm by 1.0 mm thick pure (99.99%) copper sheet",
+          "resolved": true,
+          "char_span": [
+            11665,
+            11767
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-10-test-piece-fabrication",
+              "number": null,
+              "title": "TEST PIECE FABRICATION",
               "level": 2
             }
           ],
@@ -303,41 +542,20 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "all experiments were therefore carried out at atmospheric pressure.",
+          "quote": "All data presented in this work are those of\nthe first test for each sample with each data point taken at our standard criterion for steady state",
           "resolved": true,
           "char_span": [
-            21690,
-            21757
+            26209,
+            26354
           ],
           "pages": [
-            10
+            15
           ],
           "sections": [
             {
-              "id": "sec-20-pool-boiling-heat-transfer",
+              "id": "sec-17-boiling-hysteresis",
               "number": null,
-              "title": "POOL BOILING HEAT TRANSFER",
-              "level": 2
-            }
-          ],
-          "match": "exact",
-          "score": 1.0
-        },
-        {
-          "quote": "with each data point taken at our standard criterion for steady state",
-          "resolved": true,
-          "char_span": [
-            33973,
-            34042
-          ],
-          "pages": [
-            14
-          ],
-          "sections": [
-            {
-              "id": "sec-50-pool-boiling-heat-transfer",
-              "number": null,
-              "title": "POOL BOILING HEAT TRANSFER",
+              "title": "Boiling hysteresis",
               "level": 2
             }
           ],
@@ -349,26 +567,26 @@
     },
     "fluid": [
       {
-        "tier1": "water",
-        "tier2": "water",
+        "tier1": "dielectric",
+        "tier2": "HFE-7300",
         "tier3": null,
         "propose_new": null,
         "evidence": [
           {
-            "quote": "The working fluids are a segregated hydrofluoroether, HFE-7300 (3M Electronic Markets Materials Division, St. Paul, MN), and deionized water.",
+            "quote": "The working fluids are a\nsegregated hydrofluoroether, HFE-7300, and deionized water.",
             "resolved": true,
             "char_span": [
-              4394,
-              4535
+              1533,
+              1617
             ],
             "pages": [
-              4
+              2
             ],
             "sections": [
               {
-                "id": "sec-11-and-without-carbon-nanotubes",
+                "id": "sec-7-abstract",
                 "number": null,
-                "title": "AND WITHOUT CARBON NANOTUBES",
+                "title": "ABSTRACT",
                 "level": 2
               }
             ],
@@ -379,26 +597,26 @@
         "confirmed": true
       },
       {
-        "tier1": "dielectric",
-        "tier2": null,
+        "tier1": "water",
+        "tier2": "water",
         "tier3": null,
-        "propose_new": "HFE-7300",
+        "propose_new": null,
         "evidence": [
           {
-            "quote": "The working fluids are a segregated hydrofluoroether, HFE-7300 (3M Electronic Markets Materials Division, St. Paul, MN), and deionized water.",
+            "quote": "Pool boiling curves for the four surfaces are compared in Figures 3 and 4 with HFE-7300 and\nDI water, respectively.",
             "resolved": true,
             "char_span": [
-              4394,
-              4535
+              19255,
+              19370
             ],
             "pages": [
-              4
+              11
             ],
             "sections": [
               {
-                "id": "sec-11-and-without-carbon-nanotubes",
+                "id": "sec-15-boiling-curves",
                 "number": null,
-                "title": "AND WITHOUT CARBON NANOTUBES",
+                "title": "Boiling curves",
                 "level": 2
               }
             ],
@@ -406,8 +624,7 @@
             "score": 1.0
           }
         ],
-        "confirmed": false,
-        "gate_reason": "new vocabulary term"
+        "confirmed": true
       }
     ],
     "surface_enhancement": [
@@ -418,20 +635,20 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "The surfaces considered in the experiments include smooth copper, copper with sintered copper particles, smooth copper with copper-coated carbon nanotubes (CNT),",
+            "quote": "The bare copper sheet was of unpolished\nmill-grade finish prior to enhancement.",
             "resolved": true,
             "char_span": [
-              4536,
-              4697
+              11949,
+              12028
             ],
             "pages": [
-              4
+              7
             ],
             "sections": [
               {
-                "id": "sec-11-and-without-carbon-nanotubes",
+                "id": "sec-10-test-piece-fabrication",
                 "number": null,
-                "title": "AND WITHOUT CARBON NANOTUBES",
+                "title": "TEST PIECE FABRICATION",
                 "level": 2
               }
             ],
@@ -448,20 +665,41 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "The surfaces considered in the experiments include smooth copper, copper with sintered copper particles, smooth copper with copper-coated carbon nanotubes (CNT),",
+            "quote": "For preparing the sintered copper surface shown in Figure 1(a), spherical copper particles\n(Alfa Aesar 42623, 99.9% pure) were sieved with 140- and 170-mesh screens",
             "resolved": true,
             "char_span": [
-              4536,
-              4697
+              12286,
+              12450
             ],
             "pages": [
-              4
+              7
             ],
             "sections": [
               {
-                "id": "sec-11-and-without-carbon-nanotubes",
+                "id": "sec-10-test-piece-fabrication",
                 "number": null,
-                "title": "AND WITHOUT CARBON NANOTUBES",
+                "title": "TEST PIECE FABRICATION",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The\nporosity of the sintered layer, obtained by weight and volume measurements, was 65%.",
+            "resolved": true,
+            "char_span": [
+              13004,
+              13092
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-10-test-piece-fabrication",
+                "number": null,
+                "title": "TEST PIECE FABRICATION",
                 "level": 2
               }
             ],
@@ -478,50 +716,41 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "smooth copper with copper-coated carbon nanotubes (CNT), and copper with sintered copper particles and copper-coated carbon nanotubes.",
+            "quote": "Growth of a dense, vertically aligned array of multi-walled (MW) CNTs on a catalyzed\ncopper substrate [as shown in Figure 1(b)] was achieved by microwave-plasma chemical vapor\ndeposition (MPCVD)",
             "resolved": true,
             "char_span": [
-              4641,
-              4775
-            ],
-            "pages": [
-              4
-            ],
-            "sections": [
-              {
-                "id": "sec-11-and-without-carbon-nanotubes",
-                "number": null,
-                "title": "AND WITHOUT CARBON NANOTUBES",
-                "level": 2
-              }
-            ],
-            "match": "exact",
-            "score": 1.0
-          }
-        ],
-        "confirmed": true
-      },
-      {
-        "tier1": "wettability_engineered",
-        "tier2": "hydrophilic",
-        "tier3": null,
-        "propose_new": null,
-        "evidence": [
-          {
-            "quote": "Following growth, the hydrophobic CNTs were rendered hydrophilic by e-beam evaporative deposition of pure copper.",
-            "resolved": true,
-            "char_span": [
-              19089,
-              19202
+              13093,
+              13287
             ],
             "pages": [
               8
             ],
             "sections": [
               {
-                "id": "sec-18-pool-boiling-heat-transfer",
+                "id": "sec-10-test-piece-fabrication",
                 "number": null,
-                "title": "POOL BOILING HEAT TRANSFER",
+                "title": "TEST PIECE FABRICATION",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The fourth test surface consisted of a CNT array grown on sintered copper spheres",
+            "resolved": true,
+            "char_span": [
+              14191,
+              14272
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-10-test-piece-fabrication",
+                "number": null,
+                "title": "TEST PIECE FABRICATION",
                 "level": 2
               }
             ],
@@ -533,11 +762,11 @@
       }
     ],
     "measured_quantity": [
-      "htc",
-      "chf",
       "boiling_curve",
+      "chf",
       "wall_superheat",
-      "onb"
+      "onb",
+      "htc"
     ],
     "measurement_modality": [
       "thermocouple",
@@ -550,23 +779,43 @@
         "tier1": "electronics_thermal",
         "tier2": null,
         "stated": true,
-        "confidence": "high",
         "evidence": [
           {
-            "quote": "In electronics cooling applications and\nheat pump cycles, for example, surface temperature changes as small as a few degrees can\nmake a significant difference in overall system performance.",
+            "quote": "In electronics cooling applications and heat pump cycles, for example, surface temperature changes as small as a few degrees can make a significant difference in overall system performance.",
             "resolved": true,
             "char_span": [
-              5580,
-              5769
+              2720,
+              2909
             ],
             "pages": [
-              4
+              3
             ],
             "sections": [
               {
-                "id": "sec-12-introduction",
+                "id": "sec-9-introduction",
                 "number": null,
                 "title": "INTRODUCTION",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "HFEs are well known to be active solvents and are in fact routinely used for cleaning electronic components because of the high solubility of certain processing residues in HFE.",
+            "resolved": true,
+            "char_span": [
+              25709,
+              25886
+            ],
+            "pages": [
+              15
+            ],
+            "sections": [
+              {
+                "id": "sec-17-boiling-hysteresis",
+                "number": null,
+                "title": "Boiling hysteresis",
                 "level": 2
               }
             ],
@@ -580,21 +829,20 @@
         "tier1": "hvacr",
         "tier2": "heat_pump",
         "stated": true,
-        "confidence": "high",
         "evidence": [
           {
-            "quote": "In electronics cooling applications and\nheat pump cycles, for example, surface temperature changes as small as a few degrees can\nmake a significant difference in overall system performance.",
+            "quote": "In electronics cooling applications and heat pump cycles, for example, surface temperature changes as small as a few degrees can make a significant difference in overall system performance.",
             "resolved": true,
             "char_span": [
-              5580,
-              5769
+              2720,
+              2909
             ],
             "pages": [
-              4
+              3
             ],
             "sections": [
               {
-                "id": "sec-12-introduction",
+                "id": "sec-9-introduction",
                 "number": null,
                 "title": "INTRODUCTION",
                 "level": 2
@@ -608,46 +856,40 @@
       }
     ]
   },
-  "llm_title": "Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and Without Carbon Nanotubes",
+  "llm_title": "Pool boiling performance comparison of smooth and sintered copper surfaces with and without carbon nanotubes",
   "si": {
+    "q_flux_max": 550000.0,
+    "q_flux_unit": "W/m2",
+    "dT_wall_min": 0.4,
+    "dT_wall_unit": "K",
+    "dT_wall_max": 38.6,
     "D_h_min": 0.0254,
     "D_h_unit": "m",
-    "D_h_max": 0.0254
+    "D_h_max": 0.0254,
+    "contact_angle_min": 20.0,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 120.0
   },
-  "fluid_properties": {
-    "rho_l": 958.3674968154769,
-    "rho_v": 0.5976567696507372,
-    "sigma": 0.05892558840073204,
-    "h_fg": 2256471.592406728,
-    "mu_l": 0.00028165796288269246,
-    "p_crit": 22063999.999997754,
-    "T_sat_calc": 373.12429584766636
-  },
-  "derived": {
-    "L_cap": 0.0025047307503384586,
-    "Co": 0.09861144686371885,
-    "Bo": 102.83603846571187
-  },
+  "fluid_properties": {},
+  "derived": {},
   "derived_tags": [
-    "confinement:unconfined",
-    "scale:conventional"
+    "heatflux:high",
+    "scale:conventional",
+    "wetting:hydrophilic"
   ],
   "unit_warnings": [],
   "quarantined_values": {},
   "taxonomy_version": "v1",
   "gating": {
-    "reviewed_at": "2026-08-12",
-    "auto_apply": 0.75,
-    "new_term_apply": 0.85,
-    "pending": 1,
-    "unconfirmed_fields": 1
+    "reviewed_at": "2026-09-14",
+    "pending": 0,
+    "unconfirmed_fields": 0
   },
   "points_summary": {
-    "n_series": 16,
-    "n_points": 411,
+    "n_series": 8,
+    "n_points": 214,
     "figures": [
-      "fig-3",
-      "fig-4"
+      "fig-3"
     ],
     "quantities": [
       "q_flux"

@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Effects of carbon nanotube arrays on nucleate pool boiling",
+  "year": 2007,
+  "reason": "The authors ran their own saturated FC-72 pool boiling experiments on CNT-coated silicon and copper chips, reporting boiling curves, incipience superheats, hmax and CHF values (\"Experiments were performed to assess the impact coating silicon and copper substrates with nanotubes (CNTs) have on pool boiling performance\")."
+}

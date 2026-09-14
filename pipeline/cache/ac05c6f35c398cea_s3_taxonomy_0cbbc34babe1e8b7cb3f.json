@@ -1,0 +1,87 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The effect of surface roughness on pool boiling heat transfer coefficient and critical heat flux (CHF) at a\ncopper surface having moderate wettability was studied in saturated water."
+      },
+      {
+        "quote": "It was confirmed that surface roughness enhances nucleate\nboiling heat transfer because of the increased number of active\nnucleation sites."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Copper blocks of size 10 mm 10 mm 3 mm were prepared\nto serve as test surfaces."
+      },
+      {
+        "quote": "where the gravity force is formulated with regard to a horizontal\nheated surface facing upward"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Once the\nwall temperature reached steady state, the current was increased\nto the next specified value."
+      },
+      {
+        "quote": "The temperatures were averaged every\n20 s and the steady state was considered to exist when the temperature difference was less than 0.1 C"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Approximately 2 l of distilled water was filled into the chamber\nwith the test heater assembly placed at the center of the test chamber."
+        },
+        {
+          "quote": "at copper surfaces having moderate contact\nangles in pool boiling of saturated water was investigated"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Copper surfaces were polished with sandpapers of different average surface roughness (Ra), ranging from 0.041 lm to 2.36 lm."
+        },
+        {
+          "quote": "The top\nsurfaces were polished again with various sandpapers having 2000,\n600, 220, and 80 grit"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

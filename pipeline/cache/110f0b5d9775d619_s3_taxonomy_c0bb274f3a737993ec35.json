@@ -1,0 +1,102 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Pool boiling experiments were carried out for the 400-lm test\nstrips on all seven surfaces."
+      },
+      {
+        "quote": "The wall superheat during saturated pool boiling at\natmospheric pressure was found not to vary consistently with surface average roughness (Ra) values."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Test pieces are fabricated from 50.8 mm 50.8 mm\n3.18 mm borosilicate glass squares"
+      },
+      {
+        "quote": "The test strips chosen for this study measured 25 mm long 400 lm wide"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "During boiling tests, both the applied voltage and the current\nthrough the heater were measured for a sufficient period of time\nfor the voltage and current to reach a steady state (at least\n5 min)."
+      },
+      {
+        "quote": "Power-controlled boiling curves with decreasing heat input are\nreported in this work, including 13-14 data points collected for\neach test surface."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "tested in the perfluorinated fluorocarbon liquid, FC-72"
+        },
+        {
+          "quote": "The working fluid used in the present tests, FC-72, has a low\nthermal conductivity relative to water"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Surface roughness was imparted to one side of each part by abrading with a diamond paste"
+        },
+        {
+          "quote": "borosilicate glass squares that are roughened by abrading with diamond compound with particles of known size and then annealed in order to control small-scale roughness features"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Photos of completed boiling test pieces: (a) surface 1, polished - reverse side,"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "wall_superheat",
+    "chf",
+    "htc",
+    "nucleation_site_density",
+    "bubble_dynamics",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "rtd",
+    "high_speed_visualization",
+    "optical_interferometry"
+  ]
+}

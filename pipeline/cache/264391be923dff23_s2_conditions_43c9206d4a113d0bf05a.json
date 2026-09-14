@@ -1,0 +1,115 @@
+{
+  "p_sat": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "atm",
+    "evidence": [
+      {
+        "quote": "A vent was opened on the top of the\nboiling pool to guarantee the experiment conducted under atmospheric pressure."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 100.0,
+    "max": 100.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "which was then heated\nup to its saturation temperature (100 C) at 1 atm"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": 140.0,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "when the wall superheat is 15 C, the critical heat flux on the\nnanowire (30 mm) surface is up to 140W/cm2, which is more than\nthree times of that of the smooth surface"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "cm",
+    "evidence": [
+      {
+        "quote": "A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built\nand submerged in the test fluid (DI water)"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": 19.0,
+    "max": 29.0,
+    "unit": "",
+    "evidence": [
+      {
+        "quote": "When the length of the copper nanowires is 3 mm,\nthe contact angle (aa) is approximately 29 . Whereas, when the\nlength becomes 30 mm, the contact angle (ab) shrinks to 19 ."
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper (polished bare smooth copper, with electroplated Cu nanowire arrays 3–30 µm long)"
+}

@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": "immersion_cooling",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities of enhanced metallic surface attachments built upon"
+        },
+        {
+          "quote": "Direct liquid immersion cooling has great potential as a"
+        },
+        {
+          "quote": "12.7 x 12.7 mm2 simulated microelectronic heat source."
+        }
+      ]
+    }
+  ]
+}

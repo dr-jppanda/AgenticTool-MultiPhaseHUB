@@ -1,0 +1,140 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities of enhanced metallic surface attachments"
+      },
+      {
+        "quote": "In the nucleate boiling region the numerical solution fits the experimental data closely."
+      },
+      {
+        "quote": "Fully-developed boiling with severe vapor effusion was observed at approximately 46.5 percent of CHF."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The enhanced surfaces were built upon a 4.78 mm-thick base chip having a cross-sectional area of 12.7 x 12.7 mm2."
+      },
+      {
+        "quote": "various metallic attachments were designed to enhance heat transfer from a 12.7 x 12.7 mm2 simulated microelectronic heat source."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The same article details the procedure for obtaining boiling data."
+      },
+      {
+        "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This surface achieved a CHF value of 105.4\nW/cm2 in saturated FC-72, the highest of all the enhanced\nsurface geometries."
+        },
+        {
+          "quote": "Photographs obtained in the present study indicated the average Db value for saturated boiling of FC-72 and FC-87 was approximately 0.61 mm."
+        }
+      ]
+    },
+    {
+      "tier1": "dielectric",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "FC-87",
+      "evidence": [
+        {
+          "quote": "Photographs obtained in the present study indicated the average Db value for saturated boiling of FC-72 and FC-87 was approximately 0.61 mm."
+        },
+        {
+          "quote": "The fluorocarbon liquid (FC-72 or FC-87) was pre-"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "structured",
+      "tier2": "pin_fins",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The 4-pin and 9-pin surfaces, Fig. 6, provided information on the performances of pin fin arrays."
+        },
+        {
+          "quote": "Elements of surface area, Ae, were defined as identical sections of the flat surface of a chip to which a cylindrical (pin) fin is attached."
+        }
+      ]
+    },
+    {
+      "tier1": "structured",
+      "tier2": "grooves",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The axial and radial microgroove enhanced studs were constructed by grooving a smooth stud along the axial and radial directions, respectively."
+        },
+        {
+          "quote": "machining microstructures (rectangular microgrooves or square microstuds) into the surface"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sandblasted",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Each of the enhanced surfaces was vapor blasted with an air/water/silica slurry to ensure uniform surface characteristics"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The two smooth stud enhanced surfaces, Fig. 6, differed only in length."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "onb"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

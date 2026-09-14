@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Effect of Nanoparticle Size and Concentration on Pool Boiling Heat Transfer with TiO2 Nanofluids on Laser-Textured Copper Surfaces",
+  "year": 2022,
+  "reason": "The authors performed their own pool boiling experiments with TiO2-water nanofluids on laser-textured copper surfaces, reporting measured boiling curves, HTC and CHF values (e.g., \"The highest CHF of 1457 kW m-2 was recorded at 0.1 wt.%\")."
+}

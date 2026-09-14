@@ -1,4 +1,4 @@
-"""S8 — figure digitization hook. INTENTIONALLY NOT IMPLEMENTED.
+"""S9 — figure digitization hook. INTENTIONALLY NOT IMPLEMENTED.
 
 You already have a pipeline that recovers numerical values from paper figures.
 This module is the seam it plugs into. Nothing here digitizes anything; it

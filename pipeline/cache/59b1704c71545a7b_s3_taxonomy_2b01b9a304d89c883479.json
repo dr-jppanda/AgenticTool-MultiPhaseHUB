@@ -1,0 +1,100 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Enhancement of pool boiling heat transfer in water by means of the introduction of free particles on the\nheated surface is investigated."
+      },
+      {
+        "quote": "High-speed visualizations show\nthat bubble nucleation preferentially occurs at the narrow corner cavities formed between the free particles and the heated surface."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "An insulated copper heating block forms the base of a sealed liquid bath test chamber."
+      },
+      {
+        "quote": "A uniform heat flux is\nsupplied to the test surface through 12 cartridge heaters embedded\nin the copper block"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "At each heat flux, steady-state conditions are considered to have been reached when the time-averaged variation of\nthe wall superheat temperature, acquired every 3 s, is less than\n0.0003 C/s for 150 s."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "To perform a test, the tank is filled with 45 ml of water, and the\nwater is boiled for two hours"
+        },
+        {
+          "quote": "it is concluded that\n3 mm to 6 mm particles are optimum when water is used as the\nworking fluid."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The polished (RRMS = 25 nm, NewView\n6200, Zygo Corp.) top 25.4 mm 25.4 mm test surface of the heat-\ning block is exposed to the working fluid."
+        },
+        {
+          "quote": "resulting in an average increase in heat transfer coefficient of 115% relative\nto a baseline polished surface without particles"
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "free_particle_layer",
+      "evidence": [
+        {
+          "quote": "The layer of loose particles on the heated surface is free to move and\ndeform under the action of bulk liquid convection and vapor nucleation."
+        },
+        {
+          "quote": "This technique introduces free-standing metal particles,\nwhich may be orders of magnitude larger than nanoparticles, on\nan immersed boiling surface."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "onb",
+    "bubble_dynamics",
+    "nucleation_site_density",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

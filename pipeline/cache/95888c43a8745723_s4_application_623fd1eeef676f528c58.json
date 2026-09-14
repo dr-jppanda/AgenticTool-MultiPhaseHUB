@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": "immersion_cooling",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Increased cooling requirements of many compact systems involving high heat fluxes\ndemand the development of high-performance cooling techniques including immersion cooling\nutilizing pool boiling."
+        },
+        {
+          "quote": "heat removal from (micro)electronic processors and\ncomponents"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "The effect of surface roughness on nucleate boiling heat transfer is not clearly understood. This study is\ndevised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface\nwith controlled roughness."
+        },
+        {
+          "quote": "In this paper, surface roughness is varied and carefully characterized and analyzed in terms of its relationship to bubble growth\nand departure. A new model for scaling surface roughness is proposed"
+        }
+      ]
+    }
+  ]
+}

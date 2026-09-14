@@ -46,7 +46,7 @@
       "id": "fig-4b",
       "label": "Figure 4b",
       "page": 12,
-      "caption": "shows a comparison of heat transfer coef\ufb01cients at speci\ufb01c heat \ufb02ux levels"
+      "caption": "shows a comparison of heat transfer coefﬁcients at speciﬁc heat ﬂux levels"
     },
     {
       "id": "fig-5a",
@@ -70,7 +70,7 @@
       "id": "fig-7",
       "label": "Figure 7",
       "page": 14,
-      "caption": "Comparison of boiling performance of all samples during the \ufb01rst experimental run through"
+      "caption": "Comparison of boiling performance of all samples during the ﬁrst experimental run through"
     },
     {
       "id": "fig-8",
@@ -82,7 +82,7 @@
       "id": "fig-9",
       "label": "Figure 9",
       "page": 15,
-      "caption": "High-speed snapshots of the boiling process at 50 kW m\u22122 and 100 kW m\u22122 on (a) hy-"
+      "caption": "High-speed snapshots of the boiling process at 50 kW m−2 and 100 kW m−2 on (a) hy-"
     }
   ],
   "cited_pages": [
@@ -91,13 +91,24 @@
     5,
     6,
     8,
-    10,
-    12,
-    17
+    9,
+    10
   ],
   "cited_sections": [
     {
-      "id": "sec-30-nanomaterials-2022-12-4032",
+      "id": "sec-28-nanomaterials-2022-12-4032",
+      "number": null,
+      "title": "Nanomaterials 2022, 12, 4032",
+      "level": 2
+    },
+    {
+      "id": "sec-4-matic-mo-e-1",
+      "number": null,
+      "title": "Matic Može 1,*",
+      "level": 2
+    },
+    {
+      "id": "sec-27-nanomaterials-2022-12-4032",
       "number": null,
       "title": "Nanomaterials 2022, 12, 4032",
       "level": 2
@@ -127,45 +138,27 @@
       "level": 2
     },
     {
-      "id": "sec-38-nanomaterials-2022-12-4032",
-      "number": null,
-      "title": "Nanomaterials 2022, 12, 4032",
-      "level": 2
-    },
-    {
       "id": "sec-8-nanomaterials-2022-12-4032",
       "number": null,
       "title": "Nanomaterials 2022, 12, 4032",
       "level": 2
-    },
-    {
-      "id": "sec-28-nanomaterials-2022-12-4032",
-      "number": null,
-      "title": "Nanomaterials 2022, 12, 4032",
-      "level": 2
-    },
-    {
-      "id": "sec-4-matic-mo-e-1",
-      "number": null,
-      "title": "Matic Mo\u017ee 1,*",
-      "level": 2
     }
   ],
   "evidence_stats": {
-    "total": 17,
-    "resolved": 17,
+    "total": 19,
+    "resolved": 19,
     "unresolved": 0,
-    "exact": 17
+    "exact": 19
   },
   "points_ref": "points/moze-2022-laser-textured-sam-untreated-copper.points.json",
-  "extractor": "configured-default/p1@codex",
+  "extractor": "claude-opus-5/p1@claude-code",
   "triage": {
     "paper_type": "experimental",
     "contains_dataset": true,
     "primary_phenomenon": "pool_boiling",
     "title": "Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer",
     "year": 2022,
-    "reason": "The paper reports its own experiments: \u201cEach surface was evaluated under saturated pool boiling conditions at atmospheric pressure using water as the working fluid.\u201d"
+    "reason": "The authors fabricated laser-textured copper surfaces and measured their own pool boiling curves, CHF (e.g., \"1697 kW m-2\") and HTC values with water at atmospheric pressure."
   },
   "conditions": {
     "p_sat": {
@@ -187,23 +180,65 @@
       "evidence": []
     },
     "q_flux": {
-      "min": null,
+      "min": 50.0,
       "max": 1697.0,
       "unit": "kW m-2",
       "evidence": [
         {
-          "quote": "The highest CHF value of 1697 kW m-2 was recorded during the third experimental run on the SC-H surface",
+          "quote": "Recordings were made at heat fluxes of 50 kW m-2 and 100 kW m-2, where\nindividual bubbles were still observable.",
           "resolved": true,
           "char_span": [
-            39168,
-            39271
+            34460,
+            34572
           ],
           "pages": [
-            12
+            10
           ],
           "sections": [
             {
-              "id": "sec-30-nanomaterials-2022-12-4032",
+              "id": "sec-28-nanomaterials-2022-12-4032",
+              "number": null,
+              "title": "Nanomaterials 2022, 12, 4032",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The highest critical heat flux of 1697 kW m-2 was achieved on the hydrophobized surface with shallow channels.",
+          "resolved": true,
+          "char_span": [
+            2429,
+            2539
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-4-matic-mo-e-1",
+              "number": null,
+              "title": "Matic Može 1,*",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Measurement uncertainty was evaluated on three selected samples at heat flux values\nof approx. 250 kW m-2 and at 1000 kW m-2",
+          "resolved": true,
+          "char_span": [
+            30878,
+            31002
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-27-nanomaterials-2022-12-4032",
               "number": null,
               "title": "Nanomaterials 2022, 12, 4032",
               "level": 2
@@ -281,10 +316,10 @@
     "Ra_surface": {
       "min": 0.2,
       "max": 0.2,
-      "unit": "\u03bcm",
+      "unit": "μm",
       "evidence": [
         {
-          "quote": "Roughness of samples after the pretreatment was approx. Ra = 0.20 \u03bcm as measured with a profilometer.",
+          "quote": "Roughness of samples after the pretreatment was approx. Ra = 0.20 μm as measured with a profilometer.",
           "resolved": true,
           "char_span": [
             18769,
@@ -307,57 +342,15 @@
       ]
     },
     "contact_angle": {
-      "min": null,
+      "min": 1.0,
       "max": 160.0,
-      "unit": "\u25e6",
+      "unit": "◦",
       "evidence": [
         {
-          "quote": "After hydrophobization, all samples exhibited superhydrophobicity with a roll-off angle below 5\u25e6and a contact angle higher than 150\u25e6.",
+          "quote": "all non-hydrophobized laser-textured\nsamples exhibited contact angle below 1◦and were in the saturated Wenzel regime [51].",
           "resolved": true,
           "char_span": [
-            22739,
-            22872
-          ],
-          "pages": [
-            6
-          ],
-          "sections": [
-            {
-              "id": "sec-20-nanomaterials-2022-12-4032",
-              "number": null,
-              "title": "Nanomaterials 2022, 12, 4032",
-              "level": 2
-            }
-          ],
-          "match": "exact",
-          "score": 1.0
-        },
-        {
-          "quote": "CH-H\nlaser texturing +\nhydrophobization\nhydrophobized sample with a crosshatch pattern\n160\u25e6",
-          "resolved": true,
-          "char_span": [
-            23439,
-            23530
-          ],
-          "pages": [
-            6
-          ],
-          "sections": [
-            {
-              "id": "sec-24-contact-angle",
-              "number": null,
-              "title": "Contact Angle",
-              "level": 2
-            }
-          ],
-          "match": "exact",
-          "score": 1.0
-        },
-        {
-          "quote": "Conversely, all non-hydrophobized laser-textured samples exhibited contact angle below 1\u25e6and were in the saturated Wenzel regime [51].",
-          "resolved": true,
-          "char_span": [
-            22873,
+            22885,
             23007
           ],
           "pages": [
@@ -368,6 +361,48 @@
               "id": "sec-20-nanomaterials-2022-12-4032",
               "number": null,
               "title": "Nanomaterials 2022, 12, 4032",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "a contact angle higher than 150◦",
+          "resolved": true,
+          "char_span": [
+            22839,
+            22871
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-20-nanomaterials-2022-12-4032",
+              "number": null,
+              "title": "Nanomaterials 2022, 12, 4032",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "untreated reference sample\n93◦",
+          "resolved": true,
+          "char_span": [
+            23340,
+            23370
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-24-contact-angle",
+              "number": null,
+              "title": "Contact Angle",
               "level": 2
             }
           ],
@@ -388,32 +423,32 @@
       "unit": null,
       "evidence": []
     },
-    "orientation": "unspecified",
-    "heating_mode": "one_side_heated",
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
     "surface_material": "copper"
   },
   "taxonomy": {
     "phenomenon": {
       "tier1": "pool_boiling",
       "tier2": "nucleate",
-      "tier3": "fully_developed",
+      "tier3": null,
       "propose_new": null,
       "evidence": [
         {
-          "quote": "saturated pool boiling conditions at atmospheric pressure using water as the working fluid.",
+          "quote": "Keywords: nucleate boiling; heat transfer enhancement; heat transfer coefficient; surface functionalization;\nlaser texturing; hydrophobization",
           "resolved": true,
           "char_span": [
-            54252,
-            54343
+            3405,
+            3547
           ],
           "pages": [
-            17
+            1
           ],
           "sections": [
             {
-              "id": "sec-38-nanomaterials-2022-12-4032",
+              "id": "sec-4-matic-mo-e-1",
               "number": null,
-              "title": "Nanomaterials 2022, 12, 4032",
+              "title": "Matic Može 1,*",
               "level": 2
             }
           ],
@@ -421,11 +456,11 @@
           "score": 1.0
         },
         {
-          "quote": "Stability of functionalized surfaces was evaluated through three\nconsecutive experimental runs, characterizing the boiling curve up to CHF incipience.",
+          "quote": "Pool boiling performance\nof all surfaces was evaluated under atmospheric pressure and at saturated conditions using\ntwice-distilled water.",
           "resolved": true,
           "char_span": [
-            18161,
-            18311
+            18022,
+            18160
           ],
           "pages": [
             4
@@ -446,7 +481,7 @@
     },
     "configuration": {
       "tier1": "surface",
-      "tier2": null,
+      "tier2": "flat_plate",
       "tier3": null,
       "propose_new": null,
       "evidence": [
@@ -512,18 +547,18 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "saturated pool boiling conditions at atmospheric pressure using water as the working fluid.",
+            "quote": "which was subsequently filled with approx. 200 mL of twice-distilled water.",
             "resolved": true,
             "char_span": [
-              54252,
-              54343
+              32817,
+              32892
             ],
             "pages": [
-              17
+              10
             ],
             "sections": [
               {
-                "id": "sec-38-nanomaterials-2022-12-4032",
+                "id": "sec-28-nanomaterials-2022-12-4032",
                 "number": null,
                 "title": "Nanomaterials 2022, 12, 4032",
                 "level": 2
@@ -544,100 +579,11 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "untreated reference sample",
+            "quote": "One sample was tested\nwithout further treatment and used as a reference; it is denoted as the \"REF\" sample.",
             "resolved": true,
             "char_span": [
-              23340,
-              23366
-            ],
-            "pages": [
-              6
-            ],
-            "sections": [
-              {
-                "id": "sec-24-contact-angle",
-                "number": null,
-                "title": "Contact Angle",
-                "level": 2
-              }
-            ],
-            "match": "exact",
-            "score": 1.0,
-            "also_at": [
-              {
-                "char_span": [
-                  31109,
-                  31135
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-27-nanomaterials-2022-12-4032",
-                    "number": null,
-                    "title": "Nanomaterials 2022, 12, 4032",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              },
-              {
-                "char_span": [
-                  31386,
-                  31412
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-27-nanomaterials-2022-12-4032",
-                    "number": null,
-                    "title": "Nanomaterials 2022, 12, 4032",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              },
-              {
-                "char_span": [
-                  31509,
-                  31535
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-27-nanomaterials-2022-12-4032",
-                    "number": null,
-                    "title": "Nanomaterials 2022, 12, 4032",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              }
-            ]
-          }
-        ],
-        "confirmed": true
-      },
-      {
-        "tier1": "roughened",
-        "tier2": "laser_textured",
-        "tier3": null,
-        "propose_new": null,
-        "evidence": [
-          {
-            "quote": "other samples underwent laser texturing as described in the following subsection.",
-            "resolved": true,
-            "char_span": [
-              19072,
-              19153
+              18960,
+              19067
             ],
             "pages": [
               5
@@ -657,56 +603,26 @@
         "confirmed": true
       },
       {
-        "tier1": "structured",
-        "tier2": "grooves",
+        "tier1": "roughened",
+        "tier2": "laser_textured",
         "tier3": null,
         "propose_new": null,
         "evidence": [
           {
-            "quote": "hydrophilic sample with a pattern of shallow channels",
+            "quote": "Three types of surface structures including a crosshatch\npattern, shallow channels and deep channels were developed using nanosecond laser texturing to\nmodify the surface micro- and nanomorphology.",
             "resolved": true,
             "char_span": [
-              23550,
-              23603
+              1712,
+              1909
             ],
             "pages": [
-              6
+              1
             ],
             "sections": [
               {
-                "id": "sec-24-contact-angle",
+                "id": "sec-4-matic-mo-e-1",
                 "number": null,
-                "title": "Contact Angle",
-                "level": 2
-              }
-            ],
-            "match": "exact",
-            "score": 1.0
-          }
-        ],
-        "confirmed": true
-      },
-      {
-        "tier1": "wettability_engineered",
-        "tier2": "hydrophilic",
-        "tier3": null,
-        "propose_new": null,
-        "evidence": [
-          {
-            "quote": "hydrophilic sample with a crosshatch pattern",
-            "resolved": true,
-            "char_span": [
-              23390,
-              23434
-            ],
-            "pages": [
-              6
-            ],
-            "sections": [
-              {
-                "id": "sec-24-contact-angle",
-                "number": null,
-                "title": "Contact Angle",
+                "title": "Matic Može 1,*",
                 "level": 2
               }
             ],
@@ -723,11 +639,11 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "hydrophobization, all samples exhibited superhydrophobicity with a roll-off angle below",
+            "quote": "After hydrophobization, all samples exhibited superhydrophobicity with a roll-off angle below\n5◦and a contact angle higher than 150◦.",
             "resolved": true,
             "char_span": [
-              22745,
-              22832
+              22739,
+              22872
             ],
             "pages": [
               6
@@ -745,11 +661,41 @@
           }
         ],
         "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "hydrophilic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Each type of surface structure was tested in the asprepared superhydrophilic state and superhydrophobic state following hydrophobization, achieved\nthrough the application of a nanoscale self-assembled monolayer of a fluorinated silane.",
+            "resolved": true,
+            "char_span": [
+              1910,
+              2145
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-4-matic-mo-e-1",
+                "number": null,
+                "title": "Matic Može 1,*",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
       }
     ],
     "measured_quantity": [
-      "htc",
       "chf",
+      "htc",
       "boiling_curve",
       "wall_superheat",
       "bubble_dynamics",
@@ -766,10 +712,9 @@
         "tier1": "electronics_thermal",
         "tier2": "immersion_cooling",
         "stated": true,
-        "confidence": "high",
         "evidence": [
           {
-            "quote": "Increased cooling requirements of many compact systems involving high heat fluxes demand the development of high-performance cooling techniques including immersion cooling utilizing pool boiling.",
+            "quote": "Increased cooling requirements of many compact systems involving high heat fluxes\ndemand the development of high-performance cooling techniques including immersion cooling\nutilizing pool boiling.",
             "resolved": true,
             "char_span": [
               1393,
@@ -782,7 +727,28 @@
               {
                 "id": "sec-4-matic-mo-e-1",
                 "number": null,
-                "title": "Matic Mo\u017ee 1,*",
+                "title": "Matic Može 1,*",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "heat removal from (micro)electronic processors and\ncomponents",
+            "resolved": true,
+            "char_span": [
+              3893,
+              3954
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-4-matic-mo-e-1",
+                "number": null,
+                "title": "Matic Može 1,*",
                 "level": 2
               }
             ],
@@ -796,6 +762,9 @@
   },
   "llm_title": "Nanosecond Laser-Textured Copper Surfaces Hydrophobized with Self-Assembled Monolayers for Enhanced Pool Boiling Heat Transfer",
   "si": {
+    "q_flux_min": 50000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 1697000.0,
     "D_h_min": 0.014,
     "D_h_unit": "m",
     "D_h_max": 0.014
@@ -816,33 +785,30 @@
   },
   "derived_tags": [
     "confinement:unconfined",
+    "heatflux:very_high",
     "scale:conventional"
   ],
   "unit_warnings": [
-    "q_flux.max: unrecognized unit 'kW m-2'",
-    "Ra_surface.min: unrecognized unit '\u03bcm'",
-    "Ra_surface.max: unrecognized unit '\u03bcm'",
-    "contact_angle.max: unrecognized unit '\u25e6'"
+    "Ra_surface.min: unrecognized unit 'μm'",
+    "Ra_surface.max: unrecognized unit 'μm'",
+    "contact_angle.min: unrecognized unit '◦'",
+    "contact_angle.max: unrecognized unit '◦'"
   ],
   "quarantined_values": {},
   "taxonomy_version": "v1",
   "gating": {
-    "reviewed_at": "2026-08-12",
-    "auto_apply": 0.75,
-    "new_term_apply": 0.85,
+    "reviewed_at": "2026-09-14",
     "pending": 0,
     "unconfirmed_fields": 0
   },
   "points_summary": {
-    "n_series": 8,
-    "n_points": 488,
+    "n_series": 7,
+    "n_points": 490,
     "figures": [
-      "fig-3",
-      "fig-8"
+      "fig-7"
     ],
     "quantities": [
-      "q_flux",
-      "y"
+      "q_flux"
     ]
   }
 }

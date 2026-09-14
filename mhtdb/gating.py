@@ -1,16 +1,12 @@
-"""Confidence gating and the review queue.
+"""The review queue.
 
-Until now every value the model returned landed in the catalog unconditionally,
-including the `confidence` we were already collecting and then ignoring. This
-module partitions each record into what is trustworthy enough to apply and what
-a human should glance at.
+Every value the model returns lands in the catalog unconditionally. This
+module partitions each record into what is stated plainly and what a human
+should glance at — an unstated application, a proposed new vocabulary term,
+a pick with no located evidence, a numeric value the plausibility gate threw
+out — and collects those into a review queue.
 
-Three principles, borrowed from lumina (see docs/lumina-comparison.md):
-
-  * **Asymmetric thresholds.** Reusing existing vocabulary is cheap to undo and
-    affects one record; proposing a new term permanently enlarges the shared
-    vocabulary and colours every later judgment. The irreversible side is held
-    to a higher bar.
+Two principles, borrowed from lumina (see docs/lumina-comparison.md):
 
   * **Review never blocks use.** A gated field is still in the record, still
     searchable, just marked unconfirmed. Nothing is withheld pending approval.
@@ -34,16 +30,6 @@ QUEUE_PATH = REVIEW_DIR / "queue.json"
 REJECTIONS_PATH = REVIEW_DIR / "rejections.json"
 PROPOSALS_PATH = _ROOT / "taxonomy" / "proposals" / "pending.json"
 
-# Model-reported confidence, mapped to a scalar so one comparison covers both
-# the categorical (application) and numeric cases.
-_CONF = {"high": 0.9, "medium": 0.6, "low": 0.3}
-
-#: A value at or above this is applied confirmed.
-AUTO_APPLY = 0.75
-#: Proposing a NEW vocabulary term needs more than reusing an existing one.
-#: Getting a reuse wrong costs one record; a bad new term is forever.
-NEW_TERM_APPLY = 0.85
-
 
 @dataclass
 class ReviewItem:
@@ -51,7 +37,6 @@ class ReviewItem:
     field: str                 # dotted path, e.g. "application.targets[0]"
     kind: str                  # unstated_application | new_term | weak_evidence | quarantined_value
     proposed: str              # the value awaiting a decision
-    confidence: float
     reason: str                # one line: why this is here
     evidence: list[dict]       # located quotes, so the reviewer can judge in place
     created: str = ""
@@ -114,9 +99,9 @@ def gate_record(record: dict, rejections: dict[str, dict] | None = None) -> list
     items: list[ReviewItem] = []
     today = str(date.today())
 
-    def flag(field, kind, proposed, conf, reason, evidence) -> bool:
+    def flag(field, kind, proposed, reason, evidence) -> bool:
         """Record a review item unless this exact suggestion was rejected before."""
-        item = ReviewItem(rid, field, kind, str(proposed), conf, reason,
+        item = ReviewItem(rid, field, kind, str(proposed), reason,
                           evidence or [], today)
         if item.key() in rejections:
             return False
@@ -141,22 +126,22 @@ def gate_record(record: dict, rejections: dict[str, dict] | None = None) -> list
             if pick.get("propose_new"):
                 pick["confirmed"] = False
                 pick["gate_reason"] = "new vocabulary term"
-                flag(path, "new_term", pick["propose_new"], NEW_TERM_APPLY,
+                flag(path, "new_term", pick["propose_new"],
                      f"proposes a term not in the {facet} vocabulary", ev)
             elif not _evidence_ok(ev):
                 pick["confirmed"] = False
                 pick["gate_reason"] = "no located evidence"
-                flag(path, "weak_evidence", label or facet, 0.4,
+                flag(path, "weak_evidence", label or facet,
                      f"{facet} assigned with no quote that resolves to the paper", ev)
             else:
                 pick["confirmed"] = True
+                pick.pop("gate_reason", None)
 
     # -- application target: the known hallucination hotspot ------------
     for i, t in enumerate((record.get("application", {}) or {}).get("targets", []) or []):
         if not isinstance(t, dict):
             continue
         label = "/".join(x for x in (t.get("tier1"), t.get("tier2")) if x)
-        conf = _CONF.get(str(t.get("confidence", "")).lower(), 0.5)
         ev = t.get("evidence") or []
 
         # `fundamental` is the honest default, never gated — gating it would
@@ -164,32 +149,27 @@ def gate_record(record: dict, rejections: dict[str, dict] | None = None) -> list
         # field is prone to.
         if t.get("tier1") == "fundamental":
             t["confirmed"] = True
+            t.pop("gate_reason", None)
             continue
 
         if not t.get("stated"):
             t["confirmed"] = False
             t["gate_reason"] = "inferred, not stated by the paper"
-            flag(f"application.targets[{i}]", "unstated_application", label, conf,
-                 f"application inferred rather than stated (confidence {t.get('confidence')})", ev)
-        elif conf < AUTO_APPLY:
-            t["confirmed"] = False
-            t["gate_reason"] = f"confidence {t.get('confidence')}"
-            flag(f"application.targets[{i}]", "unstated_application", label, conf,
-                 f"stated but low confidence ({t.get('confidence')})", ev)
+            flag(f"application.targets[{i}]", "unstated_application", label,
+                 "application inferred rather than stated by the paper", ev)
         else:
             t["confirmed"] = True
+            t.pop("gate_reason", None)
 
     # -- numerics the plausibility gate threw out -----------------------
     for field, rejected in (record.get("quarantined_values") or {}).items():
         for r in rejected:
             flag(f"conditions.{field}", "quarantined_value",
-                 f"{field} = {r.get('raw')} {r.get('unit')}", 0.2,
+                 f"{field} = {r.get('raw')} {r.get('unit')}",
                  "outside the physically plausible range; excluded from SI and tags", [])
 
     record["gating"] = {
         "reviewed_at": today,
-        "auto_apply": AUTO_APPLY,
-        "new_term_apply": NEW_TERM_APPLY,
         "pending": len(items),
         "unconfirmed_fields": sum(
             1 for p in _all_picks(record) if p.get("confirmed") is False
@@ -228,7 +208,7 @@ def rebuild_queue(records: Iterable[dict]) -> list[dict]:
                 prev.setdefault("also_in", []).append(rec.get("record_id"))
             else:
                 seen[d["key"]] = d
-    queue = sorted(seen.values(), key=lambda d: (-d["confidence"], d["kind"]))
+    queue = sorted(seen.values(), key=lambda d: (d["kind"], d["record_id"], d["field"]))
     save_queue(queue)
     return queue
 

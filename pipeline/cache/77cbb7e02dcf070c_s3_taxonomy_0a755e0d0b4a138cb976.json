@@ -1,0 +1,77 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Near-saturated pool boiling experiments and flow visualization\nstudies were performed on a 90-degree slice of a downward-facing\nconvex surface to explore liquid-vapor interfacial behavior near CHF."
+      },
+      {
+        "quote": "As the bubbles grow in volume, they begin to coalesce into a\nvapor layer on the bottom heaters."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": null,
+    "tier3": null,
+    "propose_new": "downward_facing_convex_surface",
+    "evidence": [
+      {
+        "quote": "nine\nheaters are inserted along the curved portion of the G-10 spacer to\ncreate a 90-degree downward-facing convex surface with a radius of\n102.6 mm."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "localized steady state measurements of both heat flux and\nsurface temperature"
+      },
+      {
+        "quote": "During\ntesting, steady state thermocouple readings are curve-fit to radial\nlocation"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "FC-87",
+      "evidence": [
+        {
+          "quote": "It consists of a 3.2-\nmm thick boiling flange that is connected to a large reservoir where\nthe bulk fluid, Fluorinert FC-87, is stored and conditioned."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Prior to each test, the heater surfaces are polished lightly with a\nCrocus cloth and cleaned with acetone to ensure reproducible boiling\nresults."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

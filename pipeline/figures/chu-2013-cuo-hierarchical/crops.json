@@ -1,0 +1,101 @@
+{
+  "record_id": "chu-2013-cuo-hierarchical",
+  "n_crops": 5,
+  "crops": [
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Scanning electron micrographs (SEMs) of the representative, fabricated CuO-based hierarchical surfaces. (a) CuO micropillar array in a square array with heights of 61 \u00b5m, diameters of 30 \u00b5m, and spacings of 30 \u00b5m. (b) Electroplated Cu micropillars, and (c) micropillars with CuO nanostructures formed on the surfaces. (d) Magnified view of the CuO micropillar and CuO nanostructures formed on the sur",
+      "page": 2,
+      "bbox": [
+        251.267822265625,
+        49.94500732421875,
+        547.3525390625,
+        424.5338134765625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "CuO hierarchical surfaces were fabricated as follows: (1) Ti/Cu/Ti layers were deposited on a silicon substrate. (2) A thick (\u2248100 \u03bcm) PR mold was patterned using photolithography. (3) The top Ti layer was removed to expose the Cu layer and then Cu micropillars were electroplated. (4) After removing the photoresist, Cu micropillars were oxidized in an alkali solution composed of NaClO 2 , NaOH, Na",
+      "page": 2,
+      "bbox": [
+        50.02772521972656,
+        295.0569152832031,
+        294.9386291503906,
+        531.4559326171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-1.png",
+      "n_panels": 90,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Schematic of the experimental pool boiling setup [12]. The setup consists of a copper block and a glass chamber fixed at both ends by Ultem mounts. Cartridge heaters were imbedded in the copper block allowing for a maximum power of 1400 W. Five in-line thermocouples were inserted into the center axis of the copper block to measure the heat flux and surface temperature.",
+      "page": 2,
+      "bbox": [
+        302.38690185546875,
+        417.0249938964844,
+        547.3114013671875,
+        741.9320678710938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.93
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Heat transfer performance. (a) CHF and (b) corresponding heat transfer coefficient comparing smooth (Sm) and microstructured silicon (Micro) and CuO hierarchical (Hier) surfaces",
+      "page": 3,
+      "bbox": [
+        302.3878173828125,
+        49.94500732421875,
+        547.3143310546875,
+        451.17578125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-4.png",
+      "n_panels": 659,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "CHF as function of \u07d9 \u123a\u0d4c\u074e\u073f\u074b\u074f\u07e0 \u0be5\u0bd8\u0bd6 \u123b . The proposed model (solid line) is compared to the K-Z model with a factor of \u072d = 0.18 (dashed line). The symbols show the CHF data for ( ) microstructured surfaces [12], and ( ) CuO hierarchical surfaces, as a function of the estimated \u07d9 values. CONCLUSION",
+      "page": 4,
+      "bbox": [
+        50.026771545410156,
+        61.94500732421875,
+        294.882568359375,
+        318.1766052246094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\fig-5.png",
+      "n_panels": 103,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    }
+  ]
+}

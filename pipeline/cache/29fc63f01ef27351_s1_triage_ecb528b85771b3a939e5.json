@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Bubble nucleation characteristics in pool boiling of a wetting liquid on smooth and rough surfaces",
+  "year": 2010,
+  "reason": "The authors report their own high-speed-visualization measurements of bubble departure diameter, frequency, nucleation site density, terminal velocity, wall superheat and heat flux for saturated pool boiling of FC-77 on polished and EDM-roughened aluminum surfaces."
+}

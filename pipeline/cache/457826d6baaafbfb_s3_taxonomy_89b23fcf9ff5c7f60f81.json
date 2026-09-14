@@ -1,0 +1,112 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "evaluated in pool boiling experiments"
+      },
+      {
+        "quote": "consisting of individual bubbles nucleating and departing"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "on the surfaces of copper test blocks. The microstructured"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "steady-state operation at each heat flux; high-speed flow"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Summary of boiling behavior of water from textured superhydrophobic surfaces."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "to impart superhydrophobic behavior"
+        },
+        {
+          "quote": "superhydrophobic in the\nWenzel state (SHPho-Wenzel), and bare copper (Hydrophilic)"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "copper surface was fabricated through laser etching (ULS,"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "nanowire",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "copper oxide nanowires with diameters of ∼100 -300 nm"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "microstructured copper surface without the PDMS coating"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "high_speed_visualization",
+    "thermocouple"
+  ]
+}

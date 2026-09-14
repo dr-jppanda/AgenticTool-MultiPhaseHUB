@@ -206,9 +206,16 @@ def compile_curves(max_points: int = 70) -> dict:
         print(f"  curves panel skipped: {type(exc).__name__}: {exc}")
         return {"series": [], "reference": None, "papers": []}
 
-    every, _ = select_boiling_curves(include_all=True)
+    every, rejected = select_boiling_curves(include_all=True)
     plain, _ = select_boiling_curves()
     plain_ids = {s.series_id for s in plain}
+    # First rejection reason per record -- e.g. an uncalibrated axis -- so the
+    # legend can say *why* a digitized paper isn't plotted instead of the
+    # generic "wrong axes" guess, which is wrong whenever the axes matched
+    # fine and it was the units that didn't convert.
+    rejected_reason = {}
+    for r in rejected:
+        rejected_reason.setdefault(r.record_id, r.reason)
 
     out = []
     for sel in every:
@@ -224,7 +231,6 @@ def compile_curves(max_points: int = 70) -> dict:
             "plain": sel.series_id in plain_ids,
             "reason": sel.reason,
             "source": sel.source_type,
-            "confidence": sel.confidence,
             # [wall superheat K, heat flux W/m2]
             "pts": [[round(a, 3), round(b, 1)] for a, b in pts],
         })
@@ -249,7 +255,8 @@ def compile_curves(max_points: int = 70) -> dict:
         if rid in plotted:
             status, note = "plotted", ""
         elif rid in with_points:
-            status, note = "other_axes", "digitized, but no wall-superheat/heat-flux axes"
+            status = "other_axes"
+            note = rejected_reason.get(rid, "digitized, but no wall-superheat/heat-flux axes")
         elif n_pending:
             status, note = "needs_calibration", f"{n_pending} figure(s) await axis calibration"
         else:
@@ -280,9 +287,24 @@ def build(mode: str = "standalone") -> Path:
     copied = 0
     for name in sorted({r["pdf"] for r in data["records"] if r.get("pdf")}):
         source = PAPERS / name
-        if source.exists():
-            shutil.copy2(source, paper_dist / name)
+        if not source.exists():
+            continue
+        dest = paper_dist / name
+        # Same size as what's already there -- almost certainly last run's
+        # copy of this same source file. Skipping avoids re-touching a file
+        # a PDF viewer or file-indexer may currently have open (a locked
+        # destination is a transient Windows nuisance, not a build error).
+        if dest.exists() and dest.stat().st_size == source.stat().st_size:
             copied += 1
+            continue
+        try:
+            shutil.copy2(source, dest)
+            copied += 1
+        except PermissionError as e:
+            print(f"warning: could not copy {name} into {paper_dist} "
+                  f"({e}) -- it may be open in another program; the dashboard "
+                  f"will link to it, but that link will 404 until it's copied",
+                  file=sys.stderr)
 
     if mode == "server":
         (DIST / "data").mkdir(exist_ok=True)
@@ -479,6 +501,7 @@ aside::-webkit-scrollbar-thumb{background:var(--line2);border-radius:8px}
   padding:13px 15px;margin-bottom:10px}
 .panel h2{margin:0;font-size:14px;font-weight:650;letter-spacing:-.01em}
 .panel .cap{margin:2px 0 10px;font-size:13px;color:var(--ink3)}
+#stats,#curves{max-width:75%;zoom:.75}
 .strip{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .stat{flex:1;min-width:104px;background:var(--panel);border:1px solid var(--line);
   border-radius:var(--r);padding:9px 12px}
@@ -532,7 +555,7 @@ td.num{font-variant-numeric:tabular-nums;text-align:right}
 .curve-controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:2px 0 10px}
 .curve-controls .tb{flex:0 0 auto}
 .curve-controls .note{color:var(--ink3);font-size:12.5px;margin-left:auto}
-.curve-stage{position:relative}
+.curve-stage{position:relative;max-width:80%}
 .curve-chart{width:100%;height:auto;display:block;touch-action:none}
 .curve-line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
 .cv-series.dim{opacity:.22}
@@ -543,6 +566,10 @@ td.num{font-variant-numeric:tabular-nums;text-align:right}
 .curve-tag{font-size:11px;fill:var(--ink2);paint-order:stroke;stroke:var(--panel);
   stroke-width:3.5px;stroke-linejoin:round}
 .curve-cross{stroke:var(--line2);stroke-width:1;stroke-dasharray:3 4}
+.grid{stroke:var(--line);stroke-width:1}
+.axis-box{fill:none;stroke:var(--line2);stroke-width:1.2}
+.axis-label{fill:var(--ink2)}
+.tick{fill:var(--ink3)}
 .curve-tip{position:absolute;pointer-events:none;z-index:5;min-width:170px;max-width:280px;
   padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--panel);
   box-shadow:var(--shadow);font-size:12.5px;line-height:1.45}
@@ -552,9 +579,15 @@ td.num{font-variant-numeric:tabular-nums;text-align:right}
 .curve-empty{color:var(--ink2);font-size:14px;margin:6px 0 0}
 .curve-legend{display:flex;flex-wrap:wrap;gap:6px 10px;margin-top:10px}
 .curve-legend .lg-item{display:inline-flex;align-items:center;gap:6px;padding:3px 9px 3px 5px;
-  border:1px solid var(--line);border-radius:99px;font-size:12.5px;background:var(--panel)}
+  border:1px solid var(--line);border-radius:99px;font-size:12.5px;background:var(--panel);
+  cursor:pointer;user-select:none;transition:background .08s,border-color .08s,color .08s}
+.curve-legend .lg-item:hover{border-color:var(--accent);background:var(--accent-soft)}
+.curve-legend .lg-item:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .curve-legend .lg-item.off{color:var(--ink3);border-style:dashed;background:transparent}
+.curve-legend .lg-item.picked{background:var(--accent);border-color:var(--accent);color:#fff}
+.curve-legend .lg-item.picked em{color:#fff}
 .curve-legend .lg-item em{font-style:normal;color:var(--ink3);font-size:11.5px}
+.curve-legend .lg-clear{font-weight:600;border-style:solid}
 .lg-mark{width:14px;height:14px;flex:0 0 14px;overflow:visible}
 </style>
 </head>
@@ -605,14 +638,11 @@ td.num{font-variant-numeric:tabular-nums;text-align:right}
 
 <script>
 let DATA = __DATA__;
-const S = {facets:{}, ranges:{}, q:"", table:false, open:new Set(), showReview:false};
+const S = {facets:{}, ranges:{}, q:"", table:false, showReview:false};
 const $ = s => document.querySelector(s);
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const nice = s => String(s).replace(/_/g," ").replace(/ \/ /g," › ");
 
-const OPEN_KEY="mht.tree.open";
-try{ S.open = new Set(JSON.parse(localStorage.getItem(OPEN_KEY)||"[]")); }catch{}
-const persist = () => { try{ localStorage.setItem(OPEN_KEY,JSON.stringify([...S.open])); }catch{} };
 const SIDEBAR_KEY="mht.sidebar.width",SIDEBAR_MIN=220,SIDEBAR_MAX=440,SIDEBAR_DEFAULT=258;
 const clampSidebar=v=>Math.min(SIDEBAR_MAX,Math.max(SIDEBAR_MIN,Math.round(v)));
 function setSidebarWidth(value,save=false){
@@ -658,11 +688,9 @@ const shown = () => DATA.records.filter(keep);
 function tally(key, recs){
   const m={}; for(const r of recs) for(const v of (r.facets[key]||[])) m[v]=(m[v]||0)+1; return m;
 }
-function treeRow({id,label,count,depth,on,dim,expandable,expanded,onTog,onSel,unconf}){
+function treeRow({id,label,count,depth,on,dim,unconf}){
   return `<div class="row ${on?"on":""} ${dim?"dim":""}" style="padding-left:${depth*13}px">
-    ${expandable
-      ? `<button class="tw" data-tog="${esc(id)}" aria-label="${expanded?"collapse":"expand"}">${expanded?"▾":"▸"}</button>`
-      : `<span class="tw"></span>`}
+    <span class="tw"></span>
     <button class="lbl" data-sel="${esc(id)}">
       ${unconf?`<span class="dot" style="background:var(--s2)" title="includes unconfirmed"></span>`:""}
       <span style="overflow:hidden;text-overflow:ellipsis">${esc(label)}</span>
@@ -684,22 +712,20 @@ function renderSide(){
 
     let rows="";
     if(F.tree){
-      const parents=keys.filter(k=>!k.includes(" / ")).sort();
-      const kidsOf=p=>keys.filter(k=>k.startsWith(p+" / ")).sort();
-      // A child whose parent never appears alone would otherwise be invisible.
-      const orphans=keys.filter(k=>k.includes(" / ") && !parents.includes(k.split(" / ")[0]));
+      // Sub-categories (tier 2) are still in every record's own data -- the
+      // Table view's detail columns and search both read them -- but the
+      // sidebar only ever filters by the main category, and the tier-2 rows
+      // used to add a whole extra disclosure level for what was usually a
+      // single-item list under it. A main category's own count already
+      // includes every record filed under one of its sub-categories (each
+      // pick contributes both strings), so collapsing to main-category-only
+      // rows here changes nothing about which records a click matches.
+      const parents=keys.filter(k=>!k.includes(" / "))
+        .sort((a,b)=>(all[b]-all[a])||a.localeCompare(b));
       for(const p of parents){
-        const kids=kidsOf(p), key=F.key+"::"+p;
-        rows+=treeRow({id:key,label:nice(p),count:live[p]||0,depth:0,
-          on:sel.has(p),dim:!(live[p]||0)&&!sel.has(p),
-          expandable:kids.length>0,expanded:S.open.has(key),unconf:unconfAny.has(p)});
-        if(S.open.has(key)) for(const k of kids)
-          rows+=treeRow({id:F.key+"::"+k,label:nice(k.split(" / ")[1]),count:live[k]||0,
-            depth:1,on:sel.has(k),dim:!(live[k]||0)&&!sel.has(k),unconf:unconfAny.has(k)});
+        rows+=treeRow({id:F.key+"::"+p,label:nice(p),count:live[p]||0,depth:0,
+          on:sel.has(p),dim:!(live[p]||0)&&!sel.has(p),unconf:unconfAny.has(p)});
       }
-      for(const o of orphans)
-        rows+=treeRow({id:F.key+"::"+o,label:nice(o),count:live[o]||0,depth:0,
-          on:sel.has(o),dim:!(live[o]||0)&&!sel.has(o),unconf:unconfAny.has(o)});
     } else {
       for(const k of keys.sort((a,b)=>(all[b]-all[a])||a.localeCompare(b)))
         rows+=treeRow({id:F.key+"::"+k,label:nice(k),count:live[k]||0,depth:0,
@@ -728,22 +754,12 @@ function renderSide(){
 
   const side=$("#side"); side.innerHTML=h;
 
-  side.querySelectorAll("[data-tog]").forEach(b=>b.onclick=e=>{
-    e.stopPropagation();
-    const k=b.dataset.tog; S.open.has(k)?S.open.delete(k):S.open.add(k); persist(); renderSide();
-  });
   side.querySelectorAll("[data-sel]").forEach(b=>b.onclick=()=>{
     const id=b.dataset.sel;
     if(id==="__all"){ S.facets={}; return render(); }
     const [k,v]=id.split("::");
     const set=S.facets[k]||(S.facets[k]=new Set());
-    if(set.has(v)) set.delete(v); else {
-      set.add(v);
-      // Selecting a parent reveals what's underneath — you almost always want
-      // to see the breakdown next. Expanding is not the same as filtering,
-      // which is why the caret stays a separate control.
-      const tk=k+"::"+v; if(!v.includes(" / ")) S.open.add(tk), persist();
-    }
+    if(set.has(v)) set.delete(v); else set.add(v);
     render();
   });
   side.querySelectorAll("input[type=range]").forEach(sl=>sl.oninput=()=>{
@@ -796,7 +812,7 @@ function decadeTicks(lo,hi){
 }
 
 /* ── boiling curves ──────────────────────────────────── */
-const CV={scope:"all", ylog:false, xwall:false, hover:null};
+const CV={scope:"all", ylog:false, xwall:false, hover:null, pick:null};
 
 // Colour follows the paper, not its rank in the current filter: assigning by
 // position in the filtered list would repaint every surviving curve whenever a
@@ -861,17 +877,69 @@ function marker(shape,x,y,r,fill,cls){
 }
 function shortId(rec){const p=rec.split("-");return p[0]+" "+(p[1]||"");}
 
-function curveSeries(recs){
+// Scope-filtered only (plain vs. all series) -- ignores the legend pick, so
+// the legend can always show every in-scope paper as selectable even while
+// one is isolated. curveSeries() below layers the pick on top for the chart
+// itself; both read from this so scope and pick can never disagree about
+// which papers exist to choose from.
+function curveSeriesInScope(recs){
   const live=new Set(recs.map(r=>r.id));
   return (DATA.curves?.series||[])
     .filter(s=>live.has(s.record))
     .filter(s=>CV.scope==="all"||s.plain);
 }
+function curveSeries(recs){
+  const inScope=curveSeriesInScope(recs);
+  return CV.pick ? inScope.filter(s=>s.record===CV.pick) : inScope;
+}
+
+function curveLegendSwatch(rec,on){
+  return `<svg class="lg-mark" viewBox="0 0 14 14" aria-hidden="true">${
+    on ? marker(curveShape(rec),7,7,4.6,curveColor(rec),"")
+       : `<circle cx="7" cy="7" r="4" fill="none" stroke="var(--ink3)" stroke-width="1.4"/>`}</svg>`;
+}
+// Every legend item is clickable, "on" (plotted, in scope) or not: picking
+// one isolates its curve(s) in the chart above; picking the same one again
+// (or the "Show all" chip that appears once something is picked) clears it.
+// A paper with nothing to show in this scope is still clickable -- clicking
+// it isolates it to *nothing*, which is exactly what its own dashed "not
+// plotted" state already promises, rather than being a dead label.
+function curveLegendHTML(papers,liveSet){
+  const order=[...(papers||[])].sort((a,b)=>
+    (liveSet.has(b.id)?1:0)-(liveSet.has(a.id)?1:0));
+  const items=order.map(p=>{
+    const on=liveSet.has(p.id);
+    const picked=CV.pick===p.id;
+    const why=on?"":` — ${p.note||"not plotted"}`;
+    const cls=["lg-item",on?"":"off",picked?"picked":""].filter(Boolean).join(" ");
+    return `<span class="${cls}" data-rec="${esc(p.id)}" role="button" tabindex="0"
+      aria-pressed="${picked}" title="${esc((picked?"Showing only: ":"Show only: ")+p.id+(why?why:""))}">
+      ${curveLegendSwatch(p.id,on)}${esc(shortId(p.id))}${on?"":`<em>${esc(p.status.replace(/_/g," "))}</em>`}</span>`;
+  }).join("");
+  const clear=CV.pick?`<span class="lg-item lg-clear" data-rec="" role="button" tabindex="0"
+      title="Clear selection — show every paper">&times; Show all</span>`:"";
+  return clear+items;
+}
+
+// Clicking a legend name isolates its curve(s); clicking it again (or the
+// "Show all" chip) restores every paper. Re-renders the whole app, not just
+// the curves panel -- CV.pick is curves-only state, but render() is already
+// how every other control (view, scope, facets...) applies itself, so a
+// second render path here would just be one more way for the panel to drift
+// out of sync with everything else.
+function pickCurvePaper(rec){
+  CV.pick=(rec&&rec!==CV.pick)?rec:null;
+  render();
+}
 
 function renderCurves(recs){
   const host=$("#curves"); if(!host) return;
-  const data=DATA.curves||{series:[],reference:null};
-  if(!data.series.length){
+  const data=DATA.curves||{series:[],reference:null,papers:[]};
+  // "No papers at all" (nothing has ever been cropped/digitized) is a
+  // different situation from "papers were digitized but none of their axes
+  // could be calibrated" -- the latter still has a real reason worth
+  // showing per paper, so only the former gets the generic setup message.
+  if(!data.papers || !data.papers.length){
     host.innerHTML=`<div class="panel curve-panel"><div class="coverage-head"><div>
       <h2>Boiling curves · digitized</h2>
       <p class="cap">No digitized points in the catalog yet. Run
@@ -879,33 +947,36 @@ function renderCurves(recs){
       </div></div></div>`;
     return;
   }
+  // inScope ignores the legend pick -- it is what decides which papers the
+  // legend can offer to isolate. series layers the pick on top and is what
+  // actually gets plotted, so a pick that empties the chart (e.g. the picked
+  // paper has no series in the current scope) is distinguishable from scope
+  // itself matching nothing.
+  const inScope=curveSeriesInScope(recs);
   const series=curveSeries(recs);
   const W=760,H=390,P={l:78,r:104,t:22,b:56};
   const head=`<div class="coverage-head"><div>
       <h2>Boiling curves · digitized</h2>
       <p class="cap">Every point recovered from a figure, in SI. Hover for the paper,
-      the series as its legend named it, and how the value was obtained.</p>
+      the series as its legend named it, and how the value was obtained. Click a
+      name below to isolate its curve.</p>
       </div><span class="coverage-count">${series.length} curve${series.length===1?"":"s"}</span></div>`;
+  // No scope/scale/axis toggles -- this panel always shows all series on a
+  // linear heat-flux axis against wall superheat ΔT (CV's own defaults).
   const controls=`<div class="curve-controls">
-      <div class="tb" role="group" aria-label="Which curves">
-        <button data-cv="scope" data-v="plain" aria-pressed="${CV.scope==="plain"}">Plain surfaces</button>
-        <button data-cv="scope" data-v="all" aria-pressed="${CV.scope==="all"}">All series</button>
-      </div>
-      <div class="tb" role="group" aria-label="Heat flux scale">
-        <button data-cv="ylog" data-v="0" aria-pressed="${!CV.ylog}">Linear q″</button>
-        <button data-cv="ylog" data-v="1" aria-pressed="${CV.ylog}">Log q″</button>
-      </div>
-      <div class="tb" role="group" aria-label="X axis">
-        <button data-cv="xwall" data-v="0" aria-pressed="${!CV.xwall}">ΔT</button>
-        <button data-cv="xwall" data-v="1" aria-pressed="${CV.xwall}">T<tspan>w</tspan> (water)</button>
-      </div>
       <span class="note">${esc(data.reference?data.reference.source:"")}</span>
     </div>`;
 
-  if(!series.length){
+  if(!inScope.length||!series.length){
+    const legend=curveLegendHTML(data.papers,new Set(inScope.map(s=>s.record)));
+    const msg=!inScope.length
+      ? `No digitized curve matches these filters.
+         ${CV.scope==="plain"?"Only series whose legend names a plain reference surface are shown — switch to <em>All series</em>.":""}`
+      : `${esc(shortId(CV.pick))} has no curve in this scope.
+         ${CV.scope==="plain"?"It may only have non-reference series — try <em>All series</em>, or ":"Try "}<em>Show all</em> below.`;
     host.innerHTML=`<div class="panel curve-panel">${head}${controls}
-      <p class="curve-empty">No digitized curve matches these filters.
-      ${CV.scope==="plain"?"Only series whose legend names a plain reference surface are shown — switch to <em>All series</em>.":""}</p></div>`;
+      <p class="curve-empty">${msg}</p>
+      <div class="curve-legend">${legend}</div></div>`;
     wireCurves();
     return;
   }
@@ -940,8 +1011,7 @@ function renderCurves(recs){
     if(y<P.t-1||y>H-P.b+1) continue;
     s+=`<line class="grid" x1="${P.l}" y1="${y}" x2="${W-P.r}" y2="${y}"/>
         <text class="tick" x="${P.l-10}" y="${y+4}" text-anchor="end">${fmt(v/1e4)}</text>`;}
-  s+=`<line class="axis" x1="${P.l}" y1="${H-P.b}" x2="${W-P.r}" y2="${H-P.b}"/>
-      <line class="axis" x1="${P.l}" y1="${P.t}" x2="${P.l}" y2="${H-P.b}"/>
+  s+=`<rect class="axis-box" x="${P.l}" y="${P.t}" width="${W-P.l-P.r}" height="${H-P.t-P.b}"/>
       <text class="axis-label" x="${P.l+(W-P.l-P.r)/2}" y="${H-13}" text-anchor="middle">${
         CV.xwall?"Wall temperature (°C, water at 1 atm)":"Wall superheat ΔT (K)"}</text>
       <text class="axis-label" x="20" y="${P.t+(H-P.t-P.b)/2}" text-anchor="middle"
@@ -1018,18 +1088,8 @@ function renderCurves(recs){
   s+=`<rect id="cvHit" x="${P.l}" y="${P.t}" width="${W-P.l-P.r}" height="${H-P.t-P.b}"
         fill="transparent" style="cursor:crosshair"/>`;
 
-  const live=new Set(series.map(x=>x.record));
-  const swatch=(rec,on)=>`<svg class="lg-mark" viewBox="0 0 14 14" aria-hidden="true">${
-    on ? marker(curveShape(rec),7,7,4.6,curveColor(rec),"")
-       : `<circle cx="7" cy="7" r="4" fill="none" stroke="var(--ink3)" stroke-width="1.4"/>`}</svg>`;
-  const order=[...(DATA.curves.papers||[])].sort((a,b)=>
-    (live.has(b.id)?1:0)-(live.has(a.id)?1:0));
-  const lg=order.map(p=>{
-    const on=live.has(p.id);
-    const why=on?"":` — ${p.note||"not plotted"}`;
-    return `<span class="lg-item${on?"":" off"}" title="${esc(p.id+(why?why:""))}">
-      ${swatch(p.id,on)}${esc(shortId(p.id))}${on?"":`<em>${esc(p.status.replace(/_/g," "))}</em>`}</span>`;
-  }).join("")
+  const live=new Set(inScope.map(x=>x.record));
+  const lg=curveLegendHTML(data.papers,live)
     +`<span class="lg-item"><svg class="lg-mark" viewBox="0 0 14 14" aria-hidden="true">
         <line x1="1" y1="7" x2="13" y2="7" stroke="var(--ink2)" stroke-width="1.8" stroke-dasharray="4 3"/>
       </svg>Rohsenow reference</span>`;
@@ -1044,16 +1104,10 @@ function curveTipHTML(h){
   return `<b>${esc(h.label||"series")}</b>
     <span class="muted">${esc(h.record)} · ${esc(h.figure)}</span><br>
     <span class="val">${fmt(h.dt)} K · ${fmt(h.q/1e4)} W/cm²</span><br>
-    <span class="muted">${esc(h.source.replace(/_/g," "))}${
-      h.confidence!=null?" · confidence "+h.confidence:""}</span>`;
+    <span class="muted">${esc(h.source.replace(/_/g," "))}</span>`;
 }
 
 function wireCurves(series,px,py,xOff,W,H,P){
-  document.querySelectorAll("#curves [data-cv]").forEach(b=>b.onclick=()=>{
-    const k=b.dataset.cv,v=b.dataset.v;
-    CV[k]= k==="scope" ? v : v==="1";
-    renderCurves(shown());
-  });
   const hit=$("#cvHit"); if(!hit||!series) return;
   const svg=hit.ownerSVGElement, tip=$("#cvTip"), ov=$("#cvOverlay"),
         cross=$("#cvCross"), ring=$("#cvRing");
@@ -1074,7 +1128,7 @@ function wireCurves(series,px,py,xOff,W,H,P){
     series.forEach(sr=>sr.pts.forEach(p=>{
       const X=px(p[0]+xOff),Y=py(p[1]),d=(X-mx)**2+(Y-my)**2;
       if(d<bd){bd=d;best={x:X,y:Y,dt:p[0],q:p[1],record:sr.record,figure:sr.figure,
-        series:sr.series,label:sr.label,source:sr.source,confidence:sr.confidence};}
+        series:sr.series,label:sr.label,source:sr.source};}
     }));
     if(!best||bd>42**2){clear();return;}
     ov.removeAttribute("hidden");
@@ -1101,7 +1155,7 @@ function renderReview(){
   btn.textContent=`${q.length} to review`;
   if(!S.showReview||!q.length){ $("#review").innerHTML=""; return; }
   $("#review").innerHTML=`<div class="panel"><h2>Review queue</h2>
-    <p class="cap">Low-confidence or new-vocabulary items. None of this blocks use —
+    <p class="cap">Unconfirmed or new-vocabulary items. None of this blocks use —
     the values are already in the catalog, just marked unconfirmed.
     Decide from the CLI; rejections are remembered.</p>
     <div class="rv">${q.map(i=>`<div class="rvi">
@@ -1277,6 +1331,8 @@ function boot(){
   $("#paperClose").onclick=closePaper;
   $("#paperViewer").onclick=e=>{if(e.target.id==="paperViewer") closePaper();};
   document.addEventListener("click",e=>{
+    const pick=e.target.closest(".lg-item[data-rec]");
+    if(pick){pickCurvePaper(pick.dataset.rec);return;}
     const link=e.target.closest("[data-paper]");
     if(!link) return;
     const pageTarget=e.target.closest("[data-paper-page]")||link;
@@ -1284,6 +1340,11 @@ function boot(){
   });
   document.addEventListener("keydown",e=>{
     if(e.key==="Escape") return closePaper();
+    if((e.key==="Enter"||e.key===" ")&&e.target.matches(".lg-item[data-rec]")){
+      e.preventDefault();
+      pickCurvePaper(e.target.dataset.rec);
+      return;
+    }
     if((e.key==="Enter"||e.key===" ")&&e.target.matches(".ev[data-paper]")){
       e.preventDefault();
       openPaper(e.target.dataset.paper,e.target.dataset.paperPage,e.target.dataset.paperTitle);

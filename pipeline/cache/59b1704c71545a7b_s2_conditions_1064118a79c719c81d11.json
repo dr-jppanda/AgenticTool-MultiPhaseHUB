@@ -1,0 +1,121 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 19.5,
+    "max": 100.0,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "over a heat flux range from 20 kW/m2 to 100 kW/m2."
+      },
+      {
+        "quote": "the heat flux 19.5 kW/m2 considered in Fig. 4"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": 2.5,
+    "max": 10.0,
+    "unit": "oC",
+    "evidence": [
+      {
+        "quote": "decreases monotonically from 7.5 C to 2.5 C"
+      },
+      {
+        "quote": "reach a maximum surface superheat of over 10 C"
+      }
+    ]
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "25.4 mm 25.4 mm test surface"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 25.0,
+    "max": 25.0,
+    "unit": "nm",
+    "evidence": [
+      {
+        "quote": "The polished (RRMS = 25 nm, NewView"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 40.0,
+    "max": 40.0,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "is assumed to be 40 based on the contact angle observed in Fig. 3"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

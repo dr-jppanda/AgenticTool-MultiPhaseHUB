@@ -1,0 +1,135 @@
+{
+  "p_sat": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "atmosphere",
+    "evidence": [
+      {
+        "quote": "having boiling points of 56°C and 30°C at one atmosphere, respectively"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 30.0,
+    "max": 56.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "having boiling points of 56°C and 30°C at one atmosphere, respectively"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 28.6,
+    "max": 159.3,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "Microstructured extended surfaces resulted in chip heat\nfluxes (based on planform area) of 105.4 and 159.3 W/cm2 in\nsaturated and 35 DC subcooled FC-n, respectively."
+      },
+      {
+        "quote": "Even during\nfully-developed boiling (# = 28.6 W/cm2), the large mass of\nvapor was almost totally condensed"
+      },
+      {
+        "quote": "Transition to film\nboiling occurred at qm= 105.8 W/cm2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 0.0,
+    "max": 35.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "Microstructured extended surfaces resulted in chip heat\nfluxes (based on planform area) of 105.4 and 159.3 W/cm2 in\nsaturated and 35 DC subcooled FC-n, respectively."
+      },
+      {
+        "quote": "Comparisons of saturated and sub-\ncooled boiling curves for the low profile microstud reference\nsurface"
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 12.7,
+    "max": 12.7,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "For the present study, various metallic\nattachments were designed to enhance heat transfer from a\n12.7 x 12.7 mm2 simulated microelectronic heat source."
+      },
+      {
+        "quote": "The enhanced surfaces were built upon a 4.78 mm-thick base\nchip having a cross-sectional area of 12.7 x 12.7 mm2."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 16.0,
+    "max": 40.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "16 mm \"short\" smooth stud conformed to typical packaging\nlimitations, while the 40 mm long smooth stud was tested for\nphotographic analysis"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": 2.0,
+    "max": 2.0,
+    "unit": "L/D",
+    "evidence": [
+      {
+        "quote": "The spacing between\nthe pins was set at one bubble departure diameter and the\nlength-to-diameter aspect ratio was set at 2 to enforce practical\nspatial packaging requirements"
+      }
+    ]
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "oxygen-free / high-purity copper (vapor-blasted)"
+}

@@ -1,0 +1,140 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "the boiling of nanofluids and particulate fouling during nucleate pool boiling"
+      },
+      {
+        "quote": "Boiling tests were performed utilizing a glass boiling chamber"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The top part of the samples served as a boiling interface"
+      },
+      {
+        "quote": "with an inner diameter of 60 mm. The working fluid temperature was monitored using"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "heat flux was slowly increased, following the methodology outlined by Može et al. [50]."
+      },
+      {
+        "quote": "up to the CHF, spanning a duration of 45 min. Throughout the boiling curve recording, the"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "using twice-distilled water, previously degassed utilizing vigorous boiling, and TiO2"
+        },
+        {
+          "quote": "(up to 90%) compared to pure water due to high nanoparticle deposition. The latter was largely"
+        }
+      ]
+    },
+    {
+      "tier1": "nanofluid",
+      "tier2": "tio2_water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This study addresses the use of TiO2-water nanofluids (mass concentrations"
+        },
+        {
+          "quote": "The titanium dioxide-water nanofluids employed in this investigation were prepared"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "tested without any further treatment and served as a reference surface"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The first step in functionalizing surfaces was laser texturing performed with a nanosecond"
+        },
+        {
+          "quote": "Laser texturing of untreated copper surfaces forms microchannels"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "in a superhydrophobic state (SHPO) following hydrophobization with a self-assembled"
+        },
+        {
+          "quote": "The static contact angle of"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "hydrophilic",
+      "tier3": null,
+      "propose_new": "superhydrophilic",
+      "evidence": [
+        {
+          "quote": "were subjected to boiling in an as-prepared superhydrophilic (SHPI)"
+        },
+        {
+          "quote": "Figure 5 shows the boiling performance (Figure 5a-boiling curves and Figure 5b-heat"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle",
+    "nucleation_site_density"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

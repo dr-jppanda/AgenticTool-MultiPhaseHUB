@@ -1,0 +1,392 @@
+{
+  "record_id": "clark-2019-identification-of-nucleate-boiling-as",
+  "extractor": "mhtdb-digitize/v1",
+  "series": [
+    {
+      "series_id": "fig-2-pool-boiling",
+      "figure_id": "fig-2",
+      "label": "Pool Boiling",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          14.74,
+          5.35
+        ],
+        [
+          16.28,
+          7.56
+        ],
+        [
+          17.32,
+          9.27
+        ],
+        [
+          17.88,
+          11.08
+        ],
+        [
+          18.12,
+          13.21
+        ],
+        [
+          18.41,
+          15.15
+        ],
+        [
+          18.71,
+          17.18
+        ],
+        [
+          19.19,
+          19.14
+        ],
+        [
+          19.55,
+          20.92
+        ],
+        [
+          19.79,
+          21.95
+        ],
+        [
+          20.28,
+          23.11
+        ],
+        [
+          21.37,
+          23.88
+        ]
+      ],
+      "confidence": 0.72,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Isolated by light-blue triangle marker fill color (~RGB 150,200,220) against the raster (JPEG) plot image; frame corners (-10..50 C, 0..90 W/cm2) used for pixel calibration. Directional arrow annotation next to the curve excluded via aspect-ratio filtering."
+    },
+    {
+      "series_id": "fig-2-vj-9ms",
+      "figure_id": "fig-2",
+      "label": "Vj = 9 m/s",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          -3.44,
+          2.25
+        ],
+        [
+          1.08,
+          7.98
+        ],
+        [
+          5.84,
+          13.55
+        ],
+        [
+          10.09,
+          19.18
+        ],
+        [
+          14.41,
+          24.93
+        ],
+        [
+          18.73,
+          30.52
+        ],
+        [
+          21.78,
+          42.07
+        ],
+        [
+          22.95,
+          65.39
+        ],
+        [
+          23.39,
+          70.96
+        ],
+        [
+          23.62,
+          73.94
+        ],
+        [
+          23.84,
+          76.71
+        ],
+        [
+          24.28,
+          79.71
+        ],
+        [
+          25.39,
+          82.67
+        ],
+        [
+          26.72,
+          83.44
+        ]
+      ],
+      "confidence": 0.68,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Isolated by dark magenta marker fill color (~RGB 208,25,143). Near the shared low-flux origin region several curves' markers overlap; the leftmost point here was read from a partially-occluded magenta crescent visible behind the V3 marker, so it carries extra uncertainty. Arrow annotation near the curve top excluded."
+    },
+    {
+      "series_id": "fig-2-vj-6ms",
+      "figure_id": "fig-2",
+      "label": "Vj = 6 m/s",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.63,
+          5.91
+        ],
+        [
+          5.06,
+          9.65
+        ],
+        [
+          9.53,
+          13.38
+        ],
+        [
+          13.86,
+          17.12
+        ],
+        [
+          18.2,
+          20.99
+        ],
+        [
+          21.73,
+          28.18
+        ],
+        [
+          21.98,
+          32.37
+        ],
+        [
+          22.06,
+          40.21
+        ],
+        [
+          22.28,
+          47.83
+        ],
+        [
+          22.28,
+          43.93
+        ],
+        [
+          22.31,
+          36.05
+        ],
+        [
+          22.39,
+          51.77
+        ],
+        [
+          22.61,
+          55.68
+        ],
+        [
+          23.27,
+          59.41
+        ],
+        [
+          25.39,
+          62.75
+        ]
+      ],
+      "confidence": 0.7,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Isolated by rose-pink marker fill color (~RGB 248,104,162). Arrow annotation near curve excluded via aspect-ratio filtering."
+    },
+    {
+      "series_id": "fig-2-vj-3ms",
+      "figure_id": "fig-2",
+      "label": "Vj = 3 m/s",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          -4.35,
+          1.99
+        ],
+        [
+          -0.7,
+          4.1
+        ],
+        [
+          3.07,
+          5.91
+        ],
+        [
+          6.83,
+          7.81
+        ],
+        [
+          10.53,
+          9.65
+        ],
+        [
+          13.86,
+          11.33
+        ],
+        [
+          19.65,
+          17.15
+        ],
+        [
+          20.18,
+          18.97
+        ],
+        [
+          20.58,
+          20.78
+        ],
+        [
+          20.76,
+          24.87
+        ],
+        [
+          20.98,
+          26.79
+        ],
+        [
+          21.02,
+          30.58
+        ],
+        [
+          21.18,
+          15.06
+        ],
+        [
+          21.18,
+          32.56
+        ],
+        [
+          21.21,
+          28.45
+        ],
+        [
+          21.4,
+          34.61
+        ],
+        [
+          21.62,
+          36.47
+        ],
+        [
+          23.17,
+          38.38
+        ],
+        [
+          24.72,
+          16.91
+        ],
+        [
+          28.16,
+          18.59
+        ],
+        [
+          31.83,
+          20.49
+        ],
+        [
+          35.15,
+          22.3
+        ]
+      ],
+      "confidence": 0.72,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Isolated by light salmon marker fill color (~RGB 251,179,184); this curve had the cleanest, least-occluded marker sequence of the five."
+    },
+    {
+      "series_id": "fig-2-vj-1ms",
+      "figure_id": "fig-2",
+      "label": "Vj = 1 m/s",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "\u00b0C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          -6.03,
+          2.23
+        ],
+        [
+          1.86,
+          3.84
+        ],
+        [
+          10.11,
+          5.75
+        ],
+        [
+          17.18,
+          7.4
+        ],
+        [
+          25.2,
+          9.1
+        ],
+        [
+          32.15,
+          10.75
+        ]
+      ],
+      "confidence": 0.6,
+      "uncertainty": {
+        "method": "pixel_calibrated_digitization"
+      },
+      "notes": "Isolated by the nearly-white cream marker fill (~RGB 253,233,224) using a tight color distance plus a minimum distance-from-pure-white to avoid background false positives; fewer, more widely spaced points than other curves because this marker color is hardest to separate from anti-aliased edges of neighboring markers, so some intermediate points may be missing."
+    }
+  ]
+}

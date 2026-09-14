@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Effect of particle size on surface-coating enhancement of pool boiling heat transfer",
+  "year": 2015,
+  "reason": "The paper reports its own measured pool boiling curves, wall superheats, and CHF values for FC-72 on free-particle and sintered copper coatings (\"the maximum critical heat flux (161 kW/m2) is attained with the 45-53 lm particles\")."
+}

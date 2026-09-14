@@ -1,0 +1,145 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "This study investigated the heat transfer performance of three nanostructured surfaces and two plain\nsurfaces: one roughened and one polished during the saturated pool boiling of refrigerants R-134a at\n5 and 25 °C and R-245fa at 20 °C."
+      },
+      {
+        "quote": "The purpose of this study was to investigate experimentally\nthe heat transfer characteristics of nanostructured and plain copper horizontal tubes in the saturated pool boiling of refrigerants."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "cylinder",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "All tubes were tested in the horizontal position in pool boiling"
+      },
+      {
+        "quote": "Tests were conducted on a polished, a roughened and three\nnanostructured copper tubes with outer diameters of 19.05 mm"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The nominal heat flux range was 20 to 100 kW/m 2 . The tube\nwas subjected to a heat flux greater than 100 kW/m 2 at the beginning of a test to ensure no hysteresis influence."
+      },
+      {
+        "quote": "The tubes were internally\nwater heated and Wilson plots were conducted to characterise the internal heat transfer characteristics."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": "R134a",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "a\np r of 0.086 and 0.160 in refrigerant R-134a at saturation temperatures of 5 and 25 °C, respectively."
+        }
+      ]
+    },
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": "R245fa",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "namely a reduced pressure, p r , of 0.034\nin refrigerant R-245fa at a saturation temperature of 20 °C"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "A polished copper tube and a roughened copper tube were tested as comparison cases."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The polished and roughened surfaces\nwere prepared by sanding a commercially available smooth hard\ndrawn copper tube along its longitudinal axis with grit 1200 and\n40 sandpapers respectively."
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "nanoparticle_deposit",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Nanocoatings were applied to polished copper tubes through a layerby-layer (LbL) process that deposited silica nanoparticles"
+        },
+        {
+          "quote": "The LbL coating process\nwas developed by Cebeci et al. [29] with the tube alternatively\ndipped in a silica (SiO 2 ) nanoparticle solution and a polymer solution."
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The CuO nanocoated surface\nwas achieved through a chemical oxidation process by the immersion of the tube in an alkali solution for 10 min"
+        },
+        {
+          "quote": "The CuO and nanoFLUX surface\nboth produced an intertwined fibrous mat of sharp needle-like or\ndendritic extrusions."
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The nanoFLUX© surface is a commercial process."
+        },
+        {
+          "quote": "a commercial nanocoating process (nanoFLUX)"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "nucleation_site_density",
+    "contact_angle",
+    "wall_superheat"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

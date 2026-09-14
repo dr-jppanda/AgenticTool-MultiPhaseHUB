@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "hvacr",
+      "tier2": "refrigeration",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "the standard in the refrigeration industry due to compelling advantages, such as smaller"
+        },
+        {
+          "quote": "Horizontal falling film evaporators have the potential of displacing flooded evaporators as"
+        }
+      ]
+    }
+  ]
+}

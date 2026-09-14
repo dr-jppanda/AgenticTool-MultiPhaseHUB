@@ -1,0 +1,8 @@
+{
+  "paper_type": "correlation_only",
+  "contains_dataset": false,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Method for generating a complete saturated pool boiling curve for cryogenic fluids under terrestrial gravity",
+  "year": 2025,
+  "reason": "The paper stitches together the authors' previously published cryogenic pool boiling correlations with blending functions to generate complete saturated boiling curves, validating against literature data rather than reporting its own experiments or simulations (\"Combine the correlations in a MATLAB code wherein fluid, pressure, surface orientation angle, and heat flux are input to calculate the corresponding wall superheat\")."
+}

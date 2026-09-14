@@ -1,0 +1,117 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Each test piece was fixed at the base of a thermally controlled chamber that allowed saturated"
+      },
+      {
+        "quote": "nucleate boiling heat transfer to be measured while recording"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "In the companion paper to this work [1], six borosilicate glass"
+      },
+      {
+        "quote": "was patterned on each substrate"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "devised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The authors also thank Northrop Grumman Corporation for"
+        },
+        {
+          "quote": "larger database with three different data sets including FC-72, FC-77, and water at atmospheric pressure,"
+        }
+      ]
+    },
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-77",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "larger database with three different data sets including FC-72, FC-77, and water at atmospheric pressure,"
+        }
+      ]
+    },
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "which is based on data for both water [57] and FC-72 (present"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "substrates were roughened by abrading with diamond compound"
+        },
+        {
+          "quote": "Test pieces 4, 6, and 7 were abraded with the same diamond"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "(test piece 1) was not abraded or annealed."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "void_fraction",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "high_speed_visualization"
+  ]
+}

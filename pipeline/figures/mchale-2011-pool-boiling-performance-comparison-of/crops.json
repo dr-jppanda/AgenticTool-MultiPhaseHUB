@@ -1,0 +1,196 @@
+{
+  "record_id": "mchale-2011-pool-boiling-performance-comparison-of",
+  "n_crops": 10,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        17.600000381469727,
+        14.606002807617188,
+        118.47999572753906,
+        147.16600036621094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-p1-01.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p6-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 6,
+      "bbox": [
+        71.43800354003906,
+        71.47020721435547,
+        430.3179931640625,
+        237.31820678710938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-p6-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-p6-01.jpg",
+      "n_panels": 2,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of sintered copper spheres, (b) Cu-metallized MWCNT array, and (c) sintered Cu spheres with metallized CNT array grown after sintering.",
+      "page": 6,
+      "bbox": [
+        67.61299133300781,
+        221.31820678710938,
+        434.27716064453125,
+        408.4813537597656
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated and (b) top view of the test block (adapted from McHale and Garimella [26]).",
+      "page": 7,
+      "bbox": [
+        69.49400329589844,
+        226.30999755859375,
+        436.17730712890625,
+        649.7447509765625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface (color \ufb01gure available online).",
+      "page": 9,
+      "bbox": [
+        69.49400329589844,
+        305.1830139160156,
+        436.1469421386719,
+        650.0416259765625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-3.png",
+      "n_panels": 256,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.59
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface (color \ufb01gure available online).",
+      "page": 10,
+      "bbox": [
+        67.61299896240234,
+        71.44998168945312,
+        434.27313232421875,
+        418.5167236328125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-4.png",
+      "n_panels": 217,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.61
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Measured boiling incipience superheats for all surfaces and \ufb02uids tested, along with calculated incipient bubble radii. Values in table are the maximum single-phase wall superheats measured and accuracy is based upon the magnitude of the input power increment",
+      "page": 11,
+      "bbox": [
+        69.4939956665039,
+        74.03826904296875,
+        436.18292236328125,
+        668.3622436523438
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\tab-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Measured values of critical heat \ufb02ux (CHF) for HFE-7300 in boiling tests",
+      "page": 13,
+      "bbox": [
+        69.49395751953125,
+        74.02947998046875,
+        413.8648376464844,
+        204.05613708496094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\tab-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\tab-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.",
+      "page": 16,
+      "bbox": [
+        95.67500305175781,
+        70.28599548339844,
+        406.21044921875,
+        278.5581359863281
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-5.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering.",
+      "page": 16,
+      "bbox": [
+        69.47299194335938,
+        294.93798828125,
+        431.5929870605469,
+        451.610107421875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-pool-boiling-performance-comparison-of\\fig-6.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.87
+    }
+  ]
+}

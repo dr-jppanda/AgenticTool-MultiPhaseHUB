@@ -1,0 +1,106 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "We experimentally investigated the enhancement in\ncritical heat flux (CHF) during pool boiling on copper\noxide (CuO) hierarchical surfaces"
+      },
+      {
+        "quote": "the sudden\nreduction in superheat ΔT along the boiling curve of\nhierarchical surfaces (i.e., \"kickback\") is indicative of\nnucleation sites within the nanostructures becoming active"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Upon dicing, the samples had a projected\nsurface area of 2 × 2 cm2, which is large enough to be\nconsidered representative of an infinite plate for water"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The heat transfer performance of\nthe hierarchical surfaces was measured using an\nexperimental pool boiling setup, as shown in Fig. 3"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All tests were performed using degassed, high\npurity water (Chromasolv for HPLC, Sigma-Aldrich) to\navoid premature bubble formation"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "nanostructured",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The\nsurfaces were fabricated by\nelectroplating Cu micropillars followed by a chemical\noxidation step to form CuO nanostructures"
+        }
+      ]
+    },
+    {
+      "tier1": "structured",
+      "tier2": "pin_fins",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The electroplated square array of Cu micropillars\nhad heights ranging from 35-68 μm, diameters of 30-\n35 μm, and spacings of 30 μm."
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "hydrophilic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The CuO\nhierarchical surfaces were superhydrophilic behavior at\nroom temperature due to the large roughness factors\nobtained"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Reference boiling curves obtained for\nsmooth SiO2 surfaces (Sm) and microstructured silicon\nsurfaces (Micro) are also shown in Fig. 4(a) for\ncomparison."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

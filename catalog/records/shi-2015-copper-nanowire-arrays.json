@@ -28,7 +28,7 @@
       "id": "fig-2",
       "label": "Fig. 2",
       "page": 3,
-      "caption": "Heat \ufb02ux and surface temperature measurements."
+      "caption": "Heat ﬂux and surface temperature measurements."
     },
     {
       "id": "fig-5",
@@ -89,6 +89,7 @@
     1,
     2,
     3,
+    4,
     5
   ],
   "cited_sections": [
@@ -106,20 +107,20 @@
     }
   ],
   "evidence_stats": {
-    "total": 12,
-    "resolved": 12,
+    "total": 19,
+    "resolved": 19,
     "unresolved": 0,
-    "exact": 12
+    "exact": 19
   },
   "points_ref": "points/shi-2015-copper-nanowire-arrays.points.json",
-  "extractor": "configured-default/p1@codex",
+  "extractor": "claude-opus-5/p1@claude-code",
   "triage": {
     "paper_type": "experimental",
     "contains_dataset": true,
     "primary_phenomenon": "pool_boiling",
     "title": "Pool boiling heat transfer enhancement with copper nanowire arrays",
     "year": 2015,
-    "reason": "The paper states, \u201cThe pool boiling heat transfer on copper nanowire arrays has been experimentally studied,\u201d and reports that \u201cTheir pool boiling heat transfer performances were measured and compared with control surfaces.\u201d"
+    "reason": "The authors electroplated copper nanowire arrays of five lengths and measured their own pool boiling curves, HTC, CHF, and contact angles in saturated DI water."
   },
   "conditions": {
     "p_sat": {
@@ -128,14 +129,14 @@
       "unit": "atm",
       "evidence": [
         {
-          "quote": "which was then heated\nup to its saturation temperature (100 C) at 1 atm.",
+          "quote": "A vent was opened on the top of the\nboiling pool to guarantee the experiment conducted under atmospheric pressure.",
           "resolved": true,
           "char_span": [
-            7926,
-            7998
+            9320,
+            9434
           ],
           "pages": [
-            2
+            3
           ],
           "sections": [
             {
@@ -156,11 +157,11 @@
       "unit": "C",
       "evidence": [
         {
-          "quote": "which was then heated\nup to its saturation temperature (100 C) at 1 atm.",
+          "quote": "which was then heated\nup to its saturation temperature (100 C) at 1 atm",
           "resolved": true,
           "char_span": [
             7926,
-            7998
+            7997
           ],
           "pages": [
             2
@@ -186,9 +187,31 @@
     },
     "q_flux": {
       "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
+      "max": 140.0,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "when the wall superheat is 15 C, the critical heat flux on the\nnanowire (30 mm) surface is up to 140W/cm2, which is more than\nthree times of that of the smooth surface",
+          "resolved": true,
+          "char_span": [
+            15644,
+            15811
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-2-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "x_quality": {
       "min": null,
@@ -214,11 +237,11 @@
       "unit": "cm",
       "evidence": [
         {
-          "quote": "A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built",
+          "quote": "A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built\nand submerged in the test fluid (DI water)",
           "resolved": true,
           "char_span": [
             7765,
-            7881
+            7924
           ],
           "pages": [
             2
@@ -263,7 +286,7 @@
     "contact_angle": {
       "min": 19.0,
       "max": 29.0,
-      "unit": null,
+      "unit": "",
       "evidence": [
         {
           "quote": "When the length of the copper nanowires is 3 mm,\nthe contact angle (aa) is approximately 29 . Whereas, when the\nlength becomes 30 mm, the contact angle (ab) shrinks to 19 .",
@@ -300,9 +323,9 @@
       "unit": null,
       "evidence": []
     },
-    "orientation": "unspecified",
-    "heating_mode": "unspecified",
-    "surface_material": "copper"
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "copper (polished bare smooth copper, with electroplated Cu nanowire arrays 3–30 µm long)"
   },
   "taxonomy": {
     "phenomenon": {
@@ -333,20 +356,20 @@
           "score": 1.0
         },
         {
-          "quote": "the entire nucleation boiling region",
+          "quote": "It can be seen that the introducing of the\nnanowire arrays shifts the boiling curve to the top left corner,\nwhich means both the HTC and the CHF have been significantly\nenhanced.",
           "resolved": true,
           "char_span": [
-            3276,
-            3312
+            14944,
+            15122
           ],
           "pages": [
-            1
+            4
           ],
           "sections": [
             {
-              "id": "sec-1-bo-shi-a-yi-biao-wang-a-kai-chen-b",
+              "id": "sec-2-applied-thermal-engineering",
               "number": null,
-              "title": "Bo Shi a, *, Yi-Biao Wang a, Kai Chen b",
+              "title": "Applied Thermal Engineering",
               "level": 1
             }
           ],
@@ -363,14 +386,35 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "Fig. 6. Boiling curves of the reference Cu Plate and of surfaces with nanowire arrays.",
+          "quote": "A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built\nand submerged in the test fluid (DI water)",
           "resolved": true,
           "char_span": [
-            20744,
-            20830
+            7765,
+            7924
           ],
           "pages": [
-            5
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The top surface, which was synthesized with copper nanowire array on, was\ndirectly contacted with test fluid",
+          "resolved": true,
+          "char_span": [
+            7999,
+            8107
+          ],
+          "pages": [
+            2
           ],
           "sections": [
             {
@@ -393,11 +437,32 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "Pool boiling experiments were conducted under steady-state conditions.",
+          "quote": "Pool boiling experiments were conducted under steady-state\nconditions.",
           "resolved": true,
           "char_span": [
             13278,
             13348
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-2-applied-thermal-engineering",
+              "number": null,
+              "title": "Applied Thermal Engineering",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "For each\nheating power, the system was kept for about half an hour waiting\ntime to make sure that the steady-state condition was satisfied.",
+          "resolved": true,
+          "char_span": [
+            13516,
+            13655
           ],
           "pages": [
             3
@@ -424,14 +489,35 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "submerged in the test fluid (DI water), which was then heated up to its saturation temperature (100 C) at 1 atm.",
+            "quote": "submerged in the test fluid (DI water), which was then heated\nup to its saturation temperature (100 C) at 1 atm",
             "resolved": true,
             "char_span": [
               7886,
-              7998
+              7997
             ],
             "pages": [
               2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "the surface contact angles of DI water on copper nanowire arrays have\nalso been measured",
+            "resolved": true,
+            "char_span": [
+              19041,
+              19129
+            ],
+            "pages": [
+              5
             ],
             "sections": [
               {
@@ -456,7 +542,7 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "Five different copper nanowire arrays with various lengths (3 mm, 5 mm, 10 mm, 20 mm, and 30 mm) have been electroplated on bare smooth copper surfaces.",
+            "quote": "Five different\ncopper nanowire arrays with various lengths (3 mm, 5 mm, 10 mm, 20 mm, and 30 mm) have been electroplated on bare smooth copper surfaces.",
             "resolved": true,
             "char_span": [
               989,
@@ -475,6 +561,27 @@
             ],
             "match": "exact",
             "score": 1.0
+          },
+          {
+            "quote": "Cu\nnanowire arrays are synthesized directly on the top surface of the\ncopper block via electroplating using a commercial available porous\nalumina membrane (PAA) template",
+            "resolved": true,
+            "char_span": [
+              10265,
+              10434
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-2-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
           }
         ],
         "confirmed": true
@@ -486,14 +593,56 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "A reference (control) experiment was performed at first using polished bare smooth copper surface.",
+            "quote": "a reference (control) experiment was performed at first\nusing polished bare smooth copper surface",
             "resolved": true,
             "char_span": [
-              20472,
-              20570
+              14150,
+              14247
             ],
             "pages": [
-              5
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-2-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0,
+            "also_at": [
+              {
+                "char_span": [
+                  20472,
+                  20569
+                ],
+                "pages": [
+                  5
+                ],
+                "sections": [
+                  {
+                    "id": "sec-2-applied-thermal-engineering",
+                    "number": null,
+                    "title": "Applied Thermal Engineering",
+                    "level": 1
+                  }
+                ],
+                "match": "exact",
+                "score": 1.0
+              }
+            ]
+          },
+          {
+            "quote": "Boiling on plain smooth\ncopper surface serves as the primary control for the boiling performance comparison.",
+            "resolved": true,
+            "char_span": [
+              14835,
+              14943
+            ],
+            "pages": [
+              4
             ],
             "sections": [
               {
@@ -527,10 +676,9 @@
         "tier1": "electronics_thermal",
         "tier2": null,
         "stated": true,
-        "confidence": "high",
         "evidence": [
           {
-            "quote": "Hence, it is considered as one of the\nsolutions capable for cooling electronic devices with extra-high\nheat flux in future.",
+            "quote": "Hence, it is considered as one of the solutions capable for cooling electronic devices with extra-high heat flux in future.",
             "resolved": true,
             "char_span": [
               1758,
@@ -544,6 +692,27 @@
                 "id": "sec-1-bo-shi-a-yi-biao-wang-a-kai-chen-b",
                 "number": null,
                 "title": "Bo Shi a, *, Yi-Biao Wang a, Kai Chen b",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "which is not capable for applications in electronic devices",
+            "resolved": true,
+            "char_span": [
+              4454,
+              4513
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-2-applied-thermal-engineering",
+                "number": null,
+                "title": "Applied Thermal Engineering",
                 "level": 1
               }
             ],
@@ -563,6 +732,8 @@
     "T_sat_min": 373.15,
     "T_sat_unit": "K",
     "T_sat_max": 373.15,
+    "q_flux_max": 1400000.0,
+    "q_flux_unit": "W/m2",
     "D_h_min": 0.01,
     "D_h_unit": "m",
     "D_h_max": 0.01,
@@ -587,6 +758,7 @@
   },
   "derived_tags": [
     "confinement:unconfined",
+    "heatflux:very_high",
     "pressure:low",
     "scale:conventional",
     "wetting:hydrophilic"
@@ -595,15 +767,13 @@
   "quarantined_values": {},
   "taxonomy_version": "v1",
   "gating": {
-    "reviewed_at": "2026-08-12",
-    "auto_apply": 0.75,
-    "new_term_apply": 0.85,
+    "reviewed_at": "2026-09-14",
     "pending": 0,
     "unconfirmed_fields": 0
   },
   "points_summary": {
-    "n_series": 4,
-    "n_points": 303,
+    "n_series": 6,
+    "n_points": 86,
     "figures": [
       "fig-6"
     ],

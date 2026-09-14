@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles that are able to freely\nmove on the polished copper surface beneath. The working fluid is FC-72."
+        },
+        {
+          "quote": "Visualizations confirm that\npassive deformation of the loose particulate bed eases vapor escape from the surface (bottom), enabling a\n32% reduction in surface superheat up to the same critical heat flux as measured for the polished surface."
+        }
+      ]
+    }
+  ]
+}

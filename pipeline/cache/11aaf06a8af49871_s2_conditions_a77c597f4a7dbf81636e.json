@@ -1,0 +1,125 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 5.0,
+    "max": 25.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "p r of 0.086 and 0.160 in refrigerant R-134a at saturation temperatures of 5 and 25 °C, respectively."
+      },
+      {
+        "quote": "of 0.034\nin refrigerant R-245fa at a saturation temperature of 20 °C"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 20.0,
+    "max": 100.0,
+    "unit": "kW/m 2",
+    "evidence": [
+      {
+        "quote": "The nominal heat flux range was 20 to 100 kW/m 2 ."
+      },
+      {
+        "quote": "All tubes were tested in the horizontal position in pool boiling over heat fluxes of 20 to 100 kW/m 2 , followed by a further increase in heat flux in an attempt to reach critical heat flux."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 19.05,
+    "max": 19.05,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "Tests were conducted on a polished, a roughened and three\nnanostructured copper tubes with outer diameters of 19.05 mm"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 568.0,
+    "max": 568.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "of 568 mm and tested individually. The saturation pressure of"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.12,
+    "max": 1.37,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "The resulting mean arithmetic roughness, R a , measured across the grain with a diamond tip profilometer (Mitutoyo SJ Surftest 210) was 0.12 and 1.37 μm, respectively."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 20.0,
+    "max": 20.0,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "Contact angles of approximately 20 ° were measured on all surfaces after ageing with R-245fa in air at atmospheric temperatures\nof approximately 25 °C"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

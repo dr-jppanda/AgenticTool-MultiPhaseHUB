@@ -1,0 +1,466 @@
+{
+  "record_id": "dickson-2024-heat-transfer-of-uncoated-and",
+  "extractor": "mhtdb-digitize/v1",
+  "series": [
+    {
+      "series_id": "fig-3-current-study-smooth",
+      "figure_id": "fig-3",
+      "label": "Current Study: Smooth, Ra = 0.04 \u00b5m",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          21.95,
+          3.14
+        ],
+        [
+          31.13,
+          4.02
+        ],
+        [
+          39.4,
+          4.67
+        ],
+        [
+          51.69,
+          5.6
+        ],
+        [
+          60.49,
+          6.29
+        ],
+        [
+          66.61,
+          6.74
+        ],
+        [
+          75.87,
+          7.2
+        ],
+        [
+          81.24,
+          7.55
+        ],
+        [
+          86.06,
+          8.0
+        ],
+        [
+          94.03,
+          8.46
+        ],
+        [
+          106.21,
+          9.2
+        ]
+      ],
+      "confidence": 0.95,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated by marker fill color RGB(0.086,0,1) (dark blue circles); legend swatch excluded. Vertex coordinates taken as bounding-box centers of each filled circle path, converted through log-log calibration fit from gridline positions matched to axis tick labels (x: 20-110 kW/m^2; y: 3-13 kW/m^2K)."
+    },
+    {
+      "series_id": "fig-3-bock-2020",
+      "figure_id": "fig-3",
+      "label": "Bock (2020): Ra = 0.12 \u00b5m",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          20.51,
+          4.1
+        ],
+        [
+          20.94,
+          3.96
+        ],
+        [
+          21.19,
+          4.2
+        ],
+        [
+          22.11,
+          4.39
+        ],
+        [
+          29.54,
+          5.25
+        ],
+        [
+          30.66,
+          5.33
+        ],
+        [
+          40.37,
+          6.6
+        ],
+        [
+          41.73,
+          6.82
+        ],
+        [
+          42.14,
+          6.47
+        ],
+        [
+          48.85,
+          7.44
+        ],
+        [
+          50.84,
+          7.85
+        ],
+        [
+          51.93,
+          7.99
+        ],
+        [
+          58.98,
+          8.47
+        ],
+        [
+          63.56,
+          9.04
+        ],
+        [
+          69.27,
+          9.48
+        ],
+        [
+          73.28,
+          10.18
+        ],
+        [
+          78.1,
+          10.51
+        ],
+        [
+          81.08,
+          10.79
+        ],
+        [
+          82.65,
+          11.0
+        ],
+        [
+          91.95,
+          11.93
+        ],
+        [
+          94.98,
+          12.21
+        ]
+      ],
+      "confidence": 0.95,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated by marker fill color RGB(0.925,0.639,0.169) (orange circles); legend swatch excluded. Same calibration as other series."
+    },
+    {
+      "series_id": "fig-3-ji-2015",
+      "figure_id": "fig-3",
+      "label": "Ji et al. (2015): Ra = 0.3 \u00b5m, Tsat = 6\u00b0C",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          20.23,
+          4.24
+        ],
+        [
+          29.23,
+          5.41
+        ],
+        [
+          36.9,
+          6.16
+        ],
+        [
+          47.51,
+          7.45
+        ],
+        [
+          54.37,
+          8.04
+        ],
+        [
+          63.81,
+          8.94
+        ],
+        [
+          72.81,
+          9.84
+        ]
+      ],
+      "confidence": 0.95,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated by marker fill color RGB(0.49,1,1) (cyan circles); legend swatch excluded. Same calibration as other series."
+    },
+    {
+      "series_id": "fig-3-cooper-ra004",
+      "figure_id": "fig-3",
+      "label": "Cooper Relation: Ra = 0.04 \u00b5m",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          21.95,
+          3.28
+        ],
+        [
+          31.13,
+          4.14
+        ],
+        [
+          39.4,
+          4.85
+        ],
+        [
+          51.69,
+          5.82
+        ],
+        [
+          60.49,
+          6.46
+        ],
+        [
+          66.61,
+          6.9
+        ],
+        [
+          75.87,
+          7.53
+        ],
+        [
+          81.24,
+          7.88
+        ],
+        [
+          86.06,
+          8.19
+        ],
+        [
+          94.02,
+          8.69
+        ],
+        [
+          106.21,
+          9.43
+        ]
+      ],
+      "confidence": 0.95,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated by stroke color RGB(0.204,0.549,0.106) (green line); vertices taken directly from the PDF polyline path, converted through the same calibration."
+    },
+    {
+      "series_id": "fig-3-cooper-ra012",
+      "figure_id": "fig-3",
+      "label": "Cooper Relation: Ra = 0.12 \u00b5m",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          20.51,
+          3.84
+        ],
+        [
+          20.94,
+          3.9
+        ],
+        [
+          21.19,
+          3.93
+        ],
+        [
+          22.11,
+          4.04
+        ],
+        [
+          29.54,
+          4.91
+        ],
+        [
+          30.66,
+          5.03
+        ],
+        [
+          40.37,
+          6.05
+        ],
+        [
+          41.73,
+          6.19
+        ],
+        [
+          42.14,
+          6.23
+        ],
+        [
+          48.85,
+          6.87
+        ],
+        [
+          50.84,
+          7.06
+        ],
+        [
+          51.93,
+          7.16
+        ],
+        [
+          58.98,
+          7.8
+        ],
+        [
+          63.56,
+          8.2
+        ],
+        [
+          69.27,
+          8.69
+        ],
+        [
+          73.27,
+          9.02
+        ],
+        [
+          78.1,
+          9.41
+        ],
+        [
+          81.08,
+          9.65
+        ],
+        [
+          82.65,
+          9.78
+        ],
+        [
+          91.95,
+          10.5
+        ],
+        [
+          94.97,
+          10.73
+        ]
+      ],
+      "confidence": 0.95,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated by stroke color RGB(1,0.118,0.051) (red line); vertices taken directly from the PDF polyline path, converted through the same calibration."
+    },
+    {
+      "series_id": "fig-3-gorenflo-kenning",
+      "figure_id": "fig-3",
+      "label": "Gorenflo and Kenning Model: Ra = 0.04 \u00b5m",
+      "x_axis": {
+        "quantity": "q_flux",
+        "unit": "kW/m^2",
+        "scale": "log"
+      },
+      "y_axis": {
+        "quantity": "htc",
+        "unit": "kW/m^2K",
+        "scale": "log"
+      },
+      "points": [
+        [
+          21.95,
+          3.26
+        ],
+        [
+          31.13,
+          4.32
+        ],
+        [
+          39.4,
+          5.23
+        ],
+        [
+          51.69,
+          6.51
+        ],
+        [
+          60.49,
+          7.39
+        ],
+        [
+          66.61,
+          7.98
+        ],
+        [
+          75.87,
+          8.87
+        ],
+        [
+          81.24,
+          9.37
+        ],
+        [
+          86.06,
+          9.82
+        ],
+        [
+          94.02,
+          10.54
+        ],
+        [
+          106.21,
+          11.63
+        ]
+      ],
+      "confidence": 0.9,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Isolated as the single black polyline whose bounding box spans the full plot diagonal (distinct from the black axis spines, tick marks, and gridlines, which were excluded by bounding-box/segment-count filtering)."
+    }
+  ]
+}

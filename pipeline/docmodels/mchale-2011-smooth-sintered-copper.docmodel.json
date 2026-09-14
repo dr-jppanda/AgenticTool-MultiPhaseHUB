@@ -1,0 +1,791 @@
+{
+  "doc_id": "aa87bd2025cab43a",
+  "source": "papers\\mchale_2011_smooth_sintered_copper.pdf",
+  "text": "Purdue University\nPurdue University\nPurdue e-Pubs\nPurdue e-Pubs\nCTRC Research Publications\nCooling Technologies Research Center\n2011\nPool Boiling Performance Comparison of Smooth and Sintered\nPool Boiling Performance Comparison of Smooth and Sintered\nCopper Surfaces with and without Carbon Nanotubes\nCopper Surfaces with and without Carbon Nanotubes\nJohn P. McHale\nPurdue University\nS V. Garimella\nPurdue University, sureshg@purdue.edu\nTimothy S. Fisher\nPurdue University\nGlen A. Powell\nPurdue University\nFollow this and additional works at: https://docs.lib.purdue.edu/coolingpubs\nMcHale, John P.; Garimella, S V.; Fisher, Timothy S.; and Powell, Glen A., \"Pool Boiling Performance\nComparison of Smooth and Sintered Copper Surfaces with and without Carbon Nanotubes\" (2011). CTRC\nResearch Publications. Paper 156.\nhttp://dx.doi.org/10.1080/15567265.2011.575918\nThis document has been made available through Purdue e-Pubs, a service of the Purdue University Libraries.\nPlease contact epubs@purdue.edu for additional information.\n1\nPool boiling performance comparison of smooth and sintered copper\nsurfaces with and without carbon nanotubes\nJohn P. McHale, Suresh V. Garimella*, Timothy S. Fisher, and Glen A. Powell\nCooling Technologies Research Center and Birck Nanotechnology Center\nSchool of Mechanical Engineering\nPurdue University, West Lafayette, IN 47907-2088 USA\nABSTRACT\nPool boiling heat transfer is measured with two individual working fluids on copper surfaces\nenhanced with sintered copper powder and carbon nanotubes. The working fluids are a\nsegregated hydrofluoroether, HFE-7300, and deionized water. The surfaces considered in the\nexperiments include smooth copper, copper with sintered copper particles, smooth copper with\ncopper-coated carbon nanotubes (CNT), and copper with sintered copper particles and coppercoated carbon nanotubes. Characteristics of the resulting boiling curves are discussed and\nanalyzed. Lower wall superheats resulted from both the sintered particles and the CNT array\nfor both working fluids. For water, there was no additional benefit from the addition of CNTs\non the sintered particle substrate. For HFE-7300, however, the hybrid (sintered with CNTs)\nsurface achieved the lowest wall superheat at high heat fluxes. Critical heat flux for HFE-7300\nincreased by more than 45% for the hybrid surface relative to the smooth copper surface.\nKeywords: enhanced boiling, porous surface, carbon nanotube, biporous wick, surface\nmorphology, sintered surface, thermosyphon\n* Corresponding author, Phone: 765-494-5621, sureshg@purdue.edu\n2\n1\nINTRODUCTION\nSurface enhancements are often employed in boiling systems to reduce wall superheat and/or\nto increase the critical heat flux. In electronics cooling applications and heat pump cycles, for\nexample, surface temperature changes as small as a few degrees can make a significant\ndifference in overall system performance. In this study, pool boiling performance at\natmospheric pressure is investigated for sintered copper surfaces employing carbon nanotubes\n(CNTs) to enhance the surface structure. Boiling curves for these engineered surfaces are\nreported and compared with those for smooth surfaces as well as with results in the literature.\nIt is well known that the presence of surface defects enhances boiling heat transfer. Hsu [1]\nfirst derived a relationship for the size range of active nucleating cavities on a boiling surface.\nVarious approaches to modification of metallic surfaces for improved boiling performance have\nconsequently been developed in the literature. Webb [2] summarized boiling curves obtained\nfor porous metal coatings in past studies, and highlighted a rule of thumb that the best boiling\nperformance for sintered surfaces was achieved at\np\nd\n\uf064\n\uf03d4. He also proposed that size of the\npore, rather than of the particle as had been previously postulated, was the critical modeling\nparameter. Czikk and O'Neill [3] formulated a model for boiling within porous coatings made\nof connected spherical microparticles. However, Webb [2] recommended the Nishikawa [4]\ncorrelation instead, based on a comparison with existing experimental boiling data. He also\nrecommended employing measured porosity value rather than the theoretical value (\uf065\uf03d0.476)\nbased on a square-packing arrangement. Afgan et al. [5] studied pool boiling of distilled water,\nR-113 and ethanol from horizontal tubes of 3 to 18 mm diameter, coated with sintered metal\nlayers formed of spherical or dendritic particles. Pool boiling tests were conducted over a wide\nrange of heat fluxes, extending well beyond the dryout point. They found pronounced\n3\nhysteresis to occur in some tests, also noting that times to reach steady state were in some cases\nas long as a few hours. They attributed the long settling times to the development of a final\nliquid-vapor structure within the porous matrix. Boiling hysteresis was observed only for\ncoating thicknesses over 1 mm for water. For the highly wetting fluids R-113 and ethanol,\nhysteresis was observed for all coating thicknesses. Afgan et al. proposed that the heat transfer\nexponent n (where\nn\nw\nw\nq\nT\n\uf0a2\uf0a2\n\uf044\n) is an indicator of the vapor behavior in different parts of the\nboiling curve. For n > 1, typical of the nucleate boiling regime for water, the number of active\nnucleation sites increases with q\uf0a2\uf0a2. For\n1\nn \uf0bb, the thickness of the vapor layer within the\nporous structure is constant. Finally, for n < 1, as observed in transition regions for the wetting\nliquids, the thickness of the vapor layer increases with\nw\nT\n\uf044\n. Ramaswamy et al. [6,7] studied\npool boiling of FC-72 from multi-layered copper and silicon surfaces with interconnected pores\nformed by cross-cutting microchannels on opposing sides of each layer. They found that: 1)\nincreasing the pore size increased the heat transfer coefficient for low to moderate heat fluxes; 2)\ndecreasing the pore pitch increased the heat transfer coefficient for all heat fluxes; and 3) by\nvarying the number of layers between 1 and 6, the heat transfer coefficient was not substantially\nchanged in the fully developed boiling regime.\nCritical heat flux on porous coated surfaces has also been investigated in the literature.\nLiter and Kaviany [8] proposed to increase CHF by structuring the boiling surface in such a way\nthat the Rayleigh-Taylor instability wavelength would be fixed. Vapor jets would be prevented\nfrom forming with a pitch equal to the natural least stable wavelength\n2\n(\n)\ncrit\nl\nv\ng\n\uf06c\n\uf070\uf073\n\uf072\n\uf072\n\uf03d\n\uf02d\n,\nthus improving the hydrodynamics of countercurrent liquid-vapor flow near the surface. Their\nsurfaces were composed of sintered copper spheres so that liquid availability at the surface and\nthe thermal \"activity\" (see [9,10]) of the heated surface would not be limiting parameters in the\n4\ncritical heat flux condition. Porous evaporators with space allotted for vapor flow were also\nproposed by Wu et al. [11], among others. Recent work by Alexander and Wang [12]\nemphasizes the difficulty of engineering separate liquid and vapor flow paths.\nBoiling heat transfer may also be enhanced by employing multiple capillary length scales.\nCarbon nanotubes (CNTs) have been employed in this regard. Where the porous matrix often\nhas a capillary radius on the order of 100 \u03bcm, CNT-based nanostructures can provide capillary\nradii on the order of a few hundred nm. Park and Jung studied the pool boiling of refrigerants\n[13] and deionized water [14] with and without the addition of 1% by volume CNTs to the fluids,\nusing acid treatment to prevent CNT agglomeration. They found heat transfer enhancement due\nto the addition of CNTs to occur primarily at lower heat fluxes and reported that surface fouling\ndid not occur. With the addition of a polymer dispersant [15], however, the heat transfer\ncoefficients decreased, but critical heat flux values increased substantially due to deposition of\nCNTs on the surface. Khanikar et al. [16] studied flow boiling on smooth copper and CNT-\ncoated copper surfaces. SEM images revealed that the structure of the CNT coating changed\nafter dryout occurred at high mass fluxes, resulting in a 30% decrease in CHF. Launay et al.\n[17] studied pool boiling of water and PF-5060 (FC-72) from silicon surfaces with different\ntypes of surface enhancements, including multiwall carbon nanotubes (MWCNTs). They found\nthat CNT micro- and nanostructures enhanced heat transfer at low to moderate heat fluxes, but\nalso significantly reduced critical heat flux. They made the important conjecture that both the\nincrease in h and the decrease in\nCHF\nq\uf0a2\uf0a2\nresulted from a reduction in the wettability of the surface.\nUjereh et al. [18], using FC-72 as a working fluid, showed that: 1) CNT coatings form effective\nvapor traps that drastically reduce incipience superheat; 2) increasing the coating coverage area\nimproved the heat transfer coefficient monotonically; and 3) CNT coatings may reduce CHF for\n5\nmicrostructured surfaces if the array density is high enough. Ahn et al. [19] showed that carbon\nnanotube arrays can increase critical heat flux, heat transfer coefficient in both nucleate and film\nboiling regimes, and minimum heat flux (MHF) in film boiling. They proposed that CNTs\nlonger than the minimum sustainable vapor film thickness may disrupt the establishment of\nvapor films on the surface, and may enhance thermal conductivity across the vapor film after\ndryout. Kim et al. [20] recently applied an evaporated copper layer to coat carbon nanotubes\ngrown on a screen mesh in order to make the CNTs hydrophilic. They found that higher levels\nof positive bias on the substrate during CNT growth and greater metallization coating thicknesses\nimproved evaporative heat transfer. Hashimoto et al. [21] developed a water vapor chamber\nheat spreader utilizing sintered copper particles covered by CNTs on the evaporator surface, and\nUV radiation was used to render the CNT arrays hydrophilic. Their results showed that the\noverall thermal resistance of the heat spreader package was most reduced for the longest and\ndensest CNT arrays.\nThe following conclusions can be drawn from the studies discussed above. The pool\nboiling performance of microporous surfaces is strongly tied to how the liquid and vapor\ninterfaces form and move within the microstructure. The inherent heat transfer advantages of\nmicrostructured boiling surfaces may be further augmented by the addition of nanostructures\nsuch as CNTs. The wettability and capillarity effects of CNT arrays may be among their most\nimportant features for evaporative heat transfer. CNT arrays have been speculated to act as\npermanent vapor traps, reducing or eliminating the boiling incipience superheat for various\nsurface structures. The combination of CNTs as nanoscale wick structures superposed on\nexisting microscale porous structures may successfully increase heat transfer coefficients and\ncritical heat flux values for a variety of working fluids. However, it is unclear whether the\n6\neffects of CNTs on nucleate boiling heat transfer are attributable to wetting and wicking effects\nor to gross area enhancement. Additionally, the flow boiling results of Khanikar et al. [16]\nhighlight the possibility that under some boiling circumstances, dryout may detrimentally alter\nthe structure of a CNT surface. In the present work, the effects of wettability and area\nenhancement on boiling heat transfer and critical heat flux are investigated. Experimental\nboiling curves with ascending and descending heat flux are investigated and analyzed for three\ndifferent enhanced surface structures and a bare copper surface.\n2\nTEST PIECE FABRICATION\nThe four test pieces for this work were all fabricated by preparing the surface on a 25.4-mm\nby 25.4-mm by 1.0 mm thick pure (99.99%) copper sheet and then soldering (Sn/Pb/Ag/Sb\n62/35.75/2/0.25) to a test block of the same pure copper material. The surface preparation is\ndescribed below; further details are provided in [22]. The bare copper sheet was of unpolished\nmill-grade finish prior to enhancement.\nThe bare copper surface was successively degreased in acetone and methanol baths to\nremove machining oils, and then cleaned in a standard piranha solution of 3 parts H2SO4 (96%)\nto 1 part H2O2 (30%) for at least 5 minutes to remove any inorganic materials.\nFor preparing the sintered copper surface shown in Figure 1(a), spherical copper particles\n(Alfa Aesar 42623, 99.9% pure) were sieved with 140- and 170-mesh screens to produce a\nuniform particle size of 90-106 \u03bcm. The particles were then poured into a ceramic mold placed\non top of the 1-mm thick degreased copper substrate. The assembly was heated in a quartz-tube\nfurnace at 950 \u00b0C under a forming gas atmosphere (N2 with 5.7% H2 by mass) to prevent\noxidation. The thermal cycle included a 30-minute room temperature purge, followed by a 30-\nminute ramp up to the sintering temperature, 950 \u00b0C, a 60-minute soak at 950 \u00b0C, and a 150-\n7\nminute ramp down to 50 \u00b0C, at which point the sample was removed from the oven. The\nporosity of the sintered layer, obtained by weight and volume measurements, was 65%.\nGrowth of a dense, vertically aligned array of multi-walled (MW) CNTs on a catalyzed\ncopper substrate [as shown in Figure 1(b)] was achieved by microwave-plasma chemical vapor\ndeposition (MPCVD) using H2 and CH4 feed gases. CNT growth was catalyzed with a\n\"trilayer\" evaporated metal surface coating consisting of a 60-nm Ti adhesion layer, a 10-nm Al\nfilm to promote catalyst particle formation, and a 3-nm Fe catalyst layer [23]. The MPCVD\nprocess was conducted for 10 minutes under a partial vacuum at a temperature of 900 \u00b0C; under\nsuch conditions the iron layer breaks up into nanoparticles [24], seeding dense growth of CNTs.\nThe median length of the CNTs resulting from this process was approximately 40 \u03bcm.\nFollowing growth, the hydrophobic CNTs were rendered hydrophilic by e-beam evaporative\ndeposition of pure copper. The copper layer was found by scanning electron microscopy to coat\nthe CNTs conformally over approximately the top 10 \u03bcm of their length. The conformal\ncoating of approximately 20 nm thickness increased the nanotube diameter from 50 nm as grown\nto 90 nm after coating.\nThe fourth test surface consisted of a CNT array grown on sintered copper spheres, as shown\nin Figure 1(c). The catalyst in this case was a polymer dendrite structure [25], combined in\nsolution with ferric chloride hexahydrate (FeCl3.6H20). The sintered surface was first coated\nwith 100-nm Ti adhesion layer which also acted as a diffusion barrier. The catalyst solution\nwas then applied uniformly to the test surface by airbrushing with multiple passes. The surface\nwas then heated at 150 \u00b0C to remove volatile components and to drive off water from the\nhydrate. The subsequent CNT growth by MPCVD and metallization were as described above.\nThe quality of CNT arrays grown by this method was not as good as for the trilayer-catalyzed\n8\narray on the flat surface in terms of uniformity and apparent defects indicated by kinks in the\nnanotubes. The median length of CNTs for this surface, as determined from SEM images, was\napproximately 10 \u03bcm, and each sphere's surface was only about 80% covered. The\nmetallization layer, however, conformally coated the entire length of the CNTs as far as was\nvisible by the SEM.\n3\nEXPERIMENTAL METHOD\nThe experimental facility for the boiling tests and the data collection are described in detail in\nMcHale and Garimella [26], and are summarized here along with a description of the\nmodifications made for the present work. A diagram of the experimental facility is shown in\nFigure 2. Each heater block, measuring 25.4 mm x 25.4 mm x 36.6 mm, is fabricated of\noxygen-free copper. Twelve embedded cartridge heaters in the block provide an evenly\ndistributed heat flux to the boiling surface. The surface temperature is extrapolated from the\ntemperatures measured at the thermocouple locations. The heat input to the test block is\nmeasured by recording the DC voltage and current to the cartridge heaters. The pool is vented\nthrough a cold vapor trap to the atmosphere; all experiments are therefore carried out at\natmospheric pressure.\nThe copper test surfaces described in the previous section are soldered to one of four\nidentical copper heater blocks using a low-melting indium-tin solder with a bond line thickness\nof 100 \u03bcm. The sample is bathed in argon gas during the soldering process, ensuring minimal\noxidation of the surface.\n9\n3.1\nHeat loss calculation\nWhile the heat flux through the test surface may be calculated directly from the thermocouple\nmeasurements, lower experimental uncertainties are achieved if the heat flux is determined\naccording to the following relation:\nin\nloss\nw\nbase\nq\nq\nq\nA\n\uf02d\n\uf0a2\uf0a2\uf03d\n(1)\nwhere the value of qloss is determined from a numerical model implemented in the commercial\nsoftware package FLUENT [27]. The problem geometry was fully represented in three-\ndimensions, and the results confirmed to be grid-independent through simulations using several\nmesh densities. The heat loss is calculated based on multivariate regression of the numerical\nresults using a block thermal conductivity\nsk \uf03d385 W/m.K [28] and an external convection\ncoefficient set by matching the experimentally measured heat loss for\n0\nw\nT\n\uf044\n\uf03d\n. Regression\nfunctions were developed using Engineering Equation Solver (EES) [28]. The ambient air\ntemperature T\u221e was found to have a small effect on the calculated heat loss and was included in\nthe heat loss regression equation:\n2\n2\n1\n(W)\n44.616 6.095 10\n1.033 10\n1.814 10\nloss\nin\nw\nq\nT\nq\nT\n\uf02d\n\uf02d\n\uf02d\n\uf0a5\n\uf03d\uf02d\n\uf02d\n\uf0b4\n\uf02b\n\uf0b4\n\uf02b\n\uf0b4\n(2)\nwhere the unit of temperature is K. The influence of ambient temperature is small compared to\nthe other two variables since the range of T\u221e is only about 5 K, while the range of\nin\nq is more\nthan 100 W and that of\nw\nT up to 40 K. Heat fluxes in the fully developed nucleate boiling\nregime and higher are of primary interest in this study so that the input power and wall\ntemperature are the key determinants of heat loss.\n10\n3.2\nExperimental uncertainties\nThe calibrated thermocouple uncertainty is estimated to be 0.3 K based on the amplitude of\nnoise in the experimental data. The thermocouple reference junction temperature measured\nwith a high-accuracy RTD is within less than 0.1 K and does not add appreciably to the\nuncertainty. The test surface temperature uncertainty is as much as 0.6 K due to the additional\nuncertainties of thermocouple location and solder bond thickness. Jones and Garimella [29]\nfound the uncertainty in heat loss for this facility to be only 1-2% of the total power dissipation\nat heat fluxes above 12 W/cm2. The uncertainty in heat loss due to use of the regression\nequation (2) is negligible compared to the uncertainty associated with parameters used as inputs\nto the numerical simulation.\n4\nRESULTS AND DISCUSSION\nThe results of the pool boiling experiments are described in the following subsections.\nGeneral aspects of the boiling curves, including comparisons between fluids and surfaces, are\nexplained. Reasons are provided for the observed heat transfer behavior through first-order\nanalyses. Morphological changes in the CNT-enhanced boiling surfaces due to thermal testing\nare also described.\n4.1\nBoiling curves\nPool boiling curves for the four surfaces are compared in Figures 3 and 4 with HFE-7300 and\nDI water, respectively. The open symbols refer to the ascending boiling curve (heat flux\nincreasing), while the downward-pointing triangles refer to the descending curve. Measured\ncritical heat flux points are marked with the symbol \"\u00d7\". The boiling curves for HFE-7300\nwere limited to a heat flux of 27 W/cm2 due to the condenser flow limit (see Figure 3), while one\n11\nboiling curve for water was limited to 55 W/cm2 because of difficulties with the cooling\nequipment.\nThe sintered surfaces exhibit better boiling performance (lower\nw\nT\n\uf044\n) for lower heat fluxes.\nThe CNT-enhanced flat surface outperforms the bare flat surface for both working fluids. The\npresence of CNTs on the sintered surface provide no additional benefit in water, but do achieve a\nsignificant performance enhancement in HFE-7300 over both the traditional sintered surface and\nthe CNT-enhanced flat surface. Specific features of the boiling curves are discussed in greater\ndetail in the following.\n4.2\nBoiling incipience\nBoiling incipience temperatures varied greatly for the surfaces studied, as summarized in\nTable 2. Incipience of boiling from enhanced surfaces is always associated with the trapping of\neither vapor or noncondensible gas on the surface. The bubble embryo radius for each\nincipience temperature condition was calculated based on the standard application of the Young-\nLaplace and Clausius-Clapeyron equations [30] in order to demonstrate the trapping\neffectiveness of the surface. Incipience temperatures were always lower for water than for\nHFE-7300. Other observations include:\n(1) the application of carbon nanotubes to a flat surface reduces boiling incipience\ntemperatures, significantly reducing the temperature excursion common for a highly\nwetting liquid;\n(2) the comparatively large-scale sintered coating is more effective than carbon nanotubes at\nreducing the incipience temperature;\n(3) the hybrid surface virtually eliminated the incipience temperature for the highly wetting\nHFE-7300; however, in water there was no apparent incipience benefit for the hybrid\n12\nsurface over the conventional sintered surface, largely because the incipience superheat\nwas less than 1K for both.\nPrevious authors [31-35] considered mechanisms by which noncondensable gas could be\ntrapped on a surface, thereby providing two-phase interfaces for heterogeneous nucleation.\nHsu's nucleation theory requires a finite wall superheat for the incipience of bubble growth to\noccur according to the limiting thermal boundary layer thickness in the superheated liquid.\nAfgan, et al. [5] suggested that for thermally conductive porous heated layers, Hsu's maximum\ncavity radius criterion is not applicable, since the superheated fluid within the matrix is likely to\nbe surrounded by the heated solid at Tw. We note, however, that the boundary layer thickness is\nquite large (on the order of 1 mm) for the single-phase natural convection condition experienced\nprior to boiling incipience in the present work. In this case, only Hsu's minimum radius\ncriterion is important. As shown in Table 2, the minimum bubble radius depended on the pore\nsize of the surface, and also on the wettability of each fluid.\nHighly wetting liquids require low-angle cavities for gas trapping to occur (see, e.g., Reed\nand Mudawar [36]). Ujereh et al. [18] suggested that carbon nanotube arrays provide effective\ncavity angles near zero. The sintered copper surfaces both with and without CNTs in the\npresent work, however, had incipience superheats much lower than the CNT-enhanced flat\nsurface. We therefore conclude that the gas- or vapor-trapping capability of a sintered copper\nlayer produces larger bubble embryos than CNTs alone. Addition of CNTs to the sintered\nlayer, however, allows embryos 8 times larger to be trapped for the highly wetting HFE-7300.\nThis is not the case for water, for which the maximum trapped bubble size in the sintered layer\nalready approaches the pore length scale.\n13\n4.3\nBoiling hysteresis\nThree main types of hysteresis were present in the boiling curves: incipient boiling\nhysteresis, long time constant hysteresis, and apparent hysteresis from contamination. First,\nspreading incipience of boiling (see, e.g., Jones, et al. [37]) caused a vertical slope in the\nascending heat flux curve for the CNT-enhanced flat surface for both fluids. The descending\ncurve, with all possible sites active, followed a smooth path with a monotonically changing\nslope. This was also the case for the plain surface with water as the working fluid.\nSecond, very long time constants were apparent in boiling from the traditional sintered\nsurface, primarily for HFE-7300, but also to some extent for water. This type of hysteresis was\nrelatively independent of heat flux and more pronounced for higher wall superheats. For\nexample, two successive data points in Figure 3 at the same heat flux, 17 W/cm2, were collected\nabout 1 hour apart for the descending boiling curve of HFE-7300 on the sintered copper surface\n(for flat surfaces in the present experimental apparatus, 5 to 10 minutes is known to be sufficient\ntime for steady state). The wall superheat for the second data point decreased by more than 1 K\nfrom the first. Afgan et al. [5] reported this type of hysteresis in their boiling curve, observing\nsome of their data points to shift in temperature, depending upon how much time was allowed\nfor the system to equilibrate. They attributed the shift to the presence of vapor within the\nporous layers, and pointed out that thin layers with high \"permeability\" did not exhibit any\nhysteresis.\nThird, contamination of the bare copper surface during boiling of HFE-7300 resulted in an\napparent hysteresis in the curve. Contamination was not observed with either water or FC-77\n(tested in prior experiments [37]). In the HFE, boiling performance deteriorated with time and\nis manifested as a progressive shift of the nucleate boiling curve to the right; in successive tests,\nthe curve experienced little change in CHF but the wall superheat in boiling increased by a total\n14\nof approximately 4.5 K. None of the enhanced surfaces experienced such a wall superheat shift\nover time. A series of surface and fluid tests revealed that the contaminant was likely a\nphthalate oil (normal boiling point ~380 \u00b0C) extracted from Viton o-rings or Tygon-type flexible\ntubing in the facility. HFEs are well known to be active solvents and are in fact routinely used\nfor cleaning electronic components because of the high solubility of certain processing residues\nin HFE. It is believed that the mechanism of performance decrease was the deposition of oil in\nthe cavities on the surface, causing permanent nucleation site deactivation. Since the enhanced\nsurfaces all contain an overabundance of potential nucleation sites, deactivation of some\npercentage would not have any observable effect. All data presented in this work are those of\nthe first test for each sample with each data point taken at our standard criterion for steady state,\nwhich is a strict observance of\n0.006\nw\ndT\ndt \uf0a3\n\u00b0C/min.\n4.4\nBoiling curve crossover\nBoiling curves for the sintered surfaces in three out of the four cases crossed over the curves\nfor the flat surfaces and exhibited higher wall superheats at high heat fluxes. It is interesting to\nnote that the boiling curves did not cross only for HFE-7300 on the hybrid (CNT+sintered)\nsurface.\nBoiling incipience occurs at near-zero superheat for the porous surfaces. The boiling curve\ncorrelation exponent n, where\n(\n)n\nw\nw\nq\nT\n\uf0a2\uf0a2\n\uf044\n, is less than or equal to 1 for these surfaces, in\ncontrast to the expected value of 2 to 3 for flat surfaces. This can be explained by the growing\nthermal resistance of an expanding dried-out volume at the base of the sintered layer [5].\nFor the sintered Cu coatings,\n/\np\nd\n\uf064\n\uf0bb10, and on average about 13-14 particles lie in the heat\nflow path from the substrate to the top of the porous layer. Thermal resistance calculations\nbased on the geometric measurements and material properties suggest that the measured value of\n15\n,\nw CHF\nT\n\uf044\nwould be on the order of 10 K higher for such a \"thick\" porous coating than for a plain\ncopper surface, assuming the same local boiling curve. Indeed, the values in Table 1 agree with\nthis added thermal resistance model.\n4.5\nCritical heat flux\nCHF could not be measured for water due to the limitation of the power supply used, but it is\ncalculated according to the equation of Lienhard and Dhir [38] to be about 200 W/cm2 for a plain\nflat surface. CHF could also not be measured for the sintered+CNT surface with HFE-7300\nworking fluid because of plugging of the twin Graham-type condensers, which caused the pool\npressure to begin to increase. Therefore heat flux beyond 26.4 W/cm2 could not be imposed.\nValues of critical heat flux for HFE-7300 are given in Table 1. In the fourth and fifth\ncolumns of the table, values of critical heat flux and wall superheat are compared to the CHF\ndata point for the baseline bare copper surface. It is seen that CNTs alone do not significantly\nincrease the maximum value of heat flux but do reduce the wall superheat at CHF by several\ndegrees. CNTs added to the sintered copper matrix, however, result in a critical heat flux that is\nenhanced beyond the additive contribution of either structure by itself. Below, several\nquantitative models are investigated to help explain the CHF increases for HFE-7300.\nThe Lienhard and Dhir [38] modification of the Kutateladze-Zuber [39,40] critical heat flux,\n\uf05b\n\uf05d\n1/4\n1/2\n0.149\n(\n)\nCHF\nv\nlv\nl\nv\nq\nh\ng\n\uf072\n\uf073\n\uf072\n\uf072\n\uf0a2\uf0a2\n\uf03d\n\uf02d\n(3)\npredicts a value of 17.8 W/cm2 for HFE on the plain flat copper. This value agrees extremely\nwell with the experimentally determined CHF. For the other surfaces, the following\nmechanisms are proposed for CHF enhancement in the boiling of HFE-7300, according to\nprevailing theories of departure from nucleate boiling (DNB):\n16\n1. Gross area enhancement\n2. Forced modulation of the liquid-vapor instability at the dryout interface\n3. Wettability increase\n4. Capillarity increase\nThe area enhancement provided by the traditional sintered surface is difficult to determine\nfor the nucleate boiling portion of the curve; for CHF, however, the enhanced area is that of the\ndryout interface. A geometric model of the dryout interface was developed considering both\nthe exposed vertical sides of the porous coating and the horizontal area above it. A wavy\ninterface is proposed due to the requirement that the effective dryout surface conform around the\nspherical copper particles at the top of the porous layer. The predicted critical heat flux is then:\n,\n,\nintf\nw CHF\nplain CHF\nbase\nA\nq\nq\nA\n\uf0a2\uf0a2\n\uf0a2\uf0a2\n\uf03d\n\uf0b4\n(4)\nThe wavy horizontal interfacial surface was approximated as:\n2\n0.2625\n0.2625\ncos\ncos\n0.2625\np\np\np\nR\nx\ny\nz\nR\nR\n\uf070\n\uf070\n\uf070\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf0e6\n\uf0f6\n\uf03d\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e7\n\uf0f7\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n\uf0e8\n\uf0f8\n(5)\nEq. (5) represents a surface having sinusoidal waves with equal periods in two dimensions.\nThe wavelength 2\n0.2625\np\nR\nresults from the calculated porous cell size. To arrive at this\nvalue, it was assumed that the porosity \uf065\uf03d0.65 is produced by a unit prismatic cell with height\np\nd . The maximum possible wave amplitude\n2\n0.2625\np\nR\n\uf070 results from the requirement that\nthe maximum curvature must be no greater than the curvature of the particles; i.e., the liquidvapor interface nowhere touches the spherical particles. The maximum area increase due to the\nwrapping of the interface around the particles, calculated by numerical integration of Eq. (5), is\n32.3%. The area increase due to the exposed vertical sides is 15.7%. Therefore the total\n17\ninterfacial area increase lies somewhere between 15.7% and 48.0%. This range compares\nfavorably with the experimental CHF enhancement of the porous surface, which is 33.7%.\nUnder this mechanism, the CNT-enhanced sintered surface would be expected to have a\nslightly larger increase in CHF than the plain sintered surface. Because of the improved\nwicking capability of the CNT array, the wavy interface might sustain a larger amplitude, and the\nCHF enhancement should lie at the high end of the range specified above.\nForced modulation of the interface instability as a mechanism for CHF increase was\ninvestigated by Liter and Kaviany [8] for novel structured surfaces, and numerically and\nexperimentally for conventional sintered surfaces by Polezhaev and Kovalev [41]. Their\npredicted values for CHF were at least three times as high as in the present experiment.\nCapillarity increase of structured surfaces may delay the departure from nucleate boiling\nbecause of the persistent intrusion of liquid into the boiling surface by capillary pressure forces.\nThe capillary pressure increase of the fluid in a porous structure may be simply expressed as:\n2\ncos\nc\nh\np\nR\n\uf073\n\uf071\n\uf03d\n,\n(6)\nwhere \uf071 is the average contact angle and Rh is the average hydrodynamic radius. Equation (6)\nis most applicable to a capillary tube, where \uf071 and Rh are easily defined. To first order,\nhowever, Equation (6) should give a sense for the amount of excess pressure in the liquid for\nthe different surface structures in this work. The excess pressure results in the tendency of\nliquid to either penetrate into the porous matrix or remain separate from it.\nThe carbon nanotube structure features pore radii on the order of 30 nm to 1 \u03bcm, based on\nanalysis of SEMs of as-grown and matted CNT arrays, respectively. The appropriate contact\nangles are considered to be those of HFE-7300 and deionized water on graphene. Values of \uf071\nmust be assumed, since no information is available in the literature for contact angles on CNT\n18\nwalls at elevated temperature. Based upon the work of Wang et al. [42] and Sullivan [43], we\nestimate the contact angles to be, to first order, 20\u00b0 and 120\u00b0 for HFE-7300 and DI water,\nrespectively, at the saturation temperature.\nThe magnitude of the capillary pressure, according to Equation (6), will therefore be\nbetween about 20 and 600 kPa for HFE-7300. Capillary pressures in this range are quite high\nand could be responsible for significantly enhanced ability of the liquid to maintain contact with\nthe boiling surface. For DI water, the negative value of cos(120\u00b0) means that water will not\nwick into the CNT array beyond the metallized tip under any circumstance.\nThe HFE-7300 boiling curves of Figure 3 are consistent with the capillarity predictions.\nAbove a relatively low heat flux of 7 W/cm2, the boiling curves for the CNT-enhanced sintered\nsurface depart from those corresponding to the unmodified sintered surface. It is at this point\n(possibly the depth to which the CNT coating penetrates) that the plain sintered surface is\nbelieved to begin experiencing a significantly greater amount of dryout within the sintered layer\nthan the hybrid surface. For the flat surfaces, the increased slope of the boiling curve for the\nCNT-enhanced surface suggests a higher boundary layer thermal conductivity, which may be\nexplained by increased liquid contact with the surface. CHF is not greatly increased for the\nCNT-enhanced flat surface, however, implying that the hydrodynamic limitation still prevails.\nThe water boiling curves of Figure 4 also support the capillarity increase mechanism. The\nsintered surface curves with and without CNTs are virtually indistinguishable, which would be\nexpected if water did not intrude into the CNT arrays. The flat surface heat transfer\nenhancement by CNTs can be attributed to the addition of a large number of nucleation sites\nprovided by the spaces between nanotubes.\n19\nThe enhanced wicking ability of the CNT-modified structures can be seen in the SEM photo\nin Figure 5. On the left-hand side of the image, a wetting liquid (rosin) has been drawn by the\nCNT mesh around the particles. The liquid interface depicted is similar to what might be\nexpected from a highly wetting fluid such as HFE-7300.\n4.6\nSurface morphology change\nOne issue of concern with CNT-based nanostructures is their robustness with use. The\nCNT-enhanced boiling surfaces were inspected by SEM prior to soldering to the copper heater\nblock, and again after desoldering from the heater blocks following testing. Before soldering\nand testing were performed, as shown in Figure 1(a), the CNTs appeared as individual tubes,\npartially aligned and also somewhat randomly intertwined. CNTs grown on the sintered\nparticles were less aligned, but still individually distinguishable.\nFollowing testing, the tubes appeared to have bundled into open-cell porous mats, as shown\nin Figure 6. The soldering/desoldering processes and pool boiling test all occurred at\ntemperatures less than 200 \u00b0C. It is therefore unlikely that factors such as chemical changes are\noccurring, and instead, it is only the wetting associated with pool boiling that is responsible for\nthe observed change in surface structure. Because SEMs were obtained only before and after\nall tests were conducted, it is unknown whether water, HFE-7300, or both were responsible for\nCNT matting. Other SEM images revealed degradation of the metallized coating for both the\nCNT and hybrid samples, resulting in collection of Cu nanoparticles in clumps at the tips of the\nCNT arrays.\nPowell [22] studied many samples of the type used in these experiments and found that\nboiling and evaporation tests with water caused some surface morphology change, but did not\nfind matting as drastic as observed here. It is therefore likely that the HFE-7300 working fluid\n20\nwas mostly responsible for the observed deformation of the CNT array. Extreme bundling of\nMWCNTs has been previously observed after wetting by the highly wetting fluid isopropyl\nalcohol [44].\n5\nCONCLUSIONS\nPool boiling heat transfer enhancement by novel and more traditional porous surfaces was\ninvestigated for a highly wetting fluid, HFE-7300, and a less wetting fluid, deionized (DI) water.\nThe surfaces consisted of a plain, flat copper surface, a sintered copper surface, a flat copper\nsurface covered with an array of copper-metallized MWCNTs, and a sintered copper surface\ncovered with an array of copper-metallized MWCNTs. Overall, the hybrid sintered/CNT\nsurface exhibited the best boiling performance for both fluids, although the traditional sintered\nsurface performed just as well for water. For HFE-7300, the hybrid surface achieved more than\na 46% increase in CHF, while decreasing the wall superheat at CHF by 22.6% and the incipience\ntemperature by 96% as compared to a plain flat surface. For water, CHF was not measured, but\nthe incipience temperature was reduced by 95%.\nThe copper metallization layer, of 20 nm thickness, is believed to have partially separated\nfrom the CNTs during thermal testing, migrating in the form of nanoparticles at the array tips.\nPool boiling performance was most enhanced for the highly wetting fluid in conjunction with\nthe sintered/CNT surface. Although the CNT array suffered deformation during testing, the\nCHF and h enhancements were nevertheless greater than the sum of the individual enhancements\ndue to either a sintered layer or a CNT array. The increased performance was explained by both\ngross area enhancement and increased capillarity effects.\n21\nACKNOWLEDGMENTS\nFinancial support for this work was provided by the Indiana 21st Century Research and\nTechnology Fund and the Cooling Technologies Research Center at Purdue University. Justin\nWeibel assisted in fabrication of the boiling surfaces, and Anuradha Bulusu provided several\nSEM images. The authors also thank 3M Corporation and Delphi Electronics and Safety for\nproviding fluid samples and related information.\n22\nREFERENCES\n1. Y.Y. Hsu, On the Size Range of Active Nucleation Cavities in a Heating Surface, Journal of\nHeat Transfer, vol. 84, no. 3, pp. 207-216, 1962.\n2. R.L. Webb, Nucleate Boiling on Porous Coated Surfaces, Heat Transfer Engineering, vol. 4,\nno. 3-4, pp. 71 - 82, 1983.\n3. A. Czikk and P. O'Neill, 1979, Correlation of Nucleate Boiling from Porous Metal Films, in\nJ.M. Chenoweth, J. Kaellis, J.W. Michel, and S. Shenkman (Eds.), Advances in Enhanced\nHeat Transfer, ASME, New York, pp. 103-113, 1979.\n4. K. Nishikawa, T. Ito, and K. Tanaka, Enhanced Heat Transfer by Nucleate Boiling on a\nSintered Metal Layer, Heat Transfer-Japanese Research, vol. 8, no. 2, pp. 65-81, 1979.\n5. N.H. Afgan, L.A. Jovic, S.A. Kovalev, and V.A. Lenykov, Boiling Heat Transfer from\nSurfaces with Porous Layers, International Journal of Heat and Mass Transfer, vol. 28, no.\n2, pp. 415-422, 1985.\n6. C. Ramaswamy, Y. Joshi, W. Nakayama, and W.B. Johnson, Compact Thermosyphons\nEmploying Microfabricated Components, Microscale Thermophysical Engineering, vol. 3,\nno. 4, pp. 273 - 282, 1999.\n7. C. Ramaswamy, Y. Joshi, W. Nakayama, and W.B. Johnson, Effects of Varying Geometrical\nParameters on Boiling from Microfabricated Enhanced Structures, Journal of Heat Transfer,\nvol. 125, no. 1, pp. 103-109, 2003.\n8. S.G. Liter and M. Kaviany, Pool-Boiling CHF Enhancement by Modulated Porous-Layer\nCoating: Theory and Experiment, International Journal of Heat and Mass Transfer, vol. 44,\nno. 22, pp. 4287-4311, 2001.\n23\n9. M. Arik and A. Bar-Cohen, Effusivity-Based Correlation of Surface Property Effects in Pool\nBoiling CHF of Dielectric Liquids, International Journal of Heat and Mass Transfer, vol.\n46, no. 20, pp. 3755-3764, 2003.\n10. J.R. Saylor, An Experimental Study of the Size Effect in Pool Boiling CHF on Square\nSurfaces, Master's Thesis, University of Minnesota, Minneapolis, 1989.\n11. W. Wu, J.-H. Du, and B.-X. Wang, Boiling Heat Transfer on Surfaces Coated by Porous\nWick with Vapor Channels, Microscale Thermophysical Engineering, vol. 5, no. 4, pp. 277 -\n284, 2001.\n12. B.R. Alexander and E.N. Wang, Design of a Microbreather for Two-Phase Microchannel\nHeat Sinks, Nanoscale and Microscale Thermophysical Engineering, vol. 13, no. 3, pp. 151\n- 164, 2009.\n13. K.-J. Park and D. Jung, Boiling Heat Transfer Enhancement with Carbon Nanotubes for\nRefrigerants Used in Building Air-Conditioning, Energy and Buildings, vol. 39, no. 9, pp.\n1061-1064, 2007.\n14. K.-J. Park and D. Jung, Enhancement of Nucleate Boiling Heat Transfer Using Carbon\nNanotubes, International Journal of Heat and Mass Transfer, vol. 50, no. 21-22, pp. 4499-\n4502, 2007.\n15. K.-J. Park, D. Jung, and S.E. Shim, Nucleate Boiling Heat Transfer in Aqueous Solutions\nwith Carbon Nanotubes up to Critical Heat Fluxes, International Journal of Multiphase\nFlow, vol. 35, no. 6, pp. 525-532, 2009.\n16. V. Khanikar, I. Mudawar, and T. Fisher, Effects of Carbon Nanotube Coating on Flow\nBoiling in a Micro-Channel, International Journal of Heat and Mass Transfer, vol. 52, no.\n15-16, pp. 3805-3817, 2009.\n24\n17. S. Launay, A.G. Fedorov, Y. Joshi, A. Cao, and P.M. Ajayan, Hybrid Micro-Nano Structured\nThermal Interfaces for Pool Boiling Heat Transfer Enhancement, Microelectronics Journal,\nvol. 37, no. 11, pp. 1158-1164, 2006.\n18. S. Ujereh, T. Fisher, and I. Mudawar, Effects of Carbon Nanotube Arrays on Nucleate Pool\nBoiling, International Journal of Heat and Mass Transfer, vol. 50, no. 19-20, pp. 4023-\n4038, 2007.\n19. H.S. Ahn, N. Sinha, M. Zhang, D. Banerjee, S. Fang, and R.H. Baughman, Pool Boiling\nExperiments on Multiwalled Carbon Nanotube (MWCNT) Forests, Journal of Heat\nTransfer, vol. 128, no. 12, pp. 1335-1342, 2006.\n20. S.S. Kim, J.A. Weibel, S.V. Garimella, and T.S. Fisher, Thermal Performance of Carbon\nNanotube Enhanced Vapor Chamber Wicks, 14th International Heat Transfer Conference,\nPaper No. IHTC14-22929, 2010.\n21. M. Hashimoto, H. Kasai, H. Ryoson, K. Yazawa, J.A. Weibel, and S.V. Garimella, Nano-\nStructured Two-Phase Heat Spreader for Cooling Ultra-High Heat Flux Sources, 14th\nInternational Heat Transfer Conference, Paper No. IHTC14-22765, 2010.\n22. G.A. Powell, Controlled Synthesis of CNT-Based Nanostructures for Enhanced Boiling and\nWicking, Master's Thesis, Purdue University, West Lafayette, Indiana, 2009.\n23. J. Xu and T.S. Fisher, Enhancement of Thermal Interface Materials with Carbon Nanotube\nArrays, International Journal of Heat and Mass Transfer, vol. 49, no. 9-10, pp. 1658-1666,\n2006.\n24. M. Meyyappan, L. Delzeit, A. Cassell, and D. Hash, Carbon Nanotube Growth by PECVD:\nA Review, Plasma Sources Science and Technology, vol. 12, no. 2, pp. 205-216, 2003.\n25\n25. P. Amama, B. Cola, T. Sands, X. Xu, and T. Fisher, Dendrimer-Assisted Controlled Growth\nof Carbon Nanotubes for Enhanced Thermal Interface Conductance, Nanotechnology, vol.\n18, no. 38, p. 385303, 2007.\n26. J.P. McHale and S.V. Garimella, Bubble Nucleation Characteristics in Pool Boiling of a\nWetting Liquid on Smooth and Rough Surfaces, International Journal of Multiphase Flow,\nvol. 36, no. 4, pp. 249-260, 2010.\n27. Fluent, Inc., Fluent 6.2 User's Guide, Fluent, Inc., Lebanon, NH, 2005, 2005.\n28. S. Klein and F. Alvarado, Ees: Engineering Equation Solver for the Microsoft Windows\nOperating System, F-Chart software, Madison, Wisconsin, 1992-2010.\n29. B.J. Jones and S.V. Garimella, Effects of Surface Roughness on the Pool Boiling of Water,\n2007 Proceedings of the 5th Joint ASME/JSME Fluids Engineering Conference, paper no.\nHT2007-32230, 2007.\n30. V.P. Carey, Liquid-Vapor Phase-Change Phenomena: An Introduction to the Thermophysics\nof Vaporization and Condensation, Hemisphere Publishing Corp., Washington, D.C., 1992.\n31. S.G. Bankoff, Entrapment of Gas in the Spreading of a Liquid over a Rough Surface,\nAmerican Institute of Chemical Engineers Journal, vol. 4, no. 1, pp. 24-26, 1958.\n32. S.G. Bankoff, A.J. Hajjar, and J.B.B. McGlothin, On Nature and Location of Bubble Nuclei\nin Boiling from Surfaces, Journal of Applied Physics, vol. 29, no. 12, pp. 1739-1741, 1958.\n33. J.J. Lorenz, B.B. Mikic, and W.M. Robsenow, Effect of Surface Conditions on Boiling\nCharacteristics, Proc. 5th International Heat Transfer Conference, vol. 4, Hemisphere, New\nYork, pp. 35-39, 1974.\n34. K. Cornwell, On Boiling Incipience Due to Contact-Angle Hysteresis, International Journal\nof Heat and Mass Transfer, vol. 25, no. 2, pp. 205-211, 1982.\n26\n35. Y. Qi and J.F. Klausner, Heterogeneous Nucleation with Artificial Cavities, Journal of Heat\nTransfer, vol. 127, no. 11, pp. 1189-1196, 2005.\n36. S.J. Reed and I. Mudawar, Elimination of Boiling Incipience Temperature Drop in Highly\nWetting Fluids Using Spherical Contact with a Flat Surface, International Journal of Heat\nand Mass Transfer, vol. 42, no. 13, pp. 2439-2454, 1999.\n37. B.J. Jones, J.P. McHale, and S.V. Garimella, The Influence of Surface Roughness on\nNucleate Pool Boiling Heat Transfer, Journal of Heat Transfer, vol. 131, no. 12, p. 121009,\n2009.\n38. J.H. Lienhard and V.K. Dhir, Hydrodynamic Prediction of Peak Pool Boiling Heat Fluxes\nfrom Finite Bodies, Journal of Heat Transfer, vol. 95, no. 2, pp. 152-158, 1973.\n39. S.S. Kutateladze, On the Transition to Film Boiling under Natural Convection,\nKotloturbostroenie, vol. 3, p. 10, 1948.\n40. AECU-4439, California. Univ., Los Angeles; and Ramo-Wooldridge Corp., Los Angeles,\nHydrodynamic Aspects of Boiling Heat Transfer, AECU-4439, California. Univ., Los\nAngeles; and Ramo-Wooldridge Corp., Los Angeles, 1959, 1959.\n41. Y.V. Polezhaev and S.A. Kovalev, Modeling Heat-Transfer with Boiling on Porous\nStructures, Therm. Eng., vol. 37, no. 12, pp. 617-620, 1990.\n42. S. Wang, Y. Zhang, N. Abidi, and L. Cabrales, Wettability and Surface Free Energy of\nGraphene Films, Langmuir, vol. 25, no. 18, pp. 11078-11081, 2009.\n43. D.E. Sullivan, Surface Tension and Contact Angle of a Liquid--Solid Interface, Journal of\nChemical Physics, vol. 74, no. 4, pp. 2604-2615, 1981.\n27\n44. Z. Liu, N. Bajwa, L. Ci, S.H. Lee, S. Kar, P.M. Ajayan, and J.Q. Lu, Densification of Carbon\nNanotube Bundles for Interconnect Application, International Interconnect Technology\nConference, IEEE 2007, pp. 201-203, 2007.\n45. 3M Corporation, 3M Thermal Management Fluids, 3M Corporation, St. Paul, MN, 2009,\nDocument 98-0212-2649-7, 2009.\n46. E. Lemmon, M. McLinden, and D. Friend, 2010, Thermophysical Properties of Fluid\nSystems, in P. Linstrom and W. Mallard (Eds.), NIST Chemistry Webbook, NIST Standard\nReference Database Number 69, vol. 20899, National Institute of Standards and Technology,\nGaithersburg MD, 2010.\n28\nNOMENCLATURE\nA\narea, m2\ndp\nparticle diameter, m\ng\nacceleration due to gravity, m/s2\nh\nheat transfer coefficient, W/m2.K\nhlv\nenthalpy of vaporization, J/kg\nk\nthermal conductivity, W/m.K\nn\nboiling curve exponent\np\nabsolute pressure, Pa\nrc\ncavity radius, m\nRh\nhydrodynamic radius, m\nRp\nparticle radius, m\nq\uf0a2\uf0a2\nheat flux, W/cm2\nT\ntemperature, K (unless \u00b0C is specified)\nT\n\uf044\ntemperature difference with respect to saturation, K or \u00b0C\nGreek\n\uf064\ncoating thickness, m\n\uf065\nporosity (fraction void), unitless\n\uf06c\nwavelength, m\n\uf072v\nmass density of vapor, kg/m3\n\uf072l\nmass density of liquid, kg/m3\n\uf071\nliquid side contact angle, rad or \u00b0\n\uf073\nsurface tension, N/m\nSubscripts\nb\nbubble\nbase\nbase (area of heater block cross section)\nc\ncapillary\nCHF\nat critical heat flux\ncrit\ncritical (or at critical point)\ni\nat incipience\nin\ninput\nintf\nof the liquid-vapor interface\nl\nof liquid\nloss\nloss\nmin\nminimum achieved\nplain\nof the plain flat surface\ns\nof solid\nsat\nat saturation\nv\nof vapor\nw\nof the heated wall\nx\nhorizontal plane coordinate\ny\nhorizontal plane coordinate\nz\nnormal to surface coordinate\n\u221e\nof ambient\n29\n30\nTable 1. Measured values of critical heat flux (CHF) for HFE-7300 in boiling tests.\nSurface\n,\nw CHF\nq\uf0a2\uf0a2\n[W/cm2]\n,\nw CHF\nT\n\uf044\n[K]\nCHF enhancement\n[%]\nWall superheat\nreduction at\nCHF [%]\nBare copper\n18.1\n23.4\n-\n-\nCNT-enhanced\n18.9\n16.4\n4.4\n29.9\nSintered copper\n24.2\n38.6\n33.7\n- 65.0\nSintered copper + CNTs*\n26.4\n18.1\n> 45.9\n22.6\n* Point of maximum measured heat flux (not CHF)\n31\nTable 2. Measured boiling incipience superheats for all surfaces and fluids tested, along with\ncalculated incipient bubble radii. Values in table are the maximum single-phase wall superheats\nmeasured and accuracy is based upon the magnitude of the input power increment.\nSurface\nHFE-7300*\nDI water\u2020\n,\nw i\nT\n\uf044\n[K]\n,b i\nr\n[\u03bcm]\n,\nw i\nT\n\uf044\n[K]\n,b i\nr\n[\u03bcm]\nBare copper\n22.5 \u00b1 2.0\n0.279 \u00b1 0.026\n9.7 \u00b1 0.6\n3.51 \u00b1 0.22\nMetallized CNT\n12.6 \u00b1 1.2\n0.498 \u00b1 0.049\n4.8 \u00b1 1.2\n7.46 \u00b1 1.89\nSintered copper\n6.6 \u00b1 2.3\n1.07 \u00b1 0.38\n0.4 \u00b1 0.1\n88.6 \u00b1 22.2\nSintered copper + metallized CNT\n0.8 \u00b1 0.2\n8.27 \u00b1 2.07\n0.5 \u00b1 0.2\n79.2 \u00b1 31.7\n* Thermophysical property values estimated from [45]\n\u2020 Thermophysical property values obtained from [46]\n32\nList of Figures\nFigure 1. SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of\nsintered copper spheres, (b) Cu-metallized MWCNT array, and (c) sintered Cu spheres with\nmetallized CNT array grown after sintering. (should we include the bare copper surface also for\ncompleteness?)\nFigure 2. (a) Schematic diagram of the experimental facility with relevant components indicated,\nand (b) top view of the test block (adapted from [26]).\nFigure 3. HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface.\nFigure 4. DI water pool boiling curves for the enhanced surfaces and the plain surface.\nFigure 5. SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.\nFigure 6. SEM images of the sintered boiling surface after pool boiling tests and desoldering.\n33\n(a)\n(b)\n(c)\nFigure 1. SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of\nsintered copper spheres, (b) Cu-metallized MWCNT array, and (c) sintered Cu spheres with\nmetallized CNT array grown after sintering.\n34\n(a)\n(b)\nFigure 2. (a) Schematic diagram of the experimental facility with relevant components indicated,\nand (b) top view of the test block (adapted from [26]).\n35\nFigure 3. HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface.\n\uf044Tw [K]\nq\uf0b2w [W/cm\n2]\n0\n10\n20\n30\n40\n0\n5\n10\n15\n20\n25\n30\nBare Copper - q\uf0b2w ascending\nBare Copper - q\uf0b2w descending\nSintered Copper - q\uf0b2w ascending\nSintered Copper - q\uf0b2w descending\nMetallized CNT on Cu - q\uf0b2w ascending\nMetallized CNT on Cu - q\uf0b2w descending\nSintered + CNTs - q\uf0b2w ascending\nSintered + CNTs - q\uf0b2w descending\nCHF\nCONDENSER FLOW LIMIT\nHFE-7300\n36\nFigure 4. DI water pool boiling curves for the enhanced surfaces and the plain surface.\n\uf044Tw [K]\nq\uf0b2w [W/cm\n2]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n20\n40\n60\n80\nBare Copper - q\uf0b2w descending\nBare Copper - q\uf0b2w ascending\nSintered Copper - q\uf0b2w ascending\nSintered Copper - q\uf0b2w descending\nMetallized CNT on Cu - q\uf0b2w ascending\nMetallized CNT on Cu - q\uf0b2w descending\nSintered + CNTs - q\uf0b2w ascending\nSintered + CNTs - q\uf0b2w descending\nDI Water\nprojected\n37\nFigure 5. SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.\n38\n(a)\n(b)\nFigure 6. SEM images of the sintered boiling surface after pool boiling tests and desoldering.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 1029
+    },
+    {
+      "number": 2,
+      "start": 1029,
+      "end": 2575
+    },
+    {
+      "number": 3,
+      "start": 2575,
+      "end": 4626
+    },
+    {
+      "number": 4,
+      "start": 4626,
+      "end": 6784
+    },
+    {
+      "number": 5,
+      "start": 6784,
+      "end": 8916
+    },
+    {
+      "number": 6,
+      "start": 8916,
+      "end": 10966
+    },
+    {
+      "number": 7,
+      "start": 10966,
+      "end": 12921
+    },
+    {
+      "number": 8,
+      "start": 12921,
+      "end": 14926
+    },
+    {
+      "number": 9,
+      "start": 14926,
+      "end": 16463
+    },
+    {
+      "number": 10,
+      "start": 16463,
+      "end": 18021
+    },
+    {
+      "number": 11,
+      "start": 18021,
+      "end": 19714
+    },
+    {
+      "number": 12,
+      "start": 19714,
+      "end": 21414
+    },
+    {
+      "number": 13,
+      "start": 21414,
+      "end": 23305
+    },
+    {
+      "number": 14,
+      "start": 23305,
+      "end": 25400
+    },
+    {
+      "number": 15,
+      "start": 25400,
+      "end": 27399
+    },
+    {
+      "number": 16,
+      "start": 27399,
+      "end": 29238
+    },
+    {
+      "number": 17,
+      "start": 29238,
+      "end": 30926
+    },
+    {
+      "number": 18,
+      "start": 30926,
+      "end": 32922
+    },
+    {
+      "number": 19,
+      "start": 32922,
+      "end": 34844
+    },
+    {
+      "number": 20,
+      "start": 34844,
+      "end": 36758
+    },
+    {
+      "number": 21,
+      "start": 36758,
+      "end": 38467
+    },
+    {
+      "number": 22,
+      "start": 38467,
+      "end": 38892
+    },
+    {
+      "number": 23,
+      "start": 38892,
+      "end": 40387
+    },
+    {
+      "number": 24,
+      "start": 40387,
+      "end": 41951
+    },
+    {
+      "number": 25,
+      "start": 41951,
+      "end": 43552
+    },
+    {
+      "number": 26,
+      "start": 43552,
+      "end": 45300
+    },
+    {
+      "number": 27,
+      "start": 45300,
+      "end": 46842
+    },
+    {
+      "number": 28,
+      "start": 46842,
+      "end": 47468
+    },
+    {
+      "number": 29,
+      "start": 47468,
+      "end": 48549
+    },
+    {
+      "number": 30,
+      "start": 48549,
+      "end": 48552
+    },
+    {
+      "number": 31,
+      "start": 48552,
+      "end": 48929
+    },
+    {
+      "number": 32,
+      "start": 48929,
+      "end": 49646
+    },
+    {
+      "number": 33,
+      "start": 49646,
+      "end": 50476
+    },
+    {
+      "number": 34,
+      "start": 50476,
+      "end": 50718
+    },
+    {
+      "number": 35,
+      "start": 50718,
+      "end": 50882
+    },
+    {
+      "number": 36,
+      "start": 50882,
+      "end": 51323
+    },
+    {
+      "number": 37,
+      "start": 51323,
+      "end": 51755
+    },
+    {
+      "number": 38,
+      "start": 51755,
+      "end": 51851
+    },
+    {
+      "number": 39,
+      "start": 51851,
+      "end": 51957
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-purdue-e-pubs",
+      "number": null,
+      "title": "Purdue e-Pubs",
+      "level": 1,
+      "start": 35,
+      "end": 49
+    },
+    {
+      "id": "sec-1-purdue-e-pubs",
+      "number": null,
+      "title": "Purdue e-Pubs",
+      "level": 1,
+      "start": 49,
+      "end": 132
+    },
+    {
+      "id": "sec-2-pool-boiling-performance-comparison-of-s",
+      "number": null,
+      "title": "Pool Boiling Performance Comparison of Smooth and Sintered",
+      "level": 1,
+      "start": 132,
+      "end": 191
+    },
+    {
+      "id": "sec-3-pool-boiling-performance-comparison-of-s",
+      "number": null,
+      "title": "Pool Boiling Performance Comparison of Smooth and Sintered",
+      "level": 1,
+      "start": 191,
+      "end": 250
+    },
+    {
+      "id": "sec-4-copper-surfaces-with-and-without-carbon-",
+      "number": null,
+      "title": "Copper Surfaces with and without Carbon Nanotubes",
+      "level": 1,
+      "start": 250,
+      "end": 300
+    },
+    {
+      "id": "sec-5-copper-surfaces-with-and-without-carbon-",
+      "number": null,
+      "title": "Copper Surfaces with and without Carbon Nanotubes",
+      "level": 1,
+      "start": 300,
+      "end": 1031
+    },
+    {
+      "id": "sec-6-pool-boiling-performance-comparison-of-s",
+      "number": null,
+      "title": "Pool boiling performance comparison of smooth and sintered copper",
+      "level": 2,
+      "start": 1031,
+      "end": 1371
+    },
+    {
+      "id": "sec-7-abstract",
+      "number": null,
+      "title": "ABSTRACT",
+      "level": 2,
+      "start": 1371,
+      "end": 2384
+    },
+    {
+      "id": "sec-8-keywords-enhanced-boiling-porous-surface",
+      "number": null,
+      "title": "Keywords:  enhanced boiling, porous surface, carbon nanotube, biporous wick, surface",
+      "level": 2,
+      "start": 2384,
+      "end": 2579
+    },
+    {
+      "id": "sec-9-introduction",
+      "number": null,
+      "title": "INTRODUCTION",
+      "level": 2,
+      "start": 2579,
+      "end": 11597
+    },
+    {
+      "id": "sec-10-test-piece-fabrication",
+      "number": null,
+      "title": "TEST PIECE FABRICATION",
+      "level": 2,
+      "start": 11597,
+      "end": 15308
+    },
+    {
+      "id": "sec-11-experimental-method",
+      "number": null,
+      "title": "EXPERIMENTAL METHOD",
+      "level": 2,
+      "start": 15308,
+      "end": 16469
+    },
+    {
+      "id": "sec-12-heat-loss-calculation",
+      "number": null,
+      "title": "Heat loss calculation",
+      "level": 2,
+      "start": 16469,
+      "end": 18028
+    },
+    {
+      "id": "sec-13-experimental-uncertainties",
+      "number": null,
+      "title": "Experimental uncertainties",
+      "level": 2,
+      "start": 18028,
+      "end": 18826
+    },
+    {
+      "id": "sec-14-results-and-discussion",
+      "number": null,
+      "title": "RESULTS AND DISCUSSION",
+      "level": 2,
+      "start": 18826,
+      "end": 19239
+    },
+    {
+      "id": "sec-15-boiling-curves",
+      "number": null,
+      "title": "Boiling curves",
+      "level": 2,
+      "start": 19239,
+      "end": 20323
+    },
+    {
+      "id": "sec-16-boiling-incipience",
+      "number": null,
+      "title": "Boiling incipience",
+      "level": 2,
+      "start": 20323,
+      "end": 23312
+    },
+    {
+      "id": "sec-17-boiling-hysteresis",
+      "number": null,
+      "title": "Boiling hysteresis",
+      "level": 2,
+      "start": 23312,
+      "end": 26415
+    },
+    {
+      "id": "sec-18-boiling-curve-crossover",
+      "number": null,
+      "title": "Boiling curve crossover",
+      "level": 2,
+      "start": 26415,
+      "end": 27639
+    },
+    {
+      "id": "sec-19-critical-heat-flux",
+      "number": null,
+      "title": "Critical heat flux",
+      "level": 2,
+      "start": 27639,
+      "end": 35180
+    },
+    {
+      "id": "sec-20-surface-morphology-change",
+      "number": null,
+      "title": "Surface morphology change",
+      "level": 2,
+      "start": 35180,
+      "end": 36955
+    },
+    {
+      "id": "sec-21-conclusions",
+      "number": null,
+      "title": "CONCLUSIONS",
+      "level": 2,
+      "start": 36955,
+      "end": 38470
+    },
+    {
+      "id": "sec-22-acknowledgments",
+      "number": null,
+      "title": "ACKNOWLEDGMENTS",
+      "level": 2,
+      "start": 38470,
+      "end": 38895
+    },
+    {
+      "id": "sec-23-references",
+      "number": null,
+      "title": "REFERENCES",
+      "level": 2,
+      "start": 38895,
+      "end": 47471
+    },
+    {
+      "id": "sec-24-nomenclature",
+      "number": null,
+      "title": "NOMENCLATURE",
+      "level": 2,
+      "start": 47471,
+      "end": 48639
+    },
+    {
+      "id": "sec-25-surface",
+      "number": null,
+      "title": "Surface",
+      "level": 2,
+      "start": 48639,
+      "end": 49203
+    },
+    {
+      "id": "sec-26-surface",
+      "number": null,
+      "title": "Surface",
+      "level": 2,
+      "start": 49203,
+      "end": 49211
+    },
+    {
+      "id": "sec-27-hfe-7300",
+      "number": null,
+      "title": "HFE-7300*",
+      "level": 2,
+      "start": 49211,
+      "end": 49221
+    },
+    {
+      "id": "sec-28-di-water",
+      "number": null,
+      "title": "DI water\u2020",
+      "level": 2,
+      "start": 49221,
+      "end": 51027
+    },
+    {
+      "id": "sec-29-bare-copper-q-w-ascending",
+      "number": null,
+      "title": "Bare Copper - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51027,
+      "end": 51055
+    },
+    {
+      "id": "sec-30-bare-copper-q-w-descending",
+      "number": null,
+      "title": "Bare Copper - q\uf0b2w descending",
+      "level": 2,
+      "start": 51055,
+      "end": 51084
+    },
+    {
+      "id": "sec-31-sintered-copper-q-w-ascending",
+      "number": null,
+      "title": "Sintered Copper - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51084,
+      "end": 51116
+    },
+    {
+      "id": "sec-32-sintered-copper-q-w-descending",
+      "number": null,
+      "title": "Sintered Copper - q\uf0b2w descending",
+      "level": 2,
+      "start": 51116,
+      "end": 51149
+    },
+    {
+      "id": "sec-33-metallized-cnt-on-cu-q-w-ascending",
+      "number": null,
+      "title": "Metallized CNT on Cu - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51149,
+      "end": 51186
+    },
+    {
+      "id": "sec-34-metallized-cnt-on-cu-q-w-descending",
+      "number": null,
+      "title": "Metallized CNT on Cu - q\uf0b2w descending",
+      "level": 2,
+      "start": 51186,
+      "end": 51224
+    },
+    {
+      "id": "sec-35-sintered-cnts-q-w-ascending",
+      "number": null,
+      "title": "Sintered + CNTs - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51224,
+      "end": 51256
+    },
+    {
+      "id": "sec-36-sintered-cnts-q-w-descending",
+      "number": null,
+      "title": "Sintered + CNTs - q\uf0b2w descending",
+      "level": 2,
+      "start": 51256,
+      "end": 51289
+    },
+    {
+      "id": "sec-37-chf",
+      "number": null,
+      "title": "CHF",
+      "level": 2,
+      "start": 51289,
+      "end": 51293
+    },
+    {
+      "id": "sec-38-condenser-flow-limit",
+      "number": null,
+      "title": "CONDENSER FLOW LIMIT",
+      "level": 2,
+      "start": 51293,
+      "end": 51314
+    },
+    {
+      "id": "sec-39-hfe-7300",
+      "number": null,
+      "title": "HFE-7300",
+      "level": 2,
+      "start": 51314,
+      "end": 51474
+    },
+    {
+      "id": "sec-40-bare-copper-q-w-descending",
+      "number": null,
+      "title": "Bare Copper - q\uf0b2w descending",
+      "level": 2,
+      "start": 51474,
+      "end": 51503
+    },
+    {
+      "id": "sec-41-bare-copper-q-w-ascending",
+      "number": null,
+      "title": "Bare Copper - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51503,
+      "end": 51531
+    },
+    {
+      "id": "sec-42-sintered-copper-q-w-ascending",
+      "number": null,
+      "title": "Sintered Copper - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51531,
+      "end": 51563
+    },
+    {
+      "id": "sec-43-sintered-copper-q-w-descending",
+      "number": null,
+      "title": "Sintered Copper - q\uf0b2w descending",
+      "level": 2,
+      "start": 51563,
+      "end": 51596
+    },
+    {
+      "id": "sec-44-metallized-cnt-on-cu-q-w-ascending",
+      "number": null,
+      "title": "Metallized CNT on Cu - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51596,
+      "end": 51633
+    },
+    {
+      "id": "sec-45-metallized-cnt-on-cu-q-w-descending",
+      "number": null,
+      "title": "Metallized CNT on Cu - q\uf0b2w descending",
+      "level": 2,
+      "start": 51633,
+      "end": 51671
+    },
+    {
+      "id": "sec-46-sintered-cnts-q-w-ascending",
+      "number": null,
+      "title": "Sintered + CNTs - q\uf0b2w ascending",
+      "level": 2,
+      "start": 51671,
+      "end": 51703
+    },
+    {
+      "id": "sec-47-sintered-cnts-q-w-descending",
+      "number": null,
+      "title": "Sintered + CNTs - q\uf0b2w descending",
+      "level": 2,
+      "start": 51703,
+      "end": 51736
+    },
+    {
+      "id": "sec-48-di-water",
+      "number": null,
+      "title": "DI Water",
+      "level": 2,
+      "start": 51736,
+      "end": 51957
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "Each heater block, measuring 25.4 mm x 25.4 mm x 36.6 mm, is fabricated of",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-2_p9.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-1_p33.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated,",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-2_p33.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-3_p33.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-4_p33.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-5_p33.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering.",
+      "page": 33,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-6_p33.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "SEM images of boiling surfaces fabricated for this work: (a) porous layer formed of",
+      "page": 34,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-1_p34.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "(a) Schematic diagram of the experimental facility with relevant components indicated,",
+      "page": 35,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-2_p35.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "HFE-7300 pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 36,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-3_p36.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "DI water pool boiling curves for the enhanced surfaces and the plain surface.",
+      "page": 37,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-4_p37.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "SEM image of a (resin) wetting front within the sintered copper-CNT porous matrix.",
+      "page": 38,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-5_p38.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Figure 6",
+      "caption": "SEM images of the sintered boiling surface after pool boiling tests and desoldering.",
+      "page": 39,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2011-smooth-sintered-copper\\mchale_2011_smooth_sintered_copper_fig-6_p39.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-2",
+      "caption": "Incipience of boiling from enhanced surfaces is always associated with the trapping of",
+      "page": 12,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "Measured values of critical heat flux (CHF) for HFE-7300 in boiling tests.",
+      "page": 31,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "Measured boiling incipience superheats for all surfaces and fluids tested, along with",
+      "page": 32,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 39,
+    "ingest": "pymupdf"
+  }
+}

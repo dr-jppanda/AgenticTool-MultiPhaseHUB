@@ -1,0 +1,527 @@
+{
+  "doc_id": "7e1666c6b6d6c80e",
+  "source": "papers\\ahmad_2025_method_for_generating_a_complete.pdf",
+  "text": "Method for generating a complete saturated pool boiling curve for\ncryogenic fluids under terrestrial gravity\nFaraz Ahmad a\n, Dylan Foster a\n, Sunjae Kim a\n, Michael Meyer b, Jason Hartwig c\n,\nIssam Mudawar a,b,*\na Purdue University Boiling and Two-Phase Flow Laboratory (PU-BTPFL), School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN\n47907, USA\nb MTS Inc., 3495 Kent Ave, West Lafayette, IN 47906, USA\nc NASA Glenn Research Center, Fluids and Cryogenics Branch, Cleveland, OH 44135, USA\nA R T I C L E I N F O\nKeywords:\nContinuous pool boiling curve\nCryogens\nUniversal correlations\nTerrestrial gravity\nA B S T R A C T\nConstructing a complete and continuous boiling curve is a very challenging endeavor because correlations have\nhistorically been developed in individual studies only for specific boiling regimes or transition points, often using\ndifferent fluids and operating conditions. The present study tackles systematically the complexities of this\nendeavor by relying on predictive correlations recently developed by the present authors for all individual pool\nboiling curve regimes and transition points for cryogenic fluids. It is shown how, by integrating the previous\ncorrelations and correcting for any discontinuities between correlations, a continuous saturated pool boiling\ncurve can be constructed across the entire range of wall superheats and heat fluxes for all cryogens. The predicted\nboiling curves are validated against experimental data for key cryogens such as liquid helium, liquid hydrogen,\nand liquid nitrogen across varying pressure ranges. The critical heat flux is shown to decrease with increasing\nsurface orientation angle, measured from horizontal upward facing, and this effect becomes more pronounced\nwith increasing pressure. The heat transfer coefficient in both the nucleate boiling and film boiling regions in\u00ad\ncreases with increasing pressure, but this trend, especially for nucleate boiling, is less evident at very high\npressures. Reinforcing published trends, the decrease in the nucleate boiling heat transfer coefficient near the\ncritical heat flux point is clearly captured, especially for cryogens with relatively high saturation temperatures,\nsuch as liquid oxygen and liquid methane. Additionally, the presented methodology shows the wall superheats\nfor the critical heat flux and minimum heat flux points decrease with increasing pressure, excepting very high\npressures. Overall, the methodology for generating the complete boiling curve for cryogens is validated over\nbroad pressure ranges, up to 75 % of critical pressure (p = 0.75pc).\n1. Introduction\n1.1. Significance of thermal management to space applications\nIn 2024, the Space Technology Mission Directorate (STMD) of Na\u00ad\ntional Aeronautics and Space Administration (NASA) conducted a sur\u00ad\nvey to identify 187 technological gaps-key areas needing advancement\nto support scientific research, future exploration, and other mission\nobjectives. The survey aimed to prioritize the most urgent challenges in\nthe field, helping shape the direction of future space technology in\u00ad\nnovations and investment strategies. While the majority of the responses\n(769) came from NASA's internal departments, 462 additional responses\nwere gathered from external stakeholders, including federally funded\nresearch institutions, universities, non-profit organizations, professional\nsocieties, and other government agencies. The findings were published\nin a report titled \"Civil Space Shortfall Ranking July 2024\" [1], high\u00ad\nlighting thermal management systems as one of the top areas needing\nmore focus due to increasing demands in space applications.\nResearchers worldwide have dedicated significant effort to\nadvancing thermal management techniques to meet the evolving needs\nof various industries. Among these efforts, Purdue University's Boiling\nand Two-Phase Flow Laboratory (PU-BTPFL) has been a leading\ncontributor over the past four decades. Using a variety of experimental,\ntheoretical, correlation-based, computational, and machine learning\nmethods, investigators at PU-BTPFL have explored a wide range of\n* Corresponding author at: MTS Inc., 3495 Kent Ave, West Lafayette, IN 47906, USA. website: https: //engineering.purdue.edu/BTPFL\nE-mail address: mudawar@ecn.purdue.edu (I. Mudawar).\nContents lists available at ScienceDirect\nInternational Journal of Heat and Mass Transfer\njournal homepage: www.elsevier.com/locate/ijhmt\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2025.126876\nReceived 19 December 2024; Received in revised form 6 February 2025; Accepted 21 February 2025\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\nAvailable online 3 March 2025\n0017-9310/\u00a9 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.\ncooling schemes aimed at enhancing heat dissipation. They include\ncapillary [2], pool [3], falling-film [4], channel flow [5,6],\nmicro/mini-channel [7], jet [8], and spray [9], as well as hybrid\nmethods combining the merits of multiple schemes [10,11]. Each\ntechnique offers distinct advantages and limitations, with its applica\u00ad\nbility determined by the specific cooling requirements of different\nindustries.\nIn many scenarios, pool boiling proves to be an optimal cooling\nmethod due to its compact and simple design, low operational costs, and\npassive functionality. As a result, extensive research has focused on\nunderstanding the behaviour of pool boiling under various conditions,\nleading to the development of models and correlations that accurately\npredict its performance in numerous applications. However, these pre\u00ad\ndictive tools are predominantly tailored for room-temperature fluids\nsuch as water and dielectric coolants. With modern industries, particu\u00ad\nlarly in space exploration, increasingly relying on cryogenic fluids that\noperate at extremely low temperatures, the effectiveness of these pre\u00ad\ndictive tools is suspect, given the drastic differences between the fluid\nphysics of cryogens and those of room-temperature counterparts.\nConsequently, applying these tools to cryogenic fluids can lead to highly\ninaccurate or unreliable results. To address this knowledge gap, new\nmodels and correlations need to be developed specifically for cryogenic\nfluids to enable accurate predictions and efficient thermal management.\nRecently, a series of studies conducted jointly by a team from PU-\nBTPFL, and NASA's Glenn Research Center has culminated in new cor\u00ad\nrelations for cryogenic fluids across the different regions and transition\npoints of the pool boiling curve, including nucleate boiling [12], tran\u00ad\nsition boiling [13], film boiling [14], critical heat flux point (CHF) [15],\nand minimum heat flux (MHF) point [16]. This study aims to build upon\nthese efforts by integrating the different correlations to construct a\ncomplete and continuous boiling curve for cryogenic fluids.\n1.2. The boiling curve\nIn pool boiling experiments, the boiling curve is generated in one of\ntwo ways: heat-flux-controlled and temperature-controlled. Depicted in\nFig. 1 (a), a heat-flux-controlled experiment is conducted by gradually\nincreasing the heat flux in small increments, followed each by an\nadequate waiting period to ensure the attainment of steady state data.\nStarting with a very low heat flux corresponding to liquid natural con\u00ad\nvection (NC), increasing the heat flux increases the surface temperature\nas well as temperature of near-surface liquid until the point of onset of\nnucleate boiling (ONB) where the nucleation commences. Increasing the\nheat flux further increases the surface-to-fluid temperature difference\n(wall superheat), promoting more bubble formation, growth, and de\u00ad\nparture within the nucleate boiling (NB) region. Approaching the CHF\nNomenclature\nC\nConstant in natural convection correlation [dimensionless]\ncp\nSpecific heat at constant pressure [J. kg-1. K-1]\ng\nEarth gravitational acceleration [m. s-2]\nh\nHeat transfer coefficient [W. m-2. K-1]\nhfg\nLatent heat of vaporization [J. kg-1]\nk\nThermal conductivity [W. m-1. K-1]\nLb\nLaplace constant or bubble length [m]; Lb =\n\u03c3\ng(\u03c1f -\u03c1g)\n\u221a\nLx\nCharacteristic length of heating surface [m]\nN\nNumber of data points used to develop a correlation\n[dimensionless]\nNu\nNusselt number [dimensionless]\nn\nExponent in natural convection correlation\n[dimensionless]\np\nPressure [N. m-2]\np\u2217\nReduced pressure; p\u2217= p\npc [dimensionless]\npc\nCritical pressure [N. m-2]\nPr\nPrandtl number [dimensionless]\nq\u02b9\u02b9\nHheat flux [W. m-2]\nRa\nRayleigh number [dimensionless]\nRag\nRayleigh number for film boiling based on bubble length Lb\n[dimensionless]\nRaL\nRayleigh number for natural convection based on\ncharacteristic length Lx [dimensionless]\nTc\nCritical temperature [K]\nTsat\nSaturation temperature of fluid [K]\n\u0394Tsat\nWall superheat [K]; \u0394Tsat = Tw -\nTsat\n\u0394Tsub\nLiquid subcooling [K]; \u0394Tsub = Tsat -\nTf\nGreek symbols\n\u03b1\nPercentage of predictions within \u00b130 % of the data\n\u03b2\nPercentage of predictions within \u00b150 % of the data\n\u03b8\nOrientation angle of heating surface [\u2218]\n\u03bc\nDynamic viscosity [Pa.s]\n\u03c1\nDensity [kg.m-3]\n\u03c3\nSurface tension [N.m-1]\n\u03c3b\nStefan-Boltzmann constant [5.67 \u00d7 10-8 W/m2.K4]\n\u03c6\nWeighting function used in transition boiling correlation\n[dimensionless]\nSubscripts\nCHF\nCritical heat flux\nExp\nExperimental (measured)\nf\nSaturated liquid\nfb\nFilm boiling\ng\nSaturated vapor\nl\nsingle phase liquid\nmin\nMinimum heat flux\nnb\nNucleate boiling\nnc\nNatural convection\nPred\nPredicted (calculated)\nsat\nSaturation\nsub\nSubcooling\ntb\nTransition boiling\nw\nHeating wall\nAcronyms\nCHF\nCritical heat flux\nFB\nFilm boiling\nHTC\nHeat transfer coefficient\nLAr\nLiquid argon\nLCH4\nLiquid methane\nLHe\nLiquid helium\nLH2\nLiquid hydrogen\nLN2\nLiquid nitrogen\nLO2\nLiquid oxygen\nMAE\nMean absolute error\nMHF\nMinimum heat flux\nNASA\nNational Aeronautics and Space Administration\nNB\nNucleate boiling\nNC\nNatural convection\nONB\nOnset of nucleate boiling\nPU-BTPFL Purdue University Boiling and Two-Phase Flow\nLaboratory\nSTMD\nSpace Technology Mission Directorate\nTB\nTransition boiling\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n2\npoint, effectiveness of the nucleation process diminishes because of\nappreciable coalescence of large vapor masses which hinder ability of\nthe bulk liquid to replenish the surface. The degradation of nucleate\nboiling reaches peak value at CHF, at which the surface temperature\nescalates uncontrollably even while the heat flux stays constant. The\nsurface temperature ceases to rise once film boiling (FB) is reached and\nany further increase in the heat flux captures the upper region of film\nboiling. Within FB, the surface is encased in a continuous, thermally\ninsolating vapor layer. Here, heat from the surface must traverse the\nvapor layer and, given the poor thermal conductivity of the vapor, the\nheat transfer is highly compromised and the surface temperature attains\nvery high values. Starting from film boiling, the heat-flux-controlled\nexperiment is continued by decreasing the heat flux, once again in\nsmall increments. This causes the wall temperature to decrease until\nreaching the MHF point upon which partial breakup of the vapor layer\nculminates in a sudden heat transfer enhancement. This is accompanied\nby a rapid unsteady decline in the surface temperature even while the\nheat flux stays constant. This allows the system to transition back into\nthe NB region. A further reduction in heat flux brings the system back to\nthe single-phase liquid NC region.\nAlternatively, as depicted in Fig. 1 (b), the boiling curve can be\ngenerated using a temperature-controlled experiment. In contrast to the\nheat-flux-controlled experiment, the temperature-controlled experiment\nsets surface temperature as the primary input, and the system adjusts the\nheat flux to achieve this target surface temperature. Also, unlike the heat\nflux-controlled method, the heat flux fluctuates appreciably as the sys\u00ad\ntem aims to maintain the desired surface temperature, which renders the\nexperiment quasi-steady rather than perfectly steady-state. This method\nallows the experiment to proceed by either increasing or decreasing the\nsurface temperature, depending on the choice of the operator. A major\nadvantage of the temperature-controlled method is the ability to capture\nthe transition boiling (TB) region, which cannot be captured in a heat-\nflux-controlled experiment, thereby generating a complete boiling\ncurve. Overall, despite differences between the two methods, the\nresulting boiling curves should ideally align except for the TB region,\nwhich is only captured by the temperature-controlled experiment.\nFig. 1. Boiling curve obtained from (a) heat-flux-controlled experiments and (b) temperature-controlled experiments.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n3\n1.3. Objectives of the present study\nIn the two-phase heat transfer literature, investigators provide\nfindings from pool boiling experiments conducted under different\noperating conditions in pursuit of useful correlations. A key challenge\nwhen attempting to use such correlations is that most are based on data\nfor room-temperature fluids such is water and dielectric coolants, which\nis why they are known to yield appreciable predictive errors when\napplied to the much lower temperature cryogenic fluids. Moreover,\ncorrelations from most published works focus are often presented for a\nspecific fluid and more importantly, specific boiling region, often using\ndifferent assumptions and physical interpretations. This renders the\nability to generate a complete boiling curve by stitching together cor\u00ad\nrelations for the different boiling regions from different sources a\nformidable challenge.\nTo overcome these challenges, a collaborative effort between PU-\nBTPFL and NASA Glenn Research Center since 2018 has been focused\non generating new correlations that are specific to cryogenic fluids. The\nultimate goal of this endeavor is to develop high-accuracy heat transfer\ncorrelations to serve as predictive tools for both design and performance\nassessment of cryogenic systems under different operating conditions\nand both terrestrial gravity and microgravity. To achieve this goal, over\n10,000 datapoints from 80 different papers were amassed and meticu\u00ad\nlously scrutinized, culminating in 4809 usable data points. These data\u00ad\npoints were first analyzed based on available correlations for mostly\nroom temperature fluids. Based on both useful fluid physics insights\nfrom the performance of prior correlations (despite their less than\nsatisfactory predictive accuracy) and the parametric trends from the\nnew cryogenic database, new correlations were developed for NB [12],\nCHF point surface temperature and heat flux [13,15], TB [13], MHF\npoint temperature and heat flux [16], and FB [14]. It is noteworthy that\nthese initial correlations are intended for only steady-state saturated\npool boiling and terrestrial gravity. Effects of other factors, such as\nmicrogravity, subcooling, and surface size and material, will be deferred\nto future work, relying on new cryogenic pool boiling experiments to be\nconducted in both terrestrial gravity and microgravity. With the new\ndata, the available correlations will be updated, if needed, to broaden\ntheir applicability and account for any missing effects. It must be noted\nthat the present study is the first of its kind in terms of generating a\ncomplete boiling curve for different cryogens, including liquid helium\n(LHe), liquid hydrogen (LH2,) liquid nitrogen (LN2), liquid argon (LAr),\nliquid oxygen (LO2), and liquid methane (LCH4), under broad ranges of\noperating conditions.\nIn summary, the primary objectives of this study are as follows:\ni. Summarize previously developed cryogenic correlations for\ndifferent regions and transition points of the saturated pool\nboiling curve along with their predictive performance.\nii. Combine the correlations in a MATLAB code wherein fluid,\npressure, surface orientation angle, and heat flux are input to\ncalculate the corresponding wall superheat. The complete boiling\ncurve is constructed by combining predictions for all regions and\ntransition points of the pool boiling curve.\niii. Investigate overall shape and trends of the boiling curve and\nupdate the correlations where needed. Also, incorporate blending\nfunctions where discontinuity in the curve occurs.\niv. Construct final complete and continuous boiling curves for\ndifferent operating conditions and determine the validity range\nfor the code.\nv. Validate the final boiling curves against experimental boiling\ncurves from the literature.\n2. Overview of new universal correlations for cryogenic pool\nboiling\nThe authors' recent development of new universal cryogenic pool\nboiling correlations marks a significant step toward understanding\ncryogenic fluid physics as well as constructing a continuous boiling\ncurve for cryogens. As indicated earlier, the complete boiling curve\nsought in the present study is intended for flat surfaces in a saturated\ncryogenic liquid pool and terrestrial gravity, and accounts for variations\nin pressure, wall heat flux, surface orientation, and the specific cryogen\nused. To generate a continuous boiling curve by incorporating correla\u00ad\ntions for the different boiling regions and transition points, further\nrefinement is required. This paper outlines the approach for integrating\nthese correlations to construct a continuous boiling curve. Before\ndelving into the methodology for merging correlations, it is crucial to\nprovide a high-level overview of the key factors and parameters that\nserve as a foundation for this approach.\n2.1. Natural convection (NC)\nIt is assumed that natural convection in cryogenic fluids follows the\nsame behavior as that for room-temperature fluids. Therefore, a general\nNusselt number correlation of the form is used [17]:\nNunc = hncLx\nkf\n= CRan\nL\n(1)\nwhere hnc is the natural convection HTC [W/m2.K], Lx the characteristic\nlength of the heating surface [m], kf the thermal conductivity of single\nphase liquid [W. m-1. K-1], and RaL the Rayleigh number based on\ncharacteristic length Lx. The constants C and n depend on both fluid state\n(laminar or turbulent) and surface orientation [18-21] as summarized in\nTable 1. RaL in Eq. (1) is defined as\nRaL = L3\nx\u03c1f\n( \u03c1f -\u03c1f,w\n)\ng\n\u03bc2\nf\n(\u03bcfcp,f\nkf\n)\n(2)\nwhere \u03c1f is the density of single phase liquid calculated at liquid tem\u00ad\nperature [kg.m-3], \u03c1f,w the density of single phase liquid calculated at\nwall temperature [kg.m-3], \u03bcf the dynamic viscosity of single phase\nliquid [Pa. s], g the Earth gravity [9.8 m.s-2], and cp,f the specific heat of\nsingle phase liquid [J.kg-1.K-1].\n2.2. Nucleate boiling (NB)\nAfter meeting the requirements for ONB condition (\u0394Tsat = \u0394Tsat,ONB,\nq\u02b9\u02b9 = q\u02b9\u02b9\nONB), bubble nucleation commences and intensifies along the NB\nregion until the CHF condition is met. Heat transfer in NB region can be\ndetermined using our recently developed correlation [12],\nhnb = 13.3 q\u02b9\u02b90.665(1 + 0.52 p\u2217)4.7Pr-1.09\nf\n\u00d7\n[\n1 + 68e20(p\u2217-1.1)\n1 + 0.0045 e(q\u02b9\u02b9 \u00d7 10-5)\n]\n(3)\nwhere hnb is the NB HTC [W/m2.K], p* the reduced pressure (p/pcrit), q\u2032\u2032\nthe heat flux [W/m2], and Prf the liquid Prandtl number. Details\nTable 1\nSummary of values of C and n in natural convection correlations.\nOrientation\nangle [\u25e6]\nC\nn\nValidity range\nReference\n\u03b8 = 0\u25e6\n0.54\n1/\n4\n104 \u2264RaL \u2264107,\nPrL \u22650.7\nLloyd & Moran [18]\n0.15\n1/\n3\n107 \u2264RaL \u22641011\nLloyd & Moran [18]\n\u03b8 = 90\u25e6\n0.59\n1/\n4\n104 \u2264RaL \u2264109\nMcAdams [19]\n0.10\n1/\n3\n109 \u2264RaL \u22641013\nBayley [20]\n\u03b8 = 180\u25e6\n0.52\n1/\n5\n104 \u2264RaL \u2264109,\nPrL \u22650.7\nRadziemska &\nLewandowski [21]\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n4\nconcerning both the development of this correlation and its predictive\nperformance for different cryogens are provided in [12].\n2.3. Onset of nucleate boiling (ONB) point\nThe ONB point is identified by conditions leading to formation of the\nfirst bubble on the heating surface. It is identified on the boiling curve\nvia corresponding values of heat flux, q\u02b9\u02b9\nONB, and wall superheat,\n\u0394Tsat,ONB. Ideally, while the ONB point falls directly on the boiling\ncurve's NC line, a blending function is required to avoid any disconti\u00ad\nnuity between the ONB point and NB curve. However, the authors'\nthorough investigation of published cryogenic pool boiling literature\nidentified two main difficulties in developing an accurate correlation for\nONB: (i) sparsity of ONB datapoint for different cryogens, and (ii) for\navailable data, very low values of q\u02b9\u02b9\nONB and \u0394TONB are often within the\nrange of measurement uncertainties. To avoid this complication, the\nONB point is identified in this study as the intersection of NC and NB\ncorrelations, i.e., by setting\n(\n\u0394Tsat,nc, q\u02b9\u02b9\nnc\n)\n=\n(\n\u0394Tsat,nb,q\u02b9\u02b9\nnb\n)\n.\n2.4. Critical heat flux (CHF) and wall temperature (Tw,CHF)\nThe CHF point is identified on the boiling curve by corresponding\nvalues for both heat flux, q\u02b9\u02b9\nCHF, and wall superheat, \u0394TCHF. Our team's\ncorrelation for q\u02b9\u02b9\nCHF was developed in [15], which can be presented as\nq\u02b9\u02b9\nCHF =\n[\n0.16 -0.104 (p\u2217)10]\n\u00d7 [1 -0.004(p\u2217)\u03b8]\u20d2\u20d2\u20d2\u20d2cos\n(( 88\n180\n)\n\u03b8\n)\u20d2\u20d2\u20d2\u20d20.364\n\u00d7\n[\n1 + 0.16\n(cp,f\u0394Tsub\nhfg\n)]\n\u00d7\n[\n\u03c1ghfg\n(\n\u03c3g\n( \u03c1f -\u03c1g\n)\n\u03c12\ng\n)1\n4]\n(4)\nwhere \u03b8 is the orientation angle of the heating surface [\u25e6], hfg the latent\nheat of vaporization [J.kg-1], \u0394Tsub the degree of subcooling of liquid\npool [K], whose value is zero for the present saturated pool boiling\nstudy, and \u03c3 the surface tension of the fluid [N.m-1].\nSimilarly, a correlation of the CHF point wall temperature, Tw,CHF,\nwas presented in our recent paper [13] as a function of the MHF point\nwall temperature, Tw,min,\nTw,CHF = 0.775 Tw,min\n(5)\nHere, Tw,min is calculated using our recently published correlation\n[16]\nTw,min = Tsat + (Tc -Tsat)\n(\n-9.1 + 12\n( kf\u03c1fcp,f\nkw\u03c1wcp,w\n)0.025)\n(6)\nwhere Tsat is the saturation temperature and Tc the fluid's critical tem\u00ad\nperature, with all temperatures in Eqs. (5) and (6) are expressed in K.\nThe subscripts f and w in Eq. (6) represent fluid and heating surface\nmaterial, respectively.\nThese correlations were validated, and showed very good pre\u00ad\ndictions, against mostly lower pressure data (because of the lack of\nhigher-pressure cryogen data). However, a problem arises when\nattempting to construct the complete boiling curve, caused by the fact\nthat the value of Tmin decreases with increasing pressure and, above a\ncertain pressure value, shifts the predicted value of TCHF to the left side\nof nucleate boiling curve, which is physically inconsistent. This problem\nwas circumvented by using a different method wherein TCHF is deter\u00ad\nmined by the intersection of NB curve and q\u02b9\u02b9\nCHF. Mathematically, this can\nbe represented as\n\u0394Tsat,CHF = Tw,CHF -Tsat = q\u02b9\u02b9\nCHF\nhCHF\n(7)\nwhere hCHF is the HTC at the CHF point, which is calculated by\ncombining Eqs. (3) and (4),\nhCHF = 13.3\n(\nq\u02b9\u02b9\nCHF\n)0.665(1+0.52 p\u2217)4.7Pr-1.09\nf\n\u00d7\n[\n1+68e20(p\u2217-1.1)\n1+0.0045 e(q\u02b9\u02b9\nCHF \u00d7 10-5)\n]\n(8)\nHere, q\u02b9\u02b9\nCHF is calculated using Eq. (4), marking the upper limit of NB.\n2.5. Minimum heat flux (MHF) and wall temperature (Tw,min)\nThe MHF point separates the TB region from the FB region. Since the\ncorrelation for TB, as discussed in the next section, depends on both the\nCHF and MHF points, it is necessary to present correlations for the MHF\npoint before those for TB. A detailed description for predicting the MHF\npoint is provided in authors' recent paper [16], where q\u02b9\u02b9\nmin and \u0394Tmin are\ndetermined as follows.\nq \u030bmin=0.043\n[\ncp,gk2\ng\n\u03bcg\n\u03c1gg\n( \u03c1f -\u03c1g\n)\n]0.567\n\u00d7\n(\n-0.107+0.38\n(\n\u0394Tsat,min\n)0.39)3.094\n(9)\nwhere \u03bcg is the dynamic viscosity of saturated vapor [Pa.s], kg the\nthermal conductivity of saturated vapor [W. m-1. K-1], cp,g the specific\nheat of saturated vapor [J.kg-1.K-1], and \u0394Tsat,min the wall superheat at\nthe MHF point, which is expressed as\n\u0394Tsat,min = Tw,min -Tsat\n(10)\nwhere Tw,min is calculated using Eq. (6).\n2.6. Transition boiling (TB)\nCompared to the other boiling curve regimes, TB has received far less\nattention in the heat transfer literature. A detailed discussion about the\nfew available prior correlations, their performance, and physics of TB\ncan be found in our recent paper [13]. The same study showed a new\nsystematic method for determining the TB curve. First, the wall super\u00ad\nheat in TB is given by\n\u0394Tsat,tb =\n[\n\u0394Tsat,CHF + \u03c6\n(\n\u0394Tsat,min -\u0394Tsat,CHF\n)]\n(11)\nwhere \u0394Tsat,tb is the wall superheat [K] in TB, \u0394Tsat,min and \u0394Tsat,CHF are\nthe wall superheats [K] at the MHF and CHF points, which can be\ncalculated using Eqs. (10) and (7), respectively, and \u03c6 is a weighting\nfunction based on both the CHF to MHF points.\n\u03c6 =\n(q\u02b9\u02b9\ntb -q\u02b9\u02b9\nCHF\nq\u02b9\u02b9\nmin -q\u02b9\u02b9\nCHF\n)0.8\n(12)\nwhere q\u02b9\u02b9\ntb is the input heat flux [W. m-2] in the TB region, and q\u02b9\u02b9\nCHF, q\u02b9\u02b9\nmin,\nand Tw,min are calculated using Eqs. (4), (9), and (6), respectively.\nAn expression for the HTC in TB can be formulated using htb =\nq\u02b9\u02b9\ntb/\n(\nTw,tb -\nTsat\n)\n, which yields\nhtb=\nq\u02b9\u02b9\ntb\n[(\nTw,CHF -Tsat\n)\n+\n(\nq\u02b9\u02b9 tb-q\u02b9\u02b9\nCHF\nq\u02b9\u02b9\nmin-q\u02b9\u02b9\nCHF\n)0.8\u20d2\u20d2\u20d2\u20d2{(\nTw,min -Tsat\n)\n-\n(\nTw,CHF -Tsat\n)}]\n(13)\n2.7. Film boiling (FB)\nFB is the highest temperature regime of pool boiling, where high\nsurface temperature causes bubble nucleation to fully subside, replaced\nby formation of continuous vapor blanket. A detailed description of this\nregime and its characteristics can be found in our recently published\npaper [14]. In the same study, the following new HTC correlation was\nderived from available cryogenic fluid data:\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n5\nwhere hfb is the overall FB HTC [W/m2.K], accounting for both film\nboiling and radiation effects, \u03b8 the surface orientation angle measured\nfrom horizontal upward position [ \u0366], hfg the latent heat of vaporization\n[J/kg], Tw,fb the temperature of the heating surface in FB [K], and \u03c3b the\nStefan-Boltzmann constant, 5.67 \u00d7 10-8 W/m2.K4. In Eq. (14), Lb rep\u00ad\nresents the Laplace constant or bubble length [m] which can be calcu\u00ad\nlated using the below equation.\nLb =\n\u03c3\ng\n( \u03c1f -\u03c1g\n)\n\u221a\n(15)\nMoreover, Rag is the Rayleigh number of saturated vapor, which can\nbe determined as\nRag = L3\nb\u03c1g\n( \u03c1f -\u03c1g\n)\ng\n\u03bc2\ng\n(\u03bcgcp,g\nkg\n)\n(16)\n2.8. Blending function between film boiling (FB) and minimum heat flux\n(MHF) point\nIt is important to note that, as indicated in our prior work, that the\nabove correlations provide accurate predictions for cryogens when\napplied to individual boiling curve regions and transition points. How\u00ad\never, problems arise when combining these correlations to generate a\ncomplete boiling curve. This is reflected by a discontinuity when\npatching together the heat flux correlations for TB and FB at q\u02b9\u02b9\nmin. An\nexample of such discontinuity is shown in Fig. 2 (a) for LH2 at a reduced\npressure of p\u2217\n= 0.1. Guided by insights from experimentally available\npool boiling curves, the discontinuity is corrected by devising a\n\"blending function\" between FB and MHF point, which, as shown later,\nproved highly effective at predicting boiling curve trends for different\ncryogens. Through iteration in pursuit of best predictions, an upper heat\nflux value for the blending function was set at 1.5q\u02b9\u02b9\nmin and, as illustrated\nin Fig. 2 (b), the blending function is given by\n\u0394Tsat,blend = \u0394Tsat,min +\u20d2\u20d2\u20d2\u20d2q\u02b9\u02b9 -q\u02b9\u02b9\nmin\n0.5q\u02b9\u02b9\nmin\n0.5(\n\u0394Tsat,fb\u20d2\u20d21.5q\u02b9\u02b9min -\u0394Tsat,min\n)\n(17)\nwhich is applied only in the range of\n\u0394Tsat,min \u2264\u0394Tsat \u2264\u0394Tsat,fb\u20d2\u20d21.5q\u02b9\u02b9min\n(18)\nFor the sake of completeness and brevity, a complete summary of all\nthe correlations used to construct the boiling curve, along with appli\u00ad\ncation range for each, is provided in Table 2.\n3. Performance assessment and validation of correlations used\nto construct saturated pool boiling curve for cryogens\n3.1. Performance summary of developed correlations\nOur recently developed correlations for saturated pool boiling of\ncryogens have already been discussed in the previous section. Further\ndetails on each correlation are explained in their respective original\npapers [12-14,16]. However, to provide a comprehensive overview, this\nsection summarizes the performance for all the developed correlations.\nThe predictive performance is evaluated via four metrics: mean absolute\nerror (MAE), number of data points used in the development of each\ncorrelation (N), and percentage of data that are predicted within \u00b130 %\n(\u03b1) and \u00b150 % (\u03b2). This comparative analysis, presented in Fig. 3 and\nTable 3, offers a clear perspective on the effectiveness of each correla\u00ad\ntion across various datasets.\nAs shown in Fig. 3, based on availability of published data, far more\ndatapoints were employed for developing the NB and FB correlations\ncompared to those for other boiling curve regimes and transition points.\nOverall, the correlations show very good predictions for multiple cryo\u00ad\ngens. Notably, the Tw,min correlation has an 8.73 % MAE for N = 165 data\nFig. 2. Complete boiling curve for LH2 (a) without blending function and (b)\nwith blending function.\nhfb = (0.148 + 0.052 sin\u03b8) \u00d7 kg\nLb\n[\nRag\u22c5\n(hfg + 0.46 cp,g\n(\nTw,fb -Tsat\n)\ncp,g\n(\nTw,fb -Tsat\n)\n)]0.33\n+\n(1.7 -0.55 sin\u03b8) \u03c3b\n(\nT4\nw,fb -T4\nsat\n)\n(\nTw,fb -Tsat\n)\n(14)\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n6\npoints, followed by the Tw,CHF correlation, 10.71 % for N = 236, hfb\ncorrelation, 12.94 % for N = 1209, htb correlation, 14.84 % for N = 133,\nq\u02b9\u02b9\nmin correlation, 22.42 % for N = 158, and hnb correlation, 25.36 % for N\n= 2908. Notice that certain correlations are evaluated against more\ncryogens than others; this again is based entirely on the availability of\ndata for a given boiling regime or transition points.\n3.2. Validation of new methodology for constructing complete pool boiling\ncurve\nWhile each individual correlation has been thoroughly tested against\nits respective datasets, Fig. 3, it is crucial to validate the complete\nboiling curve against experimental data to illustrate the robustness and\nreliability of the new methodology for the construction of complete\nboiling curve. Such validation is a key step toward demonstrating\npractical applicability of the methodology across different cryogens and\noperating conditions. To this end, the validation is conducted using data\nfor the three most significant and widely used cryogens in scientific and\nindustrial applications: liquid nitrogen (LN2), liquid hydrogen (LH2),\nand liquid helium (LHe).\nIdeally, one should aim to validate the entire boiling curve against\nexperimental data from a single source. This would provide a direct\ncomparison between the predicted boiling curve and experimental re\u00ad\nsults across all boiling regimes for same operating conditions. Unfortu\u00ad\nnately, such comprehensive datasets are very rare in published literature\nsince pool boiling experiments are typically conducted by different re\u00ad\nsearchers, each focusing on specific regime and operating conditions\nbased on their own research objectives. As a result, it is difficult to find a\nsingle source of experimental data covering the entire boiling curve.\nTo address this shortcoming, we took data from different studies,\neach focused on a particular boiling regime for same cryogen, which are\nthen combined to validate the methodology. This allows validation\nacross multiple datasets, which demonstrates broad applicability of the\nmethodology. For example, Fig. 4 shows the validation for LHe using\nexperimental data from five different sources [22-26] at a pressure of\n101 kPa. The results demonstrate very good capability in predicting the\nLHe data, which include both horizontal and vertical surfaces. Valida\u00ad\ntion of correlations for the ONB, CHF and MHF points is deferred to a\nlater section.\nHowever, some discrepancies arise in the natural convection regime,\nwhere predictions show some deviations from the data. This divergence\nis attributed to several factors. First and foremost is experimental un\u00ad\ncertainty, particularly at extremely low temperatures. For LHe, wall\nsuperheat can be as low as 0.01 K, which would greatly accentuate\nmeasurement uncertainties. Another contributing factor could be limi\u00ad\ntations of the natural convection correlations used. These correlations\nwere originally developed for mostly room-temperature fluids, and their\napplicability at such low temperatures may be somewhat compromised.\nMoreover, as shown in Fig. 4 (b), the validation for natural convection\nover vertical surfaces for LHe is incomplete due to a lack of corre\u00ad\nsponding experimental data. This data shortfall highlights the need for\nfurther experimental studies, particularly for cryogens like LHe, to\nprovide a more comprehensive database that covers all boiling regimes,\nincluding natural convection, over a range of surface orientations.\nTable 2\nSummary of correlations used to construct a complete saturated pool boiling curve (\u0394Tsub = 0) for cryogens.\nReference\n(s)\nRegion/Point\nCorrelation(s)\nApplication Range\nRemarks\n[17-21]\nNatural convection\n(NC) region\nhnc = kf\nLx\nCRan\nL\nRaL =\nL3\nx\u03c1f\n( \u03c1f -\u03c1f,w\n)\ng\n\u03bc2\nf\n(\u03bcfcp,f\nkf\n)\n\u0394Tsat \u2264\u0394Tsat,ONB\nValues for C and n are provided in\nTable 1\n-\nOnset of nucleate\nboiling (ONB) point\n-\n\u0394Tsat = \u0394Tsat,ONB\nIntersection point of NC and NB\n[12]\nNucleate boiling\n(NB) region\nhnb = 13.3 q\u02b9\u02b90.665(1 + 0.52 p\u2217)4.7Pr-1.09\nf\n\u00d7\n[\n1 + 68e20(p\u2217-1.1)\n1 + 0.0045 e(q\u02b9\u02b9 \u00d7 10-5)\n]\n\u0394Tsat,ONB < \u0394Tsat < \u0394Tsat,CHF\n[13]\nCritical heat flux\n(CHF) point\n\u0394Tsat,CHF = Tsat,CHF -\nTsat = q\u02b9\u02b9\nCHF\nhCHF\n\u0394Tsat = \u0394Tsat,CHF\n[15]\nq\u02b9\u02b9\nCHF =\n[\n0.16 -\n0.104 (p\u2217)10]\n\u00d7 [1 -\n0.004(p\u2217)\u03b8]|cos\n(( 88\n180\n)\n\u03b8\n)\n|0.364 \u00d7\n[\n1 + 0.16\n(cp,f\u0394Tsub\nhfg\n)]\n\u00d7\n[\n\u03c1ghfg\n(\n\u03c3g\n( \u03c1f -\u03c1g\n)\n\u03c12\ng\n)1\n4]\n[13]\nTransition boiling\n(TB) region\n\u0394Tsat,tb =\n[\n\u0394Tsat,CHF + \u03c6\n(\n\u0394Tsat,min -\n\u0394Tsat,CHF\n)]\n\u03c6 = |\n( q\u02b9\u02b9 -q\u02b9\u02b9\nCHF\nq\u02b9\u02b9\nmin -q\u02b9\u02b9\nCHF\n)0.8\n|\n\u0394Tsat,CHF \u2264\u0394Tsat \u2264\u0394Tsat,min\nAccuracy of this correlation is\nstrongly dependent on predictions of\nthe CHF and MHF points\n[16]\nMinimum heat flux\n(MHF) point\nTw,min =\n[\nTsat + (Tc -\nTsat)\n(\n-\n9.1 + 12\n( kf\u03c1fcp,f\nkw\u03c1wcp,w\n)0.025)]\n\u0394Tsat = \u0394Tsat,min\nThis correlation accounts for surface\nmaterial effect\n[16]\nq \u030bmin = 0.043\n[\ncp,gk2\ng\n\u03bcg\n\u03c1gg\n( \u03c1f -\u03c1g\n)\n]0.567\n\u00d7\n(\n-0.107 + 0.38\n(\n\u0394Tsat,min\n)0.39)3.094\nThis correlation is dependent on\n\u0394Tsat,min correlation\n-\nBlending function\nbetween q\"min and\n1.5q\"min\n\u0394Tblend = \u0394Tsat,min + |q\u02b9\u02b9 -q \u030bmin\n0.5q \u030bmin\n|0.5 \u00d7\n(\n\u0394Tsat,fb|1.5q \u030bmin -\n\u0394Tsat,min\n)\n\u0394Tsat,min \u2264\u0394Tsat \u2264\u0394Tsat,fb|1.5q \u030bmin\nFB correlation is terminated at 1.5q\u02b9\u02b9\nmin\nand the blending function is used to\nmerge the FB curve with the MHF\npoint\n[14]\nFilm boiling (FB)\nregion\nhfb = (0.148 + 0.052 sin\u03b8) \u00d7\nkg\nLb\n[\nRag\u22c5\n(hfg + 0.46 cp,g\n(\nTw,fb -Tsat\n)\ncp,g\n(\nTw,fb -Tsat\n)\n)]0.33\n+\n(1.7 -0.55 sin\u03b8) \u03c3b\n(\nT4\nw,fb -T4\nsat\n)\n(\nTw,fb -Tsat\n)\n\u0394Tsat \u2265\u0394Tsat,fb|1.5q \u030bmin\nCorrelation also accounts for\nradiation effects\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n7\nFor LHe, we were fortunate to locate experimental data for all boiling\nregimes at the same pressure, even though the data came from different\nsources. This facilitated both complete and consistent validation of the\nnew methodology for LHe. Unfortunately, the same was not possible for\nother cryogens, as data available for different regimes often came from\nexperiments conducted at different pressures. To address this\nshortcoming, we opted to collect data spanning a small pressure range\nrather than a single pressure value.\nFor instance, Fig. 5 illustrates the validation of the new methodology\nfor LH2 using data from two different sources [27,28] at somewhat close\nbut unequal pressures, 91 versus 102 kPa. To avoid ambiguity in plotting\nboiling curves for two distinct pressures on the same graph, the\nFig. 3. Performance summary of the cryogenic pool boiling heat transfer correlations.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n8\npredictions are made for an intermediate pressure of 100 kPa, while\nnoting the range of experimental pressures (91-102 kPa). Fig. 5 show\nvery good alignment of predictions against experimental data across the\nNB, TB, and FM regions. However, natural convection was not validated\nbecause of absence of experimental data for LH2 in this regime.\nSimilarly, the present methodology is validated in Fig. 6 against LN2\ndata gathered from multiple sources [27,29-32], with a pressure range\nfrom 98 to 101 kPa. Here too, predictions based on an intermediate\npressure of 100 kPa show good ability in predicting the data for LN2,\nwhich has appreciably higher saturation temperatures compared to\nthose for LHe and LH2. This suggests that, despite some deviations in\nboth the NC and NB boiling regions, the methodology is effective for\nboth low temperature cryogens (e.g., LHe) as well as higher temperature\nTable 3\nPerformance summary of the previously developed PU-BTPFL correlations\nagainst cryogenic fluid data.\nCorrelation\nMAE\nNumber of Data Points, N\nReference\nhnb\n25.36 %\n2908\nAhmad et al. [12]\nhfb\n12.94 %\n1209\nAhmad et al. [14]\nhtb\n14.84 %\n133\nAhmad et al. [13]\nq\u02b9\u02b9\nCHF\n16.95 %\n1188\nPatel et al. [15]\nTw,CHF\n10.71 %\n236\nAhmad et al. [13]\nq\u02b9\u02b9\nmin\n22.42 %\n158\nAhmad et al. [16]\nTw,min\n8.73 %\n165\nAhmad et al. [16]\nFig. 4. Validation of new pool boiling curve construction methodology against\nLHe data for (a) horizontal and (b) vertical surface orientations.\nFig. 5. Validation of new pool boiling curve construction methodology against\nLH2 data.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n9\n(e.g., LN2, LO2, and LAr). Note, however, that the deviations manifest in\nFig. 6 (a) for NB are artificially magnified by the logarithmic presenta\u00ad\ntion used, since the actual temperature deviations are less than 3\u25e6C.\nHowever, more appreciable deviations are evident for NC for reasons\nsimilar to those presented above for LHe. Moreover, no comparisons are\nprovided for NC in Fig. 6 (b) because of absence of NC data for the\nvertical orientation.\nIn conclusion, the new methodology for predicting the complete pool\nboiling curve shows good overall agreement with the experimental data\nfor LHe, LH2, and LN2. This robust performance suggests that the model\nis likely equally effective for other cryogens as well, as each regimespecific correlation has already been individually validated. However,\nfurther work is needed to improve predictive performance, particularly\nfor NC and vertical surface orientation, where experimental data are\nsparse.\n4. Predictions of the continuous saturated pool boiling curve\nusing the new methodology\n4.1. Heat-flux-controlled versus and temperature-controlled boiling\ncurves\nBefore delving into further details of the proposed new methodology,\nit is prudent to address the differences discussed earlier between steady-\nstate boiling curves measured using heat-flux-controlled and\ntemperature-controlled experiments. Shown in Figs. 7(a) and 7(b) are\npredicted heat-flux-controlled pool boiling curve and temperature-\nFig. 6. Validation of new pool boiling curve construction methodology against\nLN2 data for (a) horizontal and (b) vertical surface orientations.\nFig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled\nboiling curve predictions.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n10\ncontrolled boiling curve, respectively, both for LHe at a reduced pressure\nof p* = 0.1. Both curves were generated using the same correlations\ndiscussed earlier, but a key difference stands out: the heat-fluxcontrolled curve, Fig. 7 (a), does not include the TB regime, whereas\nthe temperature-controlled curve, Fig. 7 (b), does. Other than the TB\nregime, both curves are identical. Since the primary goal of the present\nstudy is to illustrate construction of a complete, continuous boiling\ncurve, all presented boiling curves are shown including TB.\n4.2. Validity range and limitations of the new methodology\nIn the current methodology, all correlations except for Tw,min and q\u02b9\u02b9\nmin\nare independent of the material of the heating surface. As discussed in\nour prior correlation studies, absence of the surface material effects is\nrooted entirely in lack of availability of cryogen data needed to incor\u00ad\nporate this effect. For this reason, the present methodology is intended\nfor \"baseline\" prediction of the complete boiling curve. This baseline\nmethodology encompasses: (i) heating surfaces constructed only from\ncopper (material used in most cryogenic pool boiling experiments), (ii)\nsaturated pool boiling, and (iii) terrestrial gravity. It is important to\nemphasize that we are planning to account for effects of heater size,\nmaterial, surface roughness, subcooling, and reduced gravity after\ngenerating a new, more extensive database, pending experiments we\nintend to perform both in terrestrial gravity and in reduced gravity\n(aboard parabolic flight aircraft).\nThe primary inputs for our baseline methodology are (i) cryogen, (ii)\nsurface orientation angle, (iii) pressure, and (iv) heat flux. For instance,\nFig. 8 illustrates the complete saturated pool boiling curve predicted for\nFig. 8. Predicted continuous boiling curves for LH2 for reduced pressures from p* = 0.1 to 0.9.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n11\nLH2 over a horizontal copper surface at reduced pressures ranging from\np* = 0.1 to 0.9. The figure clearly shows that, as the pressure increases,\nboth \u0394Tsat,min and \u0394Tsat,CHF shift to the left (i.e., to lower values).\nHowever, \u0394Tsat,min shows greater sensitivity to pressure as compared to\n\u0394Tsat,CHF, which is more clearly seen in Fig. 9 for LHe. Consequently,\n\u0394Tsat,min and \u0394Tsat,CHF merge together at very high pressures, thereby\ncompressing the TB region, which is well aligned with the experimental\nfindings of Deev et al. [26].\nIn Fig. 9, LHe predictions for \u0394Tsat,min and \u0394Tsat,CHF are plotted\nagainst reduced pressure. Fig. 9 (a) also compares predictions to the\nexperimental results of Deev et al.. Notice how Deev et al.'s results show\n\u0394Tsat,min and \u0394Tsat,CHF completely merging with one another at p* =\n0.96, very close to the critical point. Interestingly, predictions of \u0394Tsat,\nmin are precisely aligned with Deev et al.'s data. However, the predicted\nvalues of \u0394Tsat,CHF exceed the data at very high pressures, causing the\npredicted \u0394Tsat,min and \u0394Tsat,CHF to intersect at p* = 0.88, which clearly\npoints to an upper pressure limit for validity of the present methodology.\nThis limit will be addressed in greater detail below. While data for other\ncryogens at high pressures are scarce, the predictions for LH2, Fig. 9 (b),\nand LN2, Fig. 9 (c), exhibit trends like those for LHe, demonstrating\neffectiveness of the new methodology across different cryogens.\nAn interesting observation from Fig. 8 is behavior of the TB region\nwith increasing pressure. The slope of the TB curve steepens with rising\npressure and eventually becomes vertical at a certain threshold (p* =\n0.75 for LH2 and LN2, and 0.88 for LHe); this is where \u0394Tsat,min equals\n\u0394Tsat,CHF. Above the threshold pressure, the slope of the TB curve turns\npositive, which seems to contradict known pool boiling curve trends\nfrom the literature, suggesting the existence of afore-mentioned upper\npressure limit for validity of the new methodology. While the individual\ncorrelations for different boiling regimes are valid and usable at higher\npressures, the appearance of positive slope for the TB region above the\npressure thresholds, shows combining the correlations to construct a\ncontinuous boiling curve should be limited to pressures below p* = 0.75.\n4.3. Effects of pressure and orientation angle on continuous pool boiling\ncurve\nIn the previous section, Fig. 8 illustrated the effect of pressure vari\u00ad\nation on the continuous boiling curve for LH2 and, along with Fig. 9,\nprovided insights into the validity range of the new methodology with\nrespect to pressure. In this section, we extend the discussion to examine\nthe combined effects of pressure and orientation angle on predictive\nperformance. For instance, in Fig. 10, the variations in orientation angle\nfor LHe are analyzed for three different reduced pressures: p* = 0.1, 0.4,\nand 0.7, representing to low, intermediate, and high pressures. The\nfigure shows a similar trend for both the NC and FB regions with respect\nto surface orientation, which aligns with existing literature for such\nbuoyancy-driven regimes.\nThe effect of orientation angle is very noticeable for the NC region\nand both q\"ONB and \u0394Tsat,ONB. In the NC region, the buoyancy-driven\nmotion and the alignment of the heated surface with gravity strongly\ninfluence the heat transfer performance, with vertical orientation (\u03b8 =\n90\u25e6) producing the best performance, followed slightly by horizontal\nupward-facing orientation (\u03b8 = 0\u25e6), and more appreciably by horizontal\ndownward-facing orientation (\u03b8 = 180\u25e6). However, the orientation ef\u00ad\nfect greatly diminishes in the NB regions, where the heat transfer is\ndominated by formation and detachment of vapor bubbles, which\ncompletely dwarf any buoyancy effects. These observations are sup\u00ad\nported by experimental findings of Tadrist et al. [33], who reported that\nthe effect of orientation on \u0394Tsat,ONB is minimal from 0\u25e6to 135\u25e6, but\n\u0394Tsat,ONB decreases significantly as the orientation approaches 180\u25e6.\nAdditionally, they noted that \u0394Tsat,ONB decreases with increasing satu\u00ad\nration temperature, which is also evident from Fig. 10 in terms of\nincreasing saturation pressure.\nIt is important to note that our comprehensive review of published\nwork showed that researchers present conflicting views on the effect of\nFig. 9. CHF and MHF superheat predictions versus reduced pressure for (a) LHe\n(along with experimental data), (b) LH2, and (c) LN2.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n12\norientation angle in the NB region, with some suggesting this effect is\nnegligible while others argue for its inclusion in correlations. However,\nour prior correlation for NB [8], which is based on a large database\nspecifically for cryogens, shows the effect of orientation in the NB region\nis quite miniscule, which is clearly captured in Fig. 10.\nFig. 10 also shows an appreciable influence of orientation on the CHF\npoint, with both q\u02b9\u02b9\nCHF and \u0394Tsat,CHF decreasing with increasing orienta\u00ad\ntion angle, and this trend becoming more pronounced at higher pres\u00ad\nsures. This trend is consistent with the findings from Patel et al. [15]. On\nthe other hand, according to our prior correlation for the MHF point\n[16], the orientation effect on q\"min and \u0394Tsat,min is miniscule. Finally,\nsince the CHF and MHF points serve as \"anchors\" for the TB region [13],\nthe TB curve follows mostly the same trends relative to orientation as\nCHF, i.e., the HTC in TB decreases with increasing orientation angle,\nespecially at higher pressures.\nAlthough the model works consistently for all cryogens, presenting\nresults for different fluids helps illustrate its adaptability across cryogens\nwith varying properties. In the earlier sections, we explored key char\u00ad\nacteristics of our methodology by examining the boiling curves for LH2\nand LHe. Now, we turn our focus to LN2 to further demonstrate its\nversatility. In contrast to Fig. 10, which focuses on varying orientation at\nfixed pressures, Fig. 11 takes a different approach by fixing the orien\u00ad\ntation angle and examining the effect of pressure on the boiling curve.\nOne of the key observations from Fig. 11 is that, while the HTC in the NC\nregion is strongly influenced by orientation angle (as captured in\nFig. 10), its dependence on pressure for a given orientation angle is\nminiscule.\nHowever, in other regions of the boiling curve, pressure plays a more\nsubstantial role. Increasing the pressure causes a horizontal shift in the\nboiling curve to the left, reducing temperatures of all the boiling curve's\ntransition points: \u0394Tsat,ONB, \u0394Tsat,CHF\n, and \u0394Tsat,min. Moreover,\nincreasing pressure leads to a decrease in q\u02b9\u02b9\nONB, while both q\u02b9\u02b9\nCHF and q\u02b9\u02b9\nmin\nfirst increase with pressure up to a certain point (around p* = 0.35)\nbefore beginning to decrease. This behavior is well-documented in the\nliterature, e.g., Patel et al. [15].\nAnother significant trend observed in Fig. 11 is how the CHF points\n(at different pressures and orientations) move away from one another as\npressure and orientation angle increase. This is evident both horizon\u00ad\ntally for \u0394Tsat,CHF\nand vertically for q\u02b9\u02b9\nCHF, particularly at higher\norientation angles and pressures. However, the spread among the MHF\npoints remains consistent across all orientations and pressures, indi\u00ad\ncating that the MHF point follows the same trend with pressure\nregardless of the surface orientation. This consistency is likely due to the\nfact that both \u0394Tsat,min and q\u02b9\u02b9\nmin are very weakly dependent on orienta\u00ad\ntion, which is well documented in the literature as discussed in our\nprevious study [16].\nShifting attention to the effect of pressure on the HTC, Fig. 11 shows\nthat, in both the NB and FB regions, the HTC increases with increasing\npressure. However, the rate of increase in the HTC becomes less pro\u00ad\nnounced at higher pressures, particularly in the NB region and, to a\nlesser extent, the FB region.\n4.4. Comparison of continuous pool boiling curves for different cryogens\nIn the earlier sections, we have thoroughly discussed the key char\u00ad\nacteristics of the methodology for constructing the complete pool boiling\ncurve, particularly focusing on specific cryogens like LH2, LHe, and LN2.\nIn this section, the emphasis shifts toward showcasing the boiling curves\nfor other cryogens. For instance, Fig. 12 presents continuous boiling\ncurves for LAr, LO2, and LCH4 horizontal upward-facing orientation at\nthree distinct pressures. Overall, the trends in this figure are like those of\nLH2, LHe, and LN2, which were discussed earlier, but with some\ndifferences.\nOne notable trend that is captured in Fig. 12, particularly for cryo\u00ad\ngens having higher saturation temperatures (LO2 and LCH4), is an\nFig. 10. Effects of orientation angle on continuous boiling curve for LHe at\ndifferent pressures.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n13\nimportant behavior often observed in experimental pool boiling curves:\nthe decrease in HTC for NB as the CHF point is approached. This\nbehavior is more commonly observed in fluids with higher saturation\ntemperatures, where the reduction in HTC near CHF is quite pro\u00ad\nnounced. However, the HTC decline is almost nonexistent for very low\nsaturation temperature cryogens like LHe and LH2. Another notable\ntrend that is captured in Fig. 12 is the decrease in HTC for TB as the CHF\npoint is approached, especially for the higher saturation temperature\ncryogens (LO2 and LCH4). This realistic capture of important experi\u00ad\nmentally observed trends is further proof of the effectiveness of the\ncorrelations incorporated in the present methodology.\n4.5. Recommendations for future work\nAlthough the new methodology shows impressive predictive capa\u00ad\nbility for the continuous pool boiling curve across cryogens, there is\nroom for improvement in its applicability range and, therefore, both its\nrobustness and utility. Based on the insights from this study, along with\nthose from our prior correlations' studies, the following important tasks\nare identified for future work:\ni. Improving Prediction of the ONB Point: Published ONB data are\nboth very sparce and plagued by high measurement uncertainty\n(mostly because of very low values of corresponding heat flux and\nwall superheat). This is why the present methodology uses the\nintersection of the NC and NB curves to predict this point. It is\nrecommended that future experiments be conducted using pre\u00ad\ncise instrumentation to develop a database for multiple cryogens\nthat is of sufficient size to enable developing a new correlation for\nONB, similar in accuracy to those available for CHF and MHF.\nii. Extending Applicability to Higher Pressures: Currently, our meth\u00ad\nodology is recommended for use up to a reduced pressure of p* =\n0.75. Future work, both experimental and correlation-based,\nshould aim to extend its applicability to near-critical pressure,\nproviding a more comprehensive range of use.\niii. Incorporating Subcooling Effect: Because of limitation of the cor\u00ad\nrelations used, the present methodology is only valid for satu\u00ad\nrated pool boiling. Future experiments should be conducted to\naddress the influence of subcooling for different cryogens. This\nwill enable modifying the present correlations for this effect,\nwhich is crucial for many practical applications involving\ncryogens.\niv. Accounting for Heater Size, Material, and Surface Roughness:\nAnother crucial missing aspect in our methodology is the ability\nto account for the effects of heater size, material properties, and\nsurface roughness. This shortfall is the outcome of lack of avail\u00ad\nability of data for different surface sizes, roughness, and mate\u00ad\nrials. Therefore, it is recommended that future work be conducted\nusing several heater sizes, roughnesses, and surface materials\nhaving drastically different thermal properties.\nv. Accounting for Reduced Gravity: While the current methodology\nshows excellent predictions for terrestrial gravity, there are\nseveral important space-related technologies demanding similar\nunderstanding for reduced gravity, especially Lunar and Martian\ngravities, and microgravity. This is perhaps the most challenging\nand costly endeavor, requiring performance of experiments in\nspecialized reduced gravity platforms such as parabolic flight\naircraft.\nIt is important to note that achieving the above tasks constitutes the\nstrategy the present authors will be adopting to greatly enhance the\napplicability of the predictive methodology.\n5. Conclusions\nThe present study is a continuation of a collaborative effort initiated\nFig. 11. Effects of pressure on continuous boiling curve of LHe at different\norientation angles.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n14\nin 2018 between PU-BTPFL and NASA, aimed at developing predictive\ncorrelations for all regimes and transition points of the pool boiling\ncurve for cryogens. To accurately construct a continuous pool boiling\ncurve, careful patching of these correlations is essential to avoid dis\u00ad\ncontinuities between different regimes. This paper carefully detailed the\nmethodology for patching these correlations, utilizing blending func\u00ad\ntions to ensure a seamless transition across boiling regimes.\nKey conclusions drawn from this study are as follows:\nI. The new methodology is capable of constructing a continuous\nboiling curve spanning the entire range of wall superheats and\nheat fluxes. However, a discontinuity is detected between the FB\nregion and the MHF point. This was corrected by employing a\nblending function in between.\nII. The new pool boiling curve construction methodology shows\nstrong agreement with experimental data for LHe, LH2, and LN2\nacross varying pressure ranges. This robust performance suggests\nthat the methodology would perform well for other cryogens as\nwell, as each regime-specific correlation has already been indi\u00ad\nvidually validated.\nIII. The literature suggests that both \u0394Tsat,min and \u0394Tsat,CHF decrease\nwith increasing pressure, approaching one another and almost\nmerging together near the critical point. The new methodology\nalso predicts this trend, albeit with the merging occurring a little\nFig. 12. Predicted boiling curves for LO2, LCH4, and LAr at three different pressures.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n15\nearlier than the critical pressure. Overall, the methodology is\nrecommended for pressures up to p* = 0.75.\nIV. q\u02b9\u02b9\nCHF decreases as the orientation angle increases for a given\npressure, and this effect is more pronounced at higher pressures.\nSimilarly, for a given orientation, q\u02b9\u02b9\nCHF first increases to peak\nvalue at an intermediate pressure and then decreases. Moreover,\nthe variability in q\u02b9\u02b9\nCHF increases with increasing orientation angle.\nV. In the NC region, the effect of orientation is noticeable while the\neffect of pressure is almost negligible. Moreover, in both the NB\nand FB regions, the HTC increases with increasing pressure,\nhowever, the rate of increase is less pronounced at high pressures,\nparticularly for the NB region.\nVI. The new methodology is capable of predicting the decline in HTC\npreceding the CHF point, especially for cryogens having higher\nsaturation temperature, such as LO2 and LCH4. In contrast, this\nreduction is nearly absent for cryogens having very low satura\u00ad\ntion temperatures, reinforcing findings from prior literature.\nAuthor Declaration\nWe wish to confirm that there are no known conflicts of interest\nassociated with this publication and there has been no significant\nfinancial support for this work that could have influenced its outcome.\nWe confirm that the manuscript has been read and approved by all\nnamed authors and that there are no other persons who satisfied the\ncriteria for authorship but are not listed. We further confirm that the\norder of authors listed in the manuscript has been approved by all of us.\nWe confirm that we have given due consideration to the protection of\nintellectual property associated with this work and that there are no\nimpediments to publication, including the timing of publication, with\nrespect to intellectual property. In so doing we confirm that we have\nfollowed the regulations of our institutions concerning intellectual\nproperty.\nWe understand that the Corresponding Author is the sole contact for\nthe Editorial process (including Editorial Manager and direct commu\u00ad\nnications with the office). He/she is responsible for communicating with\nthe other authors about progress, submissions of revisions and final\napproval of proofs. We confirm that we have provided a current, correct\nemail address which is accessible by the Corresponding Author and\nwhich has been configured to accept email from mudawar@ecn.purdue.\nedu\nCRediT authorship contribution statement\nFaraz Ahmad: Writing - review & editing, Writing - original draft,\nValidation, Software, Methodology, Investigation, Formal analysis, Data\ncuration, Conceptualization. Dylan Foster: Writing - original draft,\nValidation, Methodology, Investigation, Formal analysis, Data curation,\nConceptualization. Sunjae Kim: Writing - review & editing, Writing -\noriginal draft, Validation, Methodology, Investigation, Conceptualiza\u00ad\ntion. Michael Meyer: Writing - review & editing, Writing - original\ndraft, Validation, Supervision, Resources, Investigation, Conceptuali\u00ad\nzation. Jason Hartwig: Writing - review & editing, Writing - original\ndraft, Validation, Supervision, Resources, Project administration,\nMethodology, Investigation, Funding acquisition, Conceptualization.\nIssam Mudawar: Writing - review & editing, Writing - original draft,\nSupervision, Resources, Project administration, Methodology, Investi\u00ad\ngation, Funding acquisition, Formal analysis, Conceptualization.\nDeclaration of competing interest\nThe authors declare the following financial interests/personal re\u00ad\nlationships which may be considered as potential competing interests:\nIssam Mudawar reports financial support was provided by NASA. Jason\nHartwig reports a relationship with NASA that includes: employment. If\nthere are other authors, they declare that they have no known\ncompeting financial interests or personal relationships that could have\nappeared to influence the work reported in this paper.\nAcknowledgments\nThe authors are grateful for financial support of the National Aero\u00ad\nnautics and Space Administration (NASA) Small Business Technology\nTransfer (STTR) program under a subcontract from MTS Inc. Phase II\ncontract 80NSSC23CA009. We also thank the Fulbright Program for\nproviding a scholarship for the first author.\nData availability\nThe data that has been used is confidential.\nReferences\n[1] NASA Space Technology Mission Directorate, Civil space shortfall rankings, NASA\nReport, July 23rd, 2024.\n[2] T.J. LaClair, I. Mudawar, Thermal transients in a capillary evaporator prior to the\ninitiation of boiling, Int. J. Heat. Mass Transf. 43 (2000) 3937-3952.\n[3] G. Liang, I. Mudawar, Pool boiling critical heat flux (CHF) - part 2: assessment of\nmodels and correlations, Int. J. Heat. Mass Transf. 117 (2018) 1368-1383.\n[4] I. Mudawar, R.A. Houpt, Mass and momentum transport in smooth falling liquid\nfilms laminarized at relatively high Reynolds numbers, Int. J. Heat. Mass Transf. 36\n(1993) 3437-3448.\n[5] T.C. Willingham, I. Mudawar, Channel height effects on forced-convection boiling\nand critical heat flux from a linear array of discrete heat sources, Int. J. Heat. Mass\nTransf. 35 (1992) 1865-1880.\n[6] C.O. Gersey, I. Mudawar, Effects of heater length and orientation on the trigger\nmechanism for near-saturated flow boiling critical heat flux - II. Critical heat flux\nmodel, Int. J. Heat. Mass Transf. 38 (1995) 643-654.\n[7] S. Mukherjee, I. Mudawar, Pumpless loop for narrow channel and micro-channel\nboiling from vertical surfaces, J. Electron. Packag. 125 (2003) 431-441.\n[8] M.T. Meyer, I. Mudawar, C.E. Boyack, C.A. Hale, Single and two-phase cooling\nwith an array of rectangular jets, Int. J. Heat. Mass Transf. 49 (2006) 17-29.\n[9] I. Mudawar, T.A. Deiters, A universal approach to predicting temperature response\nof metallic parts to spray quenching, Int. J. Heat. Mass Transf. 37 (1994) 347-362.\n[10] M.K. Sung, I. Mudawar, Single-phase and two-phase heat transfer characteristics of\nlow temperature hybrid micro-channel/micro-jet impingement cooling module,\nInt. J. Heat. Mass Transf. 51 (2008) 3882-3895.\n[11] M.K. Sung, I. Mudawar, Single-phase and two-phase hybrid cooling scheme for\nhigh-heat-flux thermal management of defense electronics, J. Electron. Packag.\n131 (2009) 021013.\n[12] F. Ahmad, S. Kim, M. Meyer, J. Hartwig, I. Mudawar, Saturated nucleate pool\nboiling of cryogenic fluids: review of databases, assessment of existing models and\ncorrelations, and development of new universal correlation, Int. J. Heat. Mass\nTransf. 231 (2024) 125807.\n[13] F. Ahmad, M. Meyer, J. Hartwig, I. Mudawar, Development of new correlations for\ncritical heat flux point wall temperature and transition boiling under steady-state\nsaturated pool boiling of cryogens, Int. J. Heat. Mass Transf. 239 (2025) 126592.\n[14] F. Ahmad, M. Meyer, J. Hartwig, I. Mudawar, Saturated pool film boiling of\ncryogenic fluids: review of databases, assessment of existing models and\ncorrelations, and development of new universal correlation, Int. J. Heat. Mass\nTransf. 235 (2024) 126190.\n[15] R. Patel, M. Meyer, J. Hartwig, I. Mudawar, Review of cryogenic pool boiling\ncritical heat flux databases, assessment of models and correlations, and\ndevelopment of new universal correlations, Int. J. Heat. Mass Transf. 190 (2022)\n122579.\n[16] F. Ahmad, M. Meyer, J. Hartwig, I. Mudawar, Development of new universal\ncorrelations for minimum heat flux point for saturated pool boiling of cryogens,\nInt. J. Heat. Mass Transf. 234 (2024) 126099.\n[17] F.P. Incropera, D.P. DeWitt, T.L. Bergman, A.S. Lavine, Fundamentals of Heat and\nMass Transfer, Wiley, New York, 1996.\n[18] J.R. Lloyd, W.R. Moran, Natural convection adjacent to horizontal surface of\nvarious planforms, J Heat Trans 96 (1974) 443-447.\n[19] W.H. McAdams, Heat Transmission, McGrow-Hill, 1954.\n[20] F.J. Bayley, An analysis of turbulent free-convection heat-transfer, Proc. Inst.\nMech. Eng. 169 (1955) 361-370.\n[21] E. Radziemska, W.M. Lewandowski, Heat transfer by natural convection from an\nisothermal downward-facing round plate in unlimited space, Appl. Energy 68\n(2001) 347-366.\n[22] H. Ogata, W. Nakayama, Heat transfer to subcritical and supercritical helium in\ncentrifugal acceleration fields 1. Free convection regime and boiling regime,\nCryogenics. (Guildf) 17 (1977) 461-470.\n[23] G.R. Chandratilleke, S. Nishio, H. Ohkubo, Pool boiling heat transfer to saturated\nliquid helium from coated surface, Cryogenics. (Guildf) 29 (1989) 588-592.\n[24] A. Iwamoto, R. Maekawa, T. Mito, J. Yamamoto, Steady state heat transfer\ncharacteristics in He I with different surface area, Adv. Cryog. Eng. (1998)\n1481-1487.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n16\n[25] H. Ogata, H. Mori, Steady state heat transfer in transition boiling of helium on\ncopper surfaces, Cryogenics. (Guildf) 33 (1993) 640-642.\n[26] V.I. Deev, V.E. Keilin, I.A. Kovalev, A.K. Kondratenko, V.I. Petrovichev, Nucleate\nand film pool boiling heat transfer to saturated liquid helium, Cryogenics. (Guildf)\n17 (1977) 557-562.\n[27] H. Merte, Incipient and Steady Boiling of Liquid Nitrogen and Liquid Hydrogen\nUnder Reduced Gravity, Tech Report, University of Michigan, 1970.\n[28] C.R. Class, J.R. DeHaan, M. Piccone, R.B. Cost, Boiling heat transfer to liquid\nhydrogen from flat surfaces, Adv. Cryog. Eng. 5 (1960) 254-261.\n[29] P.J. Marto, J.A. Moulson, M.D. Maynard, Nucleate pool boiling of nitrogen with\ndifferent surface conditions, J. Heat. Trans. 90 (1968) 437-444.\n[30] F.D. Akhmedov, V.A. Grigorev, A.S. Dudkevic, Boiling of nitrogen at pressures from\natmospheric to critical, Therm. Eng. 21 (1974) 120-121.\n[31] S.P. Ashworth, C. Beduz, J. Mayne, A. Pasek, R.G. Scurlock, Evaluation of a novel\nenhanced boiling surface in cryogenic liquids, Adv. Cryog. Eng. 35 (1990)\n429-435.\n[32] B.V Balakin, M.I. Delov, K.V Kutsenko, A.A. Lavrukhin, O.V Zhdaneev, Heat\ntransfer from Ni-W tapes in liquid nitrogen at different orientations in the field of\ngravity, Cryogenics. (Guildf) 65 (2015) 5-9.\n[33] L. Tadrist, H. Combeau, M. Zamoum, M. Kessal, Experimental study of heat transfer\nat the transition regime between the natural convection and nucleate boiling:\nInfluence of the heated wall tilt angle on the onset of nucleate boiling (ONB) and\nnatural convection (ONC), Int. J. Heat. Mass Transf. 151 (2020) 119388.\nF. Ahmad et al.\nInternational Journal of Heat and Mass Transfer 243 (2025) 126876\n17",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4843
+    },
+    {
+      "number": 2,
+      "start": 4843,
+      "end": 10128
+    },
+    {
+      "number": 3,
+      "start": 10128,
+      "end": 12834
+    },
+    {
+      "number": 4,
+      "start": 12834,
+      "end": 19674
+    },
+    {
+      "number": 5,
+      "start": 19674,
+      "end": 25510
+    },
+    {
+      "number": 6,
+      "start": 25510,
+      "end": 29156
+    },
+    {
+      "number": 7,
+      "start": 29156,
+      "end": 34722
+    },
+    {
+      "number": 8,
+      "start": 34722,
+      "end": 35699
+    },
+    {
+      "number": 9,
+      "start": 35699,
+      "end": 37325
+    },
+    {
+      "number": 10,
+      "start": 37325,
+      "end": 39105
+    },
+    {
+      "number": 11,
+      "start": 39105,
+      "end": 41078
+    },
+    {
+      "number": 12,
+      "start": 41078,
+      "end": 45655
+    },
+    {
+      "number": 13,
+      "start": 45655,
+      "end": 50042
+    },
+    {
+      "number": 14,
+      "start": 50042,
+      "end": 53901
+    },
+    {
+      "number": 15,
+      "start": 53901,
+      "end": 55494
+    },
+    {
+      "number": 16,
+      "start": 55494,
+      "end": 64182
+    },
+    {
+      "number": 17,
+      "start": 64182,
+      "end": 65893
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-method-for-generating-a-complete-saturat",
+      "number": null,
+      "title": "Method for generating a complete saturated pool boiling curve for",
+      "level": 1,
+      "start": 0,
+      "end": 108
+    },
+    {
+      "id": "sec-1-faraz-ahmad-a",
+      "number": null,
+      "title": "Faraz Ahmad a",
+      "level": 1,
+      "start": 108,
+      "end": 191
+    },
+    {
+      "id": "sec-2-issam-mudawar-a-b",
+      "number": null,
+      "title": "Issam Mudawar a,b,*",
+      "level": 1,
+      "start": 191,
+      "end": 4362
+    },
+    {
+      "id": "sec-3-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1,
+      "start": 4362,
+      "end": 7810
+    },
+    {
+      "id": "sec-4-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 7810,
+      "end": 19207
+    },
+    {
+      "id": "sec-5-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 19207,
+      "end": 32650
+    },
+    {
+      "id": "sec-6-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2,
+      "start": 32650,
+      "end": 36595
+    },
+    {
+      "id": "sec-7-table-3",
+      "number": null,
+      "title": "Table 3",
+      "level": 2,
+      "start": 36595,
+      "end": 38919
+    },
+    {
+      "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+      "number": null,
+      "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+      "level": 2,
+      "start": 38919,
+      "end": 54441
+    },
+    {
+      "id": "sec-I",
+      "number": "I",
+      "title": "The new methodology is capable of constructing a continuous",
+      "level": 2,
+      "start": 54441,
+      "end": 54722
+    },
+    {
+      "id": "sec-II",
+      "number": "II",
+      "title": "The new pool boiling curve construction methodology shows",
+      "level": 2,
+      "start": 54722,
+      "end": 55058
+    },
+    {
+      "id": "sec-III",
+      "number": "III",
+      "title": "The literature suggests that both \u0394Tsat,min and \u0394Tsat,CHF decrease",
+      "level": 2,
+      "start": 55058,
+      "end": 55940
+    },
+    {
+      "id": "sec-V",
+      "number": "V",
+      "title": "In the NC region, the effect of orientation is noticeable while the",
+      "level": 2,
+      "start": 55940,
+      "end": 56237
+    },
+    {
+      "id": "sec-VI",
+      "number": "VI",
+      "title": "The new methodology is capable of predicting the decline in HTC",
+      "level": 2,
+      "start": 56237,
+      "end": 56559
+    },
+    {
+      "id": "sec-14-author-declaration",
+      "number": null,
+      "title": "Author Declaration",
+      "level": 2,
+      "start": 56559,
+      "end": 57907
+    },
+    {
+      "id": "sec-15-credit-authorship-contribution-statement",
+      "number": null,
+      "title": "CRediT authorship contribution statement",
+      "level": 2,
+      "start": 57907,
+      "end": 58228
+    },
+    {
+      "id": "sec-16-conceptualization-sunjae-kim-writing-rev",
+      "number": null,
+      "title": "Conceptualization. Sunjae Kim: Writing \u2013 review & editing, Writing \u2013",
+      "level": 2,
+      "start": 58228,
+      "end": 58916
+    },
+    {
+      "id": "sec-17-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of competing interest",
+      "level": 2,
+      "start": 58916,
+      "end": 59415
+    },
+    {
+      "id": "sec-18-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 59415,
+      "end": 59743
+    },
+    {
+      "id": "sec-19-data-availability",
+      "number": null,
+      "title": "Data availability",
+      "level": 2,
+      "start": 59743,
+      "end": 59806
+    },
+    {
+      "id": "sec-20-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 59806,
+      "end": 65893
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a), a heat-flux-controlled experiment is conducted by gradually",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-1_p2.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Boiling curve obtained from (a) heat-flux-controlled experiments and (b) temperature-controlled experiments.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Complete boiling curve for LH2 (a) without blending function and (b)",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-2_p6.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Performance summary of the cryogenic pool boiling heat transfer correlations.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-3_p8.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Validation of new pool boiling curve construction methodology against",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-4_p9.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Validation of new pool boiling curve construction methodology against",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-5_p9.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "(a) for NB are artificially magnified by the logarithmic presenta\u00ad",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-6_p10.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Validation of new pool boiling curve construction methodology against",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-6_p10.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-7_p10.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "illustrates the complete saturated pool boiling curve predicted for",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-8_p11.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Predicted continuous boiling curves for LH2 for reduced pressures from p* = 0.1 to 0.9.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-8_p11.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "CHF and MHF superheat predictions versus reduced pressure for (a) LHe",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-9_p12.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "also shows an appreciable influence of orientation on the CHF",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-10_p13.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "), its dependence on pressure for a given orientation angle is",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-10_p13.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Effects of orientation angle on continuous boiling curve for LHe at",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-10_p13.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Effects of pressure on continuous boiling curve of LHe at different",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-11_p14.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Predicted boiling curves for LO2, LCH4, and LAr at three different pressures.",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ahmad-2025-method-for-generating-a-complete\\ahmad_2025_method_for_generating_a_complete_fig-12_p15.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "RaL in Eq. (1) is defined as",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": ", offers a clear perspective on the effectiveness of each correla\u00ad",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 9,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 17,
+    "ingest": "pymupdf"
+  }
+}

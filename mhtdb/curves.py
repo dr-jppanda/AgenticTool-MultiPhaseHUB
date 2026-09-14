@@ -3,8 +3,8 @@
 Two outputs, both derived from `catalog/points/*.points.json`:
 
   * a flat CSV — one row per point, with the paper, figure, curve, raw value
-    and unit as printed, how it was obtained, and how much to trust it, plus
-    SI-derived columns. This is the ML-ready form of the catalog's point tier.
+    and unit as printed, and how it was obtained, plus SI-derived columns.
+    This is the ML-ready form of the catalog's point tier.
   * a comparison plot — several papers' curves for one phenomenon on one set
     of axes, with a correlation overlay and a shaded literature band.
 
@@ -62,7 +62,6 @@ class PointRow:
     y_unit: str
     source_type: str
     extraction_method: str
-    digitization_confidence: float | None
     notes: str
     wall_superheat_K: float | None = None
     heat_flux_W_m2: float | None = None
@@ -70,7 +69,7 @@ class PointRow:
     FIELDS = (
         "paper_id", "figure_id", "curve_id", "x_value", "x_unit",
         "y_value", "y_unit", "source_type", "extraction_method",
-        "digitization_confidence", "notes", "wall_superheat_K", "heat_flux_W_m2",
+        "notes", "wall_superheat_K", "heat_flux_W_m2",
     )
 
     def row(self) -> dict:
@@ -115,9 +114,6 @@ def load_points(catalog_dir: str | Path | None = None, records: list[str] | None
                         curve_id=s.get("series_id", "").rsplit("-", 1)[-1] or "series",
                         x_value=x, x_unit=xu, y_value=y, y_unit=yu,
                         source_type=stype, extraction_method=method,
-                        digitization_confidence=(
-                            None if stype == "reported_table" else s.get("confidence")
-                        ),
                         notes=s.get("notes", "") or (s.get("label", "")),
                         wall_superheat_K=dT, heat_flux_W_m2=q,
                     )
@@ -146,7 +142,6 @@ class Selection:
     series_id: str
     label: str
     reason: str
-    confidence: float | None
     source_type: str
     points: list[tuple[float, float]]      # (superheat K, heat flux W/m2)
 
@@ -214,7 +209,6 @@ def _classify(label: str, notes: str = "", caption: str = "",
 def select_boiling_curves(
     catalog_dir: str | Path | None = None,
     records: list[str] | None = None,
-    min_confidence: float = 0.0,
     include_all: bool = False,
     fluid: str = "water",
 ) -> tuple[list[Selection], list[Selection]]:
@@ -233,13 +227,36 @@ def select_boiling_curves(
             yq = s["y_axis"].get("quantity", "")
             if xq != "dT_wall" or yq not in ("q_flux", "chf"):
                 continue
+            x_unit, y_unit = s["x_axis"].get("unit"), s["y_axis"].get("unit")
             pts: list[tuple[float, float]] = []
+            x_convertible = y_convertible = False
             for pt in s["points"]:
-                dT, _ = to_si(float(pt[0]), s["x_axis"].get("unit"), "dT_wall")
-                q, _ = to_si(float(pt[1]), s["y_axis"].get("unit"), "q_flux")
+                dT, _ = to_si(float(pt[0]), x_unit, "dT_wall")
+                q, _ = to_si(float(pt[1]), y_unit, "q_flux")
+                x_convertible = x_convertible or dT is not None
+                y_convertible = y_convertible or q is not None
                 if dT is not None and q is not None and dT > 0 and q > 0:
                     pts.append((dT, q))
             if len(pts) < 3:
+                # A series can reach here with perfectly good points that simply
+                # don't convert -- most commonly an uncalibrated axis (no numeric
+                # tick labels in the crop), which the digitizer honestly marks in
+                # the unit string instead of inventing real units. Report *why*
+                # rather than letting the series vanish from both chosen and
+                # rejected, which is what made this look like a classification
+                # problem instead of a calibration one.
+                if not y_convertible:
+                    reason = f"y-axis unit {y_unit!r} not convertible to SI -- likely an uncalibrated axis"
+                elif not x_convertible:
+                    reason = f"x-axis unit {x_unit!r} not convertible to SI"
+                else:
+                    reason = f"only {len(pts)} usable point(s) after SI conversion (need >= 3)"
+                rejected.append(Selection(
+                    record_id=record_id, figure_id=s.get("figure_id", ""),
+                    series_id=s.get("series_id", ""), label=s.get("label", ""),
+                    reason=reason,
+                    source_type=_source_type(s), points=[],
+                ))
                 continue
             # Points stay in the order the digitizer recovered them in — the
             # PDF's own draw order, or chained stroke order — rather than
@@ -262,11 +279,10 @@ def select_boiling_curves(
             sel = Selection(
                 record_id=record_id, figure_id=s.get("figure_id", ""),
                 series_id=s.get("series_id", ""), label=s.get("label", ""),
-                reason=reason, confidence=s.get("confidence"),
+                reason=reason,
                 source_type=_source_type(s), points=pts,
             )
-            conf_ok = (sel.confidence or 0) >= min_confidence
-            (chosen if (is_plain or include_all) and conf_ok else rejected).append(sel)
+            (chosen if (is_plain or include_all) else rejected).append(sel)
 
     return chosen, rejected
 

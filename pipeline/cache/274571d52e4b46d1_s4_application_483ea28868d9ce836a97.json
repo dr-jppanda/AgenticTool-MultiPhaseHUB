@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": "power_electronics",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "power amplifiers, and integrated circuits"
+        },
+        {
+          "quote": "and is of comparable size to typical high heat flux"
+        },
+        {
+          "quote": "The work promises enhanced heat removal\ncapability using hierarchically-structured surfaces for high\nheat flux thermal management."
+        }
+      ]
+    }
+  ]
+}

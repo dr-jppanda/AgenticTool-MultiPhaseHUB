@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "The Influence of Surface Roughness on Nucleate Pool Boiling Heat Transfer",
+  "year": 2009,
+  "reason": "The paper reports its own pool boiling experiments in water and FC-77 on surfaces of varying roughness, with measured boiling curves, heat transfer coefficients, and CHF values."
+}

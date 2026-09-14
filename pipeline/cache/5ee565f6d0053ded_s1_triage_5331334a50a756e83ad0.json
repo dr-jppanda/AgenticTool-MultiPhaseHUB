@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "evaporation",
+  "title": "Falling film boiling and pool boiling on plain circular tubes: Influence of surface roughness, surface material and saturation temperature on heat transfer and dryout",
+  "year": 2019,
+  "reason": "The authors report their own measured heat transfer coefficients, enhancement factors and dryout thresholds for falling film boiling (with pool boiling baselines) of R-134a on horizontal plain tubes, stating \"The study was conducted on an experimental set-up at saturation temperatures of 5 °C and 25 °C using refrigerant R-134a at heat fluxes from 20 to 90 kW/m2\"."
+}

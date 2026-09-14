@@ -1,0 +1,109 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "In the present study, pool boiling heat transfer experiments are performed on a bare copper surface, a"
+      },
+      {
+        "quote": "The CNT\ncoated surface was found to be effective in increasing the nucleate boiling and the CHF."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Experiments were conducted on the substrate surface area of 14 × 14 mm2 using de-mineralized water as the working fluid."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "temperature in the copper block reached the steady state"
+      },
+      {
+        "quote": "The heat was supplied to the testing plate in small increments by"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling experiments were conducted by using de-mineralized"
+        },
+        {
+          "quote": "Pool boiling experiments were conducted with an initial bulk\ntemperature of de-mineralized water at 90 °C."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The obtained results of sandblasted and CNT coated surfaces were compared with that of the bare copper\nsurface."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sandblasted",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The cleaned copper substrate was sandblasted for 1 minute, and prepared for the HFCVD deposition."
+        },
+        {
+          "quote": "Fig. 2 shows the SEM image of the surface morphology of untreated (A) and sandblasted (B) Cu substrate."
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling heat transfer enhancement using vertically aligned\ncarbon nanotube coatings on a copper substrate"
+        },
+        {
+          "quote": "The vertically aligned CNTs were\nachieved by a DC-plasma hot filament CVD process."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "onb",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

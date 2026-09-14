@@ -1,0 +1,113 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 50.0,
+    "max": 1462.0,
+    "unit": "kW m-2",
+    "evidence": [
+      {
+        "quote": "in the heat flux region between 50 kW m-2 and 900 kW m-2 for all tested surface-fluid"
+      },
+      {
+        "quote": "1462 kW m-2 was recorded at higher concentrations, representing an improvement of 35%"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.2,
+    "max": 0.2,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "0.2 μm. The surface roughness of the tested samples was measured using a Mitutoyo SJ-310"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 3.0,
+    "max": 164.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "surface after boiling with 0.1 wt.% nanofluid was around 3◦, while on the surface after"
+      },
+      {
+        "quote": "164◦± 0.7◦was recorded on superhydrophobic surfaces before boiling tests, while after"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

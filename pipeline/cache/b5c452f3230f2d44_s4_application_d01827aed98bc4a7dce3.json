@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "This was the drive behind this investigation in the case of pool boiling heat transfer\nleading to applications like electronics cooling."
+        },
+        {
+          "quote": "Among the different heat transfer techniques in electronic\ndevices and microprocessors, pool boiling is an effective method due\nto its change of phase."
+        }
+      ]
+    }
+  ]
+}

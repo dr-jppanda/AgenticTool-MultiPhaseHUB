@@ -1,0 +1,109 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "It is observed that the CNT coated surface enhances the heat flux in\nthe nucleate boiling regime by 48%"
+      },
+      {
+        "quote": "In the present study, pool boiling heat transfer experiments are performed on a bare copper surface, a"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Experiments were conducted on the substrate surface area of 14 × 14 mm2 using de-mineralized water as the working fluid."
+      },
+      {
+        "quote": "The substrate is fixed tightly on the heater block, which is embedded with six cartridge heaters of total\ncapacity 1500 W."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Once the\ntemperature in the copper block reached the steady state, all the\ntemperature data from the thermocouples were recorded"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling experiments were conducted by using de-mineralized\nwater."
+        },
+        {
+          "quote": "using de-mineralized water as the working fluid"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The obtained results of sandblasted and CNT coated surfaces were compared with that of the bare copper"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sandblasted",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The cleaned copper substrate was sandblasted for 1 minute"
+        },
+        {
+          "quote": "The enhancement in the CHF compared to bare copper, for the sand blasted copper, is around 8.5%"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "an increment\nin the CHF takes place in the vertically aligned CNTs coated surface."
+        },
+        {
+          "quote": "The length and\ndiameter of the CNT coatings can be measured with a highly magnified image as 300-500 nm and 50 nm respectively."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "onb",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

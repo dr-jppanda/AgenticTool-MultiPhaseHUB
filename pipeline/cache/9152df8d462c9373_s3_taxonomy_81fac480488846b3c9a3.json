@@ -1,0 +1,89 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The study recorded 125 boiling curves and CHF values on nominally\nidentical bare copper surfaces, establishing an average boiling curve and mean CHF value."
+      },
+      {
+        "quote": "The pool boiling tests were carried\nout with double-distilled water under saturated conditions at atmo­\nspheric pressure, representing the most common conditions used in\nliterature."
+      },
+      {
+        "quote": "Each boiling curve was recorded until CHF, after which the car­\ntridge heaters were turned off and the sample was left to cool down\nbefore initiating the next run."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The manufacturing process for bare copper samples (electrolytic\npurity, >99.9 % Cu) with 14 mm diameter involved a three-step pro­\ncedure: (1) sanding the surface, (2) cleaning the surface, and (3) gluing\nand mounting the sample."
+      },
+      {
+        "quote": "The sample being tested was then mounted onto a copper block and\nfixed with an insulative PEEK holder."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": null,
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "In this study, a total of 125 experimental runs were conducted to\nmeasure the pool boiling performance of 25 bare copper samples."
+      },
+      {
+        "quote": "When recording a boiling curve, the heat flux was increased at a rate of\nless than 0.2 kW m-2 s-1 during the natural convection regime and at a\nrate of less than 2 kW m-2 s-1 during nucleate boiling."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "All measurements were performed at atmospheric pressure\nunder saturated conditions using double-distilled water."
+        },
+        {
+          "quote": "The glass boiling chamber with an inner diameter of 60 mm was filled\nwith 200 mL of water."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "A total of 25 bare copper surfaces were\nprepared and tested in nominally identical way, i.e., by sanding and\nsubsequent cleaning, with five boiling curves recorded on each surface\nup to the CHF incipience"
+        },
+        {
+          "quote": "The bare copper\nsurfaces before boiling exhibited only tool marks from abrasive sand­\npaper treatment, and the same case was observed for the bare copper\nsurfaces after boiling tests."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

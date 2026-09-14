@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Optimization of Enhanced Surfaces for High Flux Chip Cooling by Pool Boiling",
+  "year": 1993,
+  "reason": "The authors measured their own pool boiling curves and CHF values on enhanced chip surfaces, e.g. \"Surface enhancement resulted in chip planform heat fluxes of 105.4 and 159.3 fV/cm2, for saturated and 35°C subcooled FC-72, respectively.\""
+}

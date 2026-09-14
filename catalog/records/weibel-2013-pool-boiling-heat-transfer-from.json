@@ -1,0 +1,524 @@
+{
+  "record_id": "weibel-2013-pool-boiling-heat-transfer-from",
+  "doc_id": "65ea3c2f49a05e43",
+  "title": "Pool Boiling Heat Transfer from Deformable Particulate Beds",
+  "source_pdf": "weibel_2013_pool_boiling_heat_transfer_from.pdf",
+  "n_pages": 1,
+  "n_figures": 0,
+  "figures": [],
+  "cited_pages": [
+    1
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-10-pool-boiling-thermal-performance",
+      "number": null,
+      "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 13,
+    "resolved": 13,
+    "unresolved": 0,
+    "exact": 13
+  },
+  "points_ref": null,
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Pool Boiling Heat Transfer from Deformable Particulate Beds",
+    "year": 2013,
+    "reason": "The authors report their own measured pool boiling curves and CHF for FC-72 on loose copper particulate beds versus a polished surface, with high-speed visualization."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": 0.1,
+      "unit": "m",
+      "evidence": [
+        {
+          "quote": "directly compared to a baseline polished surface with average roughness < 0.1 m (top)",
+          "resolved": true,
+          "char_span": [
+            930,
+            1015
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The largest particle size initially improves nucleate boiling performance, but bed deformation is not observed, and critical heat flux is reduced due to vapor trapping in the porous layer.",
+          "resolved": true,
+          "char_span": [
+            1078,
+            1266
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles that are able to freely\nmove on the polished copper surface beneath.",
+          "resolved": true,
+          "char_span": [
+            513,
+            669
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "loose copper particles that are able to freely\nmove on the polished copper surface beneath",
+          "resolved": true,
+          "char_span": [
+            578,
+            668
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Free particle beds of 98, 196, and 925 m average particle diameter are\ndirectly compared to a baseline polished surface with average roughness < 0.1 m",
+          "resolved": true,
+          "char_span": [
+            859,
+            1009
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles",
+          "resolved": true,
+          "char_span": [
+            513,
+            600
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "High-speed microscopic flow\nvisualization at 3000 frames per second (Ultima APX, Photron) enables observation of vapor-particle\ninteractions (VH-Z50L, Keyence).",
+          "resolved": true,
+          "char_span": [
+            698,
+            858
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-10-pool-boiling-thermal-performance",
+              "number": null,
+              "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-72",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The working fluid is FC-72.",
+            "resolved": true,
+            "char_span": [
+              670,
+              697
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "porous_coating",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "loose_particulate_bed",
+        "evidence": [
+          {
+            "quote": "Free particle beds of 98, 196, and 925 m average particle diameter are\ndirectly compared to a baseline polished surface",
+            "resolved": true,
+            "char_span": [
+              859,
+              978
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "critical heat flux is reduced due to vapor trapping in the porous layer",
+            "resolved": true,
+            "char_span": [
+              1194,
+              1265
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      },
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "directly compared to a baseline polished surface with average roughness < 0.1 m",
+            "resolved": true,
+            "char_span": [
+              930,
+              1009
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "chf",
+      "wall_superheat",
+      "boiling_curve",
+      "bubble_dynamics",
+      "htc"
+    ],
+    "measurement_modality": [
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles that are able to freely\nmove on the polished copper surface beneath. The working fluid is FC-72.",
+            "resolved": true,
+            "char_span": [
+              513,
+              697
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Visualizations confirm that\npassive deformation of the loose particulate bed eases vapor escape from the surface (bottom), enabling a\n32% reduction in surface superheat up to the same critical heat flux as measured for the polished surface.",
+            "resolved": true,
+            "char_span": [
+              1460,
+              1700
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-10-pool-boiling-thermal-performance",
+                "number": null,
+                "title": "POOL\u0002BOILING\u0002THERMAL\u0002PERFORMANCE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Pool Boiling Heat Transfer from Deformable Particulate Beds",
+  "si": {},
+  "fluid_properties": {
+    "rho_l": 1621.0,
+    "rho_v": 13.4,
+    "sigma": 0.0085,
+    "h_fg": 88000.0,
+    "mu_l": 0.00045,
+    "p_crit": 1830000.0
+  },
+  "derived": {
+    "L_cap": 0.0007342773405759766
+  },
+  "derived_tags": [],
+  "unit_warnings": [
+    "Ra_surface.max: 0.1 m -> 0.1 m is outside the plausible range [1e-10, 0.001]; value quarantined"
+  ],
+  "quarantined_values": {
+    "Ra_surface": [
+      {
+        "end": "max",
+        "raw": 0.1,
+        "unit": "m",
+        "si": 0.1
+      }
+    ]
+  },
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 2,
+    "unconfirmed_fields": 1
+  }
+}

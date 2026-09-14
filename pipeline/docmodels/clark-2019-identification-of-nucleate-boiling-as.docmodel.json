@@ -1,0 +1,222 @@
+{
+  "doc_id": "1363f916dade40b9",
+  "source": "papers\\clark_2019_identification_of_nucleate_boiling_as.pdf",
+  "text": "Identification of nucleate boiling as the dominant heat transfer\nmechanism during confined two-phase jet impingement\nMatthew D. Clark, Justin A. Weibel, Suresh V. Garimella \u21d1\nCooling Technologies Research Center, School of Mechanical Engineering, Purdue University, 585 Purdue Mall, West Lafayette, IN 47907, USA\na r t i c l e\ni n f o\nArticle history:\nReceived 6 July 2018\nReceived in revised form 10 September\n2018\nAccepted 13 September 2018\nAvailable online 21 September 2018\nKeywords:\nElectronics cooling\nJet impingement\nPool boiling\nTwo-phase heat transfer\nCritical heat flux\na b s t r a c t\nThermal management of high-power electronics requires cooling strategies capable of dissipating high\nheat fluxes while maintaining the device at low operating temperatures. Two-phase jet impingement\noffers a compact cooling technology capable of meeting these requirements at a low pressure drop.\nGenerally, confined impingement geometries are used in electronics cooling applications, where the flow\nis constrained between the hot surface and orifice plate. Understanding the primary heat transfer mechanisms occurring as boiling takes place on the surface during jet impingement is important, specifically\nunder such confined conditions. In this study, heat transfer from a copper surface is experimentally characterized in both confined jet impingement and pool boiling configurations. The dielectric liquid HFE-\n7100 is used as the working fluid. For the jet impingement configuration, the jet issues through a single\n2 mm-diameter orifice, at jet exit velocities of 1, 3, 6, and 9 m/s, into a confinement gap with a spacing of\n3 jet diameters between the orifice and heat source. Additional orifice-to-target spacings of 0.5, 1, and 10\njet diameters are tested at the lowest (Vj = 1 m/s) and highest (Vj = 9 m/s) jet velocities. By incrementing\nthe heat flux applied to the surface and observing the steady-state response at each flux, the single-phase\nand two-phase heat transfer performance is characterized; all experiments were carried through to critical heat flux conditions. The jet impingement data in the fully boiling regime either directly overlap the\npool boiling data, or coincide with an extension of the trend in pool boiling data beyond the pool boiling\ncritical heat flux limit. This result confirms that nucleate boiling is the dominant heat transfer mechanism\nin the fully boiling regime in confined jet impingement; the convective effects of the jet play a negligible\nrole over the wide range of parameters considered here. While the presence of the jet does not enhance\nthe boiling heat transfer coefficient, the jet does greatly increase single-phase heat transfer performance\nand extends the critical heat flux limit. Critical heat flux displays a linear dependence on jet velocity\nwhile remaining insensitive to changes in the orifice-to-target spacing.\n2018 Elsevier Ltd. All rights reserved.\n1. Introduction\nTwo-phase jet impingement heat transfer is a viable method for\nthermal management of high-density electronics systems. Due to\nthe large number of adjustable geometric parameters and operating conditions, jet impingement systems can be designed for\nlow-pressure-drop operation while maintaining high levels of heat\ndissipation [1]. Confined outlet conditions, where the jet issues\ninto a gap bounded by the heated surface and an orifice plate,\nare typical in electronics cooling applications due to compact packaging constraints.\nThe heat transfer regimes observed in two-phase jet impingement as the surface heat flux increases include: a single-phase\nregime before incipience, a partial boiling regime, and a fully boiling regime, followed by critical heat flux (CHF). During the partial\nboiling regime, boiling initiates at the periphery of the heated surface and traverses inward towards the jet axis with increasing heat\nflux. Consequently, both single-phase and nucleate boiling heat\ntransfer exist simultaneously on the heated surface during this\nregime [2-6]. Once the boiling front reaches the jet axis, boiling\noccurs over the entire surface in the fully boiling regime. The fully\nboiling regime is a desirable operating condition, because substantial increases in heat flux are accompanied by only modest surface\ntemperature increases in this regime. A better understanding of the\ndominant heat transfer mechanisms that govern performance in\nthe fully boiling regime can help direct predictive modeling efforts.\nIt is also important to understand the dependence of the CHF limit\non the geometric parameters and operating conditions of the\nimpinging jet, such as orifice-to-target spacing and jet velocity.\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2018.09.058\n0017-9310/ 2018 Elsevier Ltd. All rights reserved.\n\u21d1Corresponding author.\nE-mail address: sureshg@purdue.edu (S.V. Garimella).\nInternational Journal of Heat and Mass Transfer 128 (2019) 1095-1101\nContents lists available at ScienceDirect\nInternational Journal of Heat and Mass Transfer\njournal homepage: www.elsevier.com/locate/ijhmt\nTwo heat transfer modes are present during two-phase jet\nimpingement: forced convection and nucleate boiling. To better\nunderstand how the impinging jet affects performance, a direct\ncomparison with pool boiling heat transfer, where forced convection effects are absent, is useful as a benchmark. Though significant\nexperimental work has been performed on two-phase jet impingement heat transfer, few experimental studies have directly compared\njet\nimpingement\nheat\ntransfer\nwith\npool\nboiling.\nFurthermore, none have considered confined jets, which more closely resemble the conditions of flow boiling through confined\nchannels, in which the degree of confinement is known to affect\nthe boiling performance [7]. Katto and Kunihiro [8], Bergles and\nMa [9,10], Struble and Witte [11], and Zhou and Ma [12] reported\nexperimental comparisons of pool boiling and submerged, uncon-\nfined jet impingement. In each of these studies, the jet impingement data in the fully boiling regime coincided with the pool\nboiling curve. An exception found by Bergles and Ma [10] was\nattributed to their extensive extrapolation of the pool boiling data\nto draw a comparison at heat fluxes above their measured pool\nboiling data.\nIn recent work by Mira-Hern\u00e1ndez et al. [5], a semi-empirical\nmodel for predicting area-averaged two-phase heat transfer from\nconfined impinging jets was developed. The model, which treats\nsingle-phase and boiling regions on the surface separately, used\nnucleate pool boiling correlations to predict the local heat transfer\ncoefficient in regions of the surface undergoing boiling under the\njet. The model accurately predicted jet impingement experimental\ndata in the fully boiling regime [5], without including any convection effects. This result calls for an experimental investigation that\ndirectly compares confined jet impingement boiling behavior with\nnucleate pool boiling heat transfer.\nThe present study performs experiments that characterize heat\ntransfer from a surface under both confined jet impingement and\npool boiling conditions. In the jet impingement configuration, a\nsingle 2 mm-diameter orifice is used; the jet velocity (Vj = 1 m/s,\n3 m/s, 6 m/s, and 9 m/s) and orifice-to-target spacing (H/d = 0.5,\n1, 3, and 10) are varied. Comparison of jet impingement heat\ntransfer in the fully boiling regime to pool boiling provides\ninsight into the effect of impingement on boiling heat transfer\nand reveals that even at high jet velocities, convective effects\ndo not have an influence on the heat transfer coefficient. The\neffect of the impinging jet on critical heat flux is also discussed;\ntrends in critical heat flux with respect to jet velocity are\nidentified.\n2. Experimental methods\nExperiments are performed using a two-phase flow loop\ncharged with the dielectric fluid HFE-7100 [13]. The test section\nis reconfigurable to allow characterization of both jet impingement\nand pool boiling heat transfer. Details of the experimental facility,\nprocedures, and data reduction are described in this section.\n2.1. Flow loop\nThe flow loop used to perform the experiments is described in\ndetail in Ref. [14] and is shown schematically in Fig. 1(c). A magnetically coupled gear pump circulates fluid through the flow loop.\nThe flow rate is coarsely set by adjusting the rotational speed of the\npump and finely tuned by metering the flow through a bypass loop\nand the test section. Mass flow rate is measured by a Coriolis flow\nmeter (CMFS015, Emerson) with \u00b10.1% accuracy. Any plasticizers\nor organic contaminants are removed from the working fluid using\nan activated carbon filter while particulates are removed using\n0.5 lm particulate filters. The liquid subcooling is controlled by\nadjusting the voltage supplied to the 1.2 kW inline preheater. Fluid\nexits the test section and is returned to the fluid reservoir; for\ndegassing purposes, the reservoir is equipped with a 1 kW immersion heater and two Graham reflux condensers. A copper-finned\nliquid-to-air heat exchanger equipped with a voltage-regulated\nfan is used to cool the fluid before the pump inlet; this prevents\ncavitation in the pump and provides greater control over the test\nsection inlet temperature.\n2.2. Test section\nThe test section, modified from the original heater assembly\nused in Ref. [4], is shown schematically in Fig. 1(a). The side walls\nare made of polyether ether ketone (PEEK) for thermal insulation,\nwhile the front and back walls are made of polycarbonate for optical access, allowing high-speed visualizations through the side of\nthe test section. Fluid enters the top of the circular cross-section\nplenum and passes through two screens and a honeycomb to\nstraighten the flow. The test section inlet pressure and temperature are measured by a pressure tap and a T-type thermocouple\nplaced close to the orifice plate inside the plenum. The circular plenum is sealed to the top of the test section by an O-ring, allowing\nthe plenum to translate vertically so that its position can be\nadjusted.\nNomenclature\nA\nheat source area\nBl*\nnon-dimensional heat input qA= _mCp\u00f0Tsat Tj\u00de\nCHF\ncritical heat flux\nCp\nspecific heat\nd\norifice diameter\nH\norifice-to-target spacing\nh\narea-averaged heat transfer coefficient\nhfg\nlatent heat of vaporization\nl\norifice plate thickness\n_m\nmass flow rate\npop\noperating pressure\nq\nheat flux\nRa\naverage surface roughness\nRe\nReynolds number (qvjd/m)\nT\ntemperature\nT\narea-averaged temperature\nDTsub\ndegree of subcooling (Tsat Tj)\n_V\nvolumetric flow rate\nVj\njet exit velocity\nGreek symbols\nm\nliquid dynamic viscosity\nq\nliquid density\nSubscript\nCHF\ncritical heat flux limit\nj\njet exit condition\ns\nsurface condition\nsat\nsaturated condition\n1096\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\nFor the jet impingement configuration (see Fig. 1(b)), an orifice\nplate with a single 2 mm-diameter orifice located at the center of\nthe plate is mounted to the bottom of the plenum and sealed by\nan O-ring. A single jet is chosen instead of a jet array in order to\nmaximize the possible range of jet velocities and orifice-to-target\nspacing ratios that can be tested given the ranges of the pump\nand sensors used in the experimental facility. The orifice aspect\nratio (l/d) is chosen to be 2, to minimize pressure drop according\nto Ref. [15]. The orifice-to-target spacing (H) is precisely set by\nspacer pins inserted into the bottom of the test section and the exit\nface of the orifice plate.\nTo enable a pool boiling configuration (see Fig. 1(b)), the sub-\ncooled inlet flow is diverted radially outward by a solid plate\nmounted 1.5 mm away from the end of the plenum. The exit area\nis over 100 times that of the 2 mm-diameter jet and results\nin an exit velocity of 0.01 m/s for the inlet flow rate used\n(188 ml/min), which prevents any forced flow near the heater\nsurface. Additionally, the plenum is raised to its maximum height\nfor this case. High-speed videos acquired during the pool boiling\nexperiments, which are included in the Supplementary Materials,\nshow no apparent convection in the test chamber near the heater\nsurface.\nFluid exits the plenum into the submerged chamber bath and\nleaves the test section through an exit port in the top wall\n(Fig. 1(a)). The chamber pressure is measured with a pressure tap\n(Gems 2200BG3F002A3UA) located in the bottom of the test section. A T-type thermocouple inserted into the side wall of the test\nsection allows measurement of the fluid bath temperature.\nThe\nsquare\nheat\ntransfer\nsurface\nis\nthe\ntop\nof\na\n20 mm 20 mm 37 mm oxygen-free copper block heated by\ntwelve 100 W cartridge heaters inserted into the bottom. The copper block is equipped with three thermocouple rakes located along\nthe centerline and near two opposing sidewalls, allowing for estimation of the average surface temperature by extrapolation. The\ncenterline thermocouple rake includes four T-type thermocouples\nspaced at 2.54 mm increments. The near-sidewall thermocouple\nrakes include two T-type thermocouples each, vertically separated\nby 7.62 mm. To reduce heat loss, fiberglass insulation is loosely\npacked in the cavity between the copper block and the surrounding\nPEEK carrier. The copper block is supported from below by a ceramic block, which prevents high-temperature exposure of the PEEK\nand provides additional insulation. After ensuring that the top surface of the copper block is flush with the surrounding 4 mm-thick\nPEEK plate, the top edge of the heater is sealed in place (Q3-6611,\nDow Corning).\n2.3. Experimental procedure\nPrior to the start of an experiment, the HFE-7100 is thoroughly\ndegassed by cycling fluid at a flow rate of 300 ml/min through the\nloop while boiling the fluid using the inline heater and reservoir\nimmersion heaters. Noncondensable gases are allowed to escape\nthrough the reflux condensers, while vapor is condensed and\nreturns to the reservoir. This degassing procedure is carried out\nfor 2 h before each experiment. During each test, the facility is\nrun in an open-loop configuration while using the immersion heater to maintain saturation temperature in the reservoir at atmospheric pressure (101.3 kPa); the noncondensable gases continue\nto be vented. This ensures that the fluid remains degassed throughout the length of the experiment.\nAfter adjusting the flow rate to the desired value, the inlet sub-\ncooling is set at 8 C relative to the saturation temperature calculated using the measured test section chamber pressure. Power\nto the copper heater block is incremented in steps of 8 W for jet\nexit velocities of 1 m/s and 3 m/s and steps of 24 W for jet exit\nvelocities of 6 m/s and 9 m/s, and steady-state data are recorded\nwhen a change of less than 1 C/h in the average surface temperature is measured. Data are acquired at a frequency of 0.5 Hz for\n2 min, providing approximately 60 data points that are averaged\nand reported as steady-state values for each recorded power step.\nDuring steady-state operation, high-speed videos are acquired\nfrom the side of the test section (Phantom VEO 710L) at 3000 fps.\nTable 1 summarizes all of the jet impingement experimental operating conditions.\nWhen using a highly wetting fluid such as HFE-7100, temperature overshoot at boiling incipience is often observed [14], as in the\nFig. 1. (a) Cross-sectional view of the test section, (b) schematic diagram of the orifice plate configuration for jet impingement and pool boiling, and (c) flow loop diagram.\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\n1097\nlow jet velocity cases of the current study (Vj = 1 and 3 m/s). This is\ncaused by the wetting fluid filling the cavities in a surface, resulting\nin an increased superheat temperature requirement for nucleation\nto occur compared to a less wetting fluid [16]. The exact superheat\ntemperature at which incipience occurs can vary according to a\nnumber of factors, such as the rest time between boiling experiments [17], and is generally characterized by a probabilistic representation [18]. Using the smooth surface with a roughness (Ra) of\n0.5 lm, in one of the current experiments (Vj = 3 m/s; H/d = 3), an\nextreme temperature overshoot led to film boiling upon incipience; in this case, the heater power is reduced until the surface\nreturns to nucleate boiling conditions and the test is resumed as\nnormal.\nAll tests were carried through to a critical heat flux condition,\nmarked by a rapid surface temperature excursion upon incrementing power to the heater. The critical heat flux values are extracted\nfrom the transient data immediately prior to the rapid temperature\nexcursion. The last data point presented in each curve corresponds\nto this critical heat flux value.\n2.4. Data reduction and uncertainty\nThe surface temperature of the copper heater is extrapolated\nfrom the temperature gradient measured using the three thermocouple rakes inside the block. Thermocouple measurement uncertainties are estimated to be \u00b10.3 C, while the surface temperature\nextrapolation resulted in an uncertainty of \u00b10.44 C at low heat\nfluxes\nto\n\u00b10.87 C\nat\nthe\nhighest\nrecorded\nheat\nflux\nof\n82.4 W/cm2. The manufacturer-specified accuracy of the outlet\npressure transducer is \u00b10.52 kPa. A numerical model [14] is used\nto estimate the heat loss from the block. This heat loss is sub-\ntracted from the measured electrical power supplied to the heater\nfor calculation of heat flux into the fluid. Uncertainty in heat flux\nwas estimated to be less than 2% based on a 95% confidence inter-\nval. All uncertainties are calculated as described in Ref. [14].\n3. Results\nBoiling curves showing the average superheat ( Ts Tsat) as a\nfunction of heat flux are shown in the left panels of Figs. 2 and 3,\nwhile area-averaged heat transfer coefficients are shown in the\nright panels, also as a function of heat flux. Results obtained in\nthe jet impingement experimental configuration are compared to\nthe baseline pool boiling data. The boiling curves in the jet\nimpingement configuration follow the same general trends for all\ncases, which are first introduced here. A shallow slope in the heat\nflux versus average superheat at the lowest heat fluxes, corresponding to single-phase jet impingement, is followed by a steeper\nslope at higher heat fluxes during two-phase jet impingement after\nboiling incipience. Ultimately, CHF occurs and is denoted by a horizontal arrow that terminates the boiling curve. The heat transfer\ncoefficients are constant during the single-phase regime at lower\nheat fluxes, followed by a near-linear increase with heat flux\nthroughout the two-phase regime. For the boiling curve obtained\nin the pool boiling experimental configuration, data at low heat\nfluxes corresponding to the natural convection regime are omitted\nfor clarity; all pool boiling data shown are in the nucleate boiling\nregime.\n3.1. Effect of jet velocity\nFig. 2(a) shows boiling curves corresponding to four different jet\nvelocities ranging from 1 m/s to 9 m/s at a single, fixed orifice-totarget spacing (H/d = 3). As the jet velocity is increased, the\nsingle-phase wall superheat is significantly lower at a given heat\nflux (i.e., the boiling curve has a steeper slope), as would be\nexpected of single-phase jet impingement [19]. Due to the stochastic nature of incipience overshoot, which requires a probabilistic\nrepresentation based on many repeated experiments [16], no\ntrends in the degree of incipience overshoot should be inferred\nfrom the single-trial data presented in Fig. 2(a). Once boiling occurs\nduring jet impingement, the data corresponding to all four jet\nvelocities collapse to a single characteristic curve; the surface\nsuperheat during the fully boiling regime is insensitive to the jet\nvelocity over this range. Furthermore, this characteristic behavior\nmatches the trend of the pool boiling data. These boiling curve\ntrends are reflected in the heat transfer coefficients as well. The\nsingle-phase average heat transfer coefficient increases with jet\nvelocity, and in the fully boiling regime, the curves corresponding\nto all four jet velocities converge. To illustrate that the characteristic\nheat\ntransfer\ncoefficient\nbehavior\nduring\ntwo-phase\njet\nimpingement follows that of pool boiling, a curve of the form\nh 1\u20444 cqn is fit to the pool boiling data. This functional form is common to pool boiling correlations in the literature [20,21]. This\ncurve is plotted as the red dashed line in Fig. 2(b), extended to heat\nfluxes beyond the pool boiling CHF for reference. Even at the high-\nest jet velocity of 9 m/s, the heat transfer coefficient closely\nmatches the trend fitted to the pool boiling data. This unequivocally demonstrates that the fully boiling regime heat transfer coef-\nficient is predominantly governed by a nucleate boiling heat\ntransfer mechanism and is unaffected by the impinging jet, reaf-\nfirming that fully boiling regime performance can be predicted\nvia nucleate boiling correlations [5].\nThe impinging jet does, however, result in an extension of the\ncritical heat flux because of the added momentum provided by\nthe jet velocity. Fig. 4 plots CHF as a function of jet velocity for a\nconfinement height of 3 jet diameters. The pool boiling critical heat\nflux is also shown for reference. A cube-root relationship of CHF\nwith jet velocity (qCHF V1=3\nj\n) has been commonly reported for\nfree-surface and submerged jets [22,23]. In comparison, there has\nbeen very little investigation of the CHF trends for highly confined\njet impingement, with the only report being a stronger dependence\nof\nCHF\non\njet\nvelocity\n(qCHF V0:6\nj\n)\nfor\na\nconfined\n(0:508 H 5:08 mm), planar jet of FC-72 [24]. The current\nstudy, as shown in Fig. 4, points to a near-linear dependence of\nCHF on jet velocity. The outlet pressure ranged from 98.6 to\n103.2 kPa for the data at CHF and would have negligible effect on\nthe CHF through a change in fluid properties.\nTable 1\nGeometrical parameters and operating conditions for the two-phase jet impingement experiments.\nd (mm)\n_V (ml/min)\nVj (m/s)\nRe\nH/d\nDTsub ( C)\npop (kPa)\n2\n1700\n9\n69,300\n10, 3, 1, 0.5\n8\n101.3\n1140\n6\n46,500\n3\n568\n3\n23,200\n3\n190\n1\n7,700\n10, 3, 1, 0.5\n1098\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\nFig. 2. (a) Boiling curves and (b) heat transfer coefficients as a function of heat flux for the jet impingement configuration (corresponding to Vj = 1 m/s, 3 m/s, 6 m/s, and\n9 m/s; H/d = 3) compared with pool boiling.\nFig. 3. (a and c) Boiling curves and (b and d) heat transfer coefficients as a function of heat flux for the jet impingement configuration (corresponding to Vj = 9 m/s and 1 m/s,\nrespectively; H/d = 0.5, 1, 3, and 10) compared with pool boiling.\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\n1099\n3.2. Effect of orifice-to-target spacing\nBoiling curves and heat transfer coefficients corresponding to\njet velocities of 1 m/s and 9 m/s for orifice-to-target spacings of\n0.5, 1, 3, and 10 jet diameters are shown in Fig. 3.\nFor the higher jet velocity (Vj = 9 m/s), in the single-phase\nregime of the boiling curves (Fig. 3(a)), there is little difference in\nperformance between the orifice-to-target spacings of 0.5, 1, and\n3 jet diameters. There is a degradation in single-phase performance\nfor the highest orifice-to-target spacing (H/d = 10), which has been\nobserved in the literature for spacings beyond 5-8 diameters [25].\nOnce boiling occurs, the curves corresponding to orifice-to-target\nspacings of 1, 3, and 10 diameters converge to match the behavior\nof the pool boiling data, as was observed in Fig. 2(a). However, the\nsmallest orifice-to-target spacing (H/d = 0.5) resulted in a signifi-\ncant degradation of performance in the fully boiling regime. Above\n46.3 W/cm2, the boiling curve slope changes at this spacing and the\nwall superheat exceeds that of all the higher orifice-to-target spacings, until ultimately terminating in a significantly lower CHF\n(57.6 W/cm2) than the other cases. Unlike all other boiling curves,\nthe heat transfer coefficient decreases with increasing heat flux\nwithin this range. To the authors' knowledge, this dramatic reduction in performance has not yet been observed in the literature and\ncould be due to vapor confinement at the very low spacing of 0.5\njet diameters (H = 1 mm for d = 2 mm). The small confinement\ngap does not allow for clear conclusions to be drawn from visualization of the two-phase flow.\nDue to the significantly lower jet velocity, the jet impingement\nboiling curves corresponding to Vj = 1 m/s (Fig. 3(c)) barely change\nfrom the pool boiling data in terms of the CHF limit and show little\ndifference between the four orifice-to-target spacings. A maximum\nCHF of 27.8 W/cm2 was achieved for this jet velocity, again at an\norifice-to-target spacing of 3 jet diameters, relative to the CHF of\n21.9 W/cm2 in the pool boiling configuration. These comparisons\nat both high (Vj = 9 m/s) and low (Vj = 1 m/s) jet velocities across\na range of confinement heights confirm that nucleate boiling is\nthe predominant mechanism that governs the two-phase jet\nimpingement heat transfer and that the fully boiling regime heat\ntransfer coefficient is insensitive to the presence or characteristics\nof the impinging jet, within the range of conditions considered\nhere.\n3.3. Discussion\nThe close match of confined jet impingement heat transfer in\nthe fully boiling regime with pool boiling demonstrates that nucleate boiling is the dominant heat transfer mechanism in this regime.\nThis conclusion is supported by the mapping of the flow field during confined, two-phase jet impingement performed by Rau et al.\n[26]. The radially outward wall jet flow, which governs the\nsingle-phase convection heat transfer behavior, was observed in\nthat study to be completely disrupted by bubble nucleation due\nto boiling. Upon the onset of boiling, the flow field in the confinement gap becomes dominated by the vapor buoyancy as in pool\nboiling, rather than the inertia of the jet. In the case of the highest\njet\nvelocity\n(Vj = 9 m/s)\nand\nlowest\norifice-to-target\nspacing\n(H/d = 0.5), the degradation of performance is likely due to vapor\nconfinement, and is not a wall jet effect.\nFig. 4. Critical heat flux (CHF) for the jet impingement (corresponding to Vj = 1 m/s,\n3 m/s, 6 m/s, and 9 m/s; H/d = 3) and pool boiling configurations.\nFig. 5. Comparison of high-speed video frames across four jet velocities (Vj = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H/d = 3) at a constant non-dimensional heat input (Bl* = 0.76). The\ncorresponding heat fluxes for each jet velocity are highlighted on the boiling curve. Full videos are included in the Supplementary Materials.\n1100\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\nTo observe the vapor formation characteristics in the confinement gap, Fig. 5 compares high-speed video frames acquired during the current jet impingement experiments using an orifice-totarget spacing of 3 jet diameters and jet exit velocities of 1, 3, 6,\nand 9 m/s. Due to the dependence of flow boiling on the inlet mass\nflow rate and liquid subcooling, comparison across these cases is\nmade on the basis of a non-dimensional heat input (Bl*), defined\nin Ref. [26] as\nBl\n1\u20444\nqA\n_mCp Tsat Tj\nwhich is analogous to the Boiling number (Bl 1\u20444 qA= _mhfg).\nThe heat flux cases chosen for comparison in Fig. 5 correspond\nto a constant non-dimensional heat input of 0.76. At a constant\nnon-dimensional heat input, the equilibrium thermodynamic quality of the fluid exiting the gap is fixed. Corresponding heat fluxes\nfor each jet velocity are highlighted in the boiling curves shown\nin Fig. 5. In the high-speed video frames in Fig. 5, vapor bubbles\nappear to generally rise vertically from the surface of the heater,\nrather than being entrained into the radially outward liquid flow;\nonly for the highest velocity case of 9 m/s are bubbles observed\nto slightly extend past the edges of the heater. Full videos, from\nwhich these frames were taken, are included in the Supplementary\nMaterials. From this qualitative observation, we can infer that the\nwall jet appears to be disrupted by bubble nucleation at the heated\nsurface, in agreement with the flow field mapping of Rau et al. [26].\nEven though the highest jet velocity provides greater momentum,\nand therefore may better displace vapor being generated at the\nheater surface and hence extends CHF, the boiling curve corresponding to this case in Fig. 2(a) still converges to an extension\nof the pool boiling data.\n4. Conclusions\nDirect experimental comparison of pool boiling and confined jet\nimpingement heat transfer performance allows a delineation of the\ninfluence of the impinging jet on boiling behavior in the fully boiling regime. Over the range of jet velocities (1 Vj 9 m=s) and\norifice-to-target spacings (0:5 H=d 10) tested, the impinging\njet is found to increase single-phase performance and extend the\ncritical heat flux well beyond pool boiling limits. However, the fully\nboiling regime heat transfer coefficient is found to be insensitive to\nthe presence of the jet. Jet impingement heat transfer performance\nis either identical to that of pool boiling or coincides with an extension of the correlated pool boiling heat transfer coefficient above\nthe pool boiling critical heat flux, indicating that nucleate boiling\nis the dominant heat transfer mechanism in this regime; the convective effects of the jet play a negligible role. This result is likely\ndue to the disruption of the wall jet formed during impingement\nby bubble nucleation at the heater surface.\nCritical heat flux for confined jet impingement is found to\nincrease linearly with increasing jet velocity, which differs signifi-\ncantly from the commonly reported cube-root dependence for free\nsurface and submerged jet impingement configurations. Additionally, a decrease in both the boiling heat transfer coefficient and critical heat flux is observed for the highest jet velocity (Vj = 9 m/s)\nunder highly confined conditions (H/d = 0.5). Otherwise, critical\nheat flux is insensitive to changes in the orifice-to-target spacing.\nConflict of interest\nAuthors declare that there is no conflict of interest.\nAcknowledgements\nFinancial support for this work provided by members of the\nCooling Technologies\nResearch Center, a graduated National\nScience\nFoundation\nIndustry/University\nCooperative\nResearch\nCenter at Purdue University, is gratefully acknowledged.\nAppendix A. Supplementary material\nSupplementary data to this article can be found online at\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2018.09.058.\nReferences\n[1] M.J. Rau, S.V. Garimella, Two-phase jet impingement: liquid-vapor interactions\nand heat transfer mapping for multiscale surface enhancement design,\nEncyclopedia Two-Phase Heat Transf. Flow vol (2018) 2.\n[2] D.T. Vader, F.P. Incropera, R. Viskanta, Convective nucleate boiling on a heated\nsurface cooled by an impinging, planar jet of water, J. Heat Transf. 114 (1)\n(1992) 152-160.\n[3] C.S.K. Cho, K. Wu, Comparison of burnout characteristics in jet impingement\ncooling and stray cooling, in: The Proceedings of the 1988 National Heat\nTransfer Conference, vol. 96, 1988, pp. 561-567.\n[4] M.J. Rau, S.V. Garimella, Local two-phase heat transfer from arrays of confined\nand submerged impinging jets, Int. J. Heat Mass Transf. 67 (2013) 487-498.\n[5] C. Mira-Hern\u00e1ndez, M.D. Clark, J.A. Weibel, S.V. Garimella, Development and\nvalidation of a semi-empirical model for two-phase heat transfer from arrays\nof impinging jets, Int. J. Heat Mass Transf. 124 (2018) 782-793.\n[6] D.H. Wolf, F.P. Incropera, R. Viskanta, Local jet impingement boiling heat\ntransfer, Int. J. Heat Mass Transf. 39 (7) (1996) 1395-1406.\n[7] T.\nHarirchian,\nS.V.\nGarimella,\nA\ncomprehensive\nflow\nregime\nmap\nfor\nmicrochannel flow boiling with quantitative transition criteria, Int. J. Heat\nMass Transf. 53 (13) (2010) 2694-2702.\n[8] Y. Katto, M. Kunihiro, Study of the mechanism of burn-out in boiling system of\nhigh burn-out heat flux, Bull. JSME 16 (99) (1973) 1357-1366.\n[9] C.F.\nMa,\nA.E.\nBergles,\nBoiling\njet\nimpingement\ncooling\nof\nsimulated\nmicroelectronic chips, in: Heat Transfer in Electronic Equipment 1983, vol.\n28, 1983, pp. 5-12.\n[10] C.F. Ma, A.E. Bergles, Jet impingement nucleate boiling, Int. J. Heat Mass Transf.\n29 (8) (1986) 1095-1101.\n[11] C.L. Struble, L.C. Witte, An in situ technique for measuring heat transfer from a\npower transistor to a boiling liquid, J. Heat Transf. 116 (2) (1994) 495-498.\n[12] D.W. Zhou, C.F. Ma, Local jet impingement boiling heat transfer with R113,\nHeat Mass Transf. 40 (6-7) (2004) 539-549.\n[13] 3M, 3M Novec Engineered Fluid HFE-7100 for Heat Transfer, 3M, St. Paul, MN,\n2002, pp.1-8.\n[14] M.J. Rau, S.V. Garimella, Confined jet impingement with boiling on a variety of\nenhanced surfaces, J. Heat Transf. 136 (10) (2014) 1-12, 101503.\n[15] G.K. Morris, S.V. Garimella, Orifice and impingement flow fields in confined jet\nimpingement, J. Electron. Packag. 120 (1) (1998) 68-72.\n[16] A. Bar-Cohen, T.W. Simon, Wall superheat excursions in the boiling incipience\nof dielectric fluids, Heat Transf. Eng. 9 (3) (1988) 19-31.\n[17] P.J. Marto, V.J. Lepere, Pool boiling heat transfer from enhanced surfaces to\ndielectric fluids, J. Heat Transf. 104 (2) (1982) 292-299.\n[18] S.M. You, A. Bar-Cohen, T.W. Simon, Boiling incipience and nucleate boiling\nheat transfer of highly wetting dielectric fluids from electronic materials, IEEE\nTrans. Compon. Hybrids Manuf. Technol. 13 (4) (1990) 1032-1039.\n[19] S.V. Garimella, Heat transfer and flow fields in confined jet impingement,\nAnnu. Rev. Heat Transf. 11 (11) (2000) 413-494.\n[20] M.G. Cooper, Heat flow rates in saturated nucleate pool boiling-A wideranging examination using reduced properties, Adv. Heat Transf. 16 (1984)\n157-239.\n[21] K. Stephan, M. Abdelsalam, Heat-transfer correlations for natural convection\nboiling, Int. J. Heat Mass Transf. 23 (1) (1980) 73-87.\n[22] D.H. Wolf, F.P. Incropera, R. Viskanta, Jet impingement boiling, in: P.H. James,\nF.I. Thomas (Eds.), Advances in Heat Transfer, 23, Elsevier, 1993, pp. 1-132.\n[23] L. Qiu, S. Dubey, F.H. Choo, F. Duan, Recent developments of jet impingement\nnucleate boiling, Int. J. Heat Mass Transf. 89 (2015) 42-58.\n[24] I. Mudawar, D.C. Wadsworth, Critical heat flux from a simulated chip to a\nconfined rectangular impinging jet of dielectric liquid, Int. J. Heat Mass Transf.\n34 (6) (1991) 1465-1479.\n[25] S.V. Garimella, R.A. Rice, Confined and submerged liquid jet impingement heat\ntransfer, J. Heat Transf. 117 (4) (1995) 871-877.\n[26] M.J. Rau, T. Guo, P.P. Vlachos, S.V. Garimella, Stereo-PIV measurements of\nvapor-induced flow modifications in confined jet impingement boiling, Int. J.\nMultiph. Flow 84 (2016) 19-33.\nM.D. Clark et al. / International Journal of Heat and Mass Transfer 128 (2019) 1095-1101\n1101",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5041
+    },
+    {
+      "number": 2,
+      "start": 5041,
+      "end": 10797
+    },
+    {
+      "number": 3,
+      "start": 10797,
+      "end": 15562
+    },
+    {
+      "number": 4,
+      "start": 15562,
+      "end": 22257
+    },
+    {
+      "number": 5,
+      "start": 22257,
+      "end": 22816
+    },
+    {
+      "number": 6,
+      "start": 22816,
+      "end": 26806
+    },
+    {
+      "number": 7,
+      "start": 26806,
+      "end": 34899
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-identi-cation-of-nucleate-boiling-as-the",
+      "number": null,
+      "title": "Identi\ufb01cation of nucleate boiling as the dominant heat transfer",
+      "level": 1,
+      "start": 0,
+      "end": 116
+    },
+    {
+      "id": "sec-1-matthew-d-clark-justin-a-weibel-suresh-v",
+      "number": null,
+      "title": "Matthew D. Clark, Justin A. Weibel, Suresh V. Garimella \u21d1",
+      "level": 1,
+      "start": 116,
+      "end": 4945
+    },
+    {
+      "id": "sec-2-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1,
+      "start": 4945,
+      "end": 10039
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 10039,
+      "end": 10392
+    },
+    {
+      "id": "sec-4-reynolds-number-qvjd-m",
+      "number": null,
+      "title": "Reynolds number (qvjd/m)",
+      "level": 2,
+      "start": 10392,
+      "end": 17138
+    },
+    {
+      "id": "sec-82-4",
+      "number": "82.4",
+      "title": "W/cm2. The manufacturer-speci\ufb01ed accuracy of the outlet",
+      "level": 2,
+      "start": 17138,
+      "end": 23784
+    },
+    {
+      "id": "sec-46-3",
+      "number": "46.3",
+      "title": "W/cm2, the boiling curve slope changes at this spacing and the",
+      "level": 2,
+      "start": 23784,
+      "end": 24876
+    },
+    {
+      "id": "sec-21-9",
+      "number": "21.9",
+      "title": "W/cm2 in the pool boiling con\ufb01guration. These comparisons",
+      "level": 2,
+      "start": 24876,
+      "end": 30242
+    },
+    {
+      "id": "sec-8-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 30242,
+      "end": 30645
+    },
+    {
+      "id": "sec-9-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 30645,
+      "end": 34899
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a) Cross-sectional view of the test section, (b) schematic diagram of the ori\ufb01ce plate con\ufb01guration for jet impingement and pool boiling, and (c) \ufb02ow loop diagram.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "(a) shows boiling curves corresponding to four different jet",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-2_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "(a) Boiling curves and (b) heat transfer coef\ufb01cients as a function of heat \ufb02ux for the jet impingement con\ufb01guration (corresponding to Vj = 1 m/s, 3 m/s, 6 m/s, and",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-2_p5.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(a and c) Boiling curves and (b and d) heat transfer coef\ufb01cients as a function of heat \ufb02ux for the jet impingement con\ufb01guration (corresponding to Vj = 9 m/s and 1 m/s,",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-3_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Critical heat \ufb02ux (CHF) for the jet impingement (corresponding to Vj = 1 m/s,",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-4_p6.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Comparison of high-speed video frames across four jet velocities (Vj = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H/d = 3) at a constant non-dimensional heat input (Bl* = 0.76). The",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\clark_2019_identification_of_nucleate_boiling_as_fig-5_p6.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "summarizes all of the jet impingement experimental oper-",
+      "page": 3,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 4,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 7,
+    "ingest": "pymupdf"
+  }
+}

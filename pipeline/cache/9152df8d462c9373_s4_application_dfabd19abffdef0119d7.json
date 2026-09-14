@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "The acquired\nCHF data is proposed to serve as a foundational benchmark for future research in enhancing pool boiling heat transfer."
+        },
+        {
+          "quote": "this study to\ncomprehensively evaluate boiling performance and CHF on reference surfaces to investigate the scatter's origin\nand set a definitive reference value"
+        }
+      ]
+    }
+  ]
+}

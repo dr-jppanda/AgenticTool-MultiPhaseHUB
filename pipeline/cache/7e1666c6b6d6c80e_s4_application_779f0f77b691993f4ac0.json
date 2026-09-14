@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "aerospace",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "thermal management systems as one of the top areas needing more focus due to increasing demands in space applications"
+        },
+        {
+          "quote": "With modern industries, particu­larly in space exploration, increasingly relying on cryogenic fluids that operate at extremely low temperatures, the effectiveness of these pre­dictive tools is suspect"
+        },
+        {
+          "quote": "there are several important space-related technologies demanding similar understanding for reduced gravity, especially Lunar and Martian gravities, and microgravity."
+        }
+      ]
+    }
+  ]
+}

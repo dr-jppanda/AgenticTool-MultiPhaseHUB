@@ -1,0 +1,396 @@
+{
+  "doc_id": "77b1c6e9ec2aba54",
+  "source": "papers\\ujereh_2007_effects_of_carbon_nanotube_arrays.pdf",
+  "text": "Effects of carbon nanotube arrays on nucleate pool boiling\nSebastine Ujereh, Timothy Fisher, Issam Mudawar *\nBoiling and Two-Phase Flow Laboratory and Birck Nanotechnology Center, School of Mechanical Engineering, Purdue University,\nWest Lafayette, IN 47907, USA\nReceived 8 September 2006; received in revised form 26 January 2007\nAvailable online 27 March 2007\nAbstract\nExperiments were performed to assess the impact coating silicon and copper substrates with nanotubes (CNTs) have on pool boiling\nperformance. Different CNT array densities and area coverages were tested on 1.27 1.27 mm2 samples in FC-72. The CNT preparation\ntechniques used provided strong adherence of CNTs to both substrate materials. Very small contact angle enabled deep penetration of\nFC-72 liquid inside surface cavities of smooth uncoated silicon surfaces, requiring unusually high surface superheat to initiate boiling.\nFully coating the substrate surface with CNTs was highly effective at reducing the incipience superheat and greatly enhancing both the\nnucleate boiling heat transfer coefficient and critical heat flux (CHF). Efforts to further improve boiling performance by manipulating\nCNT area coverage of the substrate surface proved ineffective; best results were consistently realized with full surface coverage. Greater\nenhancement was achieved on silicon than on copper since, compared to uncoated copper surfaces, the uncoated silicon surfaces were\nvery smooth and void of any sizeable nucleation sites to start with. This study is concluded with detailed metrics to assess the enhancement potential of the different CNT array densities and area coverages tested.\n2007 Published by Elsevier Ltd.\n1. Introduction\n1.1. Rationale\nIn 1965 Gordon Moore proposed that the density of\ntransistors on a chip will double every two years [1]. Corresponding to the tremendous enhancement in chip functionality realized with this trend has been a deleterious increase\nin the amount of heat generated per unit chip surface area.\nThe quest for increasing more effective cooling schemes has\ntherefore become a primary design concern throughout the\nmicroelectronics industry.\nAir cooling schemes are still favored, where possible, for\nheat removal from electronic devices and systems. However, the effectiveness of such schemes has been compromised by the high heat fluxes of contemporary and\nprojected high performance devices. Despite many innovative attempts to improve the heat removal capacity of aircooling systems, including the use of massive fins and high-\nperformance fans, the poor thermal transport properties of\nair limit their effectiveness. These limitations have shifted\ninterest during the past two decades to the use of liquids\nto cool high-heat-flux devices. The obvious merit in this\nshift is the enormous cooling benefit realized with the superior thermal transport properties of liquid coolants.\nLiquid cooling has been examined in a broad variety of\nflow configurations, including natural convection, channel\nflow, jet impingement and spray [2]. Each of these cooling\nconfigurations can be implemented with or without phase\nchange. Overall, phase-change cooling schemes provide significantly superior cooling performance compared to their\nsingle-phase counterparts. However, they are generally\nmore complex and more expensive to implement.\nOf all the phase-change cooling schemes, natural convection boiling, more commonly referred to as pool boiling, is the simplest to implement. The most common\ncooling system utilizing pool boiling is a thermosyphon,\nwhich\nis\nessentially\na\nclosed\nsystem\nwherein\nvapor\n0017-9310/$ - see front matter 2007 Published by Elsevier Ltd.\ndoi:10.1016/j.ijheatmasstransfer.2007.01.030\n* Corresponding author. Tel.: +1 765 494 5705; fax: +1 765 494 0539.\nE-mail address: im@mudawar.com (I. Mudawar).\nwww.elsevier.com/locate/ijhmt\nInternational Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nproduced by boiling liquid on the device surface is separated by buoyancy. The vapor is collected in the upper portion of the system where it is returned to liquid state by\ncondensation. The passive coolant circulation in a thermosyphon is central to the many advantages realized with\nthis cooling scheme. Without a mechanical pump, thermosyphons are relatively inexpensive, quiet and reliable.\nThermosyphons are therefore favored among all boiling\nschemes, provided they can satisfy the cooling requirements of high-flux devices.\nWhile thermosyphons capitalize on the merits of boiling\nto dissipate the heat, their performance is limited by the\nlow coolant flow rates induced in a stagnant liquid pool.\nHigh coolant velocities are central to the effectives of all\nother phase-change cooling schemes. Fewer options are\ntherefore available for enhancing the cooling performance\nof a thermosyphon compared to those of other cooling systems. According to Anderson and Mudawar [3], heat transfer enhancement options in pool boiling are limited to (a)\nmodifying the boiling surface, (b) subcooling the liquid to\na temperature below the saturation temperature corresponding to the pool pressure, and/or (b) increasing the\noperating pressure. 'Enhancement of pool boiling' by surface modification is a phrase commonly used in the heat\ntransfer literature that encompasses one or more of the following: (a) initiating nucleate boiling at a lower surface\ntemperature, (b) reducing and/or eliminating the temperature overshoot and ensuing temperature drop corresponding to the inception of boiling (especially for low contact\nangle liquids, including most dielectric coolants), (c) reducing surface temperature (i.e., increasing the heat transfer\ncoefficient associated with nucleate boiling), and (d)\nincreasing the upper heat flux limit for nucleate boiling -\ncritical heat flux (CHF) - in order to accommodate higher\nheat fluxes. The present study considers heat transfer\nenhancement by surface modification.\n1.2. Pool boiling enhancement literature\nPool\nboiling\nheat\ntransfer\nenhancement\nhas\nbeen\nresearched extensively over many decades. Both small-\nand large-scale modifications to the boiling surface have\nbeen shown to enhance pool boiling by reducing the\nsurface temperature corresponding to boiling incipience,\naugmenting the nucleate boiling heat transfer coefficient,\nand delaying CHF. A book by Thome [4] provides a very\ncomprehensive review of both the fundamental and practical aspects of boiling enhancement. Given the enormous\nnumber of articles and patents written on this subject,\nonly\na\nfew\nrepresentative\nand\nrelevant\nstudies\nare\ndiscussed here, with particular emphasis on low contact\nangle liquids such as those widely used in electronics\ncooling.\nEnhancing the nucleate boiling heat transfer coefficient\nis commonly realized by modifying the boiling surface in\npursuit of a greater number of nucleation sites per area\n[4]. On the other hand, CHF enhancement is commonly\nachieved by increasing boiling surface area using a variety\nof fin shapes and sizes [5,6]. Small-scale surface enhancement has been the focus of a growing number of studies\nspurred by recent improvements in the ability to create\nand characterize such surfaces. Nakayama et al. [7] showed\nthat the rate of heat transfer from a porous surface to a\ndielectric coolant depends strongly on the number, size,\nand distribution of the pores.\nSeveral commercially available surfaces have been tested\nin FC-72. These include porous sintered coatings (Union\nCarbide HIGH-FLUX), re-entrant grooves (Wielanderke\nAG GEWA-T), and tunneled surfaces formed by bending\nnotched fins (Hitachi, THERMOEXCEL-E). Of these\nthree surfaces, Marto and Lepere [8] showed that only\nthe GEWA-T surface enhanced CHF for FC-72 compared\nto a smooth surface. This enhancement was attributed to\nincreased surface area and the large spacing between re-\nentrant grooves, which resisted coalescence of vapor\ncolumns.\nAnderson and Mudawar [5] showed that the surfaces\nwith microgrooves and square microstuds are highly effective in enhancing the nucleate boiling heat transfer coeffi-\ncient in FC-72 and increasing CHF by up to 2.5 times\ncompared to a smooth surface. These enhancement effects\nwere primarily the result of increased surface area. However, these surfaces exacerbated an incipience problem\ncommonly encountered with low contact angle liquids.\nNomenclature\nCHF\ncritical heat flux\nh\nheat transfer coefficient\nhmax\nmaximum heat transfer coefficient\nq00\nsurface heat flux\nT\ntemperature\nDTsat\nsurface-to-fluid temperature difference\nGreek symbols\nkT\nTaylor wavelength\nq\nfluid density\nr\nsurface tension\nSubscripts\nf\nliquid\ng\nvapor\nmax\nmaximum\ns\nboiling surface\nsat\nsaturation\n1\nsaturated liquid pool condition\n4024\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nThese liquids have a tendency to penetrate deep inside surface cavities, requiring unusually high levels of superheat to\ninitiate the boiling process.\nIn a follow-up study, Mudawar and Anderson [6] developed\na\nthree-level\nsurface\nenhancement\ntechnique\nespecially suited for low contact angle dielectric liquids.\nThe first level was a centimeter-sized cylindrical stud that\ngreatly increased heat transfer area. The second consisted\nof millimeter-sized fins that were machined along the circumference of the stud to further increase heat transfer\narea. The third enhancement level consisted of micronsized cavities that were formed by blasting the entire surface with a water-based slurry of 12,000 grit silica particles.\nThis third level greatly increased the number of nucleation\ncavities per unit surface area. These types of surfaces were\nshown to eliminate the aforementioned incipience problem\nand enhance CHF by five and eight fold in saturated and\nsubcooled FC-72, respectively.\nRecently, Honda et al. [9,10] showed that silicon surfaces with nanoscale (25-32 nm) roughness yield better\ncooling with FC-72 than micro-pin-finned silicon surfaces\nin the lower heat flux boiling region. CHF values for the\nnano-roughened surface and micro-pin-finned surfaces\nwere respectively 1.8 to 2.2 and 2.3 times those for smooth\nsilicon.\n1.3. Carbon nanotubes (CNTs)\nThe present study concerns the use of carbon nanotubes\n(CNTs) to enhance nucleate pool boiling. CNTs are extremely thin tubes of graphitic carbon with outer diameters\nranging from 1 to 100 nm and lengths from 1 to 50 lm. Iijima [11] reviewed the recent trends and advancements in\nthe understanding of these structures. CNTs take the form\nof single-walled nanotubes (SWNTs) or multi-walled nano-\ntubes (MWNTs). SWNTs are made from a single graphene\nsheet, whereas MWNTs are made from multiple sheets. A\ngraphene sheet consists of hexagonally arranged groups of\ncarbon atoms. The discovery of CNTs generated great\ninterest in the scientific community because their unique\nproperties promise many applications. Most important\namong these properties are: mechanical strength superior\nto steel, density lower than aluminum, low-field electron\nemission, ultra-high electrical and thermal conductivity,\nneedle-like structure, and thermal stability up to 1400 C\nin vacuum. Possible applications of CNTs include flat\npanel displays (due to electron emission characteristics),\nprobe tips (due to their needle-like structure), and various\napplications in electronics and thermal management that\ncapitalize upon their excellent thermal conductivity and\nhigh mechanical strength.\nKim et al. [12] showed that the MWNTs can possess\nthermal conductivities in excess of 3000 W/m K at room\ntemperature. This value is nearly eight times the conductivity of copper under similar conditions. This attribute renders CNTs very attractive for many demanding heat\ntransfer applications.\n1.4. Objectives of study\nFor a high-heat-flux surface that is coated with CNTs,\nvery high thermal conductivity ensures that any added\nthermal resistance is small. Additionally, anchoring a mesh\nof billions of CNTs per square centimeter to the substrate\nsurface is believed to greatly increase the number of bubble\nnucleation sites, thus both reducing the incipience temperature overshoot and increasing the nucleate boiling heat\ntransfer coefficient during fully developed boiling. A\nunique feature of a CNT mesh is its three-dimensional\nstructure, which provides an opportunity for capillary\nforces to route liquid laterally across the surface in order\nto maintain the boiling process during severe vapor effusion. This situation differs vastly from that of more conventional porous surfaces that only contribute increased\nnucleation site density. The CNT mesh is also believed to\nincrease surface area corresponding to a very mild increase\nin volume, thus the potential for enhancing CHF compared\nto a bare surface. Given the aforementioned strong sensitivity of boiling behavior to even minute changes to surface\nmicrostructure, it is believed that CNT coating may have a\nprofound effect on pool boiling performance.\nThe present study examines the effectiveness of CNTs in\nenhancing nucleate pool boiling by (a) capitalizing on their\nhigh thermal conductivity, (b) manipulating their anchoring, alignment and density on a substrate surface, and (c)\nmodifying CNT coverage of the surface. The enhancement\npotential of CNTs is assessed by comparing the boiling performance of CNT-coated surfaces to those for bare surfaces. Results are presented for both silicon and copper\nsubstrates.\n2. Experimental methods\n2.1. Test heater construction\nExperiments were performed to simulate chip heat dissipation and cooling. As shown in Fig. 1, heat was supplied\nfrom a 90 X thick film resistor that was soldered to the\nunderside of an oxygen-free copper block. Two solder pads\nalong opposite edges of the resistor were used to connect\npower lead wires to an external Variac. High-temperature\nsolder (melting point of approximately 300 C) attached\nthe resistor to the copper block as well as the power leads\nto the resistor's pads. As shown in Fig. 2(a), different\nenhanced surface configurations took the form of a square\nchip (silicon or copper) that was adhered to the top surface\nof copper block, sealed circumferentially by a continuous\nbead of high-temperature RTV silicone rubber.\nAs shown in Fig. 2(a), the test heater was mounted in an\nassembly that provided thermal insulation along all sides of\nthe copper block, insuring negligible heat loss from the test\nheater. The rate of heat dissipation from the test heater was\ntherefore equal to the electrical power input to the resistive\nheater, which was measured by a Yokogama power meter.\nA K-type (Chromel-Alumel) thermocouple was embedded\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4025\nin the copper block to measure the block's temperature.\nThe surface temperature, Ts, was extrapolated from the\nmeasured temperature by assuming one-dimensional conduction and a constant thermal conductivity (400 W/\nm K) for copper. Attaching a silicon or copper chip atop\nthe copper block was accounted for by adding a thermal\nresistance corresponding to the thickness and conductivity\nof the chip and bonding medium.\nBoiling performance in this study was investigated with\nthe aid of plots of heat flux, q00, versus surface-to-fluid temperature difference, DTsat(=Ts T1). The heat flux was\ncalculated as the electrical power input divided by the top\nFig. 2. Schematics of (a) heater module assembly and (b) boiling facility.\nFig. 1. (a) Construction of a test heater. (b) Dimensions of copper heating block.\n4026\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\narea of the test chip, and T1 is the average of temperatures\nmeasured by two thermocouples immersed in the saturated\nliquid pool.\n2.2. Test facility\nAfter the enhanced surface was prepared, the test heater\nassembly was mounted to the bottom of a rectangular\nchamber as shown in Fig. 2. The chamber was filled with\nFC-72 liquid to a level several centimeters above the test\nchip. Cartridge heaters located at the bottom of the chamber were used to bring the FC-72 liquid to its saturation\ntemperature and maintain it thereafter. These cartridge\nheaters were situated at the back of the chamber, separated\nfrom the bulk of the liquid pool by a metal plate, so as to\npreclude any natural convection currents or bubbles from\ninfluencing liquid motion in the vicinity of the test chip.\nCooling water was supplied through a coil located in the\nupper portion of the chamber to condense the vapor generated during the tests.\nThe test heater and pool temperatures were measured\nand processed using a NI Daqpad 4350 interfaced to a\nNI TC 2190 thermocouple port made by National Instruments. The uncertainty in power supply is estimated to\nbe 1% (device and measurement) and in thermocouple\nmeasurement is +/ 0.5 C. Heat loss is estimated at less\nthan 5% of the electrical power input (see [13] for further\ndetails on heater construction and losses).\n2.3. Operating procedure\nAssessing the relative merits or drawbacks of a given\nsurface required formulating and adopting a consistent\noperating procedure throughout the study. Tests began\nby filling the test chamber with two gallons of FC-72 at\natmospheric pressure. Power to the pool's cartridge heaters\nwas ramped to 90 W to preheat the liquid. After reaching\nits saturation temperature (56.6 C), the liquid was allowed\nto boil vigorously for 45 min. to expel noncondensible\ngases. The cartridge heaters' power was subsequently\nreduced to 50 W to maintain saturated conditions. Concurrently, the power was supplied to the test heater to maintain fully developed boiling on the test surface for a few\nminutes before being reduced back to zero. This procedure\nhelped to remove any air entrapped in the test surface itself\nduring initial filling of the chamber.\nBoiling tests commenced by increasing power input to\nthe test surface in 0.5 W/cm2 increments. Data were\nrecorded between power increments after the test heater's\nthermocouple indicated that steady-state conditions had\nbeen reached within \u00b10.4 C. Typical waiting periods to\nreach steady state ranged from 2 min. for lower heat fluxes\nto 5 min. near CHF. Incrementing power in this manner\nand recording steady-state temperature following each\npower increment enabled the generation of a boiling curve\nup to the CHF point. CHF was detected by a rapid,\nunsteady rise in the test heater's temperature. The power\ninput was quickly reduced by about 1 W/cm2 and then\nincreased again in 0.2 W/cm2 increments to obtain a more\naccurate CHF measurement. The power was then removed\nto prevent any damage to the test heater.\n2.4. Carbon nanotube synthesis\nTo produce CNTs, a catalyst is required to initiate the\ngrowth of these microtubules of graphitic carbon. Several\ntransition metals have been shown to produce CNTs; those\nmost common are iron, cobalt, and nickel. In this study, all\nCNTs were produced using an iron catalyst because it\nyielded the most consistent and repeatable results.\nApplication of the catalyst to produce CNT growth can\nbe achieved in several ways, depending on substrate material and CNT layout. In all cases a titanium under-layer\nwas used. The present study capitalized on titanium's\ninherent ability to bond to other molecules in order to produce CNTs that are well anchored to a substrate. CNT\nanchoring is important for two reasons. First, well-\nanchored tubes facilitate minimal resistance to the heat\ntransfer. Secondly, well-anchored CNTs are better able to\nwithstand the vigor of the boiling process and help to\nmaintain consistency and repeatability between tests.\n2.4.1. Dendrimer catalyst sample preparation\nDendrimers are branched polymers that contain small\nvoids capable of hosting minute quantities of other materials [14]. In the current work, processes described in [15]\nwere employed to develop a dendrimer containing iron catalyst particles dispersed in these voids. This approach has\nbeen shown to improve the uniformity of CNT diameters\n[15] and to enable low-temperature synthesis [16].\n0.42 g of a fourth-generation (G4) PAMAM (polyamidoamine) dendrimer with amine peripheral groups, made\nby Dendritic Nano Technologies, was dissolved in 20 mL\nof water. Separately, 0.5 g of FeCl3 6H2O (Aldrich) was\ndissolved in 20 mL of water. The two solutions were mixed\nand stirred vigorously for 2 h. A 30-100 nm titanium layer\nwas deposited on the cleaned substrate using a Varian electron beam evaporator. The substrate was then dipped in\nthe catalyst solution for various durations. The dendrimer\nwas removed by mild calcination of the immobilized catalyst at 550 C for 30 min to avoid passivation of the catalyst by the dendrimer. The calcination temperature was\nkept low to decrease the aggregation of the metallic clusters. The calcined catalyst was instrumental in the growth\nof CNTs in a plasma enhanced chemical vapor deposition\n(PECVD) system under optimal conditions.\n2.4.2. Tri-layer metal catalyst sample preparation\nA clean sample was placed in a Varian electron-beam\nmetal evaporation system. 30 nm of titanium, 10 nm of aluminum, and 6 nm of iron were deposited in sequence on the\nbare substrate. Use of titanium and iron was discussed earlier. The purpose of the aluminum mid-layer was to prevent\npoisoning of the iron catalyst by the titanium, and also to\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4027\npromote aggregation of the iron film into nanoparticles\n[17].\n2.4.3. Plasma enhanced chemical vapor deposition\n(PECVD) system growth\nThe CNTs were grown in a PECVD system under conditions described by Maschmann et al. [18]. The conditions\nchosen for the iron catalyst include growth at 900 C with a\nmethane flow rate of 5-10 sccm (standard cubic centimeters\nper minute) and a hydrogen flow rate of 50 sccm. The process was run for 20 min to maximize CNT length and density on the substrate. The resulting CNT array is best\ndescribed as a 'random mat' of MWNTs and not an\nordered array.\n2.5. Silicon boiling substrates\nAs in many prior electronic cooling studies, silicon was\nused as substrate to reproduce the thermal response of\ncomputer chips. This section describes the preparation of\nCNT coatings on a silicon substrate.\n2.5.1. Bare silicon surface\nFloat zone silicon wafers were used for all tests involving silicon substrates. These double-side-polished silicon\nwafers have a diameter of 100 mm, a thickness of\n400 lm, and a bulk resistivity in excess of 15,000 X-cm.\nThe bare silicon substrates were formed by dicing the wafer\ninto 12.7 mm 12.7 mm square chips using a Tempress\n602 dicing saw. As illustrated in Fig. 2(a), the square chip\nwas adhered to the top surface of the copper heater block\nusing 25 lm indium foil made by Honeywell. The thermal\nresistance introduced by this layer was measured previously [17] and was used to calculate the surface temperature as described above. Extreme care was exercised to\nensure the silicon surface remained scratch-free throughout\nthe adhesion process. Indium was quite effective for the\npurposes of the present study because of its malleability\nand ease of handling. In addition, indium's low melting\npoint (156 C) facilitated good adhesion by heating the test\nheater in a Lindberg Blue industrial oven preset to 175 C.\nThis simple indium adhesion technique eliminated the need\nfor frequent handling of the silicon chip and furthered the\nend goal of protecting the surface from asperities. Furthermore, this technique ensured a consistent thickness of the\nadhesive layer.\n2.5.2. CNT-coated silicon surface\nA four-inch double-side-polished silicon wafer was diced\ninto 12.7 mm 12.7 mm squares. For the CNT-coated\nsamples, a diamond-tipped scribe was used in place of\nthe dicing saw to keep the silicon surface free from contaminants that may react with the CNT growth catalyst.\nThe titanium-coated chip was dipped in a dendrimer\ncatalyst solution as described earlier to yield a CNT array\nwith complete surface coverage. The CNT-coated silicon\nchip was then adhered to the top surface of copper heater\nblock using indium foil. Once the CNTs were grown, and\nthroughout the adhesion process, extreme care was exercised to avoid any damage to the CNTs, as even a brush\nwith a fingertip might cause such damage. Fig. 3 shows a\nphotograph of the CNT-coated silicon chip and scanning\nelectron microscope (SEM) images of its surface. The\nresulting MWNTs are estimated to be approximately\n50 nm in diameter and 20-30 lm long. These dimensions\nwere consistent throughout the study; however, two different array densities were realized by altering the duration of\nsubmersion in the dendrimer solution between 12 and 24 h.\nThe density of the primary ('light') CNT array is estimated\nto be 30 CNTs/lm2. A second ('dense') CNT array had\ntwice the density, 60 CNTs/lm2. These density values are\napproximations based on analysis of the SEM images.\n2.5.3. 'Grid' CNT pattern on silicon\nTests were conducted to explore the effects of partial\ncoverage of the silicon surface with CNTs. Two CNT layouts were investigated: a 'grid' pattern, and an 'island' pattern. The 'grid' pattern's design was based on the Taylor\ninstability wavelength [5],\nkT 1\u20444 2p\nr\ng\u00f0qf qg\u00de\n\"\n#1=2\n;\n\u00f01\u00de\nwhich is estimated at 5.0 mm for saturated FC-72 at one\natmosphere. As shown in Fig. 4, the 'grid' array was sized\nto manipulate the Taylor wavelength to investigate whether\nthis approach can delay in the onset of instability and\ntherefore increase CHF. This effect will be discussed later.\nThe 'grid'-patterned chip was prepared using 3 M Kapton Tape. Initially, the tape fully covered the surface of a\nsilicon chip. The tape was then cut to the pattern shown\nin Fig. 4 using a razor blade to expose the hatched pattern.\nSubsequently, the wafer was immersed in a dendrimer catalyst solution. CNTs were then grown on only the exposed\nsurface as described earlier. The resulting CNT array density is estimated at 20 CNTs/lm2.\n2.5.4. 'Island' CNT pattern on silicon\nThe 'island' pattern was devised following preliminary\nexperiments, which showed highly dense arrays of CNTs\nfully coated on a surface have adverse effects on heat transfer performance. The aim here was to create a CNT surface\nthat is sparsely coated with CNT array clusters in order to\nfurther examine the effects of array surface coverage.\nA shadow mask surface was created using a different\ncatalyst application technique due to the size of the desired\n'islands'. The catalyst was applied using the tri-layer metal\nevaporation technique described earlier. The shadow mask\nhad 250 lm diameter holes with a uniform pitch of\n1000 lm. The shadow mask was placed between the evaporating metal and the silicon substrate to produce the CNT\ncatalyst 'islands' depicted in Fig. 5. Once again, the CNTs\nwere synthesized using PECVD at standard conditions.\n4028\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nThe array density for this patterned substrate was approximately 20 CNTs/lm2.\n2.6. Copper boiling substrates\nCopper is another important substrate material for chip\ncooling because it can be formed into complex finned surfaces that can be attached onto silicon chips. The aim in the\npresent copper surface experiments was to investigate how\nCNTs may enhance boiling performance for both a flat\ncopper surface as well as for a copper surface with micro-\nstuds. We note that all CNT synthesis products on copper\nsubstrates shown below exhibit lower density and quality\nthan those on silicon substrates. Possible explanations for\nthis observation include catalyst contamination from diffusion of copper and surface roughness effects that affect catalyst particle aggregation during the growth process.\n2.6.1. Flat copper surfaces\nA bare copper surface served as reference for comparing\nthe performances of the other copper surfaces. A copper\nchip was machined to the same size of the aforementioned\nsilicon chips. The copper surface was then sanded with 400-\ngrit sandpaper and cleaned thoroughly with methanol.\nAtomic force microscope (AFM) characterization revealed\nthat the resulting surface possessed an abundance of 5-\n10 lm surface grooves.\nA CNT-coated copper chip was formed by growing\nCNTs on a copper chip identical to the bare copper chip.\nIn this case, a 30 nm titanium layer was first deposited on\nFig. 3. (a) Photograph of silicon wafer and SEM images of silicon surface coated with (b) light CNT array and (c) dense CNT array.\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4029\nFig. 4. (a) SEM images and (b) CNT layout on 'grid'-patterned surface.\nFig. 5. (a) SEM images and (b) CNT layout on 'island'-patterned surface.\n4030\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nthe copper surface. A dendrimer catalyst was used to synthesize CNTs on the surface as described earlier. Fig. 6\ndepicts SEM images of the CNT-coated copper surface.\nThe CNT array density for this surface is estimated to be\n10 CNTs/lm2.\n2.6.2. Microstud surfaces\nFig. 7a shows a schematic of a copper chip featuring an\narray of 0.25 mm square microstuds. This copper chip was\nadhered to the original copper heater block using indium\nfoil.\nCNTs were grown on the copper microstud surface\nusing the tri-layer catalyst. The resulting surface is depicted\nin Fig. 7b. The array density for this surface is approximately 10 CNTs/lm2. It is important to note that the\nCNT catalyst application process precluded CNT growth\nalong the circumference of the individual microstuds.\n3. Experimental results\n3.1. Boiling curve analysis parameters\nBoiling curves were produced for different silicon and\ncopper substrates. The boiling heat transfer coefficient, h,\nat any heat flux along the boiling curve was calculated as\nthe ratio of heat flux to surface-to-fluid temperature difference, q00/(Ts T1).\nSeveral parameters were used to characterize the performance of a given surface.Boiling incipience superheat is the\nwall superheat (Ts T1) corresponding to first bubble formation on the surface. Full nucleation coverage is defined\nas the lowest heat flux condition at which the surface\nbecame fully covered with nucleating bubbles. The fully\ndeveloped pool boiling (FDB) superheat is defined as the\nsurface-to-fluid temperature difference corresponding to\nfull nucleation coverage. Another parameter that was used\nin assessing the merits of different surfaces is the maximum\nheat transfer coefficient, hmax, which is the largest heat\ntransfer coefficient value determined along the entire boiling curve of a given surface. Lastly, surfaces were also\nrated based on critical heat flux (CHF) value.\n3.2. Silicon substrate results\n3.2.1. Bare silicon surface\nThe bare silicon surface served as the primary control\nfor the boiling performance comparisons. Fig. 8 shows\nthe results of the tests that were conducted with three separate but identical bare silicon samples. Overall, good\nagreement is evident in the single-phase natural convection\nregion, the nucleate boiling region, and CHF. However,\nthere are appreciable inconsistencies in the inception of\nboiling. Incipient temperature drop is nonexistent for surface A, mild for surface C and severe for surface B; differences in incipient superheat among the three surfaces are as\nhigh as 70%. This high degree of inconsistency is one of the\nkey challenges facing the implementation of pool boiling in\nelectronic cooling applications [5]. Two other challenges\nFig. 6. SEM images of CNT-coated flat copper surface.\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4031\nare relatively high superheat in the nucleate boiling region\nand low CHF.\nThe large and often erratic boiling inception on bare silicon surfaces is problematic for two reasons. First, it may\ntrigger large oscillations in chip temperature during chip\npower fluctuations. Second, a large incipient superheat\ncan send a chip surface to temperatures far exceeding levels\nrequired for reliable chip performance. The large incipience\nsuperheat is the result of both fluid properties and surface\ntexture. Like all dielectric coolants, FC-72 has a very small\ncontact angle on most surface materials. This allows FC-72\nliquid to penetrate deep inside any available surface cavities, depriving the cavities from the sizable vapor embryos\nrequired to initiate boiling as surface temperature is slowly\nincreased above saturation. The radius of curvature for any\nminute surface embryo that might form inside a cavity is\nFig. 7. (a) Dimensions of copper microstud surface. (b) SEM images of CNT-coated copper microstud surface.\n4032\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nquite small. The superheat required to grow an embryo\nbeyond the mouth of a cavity is inversely proportional to\nthe embryo's radius of curvature [4] and is therefore quite\nlarge for FC-72. While this behavior is true for FC-72 on\nmost surfaces, it is especially problematic on a smooth silicon surface, which has very few sizeable cavities to start\nwith. This means the difficulty initiating boiling in FC-72\nis further exasperated on a smooth silicon surface.\n3.2.2. CNT-coated silicon surface\nA second series of experiments was conducted to explore\nthe repeatability of boiling behavior on a fully CNT coated\nsilicon surface, as well as to assess the impact of CNT density\non boiling performance. Fig. 9 shows the results of two separate tests involving the 'light' CNT array (30 CNTs/lm2)\nalongside those for the 'dense' CNT array (60 CNTs/lm2).\nThe two light array tests show good repeatability throughout the nucleate boiling region, with incipient superheats\nof 7.9 and 7.1 C and corresponding CHF values of 18.1\nand 17.1 W/cm2. The dense array shows a noticeable\ndecrease in the incipience superheat as well as a shift of the\nentire nucleate boiling region (2 C at FDB) toward lower\nwall superheats. This heat transfer coefficient enhancement\nappears to be the result of the increased nucleation site density for the dense array. Notice, however, the inferior CHF\nvalue for the dense array. Referring to Fig. 3, it appears that\nthe 'light' array provides greater accessible surface area compared to the more closely packed dense array. This may partially explain the superior CHF for the 'light' array. Clearly,\narray density yields conflicting performance effects. Optimum array density therefore depends on the primary purpose of the surface enhancement. It is important to note\nthat no significant degradation of CNTs was observed in\nsubsequent tests using the same fully CNT-coated silicon\nsurface, suggesting that the CNTs were well anchored to\nthe substrate.\nFig. 10a compares boiling curves for a fully CNT-coated\nsilicon surface (light array test 1) and a bare silicon surface\n(sample A). The comparison reveals a 45% increase in CHF\nand a 67% decrease in incipience superheat for the CNT-\ncoated surface. Furthermore, the maximum heat transfer\ncoefficient for the CNT-coated surface is 18,200 W/m2 K\ncompared to only 3,300 W/m2 K for bare silicon, a 450%\nenhancement. Based on visual observation, fully developed\nboiling for the bare silicon surface occurred at a superheat\nof 32 C compared to only 10 C for the CNT-coated surface. Fig. 10b shows images of the boiling surface for conditions indicated in Fig. 10a. Most noticeable is the\ninception of boiling on the CNT-coated surface at a much\nlower heat flux and lower superheat than the bare silicon.\nThese trends point to the effectiveness of CNTs at both\ninitiating and sustaining the nucleation process. As indicated earlier, incipience with FC-72 is quite challenging\non most surfaces, let alone a smooth silicon surface. The\nrandom mesh of CNTs appears to alter the vapor embryo\nentrapment process in several ways. This mesh includes\npatches of nearly vertical and parallel CNTs, other patches\nwith nearly intersecting CNTs, and voids between CNTs\nand the different patches. Parallel CNTs create steep cavities with nearly zero effective cone angle. Such cavities\nare ideal for low contact angle liquids such as FC-72 since\nthey have a tendency to trap vapor embryos regardless of\ncontact angle. Intersecting patches of CNTs play a similar\nrole by creating near zero cone angle cavities [19]. Finally,\nthe voids act as 'reservoir-type' cavities that are ripe for\nnucleation with minimal superheat. In addition, the CNTs\ncontribute significant surface area enhancement corresponding to only a minute increase in CNT volume. The\nhigh thermal conductivity of CNTs is believed to aid the\nutilization of surface area by facilitating extremely low\nresistance to conduction heat transfer. These combined\neffects may also explain the nearly vertical slope of the boiling curve for the CNT-coated surface. Such a slope is\nhighly desirable in electronics cooling because it allows a\nchip to maintain a fairly constant temperature corresponding to relatively large fluctuations in heat dissipation during\nchip\noperation.\nMaintaining\na\nconstant\nchip\ntemperature in this manner precludes thermal cycling in\nan electronic package and contributes to longer chip life\nand more reliable performance.\nFig. 8. Comparison of boiling curves for bare silicon surfaces.\nFig. 9. Comparison of boiling curves for fully CNT-coated silicon\nsurfaces.\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4033\n3.2.3. 'Grid' and 'Island' CNT patterns on silicon\nTwo key parameters of CNT-coating are array density\n(as discussed earlier) and coverage of the chip's surface.\nTo explore the effects of area coverage, boiling experiments\nwere performed with silicon surfaces having the 'grid' and\n'island' patterns shown in Figs. 4 and 5, respectively.\nFig. 11 compares boiling curves for these two surfaces\nalongside those for the fully CNT-coated (light array)\nand bare silicon surfaces (sample B).\nAs discussed earlier, the 'grid' pattern was selected based\non the Taylor instability wavelength and had CNT arrays\ncovering approximately 60% of the total silicon substrate\narea. The width of the CNT grid is half the Taylor wavelength. The boiling incipience superheat with the 'grid' pattern is 12.7 C, which is 46% lower than for bare silicon\n(sample A). The 'grid' surface also yielded a maximum heat\ntransfer coefficient of 12,700 W/m2 K, a 285% improvement over bare silicon. These results further confirm the\neffectiveness of CNT coating at enhancing nucleate boiling.\nFig. 11 shows a slight incipient overshoot for the 'grid'\nFig. 10. (a) Comparison of boiling curves for bare and fully CNT-coated silicon surfaces, and (b) corresponding boiling photographs.\nFig. 11. Boiling curves for fully CNT-coated, CNT-patterned, and bare\nsilicon surfaces.\n4034\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\nsurface; however, upon incipience, 90% of the CNT surface\nwas nucleating. Repeat experiments yielded similar results.\nCHF for the 'grid' surface was 15.8 W/cm2, a 26% increase\ncompared to bare silicon. This improvement is smaller than\nthat realized with the fully CNT-coated silicon surface and\nis a clear indication that the attempt to enhance CHF by\nhalving the Taylor instability wavelength did not yield the\nintended effect. Nonetheless, the array's effective heat transfer coefficient (slope of the boiling curve) is very similar to\nthat for the fully coated surface. Further, this performance\nis realized with only 60% CNT surface coverage. Two consecutive boiling tests using the same 'grid' pattern showed a\n67% difference in incipience superheat, followed in each case\nby a measurable temperature drop. This may be attributed\nto the existence of relatively large bare areas that resist\nnucleation. The two 'grid' pattern tests showed good repeatability in the nucleate boiling region with superheat values\ndiffering by less than 2% and a CHF difference of 5%.\nThe 'island' pattern provided approximately 5% CNT\ncoverage of the total silicon surface area. This pattern also\npossessed light CNT array density. Fig. 11 shows an incipience superheat for this surface of 15.6 C, and 18 C super-\nheat\nat\nfull\nnucleation\ncoverage.\nThese\nvalues\nare,\nrespectively, 34% and 44% lower than for bare silicon.\nThe maximum heat transfer coefficient in this case is\n4,562 W/m2 K, a 38% increase compared to bare silicon.\nFinally, CHF occurred at 14.4 W/cm2, which is 15% higher\nthan for bare silicon. Similar to the 'grid' surface, the\n'island' array showed no improvement in boiling performance metrics compared to the fully CNT-coated surface.\nNonetheless, even with its minimal surface coverage (5%),\nthe 'island' pattern yielded a substantial improvement in\nboiling performance compared to bare silicon. This is further evidence of the effectiveness of CNT arrays in general\nat enhancing pool boiling performance. However, results\nfor the 'island' surface were somewhat less reproducible\nthan for the 'grid' surface. This is evidenced by over 10%\nsuperheat differences in the fully developed boiling region\nand CHF differences in excess of 5%.\nOverall, Fig. 11 shows a monotonic enhancement in\nboth nucleate boiling heat transfer coefficient and CHF\nas CNT coverage of the silicon surface is increased from\nzero (bare surface) to 5% ('island' pattern), 60% ('grid' pattern), and ultimately to 100% (fully coated).\n3.3. Copper substrate results\n3.3.1. Bare and CNT-coated copper surfaces\nFig. 12 compares boiling results for the bare flat copper\nand CNT-coated copper surfaces. The incipience and fully\ndeveloped boiling superheats for the CNT-coated copper\nsurface are 8.4 and 8.7 C, 40% and 37% smaller than bare\ncopper, respectively. The maximum heat transfer coeffi-\ncient and CHF are, respectively, 33% and 6% greater than\nfor bare copper. Overall, the most impressive attribute of\nthe CNT coating is the ability to sustain appreciably lower\nsuperheats compared to bare copper even at conditions\napproaching CHF.\nWhile these results do point to significant enhancement\nin heat transfer performance with CNT coating, this\nenhancement is less substantial than on silicon, as shown\nin Fig. 10. This observation may be explained by the initial\nroughness of the bare copper surface providing some\nenhancement compared to a bare silicon surface. The initial\nroughness was the result of pre-treating the bare copper\nsurface with 400-grit paper. This treatment served to\nreduce both the incipience superheat and the superheat corresponding to fully developed boiling.\nTests were repeated for both the bare and CNT-coated\ncopper surfaces. The bare surface showed significant variability in incipience superheat (more than 6 C) and fully\ndeveloped boiling superheat (over 48%). CHF values differed by only 4%. Conversely, the CNT-coated copper surface\nshowed\nexcellent\nrepeatability,\nwith\nvariations\nbetween two tests of only 1% for the fully developed boiling\nsuperheat and less than 1% for CHF.\n3.3.2. Uncoated and CNT-coated copper microstud surfaces\nFig. 13 shows that CNTs greatly enhance the nucleate\nboiling performance of the microstud surface, but at the\nFig. 12. Boiling curves for bare copper and fully CNT-coated copper\nsurfaces.\nFig. 13. Boiling curves for bare and CNT-coated microstud surfaces.\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4035\nexpense of a noticeable (20%) reduction in CHF. Boiling\nincipience and fully developed boiling superheats were\nimproved by 42% and 22%, respectively, and the maximum\nheat transfer coefficient by 145% over the uncoated micro-\nstud surface. The relatively poor CHF performance of the\nCNT-coated surface may be partially explained by the\nabsence of CNTs along the circumference of the micro-\nstuds. Additionally, the thermal resistance of the copper\nmicrostuds themselves appears to reduce the effectiveness\nof the top CNT-coated surfaces of the microstuds compared to the CNT-coated base area between microstuds.\nNear CHF, the heat flow is biased to the CNT-coated base\narea, inducing severe vapor coalescence in the base region\nthat engulfs the circumference and top surfaces of the\nmicrostuds.\nTwo separate tests with the uncoated microstud surface\nshowed 8% deviation in fully developed boiling superheat\nand 1% difference in CHF. Repeatability tests with the\nCNT-coated microstud surface showed zero deviation in\nfully developed boiling superheat and 3% in CHF.\n3.4. Summary of performance metrics\nTable 1 provides a summary of boiling performance\nmetrics for the different surface materials, CNT array densities and CNT area coverages tested in the present study.\nPerformance parameters for different silicon tests are compared in absolute and percent change terms to those for\nbare silicon. Similarly, copper tests are compared to bare\ncopper. A clear trend emerges from this table. Excepting\nthe fully-coated 'dense' CNT array case (which provided\nslightly lower superheat but lower CHF values than the\nfully-coated 'light' CNT array case), best overall results\n(lowest incipience superheat, lowest fully developed boiling\nsuperheat, highest boiling heat transfer coefficient, and\nhighest CHF) were achieved by fully coating surfaces with\na 'light' CNT array. Furthermore, the relative improvements are far more impressive for silicon because, as mentioned earlier, the reference uncoated silicon surface was\nvery smooth and free of sizeable nucleation sites to start\nwith.\n4. Conclusions\nThis work has examined the effectiveness of carbon\nnanotubes (CNTs) in enhancing the pool boiling performance of low-contact-angle dielectric liquid FC-72 on silicon and copper surfaces similar to those used in the\nelectronics industry. Such liquids pose several challenges\nto the implementation of pool boiling schemes, including\nlarge and erratic incipient boiling superheat and low\nCHF. Different CNT array densities and area coverages\nwere tested to address these shortcomings. Boiling curves\nwere generated to determine key performance metrics for\ndifferent substrate materials and CNT patterns. Key findings from this study follow.\nTable 1\nSummary of boiling metrics for different surfaces tested\nSurface\nCHF (W/cm2)\n(% change)\nIncipience\nsuperheat ( C)\n(% change)\nFully developed\nboiling superheat\n( C) (% change)\nhmax (W/m2 K)\n(% change)\nSilicon\nSmooth silicon\nSample A\n12.5\n23.7\n31.9\n3,299\nSample B\n11.8\n39.5\n28.5\n3,197\nSample C\n11.4\n23.3\n33.2\n3,104\nFully CNT-coated silicon\nLight array, test 1\n18.1 (44.8%)\n7.9 ( 66.7%)\n10.2 ( 68.0%)\n18,200 (452%)\nLight array, test 2\n17.1 (36.8%)\n7.1 ( 70.0%)\n9.3 ( 77.9%)\n15,732 (377%)\nDense array, test 1\n13.3 (6.4%)\n7.2 ( 69.6%)\n8.4 ( 73.7%)\n12,376 (275%)\nDense array, test 2\n13.3 (6.4%)\n7.9 ( 66.7%)\n8.3 ( 74.0%)\n13,348 (305%)\nPatterned CNT on silicon\n'Grid' array, test 2\n15.8 (26.4%)\n12.7 ( 46.4%)\n12.7 ( 60.2%)\n12,700 (285%)\n'Grid' array, test 1\n15.0 (20.0%)\n21.2 ( 10.6%)\n21.2 ( 33.5%)\n11,800 (258%)\n'Island' array, test 2\n14.4 (15.2%)\n15.6 ( 34.2%)\n18.0 ( 43.6%)\n4,562 (28.3%)\n'Island' array, test 1\n13.6 (8.8%)\n14.0 ( 40.9%)\n16.1 ( 49.5%)\n6,097 (84.8%)\nCopper\nBare copper\nTest 2\n18.4\n13.9\n13.9\n13,200\nTest 1\n17.7\n7.2\n7.2\n9,540\nFully CNT-coated copper\nTest 2\n19.5 (6.0%)\n8.4 ( 39.6%)\n13.9 (0%)\n17,510 (32.7%)\nTest 1\n19.4 (5.4%)\n7.9 ( 43.2%)\n8.8 ( 36.7%)\n17,111 (29.6%)\nUncoated copper microstud\nTest 2\n32.3 (75.5%)\n9.4 ( 32.4%)\n11.5 ( 17.3%)\n10,800 ( 18.2%)\nTest 1\n31.9 (73.4%)\n9.1 ( 34.5%)\n10.6 ( 23.7%)\n11,900 ( 9.9%)\nCNT-coated copper microstud\nTest 1\n26.0 (41.3%)\n5.5 ( 60.4%)\n9.0 ( 35.3%)\n26,500 (100.8%)\nTest 2\n25.2 (37.0%)\n5.1 ( 63.3%)\n9.0 ( 35.3%)\n23,930 (81.3%)\nComparisons for silicon surfaces are referenced to smooth surface sample A. Comparisons for copper surfaces are referenced to bare copper test 2.\nReference conditions for each material are those that yielded the highest CHF value in repeatability tests.\n4036\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n(1) The techniques developed in this study yield strong\nanchoring of CNTs to both silicon and copper sub-\nstrates. This attribute was true for all CNT-coated\nsurfaces tested and verifies by remarkable repeatability in boiling performance. Aside from minimizing\nresistance to heat transfer, these well-anchored CNTs\nappear fully capable of withstanding the vigor of the\nboiling process.\n(2) Very small contact angle enables FC-72 liquid to penetrate deep inside surface cavities on uncoated surfaces, depriving the cavities from the sizable vapor\nembryos required to initiate the boiling. The small\nvapor embryos available deep inside the cavities\nrequire unusually high superheat. This problem is\nexacerbated on smooth silicon surfaces that possess\nvery few sizeable cavities to start with. The large\nincipient temperature and ensuing temperature drop\nare completely eliminated when silicon and copper\nsurfaces are fully coated with CNTs.\n(3) Fully coating the substrate surface with CNTs is\nhighly effective at both initiating and sustaining the\nnucleation process by altering the process of vapor\nembryo entrapment. The CNT mesh provides an\nabundance of zero cone angle and 'reservoir-type'\ncavities that are ripe for nucleation with minimal\nsuperheat. These combined effects may also explain\nthe nearly vertical slope of the boiling curve, which\nis highly desirable in electronic cooling because it\nallows a chip to maintain a fairly constant temperature corresponding to relatively large fluctuations in\nheat dissipation during chip operation.\n(4) Increasing CNT mesh density on silicon at the nano-\nscale reduces wall superheat slightly at incipience.\nHowever, highly dense CNT arrays also decrease\nCHF by reducing effective surface area. It is proposed\nthat future research in which array density can be\ncontrolled and accurately evaluated should be investigated in optimizing both nucleate boiling wall\nsuperheat and CHF.\n(5) Macroscale attempts to manipulate the CNT area\ncoverage and layout on silicon proved ineffective in\nenhancing CHF. Overall, a monotonic enhancement\nwas observed in both nucleate boiling heat transfer\ncoefficient and CHF as CNT coverage of the silicon\nsurface increased from zero (bare surface) to 5%\n('island' pattern), 60% ('grid' pattern), and ultimately\nto 100% (fully coated).\n(6) CNTs are quite effective in reducing incipience super-\nheat and enhancing the boiling heat transfer coefficient\nfor both bare and microstud enhanced copper surfaces. However, the enhancement is less than that realized on silicon because uncoated copper surfaces are\nrougher than uncoated silicon surfaces and therefore\nprovide some initial enhancement to the boiling process. CHF with the CNT coating is slightly increased\nfor bare copper but substantially decreased for the\nmicrostud surface. This decrease may be partially\nexplained by the absence of CNTs along the circumference of the microstuds. Additionally, the thermal resistance of the copper microstuds appears to reduce the\neffectiveness of the top CNT-coated surfaces of the\nmicrostuds compared to the CNT-coated base area\nbetween microstuds. Near CHF, the heat flow is biased\nto the CNT-coated base area, inducing severe vapor\ncoalescence in the base region that engulfs the circumference and top surfaces of the microstuds.\nReferences\n[1] G.E. Moore, Cramming more components onto integrated circuits,\nElectronics 38 (1965) 114-117.\n[2] I. Mudawar, Assessment of high-heat-flux thermal management\nschemes, IEEE Trans.-CPMT: Components and Packaging Technologies 24 (2001) 122-141.\n[3] T.M. Anderson, I. Mudawar, Parametric investigation into the effects\nof pressure, subcooling, surface augmentation and choice of coolant\non pool boiling in the design of cooling systems for high-powerdensity electronic chips, ASME J. Electron. Packag. 112 (1990) 375-\n382.\n[4] J.R. Thome, Enhanced Boiling Heat Transfer, Hemisphere Publishing\nCorporation, New York, NY, 1990.\n[5] T.M. Anderson, I. Mudawar, Microelectronic cooling by enhanced\npool boiling of a dielectric fluorocarbon liquid, ASME J. Heat\nTransfer 111 (1989) 752-759.\n[6] I. Mudawar, T.M. Anderson, Optimization of enhanced surfaces for\nhigh flux chip cooling by pool boiling, ASME J. Electron. Packag.\n115 (1993) 89-99.\n[7] W. Nakayama, T. Daikoku, T. Nakajima, Effects of pore diameter\nand system pressure on saturated pool nucleate boiling heat transfer\nfrom porous surfaces, ASME J. Heat Transfer 104 (1982) 286-291.\n[8] P.J. Marto, J. Lepere, Pool boiling heat transfer from enhanced\nsurfaces to dielectric fluids, ASME J. Heat Transfer 104 (1982) 292-\n299.\n[9] H. Honda, H. Takamastu, J.J. Wei, Enhanced boiling of FC-72 on\nsilicon chips with micro-pin-fins and submicron-scale roughness,\nASME J. Heat Transfer 124 (2002) 383-389.\n[10] J.J. Wei, H. Honda, L.J. Guo, Experimental study of boiling\nphenomena\nand\nheat\ntransfer\nperformances\nof\nFC-72\nover\nmicro-pin-finned silicon chips, Heat Mass Transfer 41 (2005) 744-\n755.\n[11] S. Iijima, Carbon nanotubes: past, present, and future, Physica B 323\n(2002) 1-5.\n[12] P. Kim, L. Shi, A. Majumdar, P.L. McEuen, Thermal transport\nmeasurements of individual multiwalled nanotubes, Phys. Rev. Lett.\n87 (2001) 1-4.\n[13] A.H. Howard, I. Mudawar, Orientation effects on pool boiling critical\nheat flux (CHF) and modeling of CHF for near-vertical surfaces, Int.\nJ. Heat Mass Transfer 42 (1999) 1665-1688.\n[14] R.M. Crooks, M. Zhao, L. Sun, V. Chechik, L.K. Yeung, Dendrimer\nencapsulated nanoparticles: synthesis, characterization, and applications to catalyst, Accounts Chem. Res. 34 (2001) 181-190.\n[15] P.B. Amama, M.R. Maschmann, T.S. Fisher, T.D. Sands, Dendrimer-templated Fe nanoparticles for the growth of single-wall carbon\nnanotubes by plasma-enhanced CVD, J. Phys. Chem. B 110 (2006)\n10636-10644.\n[16] P.B. Amama, O. Ogebule, M.R. Maschmann, T.D. Sands, T.S.\nFisher, Dendrimer-assisted low-temperature growth of carbon nano-\ntubes by plasma-enhanced chemical vapor deposition, Chem. Commun. 27 (2006) 2899-2901.\n[17] J. Xu, T.S. Fisher, Enhancement of thermal interface materials with\ncarbon nanotube arrays, Int. J. Heat Mass Transfer 49 (2006) 1658-\n1666.\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038\n4037\n[18] M.R. Maschmann, P.B. Amama, A. Goyal, Z. Iqbal, R. Gat, T.S.\nFisher, Parametric study of synthesis conditions in plasma-enhanced\nCVD of high-quality single-walled carbon nanotubes, Carbon 44\n(2006) 10-18.\n[19] S.J. Reed, I. Mudawar, Enhancement of boiling heat transfer using\nhighly wetting liquids with pressed-on fins at low contact forces, Int.\nJ. Heat Mass Transfer 40 (1997) 2379-2392.\n4038\nS. Ujereh et al. / International Journal of Heat and Mass Transfer 50 (2007) 4023-4038",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 3922
+    },
+    {
+      "number": 2,
+      "start": 3922,
+      "end": 8778
+    },
+    {
+      "number": 3,
+      "start": 8778,
+      "end": 14682
+    },
+    {
+      "number": 4,
+      "start": 14682,
+      "end": 15583
+    },
+    {
+      "number": 5,
+      "start": 15583,
+      "end": 21378
+    },
+    {
+      "number": 6,
+      "start": 21378,
+      "end": 26896
+    },
+    {
+      "number": 7,
+      "start": 26896,
+      "end": 28527
+    },
+    {
+      "number": 8,
+      "start": 28527,
+      "end": 28763
+    },
+    {
+      "number": 9,
+      "start": 28763,
+      "end": 31606
+    },
+    {
+      "number": 10,
+      "start": 31606,
+      "end": 32712
+    },
+    {
+      "number": 11,
+      "start": 32712,
+      "end": 37401
+    },
+    {
+      "number": 12,
+      "start": 37401,
+      "end": 38834
+    },
+    {
+      "number": 13,
+      "start": 38834,
+      "end": 43328
+    },
+    {
+      "number": 14,
+      "start": 43328,
+      "end": 47892
+    },
+    {
+      "number": 15,
+      "start": 47892,
+      "end": 54130
+    },
+    {
+      "number": 16,
+      "start": 54130,
+      "end": 54618
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-e-ects-of-carbon-nanotube-arrays-on-nucl",
+      "number": null,
+      "title": "E\ufb00ects of carbon nanotube arrays on nucleate pool boiling",
+      "level": 1,
+      "start": 0,
+      "end": 58
+    },
+    {
+      "id": "sec-1-sebastine-ujereh-timothy-fisher-issam-mu",
+      "number": null,
+      "title": "Sebastine Ujereh, Timothy Fisher, Issam Mudawar *",
+      "level": 1,
+      "start": 58,
+      "end": 361
+    },
+    {
+      "id": "sec-2-abstract",
+      "number": null,
+      "title": "Abstract",
+      "level": 2,
+      "start": 361,
+      "end": 8325
+    },
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 8325,
+      "end": 51198
+    },
+    {
+      "id": "sec-4-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 51198,
+      "end": 54618
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Schematics of (a) heater module assembly and (b) boiling facility.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-2_p4.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a) Construction of a test heater. (b) Dimensions of copper heating block.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-1_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(a) Photograph of silicon wafer and SEM images of silicon surface coated with (b) light CNT array and (c) dense CNT array.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-3_p7.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "(a) SEM images and (b) CNT layout on \u2018grid\u2019-patterned surface.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-4_p8.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(a) SEM images and (b) CNT layout on \u2018island\u2019-patterned surface.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-5_p8.png"
+    },
+    {
+      "id": "fig-7a",
+      "label": "Fig. 7a",
+      "caption": "shows a schematic of a copper chip featuring an",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-7a_p9.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "SEM images of CNT-coated \ufb02at copper surface.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-6_p9.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "(a) Dimensions of copper microstud surface. (b) SEM images of CNT-coated copper microstud surface.",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-7_p10.png"
+    },
+    {
+      "id": "fig-10a",
+      "label": "Fig. 10a",
+      "caption": "compares boiling curves for a fully CNT-coated",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-10a_p11.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Comparison of boiling curves for bare silicon surfaces.",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-8_p11.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Comparison of boiling curves for fully CNT-coated silicon",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-9_p11.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "compares boiling curves for these two surfaces",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-11_p12.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "shows a slight incipient overshoot for the \u2018grid\u2019",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-11_p12.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "(a) Comparison of boiling curves for bare and fully CNT-coated silicon surfaces, and (b) corresponding boiling photographs.",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-10_p12.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Boiling curves for fully CNT-coated, CNT-patterned, and bare",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-11_p12.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "compares boiling results for the bare \ufb02at copper",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-12_p13.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "shows that CNTs greatly enhance the nucleate",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-13_p13.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Boiling curves for bare copper and fully CNT-coated copper",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-12_p13.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "Boiling curves for bare and CNT-coated microstud surfaces.",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\ujereh-2007-effects-of-carbon-nanotube-arrays\\ujereh_2007_effects_of_carbon_nanotube_arrays_fig-13_p13.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "provides a summary of boiling performance",
+      "page": 14,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 14,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 16,
+    "ingest": "pymupdf"
+  }
+}

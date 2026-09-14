@@ -1,0 +1,196 @@
+{
+  "record_id": "shi-2015-copper-nanowire-arrays",
+  "n_crops": 10,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        37.72600173950195,
+        63.125,
+        566.7340087890625,
+        151.11798095703125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-p1-01.png",
+      "n_panels": 4,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic of the experimental set-up.",
+      "page": 2,
+      "bbox": [
+        125.82699584960938,
+        437.63800048828125,
+        459.8110046386719,
+        747.3991088867188
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Heat \ufb02 ux and surface temperature measurements.",
+      "page": 3,
+      "bbox": [
+        78.43099975585938,
+        570.1289672851562,
+        257.7879943847656,
+        747.3991088867188
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "The synthesis process of copper nanowire array on the top surface of copper block.",
+      "page": 4,
+      "bbox": [
+        118.2300033569336,
+        62.72801208496094,
+        467.4639892578125,
+        240.33782958984375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Schematic of fabricating copper nanowires.",
+      "page": 4,
+      "bbox": [
+        51.729000091552734,
+        480.7249755859375,
+        264.9010009765625,
+        747.3991088867188
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-4.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "SEM photograph of a) smooth surface (top view), b) 5 m m NWs, c) 10 m m NWs, and d) 20 m m NWs.",
+      "page": 5,
+      "bbox": [
+        125.60000610351562,
+        62.727996826171875,
+        479.6750183105469,
+        348.855712890625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-5.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Boiling curves of the reference Cu Plate and of surfaces with nanowire arrays.",
+      "page": 5,
+      "bbox": [
+        38.68980026245117,
+        362.123046875,
+        297.49102783203125,
+        561.5596923828125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-6.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Schematic representation of vapor and liquid entrapment of different surface geometries a)bare Cu surface with effective defects b)bare Cu surface with invalid defects c) Surface with short Cu nanowires(5 m m) d)Surface with long Cu nanowires(20 m m).",
+      "page": 5,
+      "bbox": [
+        38.519683837890625,
+        666.2799682617188,
+        566.5441284179688,
+        747.5202026367188
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-7.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-7.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Defects in nanowire arrays (top view, SEM graph).",
+      "page": 6,
+      "bbox": [
+        116.13200378417969,
+        62.72801208496094,
+        469.70599365234375,
+        229.2259521484375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-8.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-8.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "fig-9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Contact angle of water droplets on nanowire arrays.",
+      "page": 6,
+      "bbox": [
+        115.33899688720703,
+        242.614990234375,
+        470.3559875488281,
+        413.9314270019531
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-9.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\fig-9.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    }
+  ]
+}

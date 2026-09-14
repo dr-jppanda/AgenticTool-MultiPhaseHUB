@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool boiling of refrigerants over nanostructured and roughened tubes",
+  "year": 2020,
+  "reason": "The paper reports its own measured pool boiling heat transfer coefficients, nucleation site densities and CHF for refrigerants R-134a and R-245fa on nanostructured and roughened copper tubes."
+}

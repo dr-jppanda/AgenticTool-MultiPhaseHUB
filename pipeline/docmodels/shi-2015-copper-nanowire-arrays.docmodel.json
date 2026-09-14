@@ -1,0 +1,260 @@
+{
+  "doc_id": "264391be923dff23",
+  "source": "papers\\shi_2015_copper_nanowire_arrays.pdf",
+  "text": "Pool boiling heat transfer enhancement with copper nanowire arrays\nBo Shi a, *, Yi-Biao Wang a, Kai Chen b\na Jiangsu Province Key Laboratory of Aerospace Power Systems, School of Energy and Power, Nanjing University of Aeronautics and Astronautics,\nNanjing 210016, China\nb Nanjing University of Science and Technology, Nanjing 210008, China\nh i g h l i g h t s\nWe investigated the effect of nanowire arrays on pool boiling heat transfer enhancement.\nNanowires with five different lengths were electroplated on bare copper surface.\nWe studied the influence of the length of copper nanowire arrays on HTC and CHF of boiling.\nWe explored the physics of the boiling mechanism on nanostructure surfaces.\na r t i c l e i n f o\nArticle history:\nReceived 11 January 2014\nAccepted 15 September 2014\nAvailable online 20 September 2014\nKeywords:\nBoiling heat transfer\nCu nanowire array\nHTC\nCHF\na b s t r a c t\nThe pool boiling heat transfer on copper nanowire arrays has been experimentally studied. Five different\ncopper nanowire arrays with various lengths (3 mm, 5 mm, 10 mm, 20 mm, and 30 mm) have been electroplated on bare smooth copper surfaces. Their pool boiling heat transfer performances were measured\nand compared with control surfaces. It is found that the integration of copper nanowire arrays on heating\nsurface can effectively enhance the boiling heat transfer coefficient(HTC) as well as the critical heat\nflux(CHF). As the length of nanowires increases, more enhancements have been observed. This augment\nis due to the enhancement of the wettability and the number of the nucleation sites (defects).\n\u00a9 2014 Elsevier Ltd. All rights reserved.\n1. Introduction\nBoiling is the most efficient mode of heat transfer due to its\ninherent phase change nature. Hence, it is considered as one of the\nsolutions capable for cooling electronic devices with extra-high\nheat flux in future.\nBoiling heat transfer enhancement has been researched extensively over the last century. A detailed review has been provided by\nPioro et al. [1]. One approach to enhance boiling heat transfer is to\nmanipulate the topography of boiling surface. Several commercial\nproducts have proved that artificial surfaces, such as porous sintered coating (Union Carbide HIGH-FLUX), re-entrant grooves\n(Wielanderke AG GEWA-T), and tunneled surfaces formed by\nbending notched fins (Hitachi, THERMOEXCEL-E), can effectively\nraise the boiling Heat Transfer Coefficient (HTC) and the Critical\nHeat Flux (CHF) comparing with untreated bare smooth surfaces.\nThis traditional enhancement was attributed to the increase of the\nliquidesolid contact area and the number of the nucleation sites in\nsize of 10 mm.\nRecently, researchers have noticed that the nanostructures can\nalso improve the pool boiling heat transfer performance. In 2006,\nAhn et al. [2] reported that the boiling surface integrated with\nvertically aligned multiwall carbon nanotubes (CNTs) can have an\naugment of CHF by 25e28% for PF-5060, compared with the\ncontrol surfaces. Ujereh et al. [3] synthesized CNTs on copper and\nsilicon surfaces and measured the pool boiling heat transfer performance in FC-72 experimentally. They found that the fully CNTs\ncoated surfaces showed a noticeable decrease in the incipience\nsuperheat as well as a shift of the entire nucleation boiling region\n(about 2 C) toward lower wall superheats. The similar conclusion\nhas also been reported in Sathyamurthi et al.'s researches [4] for\nsub-cooled pool boiling. In their experiments, it was noticed that\nMWCNTs coated substrates yields higher wall heat fluxes under\nsaturated and sub-cooled conditions compared with a bare silicon\nsurface, while the enhancement heat flux was weakly dependent\non the thickness of the MWCNTs. In 2009, Khanikar et al. [5]\napplied CNTs in micro-channels and the similar results had been\nobserved.\n* Corresponding author.\nE-mail address: boshi@nuaa.edu.cn (B. Shi).\nContents lists available at ScienceDirect\nApplied Thermal Engineering\njournal homepage: www.elsevier.com/locate/apthermeng\nhttp://dx.doi.org/10.1016/j.applthermaleng.2014.09.040\n1359-4311/\u00a9 2014 Elsevier Ltd. All rights reserved.\nApplied Thermal Engineering 75 (2015) 115e121\nThese researches provide an approach to enhance the boiling\nheat transfer performance by introducing CNTs on heating surfaces.\nHowever, the synthesis of CNTs on desired surfaces by chemical\nvapor deposition (CVD) requires high temperature environment\n(usually 500 Ce700 C), which is not capable for applications in\nelectronic devices. Recently, researchers found that other nano-\nwires, such as copper, TiO2, silicon, had similar effects on boiling\nheat transfer performance while the synthesis can be achieved in\nlow temperatures. In 2008, Li et al. [6] deposited a copper nanowire\nlayer on a substrate using electron-beam evaporation method. The\npool boiling experiments showed that the deposition of copper\nnanorods on polished copper substrate brought more than 30%\nenhancement to the HTC. However, an apparent CHF rise was not\nobserved in their experiments. While in Chen et al.'s work [7], both\nthe HTC and the CHF enhancements had been reported by introducing copper nanowires as well as silicon nanowires on smooth\nsilicon substrate. It is noticeable that their copper nanowires were\nsynthesized by electroplating, which can be conducted at room\ntemperature. Yao et al. [8] developed a new technique to directly\ngrow Cu/Si nanowires with various heights. They obtained a heat\nflux of 134W/cm2, which was 300% higher than a plain Si surface at\nthe same wall superheat. Some other observations, such as Chen\net al.'s [9], Im et al.'s [10] and Thiagarajan et al.'s [11], have also been\npublished in last several years. Different nanowires have been integrated on boiling surfaces. Most of them have found that both the\nHTC and CHF had been improved by introducing nanowire arrays\non bare smooth surfaces.\nThough\nvarious\nexperiments\nhave\nproved\nthe\nsignificant\naugment of boiling heat transfer performance using nanowire arrays, the mechanisms of such enhancement are still in debate.\nSeveral arguments have been proposed: 1) The wettability of the\ntreated surface has been effectively improved. The contact angle\ndecreases, which causes an increased CHF through the enhanced\nliquid spreading over the heated area. In the meantime, it also\nexpands the contact area between solid and liquid. The fin effect\nreduces the interface temperature and hence shifts the boiling\ncurve to the left side. 2) The abundant micro-sized cavities in the\nnanowire arrays defects can effectively trap air or vapor and serve\nas nucleation sites, which reduce the wall superheat. They also can\nprovide sites for stable vapor formation at the top of the nanowire\ncoating, which alters the critical distance between vapor columns\non the heating surface and thus adjusts the critical instability\nwavelength. 3) The introducing of nanowires enhances the capillary pumping effect on solid surfaces, thereby delaying the dry out\nof the region under the vapor column.\nAccording to these impacts, the effect of the length of nanowire\narrays must affect the boiling heat transfer performance dramatically since some critical facts, such as wettability, number of defects\nand capillary pumping ability, all depend on the length. However,\nsuch researches have barely conducted and the pool boiling performance of nanowire array surfaces on the nanowire length is not\nrevealed yet. This paper focuses on the preliminary experimental\nstudies of the influence of the length of copper nanowire arrays on\nHTC and CHF of boiling and explores the physics of the boiling\nmechanism on nanostructure surfaces.\n2. Experiment\n2.1. Experimental setup\nFig. 1 shows the apparatus for the pool boiling heat transfer\nexperiments. A copper heat transfer block (1 cm 1 cm in cross\nsection) embedded with a heater unit at the lower section was built\nand submerged in the test fluid (DI water), which was then heated\nup to its saturation temperature (100 C) at 1 atm. The top surface,\nwhich was synthesized with copper nanowire array on, was\ndirectly contacted with test fluid, while the other surfaces were\nprotected with ceramic fiber insulation materials from heat loss.\nFig. 1. Schematic of the experimental set-up.\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n116\nThe heater unit composed 5 cartridge heaters, which were placed\non the bottom of the copper block substrate and could supply heat\nup to 750 W. A variable transformer was used to control the heat\nflux by regulating the input voltage during the experiments. Several\nk-type thermocouples with a diameter of 0.5 mm were embedded\ninside the copper block (centers of cross section) to measure the\naxial heat flux. The surface temperature Ts, which is in the interface\nof copper block and test liquid underneath the copper nanowire\narray, can be deduced using linear extrapolation of the temperatures measured by these thermocouples (Fig. 2). The temperature\nof the test fluid, Tsat, was monitored by a thermocouple located\nabout 1 cm from the boiling surface in the pool. With Ts and Tsat, the\nwall superheat can be deducted using DT 1\u20444 TseTsat. In order to\nobserve the status of bubbles on the boiling surface, a size of\n100 mm 100 mm CCD window was installed on each side of the\nstainless steel container. A vent was opened on the top of the\nboiling pool to guarantee the experiment conducted under atmospheric pressure. The whole boiling vessel was heated by an\nexternal auxiliary heater attached surround to assure that the bulk\ntest fluid was kept saturated throughout the whole experiments.\nThe heat transfer coefficient will increase dramatically as the\nliquid level drops if DI water level in the boiling pool is lower than\nthe critical level [12]. In this experiment, the critical level was\nexamined and determined to be 5 mm after several tests. During\nthe whole test, part of the steam condensed on the inner top surface of the boiling pool and returned to the container. In the\nmeantime, a certain amount of saturated boiling DI water was\nadded into the container regularly to make sure that the water level\nwas always much higher than the critical level.\n2.2. Sample preparation\nIn order to reduce the impact of thermal contact resistance, Cu\nnanowire arrays are synthesized directly on the top surface of the\ncopper block via electroplating using a commercial available porous\nalumina membrane (PAA) template (Whatman Inc.), as shown in\nFig. 3.\nThe Electroplating process in this study includes two steps.\nBefore synthesizing, the top surface of copper block was well polished by 300#, 600#, 1000#, 1400# and 2000# sand paper in a\nsequence. Then it was cleaned using acetone and acid to further\nremove contamination and oxidation. A PAA template, filter paper\nand the counter electrode of copper were placed in an order and\nfixed by clamps, which is shown in Fig. 4(a). The edge of the filter\npaper was immersed in the plating solution to ensure that the\nsolution could be absorbed fully by the filter paper through capillarity and distributed uniformly in the PAA template. In the present\nstudy, the PAA template is 47 mm in diameter and 50 mm thick with\n200 nm pores. The porosity of the PAA template is about 50%. A\nconstant potential is applied between the copper substrate and the\ncounter electrode to electroplate nanowires. After a certain time,\none layer of short copper nanowire arrays is attached on the copper\nsubstrate.\nThe filter paper and the clamps were removed and the others\nwere submerged into the copper pyrophosphate plating solution\nto electroplate in the second step, as shown in Fig. 4(b). The solution contains Cu2P2O7 as the provider of the main salt for copper\nions which can affect the uniformity of the coating, K4P2O7 as the\nmain bath complexing agent which can improve the conductivity\nof the plating solution and C6H5O7(NH4)3 as the auxiliary complexing agent which can improve the dispersibility of the plating\nsolution.\nA three-electrode system is adopted to obtain nanowires of\ndifferent lengths in the second step since it can control the potential more precisely. The substrate of copper is treated as the\nworking electrode and the counter electrode is served as the\nauxiliary electrode, while Ag/AgCl electrode is selected as the\nreference electrode. The above three electrodes are connected to an\nelectrochemical analyzer (CHI608D, CH Instruments) which is\ncontrolled by a computer. The electroplating time and the voltage\napplied between the working electrode and the auxiliary electrode\nis adjusted to corresponding value to achieve desired nanowire\nlengths.\nThe temperature of the plating solution was maintained at room\ntemperature through a water bath. A stirrer was applied to guarantee a uniform ions distribution in the plating solution throughout\nthe whole experiment.\nIn this work, five different nanowire arrays with various lengths\n(3 mm, 5 mm, 10 mm, 20 mm, and 30 mm) had been fabricated. After\nthe Cu nanowire array was deposited, the templates were removed\nby wet etching in NaOH solution to obtain free standing Cu nano-\nwire array (Fig. 5(b), (c), and (d)). The copper blocks were then\nrinsed in DI water, dried in a vacuum chamber and installed to the\ntest facility.\n2.3. Experimental procedure\nPool boiling experiments were conducted under steady-state\nconditions. The voltage input, which was controlled by the variable transformer, was adjusted from 0V to higher voltage in an\nincrement of 3V to obtain the desired heating power. For each\nheating power, the system was kept for about half an hour waiting\ntime to make sure that the steady-state condition was satisfied. The\nmeasured data of thermocouples were recorded with a data\nacquisition (Keithley2700) and reduced by a computer. The Critical\nHeat Flux was postulated to be equal to the heat flux corresponding\nto the last observed stable temperature measurement, beyond\nwhich a sudden dramatic rise of the temperature of the copper\nblock can be monitored.\n3. Results and discussion\n3.1. Boiling performance of various surface geometries\nTo eliminate the affection of the residual defects on heating\nsurface, a reference (control) experiment was performed at first\nusing polished bare smooth copper surface (same polish procedure\nas\ndescribed\nabove).\nAs\nsuggested\nby\nmany\nresearchers\n[9,11,13e22], different surface geometries result in diverse boiling\nperformances.\nThe\ncontrol\nexperiment\ntherefore\nprovides\na\nconsistent reference for heat transfer augment due to presence of\nthe copper nanowire arrays.\nFig. 2. Heat flux and surface temperature measurements.\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n117\nExperiments were conducted for five surfaces integrated with\nvarious lengths of nanowire arrays (3 mm, 5 mm, 10 mm, 20 mm,\n30 mm). The results are depicted in Fig. 6. Boiling on plain smooth\ncopper surface serves as the primary control for the boiling performance comparison. It can be seen that the introducing of the\nnanowire arrays shifts the boiling curve to the top left corner,\nwhich means both the HTC and the CHF have been significantly\nenhanced. As shown in Fig. 6, it is also obvious that the length of\nnanowire arrays has positive effects on boiling heat transfer. The\nimprovement of CHF along with the increase of nanowire lengths is\nobvious, while the larger gradient implies the HTC enhancement, as\nin Fig. 6. Both the HTC and CHF increase with the length of\nnanowires.\nIt is also can be seen from Fig. 6 that under the same wall superheat, heat flux on surfaces of copper nanowire arrays has a\nsignificant increase compared to the smooth surface. For instance,\nwhen the wall superheat is 15 C, the critical heat flux on the\nnanowire (30 mm) surface is up to 140W/cm2, which is more than\nthree times of that of the smooth surface. The copper nanowire\narrays can also reduce the wall superheat under a certain heat flux,\nfor example, when the surface heat flux is 100W/cm2, the super-\nheat of smooth surface is about 20 C, which is higher than that of\ncopper nanowire (30 mm) surfaces by 7 C.In addition, the incipient\nwall superheats of copper nanowire surfaces are also lower than\nthat\nof\nthe\nsmooth\nsurface,\nwhich\nfurther\nillustrates\nthe\noutstanding heat transfer performance of copper nanowire surfaces. This result is in agreement with Yao et al.'s [8]. Some other\nsimilar enhancements have also been observed in Refs. [7,23,24].\n3.2. Thermal performance analysis\nThis trend may be attributed by two main impacts.\n3.2.1. The impact of nanowires on nucleation sites\nFirstly, it is noted that the distances between adjacent nano-\nwires are only in hundreds of nanometers, which are much smaller\nthan the effective size (several micrometers) for nucleation, so\nthese spaces are hard to become vaporization cores. However,\nunlike the idealized smooth surfaces, most real solid surfaces, as\nshown in Fig. 7(a) and (b), inherently contain natural or machineformed pits, scratches, or other irregularities, the size of which\nmay range from microscopic to macroscopic. Some of these imperfections are in proper geometry and are in tens of micrometers\nsize as depicted in Fig. 7(a) that are quite difficult for liquid to\npermeate into. It is expected that such cavities can contain\nentrapped gas and vaporization may occur at the liquidegas\ninterface in these cavities at relatively low temperatures [25].\nEntrapped gas in cavities serves to provide nuclei for the formation\nof vapor bubbles at the onset of vaporization. Thus it is quite\npossible that these defects may turn into effective nucleation sites.\nFor some cavities as shown in Fig. 7(b), the cavity mouth angle \u04e8 is\nlarger than a, where a is the contact angle of water on bare smooth\ncopper surface. These cavities can easily be filled with liquid,\nleading to less vaporization sites. However, as illustrated in Fig. 7(c),\nsome of the defects can be protected by nanowires electroplated\nnearby from being filled with liquid and thus turn into effective\nvaporization cores due to the decrease of the cavity mouth angle \u04e8.\nIt can be seen from Fig. 7(c), when the nanowires are short (5 mm),\nthe alignment shows in a good order. However, if the nanowires get\nlonger, one can see that the nanowires collapse, as shown in\nFig. 5(d) and Fig. 7(d). Some defects with large open mouths may\nsurvive and become effective vaporization cores, resulting in more\nand larger nucleation sites. Due to the collapse, numerous and\nwidely distributed cavities with sizes of several micrometers\nappear in between (Fig. 5(c) 10 mm, Fig. 5(d) 20 mm, Fig. 7(d) 20 mm,\nFig. 3. The synthesis process of copper nanowire array on the top surface of copper block.\nFig. 4. Schematic of fabricating copper nanowires.\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n118\nFig. 8(a) 5 mm and Fig. 8(b) 10 mm), bringing in more vaporization\ncores.\n3.2.2. The impact of nanowires on surface wettability\nSeveral researchers [7,11,26e28] have measured the contact\nangle on the surface of nanowire arrays before. In this study, the\nsurface contact angles of DI water on copper nanowire arrays have\nalso been measured. The results indicate that surfaces with longer\nnanowires are more hydrophilic than those with shorter ones, as\nshown in Fig. 9. When the length of the copper nanowires is 3 mm,\nthe contact angle (aa) is approximately 29 . Whereas, when the\nlength becomes 30 mm, the contact angle (ab) shrinks to 19 . According to the theoretical model proposed by Dhir and Liaw [29],\nthe HTC on the boiling surface increases as the surface contact\nangle decreases. In this article, the surface contact angle decreases\nas the lengths of copper nanowires increase. Hence the HTC on the\ncopper nanowire surfaces increases as the nanowire length increases. The hydrophilic surface reduces bubbles attaching time\n[30], which increases the bubble frequency and enhances heat\ntransfer. This is reasonable as heat transfer in boiling is dominated\nby bubble dynamics [29] rather than heat conduction. In the experiments, the visual observations proved this argument.\nFurthermore, because of the hydrophilic property, the evaporation micro-layer of bubbles spreads larger, resulting in a smaller\ndry area and higher evaporation efficiency [31]. In addition, the\nnanowire shows a kind of thermal fin effect, which further improves the heat transfer performance.\n4. Conclusions\nThe pool boiling heat transfer on copper nanowire arrays have\nbeen experimentally studied. A reference (control) experiment was\nperformed at first using polished bare smooth copper surface. Five\ndifferent copper nanowire arrays with various lengths, 3 mm, 5 mm,\nFig. 5. SEM photograph of a) smooth surface (top view), b) 5 mm NWs, c) 10 mm NWs, and d) 20 mm NWs.\nFig. 6. Boiling curves of the reference Cu Plate and of surfaces with nanowire arrays.\nFig. 7. Schematic representation of vapor and liquid entrapment of different surface geometries a)bare Cu surface with effective defects b)bare Cu surface with invalid defects c)\nSurface with short Cu nanowires(5 mm) d)Surface with long Cu nanowires(20 mm).\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n119\n10 mm, 20 mm, and 30 mm, have been deposited on bare smooth\ncopper surfaces by electroplating. Their pool boiling heat transfer\nperformances were measured and compared with control surfaces.\nIt is found that the heating surfaces with copper nanowire arrays\nhave higher boiling heat transfer coefficient as well as critical heat\nflux. As the length of nanowires increase, more enhancements have\nbeen observed. This augment is due to the increase of the surface\nwettability and the number of the nucleation sites (defects) introduced by collapsing of nanowires.\nAcknowledgements\nThis work was supported by New Teachers' Fund for Doctor\nStations, Ministry of Education of China (20103219120031).\nReferences\n[1] I.L. Pioro, W. Rohsenow, S.S. Doerffer, Nucleate pool-boiling heat transfer. I:\nreview of parametric effects of boiling surface, Int. J. Heat Mass Transfer 47\n(23) (2004) 5033e5044.\n[2] H.S. Ahn, et al., Pool boiling experiments on multiwalled carbon nanotube\n(MWCNT) forests, J. Heat Transfer 128 (12) (2006) 1335e1342.\n[3] S. Ujereh, T. Fisher, I. Mudawar, Effects of carbon nanotube arrays on nucleate\npool boiling, Int. J. Heat Mass Transfer 50 (19) (2007) 4023e4038.\n[4] V. Sathyamurthi, et al., Subcooled pool boiling experiments on horizontal\nheaters coated with carbon nanotubes, J. Heat Transfer 131 (7) (2009) 071501.\n[5] V. Khanikar, I. Mudawar, T. Fisher, Effects of carbon nanotube coating on flow\nboiling in a micro-channel, Int. J. Heat Mass Transfer 52 (15) (2009)\n3805e3817.\n[6] C. Li, et al., Nanostructured copper interfaces for enhanced boiling, Small 4 (8)\n(2008) 1084e1088.\n[7] R. Chen, et al., Nanowires for enhanced boiling heat transfer, Nano Lett. 9 (2)\n(2009) 548e553.\n[8] Z. Yao, Y. Lu, S.G. Kandlikar, Direct growth of copper nanowires on a substrate\nfor boiling applications, Micro Nano Lett. 6 (7) (2011) 563.\n[9] Y. Chen, et al., Pool boiling on the superhydrophilic surface with TiO2 nano-\ntube arrays, Sci. China Ser. E Technol. Sci. 52 (6) (2009) 1596e1600.\n[10] Y. Im, et al., Enhanced boiling of a dielectric liquid on copper nanowire surfaces, Int. J. Micro Nano Scale Transp. 1 (1) (2010) 79e96.\n[11] S.J. Thiagarajan, et al., Enhancement of Heat Transfer with Pool and Spray\nImpingement Boiling on Microporous and Nanowire Surface Coatings, National Renewable Energy Laboratory, 2010.\n[12] M. Tong, M. Xin, The critical level and heat transfer of film boiling,\nJ. Chongqing Univ. 2 (1984) 006.\n[13] Yang Fanghao, Dai Xianming, Peles Yoav, Cheng Ping, Li Chen, Can transitional flow boiling regimes Be reduced into a single one in micro-\nchannels? Appl. Phys. Lett. 103 (2013) 043122, http://dx.doi.org/10.1063/\n1.4816594.\n[14] D. Cooke, S.G. Kandlikar, Effect of open microchannel geometry on\npool boiling enhancement, Int. J. Heat Mass Transfer 55 (4) (2012)\n1004e1013.\n[15] A. Morshed, et al., Enhanced flow boiling in a microchannel with integration\nof nanowires, Appl. Therm. Eng. 32 (2012) 68e75.\n[16] K. Chu, R. Enright, E.N. Wang, Structured surfaces for enhanced pool boiling\nheat transfer, Appl. Phys. Lett. 100 (24) (2012) 241603.\n[17] M. Lu, et al., Critical heat flux of pool boiling on Si nanowire array-coated\nsurfaces, Int. J. Heat Mass Transfer 54 (25) (2011) 5359e5367.\n[18] Z. Yao, Y. Lu, S.G. Kandlikar, Direct growth of copper nanowires on a substrate\nfor boiling applications, Micro Nano Lett. 6 (7) (2011) 563e566.\n[19] A.R. Betz, et al., Do surfaces with mixed hydrophilic and hydrophobic areas\nenhance pool boiling? Appl. Phys. Lett. 97 (14) (2010) 141909.\n[20] T.J. Hendricks, et al., Enhancement of pool-boiling heat transfer using nano-\nstructured surfaces on aluminum and copper, Int. J. Heat Mass Transfer 53\n(15) (2010) 3357e3365.\n[21] C. Kuo, et al., Bubble dynamics during boiling in enhanced surface micro-\nchannels, J. Microelectromech. Syst. 15 (6) (2006) 1514e1527.\n[22] J.J. Wei, H. Honda, Effects of fin geometry on boiling heat transfer from silicon\nchips with micro-pin-fins immersed in FC-72, Int. J. Heat Mass Transfer 46\n(21) (2003) 4059e4070.\n[23] Y. Im, et al., Enhanced boiling of a dielectric liquid on copper nanowire surfaces, Int. J. Micro Nano Scale Transp. 1 (2010) 79e95.\n[24] C. Li, et al., Nanostructured copper interfaces for enhanced boiling, Small\n(Weinheim der Bergstrasse Ger.) 4 (8) (2008) 1084e1088.\n[25] V.P. Carey, Liquid-Vapor Phase-Change Phenomena, Hemisphere Pub. Corp,\n1992.\nFig. 8. Defects in nanowire arrays (top view, SEM graph).\nFig. 9. Contact angle of water droplets on nanowire arrays.\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n120\n[26] S.J. Kim, et al., Surface wettability change during pool boiling of nanofluids\nand its effect on critical heat flux, Int. J. Heat Mass Transfer 50 (19e20) (2007)\n4105e4116.\n[27] Y. Takata, et al., Pool boiling on a superhydrophilic surface, Int. J. Energy Res.\n27 (2) (2003) 111e119.\n[28] K. Sefiane, D. Benielli, A. Steinchen, A new mechanism for pool boiling crisis,\nrecoil instability and contact angle influence, Colloids Surf. A 142 (2) (1998)\n361e373.\n[29] V.K. Dhir, Boiling heat transfer, Annu. Rev. Fluid Mech. 30 (1) (1998) 365e401.\n[30] F. Yang, et al., Flow boiling phenomena in a single annular flow regime in\nmicrochannels (I): characterization of flow boiling heat transfer, Int. J. Heat\nMass Transfer 68 (2014) 703. ISSN:1879-2189.\n[31] M.G. Cooper, A. Lloyd, The microlayer in nucleate pool boiling, Int. J. Heat Mass\nTransfer 12 (8) (1969) 895e913.\nB. Shi et al. / Applied Thermal Engineering 75 (2015) 115e121\n121",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4179
+    },
+    {
+      "number": 2,
+      "start": 4179,
+      "end": 8316
+    },
+    {
+      "number": 3,
+      "start": 8316,
+      "end": 14667
+    },
+    {
+      "number": 4,
+      "start": 14667,
+      "end": 18790
+    },
+    {
+      "number": 5,
+      "start": 18790,
+      "end": 21154
+    },
+    {
+      "number": 6,
+      "start": 21154,
+      "end": 25730
+    },
+    {
+      "number": 7,
+      "start": 25730,
+      "end": 26668
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-pool-boiling-heat-transfer-enhancement-w",
+      "number": null,
+      "title": "Pool boiling heat transfer enhancement with copper nanowire arrays",
+      "level": 1,
+      "start": 0,
+      "end": 66
+    },
+    {
+      "id": "sec-1-bo-shi-a-yi-biao-wang-a-kai-chen-b",
+      "number": null,
+      "title": "Bo Shi a, *, Yi-Biao Wang a, Kai Chen b",
+      "level": 1,
+      "start": 66,
+      "end": 3945
+    },
+    {
+      "id": "sec-2-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1,
+      "start": 3945,
+      "end": 21714
+    },
+    {
+      "id": "sec-3-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 21714,
+      "end": 21847
+    },
+    {
+      "id": "sec-4-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 21847,
+      "end": 26668
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "shows the apparatus for the pool boiling heat transfer",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-1_p2.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Schematic of the experimental set-up.",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-1_p2.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-3_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Heat \ufb02ux and surface temperature measurements.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-2_p3.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "(d) and Fig. 7(d). Some defects with large open mouths may",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-5_p4.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "The synthesis process of copper nanowire array on the top surface of copper block.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-3_p4.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Schematic of fabricating copper nanowires.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-4_p4.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "(a) 5 mm and Fig. 8(b) 10 mm), bringing in more vaporization",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-8_p5.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "SEM photograph of a) smooth surface (top view), b) 5 mm NWs, c) 10 mm NWs, and d) 20 mm NWs.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-5_p5.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Boiling curves of the reference Cu Plate and of surfaces with nanowire arrays.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-6_p5.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Schematic representation of vapor and liquid entrapment of different surface geometries a)bare Cu surface with effective defects b)bare Cu surface with invalid defects c)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-7_p5.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Defects in nanowire arrays (top view, SEM graph).",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-8_p6.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Contact angle of water droplets on nanowire arrays.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\shi-2015-copper-nanowire-arrays\\shi_2015_copper_nanowire_arrays_fig-9_p6.png"
+    }
+  ],
+  "tables": [],
+  "meta": {
+    "n_pages": 7,
+    "ingest": "pymupdf"
+  }
+}

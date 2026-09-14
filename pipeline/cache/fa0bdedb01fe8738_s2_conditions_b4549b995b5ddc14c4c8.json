@@ -1,0 +1,125 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": 5.0,
+    "max": 15.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "local pool boiling coefficients at 5, 10 and 15 C for heat fluxes"
+      },
+      {
+        "quote": "The tests were carried out at a saturation tempera-"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 20.0,
+    "max": 80.0,
+    "unit": "kW m 2",
+    "evidence": [
+      {
+        "quote": "ranging from 20 to 80 kW m 2"
+      },
+      {
+        "quote": "Due to\nindustrial interest in low-heat flux data, it was attempted to\ngather data at heat fluxes lower than 20 kW m 2."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 0.0,
+    "max": 0.5,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "to bring the liquid close to saturation conditions at the test\nsection inlet (less than 0.5 K from saturation)"
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 19.05,
+    "max": 19.05,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "a nominal outer diameter of 19.05 mm and a length of"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 554.0,
+    "max": 554.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "554 mm. In total, ten instrumented tubes (i.e., five sub-"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": 10.0,
+    "max": 30.0,
+    "unit": "tubes",
+    "evidence": [
+      {
+        "quote": "row of ten horizontal tubes and a small tube bundle with three rows of 10 tubes each are"
+      }
+    ]
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

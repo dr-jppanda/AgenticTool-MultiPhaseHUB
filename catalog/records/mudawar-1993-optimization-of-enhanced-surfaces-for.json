@@ -1,0 +1,1219 @@
+{
+  "record_id": "mudawar-1993-optimization-of-enhanced-surfaces-for",
+  "doc_id": "29e9eb0106665862",
+  "title": "Optimization of Enhanced Surfaces for High Flux Chip Cooling by Pool Boiling",
+  "source_pdf": "mudawar_1993_optimization_of_enhanced_surfaces_for.pdf",
+  "n_pages": 12,
+  "n_figures": 31,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 2,
+      "caption": ", the vessel was fitted with three ports. A module housing"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 2,
+      "caption": "shows a sectional diagram of the test heater module."
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 2,
+      "caption": ""
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "Sectional diagram of the test heater"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": ""
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "(a)"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "(b)"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": ""
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 5,
+      "caption": "(a)"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 5,
+      "caption": "(b)"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 5,
+      "caption": ""
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 6,
+      "caption": "Geometries of smooth studs and pin fin arrays"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 7,
+      "caption": ""
+    },
+    {
+      "id": "fig-8",
+      "label": "Figure 8",
+      "page": 7,
+      "caption": "shows side and end views of boiling on the 4-pin"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 8,
+      "caption": ""
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 8,
+      "caption": ""
+    },
+    {
+      "id": "fig-9",
+      "label": "Figure 9",
+      "page": 8,
+      "caption": "shows FC-"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": "(a)"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": "(b)"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 9,
+      "caption": ""
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 9,
+      "caption": ""
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 10,
+      "caption": "(a)"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 10,
+      "caption": "(a)"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 10,
+      "caption": "(b)"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 10,
+      "caption": ""
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 10,
+      "caption": "(6)"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "page": 10,
+      "caption": ""
+    },
+    {
+      "id": "fig-14",
+      "label": "Figure 14",
+      "page": 10,
+      "caption": "shows a comparison of boiling behavior from the"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "page": 11,
+      "caption": ""
+    },
+    {
+      "id": "fig-15",
+      "label": "Figure 15",
+      "page": 11,
+      "caption": "shows a compilation of CHF"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "page": 11,
+      "caption": ""
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-15-numerical-results",
+      "number": null,
+      "title": "Numerical Results",
+      "level": 2
+    },
+    {
+      "id": "sec-80-id",
+      "number": null,
+      "title": "ID",
+      "level": 2
+    },
+    {
+      "id": "sec-74-fig-13",
+      "number": null,
+      "title": "Fig. 13",
+      "level": 2
+    },
+    {
+      "id": "sec-56-transactions-of-the-asme",
+      "number": null,
+      "title": "Transactions of the ASME",
+      "level": 2
+    },
+    {
+      "id": "sec-59-fig-10-b",
+      "number": null,
+      "title": "Fig. 10(b)",
+      "level": 2
+    },
+    {
+      "id": "sec-54-experimental-results",
+      "number": null,
+      "title": "Experimental Results",
+      "level": 2
+    },
+    {
+      "id": "sec-8-experimental-methods",
+      "number": null,
+      "title": "Experimental Methods",
+      "level": 2
+    },
+    {
+      "id": "sec-3-b",
+      "number": null,
+      "title": "B",
+      "level": 1
+    },
+    {
+      "id": "sec-57-journal-of-electronic-packaging",
+      "number": null,
+      "title": "Journal of Electronic Packaging",
+      "level": 2
+    },
+    {
+      "id": "sec-9",
+      "number": "9",
+      "title": "PIN SURFACE",
+      "level": 2
+    },
+    {
+      "id": "sec-49-elemental-approach-to-determining-enhanc",
+      "number": null,
+      "title": "Elemental Approach to Determining Enhanced Surface Per-",
+      "level": 2
+    },
+    {
+      "id": "sec-4-1",
+      "number": "4.1",
+      "title": "Pin-Fin Surface Geometries. The experimental en-",
+      "level": 2
+    },
+    {
+      "id": "sec-4-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 31,
+    "resolved": 31,
+    "unresolved": 0,
+    "exact": 31
+  },
+  "points_ref": null,
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Optimization of Enhanced Surfaces for High Flux Chip Cooling by Pool Boiling",
+    "year": 1993,
+    "reason": "The authors measured their own pool boiling curves and CHF values on enhanced chip surfaces, e.g. \"Surface enhancement resulted in chip planform heat fluxes of 105.4 and 159.3 fV/cm2, for saturated and 35°C subcooled FC-72, respectively.\""
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 1.0,
+      "max": 1.0,
+      "unit": "atmosphere",
+      "evidence": [
+        {
+          "quote": "having boiling points of 56°C and 30°C at one atmosphere, respectively",
+          "resolved": true,
+          "char_span": [
+            12632,
+            12702
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-15-numerical-results",
+              "number": null,
+              "title": "Numerical Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": 30.0,
+      "max": 56.0,
+      "unit": "°C",
+      "evidence": [
+        {
+          "quote": "having boiling points of 56°C and 30°C at one atmosphere, respectively",
+          "resolved": true,
+          "char_span": [
+            12632,
+            12702
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-15-numerical-results",
+              "number": null,
+              "title": "Numerical Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": 28.6,
+      "max": 159.3,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "Microstructured extended surfaces resulted in chip heat\nfluxes (based on planform area) of 105.4 and 159.3 W/cm2 in\nsaturated and 35 DC subcooled FC-n, respectively.",
+          "resolved": true,
+          "char_span": [
+            45649,
+            45814
+          ],
+          "pages": [
+            11
+          ],
+          "sections": [
+            {
+              "id": "sec-80-id",
+              "number": null,
+              "title": "ID",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Even during\nfully-developed boiling (# = 28.6 W/cm2), the large mass of\nvapor was almost totally condensed",
+          "resolved": true,
+          "char_span": [
+            43259,
+            43365
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-74-fig-13",
+              "number": null,
+              "title": "Fig. 13",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Transition to film\nboiling occurred at qm= 105.8 W/cm2",
+          "resolved": true,
+          "char_span": [
+            27879,
+            27933
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-56-transactions-of-the-asme",
+              "number": null,
+              "title": "Transactions of the ASME",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 0.0,
+      "max": 35.0,
+      "unit": "°C",
+      "evidence": [
+        {
+          "quote": "Microstructured extended surfaces resulted in chip heat\nfluxes (based on planform area) of 105.4 and 159.3 W/cm2 in\nsaturated and 35 DC subcooled FC-n, respectively.",
+          "resolved": true,
+          "char_span": [
+            45649,
+            45814
+          ],
+          "pages": [
+            11
+          ],
+          "sections": [
+            {
+              "id": "sec-80-id",
+              "number": null,
+              "title": "ID",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Comparisons of saturated and sub-\ncooled boiling curves for the low profile microstud reference\nsurface",
+          "resolved": true,
+          "char_span": [
+            39923,
+            40026
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-59-fig-10-b",
+              "number": null,
+              "title": "Fig. 10(b)",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 12.7,
+      "max": 12.7,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "For the present study, various metallic\nattachments were designed to enhance heat transfer from a\n12.7 x 12.7 mm2 simulated microelectronic heat source.",
+          "resolved": true,
+          "char_span": [
+            26542,
+            26694
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-54-experimental-results",
+              "number": null,
+              "title": "Experimental Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The enhanced surfaces were built upon a 4.78 mm-thick base\nchip having a cross-sectional area of 12.7 x 12.7 mm2.",
+          "resolved": true,
+          "char_span": [
+            6367,
+            6480
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-8-experimental-methods",
+              "number": null,
+              "title": "Experimental Methods",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": 16.0,
+      "max": 40.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "16 mm \"short\" smooth stud conformed to typical packaging\nlimitations, while the 40 mm long smooth stud was tested for\nphotographic analysis",
+          "resolved": true,
+          "char_span": [
+            29503,
+            29642
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-56-transactions-of-the-asme",
+              "number": null,
+              "title": "Transactions of the ASME",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "min": 2.0,
+      "max": 2.0,
+      "unit": "L/D",
+      "evidence": [
+        {
+          "quote": "The spacing between\nthe pins was set at one bubble departure diameter and the\nlength-to-diameter aspect ratio was set at 2 to enforce practical\nspatial packaging requirements",
+          "resolved": true,
+          "char_span": [
+            29822,
+            29996
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-56-transactions-of-the-asme",
+              "number": null,
+              "title": "Transactions of the ASME",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "unspecified",
+    "surface_material": "oxygen-free / high-purity copper (vapor-blasted)"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": "fully_developed",
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities of enhanced metallic surface attachments",
+          "resolved": true,
+          "char_span": [
+            262,
+            416
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-b",
+              "number": null,
+              "title": "B",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "In the nucleate boiling region the numerical solution fits the experimental data closely.",
+          "resolved": true,
+          "char_span": [
+            33703,
+            33792
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-57-journal-of-electronic-packaging",
+              "number": null,
+              "title": "Journal of Electronic Packaging",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Fully-developed boiling with severe vapor effusion was observed at approximately 46.5 percent of CHF.",
+          "resolved": true,
+          "char_span": [
+            42707,
+            42808
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-74-fig-13",
+              "number": null,
+              "title": "Fig. 13",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The enhanced surfaces were built upon a 4.78 mm-thick base chip having a cross-sectional area of 12.7 x 12.7 mm2.",
+          "resolved": true,
+          "char_span": [
+            6367,
+            6480
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-8-experimental-methods",
+              "number": null,
+              "title": "Experimental Methods",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "various metallic attachments were designed to enhance heat transfer from a 12.7 x 12.7 mm2 simulated microelectronic heat source.",
+          "resolved": true,
+          "char_span": [
+            26565,
+            26694
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-54-experimental-results",
+              "number": null,
+              "title": "Experimental Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The same article details the procedure for obtaining boiling data.",
+          "resolved": true,
+          "char_span": [
+            7196,
+            7262
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-8-experimental-methods",
+              "number": null,
+              "title": "Experimental Methods",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities",
+          "resolved": true,
+          "char_span": [
+            262,
+            375
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-3-b",
+              "number": null,
+              "title": "B",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-72",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "This surface achieved a CHF value of 105.4\nW/cm2 in saturated FC-72, the highest of all the enhanced\nsurface geometries.",
+            "resolved": true,
+            "char_span": [
+              39663,
+              39783
+            ],
+            "pages": [
+              9
+            ],
+            "sections": [
+              {
+                "id": "sec-59-fig-10-b",
+                "number": null,
+                "title": "Fig. 10(b)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Photographs obtained in the present study indicated the average Db value for saturated boiling of FC-72 and FC-87 was approximately 0.61 mm.",
+            "resolved": true,
+            "char_span": [
+              25783,
+              25923
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-9",
+                "number": "9",
+                "title": "PIN SURFACE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "dielectric",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": "FC-87",
+        "evidence": [
+          {
+            "quote": "Photographs obtained in the present study indicated the average Db value for saturated boiling of FC-72 and FC-87 was approximately 0.61 mm.",
+            "resolved": true,
+            "char_span": [
+              25783,
+              25923
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-9",
+                "number": "9",
+                "title": "PIN SURFACE",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The fluorocarbon liquid (FC-72 or FC-87) was pre-",
+            "resolved": true,
+            "char_span": [
+              5749,
+              5798
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-8-experimental-methods",
+                "number": null,
+                "title": "Experimental Methods",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "new vocabulary term"
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "structured",
+        "tier2": "pin_fins",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The 4-pin and 9-pin surfaces, Fig. 6, provided information on the performances of pin fin arrays.",
+            "resolved": true,
+            "char_span": [
+              29724,
+              29821
+            ],
+            "pages": [
+              7
+            ],
+            "sections": [
+              {
+                "id": "sec-56-transactions-of-the-asme",
+                "number": null,
+                "title": "Transactions of the ASME",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Elements of surface area, Ae, were defined as identical sections of the flat surface of a chip to which a cylindrical (pin) fin is attached.",
+            "resolved": true,
+            "char_span": [
+              23193,
+              23333
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-49-elemental-approach-to-determining-enhanc",
+                "number": null,
+                "title": "Elemental Approach to Determining Enhanced Surface Per-",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "structured",
+        "tier2": "grooves",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The axial and radial microgroove enhanced studs were constructed by grooving a smooth stud along the axial and radial directions, respectively.",
+            "resolved": true,
+            "char_span": [
+              36790,
+              36933
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-57-journal-of-electronic-packaging",
+                "number": null,
+                "title": "Journal of Electronic Packaging",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "machining microstructures (rectangular microgrooves or square microstuds) into the surface",
+            "resolved": true,
+            "char_span": [
+              11321,
+              11411
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-15-numerical-results",
+                "number": null,
+                "title": "Numerical Results",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "roughened",
+        "tier2": "sandblasted",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Each of the enhanced surfaces was vapor blasted with an air/water/silica slurry to ensure uniform surface characteristics",
+            "resolved": true,
+            "char_span": [
+              26887,
+              27008
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-4-1",
+                "number": "4.1",
+                "title": "Pin-Fin Surface Geometries. The experimental en-",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The two smooth stud enhanced surfaces, Fig. 6, differed only in length.",
+            "resolved": true,
+            "char_span": [
+              27039,
+              27110
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-4-1",
+                "number": "4.1",
+                "title": "Pin-Fin Surface Geometries. The experimental en-",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "chf",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics",
+      "onb"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": "immersion_cooling",
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "A high flux electronic chip was numerically and experimentally simulated to investigate pool boiling capabilities of enhanced metallic surface attachments built upon",
+            "resolved": true,
+            "char_span": [
+              262,
+              427
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-3-b",
+                "number": null,
+                "title": "B",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Direct liquid immersion cooling has great potential as a",
+            "resolved": true,
+            "char_span": [
+              1509,
+              1565
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-4-introduction",
+                "number": null,
+                "title": "Introduction",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "12.7 x 12.7 mm2 simulated microelectronic heat source.",
+            "resolved": true,
+            "char_span": [
+              26640,
+              26694
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-54-experimental-results",
+                "number": null,
+                "title": "Experimental Results",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Optimization of Enhanced Surfaces for High Flux Chip Cooling by Pool Boiling",
+  "si": {
+    "T_sat_min": 303.15,
+    "T_sat_unit": "K",
+    "T_sat_max": 329.15,
+    "q_flux_min": 286000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 1593000.0,
+    "dT_sub_min": 0.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 35.0,
+    "D_h_min": 0.0127,
+    "D_h_unit": "m",
+    "D_h_max": 0.0127,
+    "L_heated_min": 0.016,
+    "L_heated_unit": "m",
+    "L_heated_max": 0.04
+  },
+  "fluid_properties": {
+    "rho_l": 1621.0,
+    "rho_v": 13.4,
+    "sigma": 0.0085,
+    "h_fg": 88000.0,
+    "mu_l": 0.00045,
+    "p_crit": 1830000.0
+  },
+  "derived": {
+    "L_cap": 0.0007342773405759766,
+    "Co": 0.05781711343117926,
+    "Bo": 299.1487478113646
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:very_high",
+    "scale:conventional"
+  ],
+  "unit_warnings": [
+    "p_sat.min: unrecognized unit 'atmosphere'",
+    "p_sat.max: unrecognized unit 'atmosphere'",
+    "aspect_ratio.min: unrecognized unit 'L/D'",
+    "aspect_ratio.max: unrecognized unit 'L/D'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 1,
+    "unconfirmed_fields": 1
+  }
+}

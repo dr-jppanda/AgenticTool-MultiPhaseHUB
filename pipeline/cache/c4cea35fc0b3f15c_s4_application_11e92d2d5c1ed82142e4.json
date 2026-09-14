@@ -1,0 +1,32 @@
+{
+  "targets": [
+    {
+      "tier1": "hvacr",
+      "tier2": "refrigeration",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "current uses in fields such as refrigeration and nuclear energy, to future"
+        },
+        {
+          "quote": "Refrigeration tube manufacturers commercially produce many"
+        }
+      ]
+    },
+    {
+      "tier1": "power_generation",
+      "tier2": "orc",
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "Solar energy generation using refrigerants in organic Rankine cycles [1,2]"
+        },
+        {
+          "quote": "in particular still requires substantial improvements in heat transfer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "doc_id": "a8821b8a853763bd",
+  "source": "papers\\pandey_2024_acoustic_copper_foams.pdf",
+  "text": "Applied Thermal Engineering 236 (2024) 121807\nAvailable online 21 October 2023\n1359-4311/\u00a9 2023 Elsevier Ltd. All rights reserved.\nResearch Paper\nAcoustic sensing for investigating critical heat flux enhancement during\npool boiling on electrodeposited copper foams\nHari Pandey a, Hamed Mehrabi b, Amanda Williams a, Carolina Mira-Hern \u0301andez c,\nRobert H. Coridan b,d, Han Hu a,b,*\na Department of Mechanical Engineering, University of Arkansas, Fayetteville, AR 72701, USA\nb Materials Science and Engineering Program, University of Arkansas, Fayetteville, AR 72701, USA\nc School of Engineering, Universidad Pontificia Bolivariana Medell\u00edn, Colombia\nd Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA\nA R T I C L E I N F O\nKeywords:\nPool boiling\nCritical heat flux\nHierarchical copper foams\nAcoustic emissions\nElectrodeposition with pH control\nA B S T R A C T\nNano-engineered surfaces have shown great promise in improving boiling heat flux and heat transfer coefficient\nfor thermal management. Electrodeposited copper foams have attracted lots of scientific and engineering interest\nowing to their multi-tier structures. In this study, hierarchical copper foams with ultra-wicking properties were\nfabricated using cathodic deposition at different pH, including both acidic (pH 0) and basic (pH 10 and 12)\nsolutions. Pendant droplet wicking tests and pool boiling experiments were performed to characterize the\nwicking flux and the critical heat flux (CHF) of the fabricated copper foams, respectively. The CHF enhancement\nmechanism in hierarchical copper foams was investigated with high-speed optical imaging and acoustic emission\n(AE) sensing during both the wicking and boiling tests. The results show that the wicking flux of the electro\u00ad\ndeposited copper foams increases with the pH due to smaller dendrites and crystallites. Boiling CHF is also higher\non the base-deposited copper foams (pH 10 and pH 12) than on the acid-deposited foams (pH 0). Consistent\nacoustic signatures are observed between wicking and boiling, i.e., smaller AE amplitudes are observed at higher\nwicking flux and higher CHF, which supports wicking-based CHF enhancement theories. A spike in the AE\namplitude is observed at CHF during water boiling on copper foam surfaces due to the rapid growth of the vapor\nlayer blanketing the boiling surface. During the nucleate boiling regime, the AE amplitude decreases with the\nheat flux in the low heat flux stage but increases with the heat flux in the high heat flux stage. This relationship is\nfound to be due to the interplay of bubble size and bubble count in the stress field that bubbles exert on the\nheater surface. By analyzing the maximum bubble size, bubble count, and the power and dominant frequency of\nvapor fraction at varying heat fluxes from high-speed videos, our work shows no obvious effect of the surface\nstructures on the dynamics of the apparent liquid-vapor interface. Combining the optical and acoustic analysis, it\nis concluded that the key role that surface structures play in CHF enhancement is improving capillary wicking\nunderneath the bubbles rather than affecting the dynamics of the apparent liquid-vapor interfaces. This study\nnot only explores the relationship between electrochemical control and wicking properties but also demonstrates\nthe role of wicking in structure-enhanced boiling CHF through acoustic emission analysis.\n1. Introduction\nNucleate boiling is a highly efficient heat dissipation method and is\ncentral to electronics cooling [1,2], power generation [3], and distilla\u00ad\ntion [4], among many other industrial applications. The critical heat flux\n(CHF) represents an upper limit of boiling heat transfer without causing\na transition from nucleate boiling to film boiling, which is characterized\nby significantly higher thermal resistance due to the vapor film\nblanketing the heater surface. Therefore, understanding and controlling\nCHF is crucial for ensuring safe and efficient heat transfer. The cause of\nCHF has been attributed to various physical mechanisms, including\nhydrodynamic instabilities [5,6], force balance [7], microlayer lift-off\n[8], microlayer dry-out [9], and bubble interactions [10,11]. Zuber's\ntheory based on the Helmholtz instability of vapor columns leaving the\nheater surface has been shown to agree very well with experimental data\nusing planar, wetting surfaces [5]. As such, the Zuber's limit has become\n* Corresponding author.\nE-mail address: hanhu@uark.edu (H. Hu).\nContents lists available at ScienceDirect\nApplied Thermal Engineering\njournal homepage: www.elsevier.com/locate/apthermeng\nhttps://doi.org/10.1016/j.applthermaleng.2023.121807\nReceived 13 June 2023; Received in revised form 8 October 2023; Accepted 16 October 2023\nApplied Thermal Engineering 236 (2024) 121807\n2\nan important metric to benchmark boiling performance (~110 W/cm2\nfor water at ambient pressure).\nTo meet the ever-increasing cooling demands in microelectronics\nand power systems, several strategies have been adopted to enhance\nboiling CHF beyond the Zuber's limit, e.g., engineering heater surfaces\nwith micro or nanoscale textures and adding nano-additives to the\nworking fluids [12-14]. Surface modification has been particularly\npromising due to the rapid advances in nanomanufacturing technologies\nin recent decades. Various textured surfaces have been designed, man\u00ad\nufactured, and tested for boiling, including micropillar arrays [15-21],\nre-entrant cavities [1,22,23], other ordered [24-27] and disordered\nmicroporous coatings [28-31], nanowires [32-36] and hierarchical\nstructures with textures across the scales [20,37-56]. Among these\nsurfaces, metal foams have shown great potential to improve boiling\nCHF and heat transfer coefficient (HTC) due to their unique multi-tier\ntextures [41,47-56]. For example, Li et al. demonstrated an ultra-high\npool boiling CHF of 400 W/cm2 and an HTC of 12 W/(cm2 K) for\nwater boiling on electrodeposited copper foams [41]. Parametric studies\nhave been performed to reveal the role of porosity [56], pore density\n[47,49-51,54,56], foam thickness [41,48,50,51,54,56], thickness\ngradient [45,55], and wettability [52] on boiling CHF enhancements.\nThe fundamental understanding of CHF enhancement mechanisms is\ncritical to enable the rational design of surface structures. To this end,\nmany theoretical, empirical, and semi-empirical CHF models have been\ndeveloped to explain and predict structure-enhanced CHF, e.g., ampli\u00ad\nfied surface tension force induced by elongated contact line [19,39,57],\nincreased microconvection due to rapid interface motion [58], delayed\ndry out due to capillary wicking [20,41,59,60], and structure-induced\nvapor confinement [61]. Among these algorithms, wicking-based the\u00ad\nories have attracted a lot of scientific interest owing to the vastly\navailable experimental evidence showing strong correlations between\nboiling CHF and wicking metrics. A variety of experimental approaches\nhave been developed and used to characterize surface wickability,\nincluding radial wicking of sessile droplets [17,28,62-65], radial\nwicking of pendant droplets [20,41,66-68], and linear wicking of liquid\nfilms [69,70]. Synchrotron X-ray imaging has also been used to visualize\nthe wicking front in surface structures [71,72]. Many different wicking\nmetrics have been introduced to represent surface wickability, including\nphenomenological parameters such as early-stage wicking flux [20,41],\nvolumetric wicking rate [66], wicking factor [17], and theoretical\nmetrics such as the superhydrophilicity metric [67], propagation coef\u00ad\nficient [69], rewetting time scale [35], etc. Besides correlating boiling\nperformance with ex-situ measured wicking metrics, efforts have been\nmade to understand bubble dynamics during structure-enhanced boiling\nthrough quantitative analysis of boiling images, particularly, high-speed\nvideos that capture the high-frequency dynamics during boiling. By\nsegmenting bubble and liquid-vapor interfaces from the images, char\u00ad\nacteristic properties of boiling can be extracted in quantifiable para\u00ad\nmetric data and interpreted with changes in CHF and HTC, including the\nbubble departure diameter [41,73-79], bubble departure frequency\n[41,78-81], nucleation site density [75,79,80,82], wetted area fraction\n[83-85], average bubble diameter [86,87], and void fraction [88].\nThere has been a growing interest in defining a universal wicking\nmetric that can be directly used for CHF predictions. Rahman et al.\nexperimentally demonstrated a linear relationship between boiling CHF\nand the wicking flux measured in pendant droplet radial wicking tests\nfor a wide range of textured surfaces [20]. This linear relationship is also\nsupported by data from other studies, e.g., water boiling on sintered\ncopper surfaces covered by nanograss and high-density microcavities\n[28], Nevertheless, Li et al.'s boiling data using electrodeposited copper\nfoams suggested the relationship between CHF and wicking flux may be\nnonmonotonic and CHF is more closely related with bubble departure\ndiameter and frequency at onsite of nucleate boiling [41]. Zhang et. al\ndiscussed improving boiling CHF by simultaneously strengthening\nliquid wicking and manipulating bubble behaviors using copper meshes\nwith gradient thickness, yielding a CHF of ~ 300 W/cm2 and an HTC of\n34 W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical\nmodeling to demonstrate that CHF is related to the ratio of the rewetting\nand heating time scales [35]. Hu et al. developed a coupled wicking and\nevaporation CHF model that directly relates CHF with the dry spot size\nunderneath the bubble, and the dry spot size is a result of the compe\u00ad\ntition between capillary wicking and microlayer evaporation [60]. This\nmodel is further improved with a universal evaporation figure of merit\ndefined for structured surfaces [89]. By using the scaling relationship\nbetween the thin film density and evaporation flux, Song et al. devel\u00ad\noped a unified descriptor for wicking-enhanced boiling CHF that com\u00ad\nbines the effect of both evaporation and capillary wicking in boiling\n[59]. Li et al. experimentally visualized the dry spot and the wicking\nregion underneath bubbles during nucleate boiling using in-liquid\nendoscopy [90] and introduced a dimensionless liquid retention num\u00ad\nber (Ret) to characterize the contribution of liquid retention in the\nsurface structures to CHF enhancement [91]. Despite the different as\u00ad\nsumptions and metrics adopted by these models, there is a consensus\nthat boiling CHF cannot be solely determined by wicking, but instead, by\nthe combined effects of evaporation and wicking. Since the optimal di\u00ad\nmensions for evaporation are generally much smaller than that of\ncapillary wicking (with the former representing the balance between\nvapor kinetics and nanoconfinement [92] and the latter representing the\nbalance between capillary pressure and viscous resistance [60]), multi-\ntier structures such as metal foams with textures across the scales are\nmost promising for higher CHF. This highlights that several studies\nrecognize wicking in one way or the other, and a boiling surface must\nhave strong wicking properties while understanding the role of wicking\nin boiling heat transfer or achieving a higher CHF.\nIn this paper, electrodeposition with pH control is used to fabricate\nmulti-tier copper foam structures for higher surface wickability and\nenhanced thermal performance. The wicking and boiling performance of\nthe copper foams fabricated in acidic solution (pH 0) and basic solution\n(pH 10 and 12) are experimentally characterized with a multimodal\nsensing system including temperature, acoustic, and optical signals.\nThree samples deposited at widely different pH (0,10, and 12) were\nconsidered to generalize the overall effect of the pH-deposition envi\u00ad\nronment over the wicking performance. The bubble size, bubble count,\nand vapor fraction are analyzed using high-speed optical images for\ncopper foams fabricated under varying pH to examine the effect of\nsurface wickability on bubble dynamics. Furthermore, we have recorded\nthe acoustic emissions (AE) generated during both wicking and boiling\nvapor dynamics to probe the role of wicking in boiling CHF enhance\u00ad\nment. Acoustic emissions are transient mechanical waves or vibrations\nthat are generated by a sudden release of energy in materials under\nexternal force or internal state changes. AE sensing measures and ana\u00ad\nlyzes dynamic behaviors through acoustic waves and has been used in\nboiling studies to identify regime transitions [93-96], probe bubble\ndynamics [97,98], and predict heat flux [99,100]. We extend the\nimplementation of this non-intrusive sensing technology to wicking tests\nto identify acoustic features representing capillary wicking and compare\nthem with AE signals captured during boiling. By introducing a\nparameter space for boiling surface fabrication (pH control) and a new\nangle of probing wicking in boiling (acoustic emission), our work not\nonly advances the fundamental understanding of structure-enhanced\nboiling heat transfer but also endorses an exploration of a new direc\u00ad\ntion: applying acoustics analysis to the structured surfaces beyond the\nstate-of-the-art.\n2. Methodology\n2.1. Surface fabrication\nTwo different types of modified surfaces were used in the boiling\nexperiment comprising a polished copper surface and hierarchical cop\u00ad\nper foams. The polished copper surface was prepared by polishing a 110\ncopper block (McMaster-Carr 89275K38) with fine sandpaper. Before\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n3\npolishing, the boiling surface of the copper block was cleansed with\nchemicals in the following order: acetone, ethanol, isopropanol, and\ndeionized water to remove any impurities. The treated surface was\nunidirectionally polished by flipping the heater block where the boiling\nsurface touched the sandpaper (grit 320 followed by grit 600).\nThe hierarchical copper foams were fabricated using the electrode\u00ad\nposition method with pH control, following the recipes and operating\nprocedures detailed in [101]. As illustrated in Fig. 1, copper surfaces\nwere polished using grit 1000 sandpaper and then submerged into the\nprepared solutions for electrodeposition. The materials include water\n(HPLC grade; BDH), acetone (HPLC grade; VWR), methanol (HPLC\ngrade; VWR), and isopropyl alcohol (HPLC grade; VWR), and were used\nas received. Copper (II) sulfate pentahydrate (99.99 %; Sigma Aldrich),\nsulfuric acid (96 %: Sigma Aldrich), sodium hydroxide (50 %(W/W) in\nwater; Sigma Aldrich), lactic acid (95 %; Sigma Aldrich), which were\nalso used as received. An Ag/AgCl reference electrode (stored in satu\u00ad\nrated KCl; BASi), was used during electrodeposition. High purity 0.25\nmm-thick copper foil electrodes (99.9985 %; Alfa Aesar) and high purity\ncopper blocks (110 copper, McMaster Carr) were used as electrodepo\u00ad\nsition substrates for wicking and boiling experiments, respectively.\nThree copper deposition solutions with pH values of 0, 10, and 12 were\nused to deposit copper dendrites. The pH 0 solution consisted of an\naqueous solution of 0.40 M CuSO4 and 1.5 M H2SO4. Lactic acid was\nused to achieve stable copper ions in basic conditions [102]. The pH 10\nand pH 12 solutions consisted of 0.4 M CuSO4 and 3 M lactic acid, fol\u00ad\nlowed by the titration of a sufficient volume of concentrated NaOH to\nreach the desired pH as indicated by a pH meter. The dendritic copper\nfoams were electrodeposited in a three-electrode electrochemical cell\nwith an Ag/AgCl reference electrode, and a 3 cm2 copper foil was used as\nthe counter electrode. The pH 0 dendritic foams were deposited at a\nconstant potential of -2.0 V vs. Ag/AgCl for 15 s. The pH 10 and pH 12\nfoams were deposited in their corresponding solutions at a constant\npotential of -2.0 V vs. Ag/AgCl for 360 s. These deposition times were\nchosen to achieve similar deposition mass. All three deposition pro\u00ad\ncedures, on average, yield 3 mg cm-2 of dendritic copper onto the sur\u00ad\nface. It is worthy of mention that sodium and lactate ions were highly\nsoluble in water. A rinsing process was conducted after fabrication to\nensure the basic samples were free from surface contamination. In\naddition, the high temperatures and aqueous media of the boiling ex\u00ad\nperiments were sufficient to further remove any possible impurities that\nmay have remained on the surface.\nFig. 2 shows the scanning electron microscopy (SEM) images of\ncopper foams deposited in an acidic solution (pH 0, Fig. 2a-c), and two\nbasic solutions i.e. (pH 10, Fig. 2d-f) and (pH 12, Fig. 2g-i) at different\nmagnifications. All the samples have multi-tier pores and microcavities\nformed by hydrogen bubbling during electrodeposition. No salt build-up\nor other residue materials are observed in the SEM images. This is also\nconfirmed by energy-dispersive X-ray spectroscopy (EDX) analysis\nwhich shows copper as the major component of the dendritic structures\nwith negligible background signals from carbon and oxygen. Hierar\u00ad\nchical copper foams deposited at pH 10 and pH 12 are shown to have\ndenser and smaller dendrites in micro-leaf structures and smaller gaps\nbetween dendrites than those deposited at pH 0. This is consistent with\nthe X-ray diffraction (XRD) analysis reported in [101], where the crys\u00ad\ntallite size of pH 10 copper foams is shown to be 52 - 57 % smaller than\npH 0 copper foams. Fig. 3 shows the XRD measurements of the Cu (111)\nand Cu(200) peaks of the electrodeposited copper foams at pH 0, pH 10,\nand pH 12 (Fig. 3a) and the Debye-Scherrer crystallite size along the\n(111) and (200) orientations based on XRD analysis (Fig. 3b). The\nbroader peaks observed for base deposited copper foams (pH 10, pH 12)\nindicate that they have smaller crystallite sizes than acid deposited\ncopper foams (pH 0). The differences in crystallite size for the two basedeposited copper foams are smaller than the observed variance between\nidentically-prepared samples (roughly 5 nm).\n2.2. Wickabilty characterization with acoustic emission\nPendant droplet radial wicking tests have been widely used for the\nwickability characterization of boiling surfaces [20,41,66-68], whereas\nthe recorded signal is limited to optical imaging. The present work uses a\ncustom-built radial wicking setup with synchronized optical and\nacoustic sensing. As shown in Fig. 4a, a perfluoroalkoxy (PFA) capillary\ntube with an inner diameter of 0.02\u2032\u2032 (0.508 mm) is filled with deionized\nwater to form a pendant drop. The textured surface (in this study, copper\nfoam samples) is placed on a translational stage (Newport DS 40-XYZ). A\nhigh-speed camera (Phantom VEO 710L) is used to record the liquid\nlevel inside the PFA tube at a frame rate of 3,000 fps. During the wicking\ntests, the translation stage is moved up slowly to initiate the contact of\nthe pendant droplet and the textured surface. The liquid level (H) as a\nfunction of time is extracted from the high-speed videos using grayscalebased interface tracking in MATLAB. Existing studies have reported the\npeak AE frequencies during boiling to be in the range of 1 - 100 kHz\n[98,99,103,104]. In this work, a MISTRAS R3a AE sensor characterized\nby a resonant response at 30 kHz was selected for AE sensing in both\nwicking and boiling tests. While the sensor can be responsive to wider\nfrequency ranges (e.g., 1 kHz - 1 MHz), the accuracy and reliability of\nthe measurements will be significantly lower for signals far from the\nsensor's resonant frequency. The AE sensor was attached to the trans\u00ad\nlation stage with a magnetic hold down and connected to a data\nacquisition unit (MISTRAS USB-AE) to record the acoustic signals,\nincluding AE count, AE energy, AE hits, and AE amplitudes. The test\nfacility was installed on a Thorlab Nexus optical table (T46V) with\npassive legs (PTP703) for vibration isolation. A threshold amplitude of\n24 dB was set as the baseline which filtered the background acoustic\nsignals in the data acquisition software (MISTRAS AEWin) during data\nsampling. The inset of Fig. 4a shows a representative image and acoustic\nsignal (AE amplitude) recorded during a wicking test. A spike in AE\namplitude at the onset of wicking is observed, which represents the\nacoustic features during capillary wicking. This spike can be attributed\nto the sudden release of energy when the pendant drop is sucked by the\nwicking surfaces due to capillary forces. The high wicking flux in the\ninitial stage leads to strong stress waves on the surface, which are\ndetected by the AE sensor. As wicking slows down, the AE amplitude\nalso attenuates after the initial spike.\n2.3. Pool boiling tests with acoustic emission\nFig. 4b shows the pool boiling test facility, which consists of a closed\nboiling chamber with a condensing loop for pressure control, a heating\nelement with proper insulation and power supply, a multimodal sensing\nsystem including temperature, pressure, and acoustic emission, and the\nassociated data acquisition system. The boiling chamber consists of a\npolycarbonate ceiling and side walls, and a PEEK base. It has an inner\nvolume of 6.5 \u00d7 6.5 \u00d7 7 in3 (165.1 mm \u00d7 165.1 mm \u00d7 177.8 mm) and is\nfilled with deionized water to a liquid level of 4 in (101.6 mm) before\ntesting. The ceiling of the boiling chamber is connected to a Graham\ncondenser (Ace glass 5953-106) for degassing and a coiled copper tube\nFig. 1. Schematic diagram of the fabrication process for electrodeposited\ncopper foams on a copper block.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n4\ncondenser for pressure control, both of which are connected to a chiller\n(Thermo Scientific Polar ACCEL 500 Low/EA) using a bypass loop. Two\ncompact screw-plug immersion heaters (McMaster-Carr 4668 T54) are\ninstalled inside the boiling chamber for degassing and auxiliary heating.\nA variable-voltage transformer (McMaster-Carr 6994 K17) is used to\nsupply heat to the immersion heaters. The heating element includes a\ncopper block with a boiling surface area of 10 mm \u00d7 10 mm, a custombuilt PEEK insulation chamber, and nine cartridge heaters (Omega En\u00ad\ngineering HDC19102) inserted into the bottom of the copper block. The\nsurface of the copper block is exposed to the liquid pool through the\nPEEK chamber. The junction between block-PEEK is sealed using RTV\n(Momentive RTV 106) and epoxy (3 M DP 110) as shown in Fig. 4b and\nunidirectional heat transmission is ensured. The gap between the copper\nblock and the PEEK chamber is filled with fiberglass and a ceramic block\nis used at the bottom of the PEEK chamber to support the copper block.\nThe cartridge heaters are connected to a DC power supply (Magna-\nPower SL200-7.5) for heating power control. Four T-type thermocouples\n(Omega Engineering TJ36-CPSS-032U-6) are evenly spaced in the cop\u00ad\nper block for surface temperature and heat flux measurements. A high-\naccuracy pressure transducer (Omega PX409-030A5V) is used to mea\u00ad\nsure the vapor pressure inside the boiling chamber. Two T-type threaded\npool thermocouples (McMaster-Carr 1245N16) are placed inside the\nboiling chamber to measure liquid and vapor temperatures, respec\u00ad\ntively. The signals from the thermocouples and pressure transducer are\nconnected to an NI DAQ system (chassis: cDAQ-9178, temperature\nmodule: NI 9210, analog input module: NI 9239), and recorded using\nLabVIEW. A high-speed camera (Phantom VEO 710L) is used to visualize\nbubble dynamics during boiling with an LED light source (Advanced\nIllumination BT200100-WHIIC) for backlighting. The boiling setup uses\nthe same AE sensor, data acquisition unit, and software as the wick\u00ad\nability setup reported in Sec. 2.2. After several iterations on the position\nof the AE sensor for recording the signals, the bottom edge of the boiling\nchamber that was closer to the heater surface was selected to install the\nAE sensor. All tests were performed under the same conditions including\nsensor location, and the analysis is focused on the comparison between\nthe tests using different surface structures. A higher threshold amplitude\nof 55 dB (compared to 24 dB in wicking tests) was used for the boiling\ntests to account for the background noises due to heaters and the\ncondensing loop during boiling. The inset of Fig. 4b shows representa\u00ad\ntive AE signals (AE amplitude versus time) during pool boiling which\ncorroborates the strong acoustic signals during boiling phenomena. The\ntemperature, pressure, and high-speed imaging signals are synchronized\nusing hardware connection with BNC cables and Software control in\nLabVIEW, which reduces the time delay to 5.69 ms [105]. All experi\u00ad\nmental data reported in this paper are obtained from steady-state pool\nboiling tests using deionized water. At the beginning of each experi\u00ad\nment, water is degassed for half an hour with the Graham condenser\nopen. After degassing, the Graham condenser is turned off and the coiled\ncopper tube condenser is turned on for pressure control. At each heating\npower, the system reaches a steady state in approximately 15 min and\ndata sampling is performed during this time.\nFig. 2. SEM images at different magnification levels for copper foams fabricated at (a-c) pH 0, (d-f) pH 10, and (g-i) pH 12.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n5\n3. Results and discussion\n3.1. Wicking and boiling characterization of copper foams\nFig. 5a shows the wicked volume versus time for both acid-deposited\ncopper foam (pH 0) and base-deposited copper foams (pH 10 & 12),\nwhere the symbols and shaded regions represent the mean wicked vol\u00ad\nume and standard deviations analyzed from six tests per case (two\nsamples per surface, three tests per sample). The wicked volume is\ndetermined using the instantaneous liquid level (H) extracted from high-\nspeed imaging following Vw(t) = \u03c0d2\ntube[H0 -H(t) ]/4, where H0 is the\ninitial liquid level before wicking and dtube is the inner diameter of the\ncapillary tube. Despite the relatively large standard deviation due to\nsample contaminations of the wicking surface, the area of selection for\nwicking and its non-uniformity, and uncertainties in interface tracking,\nFig. 5a shows that the wicked volume of the base deposited copper\nfoams (pH 10 & 12) is higher than that of the acid deposited copper foam\n(pH 0). Following the convention in [20], the wicking flux is calculated\nas \u03c6w = (dVw/dt) |t\u21920/Aw, where Aw is the wetted area measured from\nthe optical image (~0.48 mm2 in the present study). The wicking fluxes\nand peak AE amplitudes during wicking on electrodeposited copper\nfoams at pH 0, pH 10, and pH 12 are listed in Table 1. Since polished\ncopper is not a wicking surface, the wicking flux and AE-wicking entries\nare kept empty in Table 1.\nThe calculated wicking fluxes for pH 0, 10, and 12 copper foams are\nalso plotted in Fig. 5b. It is observed that the wicking flux increases with\nthe pH, with a mean wicking flux of 30.7 mm/s for pH 0, 41.8 mm/s for\npH 10, and 47.3 mm/s for pH 12. To understand the role of surface\nstructures in enhanced wicking, Fig. 6 plots the mean wicking flux as a\nfunction of the crystallite size based on Cu(111) and Cu(200) surfaces\nfor copper foams at pH 0, pH 10, and pH 12. It is observed that the\nwicking flux increases as the crystallite size decreases following a nearly\ninverse relationship. This observation can be attributed to the higher\ncapillary pressure at smaller structure sizes. It is known that many\nphysical forces play a role in different stages of capillary wicking,\nincluding surface tension, viscous force, inertia, and gravity. Existing\nwicking models are predominantly focused on the viscous limit, where\ncapillary pressure is balanced by viscous resistance between the liquid\nand solid. As such, the wicking metrics defined by these studies normally\ninclude the product of the capillary pressure and the permeability (the\ninverse of the permeability represents the strength of viscous resistance)\n[59,60,67]. Nevertheless, the viscous limit fails to describe the upper\nlimit of wicking fluxes since it leads to an unbounded singularity in the\nearly stage of capillary wicking when the wicking length vanishes.\nCompared to viscous resistance, inertia plays a more critical role in\nearly-stage wicking [106]. In the inertia limit, the wicking flux is\ndictated by the capillary pressure and the influence of viscous resistance\nis negligible. The smaller dendritic features present in copper foams at\npH 10 and pH 12, particularly the average smaller gaps between den\u00ad\ndrites in these foams, can lead to increased capillary pressure and thus\nstronger surface wickability [107].\nThe pool boiling results of the polished copper surfaces and the acid\nand base-deposited copper foams are presented in Fig. 7. Fig. 7a shows\nthe heat flux (q\") as a function of the wall superheat (\u0394T), and Fig. 7b\nFig. 3. (a) XRD measurements of the (111) and (200) peaks of the nickel foil\nsubstrate, copper powder, and electrodeposited dendritic copper foams at pH 0,\npH 10, and pH 12. Ni foil was used as a substrate to study the deposited copper\ndendrites without being obscured by the copper substrate. (b) Debye-Scherrer\ncrystallite size along the (111) and (200) orientations in electrodeposited\ndendritic copper foams at pH 0, pH 10, and pH 12.\nFig. 4. Schematic diagrams of (a) the surface wickability testing facility with the inset showing a representative optical image and acoustic signals and (b) the pool\nboiling test facility with the inset showing representative acoustic signals.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n6\nshows the heat transfer coefficient (h) as a function of the heat flux. The\ninset of Fig. 7b illustrates the wicking-based mechanism of heat transfer\nenhancement during boiling on copper foams, where liquid from the\npool is imbibed to the liquid layer underneath the bubble via capillary\nwicking to delay dryout. The CHF and HTC of polished copper and\ncopper foams are summarized in Table 1. The CHF value for the polished\ncopper surface is 102.6 W/cm2, which is close to Zuber's limit of 110 W/\ncm2. The maximum HTC for a polished copper surface is h = 6.4 W/cm2\nK at a wall superheat (\u0394T = 15.83 \u00b0C). Both acid-deposited copper foams\n(pH 0) and base-deposited copper foams (pH 10 & 12) yield boiling CHF\nwell beyond the Zuber's limit. Particularly, the pH 10 copper foam leads\nto the highest CHF among the foams at 218.6 W/cm2, which is 113 %\nlarger than polished copper. The copper foams generally have higher\nsurface superheat than polished copper at the same heat flux, owing to\nthe higher nucleation barrier due to the superhydrophilicity of the foam\nstructures. As a result, the HTC of copper foams is lower than that of\npolished copper at the same heat flux, as shown in Fig. 7b. Nevertheless,\nall the hierarchical copper foams still lead to higher maximum HTCs\nthan polished copper surfaces because the ratio of heat flux increment\nagainst the increase in temperature superheat was larger. As such HTCs\nof 7.8 W/cm2 K, 10.7 W/cm2 K, and 9.3 W/cm2 K were obtained for pH\n0, pH 10, and pH 12 copper foams, respectively. The Rohsenow corre\u00ad\nlation is used to benchmark the boiling curve on polished surfaces in\nFig. 7a&b using two different coefficients of liquid-surface combina\u00ad\ntions, i.e., Csf = 0.0128 [108] and Csf = 0.0107 [109]. The boiling curve\nof the polished Cu surface is shown to agree well with the Rohsenow\ncorrelation with Csf = 0.0107 suggesting a new liquid surface combi\u00ad\nnation for water-sandpaper polished copper surface. Boiling inversion is\nobserved in all copper foam cases, represented with kinks in the boiling\ncurves roughly in the heat flux range of 80 - 110 W/(cm2K). These kinks\nindicate the bubble dynamics have gone through a transition, which will\nbe discussed in Sec. 3.3.\n3.2. Acoustic emission characteristics of wicking and boiling\nThe mechanism of structure-induced boiling CHF enhancement is\nprobed using acoustic sensing in both wicking and boiling tests. Fig. 8\nshows AE signals captured during the CHF event of water boiling on pH\n0 copper foam, with Fig. 8a showing the AE amplitude as a function of\ntime throughout the test, and Fig. 8b and 8c showing representative\nwaveforms in the nucleate boiling regime and CHF, respectively. The\nblack dashed lines represent the preset threshold voltage (Vth) corre\u00ad\nsponding in decibels in a waveform which is 57.7 mV equivalent to 55\ndB set in the boiling tests. When the measured voltage goes beyond the\ndefined threshold, a hit from the waveform is recognized. The number of\nhits, the peak voltage, the time from the first hit to the peak voltage\n(defined as rise), and the duration of the waveform are the commonly\nused AE parameters to analyze the signals. The peak decibel or voltage of\na waveform is named the AE amplitude and is plotted in Fig. 8a. The\nFig. 5. Wickability of copper foams showing (a) wicking volume versus time and (b) wicking flux for acid-deposited copper foams (pH 0) and base-deposited copper\nfoams (pH 10 and pH 12). The symbols and shaded areas represent the mean and standard deviation, respectively.\nTable 1\nSummary of the wicking flux, critical heat flux, and heat transfer coefficient of\npolished copper and copper foam structures used in the present work.\nHeater\nsurface\nWicking\nflux (mm/s)\nAE-\nwicking\n(dB)\nCHF\n(W/\ncm2)\nMax. HTC\n(W/\n(cm2K))\nAE-\nCHF\n(dB)\nPolished\ncopper\n-\n-\n102.6\n6.4\n58.2\nCopper\nfoam at\npH 0\n30.7\n65.5\n183.9\n7.8\n62.0\nCopper\nfoam at\npH 10\n41.8\n39.2\n218.6\n10.7\n59.6\nCopper\nfoam at\npH 12\n47.3\n38.2\n202.1\n9.3\n59.8\nFig. 6. Wicking flux as a function of the inverse of the Debye-Scherrer crys\u00ad\ntallite size along the (111) and (200) orientations for electrodeposited copper\nfoams at pH 0, pH 10, and pH 12.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n7\ntime interval between the first hit and the peak is called the rise. As\nshown in Fig. 8b and 8c, the AE amplitude at CHF (1.52 V in terms of\nvoltage) is much higher than pre-CHF (0.24 V). The sound levels in\ndecibels follow a logarithm relationship with the voltage and are 84 dB\nat CHF and 68 dB at the moment represented by Fig. 8b. The rise at CHF\n(237 \u03bcs) is also higher than that in the nucleate boiling (179 \u03bcs at the\nmoment represented by Fig. 8b). It is evident from Fig. 8 that AE\namplitude is very sensitive to the boiling regime and can thus be used to\nrepresent boiling regimes and the CHF conditions.\nFig. 9 shows the synchronized temperature, heat flux, and AE\namplitude data versus time for water boiling on (a-b) polished copper\nand (c-d) electrodeposited copper foam at pH 0. The four temperature\nreadings, i.e., T1, T2, T3, and T4, are recorded from the thermocouples\nevenly spaced in the copper block with light to dark gray representing\nFig. 7. Pool boiling heat transfer performance of the polished copper surface and copper foams deposited at pH 0, 10, and 12 showing (a) boiling heat flux as a\nfunction of the wall superheat with the Rohsenow correlation at different liquid surface combinations (Csf) for water on polished copper and (b) Heat transfer\ncoefficient as a function of the boiling heat flux with the Rohsenow correlation. The inset illustrates the wicking-based boiling enhancement mechanism.\nFig. 8. Representative AE signals during boiling showing (a) AE amplitude versus time and (b-c) representative waveforms during (b) nucleate boiling and (c) critical\nheat flux on pH 0 copper foam.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n8\nthe direction from the boiling surface to the cartridge heaters, and Ts\nrepresents the extrapolated boiling surface temperature. The AE\namplitude is recorded by the AE sensor attached to the boiling chamber.\nFor water boiling on polished copper, Fig. 9a and 9b show a represen\u00ad\ntative steady-state nucleate boiling condition (q\u2032\u2032 = 80.7 W/cm2) and the\nCHF condition, respectively. As shown in Fig. 9a, during steady-state\nnucleate boiling, the AE amplitude has some fluctuations due to back\u00ad\nground noises but mostly fluctuates around a constant value. Fig. 9b\nshows the synchronized multimodal signals under a heat load of 120 W,\nwhich triggers CHF at t \u224868 s. Upon the incipience of CHF, the tem\u00ad\nperature ramps up rapidly due to the additional thermal resistance\ninduced by the vapor layer blanketing the heater surface. To avoid\noverheating-induced device failures, the heaters were turned off\nimmediately after the temperature spike was observed during the\nboiling test (with a time gap of ~ 3 s). As a result, temperatures started\nto decrease after the initial rapid growth. It is noted that water remained\nin the transition boiling regime for an extended period after the heater\nwas turned off, and returned to nucleate boiling at t \u2248149 s. The dis\u00ad\ncussions of this extended period are detailed in the authors' other paper\n[110] and will not be expanded here. Fig. 9b shows higher AE ampli\u00ad\ntudes in the transition boiling regime, which is consistent with existing\nstudies [93,96,111]. For nucleate boiling of water on copper foam at pH\n0, the behavior of the temperature, heat flux, and AE amplitude are very\nsimilar to those on the polished copper surface (Fig. 9c). However, the\nAE signals at the CHF condition are quite different between copper\nfoams and polished copper. As shown in Fig. 9d, a spike in the AE\namplitude is observed when CHF is triggered during water boiling on\ncopper foam at pH 0, represented by a sudden increase in AE amplitude\nfollowed by a subsequent sudden decrease. When CHF is triggered, the\nvigorous bubble dynamics and rapid growth of the vapor layer lead to\nhigher acoustic emissions, represented by the sudden increase in the AE\namplitude. The rapidly growing vapor layer covers the entire heater\nsurface very soon and mitigates the disturbances of the liquid-vapor\ninterfaces, resulting in very slow ebullition and a sudden decrease in the\nAE amplitude. As demonstrated by Seo and Bang [96] and Sinha et al.\n[93], the AE amplitude in the film boiling regime is very low due to the\nstable vapor film (referred to as \"silent regime\" by Sinha et al.). In the\npresent work, the heater was turned off very soon after CHF was\nobserved (within 3 s). The loss of power makes the vapor layer meta\u00ad\nstable, leading to stronger interface disturbances, represented by an\nincreasing AE amplitude. This explains the observation of a spike fol\u00ad\nlowed by a gradual increase in the AE amplitude in Fig. 9d. This trend is\nconsistent with the AE signals observed by Sinha et al. at the CHF con\u00ad\ndition [93,112].\nIt is noted that this type of AE amplitude spikes is observed at CHF\nduring all the boiling tests on copper foams (including pH 0, pH 10, and\npH 12), whereas no such spikes are observed during boiling tests using\npolished copper, as confirmed by multiple independent tests. This dif\u00ad\nference can be attributed to the higher CHF and surface superheats\nduring boiling on copper foams. For example, for water boiling on\nelectrodeposited copper at pH 0, the heater surface temperature was\n123.4 \u25e6C when CHF was triggered and reached 236.0 \u25e6C before it started\nto decrease. This peak temperature is very close to the Leidenfrost point\nof water on copper surfaces (237 \u25e6C, as reported in [113]), and is thus\nsufficiently high to maintain a stable vapor film to blanket the surface.\nOn the contrary, for the polished copper case, the surface temperature\nFig. 9. Synchronized temperature, heat flux, and AE amplitude for water boiling on (a-b) polished copper showing (a) representative nucleate boiling at a heat flux of\n80.7 W/cm2 and (b) the CHF condition and (c-d) electrodeposited copper foam at pH 0 showing (c) representative nucleate boiling at a heat flux of 78.0 W/cm2 and\n(d) the CHF condition.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n9\nwas at 114.4 \u25e6C when CHF was triggered, and only reached up to\n160.9 \u25e6C, which is too low to maintain a stable vapor film.\nTo understand the governing mechanisms of structure-induced CHF\nenhancement, the acoustic signatures of copper foam-enhanced boiling\nheat transfer are compared to the acoustic signatures of wicking repre\u00ad\nsented in Fig. 10. Fig. 10a shows the average AE amplitude at the\nincipience of wicking for pH 0, pH 10, and pH 12 copper foams from the\nwicking tests. The acid-deposited copper foam (pH 0) has an AE\namplitude of 65.5 dB, higher than that of the two base-deposited copper\nfoams including 39.2 dB for pH 10 copper foam and 38.2 dB for pH 12\ncopper foam. The difference in AE amplitudes between pH 10 and pH 12\ncopper foams is negligible compared to the experimental uncertainties.\nSince the basic deposited copper foams (pH 10 & 12) have higher\nwicking fluxes than the acid-deposited copper foam (pH 0) as shown in\nFigs. 5 and 6, the AE amplitude is inferred to have a negative correlation\nwith the wicking flux. This peculiar observation is attributed to the\nsignal measurement mechanism of the AE sensor and the swift-wicking\nprocess. We suspect the inverse relation is due to the rapidity of wicking\nprocesses occurring at a thousandth of a second which has waning ef\u00ad\nfects on its acoustic signatures. As such, it is expected that the AE sensor\nrecords minimal amplitudes at high-wicking surfaces. To compare the\nacoustic signatures from wicking and boiling tests, the boiling acoustic\nsignatures are plotted in Fig. 10b (nucleate boiling) and Fig. 10c (CHF)\nby running the analysis illustrated in Fig. 9 for all boiling tests. As shown\nin Fig. 10b, the AE amplitude of the acid-deposited copper foam (pH 0)\nis shown to be higher than the base-deposited copper foams (pH 10 &\n12) throughout the nucleate boiling regime except for the low-heat-flux\nregion that has large fluctuations. Despite the AE amplitudes at CHF\nbeing higher than nucleate boiling due to the vapor layer formation, the\nsame trend is observed at CHF (Fig. 10c). The AE amplitude of the aciddeposited copper foam (pH 0) is 62.0 dB, larger than the base deposited\ncopper foams, including 59.6 dB for pH 10 copper foam and 59.8 dB for\npH 12 copper foam. Similar to the wicking acoustic signatures, the dif\u00ad\nference in the boiling AE amplitude between pH 10 and pH 12 is\nnegligible. By comparing Fig. 10a and Fig. 10c, a consistent trend in AE\namplitude is observed between wicking and boiling tests: both the\nwicking flux and boiling CHF decrease with the AE amplitude. This\nobservation provides evidence for the critical role that capillary wicking\nplays in structure-induced CHF enhancement from a new perspective\n(acoustic emission). It is also shown in Fig. 10b that in the nucleate\nboiling regime, the AE amplitude first decreases with the heat flux\n(roughly, q\u2032\u2032 < 100 W/cm2) and then increases with the heat flux. This\nobservation is believed to be correlated to the bubble dynamics during\nboiling and will be explained in Sec 3.3 with the analyzed bubble size\nand count.\n3.3. Bubble dynamics and vapor fraction analysis\nThe bubble dynamics during water boiling on polished copper and\ncopper foam surfaces are analyzed using high-speed videos captured\nduring boiling tests. Fig. 11 shows representative bubble images from\nboiling tests on the polished copper surface and pH 0, pH 10, and pH 12\ncopper foams at different heat fluxes. The heat flux values correspond to\nthe boiling curves in Fig. 7 before CHF. Irrespective of the different\nwicking properties for polished copper and copper foam samples as\nshown in Table 1, a common trend can be observed in all cases that\ndiscrete bubbles are observed at low heat fluxes (<30 W/cm2) and\nbubbles tend to coalesce and form a mushroom-shaped cloud as the heat\nflux increases. It can also be observed that bubble coalescences majorly\ntake place near the heater surface to feed vapor to the giant cloud above.\nAs heat flux further increases, the edge of the mushroom-shaped cloud\ntends to move closer toward the heater surface. To quantitatively\nanalyze bubble dynamics, Fig. 12a and 12b show the maximum bubble\ndiameter (Dmax) and bubble count (N) versus heat flux, respectively,\nextracted from high-speed videos using ImageJ [114]. The error bars are\ngenerated from averaging results from multiple frames per heat flux.\nSince the bubble size varies in an ebullition cycle, the maximum bubble\ndiameter of each ebullition cycle is used. As shown in Fig. 12a, the\nmaximum bubble diameter increases with the heat flux before 80 W/\ncm2 due to more frequent bubble coalescences, which is also supported\nby the rapid decrease of the bubble count with heat flux shown in\nFig. 12b. For heat fluxes beyond 80 W/cm2, the increase/decrease in\nDmax /N with heat flux becomes much slower as coalescence has become\nfrequent enough to absorb newly nucleated bubbles into the vapor\ncloud. In this regime, the increase in the heat flux is characterized by the\nlarger vapor cloud. This transition of bubble dynamics corresponds to\nthe kinks observed in the boiling curves. The analyzed bubble size and\nbubble count can also be used to explain the observed relationship be\u00ad\ntween the AE amplitude and heat flux in the nucleate boiling regime\n(Fig. 10b). Assuming the shape of the bubbles to be a spherical cap, the\nforce that a bubble exerts on the surface is F = \u03c3\u03c0Dbubblesin\u03b8tan\u03b8, where\nDbubble is the bubble diameter and \u03b8 is the contact angle [115]. The\noverall stress that bubbles exert on the heater surface is thus \u03c4 =\nN\u03c3\u03c0Dbubblesin\u03b8tan\u03b8/Aheater, where N is the bubble count and Aheater is the\nheater footprint. Based on this analysis, the bubble-induced stress on the\nheater surface is positively correlated with both Dbubble and N following\n\u03c4 \u223cDbubble/Aheater. Existing experimental studies have reported the\npositive relevance between the AE amplitude and bubble size\n[116-118]. For example, bubble incipient tests show an average 1.1 dB\nincrease in the AE amplitude when the bubble diameter doubles [118].\nIn the early nucleate boiling stage (q\u2032\u2032 < 100 W/cm2), the rapid bubble\nsize increase with heat flux leads to stronger AE signals per bubble.\nFig. 10. Acoustic emission characteristics in wicking and boiling tests. (a) Average AE amplitude at the onset of wicking in the wicking tests. (b) Average AE\namplitude during pool boiling in the nucleate boiling regime. (c) Average AE amplitude during CHF.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n10\nNevertheless, the bubble count reduces more significantly with heat flux\nin this stage. Using a power law fitting of the data in Fig. 12, it was found\nthat, in the range of q\" < 100 W/cm2, the maximum bubble diameter\nand bubble count scale with the heat flux following Dmax \u223cq\u2032\u20320.74 and\nN \u223cq\u2032\u2032-1.27, respectively. As such, the stress on the heater surface is\nexpected to scale with the heat flux as \u03c4 \u223cq\u2032\u2032-0.53. Therefore, the AE\nFig. 11. Representative boiling images at different heat fluxes for polished copper and copper foams deposited at pH 0, pH 10, and pH 12. The scale bar represents\n10 mm.\nFig. 12. Bubble dynamics analysis during pool boiling showing (a) the maximum bubble diameter and (b) bubble count at different heat fluxes for water boiling on\npolished copper and copper foams deposited at pH 0, pH 10, and pH 12.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n11\namplitude decreases with the heat flux in this stage. For q\" > 100 W/\ncm2, the bubble count is nearly saturated at N = 1 (giant mushroomshaped cloud) while the bubble diameter still slowly increases with\nthe heat flux following Dmax \u223cq\u2032\u20320.35. Thus, the AE amplitude starts to\nincrease with the heat flux in the stage, which is consistent with Negi\net al.'s observation of increasing AE amplitude with heat flux in the\nrange ofq\u2032\u2032/q\u2032\u2032\nCHF = 0.4 - 0.95 [97].\nIn hydrodynamic instability-based CHF theories [5,6], CHF is trig\u00ad\ngered by the Helmholtz instability at the interface of vapor columns\nleaving the heating surface and the critical wavelength \u03bbC of Rayleigh-\nTaylor instability is used to estimate the distance between neighboring\nvapor columns in a large boiling surface. The generated bubble pertur\u00ad\nbations with wavelengths larger than critical wavelength lead to the\ninstability of the vapor-liquid interface. As such, two characteristic\nwavelengths of Rayleigh-Taylor instabilities are plotted in Fig. 12a as\nreference length scales to correlate our maximum bubble departure\ndiameter in the pool boiling test with an available theoretical explana\u00ad\ntion. The critical wavelength that initiates Rayleigh-Taylor instability is\n\u03bbRT = 2\u03c0 \u03bbC, where \u03bbC is the capillary length that can be determined with\nliquid surface tension (\u03c3), the gravity acceleration (g), and the difference\nin liquid density (\u03c1l) and vapor density (\u03c1v) using \u03bbC =\n\u03c3/(\u03c1l -\u03c1v)g\n\u221a\n.\nThe wavelength that corresponds to the maximum disturbance, aka the\nmost dangerous wavelength, is \u03bbD = 2\u03c0\n3\n\u221a\n\u03bbC. For saturated water at 1\natm, the capillary length is 2.51 mm, leading to a \u03bbRT of 15.7 mm and \u03bbD\nof 27.3 mm. It is observed in Fig. 12a that Dmax falls between \u03bbRT and \u03bbD\nfor all cases when the heat flux is beyond Zuber's limit. It can also be\nobserved that the differences in Dmax and N between different boiling\nsurfaces (polished copper, copper foams deposited at varying pH) at the\nsame heat flux are not pronounced (within the error bars).\nThe analysis of Dmax and N is a lumped steady-state analysis that does\nnot account for the dynamic oscillations during steady states. To probe\nthe dynamic behavior of the bubbles, the area fraction of the vapor\nphase is analyzed at every frame of the high-speed videos using the\napproach detailed in [119]. By tracking the interface motion using\nconsecutive boiling images, a vapor mask is extracted at each frame to\ndetermine the vapor fraction (see the inset of Fig. 13a for a represen\u00ad\ntative bubble image and the corresponding vapor mask). Since this\nanalysis is affected by the magnification of optical imaging, the calcu\u00ad\nlated vapor fraction is scaled using the scale bar in each case. Fig. 13\nshows the representative vapor fraction analysis as a function of time\nwhere Fig. 13a is steady-state boiling of water on the pH 12 copper foam\nat q\u2032\u2032 = 103.4 W/cm2 extracted from the high-speed video. Each of the\nsteady-state boiling experiments conducted over various copper samples\nhas different heat flux stages starting from early bubble nucleation, and\nbubble coalescence to vapor blanketing over the boiling surfaces. During\nthese boiling stages, the vapor fraction changes with the varying heat\nfluxes as bubble nucleation density increases followed by the formation\nof larger bubbles and vapor slugs at larger heat fluxes. Also, in each of\nthese individual steady-state heat flux stages, the vapor fraction oscil\u00ad\nlates over time as bubbles are nucleated, coalesced, and departed from\nthe heater surface. An envelope analysis is performed with \u03c6up and \u03c6low\nrepresenting the upper limit and lower limit of the envelope of the vapor\nfraction data and \u03c6m the mean line calculated using \u03c6m = (\u03c6up + \u03c6low)/2.\nSpectrum analysis is performed using the Fast Fourier Transform of the\nscaled vapor fraction data, \u03c6(t) - \u03c6m(t), and the results are plotted in\nFig. 13b. It is observed that the key features of the signals are in the\nrange of 8 Hz to 12 Hz. The power and the dominant frequency of vapor\nfraction are analyzed from the spectrum with a threshold amplitude\nimposed to filter out high-frequency noises for all boiling cases (polished\ncopper & copper foams deposited at pH 0, 10, and 12). The dominant\nfrequency of the vapor fraction represents the most critical time scale at\nwhich the bubbles or the mushroom-shaped bubble cloud behaves, and\nthe power represents the variance of the vapor fraction. The results are\nshown in Fig. 14. The power levels of different boiling frequencies ob\u00ad\ntained from vapor fraction analysis are shown to increase monotonically\nwith the heat flux. The data in Fig. 14a also reveal kinks at q\u2032\u2032 ~ 80 W/\ncm2 similar to the boiling curve (Fig. 7a) and maximum bubble diameter\n(Fig. 12a), signifying the transition of the bubble coalescence regime to\nthe increasing vapor cloud regime. The dominant frequency of the vapor\nfraction does not show a strong dependence on the heat flux. Particu\u00ad\nlarly, for heat fluxes beyond Zuber's limit, the dominant frequency\nconverges for all cases and fluctuates around 10 Hz. This dominant\nfrequency represents the oscillation of the mushroom-shaped cloud. It is\nin the same order of magnitude but is generally smaller than the re\u00ad\nported departure frequency of individual bubbles at low heat fluxes\n[41,78,79,81]. Based on the analysis of maximum bubble diameter and\nbubble count depicting larger standard deviations, as well as supported\nwith vapor fraction data for different surfaces with their varying wick\u00ad\nability, it does not show an obvious effect of wicking on the bubble\ndynamics while comparing equivalent heat flux for each of the boiling\nsurfaces. It is thus inferred that the structure-induced CHF enhancement\nis not directly related to the interface of the large-scale liquid-vapor\ndynamics. Combining this observation with the acoustic signals reported\nin Sec. 3.2 shows a similar trend of AE signature during wicking and\nboiling, the present work supports that the structure-induced CHF\nenhancement lies in the stronger capillary wicking and the effective\nliquid entrainment to the growing bubble rather than the apparent\nbubble dynamics.\n4. Conclusion\nIn this paper, electrodeposition with pH control is used to fabricate\ncopper foam structures for boiling enhancement. Copper foams depos\u00ad\nited at higher pH are shown to yield stronger wickability owing to the\nsmaller dendrites and gaps between dendrites. Pool boiling experiments\nare performed to characterize the thermal performance of the fabricated\nfoams and show higher CHF on base-deposited copper foams (pH 10 &\nFig. 13. (a) Vapor fraction as a function of time and (b) power spectrum calculated from vapor fraction analysis for water boiling on pH 12 copper foam at q\" =\n103.4 W/cm2.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n12\n12) than on acid-deposited foams (pH 0). The mechanism of the foaminduced CHF enhancement is probed using optical imaging and acous\u00ad\ntic emissions. The acoustic signatures are investigated during steady-\nstate boiling and an AE parameter in terms of amplitude is used to\ncharacterize both the wicking tests and the boiling tests using nano-\nengineered surfaces. The results have shown higher AE amplitude in\nthe transition boiling regime, which is consistent with existing studies.\nFrom the AE amplitude analysis, pH 10 and pH 12 copper foams with\nlarger wicking properties are shown to have a lower AE amplitude than\npH 0 copper foams. The similar trends observed in the AE signals during\nwicking tests and pool boiling tests indicate wicking to be the key\nmechanism for CHF enhancement. Bubble dynamics are characterized\nusing steady-state parameters including maximum bubble diameter and\nbubble count and dynamic oscillations of vapor fraction extracted from\nhigh-speed videos captured during boiling tests. No obvious differences\nin bubble dynamics are observed between the tested boiling surfaces\n(polished copper, pH 0, 10, and 12 copper foams) at similar heat fluxes.\nIt is thus inferred that the structure-induced CHF enhancement is not\ndirectly related to the interface of the large-scale liquid-vapor dynamics.\nDuring the nucleate boiling regime, the AE amplitude is shown to first\ndecrease with the heat flux rapidly but then increase with the heat flux\ngradually. This phenomenon is owed to the interplay between bubble\nsize and bubble count with heat flux and their role in the stress field that\nbubbles exert on the heater surface.\nDeclaration of Competing Interest\nThe authors declare that they have no known competing financial\ninterests or personal relationships that could have appeared to influence\nthe work reported in this paper.\nData availability\nData will be made available on request.\nAcknowledgments\nThis work was supported in part by the Chancellor's Fund for\nInnovation and Collaboration at the University of Arkansas and an\nArkansas NASA EPSCoR Research Infrastructure Development (RID)\naward. The authors would like to thank Professor Nenad Miljkovic and\nDr. Jiaqi Li of the University of Illinois at Urbana-Champaign for their\nvaluable discussion about this work.\nReferences\n[1] G. Chen, M. Jia, S. Zhang, Y. Tang, Z. Wan, Pool boiling enhancement of novel\ninterconnected microchannels with reentrant cavities for high-power electronics\ncooling, Int. J. Heat Mass Transf. 156 (2020), 119836, https://doi.org/10.1016/j.\nijheatmasstransfer.2020.119836.\n[2] S. Fan, F. Duan, A review of two-phase submerged boiling in thermal\nmanagement of electronic cooling, Int. J. Heat Mass Transf. 150 (2020), 119324,\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2020.119324.\n[3] R. Hernandez, R.J. Armstrong, S. Bin Seo, C.P. Folsom, C.B. Jensen, N.R. Brown,\nSensitivity analysis of in-pile CHF experiments in the TREAT facility:\ncharacterization of impacts of fuel system thermal properties, Ann. Nucl. Energy\n165 (2022), 108645, https://doi.org/10.1016/j.anucene.2021.108645.\n[4] C. Wang, Y. Zhuang, Y. Dong, L. Zhang, L. Liu, J. Du, Design and control analysis\nof the side-stream extractive distillation column with low concentration\nintermediate-boiling entrainer, Chem. Eng. Sci. 247 (2022), 116915, https://doi.\norg/10.1016/j.ces.2021.116915.\n[5] N. Zuber, Hydrodynamic Aspects Of Boiling Heat Transfer (Thesis), 1959, doi:\n10.2172/4175511.\n[6] V.K. Dhir, S.P. Liaw, Framework for a unified model for nucleate and transition\npool boiling, J. Heat Transfer 111 (3) (1989) 739-746, https://doi.org/10.1115/\n1.3250745.\n[7] S.G. Kandlikar, A theoretical model to predict pool boiling CHF incorporating\neffects of contact angle and orientation, J. Heat Transfer 123 (6) (2001)\n1071-1079, https://doi.org/10.1115/1.1409265.\n[8] C.K. Guan, J.F. Klausner, R. Mei, A new mechanistic model for pool boiling CHF\non horizontal surfaces, Int. J. Heat Mass Transf. 54 (17-18) (2011) 3960-3969,\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2011.04.029.\n[9] Y. Haramura, Y. Katto, A new hydrodynamic model of critical heat flux,\napplicable widely to both pool and forced convection boiling on submerged\nbodies in saturated liquids, Int. J. Heat Mass Transf. 26 (3) (1983) 389-399,\nhttps://doi.org/10.1016/0017-9310(83)90043-1.\n[10] L. Zhang, J.H. Seong, M. Bucci, Percolative scale-free behavior in the boiling\ncrisis, Phys. Rev. Lett. 122 (13) (2019), 134501, https://doi.org/10.1103/\nPhysRevLett.122.134501.\n[11] L. Zhang, S. Gong, Z. Lu, P. Cheng, E.N. Wang, Boiling crisis due to bubble\ninteractions, Int. J. Heat Mass Transf. 182 (2022), https://doi.org/10.1016/j.\nijheatmasstransfer.2021.121904.\n[12] M.S. Kamel, F. Lezsovits, A.M. Hussein, O. Mahian, S. Wongwises, Latest\ndevelopments in boiling critical heat flux using nanofluids: a concise review, Int.\nCommun. Heat Mass Transfer 98 (September) (2018) 59-66, https://doi.org/\n10.1016/j.icheatmasstransfer.2018.08.009.\n[13] H. Kim, Enhancement of critical heat flux in nucleate boiling of nanofluids: a\nstate-of-art review, Nanoscale Res. Lett. 6 (2011) 1-18, https://doi.org/10.1186/\n1556-276X-6-415.\n[14] A. Pare, S. Kumar Ghosh, The chronological study on parametric evolution of pool\nboiling with nanofluids: an experimental review, Therm. Sci. Eng. Progr. 34\n(2022), 101420, https://doi.org/10.1016/j.tsep.2022.101420.\n[15] S.H. Kim, G.C. Lee, J.Y. Kang, K. Moriyama, H.S. Park, M.H. Kim, Heat flux\npartitioning analysis of pool boiling on micro structured surface using infrared\nvisualization, Int. J. Heat Mass Transf. 102 (2016) 756-765, https://doi.org/\n10.1016/j.ijheatmasstransfer.2016.06.040.\n[16] S.H. Kim, G.C. Lee, J.Y. Kang, K. Moriyama, M.H. Kim, H.S. Park, Boiling heat\ntransfer and critical heat flux evaluation of the pool boiling on micro structured\nsurface, Int. J. Heat Mass Transf. 91 (2015) 1140-1147, https://doi.org/10.1016/\nj.ijheatmasstransfer.2015.07.120.\n[17] B. S. Kim, H. Lee, S. Shin, G. Choi, H. H. Cho, Interfacial wicking dynamics and its\nimpact on critical heat flux of boiling heat transfer, Appl Phys Lett, vol. 105, no.\n19, 2014, doi: 10.1063/1.4901569.\nFig. 14. Spectral analysis of vapor fraction during boiling showing (a) power of the vapor fraction spectral as a function of heat flux and (b) dominant frequency as a\nfunction of heat flux.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n13\n[18] H. Kim, Y. Park, H. Kim, C. Lee, D.W. Jerng, D.E. Kim, Critical heat flux\nenhancement by single-layered metal wire mesh with micro and nano-sized pore\nstructures, Int. J. Heat Mass Transf. 115 (Dec. 2017) 439-449, https://doi.org/\n10.1016/J.IJHEATMASSTRANSFER.2017.08.066.\n[19] K. H. Chu, R. Enright, E. N. Wang, Structured surfaces for enhanced pool boiling\nheat transfer, Appl Phys Lett, vol. 100, no. 24, 2012, doi: 10.1063/1.4724190.\n[20] M.M. Rahman, E.  \u0308Ol\u00e7eroglu, M. McCarthy, Role of wickability on the critical heat\nflux of structured superhydrophilic surfaces, Langmuir 30 (37) (2014)\n11225-11234, https://doi.org/10.1021/la5030923.\n[21] M. Bongarala, H. Hu, J. A. Weibel, S.V Garimella, Microlayer evaporation governs\nheat transfer enhancement during pool boiling from microstructured surfaces,\nAppl Phys Lett, vol. 221602, no. May, 2022, doi: 10.1063/5.0090156.\n[22] G. Pi, D. Deng, L. Chen, X. Xu, C. Zhao, Pool boiling performance of 3D-printed\nreentrant microchannels structures, Int J Heat Mass Transf 156 (2020) Aug.\n[23] B. Bon, J.F. Klausner, E. Mckenna, The Hoodoo: A new surface structure for\nenhanced boiling heat transfer, J. Therm. Sci. Eng. Appl. 5 (1) (2013) 1-11,\nhttps://doi.org/10.1115/1.4007439.\n[24] A. Elkholy, R. Kempers, Enhancement of pool boiling heat transfer using 3D-\nprinted polymer fixtures, Exp. Therm Fluid Sci. 114 (October) (2020), https://\ndoi.org/10.1016/j.expthermflusci.2020.110056.\n[25] Q.N. Pham, S. Zhang, S. Hao, K. Montazeri, C.H. Lin, J. Lee, A. Mohraz, Y. Won,\nBoiling heat transfer with a well-ordered microporous architecture, ACS Appl.\nMater. Interfaces 12 (16) (2020) 19174-19183, https://doi.org/10.1021/\nacsami.0c01113.\n[26] S. Mori, K. Okuyama, Enhancement of the critical heat flux in saturated pool\nboiling using honeycomb porous media, Int. J. Multiph. Flow 35 (10) (Oct. 2009)\n946-951, https://doi.org/10.1016/J.IJMULTIPHASEFLOW.2009.05.003.\n[27] D.C. Mo, S. Yang, J.L. Luo, Y.Q. Wang, S.S. Lyu, Enhanced pool boiling\nperformance of a porous honeycomb copper surface with radial diameter\ngradient, Int. J. Heat Mass Transf. 157 (2020), 119867, https://doi.org/10.1016/\nj.ijheatmasstransfer.2020.119867.\n[28] Q. Li, Z. Lan, J. Chun, R. Wen, X. Ma, Composite porous surfaces of microcavities\nfor enhancing boiling heat transfer, Int. J. Heat Mass Transf. 177 (2021), 121513,\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2021.121513.\n[29] S. Jun, J. Kim, D. Son, H.Y. Kim, S.M. You, Enhancement of pool boiling heat\ntransfer in water using sintered copper microporous coatings, Nucl. Eng. Technol.\n48 (4) (Aug. 2016) 932-940, https://doi.org/10.1016/J.NET.2016.02.018.\n[30] J.H. Kim, A. Gurung, M. Amaya, S.M. Kwark, S.M. You, Microporous coatings to\nmaximize pool boiling heat transfer of saturated R-123 and water, J. Heat\nTransfer 137 (8) (2015) 1-7, https://doi.org/10.1115/1.4030245.\n[31] S. Sarangi, J.A. Weibel, S.V. Garimella, Effect of particle size on surface-coating\nenhancement of pool boiling heat transfer, Int. J. Heat Mass Transf. 81 (2015)\n103-113, https://doi.org/10.1016/j.ijheatmasstransfer.2014.09.052.\n[32] R. Chen, M.C. Lu, V. Srinivasan, Z. Wang, H.H. Cho, A. Majumdar, Nanowires for\nenhanced boiling heat transfer, Nano Lett. 9 (2) (2009) 548-553, https://doi.org/\n10.1021/n18026857.\n[33] M.-C. Lu, R. Chen, V. Srinivasan, V.P. Carey, A. Majumdar, Critical heat flux of\npool boiling on Si nanowire array-coated surfaces, Int. J. Heat Mass Transf. 54\n(25-26) (Dec. 2011) 5359-5367, https://doi.org/10.1016/J.\nIJHEATMASSTRANSFER.2011.08.007.\n[34] D. Il Shim, G. Choi, N. Lee, T. Kim, B. S. Kim, H. H. Cho, Enhancement of pool\nboiling heat transfer using aligned silicon nanowire arrays, ACS Appl Mater\nInterfaces 9(20) (2017) 17595-17602, doi: 10.1021/acsami.7b01929.\n[35] N.S. Dhillon, J. Buongiorno, K.K. Varanasi, Critical heat flux maxima during\nboiling crisis on textured surfaces, Nat. Commun. 6 (1) (Nov. 2015) 8247,\nhttps://doi.org/10.1038/ncomms9247.\n[36] C. Li, Z. Wang, P.I. Wang, Y. Peles, N. Koratkar, G.P. Peterson, Nanostructured\ncopper interfaces for enhanced boiling, Small 4 (8) (2008) 1084-1088, https://\ndoi.org/10.1002/smll.200700991.\n[37] Y. Song, C.D. D\u00edaz-Mar\u00edn, L. Zhang, H. Cha, Y. Zhao, E.N. Wang, Three-tier\nhierarchical structures for extreme pool boiling heat transfer performance, Adv.\nMater. 2200899 (2022) 2200899, https://doi.org/10.1002/adma.202200899.\n[38] D. Lee, N. Lee, D. Il Shim, B.S. Kim, H.H. Cho, Enhancing thermal stability and\nuniformity in boiling heat transfer using micro-nano hybrid surfaces (MNHS),\nAppl. Therm. Eng. 130 (2018) 710-721, https://doi.org/10.1016/j.\napplthermaleng.2017.10.144.\n[39] K.H. Chu, Y.S. Joung, R. Enright, C.R. Buie, E.N. Wang, Hierarchically structured\nsurfaces for boiling critical heat flux enhancement, Appl. Phys. Lett 102(15)\n(2013), doi: 10.1063/1.4801811.\n[40] S. Xie, M. Jiang, H. Kong, Q. Tong, J. Zhao, An experimental investigation on the\npool boiling of multi-orientated hierarchical structured surfaces, Int. J. Heat Mass\nTransf. 164 (2021), 120595, https://doi.org/10.1016/j.\nijheatmasstransfer.2020.120595.\n[41] J. Li, W. Fu, B. Zhang, G. Zhu, N. Miljkovic, Ultrascalable three-tier hierarchical\nnanoengineered surfaces for optimized boiling, ACS Nano 13 (2019)\n14080-14093, https://doi.org/10.1021/acsnano.9b06501.\n[42] X. Dai, X. Huang, F. Yang, X. Li, J. Sightler, Y. Yang, C. Li, Enhanced nucleate\nboiling on horizontal hydrophobic-hydrophilic carbon nanotube coatings, Appl.\nPhys. Lett. 102(16) (2013) doi: 10.1063/1.4802804.\n[43] C. Zhang, L. Zhang, H. Xu, P. Li, B. Qian, Performance of pool boiling with 3D grid\nstructure manufactured by selective laser melting technique, Int. J. Heat Mass\nTransf. 128 (2019) 570-580, https://doi.org/10.1016/j.\nijheatmasstransfer.2018.09.021.\n[44] A.M. Sharifzadeh, H. Moghadasi, H. Saffari, M. Delpisheh, Experimental\ninvestigation of pool boiling heat transfer enhancement using electrodeposited\nopen-cell metal foam, Int. J. Therm. Sci. 176 (2022), 107536, https://doi.org/\n10.1016/j.ijthermalsci.2022.107536.\n[45] S. Zhang, G. Chen, X. Jiang, Y. Li, S. Waqar, A. Shah, Y. Tang, Z. Wang, C. Pan,\nHierarchical gradient mesh surfaces for superior boiling heat transfer, Appl.\nTherm. Eng. (2022), 119513, https://doi.org/10.1016/j.\napplthermaleng.2022.119513.\n[46] G. Chen, N. Chukwunenye, G.F. Jones, C.H. Li, Biomimetic structures by leaf vein\ngrowth mechanism for pool boiling heat transfer enhancements, Int. J. Heat Mass\nTransf. 155 (2020), 119699, https://doi.org/10.1016/j.\nijheatmasstransfer.2020.119699.\n[47] Y. Yang, X. Ji, J. Xu, Pool boiling heat transfer on copper foam covers with water\nas working fluid, Int. J. Therm. Sci. 49 (7) (Jul. 2010) 1227-1237, https://doi.\norg/10.1016/J.IJTHERMALSCI.2010.01.013.\n[48] Z.G. Xu, Z.G. Qu, C.Y. Zhao, W.Q. Tao, Pool boiling heat transfer on open-celled\nmetallic foam sintered surface under saturation condition, Int. J. Heat Mass\nTransf. 54 (17-18) (Aug. 2011) 3856-3867, https://doi.org/10.1016/J.\nIJHEATMASSTRANSFER.2011.04.043.\n[49] J. Xu, X. Ji, W. Zhang, G. Liu, Pool boiling heat transfer of ultra-light copper foam\nwith open cells, Int. J. Multiph. Flow 34 (11) (Nov. 2008) 1008-1022, https://\ndoi.org/10.1016/J.IJMULTIPHASEFLOW.2008.05.003.\n[50] A.M. Sharifzadeh, H. Moghadasi, H. Shakeri, H. Saffari, Influence of bubble\ndeparture control on nucleate pool boiling heat transfer of electrodeposited\ncopper foam: experiments and correlation, Int. Commun. Heat Mass Transfer 138\n(2022), 106381, https://doi.org/10.1016/j.icheatmasstransfer.2022.106381.\n[51] Z.G. Qu, Z.G. Xu, C.Y. Zhao, W.Q. Tao, Experimental study of pool boiling heat\ntransfer on horizontal metallic foam surface with crossing and single-directional\nV-shaped groove in saturated water, Int. J. Multiph. Flow 41 (May 2012) 44-55,\nhttps://doi.org/10.1016/J.IJMULTIPHASEFLOW.2011.12.007.\n[52] H. Hu, Y. Zhao, Z. Lai, C. Hu, Influence of surface wettability on pool boiling heat\ntransfer on metal foam covers, Int. J. Therm. Sci. 168(2020) 107069, doi:\n10.1016/j.ijthermalsci.2021.107069.\n[53] J. Shi, H. Du, Z. Chen, S. Lei, Review of phase change heat transfer enhancement\nby metal foam, Appl. Therm. Eng. 219 (2023), 119427, https://doi.org/10.1016/\nj.applthermaleng.2022.119427.\n[54] M. Calati, G. Righetti, L. Doretti, C. Zilio, G.A. Longo, K. Hooman, S. Mancin,\nWater pool boiling in metal foams: from experimental results to a generalized\nmodel based on artificial neural network, Int. J. Heat Mass Transf. 176 (2021),\n121451, https://doi.org/10.1016/j.ijheatmasstransfer.2021.121451.\n[55] C. Huang, H. Wang, E. Lichtfouse, Y. Tang, H. Xiang, Experimental study of\nmultilayer gradient copper foam effect on pool boiling heat transfer performance\nand gas-liquid behavior characteristics, Int. J. Therm. Sci. 183(2022) 107856,\ndoi: 10.1016/j.ijthermalsci.2022.107856.\n[56] Z.G. Xu, Z.G. Qu, C.Y. Zhao, W.Q. Tao, Experimental correlation for pool boiling\nheat transfer on metallic foam surface and bubble cluster growth behavior on\ngrooved array foam surface, Int. J. Heat Mass Transf. 77 (2014) 1169-1182,\nhttps://doi.org/10.1016/j.ijheatmasstransfer.2014.06.037.\n[57] A. Bharadwaj, R.D. Misra, A theoretical model to predict pool boiling critical heat\nflux for micro/nano-structured surfaces, J. Heat Transfer 144 (10) (2022) 1-9,\nhttps://doi.org/10.1115/1.4054899.\n[58] S.G. Kandlikar, Controlling bubble motion over heated surface through\nevaporation momentum force to enhance pool boiling heat transfer, Appl. Phys.\nLett. 102 (5) (2013) pp, https://doi.org/10.1063/1.4791682.\n[59] Y. Song, L. Zhang, C.D. D\u00edaz-Mar\u00edn, S.S. Cruz, E.N. Wang, Unified descriptor for\nenhanced critical heat flux during pool boiling of hemi-wicking surfaces, Int. J.\nHeat Mass Transf. 183 (2022), 122189, https://doi.org/10.1016/j.\nijheatmasstransfer.2021.122189.\n[60] H. Hu, J.A. Weibel, S.V. Garimella, A coupled wicking and evaporation model for\nprediction of pool boiling critical heat flux on structured surfaces, Int. J. Heat\nMass Transf. 136 (2019) 373-382, https://doi.org/10.1016/j.\nijheatmasstransfer.2019.03.005.\n[61] M. Winter, J.A. Weibel, The capillary length scale determines the influence of\nbubble-fin interactions and prediction of pool boiling from heat sinks, Int. J. Heat\nMass Transf. 202 (2023), 123727, https://doi.org/10.1016/j.\nijheatmasstransfer.2022.123727.\n[62] H.S. Ahn, H.J. Jo, S.H. Kang, M.H. Kim, Effect of liquid spreading due to nano/\nmicrostructures on the critical heat flux during pool boiling, Appl. Phys. Lett. 98\n(7) (2011) 98-101, https://doi.org/10.1063/1.3555430.\n[63] S. Poudel, A. Zou, S.C. Maroo, Wicking in cross-connected buried nanochannels,\nJ. Phys. Chem. C 123 (38) (2019) 1-6, https://doi.org/10.1021/acs.\njpcc.9b06666.\n[64] J. Li, Y. Zhao, J. Ma, W. Fu, X. Yan, K.F. Rabbi, N. Miljkovic, Superior\nantidegeneration hierarchical nanoengineered wicking surfaces for boiling\nenhancement, Adv. Funct. Mater. (2021) 2108836, https://doi.org/10.1002/\nadfm.202108836.\n[65] J. Chun, C. Xu, Y. Zhang, Q. Li, R. Wen, X. Ma, Fast capillary wicking on\nhierarchical copper nanowired surfaces with interconnected V-grooves:\nimplications for thermal management, ACS Appl Nano Mater 4 (5) (2021)\n5360-5371, https://doi.org/10.1021/acsanm.1c00691.\n[66] H.S. Ahn, G. Park, J.M. Kim, J. Kim, M.H. Kim, The effect of water absorption on\ncritical heat flux enhancement during pool boiling, Exp. Therm Fluid Sci. 42\n(2012) 187-195, https://doi.org/10.1016/j.expthermflusci.2012.05.005.\n[67] T.P. Allred, J.A. Weibel, S.V. Garimella, A wettability metric for characterization\nof capillary flow on textured superhydrophilic surfaces, Langmuir 33 (32) (2017)\n7847-7853, https://doi.org/10.1021/acs.langmuir.7b01522.\n[68] G. Yang, J. Liu, X. Cheng, Y. Wang, X. Chu, S. Mukherjee, A. Terzis,\nA. Schneemann, W. Li, J. Wu, R.A. Fischer, A superhydrophilic metal-organic\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n14\nframework thin film for enhancing capillary-driven boiling heat transfer, J Mater\nChem A Mater 9 (45) (2021) 25480-25487, https://doi.org/10.1039/\nd1ta06826a.\n[69] R. Xiao, R. Enright, E.N. Wang, Prediction and optimization of liquid propagation\nin micropillar arrays, Langmuir 26 (19) (2010) 15070-15075, https://doi.org/\n10.1021/la102645u.\n[70] A. Rokoni, D.-O. Kim, Y. Sun, Micropattern-controlled wicking enhancement in\nhierarchical micro/nanostructures, Soft Matter 15 (32) (2019) 6518-6529,\nhttps://doi.org/10.1039/c9sm01055f.\n[71] D.I. Yu, S. Doh, H.J. Kwak, J. Hong, N.P. Sapkal, M.H. Kim, Direct visualization of\nthe behavior and shapes of the nanoscale menisci of an evaporating water droplet\non a hydrophilic nanotextured surface via high-resolution synchrotron X-ray\nimaging, Langmuir 35 (19) (2019) 6460-6467, https://doi.org/10.1021/acs.\nlangmuir.8b04109.\n[72] D.I. Yu, H.J. Kwak, H. Noh, H.S. Park, K. Fezzaa, M.H. Kim, Synchrotron x-ray\nimaging visualization study of capillary-induced flow and critical heat flux on\nsurfaces with engineered micropillars, Sci. Adv. 4 (2) (2018) 37-42, https://doi.\norg/10.1126/sciadv.1701571.\n[73] J.P. McHale, S.V. Garimella, Nucleate boiling from smooth and rough surfaces -\nPart 2: Analysis of surface roughness effects on nucleate boiling, Exp. Therm Fluid\nSci. 44 (2013) 439-455, https://doi.org/10.1016/j.expthermflusci.2012.08.005.\n[74] Y. Li, Y. Li, W. Jiao, X. Chen, G. Lu, Manipulating the heat transfer of pool boiling\nby tuning the bubble dynamics with mixed wettability surfaces, Int. J. Heat Mass\nTransf. 170 (2021), 120996, https://doi.org/10.1016/j.\nijheatmasstransfer.2021.120996.\n[75] S.J. Thiagarajan, R. Yang, C. King, S. Narumanchi, Bubble dynamics and nucleate\npool boiling heat transfer on microporous copper surfaces, Int. J. Heat Mass\nTransf. 89 (2015) 1297-1315, https://doi.org/10.1016/j.\nijheatmasstransfer.2015.06.013.\n[76] T.P. Allred, J.A. Weibel, S.V. Garimella, The petal effect of parahydrophobic\nsurfaces offers low receding contact angles that promote effective boiling, Int. J.\nHeat Mass Transf. 135 (2019) 403-412, https://doi.org/10.1016/j.\nijheatmasstransfer.2019.02.002.\n[77] M. Bucci, J. Buongiorno, M. Bucci, The not-so-subtle flaws of the force balance\napproach to predict the departure of bubbles in boiling heat transfer, Phys. Fluids\n33 (1) (2021) pp, https://doi.org/10.1063/5.0036956.\n[78] Y. Hsu and R. W. Graham, \"AN ANALYTICAL AND EXPERIMENTAL STUDY OF\nTHE THERMAL BOUNDARY LAYER AND EBULLITION CYCLE IN NUCLEATE\nBOILING,\" United States, 1961. [Online]. Available: https://www.osti.gov/\nbiblio/4017144.\n[79] Y.H. Chang, Y.M. Ferng, Experimental investigation on bubble dynamics and\nboiling heat transfer for saturated pool boiling and comparison data with\nprevious works, Appl. Therm. Eng. 154 (February) (2019) 284-293, https://doi.\norg/10.1016/j.applthermaleng.2019.03.092.\n[80] L. Dong, X. Quan, P. Cheng, An experimental investigation of enhanced pool\nboiling heat transfer from surfaces with micro/nano-structures, Int. J. Heat Mass\nTransf. 71 (2014) 189-196, https://doi.org/10.1016/j.\nijheatmasstransfer.2013.11.068.\n[81] H. Chi-Yeh, P. Griffith, The mechanism of heat transfer in nucleate pool boiling-\nPart I. Bubble initiaton, growth and departure, Int. J. Heat Mass Transf. 8 (6)\n(1965) 887-904, https://doi.org/10.1016/0017-9310(65)90073-6.\n[82] Y. Park, H. Kim, J. Kim, H. Kim, Measurement of liquid-vapor phase distribution\non nano- and microstructured boiling surfaces, Int. J. Multiph. Flow 81 (2016)\n67-76, https://doi.org/10.1016/j.ijmultiphaseflow.2016.01.007.\n[83] H. Kim, Y. Park, J. Buongiorno, Measurement of wetted area fraction in subcooled\npool boiling of water using infrared thermography, Nucl. Eng. Des. 264 (2013)\n103-110, https://doi.org/10.1016/j.nucengdes.2013.07.002.\n[84] D.E. Kim, J. Park, Experimental study of critical heat flux in pool boiling using\nvisible-ray optics, Int. J. Heat Mass Transf. 169 (2021), 120937, https://doi.org/\n10.1016/j.ijheatmasstransfer.2021.120937.\n[85] D.E. Kim, J. Song, H. Kim, Simultaneous observation of dynamics and thermal\nevolution of irreversible dry spot at critical heat flux in pool boiling, Int. J. Heat\nMass Transf. 99 (2016) 409-424, https://doi.org/10.1016/j.\nijheatmasstransfer.2016.04.009.\n[86] J.P. McHale, S.V. Garimella, Bubble nucleation characteristics in pool boiling of a\nwetting liquid on smooth and rough surfaces, Int. J. Multiph. Flow 36 (4) (2010)\n249-260, https://doi.org/10.1016/j.ijmultiphaseflow.2009.12.004.\n[87] Y. Suh, J. Lee, P. Simadiris, X. Yan, S. Sett, L. Li, K.F. Rabbi, N. Miljkovic, Y. Won,\nA Deep Learning Perspective on Dropwise Condensation, Adv. Sci. 2101794\n(2021) 2101794, https://doi.org/10.1002/advs.202101794.\n[88] S. Ridwan, M. McCarthy, Nanostructure-supported evaporation underneath a\ngrowing bubble, ACS Appl. Mater. Interfaces 11 (13) (2019) 12441-12451,\nhttps://doi.org/10.1021/acsami.8b21260.\n[89] M. Bongarala, H. Hu, J.A. Weibel, S.V. Garimella, A figure of merit to characterize\nthe efficacy of evaporation from porous microstructured surfaces, Int. J. Heat\nMass Transf. 182 (2021), https://doi.org/10.1016/j.\nijheatmasstransfer.2021.121964.\n[90] J. Li, G. Zhu, D. Kang, W. Fu, Y. Zhao, N. Miljkovic, Endoscopic visualization of\ncontact line dynamics during pool boiling on capillary-activated copper\nmicrochannels, Adv. Funct. Mater. 31 (4) (2021) 1-9, https://doi.org/10.1002/\nadfm.202006249.\n[91] J. Li, D. Kang, K.F. Rabbi, W. Fu, X. Yan, X. Fang, L. Fan, N. Miljkovic, Liquid filminduced critical heat flux enhancement on structured surfaces, Sci. Adv. 7 (26)\n(2021) 1-13, https://doi.org/10.1126/sciadv.abg4537.\n[92] H. Hu, J.A. Weibel, S.V. Garimella, Role of nanoscale roughness in the heat\ntransfer characteristics of thin film evaporation, Int. J. Heat Mass Transf. 150\n(2020), 119306, https://doi.org/10.1016/j.ijheatmasstransfer.2020.119306.\n[93] K. Nishant Ranjan Sinha, D. Ranjan, M. Q. Raza, N. Kumar, S. Kaner, A. Thakur,\nR. Raj, In-situ acoustic detection of critical heat flux for controlling thermal\nrunaway in boiling systems, Int. J. Heat Mass Transf. 138 (2019) 135-143, doi:\n10.1016/j.ijheatmasstransfer.2019.04.029.\n[94] H. Pandey, W. Waldo, H. Hu, Non-intrusive cooling system fault detection and\ndiagnostics using acoustic emission, in: Proceedings of the ASME 2022 Heat\nTransfer Summer Conference, 2022, pp. HT2022-85429, https://doi.org/10\n.1115/HT2023-106015.\n[95] Y. Ueki, K. Ara, Proof of concept of acoustic detection of boiling inception and\nstate transition using deep neural network, Int. Commun. Heat Mass Transfer 129\n(2021), 105675, https://doi.org/10.1016/j.icheatmasstransfer.2021.105675.\n[96] S. Bin Seo, I.C. Bang, Acoustic analysis on the dynamic motion of vapor-liquid\ninterface for the identification of boiling regime and critical heat flux, Int J Heat\nMass Transf 131 (2019) 1138-1146, https://doi.org/10.1016/j.\nijheatmasstransfer.2018.11.136.\n[97] A. Negi, A.M. Rishi, S.G. Kandlikar, Effect of heat flux on bubble coalescence\nphenomena and sound signatures during pool boiling, J. Heat Transfer 143 (5)\n(2021) pp, https://doi.org/10.1115/1.4050088.\n[98] S. Barathula, J.K.K. Alapati, K. Srinivasan, Investigation of acoustic spectral\nvariations in the pool boiling regimes of water on wire heater, Appl. Therm. Eng.\n(2023), 120281, https://doi.org/10.1016/j.applthermaleng.2023.120281.\n[99] D.Y. Lim, J.Y. Kim, D.H. Lee, K.M. Kim, I.C. Bang, Identifying heat transfer\nregimes by acoustic analysis in pool and flow boiling, 2020, pp. 9-11.\n[100] C. Dunlap, H. Pandey, E. Weems, H. Hu, Nonintrusive heat flux quantification\nusing acoustic emissions during pool boiling, Appl Therm Eng, vol. 228, no.\nDecember 2022, p. 120558, 2023, doi: 10.1016/j.applthermaleng.2023.120558.\n[101] A.H. Mehrabi, S.K. Conlin, T.I. Hollis, B.S. Gattis, N. Weker, R.H. Coridan,\nElectrochemical control of the morphology and functional properties of\nhierarchically structured, dendritic Cu surfaces, Energ. Technol. (2022), https://\ndoi.org/10.1002/ente.202201124.\n[102] E. Achilli, A. Vertova, A. Visibile, C. Locatelli, A. Minguzzi, S. Rondinini,\nP. Ghigna, Structure and stability of a Copper(II) Lactate complex in alkaline\nsolution: a case study by energy-dispersive X-ray absorption spectroscopy, Inorg.\nChem. 56 (12) (2017) 6982-6989, https://doi.org/10.1021/acs.\ninorgchem.7b00553.\n[103] S.H. Baek, K. Wu, H.S. Shim, D.H. Lee, J.G. Kim, D.H. Hur, Acoustic emission\nmonitoring of water boiling on fuel cladding surface at 1 bar and 130 bar,\nMeasurement (lond) 109 (2017) 18-26, https://doi.org/10.1016/j.\nmeasurement.2017.05.042.\n[104] Q. Zhang, K. Dong, Z. Huang, J. Wang, Y. Yang, Mode identification of pool\nboiling of water by acoustic emission, CIESC Journal 64 (10) (2013) pp.\n[105] J. Marsh, C. Dunlap, S. Pierson, and H. Hu, \"Introducing LabVIEW and Arduino as\nData Acquisition System Alternatives,\" in: 2022 ASEE Midwest Section\nConference, Paper 3279, 2022.\n[106] N. Fries, M. Dreyer, The transition from inertial to viscous flow in capillary rise,\nJ. Colloid Interface Sci. 327 (1) (2008) 125-128, https://doi.org/10.1016/j.\njcis.2008.08.018.\n[107] M. Borumand, T. Lee, G. Hwang, Enhanced wickability of single-columnar, non-\nuniform pore-size wick using Lattice Boltzmann Method, Comput. Fluids 238\n(2022), 105376, https://doi.org/10.1016/j.compfluid.2022.105376.\n[108] R.I. Vachon, G.H. Nix, G.E. Tanger, Evaluation of constants for the rohsenow\npool-boiling correlation, J. Heat Transfer 90 (2) (1968) 239-246.\n[109] S. Fan, L. Jiao, K. Wang, F. Duan, Pool boiling heat transfer of saturated water on\nrough surfaces with the effect of roughening techniques, Int. J. Heat Mass Transf.\n159 (2020), 120054, https://doi.org/10.1016/j.ijheatmasstransfer.2020.120054.\n[110] H. Pandey, C. Dunlap, A. Williams, J. Marsh, H. Hu, Multimodal characterization\nof steady-state and transient boiling heat transfer, in: Proceedings of the ASME\n2023 Heat Transfer Summer Conference, 2023, pp. HT2023-106015.\n[111] K. Nishant Ranjan Sinha, D. Ranjan, N. Kumar, M. Qaisar Raza, R. Raj,\nSimultaneous audio-visual-thermal characterization of transition boiling regime,\nExp. Therm. Fluid Sci. 118 (2020) 110162, doi: 10.1016/j.\nexpthermflusci.2020.110162.\n[112] K. Nishant Ranjan Sinha, D. Ranjan, N. Kumar, M. Qaisar Raza, R. Raj,\nSimultaneous audio-visual-thermal characterization of transition boiling regime,\nExp. Therm. Fluid Sci. 118 (2020) 110162, doi: 10.1016/j.\nexpthermflusci.2020.110162.\n[113] J.D. Bernardin, I. Mudawar, The leidenfrost point: Experimental study and\nassessment of existing models, J. Heat Transfer 121 (4) (1999) 894-903, https://\ndoi.org/10.1115/1.2826080.\n[114] J. Schindelin, I. Arganda-Carreras, E. Frise, V. Kaynig, M. Longair, T. Pietzsch,\nS. Preibisch, C. Rueden, S. Saalfeld, B. Schmid, J.Y. Tinevez, D.J. White,\nV. Hartenstein, K. Eliceiri, P. Tomancak, A. Cardona, Fiji: An open-source\nplatform for biological-image analysis, Nat. Methods 9 (7) (2012) 676-682,\nhttps://doi.org/10.1038/nmeth.2019.\n[115] M. Matkovi\u02c7c, B. Kon\u02c7car, Bubble departure diameter prediction uncertainty, Sci.\nTechnol. Nucl. Instal. 2012 (2012), https://doi.org/10.1155/2012/863190.\n[116] S. Barathula, K. Srinivasan, Review on research progress in boiling acoustics, Int.\nCommun. Heat Mass Transfer 139 (2022), 106465, https://doi.org/10.1016/j.\nicheatmasstransfer.2022.106465.\nH. Pandey et al.\nApplied Thermal Engineering 236 (2024) 121807\n15\n[117] S. Barathula, J.K.K. Alapati, K. Srinivasan, Investigation of acoustic spectral\nvariations in the pool boiling regimes of water on wire heater, Appl. Therm. Eng.\n226 (2023), 120281, https://doi.org/10.1016/j.applthermaleng.2023.120281.\n[118] S. Husin, An experimental investigation into the correlation between acoustic\nemission (AE) and bubble dynamics, Ph.D. Thesis, Cranfield University, 2011.\n[119] C. Mira-Hern \u0301andez, J.A. Weibel, P.P. Vlachos, S.V. Garimella, Three-dimensional\nliquid-vapor interface reconstruction from high-speed stereo images during pool\nboiling, Int. J. Heat Mass Transf. 136 (2019) 265-275, https://doi.org/10.1016/j.\nijheatmasstransfer.2019.02.077.\nH. Pandey et al.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 4779
+    },
+    {
+      "number": 2,
+      "start": 4779,
+      "end": 13589
+    },
+    {
+      "number": 3,
+      "start": 13589,
+      "end": 21529
+    },
+    {
+      "number": 4,
+      "start": 21529,
+      "end": 25243
+    },
+    {
+      "number": 5,
+      "start": 25243,
+      "end": 29535
+    },
+    {
+      "number": 6,
+      "start": 29535,
+      "end": 33746
+    },
+    {
+      "number": 7,
+      "start": 33746,
+      "end": 35437
+    },
+    {
+      "number": 8,
+      "start": 35437,
+      "end": 39736
+    },
+    {
+      "number": 9,
+      "start": 39736,
+      "end": 46250
+    },
+    {
+      "number": 10,
+      "start": 46250,
+      "end": 47147
+    },
+    {
+      "number": 11,
+      "start": 47147,
+      "end": 53969
+    },
+    {
+      "number": 12,
+      "start": 53969,
+      "end": 60386
+    },
+    {
+      "number": 13,
+      "start": 60386,
+      "end": 72286
+    },
+    {
+      "number": 14,
+      "start": 72286,
+      "end": 83702
+    },
+    {
+      "number": 15,
+      "start": 83702,
+      "end": 84453
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-research-paper",
+      "number": null,
+      "title": "Research Paper",
+      "level": 2,
+      "start": 130,
+      "end": 145
+    },
+    {
+      "id": "sec-1-acoustic-sensing-for-investigating-criti",
+      "number": null,
+      "title": "Acoustic sensing for investigating critical heat flux enhancement during",
+      "level": 1,
+      "start": 145,
+      "end": 344
+    },
+    {
+      "id": "sec-2-robert-h-coridan-b-d-han-hu-a-b",
+      "number": null,
+      "title": "Robert H. Coridan b,d, Han Hu a,b,*",
+      "level": 1,
+      "start": 344,
+      "end": 4556
+    },
+    {
+      "id": "sec-3-applied-thermal-engineering",
+      "number": null,
+      "title": "Applied Thermal Engineering",
+      "level": 1,
+      "start": 4556,
+      "end": 9356
+    },
+    {
+      "id": "sec-34",
+      "number": "34",
+      "title": "W/(cm2K) [45]. Dhillon et al. used experimental data and theoretical",
+      "level": 2,
+      "start": 9356,
+      "end": 21406
+    },
+    {
+      "id": "sec-5-fig-1-schematic-diagram-of-the-fabricati",
+      "number": null,
+      "title": "Fig. 1. Schematic diagram of the fabrication process for electrodeposited",
+      "level": 2,
+      "start": 21406,
+      "end": 31200
+    },
+    {
+      "id": "sec-6-fig-7a-b-using-two-different-coefficient",
+      "number": null,
+      "title": "Fig. 7a&b using two different coefficients of liquid-surface combina\u00ad",
+      "level": 2,
+      "start": 31200,
+      "end": 33107
+    },
+    {
+      "id": "sec-7-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2,
+      "start": 33107,
+      "end": 33266
+    },
+    {
+      "id": "sec-8-heater",
+      "number": null,
+      "title": "Heater",
+      "level": 2,
+      "start": 33266,
+      "end": 33281
+    },
+    {
+      "id": "sec-9-wicking",
+      "number": null,
+      "title": "Wicking",
+      "level": 2,
+      "start": 33281,
+      "end": 33301
+    },
+    {
+      "id": "sec-10-ae",
+      "number": null,
+      "title": "AE-",
+      "level": 2,
+      "start": 33301,
+      "end": 33318
+    },
+    {
+      "id": "sec-11-chf",
+      "number": null,
+      "title": "CHF",
+      "level": 2,
+      "start": 33318,
+      "end": 33331
+    },
+    {
+      "id": "sec-12-max-htc",
+      "number": null,
+      "title": "Max. HTC",
+      "level": 2,
+      "start": 33331,
+      "end": 33352
+    },
+    {
+      "id": "sec-13-ae",
+      "number": null,
+      "title": "AE-",
+      "level": 2,
+      "start": 33352,
+      "end": 33356
+    },
+    {
+      "id": "sec-14-chf",
+      "number": null,
+      "title": "CHF",
+      "level": 2,
+      "start": 33356,
+      "end": 35837
+    },
+    {
+      "id": "sec-15-chf-condition-respectively-as-shown-in-f",
+      "number": null,
+      "title": "CHF condition, respectively. As shown in Fig. 9a, during steady-state",
+      "level": 2,
+      "start": 35837,
+      "end": 55664
+    },
+    {
+      "id": "sec-16-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of Competing Interest",
+      "level": 2,
+      "start": 55664,
+      "end": 55869
+    },
+    {
+      "id": "sec-17-data-availability",
+      "number": null,
+      "title": "Data availability",
+      "level": 2,
+      "start": 55869,
+      "end": 55927
+    },
+    {
+      "id": "sec-18-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 55927,
+      "end": 56312
+    },
+    {
+      "id": "sec-19-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 56312,
+      "end": 83143
+    },
+    {
+      "id": "sec-V",
+      "number": "V",
+      "title": "Hartenstein, K. Eliceiri, P. Tomancak, A. Cardona, Fiji: An open-source",
+      "level": 2,
+      "start": 83143,
+      "end": 84453
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "shows the scanning electron microscopy (SEM) images of",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-2_p3.png"
+    },
+    {
+      "id": "fig-4b",
+      "label": "Fig. 4b",
+      "caption": "shows the pool boiling test facility, which consists of a closed",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-4b_p3.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Schematic diagram of the fabrication process for electrodeposited",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-1_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "SEM images at different magnification levels for copper foams fabricated at (a-c) pH 0, (d-f) pH 10, and (g-i) pH 12.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-2_p4.png"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "caption": "shows the wicked volume versus time for both acid-deposited",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-5a_p5.png"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "caption": "shows that the wicked volume of the base deposited copper",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-5a_p5.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "(a) XRD measurements of the (111) and (200) peaks of the nickel foil",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-3_p5.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Schematic diagrams of (a) the surface wickability testing facility with the inset showing a representative optical image and acoustic signals and (b) the pool",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-4_p5.png"
+    },
+    {
+      "id": "fig-7a",
+      "label": "Fig. 7a",
+      "caption": "&b using two different coefficients of liquid-surface combina\u00ad",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-7a_p6.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Wickability of copper foams showing (a) wicking volume versus time and (b) wicking flux for acid-deposited copper foams (pH 0) and base-deposited copper",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-5_p6.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Wicking flux as a function of the inverse of the Debye-Scherrer crys\u00ad",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-6_p6.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "shows the synchronized temperature, heat flux, and AE",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-9_p7.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Pool boiling heat transfer performance of the polished copper surface and copper foams deposited at pH 0, 10, and 12 showing (a) boiling heat flux as a",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-7_p7.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Representative AE signals during boiling showing (a) AE amplitude versus time and (b-c) representative waveforms during (b) nucleate boiling and (c) critical",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-8_p7.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Synchronized temperature, heat flux, and AE amplitude for water boiling on (a-b) polished copper showing (a) representative nucleate boiling at a heat flux of",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-9_p8.png"
+    },
+    {
+      "id": "fig-12b",
+      "label": "Fig. 12b",
+      "caption": "For heat fluxes beyond 80 W/cm2, the increase/decrease in",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-12b_p9.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Acoustic emission characteristics in wicking and boiling tests. (a) Average AE amplitude at the onset of wicking in the wicking tests. (b) Average AE",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-10_p9.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Representative boiling images at different heat fluxes for polished copper and copper foams deposited at pH 0, pH 10, and pH 12. The scale bar represents",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-11_p10.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Bubble dynamics analysis during pool boiling showing (a) the maximum bubble diameter and (b) bubble count at different heat fluxes for water boiling on",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-12_p10.png"
+    },
+    {
+      "id": "fig-13b",
+      "label": "Fig. 13b",
+      "caption": "It is observed that the key features of the signals are in the",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-13b_p11.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "(a) Vapor fraction as a function of time and (b) power spectrum calculated from vapor fraction analysis for water boiling on pH 12 copper foam at q\u201c =",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-13_p11.png"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "caption": "Spectral analysis of vapor fraction during boiling showing (a) power of the vapor fraction spectral as a function of heat flux and (b) dominant frequency as a",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\pandey-2024-acoustic-copper-foams\\pandey_2024_acoustic_copper_foams_fig-14_p12.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 6,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 15,
+    "ingest": "pymupdf"
+  }
+}

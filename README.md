@@ -63,32 +63,35 @@ S0  ingest      PDF -> DocumentModel: normalized text, page index, section index
 S1  triage      paper type, contains-dataset gate.
 S2  conditions  numeric envelope in the paper's own units + evidence quotes.
 S3  taxonomy    facets from the controlled vocabulary, or propose_new.
-S4  application application target, with confidence. Hallucination hotspot.
+S4  application application target, with evidence. Hallucination hotspot.
 S5  normalize   DETERMINISTIC: units -> SI, CoolProp properties, dimensionless
                 groups, plausibility gate, binning -> derived tags.
                                                 mhtdb/normalize.py
 S6  verify      (a) mechanical: every quote must occur in the document;
                 (b) optional LLM audit pass for contradictions.
 S7  commit      catalog/records/<id>.json, git-tracked.
-S0b crops       every figure/table -> its own cropped PDF + PNG, caption
+S8  crops      every figure/table -> its own cropped PDF + PNG, caption
                 included.                       mhtdb/figure_crops.py
-S8  points      DETERMINISTIC: vector-path extraction, raster tracing as
-                fallback. Axis values resolved, never guessed.
-                                                mhtdb/digitize.py
-S9  curves      point tables -> CSV + comparison plot with a CoolProp-backed
+S9  points      PROMPT-DRIVEN, one figure per paper: a cheap call picks the
+                paper's one boiling-curve figure, then an agentic `claude`
+                CLI call (tool use enabled) opens it, extracts vector paths
+                or traces raster pixels, and resolves axis values — never
+                guesses them.                  mhtdb/digitize.py
+S10 curves      point tables -> CSV + comparison plot with a CoolProp-backed
                 Rohsenow overlay.               mhtdb/curves.py
 ```
 
 
 ## Figures: crop, digitize, compare
 
-Three commands turn the PDFs' figures into numbers. All deterministic, no model
-calls, no cost:
+Three commands turn the PDFs' figures into numbers. `crops` and `curves` are
+deterministic, no model calls, no cost; `digitize` is prompt-driven — see
+below:
 
 ```bash
-python -m mhtdb.pipeline crops                  # S0b: one file per figure/table
-python -m mhtdb.pipeline digitize               # S8:  figures -> points
-python -m mhtdb.pipeline curves --out out/      # S9:  points -> CSV + plot
+python -m mhtdb.pipeline crops                  # S8:  one file per figure/table
+python -m mhtdb.pipeline digitize               # S9:  figures -> points (model calls)
+python -m mhtdb.pipeline curves --out out/      # S10: points -> CSV + plot
 ```
 
 `crops` finds the graphic itself rather than rendering the whole page: it
@@ -101,14 +104,34 @@ point schema use. Sub-panels of one figure merge; table ruling is not mistaken
 for a plot; a graphic with no caption is kept under a positional id rather than
 dropped. Every crop carries a `caption_confidence`.
 
-`digitize` reads the numbers back. **Vector first:** a plot placed as native
-vector art still contains the drawing commands that produced it, so marker
-centres and polyline vertices come back at full precision — error is limited to
-the axis calibration, hence `confidence` 0.85-0.98. Series are separated by
-colour and by filled-vs-open glyph (which is how a paper distinguishes
-ascending from descending runs), and each curve is labelled from its own legend
-entry. **Raster fallback:** a flattened or scanned figure is traced pixel by
-pixel against a calibrated axis at ~0.62.
+`digitize` reads the numbers back — from exactly one figure per paper, not
+every figure crop. A cheap, tools-disabled call first sees every crop's
+caption at once and names the ONE that is this paper's primary boiling-curve
+comparison plot; only that winner is handed to `claude -p` with tool use
+*enabled* (the one call in this pipeline that isn't structured-output-only)
+for the real extraction — not a bespoke Python algorithm. It opens the PDF
+itself, decides vector vs. raster, calibrates the axes, separates series by
+color/marker, and writes its answer back as JSON matching
+`schema/point.schema.json`. **Vector paths**, when present, are read
+directly off the drawing commands. **Raster fallback** traces pixels against
+a calibrated axis. See `docs/figure-pipeline.md` for the full prompt and
+design rationale.
+
+### WebPlotDigitizer cross-check
+
+To sanity-check `digitize` against an independent, human-driven digitization,
+two of its outputs were compared against the same figures re-digitized by
+hand in [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): Allred et
+al. (2018) Fig. 4 and Berce et al. (2024) Fig. 5. In both cases the
+AgenticTool series and the WebPlotDigitizer series overlay closely across the
+full boiling curve, including the transition and film-boiling regions.
+
+| Allred et al. (2018) Fig. 4 | Berce et al. (2024) Fig. 5 |
+| --- | --- |
+| ![Allred 2018 Fig. 4: AgenticTool vs. WebPlotDigitizer](webplot-digitizer_comparison/allred2018_fig4_webplot_comparison.png) | ![Berce 2024 Fig. 5: AgenticTool vs. WebPlotDigitizer](webplot-digitizer_comparison/berce2024_fig5_webplot_comparison.png) |
+
+See [`webplot-digitizer_comparison/webplot_comparison.ipynb`](webplot-digitizer_comparison/webplot_comparison.ipynb)
+for the comparison code and data behind both plots.
 
 ---
 

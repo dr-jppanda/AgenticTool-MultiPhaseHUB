@@ -1,0 +1,125 @@
+{
+  "p_sat": {
+    "min": 101325.0,
+    "max": 101325.0,
+    "unit": "Pa",
+    "evidence": [
+      {
+        "quote": "The pool and chamber were\nthus maintained at atmospheric pressure, as verified with a pressure transducer."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 100.1,
+    "max": 100.5,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "The experimentally measured saturation temperature for FC-77 was consistently between 100.1 and\n100.5 C."
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 2.06,
+    "max": 11.34,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "From the top row to the bottom row, the heat flux\nat the wall increases from approximately 2 W/cm2 up to 11 W/cm2."
+      },
+      {
+        "quote": "the calculated centroid location ( ) of a bubble produced on the polished\nsurface at 2.06 W/cm2"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 25.4,
+    "max": 25.4,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The insertion gap (inset,\nFig. 1a) surrounding the 25.4-mm square test piece was filled with\na high-temperature RTV silicone caulk."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.03,
+    "max": 5.89,
+    "unit": "lm",
+    "evidence": [
+      {
+        "quote": "The roughness values (Ra) are 0.03 and 5.89 lm for the polished and roughened surfaces, respectively."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 0.854,
+    "max": 0.854,
+    "unit": "radians",
+    "evidence": [
+      {
+        "quote": "The reported value of 0.854 radians"
+      },
+      {
+        "quote": "The dynamic contact angle was measured directly from images of isolated bubbles forming on the\npolished surface in test case 1."
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "aluminum"
+}

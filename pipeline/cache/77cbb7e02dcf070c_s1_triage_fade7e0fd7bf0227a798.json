@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Photographic study of pool boiling CHF from a downward-facing convex surface",
+  "year": 2008,
+  "reason": "The paper reports its own steady-state heat flux and surface temperature measurements plus boiling curves and photographic CHF observations for pool boiling of FC-87 on a downward-facing convex surface (\"Heat transfer measurements and photographic studies are performed to capture the detailed evolution of the liquid-vapor interface near critical heat flux (CHF)\")."
+}

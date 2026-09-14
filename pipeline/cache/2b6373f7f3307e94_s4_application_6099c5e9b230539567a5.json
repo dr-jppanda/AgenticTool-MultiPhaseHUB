@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "The present work focuses on exploring the possibility of concomitant enhancement of pool boiling heat transfer by using TiO2-water nanofluid in combination with laser-textured copper surfaces."
+        },
+        {
+          "quote": "To fill this knowledge\ngap, we investigated the pool boiling heat transfer performance of TiO2-water nanofluids\nprepared with two mass concentrations (0.001 and 0.1 wt.%) and with two different sizes\nof nanoparticles"
+        },
+        {
+          "quote": "In summary, the use of nanofluids on surfaces previously functionalized with surface\ntreatment methods (e.g., laser texturing) was generally proved to be unable to provide an\nadditional viable heat transfer performance enhancement."
+        }
+      ]
+    }
+  ]
+}

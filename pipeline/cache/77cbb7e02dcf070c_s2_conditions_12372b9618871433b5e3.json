@@ -1,0 +1,106 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 2.0,
+    "max": 2.0,
+    "unit": "°C",
+    "evidence": [
+      {
+        "quote": "Immersion heaters in the reservoir are used to maintain the\nbulk fluid temperature at a subcooling of 2 °C."
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 3.2,
+    "max": 3.2,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "The test\nsurface, with a width of 3.2 mm and a 102.6-mm radius, consists of a series of nine heaters that dissipate\nequal power."
+      },
+      {
+        "quote": "The heated surface and liquid cavity in the flange are both\n3.2-mm thick, which helps restrain transverse fluid motion and render\nthe liquid-vapor interface very discernible."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "inclined",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "oxygen-free copper"
+}

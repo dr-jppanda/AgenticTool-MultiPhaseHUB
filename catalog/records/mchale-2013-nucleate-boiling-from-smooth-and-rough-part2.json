@@ -1,0 +1,829 @@
+{
+  "record_id": "mchale-2013-nucleate-boiling-from-smooth-and-rough-part2",
+  "doc_id": "c2baf5f58adecf50",
+  "title": "Nucleate boiling from smooth and rough surfaces - Part 2: Analysis of surface roughness effects on nucleate boiling",
+  "source_pdf": "mchale_2013_nucleate_boiling_from_smooth_and_rough_part2.pdf",
+  "n_pages": 17,
+  "n_figures": 17,
+  "figures": [
+    {
+      "id": "fig-1e",
+      "label": "Fig. 1e",
+      "page": 3,
+      "caption": ""
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 4,
+      "caption": "Surface maps were \ufb01ltered with cutoff frequency determined by the predicted bubble base diameter: (a) frequency response of the \ufb01lter for FC-72, (b) Blackman-"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 5,
+      "caption": "Approximate convex decomposition of bubble objects in an image: (a)"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 6,
+      "caption": "Correlation of experimental boiling curves assuming the relationship"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 7,
+      "caption": "Correlation of Ch with selected surface parameters. All Ch data are shown for present work, while only average values are shown for the data of Jones et al. [17]."
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 8,
+      "caption": "Experimental trends in mean bubble departure diameter with respect to several correlating variables."
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 9,
+      "caption": "Comparisons of experimental data and predicted values from curve \ufb01ts between mean bubble departure diameter and selected variables."
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 10,
+      "caption": "Comparisons of experimental data and predicted values for power curve \ufb01ts between mean bubble growth period td or total ebullition period s and heat \ufb02ux, and"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 11,
+      "caption": "Measured bubble diameters as a function of growth time for surface 1 at (a) low, (b) medium, and (c) high heat \ufb02uxes. Chaotic behavior appears to increase with heat"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 12,
+      "caption": "Measured bubble diameters as a function of growth time for surface 5 at (a) low, (b) medium\u2013low, and (c) medium heat \ufb02uxes. High nucleation site densities at"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 13,
+      "caption": "Comparisons of variation of experimental contact angle h with calculated surface parameters. Filtered surface parameters do not generally provide better correlation"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 14,
+      "caption": "(a) Approximate void fraction distribution above surface 3 at three different heat \ufb02uxes. (b) Maximum void fraction can be correlated with normalized nucleate"
+    },
+    {
+      "id": "fig-7d",
+      "label": "Fig. 7d",
+      "page": 15,
+      "caption": "and f \u2013 are based on values of Dd predicted by the present"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 15,
+      "caption": "panels"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 15,
+      "caption": "panel"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 16,
+      "caption": ", the entire range of q from just above boiling incipience to"
+    },
+    {
+      "id": "fig-11b",
+      "label": "Fig. 11b",
+      "page": 16,
+      "caption": "pertain to surface 1, reduced calculated amax values could"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    6,
+    12,
+    16,
+    17
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-8-a-p2ra",
+      "number": null,
+      "title": "A \u00bc p2Ra",
+      "level": 1
+    },
+    {
+      "id": "sec-1-experimental-thermal-and-fluid-science",
+      "number": null,
+      "title": "Experimental Thermal and Fluid Science",
+      "level": 1
+    },
+    {
+      "id": "sec-3-dq",
+      "number": null,
+      "title": "Dq",
+      "level": 2
+    },
+    {
+      "id": "sec-55-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 1
+    },
+    {
+      "id": "sec-0-john-p-mchale-suresh-v-garimella",
+      "number": null,
+      "title": "John P. McHale, Suresh V. Garimella \u21d1",
+      "level": 1
+    },
+    {
+      "id": "sec-68-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2
+    },
+    {
+      "id": "sec-67-iida-kobayasi-1969",
+      "number": null,
+      "title": "Iida & Kobayasi (1969)",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 19,
+    "resolved": 19,
+    "unresolved": 0,
+    "exact": 19
+  },
+  "points_ref": "points/mchale-2013-nucleate-boiling-from-smooth-and-rough-part2.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Nucleate boiling from smooth and rough surfaces - Part 2: Analysis of surface roughness effects on nucleate boiling",
+    "year": 2013,
+    "reason": "The paper reports its own quantitative saturated pool boiling measurements in FC-72 \u2014 boiling curves, bubble departure diameters, growth and ebullition periods, and void fraction obtained from high-speed visualization on ITO heaters of controlled roughness."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": 400.0,
+      "max": 400.0,
+      "unit": "lm",
+      "evidence": [
+        {
+          "quote": "Even with\na heater width as narrow as 400 lm, the number density of bubbles was high enough to make individual bubble identification\nchallenging",
+          "resolved": true,
+          "char_span": [
+            23801,
+            23945
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-8-a-p2ra",
+              "number": null,
+              "title": "A \u00bc p2Ra",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": 25.0,
+      "max": 25.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "a 400 lm wide 25 mm long heater/sensor device\nwas patterned on each substrate",
+          "resolved": true,
+          "char_span": [
+            7883,
+            7960
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-thermal-and-fluid-science",
+              "number": null,
+              "title": "Experimental Thermal and Fluid Science",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.263,
+      "max": 7.51,
+      "unit": "lm",
+      "evidence": [
+        {
+          "quote": "0.263\n0.319\n2\n15\n725\n5\n0.622\n0.789",
+          "resolved": true,
+          "char_span": [
+            17193,
+            17227
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-dq",
+              "number": null,
+              "title": "Dq",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "5\n250\n725\n5\n7.51\n9.13",
+          "resolved": true,
+          "char_span": [
+            17274,
+            17295
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-dq",
+              "number": null,
+              "title": "Dq",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 11.4,
+      "max": 11.4,
+      "unit": "\u00b0",
+      "evidence": [
+        {
+          "quote": "Filtered parameters provide a more certain correlation for FC-72 on ITO\n(h = 11.4 ,",
+          "resolved": true,
+          "char_span": [
+            43569,
+            43652
+          ],
+          "pages": [
+            12
+          ],
+          "sections": [
+            {
+              "id": "sec-55-ch",
+              "number": null,
+              "title": "Ch",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "unspecified",
+    "surface_material": "\"ITO (indium tin oxide) film on borosilicate glass\", \"evidence\": [{\"quote\": \"All seven substrates\\nwere coated conformally with an electrically conductive ITO layer\"}]"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Each test piece was fixed at the base of a thermally controlled chamber that allowed saturated",
+          "resolved": true,
+          "char_span": [
+            7962,
+            8056
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-thermal-and-fluid-science",
+              "number": null,
+              "title": "Experimental Thermal and Fluid Science",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "nucleate boiling heat transfer to be measured while recording",
+          "resolved": true,
+          "char_span": [
+            8057,
+            8118
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-thermal-and-fluid-science",
+              "number": null,
+              "title": "Experimental Thermal and Fluid Science",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "In the companion paper to this work [1], six borosilicate glass",
+          "resolved": true,
+          "char_span": [
+            7485,
+            7548
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-thermal-and-fluid-science",
+              "number": null,
+              "title": "Experimental Thermal and Fluid Science",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "was patterned on each substrate",
+          "resolved": true,
+          "char_span": [
+            7929,
+            7960
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-1-experimental-thermal-and-fluid-science",
+              "number": null,
+              "title": "Experimental Thermal and Fluid Science",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "devised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface",
+          "resolved": true,
+          "char_span": [
+            715,
+            815
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-john-p-mchale-suresh-v-garimella",
+              "number": null,
+              "title": "John P. McHale, Suresh V. Garimella \u21d1",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-72",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The authors also thank Northrop Grumman Corporation for",
+            "resolved": true,
+            "char_span": [
+              62205,
+              62260
+            ],
+            "pages": [
+              17
+            ],
+            "sections": [
+              {
+                "id": "sec-68-acknowledgments",
+                "number": null,
+                "title": "Acknowledgments",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "larger database with three different data sets including FC-72, FC-77, and water at atmospheric pressure,",
+            "resolved": true,
+            "char_span": [
+              1747,
+              1852
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-77",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "larger database with three different data sets including FC-72, FC-77, and water at atmospheric pressure,",
+            "resolved": true,
+            "char_span": [
+              1747,
+              1852
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "which is based on data for both water [57] and FC-72 (present",
+            "resolved": true,
+            "char_span": [
+              59194,
+              59255
+            ],
+            "pages": [
+              16
+            ],
+            "sections": [
+              {
+                "id": "sec-67-iida-kobayasi-1969",
+                "number": null,
+                "title": "Iida & Kobayasi (1969)",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "substrates were roughened by abrading with diamond compound",
+            "resolved": true,
+            "char_span": [
+              7549,
+              7608
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-experimental-thermal-and-fluid-science",
+                "number": null,
+                "title": "Experimental Thermal and Fluid Science",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Test pieces 4, 6, and 7 were abraded with the same diamond",
+            "resolved": true,
+            "char_span": [
+              8222,
+              8280
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-experimental-thermal-and-fluid-science",
+                "number": null,
+                "title": "Experimental Thermal and Fluid Science",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "(test piece 1) was not abraded or annealed.",
+            "resolved": true,
+            "char_span": [
+              7740,
+              7783
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-experimental-thermal-and-fluid-science",
+                "number": null,
+                "title": "Experimental Thermal and Fluid Science",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "htc",
+      "boiling_curve",
+      "wall_superheat",
+      "bubble_dynamics",
+      "void_fraction",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "high_speed_visualization"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "fundamental",
+        "tier2": "fundamental",
+        "stated": false,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "The effect of surface roughness on nucleate boiling heat transfer is not clearly understood. This study is\ndevised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface\nwith controlled roughness.",
+            "resolved": true,
+            "char_span": [
+              608,
+              842
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "In this paper, surface roughness is varied and carefully characterized and analyzed in terms of its relationship to bubble growth\nand departure. A new model for scaling surface roughness is proposed",
+            "resolved": true,
+            "char_span": [
+              6556,
+              6754
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-experimental-thermal-and-fluid-science",
+                "number": null,
+                "title": "Experimental Thermal and Fluid Science",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Nucleate boiling from smooth and rough surfaces - Part 2: Analysis of surface roughness effects on nucleate boiling",
+  "si": {
+    "L_heated_min": 0.025,
+    "L_heated_unit": "m",
+    "L_heated_max": 0.025,
+    "contact_angle_min": 11.4,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 11.4
+  },
+  "fluid_properties": {
+    "rho_l": 1621.0,
+    "rho_v": 13.4,
+    "sigma": 0.0085,
+    "h_fg": 88000.0,
+    "mu_l": 0.00045,
+    "p_crit": 1830000.0
+  },
+  "derived": {
+    "L_cap": 0.0007342773405759766
+  },
+  "derived_tags": [
+    "wetting:hydrophilic"
+  ],
+  "unit_warnings": [
+    "D_h.min: unrecognized unit 'lm'",
+    "D_h.max: unrecognized unit 'lm'",
+    "Ra_surface.min: unrecognized unit 'lm'",
+    "Ra_surface.max: unrecognized unit 'lm'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 2,
+    "n_points": 434,
+    "figures": [
+      "fig-3"
+    ],
+    "quantities": [
+      "dT_wall"
+    ]
+  }
+}

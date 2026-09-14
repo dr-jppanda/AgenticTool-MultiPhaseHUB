@@ -1,0 +1,107 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water."
+      },
+      {
+        "quote": "Eq. (15) is able to predict the heat transfer coefficient in the partially and fully developed nucleate boiling"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The testing surface on the top of the copper block has a dimension of 20 × 20 mm"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The wall temperature would experience an initial increase and gradually reach steady state."
+      },
+      {
+        "quote": "The temperatures were calculated by averaging 30 measured values in the steady state."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Experiments were conducted in this chamber using distilled water under atmospheric pressure."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the surface was first randomly polished with 2400 grit sandpaper"
+        },
+        {
+          "quote": "two laser processed surfaces and a base surface"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "unidirectional polishing with rougher sandpapers (80, 120, 180,"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "femtosecond laser processing"
+        },
+        {
+          "quote": "the femtosecond laser processed samples have periodically fluctuating surface"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

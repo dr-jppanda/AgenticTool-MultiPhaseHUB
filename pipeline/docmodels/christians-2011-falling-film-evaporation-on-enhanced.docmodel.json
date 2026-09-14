@@ -1,0 +1,360 @@
+{
+  "doc_id": "fa0bdedb01fe8738",
+  "source": "papers\\christians_2011_falling_film_evaporation_on_enhanced.pdf",
+  "text": "Falling film evaporation on enhanced tubes, part 1:\nExperimental results for pool boiling, onset-of-dryout and\nfalling film evaporation\nMarcel Christians, John Richard Thome*\nLaboratory of Heat and Mass Transfer (LTCM), Ecole Polytechnique Fe \u0301de \u0301rale de Lausanne, ME G1 465, Station 9, CH-1015 Lausanne,\nSwitzerland\na r t i c l e i n f o\nArticle history:\nReceived 9 September 2010\nReceived in revised form\n25 October 2011\nAccepted 31 October 2011\nAvailable online 11 November 2011\nKeywords:\nEvaporation\nFalling film\nPool boiling\nTwo-phase flow\na b s t r a c t\nHorizontal falling film evaporators have the potential of displacing flooded evaporators as\nthe standard in the refrigeration industry due to compelling advantages, such as smaller\nrefrigerant charge and lower pressure drop. However, there is a need to improve the\nunderstanding of falling film evaporation mechanisms to provide accurate thermal design\nmethods. In this work, falling film evaporation measurements on a single tube, a vertical\nrow of ten horizontal tubes and a small tube bundle with three rows of 10 tubes each are\npresented. Two enhanced boiling tubes, the Wolverine Turbo-B5 and the Wieland Gewa-B5,\nwere tested using R-134a and R-236fa. The tests were carried out at a saturation temperature of Tsat 1\u20444 5 C, film Reynolds numbers ranging from 0 to 3000, and heat fluxes between\n15 and 90 kW m 2 in pool boiling and falling film configurations. A visualization study was\nperformed under diabatic conditions to study the flow.\na 2011 Elsevier Ltd and IIR. All rights reserved.\nEvaporation d'un film tombant sur des tubes ame \u0301liore \u0301s,\nPartie 1 : re \u0301sultats expe \u0301rimentaux pour l'e \u0301bullition libre, le\nde \u0301but de l'asse`chement et l'e \u0301vaporation d'un film tombant\nMots cle \u0301s : E \u0301vaporation ; Film tombant ; E \u0301bullition libre ; E \u0301coulement diphasique\n1.\nIntroduction\nIn industrial applications, falling film evaporators show\nseveral advantages compared to flooded evaporators, particularly in terms of higher cycle efficiency, reduced costs and\na smaller environmental impact due to its reduced charge of\nrefrigerant. The pressure drop is small as the liquid flows only\ndue to gravity and this reduces the temperature lift of the\ncompressor. This type of heat exchanger has been studied over\nthe years in terms of effects such as the liquid feed flow rate,\n* Corresponding author. Tel.: \u00fe41 21 693 5981; fax: \u00fe41 21 693 5960.\nE-mail address: john.thome@epfl.ch (J.R. Thome).\nwww.iifiir.org\nAvailable online at www.sciencedirect.com\njournal homepage: www.elsevier.com/locate/ijrefrig\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n0140-7007/$ e see front matter a 2011 Elsevier Ltd and IIR. All rights reserved.\ndoi:10.1016/j.ijrefrig.2011.10.020\nthe liquid distribution, the flow pattern, liquid subcooling,\ntube surface phenomena, tube spacing and heat flux, among\nothers. A large majority of the studies have been performed\nusing water or ammonia, due to the large potential of falling\nfilm evaporators in Ocean Thermal Energy Conversion and\nactual use in desalination. Falling film evaporation can also be\nsegregated into conditions with or without nucleate boiling in\nthe film. The present study considers only the former.\nRecent studies involving pool boiling at conditions similar\nto those being investigated in this study are presented in\nTable 1. The majority of these studies have been discussed by\nRoques and Thome (2007a). There are three main additions to\nthe studies discussed previously, namely those of Habert\n(2009), Agostini (2008) and Gorgy (2008).\nGorgy (2008) tested four different combinations: R-134a on\na smooth tube, R-123 on a smooth tube, R-134a on a Turbo-Bii\nHP tube, and R-123 on a Turbo Bii-LP tube. A modified Wilson\nplot method was utilized to measure the heat transfer coeffi-\ncients. The one meter long test tube's outer diameter was\n19.05 mm. Tests were conducted with a single tube test\nsection, in which the test tube was water-heated. All tests\nwere conducted at a saturation temperature of 4.44 C. Results\nshowed that the heat transfer coefficient increased with heat\nflux for all cases.\nHabert (2009) tested the pool boiling performance of the\nTurbo-EDE2, Gewa-C LW, Gewa-B4 and a plain tube using\nrefrigerants R-134a and R-236fa at saturation temperatures of\n5, 10 and 20 C. The tubes tested were 19.05 mm in diameter,\nand 0.554 m long. An indirect method was utilized to infer the\npool boiling heat transfer coefficient (modified Wilson Plot\nmethod). Using the plain tube, the study generated results\nsimilar to those expected from the literature; the heat transfer\nmeasurements, the values of the correlations and the trends\nare similar to the results of citetstephan1992, Stephan and\nAbdelsalam (1980) and Cooper (1984). The Gewa-C LW,\na tube designed for condensation, behaved in a similar\nfashion. The two enhanced evaporation tubes, on the other\nhand, showed decreasing heat transfer with increasing heat\nflux. The trend of these results are similar to those found by\nRoques and Thome (2007a).\nBoiling in a thin film differs from its pool boiling counterpart.\nFalling\nfilm\nevaporation\nprovides\nhigher\nheat\ntransfer coefficients than pool boiling in the low heat flux\nconvective region. Cerza and Sernas (1985) hypothesized\nthat the enhancement of the nucleate boiling heat transfer\nin liquid films is due to the fact that the bubbles lie\nembedded in the superheated liquid film, compared to\nnucleate boiling where bubble growth is generally confined\nNomenclature\nSymbol\ncp\nisobaric specific heat (J kge1 K 1)\nC\nWilson plot coefficient\nD\ndiameter (m)\nh\nheat transfer coefficient (W m 2 Ke1)\nKff\nFalling film multiplier \u00f0hffh 1\npb \u00de\n_m\nwater mass flow rate (kg se1)\nn\nnumber of datapoints\nq\nheat flux (W m 2)\nRw\nwall thermal resistance (K We1)\nT\ntemperature ( C)\nU\noverall heat transfer resistance (K We1)\nGreek\nG\nref. overfeed per unit length (kg me1 s 1)\nSubscripts\nff\nfalling film\ngni\nGnielinski\ni\ninternal\no\nouter\npb\npool boiling\nsat\nsaturation\nwater\nwater\nSuperscripts\nn\npool boiling exponent\nTable 1 e Recent pool boiling studies at conditions close to those in this study. A:Plain, B:Turbo-Bii HP & LP, C:Gewa-B,\nD:High-Flux, E:Turbo-B, F:Turbo-EDE2, G:Gewa-B4, H:Gewa-C LW, I:Turbo-CSL.\nAuthors\nTube\nd [mm ]\nFluid\n_q [kW m 2]\nT [K]\nTatara and Payvar (2000)\nB\n19.05\nR-134a\n8e40\n278\nHahne and Barthau (2006)\nA\n15\nR-134a\n1e100\n282e356\nDanger et al. (2001)\nA\n25.4\nR-134a\n1e100\n263e282\nRobinson and Thome (2003)\nA, B\n19.05\nR-410a, R-507a\n15e40\n278\nHsieh and Hsu (1994)\nA\n27\nR-134a\n8e60\n278\nWebb and Pais (1992)\nA, E\n19.1\nR-134a\n8e60\n278\nMcNeil et al. (2002)\nA, D\n19\nPentane\n5e50\n309\nMemory et al. (1995)\nA, D, E\n15.9\nR-114\n1e100\n275\nKramer et al. (1997)\nA, C\n22.2\nH2O, Ethanol\n15e65\n351e373\nRoques and Thome (2007a)\nA, B, C, D\n19.05\nR-134a\n25e65\n278\nHabert (2009)\nA, F, G, H\n19.05\nR-134a, R-236fa\n20e80\n278e293\nGorgy (2008)\nA, B\n19.05\nR-134a, R-123\n4e120\n278\nAgostini (2008)\nA\n19.05\nR-134a, R-236fa\n15e70\n283e293\nRibatski and Thome (2006)\nB, C, D, I\n19.05\nR-134a\n15e80\n278e293\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n301\nto the thickness of the superheated thermal boundary layer\nnext to the tube wall.\nThe enhanced boiling process is different from normal\nnucleate boiling in cavities. Evaporation occurs both on the\nexternal surface, and inside its re-entrant channels. Thus,\nthere are four possible ways for heat to be dissipated (Bergles,\n1988; Thome, 1990).\n1. As latent heat generating vapor within the re-entrant\nchannels.\n2. As latent heat into bubbles growing on the outside surface\nof the enhancement.\n3. As sensible heat to the liquid, pumped through the re-\nentrant channels and back out.\n4. As sensible heat to the liquid in the external thermal\nboundary layer.\nStructured surfaces promote nucleate boiling in the film at\nmodest temperature differences, enhance convection within\nthe film and provide an increase in heat transfer area. The\nparameters that influence the enhancement are mainly the\nshape, geometry and surface area of the cavities. The nucleation site density also plays an important role. For porous\ncoatings, the principal parameters are the particle size, the\ncoating thickness and the porosity. The nucleation site\ndensity has been correlated as proportional to the heat\ntransfer coefficient. Chien and Webb (1998a, b) investigated\nthe effect of pore diameter, pore pitch and tunnel shape using\nR-11 and R-123. They found that there exists an optimal pore\ndiameter and pore pitch for a specific heat flux range.\nHowever, the determination of the above parameters is purely\nempirical, and difficult to ascertain (Poniewski and Thome,\n2008).\nIn comparison to pool boiling, experimental data for\nboiling in thin films are relatively scarce, as shown in the\nreviews of Thome (2002) and Ribatski and Jacobi (2005). Chyu\nand Bergles (1985) investigated falling film heat transfer\nmechanisms and defined three flow regimes. For the case of\nsaturated falling films, convective heat transfer leads to\nevaporation at the liquidevapor interface. With an increase of\nheat flux, nucleate boiling occurs; vapor bubbles grow and are\ncarried along by the film flow such that both thin falling film\nevaporation and nucleate boiling play a role in the heat\ntransfer process, depending mainly on the heat flux and liquid\nmass flow. Moeykens and Pate (1994) and Zeng et al. (1996)\namong others published mean heat transfer coefficient data\nfor each tube in their row/bundle tests.\nChien and Webb (1998a, b) tested enhanced surfaces\nsimilar to the Turbo-B using R-11 and R-123. It was observed\nthat, at low heat flux, the tubes having smaller total open\nareas (that is, the sum of the cavity areas) gave higher heat\ntransfer coefficients. At higher heat fluxes, tubes having larger\ntotal open areas yielded higher heat transfer performance.\nThey reported a cross-over characteristic between the two\nareas. If the total open area was too large at low heat flux, the\nre-entrant tunnels became flooded by liquid and the heat\ntransfer coefficient decreased. If the total open area was too\nsmall at high heat fluxes, the tunnels dried out due to inadequate liquid supply. Chien and Webb (1998c) also performed\na visualization study that supported these trends.\nMoeykens et al. (1995) observed that enhanced boiling\nsurfaces gave higher performance than finned tubes but lower\nperformance than enhanced condensing surfaces used for\nevaporation. They noted an increase of heat transfer coeffi-\ncient with heat flux up to a specific heat flux, after which, with\nany further increase in heat flux, the heat transfer coefficient\ndecreased. This was probably due to partial dryout.\nRoques and Thome (2007a, b) tested three different\nenhanced surfaces: Gewa-B, Turbo-Bii and High-Flux. Similar\ntrends for each surface were found, as well as a strong\ndependence of heat transfer on heat flux. The High-Flux tube\nachieved up to three times better performance than the other\ntubes tested. A falling film multiplier, Kff, was defined as the\nratio between falling film evaporation and pool boiling heat\ntransfer coefficients on the same tube at the same heat flux,\nand gave values between 1 and 2, depending on the enhanced\nsurface and the experimental conditions, meaning that the\nfilm had a tendency to enhance the heat transfer performance. In general, at low heat fluxes, falling film achieves\nbetter performance than pool boiling. This might be due to\nenhanced convective effects in the falling film. At high heat\nfluxes, nucleate boiling was the dominant heat transfer mode\nand thus the convective effect tended to disappear and the\nperformances became comparable to those in pool boiling.\nAccording to the authors, the trend for falling film evaporation\nis made up of two distinct regions: a plateau corresponding to\nan all-wet nucleate boiling-dominated regime where the heat\ntransfer coefficient varies little with the flow rate, a point of\nonset-of-dryout, and a partially wet regime with nucleate\nboiling in the remaining film with a thus rapidly decreasing\nheat transfer coefficient tending towards the vapor phase\nnatural convection coefficient at complete dryout. Hence, the\nonset-of-dryout is an important part of the heat transfer\nprocess and its modeling.\nHabert and Thome (2010) tested three enhanced surfaces,\nthe Gewa-B4, Turbo-EDE2 and the Gewa-C LW, a condensation tube. The tests were performed using R-134a and R-\n236fa. Tests in single-array mode, similar to those of Roques\n(2004), were performed. Using the Gewa-C LW, Kff values of\n2.5e3 were found near the onset-of-dryout Reynolds number\nusing R-134a and R-236fa respectively, at a heat flux of\n20 kW m 2. However, most of the data lie close to 1, indicating similar performance under falling film and pool boiling\nconditions. The performance of the tube did not vary much\nwith choice of refrigerant. Both the Gewa-B4 and the Turbo-\nEDE2 show similar trends to the previous generation's (that\nis, tubes tested by Roques); however, due to the improved\nperformance, the uncertainty in the measurements also\nincreased. Heat transfer coefficients close to those measured\nby Roques for the High-Flux tube were measured. The falling\nfilm multiplier varied between 1 and 2, with falling film\nperforming best at lower heat fluxes, as shown in previous\nstudies.\nThe objectives of the present study are to (i) characterize\nthe water-side enhancement factor of different enhanced\ntubes using the modified Wilson plot method, (ii) measure\nlocal pool boiling coefficients at 5, 10 and 15 C for heat fluxes\nranging from 20 to 80 kW m 2, (iii) measure local heat transfer\ncoefficients at 5 C on a one-row horizontal tube array and on\na small three-row bundle for heat fluxes of 20, 40 and\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n302\n60 kW m 2, (iv) extend the existing database with new\nsurfaces and fluids and (v) to develop new predictive methods\nfor pool boiling, onset-of-dryout, the local heat transfer coef-\nficient and the falling film multiplier Kff. The results of the\nexperimental campaign are presented in part 1 while the new\nprediction methods are presented in part 2 (Christians and\nThome, 2010).\n2.\nExperimental facility\nThe experimental setup is comprised of three circuits,\nnamely, the refrigerant, water-glycol, and water circuits. The\nrefrigerant\ncircuit\nis\nshown\nschematically\nin\nFig.\n1.\nIt\ncomprises an electrically heated evaporator (1) to maintain\nthe desired saturation condition, a condenser (5) to balance\nthe heat load on the system, and the test section itself (4).\nIn the refrigerant circuit, starting from the flooded evaporator (1), the refrigerant flows through the filter (not shown)\nand the subcooler (6) to the oil-free self-lubricating gear pump\n(7). Parallel to the pump, bypass piping is installed so that,\ntogether with a frequency controller on the pump, the desired\nliquid flow rate can be accurately set. A Coriolis mass flow\nmeter (8) follows, after which an electric heater (9) is installed\nto bring the liquid close to saturation conditions at the test\nsection inlet (less than 0.5 K from saturation). At this point, the\nliquid enters the test section and is distributed uniformly on\nthe top row of the heated tubes. Special care has been taken in\nthe distributor design in order to achieve uniform liquid\ndistribution on the top tube. Once the liquid leaves the\ndistributor, it falls onto the top of the heated tube array on\nwhich the liquid in the test section is partially evaporated; the\nresidual liquid leaves the test section by gravity. From the exit\nof the test section, the liquid flows back to the flooded\nevaporator by the effect of gravity. The vapor generated in the\ntest section is sucked out at the bottom of the test section.\nAfter exiting the test section from the bottom, it flows to the\ncondenser, and the liquid drops by gravity back to the flooded\nevaporator. The amount of vapor flow can be controlled by\nincreasing the heat input in the flooded evaporator, which in\nturn\ngenerates\nmore\nvapor.\nConsequently,\nto\nmaintain\na constant system pressure, the cooling load on the auxiliary\ncondenser is increased to balance the thermal heat load. In\nthese tests, it was attempted to maintain the vapor velocity as\nlow as possible, such that vapor shear effects were minimized.\nThe water circuit (not shown) is responsible for the heating\neffect in the test section. The water is driven through the test\ntubes by a centrifugal pump. An electronic speed-controller,\ntogether with a bypass line, ensures good precision in any\nwater mass flow adjustment. The water flows through two\nliquideliquid heat exchangers; the first is cooled with industrial water sourced from Lake Geneva at a constant temperature of 7 C, while the second is heated with hot water from\na closed-loop circuit heated by a heat pump. This water has its\nflow rate set by a computer-controlled valve. The water\ntemperature at the test section inlet is thus automatically\nmaintained constant. The total water mass flow rate is\nmeasured with a Coriolis flow meter (not shown). Before\nentering the test section, the test-line water flow is split into\nfive subcircuits, each supplying to two tubes in the test section\nconnected in series. Each subcircuit has two tube passes; i.e.,\nwater goes in the first tube in one direction (left to right) and\ncomes back through the copper tube just above in the opposite\ndirection. This setup keeps the film flow rate uniform along\nthe axial length of the tube after each of the sets of two tubes\nto avoid maldistribution that occurs in one-pass test setups.\nA water-glycol mixture from a network installation is used as\na cold source for the auxiliary condenser.\nFig. 1 e Schematic of the refrigerant circuit in the Falling Film Facility.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n303\nThe test section is a rectangular stainless-steel vessel\nwith six large windows situated at the front and rear in\norder to have full visual access into the experimental setup,\nto observe the flow on the tubes. The copper test tubes had\na nominal outer diameter of 19.05 mm and a length of\n554 mm. In total, ten instrumented tubes (i.e., five sub-\ncircuits) were installed at an industry-standard pitch of\n22.3 mm and arranged in one of two possible configurations.\nFor single-array tests, these ten tubes were installed horizontally in a vertical array. For bundle tests, two additional\nvertical arrays of ten horizontal tubes were installed on\neither side of the central array using equal vertical and\nhorizontal pitches (See Figure 3.7 of Christians (2010)).\nFalling film conditions were created on these two rows using\ntwo\nsets\nof\ntwo\nhigh-performance\ncondensing\ntubes\ninstalled on both sides of the distributor, through which cold\nglycol is run. These four tubes provided the condensate\noverfeed for the side rows. The glycol mass flow rate was\ncontrolled to regulate the amount of condensate being\ngenerated.\nTo\nfurther\nfine\ntune\nthe\namount\nof\nheat\nexchanged, a three-way valve is installed. The glycol flow\nrate through each side could be manually controlled such\nthat there was no imbalance in the heat extraction between\nthe two sides.\nHot water was pumped through the side-array tubes;\nhowever, unlike the center column, the water went through\nall the side tubes in ten passes (rather than the two passes in\nthe center column for each pair of tubes). The water flow rate\nthrough each side-array could be controlled in a similar\nfashion to the glycol overfeed circuit, such that the waterheated side-array heat transfer remain balanced.\nA stainless-steel tube with an external diameter of 8 mm\nwas inserted inside each of the copper test tubes (in bundle\nconditions, only in the ten tubes in the central horizontal\ncolumn). Pairs of thermocouples were located at three positions axially along the stainless steel tube, protruding out\nthrough holes to measure the temperature of the water in the\nannulus between the stainless steel tube and the copper\ntubes. At every location, one thermocouple is facing upward\nand one is facing downward. A copper wire with a rectangular\ncross section wound helically around the stainless steel tube\npromoted mixing, and further increased the water-side heat\ntransfer coefficient.\nPressure transducers connected to the test section above\nand below the array of tubes were used to measure the vapor\npressure in the test section. The vapor temperature in the test\nsection was measured above and below the tube array using\nsheathed thermocouples. The temperatures of the liquid\nentering and leaving the test section, as well as the vapor\nleaving the test section, were measured.\n3.\nExperimental methods and data reduction\nThe internally mounted thermocouples measuring the water\ntemperature within the tube annulus along the axial length of\nthe tubes provide the water temperature profile as a function\nof the distance x along the tubes. Assuming only heat flow in\nthe radial direction, the local heat flux on the outside of the\ntube, qo, may thus be expressed as\nqo 1\u20444 _mwatercp;water\npDo\ndTwater\ndx\n(1)\nwhere Do is the outside diameter. The value \u00f0dTwater=dx\u00de is\nobtained by differentiating a second order polynomial fit of\nthe water temperature profile. Nearly identical temperatures\nfor the pairs of thermocouples located at each location were\nfound, indicating good mixing of the water (the temperatures\nwere within thermocouple uncertainty, i.e. 0.1 K), and thus\nincreasing the accuracy of the data reduction method.\nTo determine the external local heat transfer coefficient,\nho, between the outside surface of the copper tubes and the\nrefrigerant, a modified Wilson plot procedure using nucleate\npool boiling on the outside of the tubes was first implemented to infer the internal heat transfer coefficient. The\nmethod utilized is described in detail in Christians (2010) and\nvan Rooyen et al. (submitted for publication). The modified\nWilson plot method used a relation for the external heat\ntransfer coefficient given by ho 1\u20444 Coqn\no, where n and Co were\nleft as variables. The internal heat transfer coefficient was\ngiven by the Gnielinski (1975) correlation, hgni, multiplied by\na constant Ci (also a variable) that takes into account the\nincrease in heat transfer due to any internal enhancement,\nthe reduced flow area and increased turbulence due to the\ninserted helical tape. The Wilson plot expression for the\ntubes was thus\n1\nUo\n1\u20444\n1\nCihgni\nDo\nDi\n\u00fe Rw \u00fe\n1\nCoqn\no\n(2)\nThe conditions for which modified Wilson tests were conducted are summarized in Table 2. These conditions were\nchosen to cover the conditions that were tested in the\nsubsequent pool boiling and falling film evaporation tests. As\nthe coefficients found with the Wilson plot method are only\nvalid for the conditions tested, it was found necessary to\nmimic the conditions as exactly as possible. Table 3 shows the\nvalues of Ci, Co and n deduced by this study. The uncertainties\nquoted are a function of the experimental uncertainties\ncarried through the Wilson plot method using the method of\nYork et al. (2004).\nTo eliminate all traces of non-condensable gases which\nmight have been introduced into the facility (i.e. during tube\nor refrigerant changes), a vacuum pump (not shown in Fig. 1)\nwas connected to the system and was run until the two low-\npressure reference pressure transducers showed no more\nthan 100 Pa (absolute). Once the vacuum pump was stopped,\nthe system pressure was monitored to make sure that no\nleaks were present. Only once these two steps were been\nTable 2 e Experimental conditions tested for Wilson plot,\npool boiling and falling film evaporation experiments.\nWilson plot\nPool boiling\nFalling film\nTsat\n5e15 C\n5e15 C\n5 C\n_qo\n20e65 kW m 2\n20e80 kW m 2\n20e60 kW m 2\nRewat\n7.5e17.5$103\nw10000\nw10000\nG\ne\ne\n0.30e0.02 kg/ms\nRefrigerant\nR-134a\nR-134a/R-236fa\nR-134a/R-236fa\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n304\naccomplished was the system refilled with refrigerant to\nproceed\nwith\ntesting.\nAny\nremaining\ntraces\nof\nnon-\ncondensable gases in the system will migrate to the over-\nhead condenser where they remain. The measured saturation\ntemperature using thermocouples and that obtained from the\npressure\nsensors\nand\nREFPROP\n(National\nInstitute\nof\nStandards and Technology, 2002) differed by 0.1 K, a value\nwithin the uncertainty of both measurements.\nFor experiments involving overfeed, the film flow rate of\nthe liquid arriving on the first tube was evaluated from the\nmeasured mass flow rate and the tube length, assuming that\nthe refrigerant is at saturation conditions. The mass flow of\nrefrigerant evaporating on the first tube is calculated by an\nenergy balance on differential elements and subtracted from\nthe film flow rate arriving on the first tube to obtain the film\nflow rate at the top of the second tube and so on. This means\nan ideal one-dimensional downward flow is assumed on the\ntube rows and assumes that all the liquid flows from one tube\nto the next without leaving the tube row. The two-pass water\ndesign gives a nearly uniform axial film distribution along the\ntube array after each pair of tubes. The saturation temperature, as well as the transport and thermodynamic properties,\nare calculated according to REFPROP (National Institute of\nStandards and Technology, 2002) from the mean of the pressures measured by pressure transducers above and below the\ntube array.\nTests were conducted by gradually decreasing the liquid\nfilm flow rate on the top tube at a fixed heat flux. The data\nwere logged only if steady state conditions were attained.\nThermocouples with experimental uncertainty of 0:1 K,\npressure transducers with uncertainty of 0:1 % of full-scale\n(1 MPa) and Coriolis flow meters ( 0.1%). An error analysis\nwas performed and the mean uncertainty in the local heat\ntransfer coefficients in pool boiling and falling film are tabulated in Tables 4 and 5. A more detailed description of the test\nfacility, data reduction methods and measurements accuracies can be found in Christians (2010) and Christians et al.\n(2010a, b).\n4.\nExperimental results for pool boiling\nTests were performed using the Wolverine Turbo-B5 and the\nWieland Gewa-B5 with R-134a and R-236fa for the experimental conditions summarized in Table 2. Before installation\ninto the test section, the tubes were thoroughly cleaned. The\nresults from the single-array pool boiling tests with tube\nTurbo-B5 and the Gewa-B5 are detailed in this section. Figs.\n2(a), (b) and 3(a), (b) show the results gathered in the\nTable 4 e Experimental uncertainties of measured heat\nfluxes and pool boiling heat transfer coefficients at all\nsaturation temperatures tested.\nR-134a\nR-236fa\ndmin\ndmax\ndavg\ndmin\ndmax\ndavg\nTurbo-B5\nq\n14.49%\n47.3%\n21.90%\n16.08%\n31.92%\n20.21%\nhpb\n26.50%\n84.11%\n40.73%\n18.20%\n55.95%\n33.27%\nGewa-B5\nq\n7.75%\n25.16%\n13.69%\n12.33%\n34.64%\n19.52%\nhpb\n18.12%\n85.72%\n40.88%\n19.27%\n85.64%\n37.98%\nTable 5 e Experimental uncertainties of falling film heat\ntransfer coefficients during falling film evaporation.\nq\nR-134a\nR-236fa\ndmax\ndavg\ndmax\ndavg\nTurbo-\nB5\n20 kW m 2\n44.97%\n31.01%\n43.51%\n32.72%\n40 kW m 2\n26.01%\n19.53%\n25.95%\n20.27%\n60 kW m 2\n21.91%\n15.73%\n23.73%\n18.77%\nGewa-\nB5\n20 kW m 2\ne\ne\ne\ne\n40 kW m 2\n35.41%\n25.53%\n35.95%\n24.27%\n60 kW m 2\n25.91%\n18.73%\n23.73%\n21.77%\na\nb\nFig. 2 e Pool boiling measurements on tube Turbo-B5.\nTable 3 e Wilson plot coefficients for the Turbo-B5 and\nthe Gewa-B5.\nTurbo-B5\nGewa-B5\nCi\n6.6557 0.9117\n4.37 0.5398\nCo\n10600\n5.72$106\nn\n0.1129\n0.479\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n305\nexperimental conditions proposed using R-134a and R-236fa\nand tubes Turbo-B5 and Gewa-B5, respectively. Due to\nindustrial interest in low-heat flux data, it was attempted to\ngather data at heat fluxes lower than 20 kW m 2. However,\ndue to the decrease in the water temperature difference, the\nexperimental uncertainties became such that it was impossible to gain meaningful values. This can be seen in the error\nbars plotted in the subsequent figures that increase with\ndecreasing heat flux. The uncertainty increase follows the\ntrend shown in Rose (2004), as expected.\nThe experimental uncertainties in the heat flux and the\nmeasured pool boiling heat transfer coefficients are tabulated in Table 4. The uncertainties in both the heat flux and\nthe measured pool boiling heat transfer coefficient are\nlowest at the higher heat fluxes tested, due to the increased\ntemperature gradient in the water, as well as the increased\ndifference in temperature between the water side and the\nsaturated refrigerant. The uncertainty in the heat transfer\ncoefficients becomes exponentially worse as the heat flux is\ndecreased. The experimental uncertainties with respect to\nthe refrigerants are essentially the same. Experimentally, it\nwas not possible to reach the lowest heat fluxes using the\nWieland tube, which is why the highest uncertainties shown\nfor this tube are lower than the corresponding Wolverine\nvalues.\nA comparison with other published results could not be\nmade as no publications with the present new enhanced tube\ngeometries are available in the literature. It should also be\nnoted that these tubes were developed for applications using\nR-134a and not for R-236fa. Using R-134a, the Turbo-B5\nshowed almost no dependence on either heat flux nor with\ndifferent saturation temperatures. The Turbo-EDE2 tested by\nHabert (2009) (previous generation of the same tube), showed\nan increased dependence on the saturation temperature; this\nwas not evident in the results of the Turbo-B5. Although at the\nlower heat fluxes the Turbo-EDE2 tube showed better performance, the high uncertainty in both sets of measurements\n(Turbo-EDE2 and Turbo-B5) makes it difficult to ascertain the\nrelative performance. However, as the heat flux is increased,\nthe Turbo-B5 can be seen to have increased performance. The\nGewa-B5 showed a more marked decrease in heat transfer\nperformance with increasing heat flux, and little dependence\non the saturation temperature using R-134a. The Gewa-B4\ntested by Habert (2009), showed that when using R-134a,\nthere was little dependence on the saturation temperature as\nwell. In the case of the Gewa-B4, it was found that the heat\ntransfer\nperformance\nof\nthe\ntube\nvaried\nlittle\nwith\nincreasing heat flux; that is, there was only a relatively small\ndecrease in performance with increasing heat flux (from\n48 kW m 2 K 1e42 kW m 2 K 1). In the tests performed using\nthe Gewa-B5, the decrease in performance with increasing\nheat flux is more marked: at a heat flux of 20 kW m 2, the\nmeasured heat transfer coefficient was w30 kW m 2 K 1,\nwhile\nat\nthe\nhighest\nheat\nflux\n(80\nkW\nm 2),\nit\nwas\nw16 kW m 2K 1.\nUsing R-236fa, the Turbo-B5 and the Gewa-B5 showed\nlower heat transfer performance, as there is a general\ndecrease\nin\nmeasured\nheat\ntransfer\ncoefficients\nwhen\ncompared to the R-134a results, regardless of the imposed\nheat flux. There is also a noticeable heat flux dependence,\nwith better performance at the lower heat fluxes tested. This\ndecrease could be due to progressive partial dryout of the\nenhancement channels. As was the case with R-134a, there\ndoes not seem to be any influence of saturation temperature. Comparing the results to those found in the previous\nexperimental campaign using the Gewa-B4, it can be seen\nthat there is a large difference between the two sets of\nresults. In this campaign, the Gewa-B5/R-236fa combination\nhas comparatively worse performance than the Gewa-B5/R-\n134a combination, including a gentler drop-off to a lower\nplateau at higher heat fluxes. As was the case with the R-\n236fa Turbo-EDE2 pool boiling data, the extremely high heat\ntransfer coefficients in the earlier tests seem to be a result of\nliquid slugs in the pressure transducer capillary tubes\nleading to the test section; these affected the measured\nsaturation pressure, which led to an incorrect estimation of\nthe\nsaturation\ntemperature\nand\nthus\nthe\noverall\nheat\ntransfer resistance Uo. This, in turn, resulted in backed out\nvalues of the refrigerant-side heat transfer coefficient that\nwere too high.\nSmooth-tube pool boiling heat transfer has characteristically shown heat flux exponents ranging from 0.67 to 0.70, as\na\nb\nFig. 3 e Pool boiling measurements on tube Gewa-B5.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n306\nshown by Stephan (1992), as well as Stephan and Abdelsalam\n(1980) and Cooper (1984). More recently, this was ratified in\nthis\nexperimental\nfacility\nby\nHabert\n(2009).\nHowever,\nenhanced tubes previously tested in the laboratory have\nshown a negative exponent for the heat flux, as presented by\nRobinson and Thome (2004), Roques (2004) and Habert (2009).\nIn this study, when using R-134a, the Turbo-B5 has shown\nlittle dependence on the heat flux, with a heat flux exponent\nthat is close to 0 (yet still slightly negative). To validate these\nresults, the same pool boiling tests were performed in the\nLTCM's bundle boiling facility. The results of this comparison\nto the data from the bundle boiling facility are shown in Figs.\n4 and 5. It can be seen that the data from both facilities are\ncomfortably within each other's uncertainties. The most\ndiscrepancy is found at low heat fluxes, where both the\nTurbo-B5 and the Gewa-B5 show the highest uncertainty in\nthe measurements. It should be mentioned that the actual\nlength of the bundle rig (1000 mm) is roughly twice the\nlength of the falling film active length (500 mm); this makes\nthe experimental uncertainties lower in the bundle boiling\nfacility.\n5.\nExperimental results for falling film in\nsingle array and in bundle configurations\nThe experimental conditions are shown in Table 2. For the\nsingle-array tests, a single vertical row of horizontal tubes was\ntested. In bundle conditions, only the center array of ten tubes\nwas instrumented. Furthermore, as in Christians et al. (2010b),\nthe side-array condensate overfeed and side-array heat\ntransfer rates could be modified, thus testing was performed\nto investigate the effect of the side-array conditions might\nhave had on the measured heat transfer coefficients. As\nshown in Christians (2010), the different conditions tested did\nnot have any noticeable effect on the measured heat transfer\nresults. Furthermore, it was found that the single-array and\nthe bundle results were the same. Thus, the data from the\nsingle-array and bundle tests are presented together for tubes\nTurbo-B5 and Gewa-B5 in Figs. 6 and 7, respectively.\nThe data gathered on all ten tubes are only separated by\nheat flux. Due to the high experimental uncertainties, only\ndata with uncertainties smaller than 45% are shown. This\na\nb\nFig. 5 e Comparison of pool boiling measurements on tube\nGewa-B5 performed on the LTCM's falling film and bundle\nboiling facilities.\na\nb\nFig. 4 e Comparison of pool boiling measurements on tube\nTurbo-B5 performed on the LTCM's falling film and bundle\nboiling facilities.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n307\nlimit was the result of a parametric study; any higher and the\nscatter makes trends difficult to discern. The uncertainties\nduring testing are shown in Table 5. The method used to\ncalculate the uncertainties is based on the method of Kline\nand McClintock (1953), and takes into account measurement,\ngeometric and thermo-physical properties' uncertainties. The\nmethod is detailed in Christians (2010). This filtering is why so\nfew 20 kW m 2 data are shown; uncertainty values as high as\n150% were calculated. As occurred in the pool boiling experiments, the uncertainty in the heat transfer measurements\ngrows exponentially as the heat flux is decreased not only\nbecause the temperature gradient in the water is smaller\n(than at higher heat fluxes), but also due to the fact that the\ntemperature difference between the refrigerant and the water\ndecreases as well. At the moment, for these enhanced tubes\nand heat fluxes of less than 20 kW m 2, the experimental\nsuperheat is on the order of 0.5 C. Keeping in mind that the\nuncertainty of the thermocouples used to measure the\ntemperatures is w0.1 K, low heat flux measurements using\nthermocouples are rapidly reaching their practical limits of\nusability. The Gewa-B5 required a smaller superheat (than the\nTurbo-B5) to initiate boiling, which is why there are no\n20 kW m 2 data shown in Fig. 7.\nCompared to the pool boiling results of Figs. 4 and 5,\ncompletely different trends are achieved. First, the progressive heat transfer decrease with increasing heat flux found in\nall pool boiling experimental data (even the Turbo-B5/R-134a\ncombination had a slight negative trend) is not found in the\nfalling film evaporation data. As described by Roques and\nThome (2007a), a heat transfer plateau is reached when the\noverfeed is large enough such that partial dryout does not\noccur. At Reynolds numbers lower than this threshold, there\nis a quasi-monotonic decrease in heat transfer performance.\nIn these results, there does not seem to be a very strong heat\nflux dependence, as the scatter in the plateau for all heat\nfluxes tested is large. This results in trends that are difficult to\nstudy. From the comparison of the two data sets, it can be seen\nthat the falling film conditions enhanced the heat transfer\nprocess, especially in the case of the Turbo-B5. This is shown\nin Figs. 8 and 9. In these figures, it can be seen that the heat\nflux has a larger influence on the falling film multiplier, with\nhigher values of Kff for higher heat fluxes. This is of course due\na\nb\nFig. 6 e Falling film evaporation on a Turbo-B5 tube bundle\nand single array at Tsat [ 5 C.\na\nb\nFig. 7 e Falling film evaporation on a Gewa-B5 tube bundle\nand single array at Tsat [ 5 C.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n308\nto the decrease in performance with increasing heat flux seen\nin pool boiling, a phenomenon not seen in falling film. Of\ninterest is that while in pool boiling there was a marked\ndecrease in heat transfer performance when using R-236fa,\nthere is a much smaller 'penalty' (and at times, no penalty at\nall) when in falling film evaporation mode. A hypothesis for\nthis is discussed based on the visualizations in Christians and\nThome (2010). This decrease is also the reason why R-236fa\nfalling film multipliers are comparatively larger than R-134a\nmultipliers on the same tube. From these results it could be\nhypothesized that, in a low pressure environment, the falling\nfilm process is not only advantageous from a charge reduction\npoint of view. The decrease in performance typically seen\nwhen designing for low pressure refrigerants can be seen to be\nseriously mitigated; in fact, the results show that the use of\nfalling film allowed the heat transfer performance in R-236fa\nto be very close, if not the same, to the performance of R-134a\nof these tubes. An added advantage of using falling film in low\npressure refrigerants is that the submergence effects are also\ndecreased (due to not having a large liquid level in the\nevaporator).\nAs the reader may recall, the refrigerant film Reynolds\nnumbers are calculated assuming one-dimensional flow from\none tube to the next. However, during experimentation, some\ntubes showed splash-out and slinging. This loss of refrigerant\nto the side-arrays (when in bundle mode) is not quantifiable,\nand thus errors are introduced into the presented Reynolds\nnumbers when some liquid leaves the film. This is the main\nculprit for some of the scatter evidenced in the data which\nhappen to have lower heat transfer performance than expected at specific Reynolds numbers. This is evident in the\nR-236fa data shown in Figs. 6 and 7, in which data at relatively\nlarge Reynolds numbers show low heat transfer performance.\nSince the Reynolds numbers presented are calculated and are\ndependent on the basic assumption that there is no splashout, when this assumption is no longer valid an error is\nintroduced into the calculated Reynolds numbers such that\ndata are presented at higher film Reynolds numbers in the\ncases of 'splash out' than is actually the case.\nIn the tests performed by Habert (2009), some of the data\nfor tubes Turbo-EDE2 and Gewa-B4 (and within similar\nuncertainty ranges) showed results on the order (or slightly\na\nb\nFig. 8 e Falling film multiplier for the Turbo-B5 tube bundle\nand single array at Tsat [ 5 C.\na\nb\nFig. 9 e Falling film multiplier for the Gewa-B5 tube bundle\nand single array at Tsat [ 5 C.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n309\nsmaller) than those measured in this study Christians (2010).\nThe general trends of a plateau, a threshold Reynolds\nnumber and decreasing heat transfer performance with\nincreasing dryout were also found in that study. There was\nalso little influence of the heat flux on the falling film heat\ntransfer performance. Unlike his study, however, no other\ntypes of bundle effects were found in the results presented\nhere. For enhanced boiling tubes, Habert (2009) found large\nmal-distribution down the tested\nbundles (identical\nin\nlayout and geometry as the presented results, the only\ndifference being the tubes tested), with some tubes 'starved'\nof overfeed.\n6.\nOnset-of-dryout\nThe onset-of-dryout was first experimentally characterized at\nthe LTCM laboratory by Roques (2004), in a separate set of\nexperiments in which the film flow rate was decreased in\nsmall steps from a high value at a fixed heat flux. The transition from fully wet to dryout was found to occur at a film\nflow rate just at the first dryout patch formation. A simple\nlinear correlation was made. Later, the criterion based on Kff\ndefined by Ribatski and Thome (2007) was used to more\nobjectively study the film breakdown (Ribatski and Thome,\n2007; Habert, 2009), as the method first utilized by Roques\n(2004) was dependent on a subjective visual analysis of the\nflow over a tube. The criterion is defined as\n0:10 <\nKff;j 1\nn\nX\nn\nj1\u204441\nKff;j\n1\nn\nX\nn\nj1\u204441\nKff;j\n< 0:05\n(3)\nThe lower boundary of 0:10 was chosen such that the\nfiltering program did not add data that were clearly in\npartially\ndry\nconditions\ninto\nthe\ndatabase\nutilized\nto\ngenerate a prediction method for the onset-of-dryout. The\ndata were also filtered with a blanket filter that disregarded\nany data with outside heat transfer coefficient uncertainties\nhigher than 45%, as described above. The simple dryout\ncriteria method of Roques (2004), in which the threshold\nReynolds\nnumber\n(i.e.\nthe\nonset-of-dryout\nReynolds\nnumber) was assumed to be two times the dryout Reynolds\nnumber, compares well to the method proposed by Ribatski\nand Thome (2007) and implemented here, giving results\nwithin 15% of each other for the current experimental\ndatabase.\nThe data from the two tubes studied in the present\nexperimental campaign, filtered according to the modified\nRibatski criteria, are presented in Fig. 10(a) and (b). Refer to\nChristians (2010) for the complete onset-of-dryout database\nbased on all the enhanced boiling tube/refrigerant combinations tested at the LTCM laboratory.\nThe definition of 'complete evaporation line' is the same as\nthat of Roques (2004), namely, it shows the required refrigerant for all of the impinging liquid to be evaporated at\na specific heat flux. The results show a larger amount of\nscatter than those of Roques (2004) because, while the criterion defined by Ribatski and Thome (2007) works well, the\nerrors and uncertainties in the calculation of Kff are propagated into this calculation as well.\nThe experimental data of the Gewa-B5 are close to those\nmeasured using the Gewa-B4. The same can be said of the\nresults found using the Turbo-B5, when comparing it to the\nprevious generation Turbo-EDE2. For all tubes, the onset-ofdryout Reynolds number increases with heat flux. That is,\na higher film flow rate is required to avoid onset-of-dryout as\nthe heat flux rises. While the Turbo-Bii HP and the Gewa-B2\nmaintained\na\nreasonably\nconstant\ndistance\nfrom\nthe\ncomplete evaporation line (that is, ran parallel to it), the\nTurbo-EDE2, Turbo-B5, Gewa-B4 and the Gewa-B5 all show\nnon-parallel behavior. The vertical distance between the\ncomplete evaporation line and the onset-of-dryout Reynolds\nnumber corresponds to the Reynolds number at the bottom of\nthe tube. Thus, the maximum of the partially dry heat transfer\ncoefficient data depend slightly on the heat flux. This is most\nevident when plotting the heat transfer coefficient versus\nReynolds number: this difference is the cause of the spread at\nthe threshold of wet/partially dry data, evidenced in Figure 6.4\nof Roques (2004) and Figure 6.4 of Christians (2010), among\nothers.\na\nb\nFig. 10 e Onset-of-dryout Reynolds numbers for the\nenhanced tubes of the current study.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n310\n7.\nConclusion\nExperimental data collected for tubes Turbo-B5 and Gewa-B5\nusing refrigerants R-134a and R-236fa in both pool boiling and\nfalling film tests were presented and discussed. The trends in\nthe pool boiling results were compared to those found in\nprevious studies for earlier-generations of these tubes. In pool\nboiling, the tubes performed better than the tubes tested by\nRoques (2004) and Habert (2009), and showed less dependence\non the applied heat flux. The falling film heat transfer data were\npresented for both tubes and refrigerants utilized. No additional bundle effects could be found when testing in bundle\nconfiguration compared to single array tests. A falling film\nmultiplier, relating the increase in heat transfer performance\nwhen using falling films versus pool boiling was calculated for\nthe falling film measurements and presented. In terms of\nrefrigerants, it was seen that R-134a outperformed R-236fa, as\nwas expected, since these tubes are designed for use with R-\n134a. However, the degradation was smaller when testing in\nfalling film than in pool boiling. The onset-of-dryout threshold\nReynolds numbers were presented for the two tubes and\nrefrigerants tested. These experimental data show that low\nheat flux measurements using thermocouples are nearing the\nlimits of their applicability, since the majority of the data are\ntoo uncertain to be used. This forces studies of next-generation\ntubes toboth start usinghigh accuracy RTDs (achallenge for the\ninstrumentation used at the LTCM) and to start taking advantage of differential RTD temperature measurements, which\nretain the uncertainty of a single RTD ( 0.03 K).The data pre-\nsented here are utilized in part 2 of Christians and Thome (2010)\nto generate new prediction methods.\nAcknowledgments\nThis project has been supported financially by the LTCM\nFalling Film Research Club members: Carrier Corporation, the\nTrane Company, Wieland-Werke AG and Wolverine Tube Inc.,\nwhich is gratefully acknowledged. Special acknowledgment is\nmade to Wieland-Werke AG and Wolverine Tube Inc. for\nproviding the tube samples for the tests.\nr e f e r e n c e s\nAgostini, F., 2008. Boiling on a Tube Bundle: Heat Transfer,\nPressure Drop and Flow Patterns. Ph.D. thesis. Ecole\nPolytechnique Fe \u0301de \u0301rale de Lausanne, Laboratory of Heat and\nMass Transfer, Lausanne, Switzerland.\nBergles, A.E., 1988. Heat Transfer Augmentation. In: Two-Phase\nFlow Heat Exchangers, pp. 343e373.\nCerza, M., Sernas, V., 1985. A bubble growth model for nucleate\nboiling in thin, falling, superheated, laminar, water films. Int.\nJ. Heat Mass Transfer 28, 1307e1316.\nChien, L.H., Webb, R.L., 1998a. A parametric study of nucleate\nboiling on structured surfaces, part I: effect of tunnel\ndimensions. J. Heat Transfer 120, 1042e1048.\nChien, L.H., Webb, R.L., 1998b. A parametric study of nucleate\nboiling on structured surfaces, part II: effect of pore diameter\nand pore pitch. J. Heat Transfer 120, 1049e1054.\nChien, L.H., Webb, R.L., 1998c. Visualization of pool boiling on\nenhanced surfaces. Exp. Therm. Fluid Sci. 16, 332e341.\nChristians, M., 2010. Heat transfer and visualization of\nevaporation on a tube bundle. Ph.D. thesis. Ecole\nPolytechnique Fe \u0301de \u0301rale de Lausanne, Laboratory of Heat and\nMass Transfer, Lausanne, Switzerland.\nChristians, M., Thome, J.R., 2010. Falling film evaporation on\nenhanced tubes, part 2: Prediction methods and visualization.\nInt. J. Refrigeration, submitted for review.\nChristians, M., Habert, M., Thome, J.R., 2010a. Film condensation\nof R-134a and R-236fa, part 1: experimental results and\npredictive correlation for single-row condensation on\nenhanced tubes. Heat Transfer Eng. 31, 799e808.\nChristians, M., Habert, M., Thome, J.R., 2010b. Film condensation\nof R-134a and R-236fa, part 2: experimental results and\npredictive correlation for bundle condensation on enhanced\ntubes. Heat Transfer Eng. 31, 809e820.\nChyu, M.C., Bergles, A.E., 1985. Falling film evaporation on\na horizontal tube. In: Multiphase Flow and Heat Transfer, vol.\n43. ASME HTD, pp. 39e48.\nCooper, M.G., 1984. Heat flow rates in saturated nucleate pool\nboiling - a wide-ranging examination using reduced\nproperties. Adv. Heat Transfer 16, 157e239.\nDanger, E., Chandra, U., Gorenflo, D., Beutler, A., 2001. Basic\nmodifications of the heated surface for enhancement of pool\nboiling heat transfer. In: Thermophysical Properties and\nTransfer Process of New Refrigerants, pp. 380e387.\nGnielinski, V., 1975. New equations for heat and mass transfer in\nturbulent flow through pipes and ducts. Forschung Im.\nIngenieurwessen 41, 1975.\nGorgy, E.I., 2008. Pool boiling of R-134a and R-123 on smooth and\nenhanced tubes. Master's thesis. Kansas State University,\nDepartment of Mechanical and Nuclear Engineering.\nHabert, M., 2009. Falling Film Evaporation on a Tube Bundle with\nPlain and Enhanced Tubes. Ph.D. thesis. Ecole Polytechnique\nFe \u0301de \u0301rale de Lausanne, Laboratory of Heat and Mass Transfer,\nLausanne, Switzerland.\nHabert, M., Thome, J.R., 2010. Falling film evaporation on tube\nbundle with plain and enhanced tubes-part I: experimental\nresults. Exp. Heat Tran. 23 (4), 259e280.\nHahne, E., Barthau, G., 2006. Heat transfer and nucleation in poolboiling. Int. J. Therm. Sci. 45, 209e216.\nHsieh, S.S., Hsu, P.T., 1994. Nucleate boiling characteristics of\nR-114, distilled water and R-134a on plain and rib-roughened\ntube geometries. Int. J. Heat Mass Tran. 37, 1423e1432.\nKline, S.J., McClintock, F.A., 1953. Describing uncertainties in\nsingle-sample experiments. Mech. Eng. 75, 3e8.\nKramer, W., Auracher, H., Marvillet, C., 1997. Cross-flow and pool\nboiling of ethanol-water mixtures on the outside of horizontal\nenhanced tubes. In: 3rd Conference of the International\nEngineering Foundation, pp. 419e426.\nMcNeil, D.A., Burnside, B.M., Miller, K.M., Tarrad, A.H., 2002.\nA comparison between high flux and plain tubes for boiling\npentane in a horizontal kettle reboiler. Appl. Therm. Eng. 2,\n803e814.\nMemory, S.B., Sugiyama, D.C., Marto, P.J., 1995. Nucleate pool\nboiling of R-114 and R-114-oil mixtures from smooth and\nenhanced surfaceseI. single tubes. Int. J. Heat Mass Transfer\n38, 1347e1361.\nMoeykens, S.A., Pate, M.B., 1994. Spray evaporation heat transfer\nof R-134a on plain tubes. ASHRAE Trans. 100, 173e184.\nMoeykens, S.A., Huebsch, W.W., Pate, M.B., 1995. Heat transfer of\nR-134a in single tube spray evaporation including lubrificant\neffect and enhanced surface results. ASHRAE Trans. 101,\n111e123.\nNational Institute of Standards, Technology, 2002. NIST\nThermodynamic Properties of Refrigerants and Refrigerant\nMixtures Database. Ver 8.0 (Gaithersburg, MD).\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n311\nPoniewski, M., Thome, J.R., 2008. Nucleate Boiling on Micro-\nStructured Surfaces. www.htri-net.com/ePubs/epubs.htm.\nRibatski, G., Jacobi, A.M., 2005. Falling-film evaporation on\nhorizontal tubesea critical review. Int. J. Refrigeration 28,\n635e653.\nRibatski, G., Thome, J.R., 2006. Nucleate boiling heat transfer\nof R-134a on enhanced tubes. Appl. Therm. Eng. 26,\n1018e1031.\nRibatski, G., Thome, J.R., 2007. Experimental study on the onset of\nlocal dryout in an evaporating falling film on horizontal plain\ntubes. Exp. Therm. Fluid Sci. 31, 483e493.\nRobinson, D., Thome, J.R., 2003. Flooded Evaporation Heat\nTransfer Performance Investigation for Tube Bundles\nIncluding the Effects of Oil Using R-410A and R-507A Technical\nReport. ASHRAE Research Project RP-1089.\nRobinson, D., Thome, J.R., 2004. Local bundle boiling heat transfer\ncoefficients on a Turbo-BII HP enhanced tube bundle. HVAC&R\nRes. 10, 441e457.\nRoques, J.F., 2004. Falling Film Evaporation on a single tube and\non a tube bundle. Ph.D. thesis. Ecole Polytechnique Fe \u0301de \u0301rale\nde Lausanne, Laboratory of Heat and Mass Transfer,\nLausanne, Switzerland.\nRoques, J.F., Thome, J.R., 2007a. Falling films on arrays of\nhorizontal tubes with R-134a, part I: boiling heat transfer\nresults for four types of tubes. Heat Transfer Eng. 28, 398e414.\nRoques, J.F., Thome, J.R., 2007b. Falling films on arrays of\nhorizontal tubes with R-134a, part II: flow visualization, onset\nof dryout, and heat transfer predictions. Heat Transfer Eng. 28,\n415e434.\nRose, J.W., 2004. Heat-transfer coefficients, wilson plots and\naccuracy of thermal measurements. Exp. Therm. Fluid Sci. 28,\n77e86.\nStephan, K., 1992. Heat Transfer in Condensation and Boiling.\nSpringer, Berlin.\nStephan, K., Abdelsalam, M., 1980. Heat transfer correlation for\nnatural convection boiling. Int. J. Heat Mass Transfer 23, 73e87.\nTatara, R.A., Payvar, P., 2000. Pool boiling of pure R-134a from\na single turbo-BII-HP tube. Int. J. Heat Mass Transfer 43,\n2233e2236.\nThome, J.R., 1990. Enhanced Boiling Heat Transfer. Hemisphere\nPublishing Corporation.\nThome, J.R., 2002. On Recent Advances in Modeling of Two-Phase\nFlow and Heat Transfer Keynote address: 1st International\nConference on Heat Transfer, Fluid Mechanics, and\nThermodynamics 8 - 10 April, 13 pages.\nvan Rooyen, E., Christians, M., Thome, J.R., 2010. Modified Wilson\nplots for enhanced heat transfer experiments: Current status\nand future perspectives. Heat Transfer Engineering, submitted\nfor publication.\nWebb, R.L., Pais, C., 1992. Nucleate pool boiling data for five\nrefrigerants on plain, integral-fin and enhanced tube\ngeometries. Int. J. Heat Mass Transfer 35, 1893e1904.\nYork, D., Evensen, N.M., Martinez, M.L., Delgado, J.D.B., 2004.\nUnified equations for the slope, intercept, and standard errors\nof the best straight line. Am. J. Phys. 72, 367e375.\nZeng, X., Chyu, M.C., Ayub, Z.H., 1996. Evaporation heat transfer\nperformance of nozzle-sprayed ammonia on a horizontal\ntube. ASHRAE Trans. 101, 136e149.\ni n t e r n a t i o n a l j o u r n a l o f r e f r i g e r a t i o n 3 5 ( 2 0 1 2 ) 3 0 0 e3 1 2\n312",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 2785
+    },
+    {
+      "number": 2,
+      "start": 2785,
+      "end": 7167
+    },
+    {
+      "number": 3,
+      "start": 7167,
+      "end": 13896
+    },
+    {
+      "number": 4,
+      "start": 13896,
+      "end": 17967
+    },
+    {
+      "number": 5,
+      "start": 17967,
+      "end": 24088
+    },
+    {
+      "number": 6,
+      "start": 24088,
+      "end": 27755
+    },
+    {
+      "number": 7,
+      "start": 27755,
+      "end": 32554
+    },
+    {
+      "number": 8,
+      "start": 32554,
+      "end": 35239
+    },
+    {
+      "number": 9,
+      "start": 35239,
+      "end": 38048
+    },
+    {
+      "number": 10,
+      "start": 38048,
+      "end": 40810
+    },
+    {
+      "number": 11,
+      "start": 40810,
+      "end": 45100
+    },
+    {
+      "number": 12,
+      "start": 45100,
+      "end": 51824
+    },
+    {
+      "number": 13,
+      "start": 51824,
+      "end": 54915
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-falling-lm-evaporation-on-enhanced-tubes",
+      "number": null,
+      "title": "Falling \ufb01lm evaporation on enhanced tubes, part 1:",
+      "level": 1,
+      "start": 0,
+      "end": 51
+    },
+    {
+      "id": "sec-1-experimental-results-for-pool-boiling-on",
+      "number": null,
+      "title": "Experimental results for pool boiling, onset-of-dryout and",
+      "level": 1,
+      "start": 51,
+      "end": 135
+    },
+    {
+      "id": "sec-2-marcel-christians-john-richard-thome",
+      "number": null,
+      "title": "Marcel Christians, John Richard Thome*",
+      "level": 1,
+      "start": 135,
+      "end": 407
+    },
+    {
+      "id": "sec-25",
+      "number": "25",
+      "title": "October 2011",
+      "level": 2,
+      "start": 407,
+      "end": 1616
+    },
+    {
+      "id": "sec-4-partie-1-re-sultats-expe-rimentaux-pour-",
+      "number": null,
+      "title": "Partie 1 : re\u00b4sultats expe\u00b4rimentaux pour l\u2019e\u00b4bullition libre, le",
+      "level": 1,
+      "start": 1616,
+      "end": 1841
+    },
+    {
+      "id": "sec-5-introduction",
+      "number": null,
+      "title": "Introduction",
+      "level": 2,
+      "start": 1841,
+      "end": 5536
+    },
+    {
+      "id": "sec-6-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 5536,
+      "end": 14277
+    },
+    {
+      "id": "sec-7-experimental-facility",
+      "number": null,
+      "title": "Experimental facility",
+      "level": 2,
+      "start": 14277,
+      "end": 20788
+    },
+    {
+      "id": "sec-8-experimental-methods-and-data-reduction",
+      "number": null,
+      "title": "Experimental methods and data reduction",
+      "level": 2,
+      "start": 20788,
+      "end": 26236
+    },
+    {
+      "id": "sec-9-experimental-results-for-pool-boiling",
+      "number": null,
+      "title": "Experimental results for pool boiling",
+      "level": 2,
+      "start": 26236,
+      "end": 33758
+    },
+    {
+      "id": "sec-10-experimental-results-for-falling-lm-in",
+      "number": null,
+      "title": "Experimental results for falling \ufb01lm in",
+      "level": 2,
+      "start": 33758,
+      "end": 41468
+    },
+    {
+      "id": "sec-11-onset-of-dryout",
+      "number": null,
+      "title": "Onset-of-dryout",
+      "level": 2,
+      "start": 41468,
+      "end": 45103
+    },
+    {
+      "id": "sec-12-conclusion",
+      "number": null,
+      "title": "Conclusion",
+      "level": 2,
+      "start": 45103,
+      "end": 46868
+    },
+    {
+      "id": "sec-13-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 46868,
+      "end": 54915
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "e Schematic of the refrigerant circuit in the Falling Film Facility.",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-1_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "e Pool boiling measurements on tube Turbo-B5.",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-2_p6.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "e Pool boiling measurements on tube Gewa-B5.",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-3_p7.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "e Comparison of pool boiling measurements on tube",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-5_p8.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "e Comparison of pool boiling measurements on tube",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-4_p8.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "e Falling \ufb01lm evaporation on a Turbo-B5 tube bundle",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-6_p9.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "e Falling \ufb01lm evaporation on a Gewa-B5 tube bundle",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-7_p9.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "e Falling \ufb01lm multiplier for the Turbo-B5 tube bundle",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-8_p10.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "e Falling \ufb01lm multiplier for the Gewa-B5 tube bundle",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-9_p10.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "e Onset-of-dryout Reynolds numbers for the",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\christians-2011-falling-film-evaporation-on-enhanced\\christians_2011_falling_film_evaporation_on_enhanced_fig-10_p11.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "The majority of these studies have been discussed by",
+      "page": 2,
+      "rows": []
+    },
+    {
+      "id": "tab-1",
+      "caption": "e Recent pool boiling studies at conditions close to those in this study. A:Plain, B:Turbo-Bii HP & LP, C:Gewa-B,",
+      "page": 2,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "e Experimental conditions tested for Wilson plot,",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "e Experimental uncertainties of measured heat",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-5",
+      "caption": "e Experimental uncertainties of falling \ufb01lm heat",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "e Wilson plot coef\ufb01cients for the Turbo-B5 and",
+      "page": 6,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 13,
+    "ingest": "pymupdf"
+  }
+}

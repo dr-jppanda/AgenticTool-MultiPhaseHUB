@@ -14,10 +14,10 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "matplotlib>=3.7"]
-# `curves` renders with matplotlib; `digitize` reads tick labels burned into
-# bitmaps with tesseract when it is present, and asks for --calib when it isn't.
+# `curves` renders with matplotlib. `digitize` reads figures directly through
+# an agentic `claude` CLI call, not a local OCR/vector-parsing pipeline, so
+# it has no extra of its own.
 plot = ["matplotlib>=3.7"]
-ocr = ["pytesseract>=0.3.10", "pillow>=10.0"]
 
 [project.scripts]
 mhtdb = "mhtdb.pipeline:main"

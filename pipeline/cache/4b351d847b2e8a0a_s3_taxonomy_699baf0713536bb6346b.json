@@ -1,0 +1,114 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The enhancement of pool boiling heat transfer by copper-particle surface coatings is experimentally"
+      },
+      {
+        "quote": "The parametric effects of free-particle size on pool boiling performance are investigated with particle diameters ranging from"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "25.4 25.4 mm top surface exposed to the working fluid"
+      },
+      {
+        "quote": "The heater assembly consists of the copper heater block embedded in an insulation casing."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "assumed to have been reached when the change in temperature"
+      },
+      {
+        "quote": "the heat flux is increased in steps to obtain the boiling curve using"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "investigated, using the wetting dielectric fluid FC-72."
+        },
+        {
+          "quote": "fluorinert liquid FC-72, which has the following thermophysical"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This procedure results in a mirror-finish surface with roughness RRMS = 20 nm"
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": "sintered",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the free-particle technique and sintered powder coatings"
+        },
+        {
+          "quote": "The sintered coatings are prepared with a thickness"
+        }
+      ]
+    },
+    {
+      "tier1": "porous_coating",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "free_particle_layer",
+      "evidence": [
+        {
+          "quote": "For testing using free particles, the cover plate is removed"
+        },
+        {
+          "quote": "This free-particle technique utilizes"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "chf",
+    "htc",
+    "wall_superheat",
+    "onb",
+    "bubble_dynamics"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "rtd",
+    "high_speed_visualization"
+  ]
+}

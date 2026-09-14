@@ -1,6 +1,6 @@
 {
   "record_id": "duan-2020-roughening-techniques",
-  "doc_id": "d0f81f68ffbe1a94",
+  "doc_id": "a8d87de935db5089",
   "title": "Pool boiling heat transfer of saturated water on rough surfaces with the effect of roughening techniques",
   "source_pdf": "duan_2020_roughening_techniques.pdf",
   "n_pages": 13,
@@ -34,7 +34,7 @@
       "id": "fig-4",
       "label": "Fig. 4",
       "page": 6,
-      "caption": "Illustration of applying the robust gaussian \ufb01lter (25 \u03bcm cut-off) on the pro\ufb01le and surface, respectively."
+      "caption": "Illustration of applying the robust gaussian ﬁlter (25 μm cut-off) on the proﬁle and surface, respectively."
     },
     {
       "id": "fig-3",
@@ -58,7 +58,7 @@
       "id": "fig-7",
       "label": "Fig. 7",
       "page": 9,
-      "caption": "Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q ."
+      "caption": "Pool boiling curves of all the testing surfaces, (a) heat ﬂux q as a function of wall superheat \u0002T sat , (b) heat transfer coeﬃcient h as a function of heat ﬂux q ."
     },
     {
       "id": "fig-7",
@@ -88,7 +88,7 @@
       "id": "fig-11",
       "label": "Fig. 11",
       "page": 11,
-      "caption": "Fitting and parameter development of the Nu \u2212Ja curves."
+      "caption": "Fitting and parameter development of the Nu −Ja curves."
     },
     {
       "id": "fig-11",
@@ -100,7 +100,7 @@
       "id": "fig-12",
       "label": "Fig. 12",
       "page": 11,
-      "caption": "Evaluation of C by plotting Nu/Ja n \u22121 Pr 1 \u2212sn as a function of Sa / Sa 0 ."
+      "caption": "Evaluation of C by plotting Nu/Ja n −1 Pr 1 −sn as a function of Sa / Sa 0 ."
     },
     {
       "id": "fig-13",
@@ -113,17 +113,14 @@
     1,
     2,
     3,
-    6,
+    4,
     7,
-    8
+    8,
+    10,
+    11,
+    12
   ],
   "cited_sections": [
-    {
-      "id": "sec-4-table-1",
-      "number": null,
-      "title": "Table 1",
-      "level": 2
-    },
     {
       "id": "sec-1-list-of-symbols",
       "number": null,
@@ -131,9 +128,21 @@
       "level": 2
     },
     {
-      "id": "sec-3-for-surface",
+      "id": "sec-8-c-p-t-sat",
       "number": null,
-      "title": "For surface",
+      "title": "C p \u0002T sat",
+      "level": 2
+    },
+    {
+      "id": "sec-12-nu-c-1-1-c-2-sa",
+      "number": null,
+      "title": "Nu = C 1 (1 + C 2 ( Sa",
+      "level": 2
+    },
+    {
+      "id": "sec-4-table-1",
+      "number": null,
+      "title": "Table 1",
       "level": 2
     },
     {
@@ -144,20 +153,20 @@
     }
   ],
   "evidence_stats": {
-    "total": 13,
-    "resolved": 13,
+    "total": 21,
+    "resolved": 21,
     "unresolved": 0,
-    "exact": 13
+    "exact": 21
   },
   "points_ref": "points/duan-2020-roughening-techniques.points.json",
-  "extractor": "configured-default/p1@codex",
+  "extractor": "claude-opus-5/p1@claude-code",
   "triage": {
     "paper_type": "experimental",
     "contains_dataset": true,
     "primary_phenomenon": "pool_boiling",
     "title": "Pool boiling heat transfer of saturated water on rough surfaces with the effect of roughening techniques",
     "year": 2020,
-    "reason": "The paper states, \u201cThe effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water.\u201d"
+    "reason": "\"The effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water\" on eight fabricated copper surfaces, reporting the authors' own boiling curves, HTC, CHF and contact angle measurements."
   },
   "conditions": {
     "p_sat": {
@@ -169,23 +178,23 @@
     "T_sat": {
       "min": 99.5,
       "max": 99.5,
-      "unit": "\u25e6C",
+      "unit": "◦C",
       "evidence": [
         {
-          "quote": "the PID controller was set to 99.5 \u25e6C and the liq-\nuid was maintained at saturation state.",
+          "quote": "the liquid temperature is kept at\naround 99.5 ◦C, which is the saturation temperature at atmospheric\npressure",
           "resolved": true,
           "char_span": [
-            25639,
-            25727
+            13687,
+            13796
           ],
           "pages": [
-            7
+            3
           ],
           "sections": [
             {
-              "id": "sec-4-table-1",
+              "id": "sec-1-list-of-symbols",
               "number": null,
-              "title": "Table 1",
+              "title": "List of Symbols",
               "level": 2
             }
           ],
@@ -201,10 +210,53 @@
       "evidence": []
     },
     "q_flux": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
+      "min": 4.7,
+      "max": 93.5,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "The\nheat flux is fixed at 4.7 W/cm 2",
+          "resolved": true,
+          "char_span": [
+            39682,
+            39718
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-8-c-p-t-sat",
+              "number": null,
+              "title": "C p \u0002T sat",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the CHF of two laser\nprocessed surfaces is almost identical (around 93.5 W/cm 2 )",
+          "resolved": true,
+          "char_span": [
+            38186,
+            38267
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-8-c-p-t-sat",
+              "number": null,
+              "title": "C p \u0002T sat",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
     },
     "x_quality": {
       "min": null,
@@ -230,11 +282,11 @@
       "unit": "mm",
       "evidence": [
         {
-          "quote": "The testing surface on the top of the\ncopper block has a dimension of 20 \u00d7 20 mm 2 .",
+          "quote": "The testing surface on the top of the copper block has a dimension of 20 × 20 mm 2",
           "resolved": true,
           "char_span": [
             13884,
-            13968
+            13966
           ],
           "pages": [
             3
@@ -272,24 +324,24 @@
     },
     "Ra_surface": {
       "min": 0.045,
-      "max": 1.22,
-      "unit": "\u03bcm",
+      "max": 1.35,
+      "unit": "μm",
       "evidence": [
         {
-          "quote": "Sample\nr\nSa p ( \u03bcm)\nSa ( \u03bcm)\nReference sample\n1\n0.06\n0.045",
+          "quote": "had an average roughness in the\nrange of 0.045 μm to 1.35 μm",
           "resolved": true,
           "char_span": [
-            21878,
-            21936
+            46181,
+            46241
           ],
           "pages": [
-            6
+            12
           ],
           "sections": [
             {
-              "id": "sec-3-for-surface",
+              "id": "sec-12-nu-c-1-1-c-2-sa",
               "number": null,
-              "title": "For surface",
+              "title": "Nu = C 1 (1 + C 2 ( Sa",
               "level": 2
             }
           ],
@@ -297,14 +349,42 @@
           "score": 1.0
         },
         {
-          "quote": "Sandpaper polished 80 grit\n1.24\n3.48\n1.22",
+          "quote": "Eq. (15) is likely to be valid for hydrophobic surfaces having surface roughness Sa in the range of\n0.045 μm to 1.35 μm",
           "resolved": true,
           "char_span": [
-            22110,
-            22151
+            43800,
+            43919
           ],
           "pages": [
-            6
+            11
+          ],
+          "sections": [
+            {
+              "id": "sec-12-nu-c-1-1-c-2-sa",
+              "number": null,
+              "title": "Nu = C 1 (1 + C 2 ( Sa",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": 103.8,
+      "max": 153.0,
+      "unit": "°",
+      "evidence": [
+        {
+          "quote": "Contact angle: 122°\nContact angle: 103.8°",
+          "resolved": true,
+          "char_span": [
+            23527,
+            23568
+          ],
+          "pages": [
+            7
           ],
           "sections": [
             {
@@ -316,75 +396,23 @@
           ],
           "match": "exact",
           "score": 1.0
-        }
-      ]
-    },
-    "contact_angle": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
-    },
-    "gravity_level": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
-    },
-    "n_data_points": {
-      "min": null,
-      "max": null,
-      "unit": null,
-      "evidence": []
-    },
-    "orientation": "unspecified",
-    "heating_mode": "unspecified",
-    "surface_material": "copper"
-  },
-  "taxonomy": {
-    "phenomenon": {
-      "tier1": "pool_boiling",
-      "tier2": "nucleate",
-      "tier3": "fully_developed",
-      "propose_new": null,
-      "evidence": [
-        {
-          "quote": "Pool boiling heat transfer of saturated water on rough surfaces with\nthe effect of roughening techniques",
-          "resolved": true,
-          "char_span": [
-            202,
-            306
-          ],
-          "pages": [
-            1
-          ],
-          "sections": [
-            {
-              "id": "sec-0-international-journal-of-heat-and-mass-t",
-              "number": null,
-              "title": "International Journal of Heat and Mass Transfer",
-              "level": 1
-            }
-          ],
-          "match": "exact",
-          "score": 1.0
         },
         {
-          "quote": "especially in the fully developed nucleate boiling region.",
+          "quote": "for the femtosecond laser processed surfaces, the\nstatic contact angles of both surfaces were around 153 ◦",
           "resolved": true,
           "char_span": [
-            3601,
-            3659
+            25153,
+            25259
           ],
           "pages": [
-            1
+            7
           ],
           "sections": [
             {
-              "id": "sec-0-international-journal-of-heat-and-mass-t",
+              "id": "sec-4-table-1",
               "number": null,
-              "title": "International Journal of Heat and Mass Transfer",
-              "level": 1
+              "title": "Table 1",
+              "level": 2
             }
           ],
           "match": "exact",
@@ -392,8 +420,8 @@
           "also_at": [
             {
               "char_span": [
-                48988,
-                49046
+                47481,
+                47587
               ],
               "pages": [
                 12
@@ -411,21 +439,88 @@
             }
           ]
         }
+      ]
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "unspecified",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": "fully_developed",
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water.",
+          "resolved": true,
+          "char_span": [
+            1090,
+            1207
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-international-journal-of-heat-and-mass-t",
+              "number": null,
+              "title": "International Journal of Heat and Mass Transfer",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Eq. (15) is able to predict the heat transfer coefficient in the partially and fully developed nucleate boiling",
+          "resolved": true,
+          "char_span": [
+            45696,
+            45807
+          ],
+          "pages": [
+            12
+          ],
+          "sections": [
+            {
+              "id": "sec-12-nu-c-1-1-c-2-sa",
+              "number": null,
+              "title": "Nu = C 1 (1 + C 2 ( Sa",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
       ],
       "confirmed": true
     },
     "configuration": {
       "tier1": "surface",
-      "tier2": null,
+      "tier2": "flat_plate",
       "tier3": null,
       "propose_new": null,
       "evidence": [
         {
-          "quote": "The testing surface on the top of the\ncopper block has a dimension of 20 \u00d7 20 mm 2 .",
+          "quote": "The testing surface on the top of the copper block has a dimension of 20 × 20 mm",
           "resolved": true,
           "char_span": [
             13884,
-            13968
+            13964
           ],
           "pages": [
             3
@@ -451,53 +546,32 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "Based on the experimental data",
-          "resolved": true,
-          "char_span": [
-            12408,
-            12438
-          ],
-          "pages": [
-            3
-          ],
-          "sections": [
-            {
-              "id": "sec-1-list-of-symbols",
-              "number": null,
-              "title": "List of Symbols",
-              "level": 2
-            }
-          ],
-          "match": "exact",
-          "score": 1.0,
-          "also_at": [
-            {
-              "char_span": [
-                41538,
-                41568
-              ],
-              "pages": [
-                10
-              ],
-              "sections": [
-                {
-                  "id": "sec-10-ja-c-p-t-sat",
-                  "number": null,
-                  "title": "Ja = C p \u0002T sat",
-                  "level": 2
-                }
-              ],
-              "match": "exact",
-              "score": 1.0
-            }
-          ]
-        },
-        {
-          "quote": "The wall temperature would experience an ini-\ntial increase and gradually reach steady state.",
+          "quote": "The wall temperature would experience an initial increase and gradually reach steady state.",
           "resolved": true,
           "char_span": [
             25950,
             26041
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-4-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The temperatures were calculated by averaging 30 measured values in the steady state.",
+          "resolved": true,
+          "char_span": [
+            26222,
+            26307
           ],
           "pages": [
             8
@@ -524,20 +598,20 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "The boiling chamber was filled with distilled water to a level\nabout 150 mm above the testing surface.",
+            "quote": "Experiments were conducted in this chamber using distilled water under atmospheric pressure.",
             "resolved": true,
             "char_span": [
-              25363,
-              25465
+              13025,
+              13117
             ],
             "pages": [
-              7
+              3
             ],
             "sections": [
               {
-                "id": "sec-4-table-1",
+                "id": "sec-1-list-of-symbols",
                 "number": null,
-                "title": "Table 1",
+                "title": "List of Symbols",
                 "level": 2
               }
             ],
@@ -550,77 +624,82 @@
     ],
     "surface_enhancement": [
       {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the surface was first randomly polished with 2400 grit sandpaper",
+            "resolved": true,
+            "char_span": [
+              15641,
+              15705
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-1-list-of-symbols",
+                "number": null,
+                "title": "List of Symbols",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "two laser processed surfaces and a base surface",
+            "resolved": true,
+            "char_span": [
+              16104,
+              16151
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-1-list-of-symbols",
+                "number": null,
+                "title": "List of Symbols",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
         "tier1": "roughened",
         "tier2": "sanded",
         "tier3": null,
         "propose_new": null,
         "evidence": [
           {
-            "quote": "Sandpaper polished 1200 grit",
+            "quote": "unidirectional polishing with rougher sandpapers (80, 120, 180,",
             "resolved": true,
             "char_span": [
-              21937,
-              21965
+              15894,
+              15957
             ],
             "pages": [
-              6
+              3
             ],
             "sections": [
               {
-                "id": "sec-3-for-surface",
+                "id": "sec-1-list-of-symbols",
                 "number": null,
-                "title": "For surface",
-                "level": 2
-              },
-              {
-                "id": "sec-4-table-1",
-                "number": null,
-                "title": "Table 1",
+                "title": "List of Symbols",
                 "level": 2
               }
             ],
             "match": "exact",
-            "score": 1.0,
-            "also_at": [
-              {
-                "char_span": [
-                  31950,
-                  31978
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-8-c-p-t-sat",
-                    "number": null,
-                    "title": "C p \u0002T sat",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              },
-              {
-                "char_span": [
-                  37686,
-                  37714
-                ],
-                "pages": [
-                  10
-                ],
-                "sections": [
-                  {
-                    "id": "sec-8-c-p-t-sat",
-                    "number": null,
-                    "title": "C p \u0002T sat",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              }
-            ]
+            "score": 1.0
           }
         ],
         "confirmed": true
@@ -632,84 +711,46 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "Femtosecond laser processed 1",
+            "quote": "femtosecond laser processing",
             "resolved": true,
             "char_span": [
-              22152,
-              22181
+              15983,
+              16011
             ],
             "pages": [
-              6
+              3
             ],
             "sections": [
               {
-                "id": "sec-4-table-1",
+                "id": "sec-1-list-of-symbols",
                 "number": null,
-                "title": "Table 1",
+                "title": "List of Symbols",
                 "level": 2
               }
             ],
             "match": "exact",
-            "score": 1.0,
-            "also_at": [
+            "score": 1.0
+          },
+          {
+            "quote": "the femtosecond laser processed samples have periodically fluctuating surface",
+            "resolved": true,
+            "char_span": [
+              16713,
+              16790
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
               {
-                "char_span": [
-                  34795,
-                  34824
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-8-c-p-t-sat",
-                    "number": null,
-                    "title": "C p \u0002T sat",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              },
-              {
-                "char_span": [
-                  34830,
-                  34859
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-8-c-p-t-sat",
-                    "number": null,
-                    "title": "C p \u0002T sat",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
-              },
-              {
-                "char_span": [
-                  35644,
-                  35673
-                ],
-                "pages": [
-                  9
-                ],
-                "sections": [
-                  {
-                    "id": "sec-8-c-p-t-sat",
-                    "number": null,
-                    "title": "C p \u0002T sat",
-                    "level": 2
-                  }
-                ],
-                "match": "exact",
-                "score": 1.0
+                "id": "sec-1-list-of-symbols",
+                "number": null,
+                "title": "List of Symbols",
+                "level": 2
               }
-            ]
+            ],
+            "match": "exact",
+            "score": 1.0
           }
         ],
         "confirmed": true
@@ -732,16 +773,36 @@
     "targets": [
       {
         "tier1": "fundamental",
-        "tier2": null,
+        "tier2": "fundamental",
         "stated": false,
-        "confidence": "high",
         "evidence": [
           {
-            "quote": "The present study aims to investigate the effect of surface roughness on copper surfaces.",
+            "quote": "The effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water.",
+            "resolved": true,
+            "char_span": [
+              1090,
+              1207
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The present study aims to investigate the effect of surface\nroughness on copper surfaces. The experiments were conducted\nin the saturated water at atmospheric pressure.",
             "resolved": true,
             "char_span": [
               11160,
-              11249
+              11328
             ],
             "pages": [
               2
@@ -764,9 +825,15 @@
   },
   "llm_title": "Pool boiling heat transfer of saturated water on rough surfaces with the effect of roughening techniques",
   "si": {
+    "q_flux_min": 47000.0,
+    "q_flux_unit": "W/m2",
+    "q_flux_max": 935000.0,
     "D_h_min": 0.02,
     "D_h_unit": "m",
-    "D_h_max": 0.02
+    "D_h_max": 0.02,
+    "contact_angle_min": 103.8,
+    "contact_angle_unit": "deg",
+    "contact_angle_max": 153.0
   },
   "fluid_properties": {
     "rho_l": 958.3674968154769,
@@ -784,40 +851,31 @@
   },
   "derived_tags": [
     "confinement:unconfined",
-    "scale:conventional"
+    "heatflux:high",
+    "scale:conventional",
+    "wetting:hydrophobic"
   ],
   "unit_warnings": [
-    "T_sat.min: unrecognized unit '\u25e6C'",
-    "T_sat.max: unrecognized unit '\u25e6C'",
-    "Ra_surface.min: unrecognized unit '\u03bcm'",
-    "Ra_surface.max: unrecognized unit '\u03bcm'"
+    "T_sat.min: unrecognized unit '◦C'",
+    "T_sat.max: unrecognized unit '◦C'",
+    "Ra_surface.min: unrecognized unit 'μm'",
+    "Ra_surface.max: unrecognized unit 'μm'"
   ],
   "quarantined_values": {},
   "taxonomy_version": "v1",
   "gating": {
-    "reviewed_at": "2026-08-12",
-    "auto_apply": 0.75,
-    "new_term_apply": 0.85,
+    "reviewed_at": "2026-09-14",
     "pending": 0,
     "unconfirmed_fields": 0
   },
   "points_summary": {
-    "n_series": 18,
-    "n_points": 699,
+    "n_series": 7,
+    "n_points": 156,
     "figures": [
-      "fig-13",
-      "fig-5",
-      "fig-6",
-      "fig-7",
-      "fig-8",
-      "fig-p9-02"
+      "fig-7"
     ],
     "quantities": [
-      "Static contact angle \u03b8",
-      "h",
-      "h correlation",
-      "q_flux",
-      "y"
+      "q_flux"
     ]
   }
 }

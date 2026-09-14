@@ -1,0 +1,982 @@
+{
+  "doc_id": "29fc63f01ef27351",
+  "source": "papers\\mchale_2010_bubble_nucleation_characteristics_in_pool.pdf",
+  "text": "Bubble nucleation characteristics in pool boiling of a wetting liquid on smooth\nand rough surfaces\nJohn P. McHale, Suresh V. Garimella *\nCooling Technologies Research Center, School of Mechanical Engineering and Birck Nanotechnology Center, Purdue University, West Lafayette, IN 47907-2088, USA\na r t i c l e\ni n f o\nArticle history:\nReceived 26 October 2009\nReceived in revised form 30 November 2009\nAccepted 7 December 2009\nAvailable online 16 December 2009\nKeywords:\nPool boiling\nBubble nucleation\nSurface enhancement\nSurface roughness\na b s t r a c t\nQuantitative measurements are obtained from high-speed visualizations of pool boiling at atmospheric\npressure from smooth and roughened surfaces, using a perfluorinated hydrocarbon (FC-77) as the working fluid. The boiling surfaces are fabricated from aluminum and prepared by mechanical polishing in the\ncase of the smooth surface, and by electrical discharge machining (EDM) in the case of the roughened surface. The roughness values (Ra) are 0.03 and 5.89 lm for the polished and roughened surfaces, respectively. The bubble diameter at departure, bubble departure frequency, active nucleation site density,\nand bubble terminal velocity are measured from the monochrome movies, which have been recorded\nat 8000 frames per second with a digital CCD camera and magnifying lens. Results are compared to pre-\ndictions from existing models of bubble nucleation behavior in the literature. Wall superheat, heat flux,\nand heat transfer coefficient are also reported.\n2009 Elsevier Ltd. All rights reserved.\n1. Introduction\nBubble dynamics in pool boiling have been extensively studied\nsince Lord Rayleigh (1917) first derived an expression for the inertially controlled growth or collapse of vapor bubbles, motivated in\npart by the sound produced inside a boiling tea kettle. The motivation for successive studies has been the formulation of predictive\nmodels for heat transfer in cooling systems for nuclear reactors,\nrefrigeration cycles, and electronics. Roughened or otherwise enhanced surfaces are present in many commercial boiling devices,\nbecause of the high active nucleation site densities and consequent\nincrease in boiling heat transfer coefficient they produce. The purpose of the present study is to build upon a previous investigation\n(Jones et al., 2009), in which pool boiling heat transfer from aluminum surfaces with widely varying Ra values was studied with two\nfluids, water and FC-77, having significantly different wetting characteristics. The experimental results of Jones et al. (2009) were\ncompared to several heat transfer correlations that incorporate\nsurface roughness effects. For the present work, high-speed visualizations of FC-77 boiling from two of the surfaces were obtained so\nthat the bubble nucleation phenomena could be experimentally\ncharacterized in detail.\nFour physical mechanisms have been suggested for heat transfer occurring during saturated nucleate boiling: microlayer evaporation (Hsu and Graham, 1961; Hendricks and Sharp, 1964),\nreflooding transient conduction (Forster and Greif, 1959; Mikic\nand Rohsenow, 1969b), natural convection (Zuber, 1963; Han\nand Griffith, 1965), and microconvection (Rohsenow, 1952; Forster\nand Zuber, 1955; Tien, 1962; Kolev, 1995). Later models (Van\nStralen, 1970; Judd and Hwang, 1976; Benjamin and Balakrishnan,\n1996), and most recently (Moghaddam and Kiger, 2009) have considered more than one of these mechanisms and obtained a good\nmatch with particular sets of data included in the validation.\nThe following bubble nucleation quantities are usually considered in matching model predictions to experimental observations:\n1. Average bubble departure diameter, Dd.\n2. Average bubble departure frequency, fd.\n3. Average active nucleation site density, N00\nA.\nIn some instances, the bubble terminal rise velocity vb,term has\nalso been considered in the comparisons. In the present study,\nthese four quantities are measured from high-speed movies of saturated pool boiling of FC-77 from two aluminum surfaces of different roughness at four different heat fluxes to generate a detailed\ndatabase of experimental results.\nMuch of the literature has concentrated on boiling from either\nsmooth surfaces or those with geometrically idealized cavities\nsuch as v-shaped grooves, conical pits, or reentrant cavities. Consequently bubble nucleation characteristics have not been the sub-\nject of many detailed studies for surfaces with more naturally\nand randomly occurring roughness structures, especially where\nhigh nucleation site densities occur. In many previous studies\nusing direct measurements from high-speed movie images, such\nas those of Wang and Dhir (1993a,b), Pinto et al. (1996), Lee\n0301-9322/$ - see front matter 2009 Elsevier Ltd. All rights reserved.\ndoi:10.1016/j.ijmultiphaseflow.2009.12.004\n* Corresponding author. Tel.: +1 765 494 5621.\nE-mail address: sureshg@ecn.purdue.edu (S.V. Garimella).\nInternational Journal of Multiphase Flow 36 (2010) 249-260\nContents lists available at ScienceDirect\nInternational Journal of Multiphase Flow\njournal homepage: www.elsevier.com/locate/ijmulflow\net al. (2003), and Kim et al. (2006) the bubbles have been relatively\nisolated from one another. This type of behavior is observed in less\nwetting fluids, fluids on smooth surfaces, or at low heat fluxes. In\nother studies, such as those of Abarajith et al. (2004) and Zhang\nand Shoji (2003), only groups of two to five interacting bubble\nsites, isolated from other sites on the surface by design, were observed or simulated for the sake of simplicity and to model the specific types of bubble interactions which might occur on the surface.\nBubble nucleation interactions may also occur due to thermal diffusion in a conductive substrate, as shown by Chekanov (1977) and\nSultan and Judd (1983), although these authors concluded opposite\neffects. Chekanov found that nucleation at neighboring sites were\nsuppressed by a dominant site, while Sultan and Judd showed that\nbubble nucleation at one site could produce a wave of high temperature that augmented nucleation at neighboring sites.\nSeveral previous studies have investigated the effect of surface\nroughness on pool boiling heat transfer. Recently, Kotthoff and\nGorenflo (2009) studied the effects of surface roughness and tube\ndiameter on nucleation site density and heat transfer coefficient\nin pool boiling of various refrigerants and organic liquids from copper tubes. They confirmed previous findings (Gorenflo et al., 2004)\nthat active site densities integrated over time are higher than those\napparent over only a few ebullition periods. Together with the surface analysis described by Luke (2009), they concluded that surface\nroughness descriptions based upon height parameters cannot be\nused to accurately predict the influence of surface roughness on\nboiling heat transfer. The works of Luke et al. (Luke et al., 2000;\nLuke, 2003, 2009) and an earlier study by Bier et al. (1979) calculated cavity sizes from profilometer scan data to predict potential\nnucleation site size distributions for their surfaces. These and similar studies have linked the surface roughness effect to nucleation\nsite density alone without considering bubble dynamics in detail.\nOther studies have shown that surface roughness may affect\nboth static and dynamic contact angles, and have linked this effect\nto various aspects of bubble nucleation and boiling heat transfer.\nThe early correlation of Fritz (1935), based on a static force balance, relates bubble departure diameter to be in direct proportion\nto the apparent contact angle. Cornwell (1982) produced a geometric argument for differing values of advancing and receding contact\nangles on rough surfaces. Tong et al. (1990) summarized the measured values of static contact angle reported in the literature for\nhighly wetting liquids on a variety of surfaces, and then explored\nthe effects of contact angle on boiling incipience. Hong et al.\n(1994) observed a decrease in static contact angles of water, refrigerants, and alcohols on metal surfaces of increasing roughness and/\nor degree of oxidation. Bernardin et al. (1997) summarized different definitions for contact angle and tabulated values of advancing\ncontact angle for water on metals with different surface preparation methods, showing the wide range of reported values.\nKandlikar and Steinke (2001) examined the effects of copper and\nstainless steel surface roughness on static, advancing, and receding\ncontact angles of water droplets. They found that values for all\nthree types of contact angle decreased with surface roughness for\nstainless steel, but first decreased, then increased with increasing\nsurface roughness for copper. Hibiki and Ishii (2003) correlated active nucleation site density with static contact angle, obtaining\nvery good agreement with their model for a wide variety of liquids\nand test conditions. Lorenz et al. (1974), and Qi and Klausner\n(2005) demonstrated geometric arguments showing that cavity\nsize and shape, static, and dynamic contact angle can affect the filling and/or vapor-trapping capabilities of nucleation sites. Hazi and\nMarkus (2009) showed through Lattice-Boltzmann simulations\nthat bubble departure frequency, but not the bubble departure\ndiameter, in pool boiling of a water-like fluid was greatly changed\nby varying the static contact angle parameter. Despite a large\namount of data in the literature on the subject, reasons for these\ncontact angle behaviors are still elusive, and a number of authors\n(Kandlikar and Steinke, 2002; Hibiki and Ishii, 2003) have recommended further study of surface roughness and fluid wetting\neffects.\nIn the present study, which expands on preliminary results pre-\nsented by McHale and Garimella (2008), one smooth surface and\none very rough surface producing a high active nucleation site density were included in the testing. In addition, the heat flux was varied over a wide range, approaching the critical heat flux. As a result,\nbubble interactions and mergers occurred frequently and randomly. The effects of surface roughness and wall superheat on\nthe bubble nucleation parameters are explored. Measurements of\nthe dynamic contact angle h for growing FC-77 bubbles on aluminum are also reported; to the authors' knowledge, such measurements have not been previously reported in the literature.\n2. Experimental setup\nA schematic diagram of the test setup, which was modified from\nthat used by Jones et al. (2009), is shown in Fig. 1. Each test piece\nconsisted of an aluminum block into which twelve 3.18-mm diameter cartridge heaters were inserted in a distribution (Fig. 1b) that\nensured a uniform heat flux at the top of the test surface. Six\n0.81-mm diameter thermocouples were positioned in the upper\nportion of the block, arranged in two horizontal rows separated\nby a 3.18-mm gap, so that the temperature of the surface Tw could\nbe obtained by extrapolation. Aluminum silicate insulation was\nFig. 1. (a) Schematic diagram of the experimental facility with relevant components indicated and (b) top view of the test block.\n250\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\nplaced around the heated portion of the block and was in turn surrounded by additional PEEK insulation (k 0.28 W/m K). The\npower input to the cartridge heaters was measured. A numerical\nmodel was used to estimate the heat loss from the block, which\nwas subtracted from the total power input to arrive at the heat flux\nq00\nw through the top surface.\nThe bottom of the test chamber was also made of PEEK, and the\ntest block was inserted into this base. The insertion gap (inset,\nFig. 1a) surrounding the 25.4-mm square test piece was filled with\na high-temperature RTV silicone caulk. The remaining trough was\nfilled with a low-viscosity epoxy. This procedure prevented leakage\nfrom the pool, while at the same time avoiding the formation of\nunwanted nucleation sites on the sides of the aluminum block;\nthe epoxy also prevented exposure of the Fluorinert fluid to\nextractable chemical species in the RTV.\nThe sides of the chamber were built from individual sheets of\npolycarbonate joined and leak-proofed at the corners. The back\nand side walls, which were not required to be transparent, were\nthen covered with additional silicone foam insulation to minimize\nheat losses from the chamber. The top and bottom of the chamber\nwere sealed with thin Teflon gaskets. The top wall of the chamber\nwas made from a fiber-epoxy composite, G-11. A heated aluminum plate maintained at the liquid saturation temperature was\nplaced on top of the G-11 sheet, effectively minimizing heat loss\nthrough the top wall of the chamber.\nInserted into the top wall were a fill port with a funnel and two\nPyrex Graham-type condensers cooled by water at approximately\n28 C from a chiller. In order to ensure the retention of all FC-77 vapor, the tops of the condensers vented to atmosphere through a\ncold vapor trap maintained at 0 C. The pool and chamber were\nthus maintained at atmospheric pressure, as verified with a pressure transducer.\nTwo immersion-type cartridge heaters were located in the low-\ner part of the pool to maintain the pool at saturation temperature\nTsat, a condition that was verified by thermocouples located at the\nbottom and in the middle of the pool. The saturation temperature\nof the fluid was determined by heating the pool until the temperature measured with the thermocouples reached a constant maximum value. The power input to the pool heaters was then\ndecreased to the minimum value necessary to maintain the pool\nat the saturation temperature. The experimentally measured saturation temperature for FC-77 was consistently between 100.1 and\n100.5 C. The saturation temperature of different batches of FC-77\nlies in the range of 97-101 C, according to the manufacturer (3 M).\nThe setup was operated for periods of up to 70 h continuously,\nwith the only loss of fluid occurring during filling and draining.\nTwo test pieces used earlier by (Jones et al., 2009) were chosen\nfor further study here: the smooth surface with an average roughness Ra value of 0.03 lm produced by mechanical polishing using\nprogressively finer grades of sandpaper, and the electrical discharge machined (EDM) surface with an Ra value of 5.89 lm.\nHigh-speed movies of boiling from the surface were recorded\nusing a Photron Fastcam Ultima APX grayscale digital camera at\n8000 frames per second, illuminated from the side by a light sheet\nfrom a green solid-state laser (532 nm wavelength). After the field\nwidth of the video frame was calibrated with the camera focused\non a scale located in front of the test surface, the camera was translated forward via a micrometer-driven stage until the front portion\nof the test piece was in focus. The focus and zoom of the lens re-\nmained constant to ensure an unchanged image width. A diagram\nillustrating the illumination and camera placement is given in\nFig. 2.\nResults of the heat transfer measurements for all five surfaces\ntested by Jones et al. (2009) with FC-77 as the boiling fluid are\nshown in Fig. 3 for reference. The critical heat flux (CHF) was\nreached in three of the trials, and is denoted by an . EDM-roughening of the surface to 1.0 lm Ra decreased the wall superheat,\nincreased the heat transfer coefficient, and increased CHF. Higher\nTranslating Stage\nPool Chamber\nTest\nPiece\nHigh-Speed CCD\nw/zoom lens\nNd:YAG laser\nScale\nFig. 2. Illumination and scale calibration scheme.\nWall Superheat, \u0394Tw [K]\nHeat Flux ,qw\u2032\u2032 [W/cm\n2]\n0\n10\n20\n30\n40\n0\n5\n10\n15\n20\nHeat Flux, qw\u2032\u2032 [W/cm\n2]\nHeat Transfer Coefficient, h [W/m\n2K]\n0\n5\n10\n15\n20\n0\n5000\n10000\n15000\nb\na\nFig. 3. Boiling curves for FC-77 on five surfaces of varying roughness: (a) heat flux\nversus wall superheat and (b) heat transfer coefficient versus heat flux, after (Jones\net al., 2009).\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\n251\nroughness values further decreased the wall superheat DTw and increased the heat transfer coefficient slightly.\n3. Qualitative observations\nStill images of boiling on the two surfaces are shown in Fig. 4 for\nfour heat fluxes. From the top row to the bottom row, the heat flux\nat the wall increases from approximately 2 W/cm2 up to 11 W/cm2.\nBubbles nucleate and grow while still attached to the test surface\n(located at the bottom of the frame), and then detach under the\ninfluence of buoyancy, quickly moving up out of the field of view.\nWhat may be termed the bubble interaction layer, i.e., a region of\ninteraction between bubbles attached to or only recently detached\nfrom the surface, is visible in the bottom quarter of the frame.\nSeveral differences are apparent in the nucleation behavior of\nbubbles on the polished and roughened surfaces (left and right\nset of panels, respectively in Fig. 4). First, far fewer active\nnucleation sites are observed for the polished surface at the lower\nheat fluxes, as shown in the upper left image of Fig. 4. Bubbles appear to be generally isolated from neighboring sites during much of\nthe growth period, and grow to a relatively large size before merging or detaching. Consecutive-pair bubbles occur when a single site\nspawns a bubble embryo which remains attached to the surface\nbut slides away from the cavity in the direction of induced bulk\nflow, while continuing to grow. Another bubble then originates\nfrom the same site, but grows quickly enough for its surface to\nintercept the larger sliding bubble. The small bubble attached to\nthe nucleation site is then removed in a merger with the first, larger bubble. Small growing embryos continue to be formed and\nswallowed by the first bubble until it moves far enough away to\npreclude any interaction with its originating site, contributing to\nan overall periodic nucleating behavior. Four consecutive bubbles\nsliding from the same nucleating site are shown while still attached to the polished surface in Fig. 5. In measurements, the\ndetachment is considered to occur when the first bubble actually\nFig. 4. Images obtained at 8000 frames per second depicting the effect of surface roughness and heat flux upon the nucleation behavior of vapor bubbles on a heated wall. The\nscale is shown below the photos.\n252\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\nbreaks off from the surface rather than when the final separation\nfrom the nucleating site is apparent.\nIn contrast to the polished surface behavior, no periodic behavior is exhibited with the roughened surface, shown in the second\ncolumn of Fig. 4. Bubbles are seldom isolated for much of the\ngrowth cycle, and the active site densities are considerably higher.\nA small embryo grows until it becomes large enough to interfere\nwith other growing or already released bubbles, at which point it\neither captures the other bubble or is removed from its site by\nthe other. Often, multiple mergers of this kind occur simultaneously, that is, within the time increment of a single frame\n(1.25 10 4 s). The types of mergers classified by Zhang and Shoji\n(2003) essentially described the mergers observed here: vertical\ncoalescence, horizontal coalescence, and ''declining\" coalescence.\nHowever, declining coalescence seems to dominate for higher heat\nfluxes, having the effect of keeping large bubbles in or near the\nbubble layer for an extended time following their departure from\nthe surface. Large bubbles appear to move slowly upward through\nthe bubble layer and are typically subject to several declining coalescence mergers before breaking into a free ascent.\nFor low to moderate fluxes, bubbles ascend in a mostly isolated\nfashion. For higher fluxes, e.g., the bottom row in Fig. 4, free bubbles in the bubble layer are pushed into the unsteady vapor/bubble\ncolumn that forms over the center of the test piece. The vapor column at high heat fluxes and the buoyancy-induced flow region for\nlow to moderate fluxes have a shape similar to an inverted stagnation flow over the whole surface.\nThe average number of nucleation sites involved in the production of a single large bubble rising into the central buoyant column\nappears to increase with heat flux. In the bottom two rows of Fig. 4,\nlarge bubbles may be seen in the bubble interaction layer, created\nby the mergers of many smaller bubbles nucleating at sites on the\nsurface. The central buoyant column to which these large bubbles\nare being drawn is located behind the field of view in focus. For\nsmaller fluxes, mergers are common between two bubbles originating from nucleation sites located within a few diameters\n(<1 mm) of each other. For higher fluxes, however, mergers occur\nbetween bubbles which nucleate from sites at a separation distance of nearly half the image frame, or up to 3 mm. And for the\nhighest flux, nearly all bubbles across the entire width of the\nheated surface appear to be drawn into a merger with the central\nvapor column. The main effect of the increased bubble size resulting from more associated nucleation sites is the enhancement of\nthe physical stripping of growing bubbles from the surface, whereupon liquid is pulled in, cooling the vacant site by advection of\nfluid that is at the saturation temperature, which is then evaporated into a new bubble.\n4. Measurement techniques\nFor many of the test conditions in this work, bubble nucleation\nparameters were not clearly measurable according to traditional\nconcepts of bubble ebullition, due to the much greater density of\nnucleation sites on the practical surfaces considered in this work.\nSpecific definitions are therefore provided for the bubble measurements presented. For example, the precise timing of bubble departure events was not readily apparent, as the growing embryos\noften moved from their nucleation sites while still being attached\nto the surface, either by merger with a larger neighboring bubble\nor by sliding due to a buoyancy-driven bulk flow. For some time\neven upon release from the surface, bubbles often continued to\ninteract with bubbles on the surface before breaking into a free ascent. The interactions appeared to occur randomly, and did not exhibit any patterns or periodicity to their behavior. As a result, it\nwas necessary to collect measurement data over several bubbles\nfor each test case and to report results averaged over many occurrences. Each quantity of interest is reported as an average of the\nvalues obtained for at least 25 bubbles per test case.\nFive consecutive bubbles from each of five individual nucleation\nsites identified on the surface in the images were tracked from initiation of growth to the time they disappeared from the image\nframe. The pixel locations on diametrical points of each bubble\nwere manually determined and logged through hundreds of frames\nof video, as depicted in Fig. 6. The apparent bubble centroid location in each frame was then calculated as the average of the diametrical x- and y-coordinates. In general, the bubble did not\nFig. 5. Four distinct bubbles originating from the same nucleation site still attached\nand sliding along the surface.\nFig. 6. Illustration of bubble measurement technique showing diametrical points logged (+) and the calculated centroid location ( ) of a bubble produced on the polished\nsurface at 2.06 W/cm2.\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\n253\nsignificantly change in position or shape in every consecutive\nframe; instead, the bubble measurements were made every few\nframes over which period a measurable change was observed.\nThe bubble diameter and x-y location of its centroid were thus\nknown as a function of time for each bubble.\nThe pixel resolution was 22.9 lm for the polished (0.03 lm Ra)\nsurface and 18.3 lm for the EDM-roughened (5.89 lm Ra) surface.\nThe y- and x-positions of the centroid and diameters D over time of\nfive bubbles originating from a single nucleation site on the polished surface at a heat flux of 2.06 W/cm2 are shown in Fig. 7\nthrough 9, respectively. In Fig. 7 the periodicity of the bubble\ngrowth and rise process is apparent for boiling on the polished surface at a low heat flux. In Fig. 8 it may be seen that bulk flow is\nresponsible for moving the bubbles horizontally following departure. Fig. 9 again illustrates the periodic nature of boiling for this\ntest condition and gives a sense for the magnitude of noise (up\nto \u00b110%) inherent in these two-point measurement data.\n4.1. Bubble departure frequency\nThe bubble departure frequency could be estimated by one of\ntwo methods: the difference in time between successive initiations\nof bubble growth at a single nucleation site, as suggested by Darby\n(1964), or the time elapsed between apparent departure events. A\ndeparture event was difficult to identify precisely for reasons described above, but could be approximated from the time history\nof the vertical position of the bubble centroid. A constant radial\ngrowth rate was assumed, which is a reasonable approximation\nfor much of the growth period according to Lord Rayleigh (1917),\nMikic et al. (1970), and others. For an attached bubble, the constant\nradial growth rate assumption results in a linear change in bubble\ncentroid position with time. Straight lines were fit to the growth\nportion and free ascent portions in the curve, as shown in Fig. 10,\nwhere the start of the time scale is arbitrary. The intersection of\nthe growth line with the x-axis is a good estimate of the initiation\npoint, while the intersection of the growth and free ascent lines is\nconsidered a good estimate of the point of departure.\nThe bubble shown in Fig. 10 was modeled as a body rising freely\nunder the action of buoyancy and drag forces to investigate the\nimportance of acceleration:\n\u20acy \u00fe 3\n4\nqlCD\nqvD _y2 1\u20444 \u00f0ql qv\u00deg\nqv\ny\u00f0t0\u00de 1\u20444 ycjt1\u20444t0\n_y\u00f0t0\u00de 1\u20444 _ycjt1\u20444t0\n\u00f01\u00de\nwhere y is the vertical position of the bubble centroid, t0 the time of\ndeparture, CD the drag coefficient of a spherical bubble, ql and qv are\ndensities of liquid and vapor phases, respectively, and g is acceleration due to gravity. CD values ranging from 0.14 to 1.22, from the\ncorrelations of Michaelides (2003) and Ishii and Zuber (1979),\nrespectively, were used in the analysis. The distance over which a\nfreely accelerating bubble would reach 99% of its terminal velocity\n(approximately 30-120 lm) was determined to be less than the\nexperimental noise (\u00b13 standard deviations or approximately\n200 lm) about the straight-line fit in Fig. 10. A third curve fit\nTime [s]\nVertical Position, yc [m]\n0\n0.05\n0.1\n0.15\n0.2\n0\n0.001\n0.002\n0.003\n0.004\n0.005\nFig. 7. Time history of the vertical position of five consecutive bubbles originating\nfrom a single active nucleation site on the polished surface at 2.06 W/cm2.\nTime [s]\nHorizontal Position, xc [m]\n0\n0.05\n0.1\n0.15\n0.2\n0\n0.001\n0.002\n0.003\n0.004\n0.005\n0.006\n0.007\nFig. 8. Time history of the horizontal position of five consecutive bubbles\noriginating from a single active nucleation site on the polished surface at\n2.06 W/cm2. Two of these bubbles are indicated by arrows in the inset photograph.\nTriangular symbols denote the initiation of bubble growth.\nTime [s]\nBubble Diameter, D [m]\n0\n0.05\n0.1\n0.15\n0.2\n0\n0.0002\n0.0004\n0.0006\n0.0008\n0.001\nFig. 9. Growth of five consecutive bubbles originating from a single active\nnucleation site on the polished surface at 2.06 W/cm2.\n254\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\nsegment incorporating acceleration effects was therefore considered unnecessary.\nDue to bubble interactions following the initiation of growth,\nbubble initiation frequency fi was found to have a much lower\nstandard deviation than apparent bubble departure frequency\nfd,app; thus it is assumed that fi is a higher-confidence estimate of\nthe true mean bubble departure frequency fd than is fd,app. The\nuncertainty in departure frequency is estimated to be up to 10%.\n4.2. Bubble departure diameter\nThe bubble departure diameter was calculated as an average of\ndiameter measurements within \u00b15 frames of the calculated departure time for each bubble. It can be seen in Fig. 9 that the diameter\nmeasurements obtained from the images can be subject to a considerable amount of scatter, representing a measurement uncertainty of up to 15%. The scatter is primarily due to the manual\nprocess of measuring oscillating non-spherical bubbles, especially\nin the case of large bubbles. The reported diameter measurements\nare based on best approximations of equivalent diameter in the\nplane of view.\nAt high heat fluxes, bubble coalescences or other interactions\ncaused extreme changes in measured diameters and trajectories\nover the course of a few measurement time steps. These changes\nobscured\nthe\ndefinitions\nof\nthe\nkey\ndescriptors,\n''departure\ndiameter\" and ''terminal velocity\". For some bubbles measured,\ntherefore, Dd and vb,term values could not be calculated.\nIn general, bubble departures were observed to occur when the\nbubble centroids were located approximately 1.35 Db/2 above the\nsurface, indicating the extent of oblong stretching of a bubble into\na balloon shape just prior to departure. This approximate value\nwas independent of heat flux and surface roughness for all test\ncases in the present study and was a useful estimator of the point\nof departure when straight lines could not be accurately fit to the\ngrowth and/or ascent phases of the bubble-rise trajectories.\n4.3. Active nucleation site density\nEach movie was also analyzed to determine the locations of the\nactive nucleation sites on the portion of the test piece which was in\nfocus. The instantaneous number of active sites NA,i captured by a\nstill frame was generally not as high as the total, cumulative number of sites NA,cum that were active at least once over several departure periods (Pinto et al., 1996; Gorenflo et al., 2004). Therefore five\nframes chosen arbitrarily, representing a time increment much\ngreater than one bubble departure period, were studied in detail\nusing the pixel-logging technique described earlier. The number\nof nucleation sites logged in each frame was averaged to determine\nthe instantaneous number of active nucleation sites. A set of all\nsites active in any of the five frames was compiled using a tolerance of \u00b13 pixels in the manual location of the cavity. The criterion,\nhowever, did not prevent sites within 3 pixels of each other from\nbeing retained if they were visible in the same frame.\nThe area of the surface included in the analysis was known from\nthe scale in the lateral and depth directions. The area density of active nucleation sites N00\nA was then calculated by dividing the\ncounted number of active sites NA by the calculated area A of the\nsurface in the image. The uncertainty in the measurement is estimated to be 20% for low heat fluxes and up to 40% for high heat\nfluxes where the field of view was frequently obstructed.\n4.4. Terminal velocity\nThe bubble terminal velocity vb,term was calculated from a\nstraight-line fit to the rise portion of the vertical position measurements. In the example illustrated in Fig. 10, the terminal velocity\nwas determined without further calculation from the slope of this\nline. Uncertainties associated with the fitting ranged from 2% for\nlow heat fluxes to as much as 50% for the highest heat flux due\nto coalescences or other changes in bubble trajectory.\n5. Results\nThe test matrix used in the experiments is given in Table 1. Input power to the test pieces was fixed for the four cases at 20 W,\n40 W, 60 W, and 80 W, respectively. The measurements therefore\ncorrespond to heat-flux controlled pool boiling. The reported heat\nfluxes in Table 1 are based on the heat input corrected for heat\nlosses. The difference in heat fluxes between the two test pieces\nis due primarily to differences in heat loss due to higher heat transfer coefficients and a higher thermal conductivity of the block\nmaterial of the EDM-roughened surface (230 versus 167 W/m K\nfor the polished surface) as described in Jones and Garimella\n(2007) and Jones et al. (2009).\nThe properties of FC-77 used in all the calculations are provided\nin Table 2. The values in Table 2 were obtained from data published\nby 3M Corporation (1986, 2000), with the exception of vapor density qv and dynamic contact angle h. The vapor density was\nunavailable in the literature and was therefore calculated according to the ideal-gas relation. The dynamic contact angle was measured directly from images of isolated bubbles forming on the\npolished surface in test case 1. The reported value of 0.854 radians\ntime [s]\nVertical Position [m]\n0\n0.01\n0.02\n0.03\n0.04\n0.05\n0.06\n0.07\n0\n0.001\n0.002\n0.003\n0.004\n0.005\nExperimental Data\nLine Fit\nLine Fit \u00b13\u03c3\nDeparture Point\nInitiation Point\nFig. 10. Illustration of the calculation procedure for bubble initiation and departure\ntimes, by analysis of the vertical position of the bubble over time (polished surface\nat 2.06 W/cm2).\nTable 1\nTest matrix.\nHeat flux,\nq00\nw (W/cm2)\nWall superheat,\nTw Tsat (K)\nSurface roughness,\nRa (lm)\n2.06\n16.6\n0.03\n5.04\n18.8\n0.03\n8.13\n20.9\n0.03\n11.05\n25.3\n0.03\n2.24\n6.0\n5.89\n5.23\n7.4\n5.89\n8.35\n8.5\n5.89\n11.34\n9.4\n5.89\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\n255\nwas the average of measurements of 20 different bubbles, with a\nstandard deviation of 0.076 radians. Twelve measurements of dynamic contact angle for the EDM-roughened surface were statistically indistinguishable from the polished-surface values.\nThe variation of Jakob number Ja, defined as (Tw Tsat)cp,lql/\nqvhlv, is shown in Fig. 11. A power-law fit is shown as dashed lines\nto assess the standard assumption of the dependence between heat\nflux and wall superheat. Since a precise relationship with either\nheat flux or wall superheat has not been shown for many of the\nnucleation quantities, this figure may be of use in interpreting\nthe figures that follow, which use Ja as the independent variable.\n5.1. Departure diameter\nThe average departure diameters for each case, shown in Fig. 12,\nwere compared to correlations for departure diameter given by\nFritz (1935), Ruckenstein (1961), Cole and Shulman (1966), Hatton\nand Hall (1966), Cole (1967), Cole and Rohsenow (1969), Kutateladze and Gogonin (1980), Borishanskiy et al. (1981), Jensen and\nMemmel (1986), and Lee et al. (2003). The experimentally measured departure diameters increased with heat flux and wall\nsuperheat for each surface. The standard deviations were on average 26% of the measured values; the distribution of departure\ndiameters is therefore wide. As may be seen in the figure, the effect\nof surface roughness on bubble departure diameter is not due to\nwall superheat alone. Although the correlations rightly predict an\nincrease in Dd with Ja, the experimental data do not suggest a single curve independent of roughness. The departure diameters for\nthe rough surface are smaller for a given heat flux, but are larger\nfor a given value of Ja, relative to the polished surface. The measured contact angle of 0.854 radians, which did not significantly\nchange for different surface and heat flux conditions, was used in\ncalculating results from several of the correlations. Of the correlations considered, only that of Hatton and Hall (1966) includes direct consideration of surface conditions. The effect of cavity size\nunder their analysis, however, is negligible for the FC-77 boiling\nsystem studied here since drag and inertial force terms dominate\nthe dynamic force balance for a low surface tension, wetting fluid.\nAlso, for a power-controlled surface, none of the available correlations are fully predictive, since the wall superheat inherent in Ja\nmust be obtained from the experimentally determined q-T boiling\ncurve.\n5.2. Departure frequency\nThe measured bubble departure frequencies are plotted with\nrespect to Ja in Fig. 13a. As for departure diameter, the experimental frequency data do not show a single relationship with wall\nsuperheat or with heat flux. Values of f for the polished surface\nare lower than for the roughened surface by as much as 47% for\na given heat flux, with less difference at higher heat fluxes. In\nFig. 13b, the measured bubble departure frequencies are plotted\nas their product with departure diameter (fDd) versus Ja. Fig. 13c\nsimilarly shows the product of the square root of frequency and\nthe diameter\nf\n1\n2Dd\n, as this quantity is used in the correlation of\nMikic and Rohsenow (1969a). These experimental results are compared to predictions from several correlations:\nJakob and Fritz (1931):\nfDd 1\u20444 0:078\n\u00f02\u00de\nPeebles and Garber (1953):\nTable 2\nProperties of FC-77 at saturation (3M Corporation, 1986, 2000) and other experimentally determined quantities.\nQuantity\nValue\nUnits\nTsat\n100.1-100.5\n( C)\nP\n101,325\n(Pa)\nql\n1592\n(kg/m3)\nqv\n14.7\n(kg/m3)\nll\n0.000442\n(kg/m s)\ncp,l\n1170\n(J/kg K)\nkl\n0.057\n(W/m K)\nal\n3.06 10 8\n(m2/s)\nhlv\n89,000\n(J/kg)\ng\n9.81\n(m/s2)\nh\n0.854\n(radians)\nr\n0.0057\n(N/m)\nPrl\n9.08\n-\nTcrit\n495\n(K)\nPcrit\n1.58 106\n(Pa)\nM\n416\n(kg/kmol)\nJa\n8.56-36.06\n-\nHeat Flux, qw\u2032\u2032 [W/cm\n2]\nJa\n0\n2\n4\n6\n8\n10\n12\n14\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n0.03 \u03bcm Ra surface\n5.89 \u03bcm Ra surface\nJa = 19.35 qw\u2032\u2032\n0.23\nJa = 6.80 qw\u2032\u2032\n0.27\nFig. 11. Variation of Jakob number with heat flux applied at the surface.\nJa\nDd [m]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n0.0005\n0.001\n0.0015\n0.002\n0.0025\n0.003\n0.0035\n0.004\nExperiment - polished\nExperiment - EDM\nFritz (1935)\nRuckenstein (1961)\nCole & Shulman (1966)\nHatton & Hall (1966)\nCole (1967)\nCole & Rohsenow (1969)\nKutateladze & Gogonin (1980)\nBorishanskiy, et al. (1981)\nJensen & Memmel (1986)\nLee, et al. (2003)\nFig. 12. Variation of bubble diameter at apparent departure with Ja for the two\nsurfaces. Experimental data are compared with predictions from selected correlations from the literature, based on the measured h of 0.854 radians.\n256\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\nfDd 1\u20444 1:18\ntg\ntg \u00fe tw\nrg\u00f0ql qv\u00de\nq2\nl\n0:25\n\u00f03\u00de\nand Mikic and Rohsenow (1969a):\nf\n1\n2Dd 1\u20444\n4\np\nJa\nffiffiffiffiffiffiffiffiffiffi\n3pal\np\ntg\ntg \u00fe tw\n1\n2\n\u00fe\n1 \u00fe\ntg\ntg \u00fe tw\n1\n2\n1\n\"\n#\n;\n\u00f04\u00de\nin which the ratio of the time period for bubble growth to the time\nperiod for a complete ebullition cycle is tg/(tg + tw), where tg is the\naverage time required for bubble growth at a test condition, measured in seconds, and tw is the average waiting period in seconds\nfor a test condition, i.e., the average time required for another embryo to appear at any specific site after a bubble release event. The\nwaiting periods tw ranged from 0 to 9 ms. None of the correlations\nmatch the trends found in the experimental data. Eq. (2) may account for the effects of surface roughness, heat flux, or wall super-\nheat on either Dd or f, but implies that an inverse relationship\nbetween ebullition frequency and departure diameter keeps the\nproduct of the two constant, regardless of other conditions. Eq. (3)\nincludes these quantities, but only insofar as they affect the ratio\nof growth period to bubbling period, while Eq. (4) also accounts\nfor wall superheat relation in terms of Ja. Eq. (2) was developed\nbased on experimental data from the pool boiling of water and liquid hydrogen, while Eqs. (3) and (4) were developed through theoretical arguments.\nNone of the departure frequency correlations seem applicable\nto the pool boiling of a Fluorinert and do not capture the trends\nseen in the experimental data, although the orders of magnitude\n(100 s 1) are comparable. In the present experiments, both bubble\ndeparture frequency and diameter were seen to increase with heat\nflux; this increase was much more pronounced for the polished\nsurface. It can be argued from Figs. 12 and 13 that the rough surface is generally more effective at evaporating fluid, producing\nhigher Dd and fDd for a given thermal potential, Ja.\n5.3. Nucleation site density\nThe active nucleation site densities are shown in Fig. 14, and are\ncompared with the predictions from Benjamin and Balakrishnan\n(1996) and Hibiki and Ishii (2003). The number of active sites increased with increasing wall superheat and with increasing surface\nJa\nf [s\n-1]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n50\n100\n150\n200\n250\n300\nExp. - polished\nExp. - EDM\nJa\nfDd [m/s]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n0.1\n0.2\n0.3\n0.4\nExp. - polished\nExp. - EDM\nJakob & Fritz (1931)\nPeebles & Garber (1953)\nJa\nf\n1\u20442Dd [m/s\n1\u20442]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n0.05\n0.1\n0.15\n0.2\n0.25\n0.3\n0.35\n0.4\n0.45\n0.5\nExp. - polished\nExp. - EDM\nMikic & Rohsenow (1969b)\nc\na\nb\nFig. 13. Measured bubble departure (a) frequency, (b) frequency-diameter product, and (c) root-frequency-diameter product, compared with some commonly used\ncorrelations.\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\n257\nroughness. The instantaneously active nucleation site densities\nwere on average 52.1% and 63.8% of the cumulative active site densities (as discussed in Section 4.3) for the polished and roughened\nsurfaces, respectively. The percent difference in measured cumulative active nucleation site densities between the two surfaces varied from 77.1% for the lowest heat flux to less than 3% for the\nhighest. The polished surface exhibited a full order-of-magnitude\nincrease in active site density from the lowest heat flux to the high-\nest, while the roughened surface exhibited only half this increase.\nBy comparing Figs. 3 and 14, it may be seen that the relatively shallow slope of the boiling curve for the polished surface in Fig. 3 coincides with a wide range of Ja in Fig. 14. The difference in the boiling\ncurves in Fig. 3 may be partly explained by a wider range of (and\ngenerally higher) superheats necessary to sustain active nucleating\ncavities on the polished surface according to Hsu's (1962) criterion.\nAt low heat fluxes, the bubble departure diameters for the two surfaces are similar, as shown in Sections 5.1 and 5.2, despite very different active site densities. At high heat fluxes, however, the active\nsite densities and ebullition frequencies for the two surfaces are\nsimilar, but the bubble departure diameters are significantly larger\nfor the polished surface. It is difficult to determine from these data\nwhether differences in bubble departure diameters and frequencies for the two surfaces are also causes for differences in the\nboiling curve, or whether they are merely related effects, or indeed,\nwhether any simple relationship could even be deduced.\nThe correlation of Hibiki and Ishii (2003) is semi-empirical, having been fit to a wide array of experimental nucleation site density\ndata for boiling from primarily smooth surfaces. They assumed\nthat nucleating cavity number and size distributions would be\nstatistically similar for most boiling systems, accounting for\nsurface characteristics by including a static contact angle term.\nThe predictions plotted in Fig. 14 are for static contact angles of\n0.1 and 0 radians for FC-77 on the polished and roughened surfaces, respectively. These values are merely estimates based on\nthe wetting behavior of FC-77 on the aluminum surfaces, since static contact angles could not be determined from the high-speed\nmovies. Overall, agreement between the Hibiki-Ishii correlation\nand the experiments is reasonable if suitable values of h are used.\nThe correlation using the estimated values of static contact angle\nslightly overpredicts the measured values.\nThe correlation of Benjamin and Balakrishnan (1996) implies an\ninverse relationship between Ra and N00\nA for systems in which the\nparameter RaP/r is greater than approximately six. Since it is generally agreed that increased roughness leads to an increase in number of nucleating cavities on the surface, the EDM-roughened\nsurface (RaP/r > 100) is well outside the scope of their correlation.\nAgreement with the present experimental data for the polished\nsurface is as good as the Hibiki-Ishii correlation, but the measurements are underpredicted.\n5.4. Terminal rise velocity\nThe terminal velocities of the rising bubbles are shown in\nFig. 15 in nondimensional form as Reynolds numbers, and are compared with the theoretical terminal Reynolds numbers for spherical vapor bubbles rising in a bubbly liquid mixture, under a\nbalance of buoyancy and drag forces. The theoretical terminal\nJa\nNA\u2032\u2032 [m\n-2]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n1\u00d710\n2\n1\u00d710\n3\n1\u00d710\n4\n1\u00d710\n5\n1\u00d710\n6\n1\u00d710\n7\n1\u00d710\n8\n1\u00d710\n9\n1\u00d710\n10\nPolished, cumulative\nPolished, instantaneous\nEDM, cumulative\nEDM, instantaneous\nBenjamin & Balakrishnan (1996)\nHibiki & Ishii (2003)\nFig. 14. Active nucleation site densities for the polished and rough surfaces as a\nfunction of Jakob number. Instantaneous active site density is shown with open\nsymbols and dotted connectors, while cumulative active site density is shown with\nfilled symbols and solid connectors.\nDb [m]\nReb,term\n0\n0.0005\n0.001\n0.0015\n0.002\n0.0025\n0.003\n0.0035\n0\n200\n400\n600\n800\n1000\n1200\n1400\n1600\nPolished, 2 W/cm\n2\nPolished, 5 W/cm\n2\nPolished, 8 W/cm\n2\nPolished, 11 W/cm\n2\nDb [m]\nReb,term\n0\n0.0002 0.0004 0.0006 0.0008\n0.001\n0.0012 0.0014 0.0016\n0\n100\n200\n300\n400\n500\n600\nEDM, 2 W/cm\n2\nEDM, 5 W/cm\n2\nEDM, 8 W/cm\n2\nEDM, 11 W/cm\n2\nb\na\nFig. 15. Variation of bubble terminal rise Reynolds number (Reb,term) with bubble\ndiameter (Db). Experimental data for (a) the polished test surface and (b) the EDM-\nroughened surface are plotted along with theoretical predictions from Eq. (5)\nthrough (7).\n258\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\nvelocity is based upon the measured bubble diameter at departure\naccording to:\nvf 1\u20444 _yf 1\u20444\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\n4\n3\ngDd\nCD\nql qv\nql\ns\n:\n\u00f05\u00de\nThe theoretical drag coefficients may be evaluated with reasonable\nagreement according to the viscous drag correlation (Ishii and Zuber, 1979):\nCD 1\u20444 24\nRe \u00f01 \u00fe 0:1Re0:75\u00de;\n\u00f06\u00de\nwhere the Reynolds number is the mixture-viscosity corrected value, with mixture viscosity lmix obtained by the expression:\nlmix\nll\n1\u20444\n1 av\nav;max\n2:5av;max\u00f0lv \u00fe0:4ll\u00de=\u00f0lv\u00fell\u00de\n:\n\u00f07\u00de\nA number of additional terms are introduced in Eq. (7) and require\nfurther explanation. Void fraction, av, may attain a maximum value,\nav,max, of 1. The void fraction was not measured directly, but was\nestimated to first order as the ratio of the evaporative component\nof heat flux to the evaporative component of the maximum heat\nflux. The evaporative component itself was estimated as the total\nheat flux minus the natural convection heat flux predicted for each\nwall superheat temperature. The resulting void fraction values were\nconsistent with those measured for water at low, medium and high\nheat fluxes by Iida and Kobayasi (1969). The vapor viscosity for FC-\n77 is not available in the literature, but it is a reasonable assumption for most gases at atmospheric pressure to use the estimate\nlv 2 10 5 kg/m s.\nIn Table 3, the mean absolute error (MAE) of the Ishii-Zuber\n(1979) correlation with respect to the experimental data is given\nalong with the number of experimental values included in the\ncomparison. The observed bubble mixture Reynolds numbers ranged between 15 and 1250. The good agreement (less than 50%\nMAE) shows that the assumption of a quiescent pool is reasonable\nand that the frequent bubble interactions do not prevent the conventional two-phase drag model from being used in an averaged\nsense, even for rather high heat fluxes. It is worth noting that\nslightly better agreement could be obtained for high heat fluxes\nusing the Newton's regime drag model proposed in (Ishii and Zuber, 1979). This model, however, is not applicable for smaller\nbubbles.\n6. Conclusions\nImportant bubble nucleation parameters during the pool boiling of FC-77 on smooth and rough surfaces are experimentally\ninvestigated. The pool boiling observed was characterized by high\nbubble densities and numerous interactions between bubbles. The\ncharacteristics of bubble nucleation from the two surfaces at various heat fluxes were compared qualitatively. Measurements were\nobtained from high-speed movies for 25 individual bubbles per\ntest case, comprised of five consecutive bubbles from each of five\nnucleation sites on the surface.\nBubble diameter at departure was shown to increase with\nincreasing wall superheat, but the surface roughness was also\nshown to have an influence. Bubble departure frequency, which\nin general also increased with heat flux, was not well predicted\nby any of the correlations considered from the literature. Active\nnucleation site density was shown to increase with both wall\nsuperheat and surface roughness. Active site density was reasonably well predicted for both the polished and roughened surfaces\nby the Hibiki-Ishii (2003) correlation. Terminal rise velocity increased with increasing heat flux due to the increased buoyancy\nfrom larger bubble volumes; average pool boiling bubble velocities\nwere shown to be well predicted by the Ishii-Zuber (1979) mixture-viscosity based correlation for viscous drag.\nIt is suggested that new bubble nucleation correlations be\ndeveloped which incorporate the important effect of surface\nroughness, so that recent developments in mechanistic modeling\ncan be applied for a broad range of boiling surfaces.\nAcknowledgments\nFinancial support for this work is provided by the Indiana 21st\nCentury Research and Technology Fund and the Cooling Technologies Research Center, a National Science Foundation Industry/University Cooperative Research Center at Purdue University. The\nauthors acknowledge the technical insights and suggestions provided by Benjamin Jones, and thank 3 M Corporation (in particular,\nPhil Tuma) for providing fluid samples and related information.\nReferences\n3M Corporation, 1986. Fluorinert liquids product manual. 3M Corporation.\n3M Corporation, 2000. Fluorinert electronic liquid FC-77 product information. 3M\nCorporation, Document 98-0212-2309-8 (HB).\nAbarajith, H.S., Dhir, V.K., Warrier, G., Son, G., 2004. Numerical simulation and\nexperimental validation of the dynamics of multiple bubble merger during pool\nboiling under microgravity conditions. Transport Phenomena in Microgravity\n1027, 235-258.\nBenjamin, R., Balakrishnan, A., 1996. Nucleate pool boiling heat transfer of pure\nliquids at low to moderate heat fluxes. International Journal of Heat and Mass\nTransfer 39, 2495-2504.\nBernardin, J.D., Mudawar, I., Walsh, C.B., Franses, E.I., 1997. Contact angle\ntemperature dependence for water droplets on practical aluminum surfaces.\nInternational Journal of Heat and Mass Transfer 40, 1017-1033.\nBier, K., Gorenflo, D., Salem, M., Tanes, Y., 1979. Effect of pressure and surface\nroughness on pool boiling of refrigerants. International Journal of Refrigeration\n2, 211-219.\nBorishanskiy, V., Danilova, G., Gotovskiy, M., Borishanskiy, A., Danilova, G.,\nKupriyanova, A., 1981. Correlation of data on heat transfer in and elementary\ncharacteristics of the nucleate boiling mechanism. Heat Transfer - Soviet\nResearch 13, 100-116.\nChekanov, V., 1977. Interaction of centers during nucleate boiling. Teplofizika\nVysokikh Temperature 15, 121-128.\nTable 3\nMean absolute error (MAE) of Ishii-Zuber viscous drag correlation (Ishii and Zuber, 1979) with respect to experimental bubble terminal Reynolds numbers.\nTest case (W/cm2)\nNumber of points\nMAE (%)a\nNotes\nPolished, 2\n26\n14.5\nSlightly underpredicted Reb,term\nPolished, 5\n25\n36.5\nOverpredicted Reb,term\nPolished, 8\n25\n45.3\nOverpredicted Reb,term\nPolished, 11\n24\n47.8\nOverpredicted Reb,term; error not Gaussian\nEDM, 2\n26\n30.0\nUnderpredicted Reb,term\nEDM, 5\n25\n27.3\nSlightly underpredicted Reb,term\nEDM, 8\n21\n29.7\nSlightly overpredicted Reb,term\nEDM, 11\n12\n25.2\nUnderpredicted Reb,term; frequent coalescences obscured velocity meas\na MAE is defined as the sum of the absolute deviations of the correlation with respect to the experimentally measured values, divided by the sum of the experimentally\nmeasured values.\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260\n259\nCole, R., 1967. Frequency and departure diameter at sub-atmospheric pressures.\nAmerican Institute of Chemical Engineers Journal 13, 779-783.\nCole, R., Rohsenow, W., 1969. Correlation of bubble departure diameters for boiling\nof saturated liquids. Chemical Engineering Progress Symposium Series 65, 211-\n213.\nCole, R., Shulman, H.L., 1966. Bubble departure diameters at subatmospheric\npressures. Chemical Engineering Progress 62, 6-16.\nCornwell,\nK.,\n1982.\nOn\nboiling\nincipience\ndue\nto\ncontact-angle\nhysteresis.\nInternational Journal of Heat and Mass Transfer 25, 205-211.\nDarby, R., 1964. The dynamics of vapour bubbles in nucleate boiling. Chemical\nEngineering Science 19, 39-49.\nForster, H., Greif, R., 1959. Heat transfer to a boiling liquid: mechanism and\ncorrelations. Journal of Heat Transfer 81, 43-53.\nForster, H.K., Zuber, N., 1955. Dynamics of vapor bubbles and boiling heat transfer.\nAmerican Institute of Chemical Engineers Journal 1, 531-535.\nFritz, W., 1935. Berechnung des maximalvolume von dampfblasen. Physikalische\nZeitschrift 36, 379-388.\nGorenflo, D., Danger, E., Luke, A., Kotthoff, S., Chandra, U., Ranganayakulu, C., 2004.\nBubble formation with pool boiling on tubes with or without basic surface\nmodifications for enhancement. International Journal of Heat and Fluid Flow 25,\n288-297.\nHan, C., Griffith, P., 1965. The mechanism of heat transfer in nucleate boiling. Parts I\nand II. International Journal of Heat and Mass Transfer 8, 887-914.\nHatton, A., Hall, I., 1966. Photographic study of boiling on prepared surfaces. In:\nProceedings of 3rd International Heat Transfer Conference, vol. 4. pp. 24-37.\nHazi, G., Markus, A., 2009. On the bubble departure diameter and release frequency\nbased on numerical simulation results. International Journal of Heat and Mass\nTransfer 52, 1472-1480.\nHendricks, R., Sharp, R., 1964. Initiation of cooling due to bubble growth on a\nheating surface. National Aeronautics and Space Administration Lewis Research\nCenter, TN D-2290, report no. TN D-2290.\nHibiki, T., Ishii, M., 2003. Active nucleation site density in boiling systems.\nInternational Journal of Heat and Mass Transfer 46, 2587-2601.\nHong, K.T., Imadojemu, H., Webb, R.L., 1994. Effects of oxidation and surface\nroughness on contact angle. Experimental Thermal and Fluid Science 8, 279-\n285.\nHsu, Y.Y., 1962. On the size range of active nucleation cavities in a heating surface.\nJournal of Heat Transfer 84, 207-216.\nHsu, Y., Graham, R.W., 1961. An analytical and experimental study of the thermal\nboundary layer and ebullition cycle in nucleate boiling. National Aeronautics\nand Space Administration Lewis Research Center, NASA-TN-D-594, report no.\nNASA-TN-D-594.\nIida, Y., Kobayasi, K., 1969. Distributions of void fraction above a horizontal heating\nsurface in pool boiling. Bulletin of JSME 12, 283-290.\nIshii, M., Zuber, N., 1979. Drag coefficient and relative velocity in bubbly, droplet or\nparticulate flows. AIChE Journal 25, 843-855.\nJakob, M., Fritz, W., 1931. Versuche \u00fcber den verdampfungsvorgang. Forschung auf\ndem Gebiete des Ingenieurwesens 2, 435-447.\nJensen, M.K., Memmel, G.J., 1986. Evaluation of bubble departure diameter\ncorrelations.\nIn:\nProceedings\nof\nthe\nEighth\nInternational\nHeat\nTransfer\nConference, vol. 4. pp. 1907-1912.\nJones, B.J., Garimella, S.V., 2007. Effects of surface roughness on the pool boiling of\nwater. In: 2007 Proceedings of the 5th Joint ASME/JSME Fluids Engineering\nConference, paper no. HT 2007-32230.\nJones, B.J., McHale, J.P., Garimella, S.V., 2009. The influence of surface roughness on\nnucleate pool boiling hea transfer. Journal of Heat Transfer 131, 121009.\ndoi:10.1115/1.3220144.\nJudd, R., Hwang, K., 1976. A comprehensive model for nucleate pool boiling heat\ntransfer including microlayer evaporation. Journal of Heat Transfer 98, 623-\n629.\nKandlikar, S.G., Steinke, M.E., 2001. Contact angles of droplets during spread and\nrecoil after impinging on a heated surface. Chemical Engineering Research and\nDesign 79, 491-498.\nKandlikar, S.G., Steinke, M.E., 2002. Contact angles and interface behavior during\nrapid evaporation of liquid on a heated surface. International Journal of Heat\nand Mass Transfer 45, 3771-3780.\nKim, J., Oh, B.D., Kim, M.H., 2006. Experimental study of pool temperature effects on\nnucleate pool boiling. International Journal of Multiphase Flow 32, 208-231.\nKolev, N.I., 1995. How accurately can we predict nucleate boiling? Experimental\nThermal and Fluid Science 10, 370-378.\nKotthoff, S., Gorenflo, D., 2009. H e a t transfer and bubble formation on horizontal\ncopper tubes with different diameters and roughness structures. Heat and Mass\nTransfer 45, 893-908.\nKutateladze, S., Gogonin, I., 1980. Growth rate and detachment diameter of a vapor\nbubble in free convection boiling of a saturated liquid. High Temperature 17,\n667-671.\nLee, H.C., Oh, B.D., Bae, S.W., Kim, M.H., 2003. Single bubble growth in saturated\npool boiling on a constant wall temperature surface. International Journal of\nMultiphase Flow 29, 1857-1874.\nLord Rayleigh, 1917. On the pressure developed in a liquid during the collapse of a\nspherical bubble. Philosophical Magazine 34, 94-98.\nLorenz, J.J., Mikic, B.B., Robsenow, W.M., 1974. Effect of surface conditions on boiling\ncharacteristics. In: Proceedings of 5th International Heat Transfer Conference,\nvol. 4. Hemisphere, New York, pp. 35-39.\nLuke, A., 2003. Thermo- and fluid dynamic in boiling - connection between surface\nroughness, bubble formation and heat transfer. In: Proceedings of 5th\ninternational conference on boiling heat transfer, 20030504-08.\nLuke, A., 2009. Preparation and analysis of different roughness structures for\nevaporator tubes. Heat and Mass Transfer 45, 909-917.\nLuke, A., Baumhogger, E., Scheunemann, P., 2000. 3-dimensional description of the\nmicrostructure of heated surfaces in nucleate pool boiling. Multiphase Science\n& Technology 12, 136-151.\nMcHale,\nJ.P.,\nGarimella,\nS.V.,\n2008.\nMeasurements\nof\nbubble\nnucleation\ncharacteristics in pool boiling of a wetting liquid on smooth and roughened\nsurfaces. In: Proceedings of 2008 ASME Summer Heat Transfer Conference,\npaper no. HT 2008-56179.\nMichaelides, E., 2003. Hydrodynamic force and heat/mass transfer from particles,\nbubbles, and drops - the freeman scholar lecture. Journal of Fluids Engineering\n125, 209-238.\nMikic,\nB.B.,\nRohsenow,\nW.M.,\n1969a.\nBubble\ngrowth\nrates\nin\nnon-uniform\ntemperature field. Progress in Heat and Mass Transfer 2, 283-293.\nMikic, B.B., Rohsenow, W.M., 1969b. A new correlation of pool-boiling data\nincluding the effect of heating surface characteristics. Journal of Heat Transfer\n91, 245-250.\nMikic,\nB.B.,\nRohsenow,\nW.M.,\nGriffith,\nP.,\n1970.\nOn\nbubble\ngrowth\nrates.\nInternational Journal of Heat and Mass Transfer 13, 657-666.\nMoghaddam, S., Kiger, K., 2009. Physical mechanisms of heat transfer during single\nbubble nucleate boiling of FC-72 under saturation conditions. II: theoretical\nanalysis. International Journal of Heat and Mass Transfer 52, 1295-1303.\nPeebles, F.N., Garber, H.J., 1953. Studies on motion of gas bubbles in liquids.\nChemical Engineering Progress 49, 88-97.\nPinto, A.D., Gorenflo, D., Kunstler, W., 1996. Heat transfer and bubble formation\nwith pool boiling of propane at a horizontal copper tube. In: Proceedings of 2nd\nEuropean Thermal Science and 14th UIT National Heat Transfer Conference, vol.\n2. pp. 1653-1660.\nQi, Y., Klausner, J.F., 2005. Heterogeneous nucleation with artificial cavities. Journal\nof Heat Transfer 127, 1189-1196.\nRohsenow, W.M., 1952. A method of correlating heat transfer data for surface\nboiling of liquids. Transactions of the ASME 74, 969-976.\nRuckenstein, E., 1961. A physical model for nucleate boiling heat transfer from a\nhorizontal surface. Buletinul Institutului Politehnic Bucuresti (Romania) 23, 79-\n88.\nSultan, M., Judd, R., 1983. Interaction of the nucleation phenomena at adjacent sites\nin nucleate boiling. Journal of Heat Transfer 105, 3-9.\nTien, C.L., 1962. A hydrodynamic model for nucleate pool boiling. International\nJournal of Heat and Mass Transfer 5, 533-540.\nTong, W., Bar-Cohen, A., Simon, T.W., You, S.M., 1990. Contact angle effects on\nboiling incipience of highly-wetting liquids. International Journal of Heat and\nMass Transfer 33, 91-103.\nVan Stralen, S., 1970. The boiling paradox in binary liquid mixtures. Chemical\nEngineering Science 25, 149-171.\nWang, C.H., Dhir, V.K., 1993a. Effect of surface wettability on active nucleation site\ndensity during pool boiling of saturated water. Journal of Heat Transfer 115,\n659-669.\nWang, C.H., Dhir, V.K., 1993b. On the gas entrapment and nucleation site density\nduring pool boiling of saturated water. Journal of Heat Transfer 115, 670-679.\nZhang, L., Shoji, M., 2003. Nucleation site interaction in pool boiling on the artificial\nsurface. International Journal of Heat and Mass Transfer 46, 513-522.\nZuber, N., 1963. Nucleate boiling-the region of isolated bubbles-similarity with\nnatural convection. International Journal of Heat and Mass Transfer 6, 53-65.\n260\nJ.P. McHale, S.V. Garimella / International Journal of Multiphase Flow 36 (2010) 249-260",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5133
+    },
+    {
+      "number": 2,
+      "start": 5133,
+      "end": 11201
+    },
+    {
+      "number": 3,
+      "start": 11201,
+      "end": 15970
+    },
+    {
+      "number": 4,
+      "start": 15970,
+      "end": 18368
+    },
+    {
+      "number": 5,
+      "start": 18368,
+      "end": 23414
+    },
+    {
+      "number": 6,
+      "start": 23414,
+      "end": 27486
+    },
+    {
+      "number": 7,
+      "start": 27486,
+      "end": 33286
+    },
+    {
+      "number": 8,
+      "start": 33286,
+      "end": 37955
+    },
+    {
+      "number": 9,
+      "start": 37955,
+      "end": 40779
+    },
+    {
+      "number": 10,
+      "start": 40779,
+      "end": 45495
+    },
+    {
+      "number": 11,
+      "start": 45495,
+      "end": 52057
+    },
+    {
+      "number": 12,
+      "start": 52057,
+      "end": 61171
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-john-p-mchale-suresh-v-garimella",
+      "number": null,
+      "title": "John P. McHale, Suresh V. Garimella *",
+      "level": 1,
+      "start": 98,
+      "end": 3793
+    },
+    {
+      "id": "sec-1-in-some-instances-the-bubble-terminal-ri",
+      "number": null,
+      "title": "In some instances, the bubble terminal rise velocity vb,term has",
+      "level": 1,
+      "start": 3793,
+      "end": 5040
+    },
+    {
+      "id": "sec-2-international-journal-of-multiphase-flow",
+      "number": null,
+      "title": "International Journal of Multiphase Flow",
+      "level": 1,
+      "start": 5040,
+      "end": 15375
+    },
+    {
+      "id": "sec-3-translating-stage",
+      "number": null,
+      "title": "Translating Stage",
+      "level": 2,
+      "start": 15375,
+      "end": 15393
+    },
+    {
+      "id": "sec-4-pool-chamber",
+      "number": null,
+      "title": "Pool Chamber",
+      "level": 2,
+      "start": 15393,
+      "end": 15406
+    },
+    {
+      "id": "sec-5-test",
+      "number": null,
+      "title": "Test",
+      "level": 2,
+      "start": 15406,
+      "end": 15411
+    },
+    {
+      "id": "sec-6-piece",
+      "number": null,
+      "title": "Piece",
+      "level": 2,
+      "start": 15411,
+      "end": 15417
+    },
+    {
+      "id": "sec-7-high-speed-ccd",
+      "number": null,
+      "title": "High-Speed CCD",
+      "level": 2,
+      "start": 15417,
+      "end": 15444
+    },
+    {
+      "id": "sec-8-nd-yag-laser",
+      "number": null,
+      "title": "Nd:YAG laser",
+      "level": 2,
+      "start": 15444,
+      "end": 15457
+    },
+    {
+      "id": "sec-9-scale",
+      "number": null,
+      "title": "Scale",
+      "level": 2,
+      "start": 15457,
+      "end": 15514
+    },
+    {
+      "id": "sec-10-wall-superheat-tw-k",
+      "number": null,
+      "title": "Wall Superheat, \u0394Tw [K]",
+      "level": 2,
+      "start": 15514,
+      "end": 15538
+    },
+    {
+      "id": "sec-11-heat-flux-qw-w-cm",
+      "number": null,
+      "title": "Heat Flux ,qw\u2033 [W/cm",
+      "level": 2,
+      "start": 15538,
+      "end": 15590
+    },
+    {
+      "id": "sec-12-heat-flux-qw-w-cm",
+      "number": null,
+      "title": "Heat Flux, qw\u2033 [W/cm",
+      "level": 2,
+      "start": 15590,
+      "end": 15615
+    },
+    {
+      "id": "sec-13-heat-transfer-coefficient-h-w-m",
+      "number": null,
+      "title": "Heat Transfer Coefficient, h [W/m",
+      "level": 2,
+      "start": 15615,
+      "end": 26531
+    },
+    {
+      "id": "sec-14-time-s",
+      "number": null,
+      "title": "Time [s]",
+      "level": 2,
+      "start": 26531,
+      "end": 26540
+    },
+    {
+      "id": "sec-15-vertical-position-yc-m",
+      "number": null,
+      "title": "Vertical Position, yc [m]",
+      "level": 2,
+      "start": 26540,
+      "end": 26780
+    },
+    {
+      "id": "sec-16-time-s",
+      "number": null,
+      "title": "Time [s]",
+      "level": 2,
+      "start": 26780,
+      "end": 26789
+    },
+    {
+      "id": "sec-17-horizontal-position-xc-m",
+      "number": null,
+      "title": "Horizontal Position, xc [m]",
+      "level": 2,
+      "start": 26789,
+      "end": 27174
+    },
+    {
+      "id": "sec-18-time-s",
+      "number": null,
+      "title": "Time [s]",
+      "level": 2,
+      "start": 27174,
+      "end": 27183
+    },
+    {
+      "id": "sec-19-bubble-diameter-d-m",
+      "number": null,
+      "title": "Bubble Diameter, D [m]",
+      "level": 2,
+      "start": 27183,
+      "end": 30958
+    },
+    {
+      "id": "sec-20-the-bubble-terminal-velocity-vb-term-was",
+      "number": null,
+      "title": "The bubble terminal velocity vb,term was calculated from a",
+      "level": 1,
+      "start": 30958,
+      "end": 31548
+    },
+    {
+      "id": "sec-40",
+      "number": "40",
+      "title": "W, 60 W, and 80 W, respectively. The measurements therefore",
+      "level": 2,
+      "start": 31548,
+      "end": 32621
+    },
+    {
+      "id": "sec-22-vertical-position-m",
+      "number": null,
+      "title": "Vertical Position [m]",
+      "level": 2,
+      "start": 32621,
+      "end": 32712
+    },
+    {
+      "id": "sec-23-experimental-data",
+      "number": null,
+      "title": "Experimental Data",
+      "level": 2,
+      "start": 32712,
+      "end": 32730
+    },
+    {
+      "id": "sec-24-line-fit",
+      "number": null,
+      "title": "Line Fit",
+      "level": 2,
+      "start": 32730,
+      "end": 32739
+    },
+    {
+      "id": "sec-25-line-fit-3",
+      "number": null,
+      "title": "Line Fit \u00b13\u03c3",
+      "level": 2,
+      "start": 32739,
+      "end": 32752
+    },
+    {
+      "id": "sec-26-departure-point",
+      "number": null,
+      "title": "Departure Point",
+      "level": 2,
+      "start": 32752,
+      "end": 32768
+    },
+    {
+      "id": "sec-27-initiation-point",
+      "number": null,
+      "title": "Initiation Point",
+      "level": 2,
+      "start": 32768,
+      "end": 37066
+    },
+    {
+      "id": "sec-28-heat-flux-qw-w-cm",
+      "number": null,
+      "title": "Heat Flux, qw\u2033 [W/cm",
+      "level": 2,
+      "start": 37066,
+      "end": 37091
+    },
+    {
+      "id": "sec-29-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 37091,
+      "end": 37182
+    },
+    {
+      "id": "sec-30-ja-19-35-qw",
+      "number": null,
+      "title": "Ja = 19.35 qw\u2033",
+      "level": 2,
+      "start": 37182,
+      "end": 37203
+    },
+    {
+      "id": "sec-31-ja-6-80-qw",
+      "number": null,
+      "title": "Ja = 6.80 qw\u2033",
+      "level": 2,
+      "start": 37203,
+      "end": 37297
+    },
+    {
+      "id": "sec-32-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 37297,
+      "end": 37300
+    },
+    {
+      "id": "sec-33-dd-m",
+      "number": null,
+      "title": "Dd [m]",
+      "level": 2,
+      "start": 37300,
+      "end": 37386
+    },
+    {
+      "id": "sec-34-experiment-polished",
+      "number": null,
+      "title": "Experiment - polished",
+      "level": 2,
+      "start": 37386,
+      "end": 37408
+    },
+    {
+      "id": "sec-35-experiment-edm",
+      "number": null,
+      "title": "Experiment - EDM",
+      "level": 2,
+      "start": 37408,
+      "end": 37425
+    },
+    {
+      "id": "sec-36-fritz-1935",
+      "number": null,
+      "title": "Fritz (1935)",
+      "level": 2,
+      "start": 37425,
+      "end": 37438
+    },
+    {
+      "id": "sec-37-ruckenstein-1961",
+      "number": null,
+      "title": "Ruckenstein (1961)",
+      "level": 2,
+      "start": 37438,
+      "end": 37457
+    },
+    {
+      "id": "sec-38-cole-shulman-1966",
+      "number": null,
+      "title": "Cole & Shulman (1966)",
+      "level": 2,
+      "start": 37457,
+      "end": 37479
+    },
+    {
+      "id": "sec-39-hatton-hall-1966",
+      "number": null,
+      "title": "Hatton & Hall (1966)",
+      "level": 2,
+      "start": 37479,
+      "end": 37500
+    },
+    {
+      "id": "sec-40-cole-1967",
+      "number": null,
+      "title": "Cole (1967)",
+      "level": 2,
+      "start": 37500,
+      "end": 37512
+    },
+    {
+      "id": "sec-41-cole-rohsenow-1969",
+      "number": null,
+      "title": "Cole & Rohsenow (1969)",
+      "level": 2,
+      "start": 37512,
+      "end": 37535
+    },
+    {
+      "id": "sec-42-kutateladze-gogonin-1980",
+      "number": null,
+      "title": "Kutateladze & Gogonin (1980)",
+      "level": 2,
+      "start": 37535,
+      "end": 37564
+    },
+    {
+      "id": "sec-43-borishanskiy-et-al-1981",
+      "number": null,
+      "title": "Borishanskiy, et al. (1981)",
+      "level": 2,
+      "start": 37564,
+      "end": 37592
+    },
+    {
+      "id": "sec-44-jensen-memmel-1986",
+      "number": null,
+      "title": "Jensen & Memmel (1986)",
+      "level": 2,
+      "start": 37592,
+      "end": 37615
+    },
+    {
+      "id": "sec-45-lee-et-al-2003",
+      "number": null,
+      "title": "Lee, et al. (2003)",
+      "level": 2,
+      "start": 37615,
+      "end": 40148
+    },
+    {
+      "id": "sec-46-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 40148,
+      "end": 40210
+    },
+    {
+      "id": "sec-47-exp-polished",
+      "number": null,
+      "title": "Exp. - polished",
+      "level": 2,
+      "start": 40210,
+      "end": 40226
+    },
+    {
+      "id": "sec-48-exp-edm",
+      "number": null,
+      "title": "Exp. - EDM",
+      "level": 2,
+      "start": 40226,
+      "end": 40237
+    },
+    {
+      "id": "sec-49-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 40237,
+      "end": 40293
+    },
+    {
+      "id": "sec-50-exp-polished",
+      "number": null,
+      "title": "Exp. - polished",
+      "level": 2,
+      "start": 40293,
+      "end": 40309
+    },
+    {
+      "id": "sec-51-exp-edm",
+      "number": null,
+      "title": "Exp. - EDM",
+      "level": 2,
+      "start": 40309,
+      "end": 40320
+    },
+    {
+      "id": "sec-52-jakob-fritz-1931",
+      "number": null,
+      "title": "Jakob & Fritz (1931)",
+      "level": 2,
+      "start": 40320,
+      "end": 40341
+    },
+    {
+      "id": "sec-53-peebles-garber-1953",
+      "number": null,
+      "title": "Peebles & Garber (1953)",
+      "level": 2,
+      "start": 40341,
+      "end": 40365
+    },
+    {
+      "id": "sec-54-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 40365,
+      "end": 40458
+    },
+    {
+      "id": "sec-55-exp-polished",
+      "number": null,
+      "title": "Exp. - polished",
+      "level": 2,
+      "start": 40458,
+      "end": 40474
+    },
+    {
+      "id": "sec-56-exp-edm",
+      "number": null,
+      "title": "Exp. - EDM",
+      "level": 2,
+      "start": 40474,
+      "end": 40485
+    },
+    {
+      "id": "sec-57-mikic-rohsenow-1969b",
+      "number": null,
+      "title": "Mikic & Rohsenow (1969b)",
+      "level": 2,
+      "start": 40485,
+      "end": 44288
+    },
+    {
+      "id": "sec-58-ja",
+      "number": null,
+      "title": "Ja",
+      "level": 2,
+      "start": 44288,
+      "end": 44291
+    },
+    {
+      "id": "sec-59-na-m",
+      "number": null,
+      "title": "NA\u2033 [m",
+      "level": 2,
+      "start": 44291,
+      "end": 44392
+    },
+    {
+      "id": "sec-60-polished-cumulative",
+      "number": null,
+      "title": "Polished, cumulative",
+      "level": 2,
+      "start": 44392,
+      "end": 44413
+    },
+    {
+      "id": "sec-61-polished-instantaneous",
+      "number": null,
+      "title": "Polished, instantaneous",
+      "level": 2,
+      "start": 44413,
+      "end": 44437
+    },
+    {
+      "id": "sec-62-edm-cumulative",
+      "number": null,
+      "title": "EDM, cumulative",
+      "level": 2,
+      "start": 44437,
+      "end": 44453
+    },
+    {
+      "id": "sec-63-edm-instantaneous",
+      "number": null,
+      "title": "EDM, instantaneous",
+      "level": 2,
+      "start": 44453,
+      "end": 44472
+    },
+    {
+      "id": "sec-64-benjamin-balakrishnan-1996",
+      "number": null,
+      "title": "Benjamin & Balakrishnan (1996)",
+      "level": 2,
+      "start": 44472,
+      "end": 44503
+    },
+    {
+      "id": "sec-65-hibiki-ishii-2003",
+      "number": null,
+      "title": "Hibiki & Ishii (2003)",
+      "level": 2,
+      "start": 44503,
+      "end": 44806
+    },
+    {
+      "id": "sec-66-db-m",
+      "number": null,
+      "title": "Db [m]",
+      "level": 2,
+      "start": 44806,
+      "end": 44813
+    },
+    {
+      "id": "sec-67-reb-term",
+      "number": null,
+      "title": "Reb,term",
+      "level": 2,
+      "start": 44813,
+      "end": 44908
+    },
+    {
+      "id": "sec-68-polished-2-w-cm",
+      "number": null,
+      "title": "Polished, 2 W/cm",
+      "level": 2,
+      "start": 44908,
+      "end": 44927
+    },
+    {
+      "id": "sec-69-polished-5-w-cm",
+      "number": null,
+      "title": "Polished, 5 W/cm",
+      "level": 2,
+      "start": 44927,
+      "end": 44946
+    },
+    {
+      "id": "sec-70-polished-8-w-cm",
+      "number": null,
+      "title": "Polished, 8 W/cm",
+      "level": 2,
+      "start": 44946,
+      "end": 44965
+    },
+    {
+      "id": "sec-71-polished-11-w-cm",
+      "number": null,
+      "title": "Polished, 11 W/cm",
+      "level": 2,
+      "start": 44965,
+      "end": 44985
+    },
+    {
+      "id": "sec-72-db-m",
+      "number": null,
+      "title": "Db [m]",
+      "level": 2,
+      "start": 44985,
+      "end": 44992
+    },
+    {
+      "id": "sec-73-reb-term",
+      "number": null,
+      "title": "Reb,term",
+      "level": 2,
+      "start": 44992,
+      "end": 45084
+    },
+    {
+      "id": "sec-74-edm-2-w-cm",
+      "number": null,
+      "title": "EDM, 2 W/cm",
+      "level": 2,
+      "start": 45084,
+      "end": 45098
+    },
+    {
+      "id": "sec-75-edm-5-w-cm",
+      "number": null,
+      "title": "EDM, 5 W/cm",
+      "level": 2,
+      "start": 45098,
+      "end": 45112
+    },
+    {
+      "id": "sec-76-edm-8-w-cm",
+      "number": null,
+      "title": "EDM, 8 W/cm",
+      "level": 2,
+      "start": 45112,
+      "end": 45126
+    },
+    {
+      "id": "sec-77-edm-11-w-cm",
+      "number": null,
+      "title": "EDM, 11 W/cm",
+      "level": 2,
+      "start": 45126,
+      "end": 49284
+    },
+    {
+      "id": "sec-78-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 49284,
+      "end": 49744
+    },
+    {
+      "id": "sec-79-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 49744,
+      "end": 61171
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "(a) Schematic diagram of the experimental facility with relevant compo-",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-1_p2.png"
+    },
+    {
+      "id": "fig-1a",
+      "label": "Fig. 1a",
+      "caption": ") surrounding the 25.4-mm square test piece was \ufb01lled with",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-1a_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-2_p3.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Illumination and scale calibration scheme.",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-2_p3.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Boiling curves for FC-77 on \ufb01ve surfaces of varying roughness: (a) heat \ufb02ux",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-3_p3.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Images obtained at 8000 frames per second depicting the effect of surface roughness and heat \ufb02ux upon the nucleation behavior of vapor bubbles on a heated wall. The",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-4_p4.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Four distinct bubbles originating from the same nucleation site still attached",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-5_p5.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Illustration of bubble measurement technique showing diametrical points logged (+) and the calculated centroid location (\u0005) of a bubble produced on the polished",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-6_p5.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Time history of the vertical position of \ufb01ve consecutive bubbles originating",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-7_p6.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Time history of the horizontal position of \ufb01ve consecutive bubbles",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-8_p6.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Growth of \ufb01ve consecutive bubbles originating from a single active",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-9_p6.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Illustration of the calculation procedure for bubble initiation and departure",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-10_p7.png"
+    },
+    {
+      "id": "fig-13b",
+      "label": "Fig. 13b",
+      "caption": ", the measured bubble departure frequencies are plotted",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-13b_p8.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "Variation of Jakob number with heat \ufb02ux applied at the surface.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-11_p8.png"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "caption": "Variation of bubble diameter at apparent departure with Ja for the two",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-12_p8.png"
+    },
+    {
+      "id": "fig-13",
+      "label": "Fig. 13",
+      "caption": "Measured bubble departure (a) frequency, (b) frequency\u2013diameter product, and (c) root-frequency\u2013diameter product, compared with some commonly used",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-13_p9.png"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "caption": "in nondimensional form as Reynolds numbers, and are com-",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-15_p10.png"
+    },
+    {
+      "id": "fig-14",
+      "label": "Fig. 14",
+      "caption": "Active nucleation site densities for the polished and rough surfaces as a",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-14_p10.png"
+    },
+    {
+      "id": "fig-15",
+      "label": "Fig. 15",
+      "caption": "Variation of bubble terminal rise Reynolds number (Reb,term) with bubble",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2010-bubble-nucleation-characteristics-in-pool\\mchale_2010_bubble_nucleation_characteristics_in_pool_fig-15_p10.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 7,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 8,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 11,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 12,
+    "ingest": "pymupdf"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 1.027,
+    "max": 1.416,
+    "unit": "kW/m2",
+    "evidence": [
+      {
+        "quote": "Measured CHF values of the tested surfaces.\nSi. no\nTested surface\nCHF (kW/m2)\n1\nCNT coated Cu\n1.416\n2\nSandblasted copper\n1.114\n3\nBare copper\n1.027"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 14.0,
+    "max": 14.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "Experiments were conducted on the substrate surface area of 14 × 14 mm2 using de-mineralized water as the working fluid."
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.25,
+    "max": 2.34,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "Untreated Cu\n0.22\n0.28\n0.25\nSand blasted Cu\n1.99\n2.00\n1.95\nCNT coated Cu with diamond coating\n2.32\n2.36\n2.34"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 133.0,
+    "max": 133.0,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "While the CNT coated surface that provides a contact angle of 133° is hydrophobic."
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

@@ -1,0 +1,111 @@
+{
+  "p_sat": {
+    "min": 0.1,
+    "max": 4.5,
+    "unit": "MPa",
+    "evidence": [
+      {
+        "quote": "the database spans cryogenic fluids with boiling temperatures ranging from 4.2 K (lLHe at 0.1 MPa) to 187 K (LCH4 at 4.5 MPa) [10]"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": 4.2,
+    "max": 187.0,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "since the database spans cryogenic fluids with boiling temperatures ranging from 4.2 K (lLHe at 0.1 MPa) to 187 K (LCH4 at 4.5 MPa) [10]"
+      }
+    ]
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "g",
+    "evidence": [
+      {
+        "quote": "in terrestrial gravity"
+      }
+    ]
+  },
+  "n_data_points": {
+    "min": 2285.0,
+    "max": 2908.0,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "This filtering reduced the dataset from an initial 2908 data points to 2285."
+      }
+    ]
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper, platinum, aluminum, and stainless steel"
+}

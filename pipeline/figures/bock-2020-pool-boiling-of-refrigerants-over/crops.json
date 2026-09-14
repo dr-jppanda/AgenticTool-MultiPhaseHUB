@@ -1,0 +1,291 @@
+{
+  "record_id": "bock-2020-pool-boiling-of-refrigerants-over",
+  "n_crops": 15,
+  "crops": [
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic of the refrigerant loop, test chamber and test section tubes (taken from Bock et al. [26] ).",
+      "page": 3,
+      "bbox": [
+        84.02999877929688,
+        57.526004791259766,
+        471.8346862792969,
+        424.3345947265625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-1.png",
+      "n_panels": 100,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.83
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Contact angles of water on aged surfaces.",
+      "page": 4,
+      "bbox": [
+        310.5530090332031,
+        53.15132141113281,
+        527.4281005859375,
+        146.55125427246094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\tab-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "SEM images of test section surfaces (a and b taken from Bock et al. [26] ).",
+      "page": 5,
+      "bbox": [
+        80.34200286865234,
+        53.296966552734375,
+        525.1419677734375,
+        609.37451171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "AFM scans of test section surfaces.",
+      "page": 6,
+      "bbox": [
+        31.03099822998047,
+        53.03997802734375,
+        555.031005859375,
+        284.3574523925781
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-3.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-p7-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 7,
+      "bbox": [
+        52.84700012207031,
+        54.139984130859375,
+        299.5370178222656,
+        284.56201171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p7-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p7-01.png",
+      "n_panels": 302,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p7-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 7,
+      "bbox": [
+        306.26800537109375,
+        54.15898513793945,
+        552.8470458984375,
+        284.82598876953125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p7-02.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p7-02.png",
+      "n_panels": 290,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Heat transfer performance as a function of heat \ufb02ux (polished and roughened R-134a data from Bock et al. [26] ).",
+      "page": 7,
+      "bbox": [
+        117.07099914550781,
+        323.6529846191406,
+        492.5166931152344,
+        624.1264038085938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-4.png",
+      "n_panels": 347,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.3
+    },
+    {
+      "element_id": "fig-p8-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        56.52799987792969,
+        54.12799072265625,
+        284.614990234375,
+        267.8110046386719
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p8-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p8-01.png",
+      "n_panels": 293,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p8-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        301.0580139160156,
+        54.334964752197266,
+        528.9280395507812,
+        267.57000732421875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p8-02.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-p8-02.png",
+      "n_panels": 277,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Heat transfer performance relative to polished plain tube.",
+      "page": 8,
+      "bbox": [
+        190.91600036621094,
+        303.24798583984375,
+        420.51397705078125,
+        582.1234741210938
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-5.png",
+      "n_panels": 329,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.34
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Fitted exponent, m, as a function of the reduced pressure.",
+      "page": 9,
+      "bbox": [
+        41.344993591308594,
+        53.83406448364258,
+        417.0699462890625,
+        287.1214904785156
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-6.png",
+      "n_panels": 154,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "HTCs of surfaces as a function of reduced pressure at 50 kW/m 2 .",
+      "page": 9,
+      "bbox": [
+        47.34794235229492,
+        312.15399169921875,
+        288.3999328613281,
+        534.1805419921875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-7.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-7.png",
+      "n_panels": 182,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.92
+    },
+    {
+      "element_id": "tab-2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Nucleation site density of surfaces in R-245fa at 20 \u00b0 C ( p r of 0.086) at 20 kW/m 2 .",
+      "page": 9,
+      "bbox": [
+        325.7438049316406,
+        53.15119934082031,
+        552.6576538085938,
+        163.6868133544922
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\tab-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\tab-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Images of boiling surfaces at 20 kW/m 2 in R-245fa at 20 \u00b0 C ( p r of 0.086).",
+      "page": 10,
+      "bbox": [
+        73.03399658203125,
+        53.38397216796875,
+        513.5140380859375,
+        431.9861755371094
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-8.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-8.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.92
+    },
+    {
+      "element_id": "fig-9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "The CHF seen in the pool boiling of nanoFLUX and CuO tubes. The CHF point is indicated with arrows.",
+      "page": 10,
+      "bbox": [
+        297.99798583984375,
+        443.23199462890625,
+        560.8291015625,
+        676.5606079101562
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-9.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\bock-2020-pool-boiling-of-refrigerants-over\\fig-9.png",
+      "n_panels": 273,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.9
+    }
+  ]
+}

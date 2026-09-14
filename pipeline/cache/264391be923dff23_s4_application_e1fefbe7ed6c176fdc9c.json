@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Hence, it is considered as one of the solutions capable for cooling electronic devices with extra-high heat flux in future."
+        },
+        {
+          "quote": "which is not capable for applications in electronic devices"
+        }
+      ]
+    }
+  ]
+}

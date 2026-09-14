@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Effect of surface roughness on pool boiling heat transfer at a heated surface having moderate wettability",
+  "year": 2016,
+  "reason": "The authors measured their own pool boiling curves, CHF, and contact angles on nine polished copper surfaces in saturated water (\"It increased from 775 kW/m2 at the smoothest surface (Ra = 0.041 lm) to 1625 kW/m2 at the roughest surface\")."
+}

@@ -1,0 +1,120 @@
+{
+  "p_sat": {
+    "min": 91.0,
+    "max": 102.0,
+    "unit": "kPa",
+    "evidence": [
+      {
+        "quote": "Fig. 5 illustrates the validation of the new methodology for LH2 using data from two different sources [27,28] at somewhat close but unequal pressures, 91 versus 102 kPa."
+      },
+      {
+        "quote": "the present methodology is validated in Fig. 6 against LN2\ndata gathered from multiple sources [27,29-32], with a pressure range\nfrom 98 to 101 kPa"
+      },
+      {
+        "quote": "Fig. 4 shows the validation for LHe using\nexperimental data from five different sources [22-26] at a pressure of\n101 kPa."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 0.0,
+    "max": 0.0,
+    "unit": "K",
+    "evidence": [
+      {
+        "quote": "Summary of correlations used to construct a complete saturated pool boiling curve (ΔTsub = 0) for cryogens."
+      },
+      {
+        "quote": "ΔTsub the degree of subcooling of liquid pool [K], whose value is zero for the present saturated pool boiling\nstudy"
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "g",
+    "evidence": [
+      {
+        "quote": "these initial correlations are intended for only steady-state saturated\npool boiling and terrestrial gravity"
+      }
+    ]
+  },
+  "n_data_points": {
+    "min": 4809.0,
+    "max": 4809.0,
+    "unit": "data points",
+    "evidence": [
+      {
+        "quote": "over 10,000 datapoints from 80 different papers were amassed and meticu­lously scrutinized, culminating in 4809 usable data points."
+      }
+    ]
+  },
+  "orientation": "unspecified",
+  "heating_mode": "unspecified",
+  "surface_material": "copper"
+}

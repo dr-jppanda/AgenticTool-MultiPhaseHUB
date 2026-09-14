@@ -1,0 +1,253 @@
+{
+  "record_id": "kim-2014-investigation-of-boiling-heat-transfer",
+  "n_crops": 13,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        28.71200180053711,
+        62.21099853515625,
+        556.948974609375,
+        152.13897705078125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p1-01.png",
+      "n_panels": 6,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic diagram of the experimental setup.",
+      "page": 3,
+      "bbox": [
+        28.71200180053711,
+        63.157012939453125,
+        556.7559814453125,
+        440.5333251953125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-1.png",
+      "n_panels": 21,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Macroscale images of pool boiling from a single 13 mm copper particle at a heat \ufb02ux of 55 kW/m 2 . The images are extracted from a movie made available as Supplementary Data .",
+      "page": 4,
+      "bbox": [
+        38.51969909667969,
+        63.5360107421875,
+        566.5640258789062,
+        432.06011962890625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-2.png",
+      "n_panels": 8,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "A series of images showing nucleate boiling from the narrow corner cavity of a single 13 mm copper particle placed on a polished surface at 55 kW/m 2 in water. The images are extracted from high-speed video obtained at 4000 fps and made available as Supplementary Data .",
+      "page": 4,
+      "bbox": [
+        38.51969909667969,
+        409.3390197753906,
+        566.5640258789062,
+        722.353515625
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-3.png",
+      "n_panels": 10,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Boiling curve showing the effect of the free particle size on boiling heat transfer. The experimental results for 10 l m and 20\u201340 nm particles are not shown.",
+      "page": 5,
+      "bbox": [
+        28.71179962158203,
+        63.183013916015625,
+        287.76580810546875,
+        281.5375671386719
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-4.png",
+      "n_panels": 601,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "High-speed microscopic visualization of the nucleate boiling characteristics for (a) one-hundred 3 mm particles at 77 kW/m 2 , (b) twenty-\ufb01ve 6 mm particles at 74 kW/ m 2 , and (c) nine 9 mm particles at 75 kW/m 2 . Macroscopic views for the same respective cases are shown in (d), (e), and (f).",
+      "page": 5,
+      "bbox": [
+        28.71179962158203,
+        435.07501220703125,
+        556.7559814453125,
+        759.0907592773438
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-5.png",
+      "n_panels": 8,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Numerical simulation: (a) boundary conditions, and results that show the particle and liquid temperature pro\ufb01le, for (b) a 3 mm-diameter free particle at the heat \ufb02ux of 19.5 kW/m 2 , and for (c) a 9 mm-diameter free particle at 23.5 kW/m 2 . The height of a vapor bubble required for departure from the heated surface, h b , dep , obtained from the buoyant versus capillary force balance is superpos",
+      "page": 6,
+      "bbox": [
+        307.5270080566406,
+        295.281982421875,
+        566.589111328125,
+        759.090576171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-6.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-6.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "A comparison of vapor bubble size at onset of nucleation boiling for (a) one-hundred 3 mm particles, (b) a mixture of \ufb01fty 3 mm particles and \ufb01fteen 6 mm particles, and (c) a microscopic view of case (a).",
+      "page": 7,
+      "bbox": [
+        28.71179962158203,
+        524.0760498046875,
+        556.7559814453125,
+        759.090576171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-7.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-7.png",
+      "n_panels": 8,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Boiling heat transfer coef\ufb01cients as a function of input heat \ufb02ux for 3 mm and 6 mm free particles.",
+      "page": 8,
+      "bbox": [
+        38.51969909667969,
+        63.381011962890625,
+        393.64007568359375,
+        282.4166564941406
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-8.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-8.png",
+      "n_panels": 378,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p8-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 8,
+      "bbox": [
+        307.5270080566406,
+        541.083984375,
+        566.56298828125,
+        757.7319946289062
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p8-02.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p8-02.png",
+      "n_panels": 408,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Boiling heat transfer enhancement versus the polished surface by addition of millimeter-sized spherical free particles in the heat \ufb02ux range of 20\u2013100 kW/m 2 .",
+      "page": 8,
+      "bbox": [
+        38.5196533203125,
+        303.56927490234375,
+        297.6007995605469,
+        396.3124694824219
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\tab-1.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p9-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        28.71200180053711,
+        311.9539794921875,
+        287.74798583984375,
+        757.7319946289062
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p9-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p9-01.png",
+      "n_panels": 14,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-p10-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        566.5640258789062,
+        451.9636535644531
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p10-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\kim-2014-investigation-of-boiling-heat-transfer\\fig-p10-01.png",
+      "n_panels": 229,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    }
+  ]
+}

@@ -310,12 +310,12 @@ def extract_rules(doc: DocumentModel) -> dict:
         if any(a["tier1"] == t1 for a in apps):
             continue
         apps.append({
-            "tier1": t1, "tier2": t2, "stated": True, "confidence": "medium",
+            "tier1": t1, "tier2": t2, "stated": True,
             "evidence": [{"quote": quote}],
         })
     if not apps:
         apps = [{"tier1": "fundamental", "tier2": "fundamental", "stated": False,
-                 "confidence": "high", "evidence": []}]
+                 "evidence": []}]
 
     conditions = {}
     for field in ("q_flux", "dT_wall", "T_sat", "dT_sub", "contact_angle", "Ra_surface", "D_h", "p_sat", "G"):

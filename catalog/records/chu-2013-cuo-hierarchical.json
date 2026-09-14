@@ -1,0 +1,680 @@
+{
+  "record_id": "chu-2013-cuo-hierarchical",
+  "doc_id": "274571d52e4b46d1",
+  "title": "ENHANCED BOILING HEAT TRANSFER WITH COPPER OXIDE HIERARCHICAL SURFACES",
+  "source_pdf": "chu_2013_cuo_hierarchical.pdf",
+  "n_pages": 4,
+  "n_figures": 6,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "page": 2,
+      "caption": "CuO hierarchical surfaces were fabricated as"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "page": 2,
+      "caption": "Scanning electron micrographs (SEMs) of the"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "page": 2,
+      "caption": "Schematic of the experimental pool boiling"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 2,
+      "caption": "(a) shows the heat flux ݍ′′ as a function of"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "page": 3,
+      "caption": "Heat transfer performance. (a) CHF and (b)"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "page": 4,
+      "caption": "CHF as function of ߙ ሺൌݎܿ݋ݏߠ௥௘௖ሻ. The"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-2-abstract",
+      "number": null,
+      "title": "ABSTRACT",
+      "level": 2
+    },
+    {
+      "id": "sec-10-experimental-results",
+      "number": null,
+      "title": "Experimental Results",
+      "level": 2
+    },
+    {
+      "id": "sec-4-introduction",
+      "number": null,
+      "title": "INTRODUCTION",
+      "level": 2
+    },
+    {
+      "id": "sec-7-fabrication",
+      "number": null,
+      "title": "Fabrication",
+      "level": 2
+    },
+    {
+      "id": "sec-8-surface-characterization",
+      "number": null,
+      "title": "Surface Characterization",
+      "level": 2
+    }
+  ],
+  "evidence_stats": {
+    "total": 16,
+    "resolved": 16,
+    "unresolved": 0,
+    "exact": 16
+  },
+  "points_ref": "points/chu-2013-cuo-hierarchical.points.json",
+  "extractor": "claude-opus-5/p1@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "ENHANCED BOILING HEAT TRANSFER WITH COPPER OXIDE HIERARCHICAL SURFACES",
+    "year": 2013,
+    "reason": "The authors fabricated CuO hierarchical surfaces and measured their own pool boiling curves, CHF (~250 W/cm2) and heat transfer coefficients."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": 250.0,
+      "unit": "W/cm2",
+      "evidence": [
+        {
+          "quote": "CHF of ≈250 W/cm2 and heat transfer coefficient of",
+          "resolved": true,
+          "char_span": [
+            577,
+            627
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-2-abstract",
+              "number": null,
+              "title": "ABSTRACT",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "≈83 W/cm2 and ≈208 W/cm2 were obtained on the silicon",
+          "resolved": true,
+          "char_span": [
+            9408,
+            9461
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-10-experimental-results",
+              "number": null,
+              "title": "Experimental Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": 33.0,
+      "max": 33.0,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "superheat of • 33 K on the roughest sample tested,",
+          "resolved": true,
+          "char_span": [
+            2577,
+            2627
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-4-introduction",
+              "number": null,
+              "title": "INTRODUCTION",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "D_h": {
+      "min": 2.0,
+      "max": 2.0,
+      "unit": "cm",
+      "evidence": [
+        {
+          "quote": "surface area of 2 × 2 cm2, which is large enough to be",
+          "resolved": true,
+          "char_span": [
+            5743,
+            5797
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-7-fabrication",
+              "number": null,
+              "title": "Fabrication",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "copper / copper oxide (CuO) on silicon substrate (smooth SiO2 and microstructured silicon references)"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "We experimentally investigated the enhancement in\ncritical heat flux (CHF) during pool boiling on copper\noxide (CuO) hierarchical surfaces",
+          "resolved": true,
+          "char_span": [
+            305,
+            443
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-2-abstract",
+              "number": null,
+              "title": "ABSTRACT",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the sudden\nreduction in superheat ΔT along the boiling curve of\nhierarchical surfaces (i.e., \"kickback\") is indicative of\nnucleation sites within the nanostructures becoming active",
+          "resolved": true,
+          "char_span": [
+            9869,
+            10049
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-10-experimental-results",
+              "number": null,
+              "title": "Experimental Results",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Upon dicing, the samples had a projected\nsurface area of 2 × 2 cm2, which is large enough to be\nconsidered representative of an infinite plate for water",
+          "resolved": true,
+          "char_span": [
+            5702,
+            5854
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-7-fabrication",
+              "number": null,
+              "title": "Fabrication",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The heat transfer performance of\nthe hierarchical surfaces was measured using an\nexperimental pool boiling setup, as shown in Fig. 3",
+          "resolved": true,
+          "char_span": [
+            5939,
+            6071
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-7-fabrication",
+              "number": null,
+              "title": "Fabrication",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "water",
+        "tier2": "water",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "All tests were performed using degassed, high\npurity water (Chromasolv for HPLC, Sigma-Aldrich) to\navoid premature bubble formation",
+            "resolved": true,
+            "char_span": [
+              6078,
+              6209
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-7-fabrication",
+                "number": null,
+                "title": "Fabrication",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "nanostructured",
+        "tier2": null,
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The\nsurfaces were fabricated by\nelectroplating Cu micropillars followed by a chemical\noxidation step to form CuO nanostructures",
+            "resolved": true,
+            "char_span": [
+              4895,
+              5022
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-7-fabrication",
+                "number": null,
+                "title": "Fabrication",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "structured",
+        "tier2": "pin_fins",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The electroplated square array of Cu micropillars\nhad heights ranging from 35-68 μm, diameters of 30-\n35 μm, and spacings of 30 μm.",
+            "resolved": true,
+            "char_span": [
+              5152,
+              5283
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-7-fabrication",
+                "number": null,
+                "title": "Fabrication",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "wettability_engineered",
+        "tier2": "hydrophilic",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The CuO\nhierarchical surfaces were superhydrophilic behavior at\nroom temperature due to the large roughness factors\nobtained",
+            "resolved": true,
+            "char_span": [
+              7596,
+              7720
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-8-surface-characterization",
+                "number": null,
+                "title": "Surface Characterization",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Reference boiling curves obtained for\nsmooth SiO2 surfaces (Sm) and microstructured silicon\nsurfaces (Micro) are also shown in Fig. 4(a) for\ncomparison.",
+            "resolved": true,
+            "char_span": [
+              9044,
+              9196
+            ],
+            "pages": [
+              3
+            ],
+            "sections": [
+              {
+                "id": "sec-10-experimental-results",
+                "number": null,
+                "title": "Experimental Results",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "chf",
+      "htc",
+      "boiling_curve",
+      "wall_superheat"
+    ],
+    "measurement_modality": [
+      "thermocouple"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "electronics_thermal",
+        "tier2": "power_electronics",
+        "stated": true,
+        "evidence": [
+          {
+            "quote": "power amplifiers, and integrated circuits",
+            "resolved": true,
+            "char_span": [
+              1251,
+              1292
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-4-introduction",
+                "number": null,
+                "title": "INTRODUCTION",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "and is of comparable size to typical high heat flux",
+            "resolved": true,
+            "char_span": [
+              5864,
+              5915
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-7-fabrication",
+                "number": null,
+                "title": "Fabrication",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The work promises enhanced heat removal\ncapability using hierarchically-structured surfaces for high\nheat flux thermal management.",
+            "resolved": true,
+            "char_span": [
+              846,
+              976
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-abstract",
+                "number": null,
+                "title": "ABSTRACT",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "ENHANCED BOILING HEAT TRANSFER WITH COPPER OXIDE HIERARCHICAL SURFACES",
+  "si": {
+    "q_flux_max": 2500000.0,
+    "q_flux_unit": "W/m2",
+    "dT_wall_min": 33.0,
+    "dT_wall_unit": "K",
+    "dT_wall_max": 33.0,
+    "D_h_min": 0.02,
+    "D_h_unit": "m",
+    "D_h_max": 0.02
+  },
+  "fluid_properties": {
+    "rho_l": 958.3674968154769,
+    "rho_v": 0.5976567696507372,
+    "sigma": 0.05892558840073204,
+    "h_fg": 2256471.592406728,
+    "mu_l": 0.00028165796288269246,
+    "p_crit": 22063999.999997754,
+    "T_sat_calc": 373.12429584766636
+  },
+  "derived": {
+    "L_cap": 0.0025047307503384586,
+    "Co": 0.12523653751692293,
+    "Bo": 63.758471365684095
+  },
+  "derived_tags": [
+    "confinement:unconfined",
+    "heatflux:very_high",
+    "scale:conventional"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-14",
+    "pending": 0,
+    "unconfirmed_fields": 0
+  },
+  "points_summary": {
+    "n_series": 8,
+    "n_points": 108,
+    "figures": [
+      "fig-4"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

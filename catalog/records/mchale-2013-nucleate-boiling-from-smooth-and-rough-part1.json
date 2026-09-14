@@ -1,0 +1,951 @@
+{
+  "record_id": "mchale-2013-nucleate-boiling-from-smooth-and-rough-part1",
+  "doc_id": "110f0b5d9775d619",
+  "title": "Nucleate boiling from smooth and rough surfaces - Part 1: Fabrication and characterization of an optically transparent heater-sensor substrate with controlled surface roughness",
+  "source_pdf": "mchale_2013_nucleate_boiling_from_smooth_and_rough_part1.pdf",
+  "n_pages": 12,
+  "n_figures": 10,
+  "figures": [
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 3,
+      "caption": "Before each of the two steps, the test pieces were cleaned"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "SEM photos of surface morphology change of roughened borosilicate glass"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 4,
+      "caption": "Two-stage mask used in pattern de\ufb01nition of (a) ITO, and (b) metallization."
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 4,
+      "caption": "Photos of completed boiling test pieces: (a) surface 1, polished \u2013 reverse side,"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 5,
+      "caption": "Photo of experimental facility showing: (1) pool chamber, (2) secondary"
+    },
+    {
+      "id": "fig-5a",
+      "label": "Fig. 5a",
+      "page": 6,
+      "caption": "for the 400-lm test strip of surface 5. Multiple tests, how-"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 6,
+      "caption": "Repeatability of the temperature vs resistance calibration curves for the 400-"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 8,
+      "caption": "Results of heat spreading simulations under simpli\ufb01ed assumptions: (a)"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 9,
+      "caption": "Interrogation windows were selected over multiple length scales for calculation of average Ra and Rq surface roughness parameters (only the portion of the surface"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 10,
+      "caption": "Boiling curves for the seven surfaces tested: (a) apparent (uncorrected) heat"
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-3-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-1-5",
+      "number": "1.5",
+      "title": "A. All electrical measurements were made using the Agilent",
+      "level": 2
+    },
+    {
+      "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+      "number": null,
+      "title": "Pool boiling experiments were carried out for the 400-lm test",
+      "level": 2
+    },
+    {
+      "id": "sec-19-test-2",
+      "number": null,
+      "title": "Test 2",
+      "level": 2
+    },
+    {
+      "id": "sec-24-the-default-value-of-the-feedback-underr",
+      "number": null,
+      "title": "The default value of the feedback underrelaxation factor x was",
+      "level": 2
+    },
+    {
+      "id": "sec-23-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2
+    },
+    {
+      "id": "sec-0-john-p-mchale-suresh-v-garimella",
+      "number": null,
+      "title": "John P. McHale, Suresh V. Garimella \u21d1",
+      "level": 1
+    },
+    {
+      "id": "sec-1-experimental-thermal-and-fluid-science",
+      "number": null,
+      "title": "Experimental Thermal and Fluid Science",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 25,
+    "resolved": 25,
+    "unresolved": 0,
+    "exact": 25
+  },
+  "points_ref": "points/mchale-2013-nucleate-boiling-from-smooth-and-rough-part1.points.json",
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "experimental",
+    "contains_dataset": true,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Nucleate boiling from smooth and rough surfaces - Part 1: Fabrication and characterization of an optically transparent heater-sensor substrate with controlled surface roughness",
+    "year": 2013,
+    "reason": "The paper reports its own measured saturated pool boiling curves, CHF, wall superheats, roughness, and contact angles for seven ITO-coated roughened glass surfaces in FC-72."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 102700.0,
+      "max": 102700.0,
+      "unit": "Pa",
+      "evidence": [
+        {
+          "quote": "The pool pressure was measured with a\ndigital pressure transducer (Omegadyne PX409-030A) and maintained at 102,700 \u00b1 1400 Pa.",
+          "resolved": true,
+          "char_span": [
+            21014,
+            21139
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": 57.0,
+      "max": 57.0,
+      "unit": "C",
+      "evidence": [
+        {
+          "quote": "Once the temperature and pressure in the system stabilized at the expected saturation temperature (57 C) and pressure (102,700 Pa) for a period of several\nminutes, the degassing procedure was deemed complete.",
+          "resolved": true,
+          "char_span": [
+            22712,
+            22920
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-1-5",
+              "number": "1.5",
+              "title": "A. All electrical measurements were made using the Agilent",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": 345000.0,
+      "unit": "W/m2",
+      "evidence": [
+        {
+          "quote": "which did not reach\nan identifiable point of critical heat flux despite the appearance of\ndry patches on the surface at the highest value of apparent heat\nflux, 345,000 W/m2 as shown in Fig. 9a",
+          "resolved": true,
+          "char_span": [
+            44968,
+            45161
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+              "number": null,
+              "title": "Pool boiling experiments were carried out for the 400-lm test",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The corrected critical heat flux qCHF varied",
+          "resolved": true,
+          "char_span": [
+            45408,
+            45452
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+              "number": null,
+              "title": "Pool boiling experiments were carried out for the 400-lm test",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_wall": {
+      "min": 29.7,
+      "max": 38.5,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "The wall superheat at the apparent point of CHF for surfaces\n2-7 averaged 29.7 K except for the polished surface, for which\nDTw,CHF was 38.5 K.",
+          "resolved": true,
+          "char_span": [
+            45264,
+            45407
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+              "number": null,
+              "title": "Pool boiling experiments were carried out for the 400-lm test",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "D_h": {
+      "min": 400.0,
+      "max": 400.0,
+      "unit": "\u00b5m",
+      "evidence": [
+        {
+          "quote": "The test strips chosen for this study measured 25 mm long 400 lm wide, a width\nwhich was found experimentally to provide an optimum combination of heat transfer data and bubble visualization.",
+          "resolved": true,
+          "char_span": [
+            13416,
+            13607
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The 400-lm test strip was selected for boiling tests due to its\nlower spreading heat loss than the 100-lm test strip and clearer\nvisualizations than the 1600-lm test strip.",
+          "resolved": true,
+          "char_span": [
+            34914,
+            35086
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-19-test-2",
+              "number": null,
+              "title": "Test 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "L_heated": {
+      "min": 25.0,
+      "max": 25.0,
+      "unit": "mm",
+      "evidence": [
+        {
+          "quote": "Complete 3D maps of each test strip measuring\n25 mm 400 lm were obtained with a Zygo Newview 6200\nwhite-light optical interferometer at 50 magnification.",
+          "resolved": true,
+          "char_span": [
+            38688,
+            38841
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-24-the-default-value-of-the-feedback-underr",
+              "number": null,
+              "title": "The default value of the feedback underrelaxation factor x was",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": 0.263,
+      "max": 13.04,
+      "unit": "\u00b5m",
+      "evidence": [
+        {
+          "quote": "Device no.\nRa,low (lm)\nRMS error (K)\n1\n0.263\n0.843",
+          "resolved": true,
+          "char_span": [
+            37372,
+            37422
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-23-tw-k",
+              "number": null,
+              "title": "\u0394Tw [K]",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "5\n250\n725\n5\n7.51\n13.04\n9.13\n16.46",
+          "resolved": true,
+          "char_span": [
+            14387,
+            14420
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_data_points": {
+      "min": 13.0,
+      "max": 14.0,
+      "unit": null,
+      "evidence": [
+        {
+          "quote": "Power-controlled boiling curves with decreasing heat input are\nreported in this work, including 13-14 data points collected for\neach test surface.",
+          "resolved": true,
+          "char_span": [
+            22417,
+            22563
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-1-5",
+              "number": "1.5",
+              "title": "A. All electrical measurements were made using the Agilent",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "orientation": "horizontal",
+    "heating_mode": "uniform_heat_flux",
+    "surface_material": "indium tin oxide (ITO) coating on borosilicate glass"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": "nucleate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling experiments were carried out for the 400-lm test\nstrips on all seven surfaces.",
+          "resolved": true,
+          "char_span": [
+            41212,
+            41303
+          ],
+          "pages": [
+            10
+          ],
+          "sections": [
+            {
+              "id": "sec-25-pool-boiling-experiments-were-carried-ou",
+              "number": null,
+              "title": "Pool boiling experiments were carried out for the 400-lm test",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The wall superheat during saturated pool boiling at\natmospheric pressure was found not to vary consistently with surface average roughness (Ra) values.",
+          "resolved": true,
+          "char_span": [
+            1742,
+            1893
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-john-p-mchale-suresh-v-garimella",
+              "number": null,
+              "title": "John P. McHale, Suresh V. Garimella \u21d1",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Test pieces are fabricated from 50.8 mm 50.8 mm\n3.18 mm borosilicate glass squares",
+          "resolved": true,
+          "char_span": [
+            1032,
+            1114
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-0-john-p-mchale-suresh-v-garimella",
+              "number": null,
+              "title": "John P. McHale, Suresh V. Garimella \u21d1",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "The test strips chosen for this study measured 25 mm long 400 lm wide",
+          "resolved": true,
+          "char_span": [
+            13416,
+            13485
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-3-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "experimental",
+      "tier2": "steady_state",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "During boiling tests, both the applied voltage and the current\nthrough the heater were measured for a sufficient period of time\nfor the voltage and current to reach a steady state (at least\n5 min).",
+          "resolved": true,
+          "char_span": [
+            26602,
+            26799
+          ],
+          "pages": [
+            6
+          ],
+          "sections": [
+            {
+              "id": "sec-1-5",
+              "number": "1.5",
+              "title": "A. All electrical measurements were made using the Agilent",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Power-controlled boiling curves with decreasing heat input are\nreported in this work, including 13-14 data points collected for\neach test surface.",
+          "resolved": true,
+          "char_span": [
+            22417,
+            22563
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-1-5",
+              "number": "1.5",
+              "title": "A. All electrical measurements were made using the Agilent",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "dielectric",
+        "tier2": "FC-72",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "tested in the perfluorinated fluorocarbon liquid, FC-72",
+            "resolved": true,
+            "char_span": [
+              1599,
+              1654
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "The working fluid used in the present tests, FC-72, has a low\nthermal conductivity relative to water",
+            "resolved": true,
+            "char_span": [
+              14855,
+              14955
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "roughened",
+        "tier2": "sanded",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Surface roughness was imparted to one side of each part by abrading with a diamond paste",
+            "resolved": true,
+            "char_span": [
+              7063,
+              7151
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-1-experimental-thermal-and-fluid-science",
+                "number": null,
+                "title": "Experimental Thermal and Fluid Science",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "borosilicate glass squares that are roughened by abrading with diamond compound with particles of known size and then annealed in order to control small-scale roughness features",
+            "resolved": true,
+            "char_span": [
+              1088,
+              1265
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Photos of completed boiling test pieces: (a) surface 1, polished - reverse side,",
+            "resolved": true,
+            "char_span": [
+              17778,
+              17858
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-3-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "boiling_curve",
+      "wall_superheat",
+      "chf",
+      "htc",
+      "nucleation_site_density",
+      "bubble_dynamics",
+      "contact_angle"
+    ],
+    "measurement_modality": [
+      "thermocouple",
+      "rtd",
+      "high_speed_visualization",
+      "optical_interferometry"
+    ]
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "nuclear",
+        "tier2": null,
+        "stated": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "quote": "means of dissipating heat from critical devices such as nuclear fuel",
+            "resolved": true,
+            "char_span": [
+              2171,
+              2239
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence medium"
+      },
+      {
+        "tier1": "electronics_thermal",
+        "tier2": "power_electronics",
+        "stated": true,
+        "confidence": "medium",
+        "evidence": [
+          {
+            "quote": "rods, power electronics, and propulsion devices. Often the device",
+            "resolved": true,
+            "char_span": [
+              2240,
+              2305
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence medium"
+      },
+      {
+        "tier1": "aerospace",
+        "tier2": null,
+        "stated": true,
+        "confidence": "low",
+        "evidence": [
+          {
+            "quote": "rods, power electronics, and propulsion devices. Often the device",
+            "resolved": true,
+            "char_span": [
+              2240,
+              2305
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-0-john-p-mchale-suresh-v-garimella",
+                "number": null,
+                "title": "John P. McHale, Suresh V. Garimella \u21d1",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": false,
+        "gate_reason": "confidence low"
+      }
+    ]
+  },
+  "llm_title": "Nucleate boiling from smooth and rough surfaces - Part 1: Fabrication and characterization of an optically transparent heater-sensor substrate with controlled surface roughness",
+  "si": {
+    "p_sat_min": 102700.0,
+    "p_sat_unit": "Pa",
+    "p_sat_max": 102700.0,
+    "T_sat_min": 330.15,
+    "T_sat_unit": "K",
+    "T_sat_max": 330.15,
+    "q_flux_max": 345000.0,
+    "q_flux_unit": "W/m2",
+    "dT_wall_min": 29.7,
+    "dT_wall_unit": "K",
+    "dT_wall_max": 38.5,
+    "D_h_min": 0.00039999999999999996,
+    "D_h_unit": "m",
+    "D_h_max": 0.00039999999999999996,
+    "L_heated_min": 0.025,
+    "L_heated_unit": "m",
+    "L_heated_max": 0.025,
+    "Ra_surface_min": 2.63e-07,
+    "Ra_surface_unit": "m",
+    "Ra_surface_max": 1.3039999999999999e-05,
+    "n_data_points_min": 13.0,
+    "n_data_points_unit": "-",
+    "n_data_points_max": 14.0
+  },
+  "fluid_properties": {
+    "rho_l": 1621.0,
+    "rho_v": 13.4,
+    "sigma": 0.0085,
+    "h_fg": 88000.0,
+    "mu_l": 0.00045,
+    "p_crit": 1830000.0
+  },
+  "derived": {
+    "L_cap": 0.0007342773405759766,
+    "Co": 1.8356933514399416,
+    "Bo": 0.29675615134117633,
+    "p_reduced": 0.05612021857923497
+  },
+  "derived_tags": [
+    "confinement:confined",
+    "heatflux:high",
+    "pressure:low",
+    "scale:microchannel",
+    "size:small"
+  ],
+  "unit_warnings": [],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 3,
+    "unconfirmed_fields": 3
+  },
+  "points_summary": {
+    "n_series": 7,
+    "n_points": 100,
+    "figures": [
+      "fig-9"
+    ],
+    "quantities": [
+      "q_flux"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": null,
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "leading to applications like electronics cooling"
+        },
+        {
+          "quote": "The recent advancements in technology have contributed to a tremendous size reduction of electronic devices, which has led to a high"
+        },
+        {
+          "quote": "potential application in MEMS devices"
+        }
+      ]
+    }
+  ]
+}

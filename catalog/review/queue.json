@@ -1,177 +1,90 @@
 [
   {
-    "record_id": "chu-2013-cuo-hierarchical-wang-miljkovic",
+    "record_id": "howard-2008-photographic-study-of-pool-boiling",
+    "field": "taxonomy.configuration",
+    "kind": "new_term",
+    "proposed": "downward_facing_convex_surface",
+    "reason": "proposes a term not in the configuration vocabulary",
+    "evidence": [
+      {
+        "quote": "nine\nheaters are inserted along the curved portion of the G-10 spacer to\ncreate a 90-degree downward-facing convex surface with a radius of\n102.6 mm.",
+        "resolved": true,
+        "char_span": [
+          3907,
+          4056
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-alicia-h-howard-issam-mudawar",
+            "number": null,
+            "title": "Alicia H. Howard, Issam Mudawar ⁎",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "new_term::downward_facing_convex_surface"
+  },
+  {
+    "record_id": "howard-2008-photographic-study-of-pool-boiling",
+    "field": "taxonomy.fluid[0]",
+    "kind": "new_term",
+    "proposed": "FC-87",
+    "reason": "proposes a term not in the fluid vocabulary",
+    "evidence": [
+      {
+        "quote": "It consists of a 3.2-\nmm thick boiling flange that is connected to a large reservoir where\nthe bulk fluid, Fluorinert FC-87, is stored and conditioned.",
+        "resolved": true,
+        "char_span": [
+          3625,
+          3776
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-alicia-h-howard-issam-mudawar",
+            "number": null,
+            "title": "Alicia H. Howard, Issam Mudawar ⁎",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "new_term::fc-87"
+  },
+  {
+    "record_id": "jones-2009-the-influence-of-surface-roughness",
     "field": "taxonomy.surface_enhancement[2]",
     "kind": "new_term",
-    "proposed": "copper_oxide_nanostructures",
-    "confidence": 0.85,
+    "proposed": "electrical_discharge_machined",
     "reason": "proposes a term not in the surface_enhancement vocabulary",
     "evidence": [
       {
-        "quote": "Cu\nmicropillars were oxidized in an alkali solution composed\nof NaClO2, NaOH, Na3PO4.12H2O to form CuO\nnanostructures.",
+        "quote": "The\nsurfaces were first fly-cut and then roughened using ram-type\nelectrical discharge machining EDM .",
         "resolved": true,
         "char_span": [
-          6574,
-          6692
-        ],
-        "pages": [
-          2
-        ],
-        "sections": [
-          {
-            "id": "sec-7-fabrication",
-            "number": null,
-            "title": "Fabrication",
-            "level": 2
-          }
-        ],
-        "match": "exact",
-        "score": 1.0
-      }
-    ],
-    "created": "2026-08-12",
-    "key": "new_term::copper_oxide_nanostructures"
-  },
-  {
-    "record_id": "mchale-2011-smooth-sintered-copper",
-    "field": "taxonomy.fluid[1]",
-    "kind": "new_term",
-    "proposed": "HFE-7300",
-    "confidence": 0.85,
-    "reason": "proposes a term not in the fluid vocabulary",
-    "evidence": [
-      {
-        "quote": "The working fluids are a segregated hydrofluoroether, HFE-7300 (3M Electronic Markets Materials Division, St. Paul, MN), and deionized water.",
-        "resolved": true,
-        "char_span": [
-          4394,
-          4535
-        ],
-        "pages": [
-          4
-        ],
-        "sections": [
-          {
-            "id": "sec-11-and-without-carbon-nanotubes",
-            "number": null,
-            "title": "AND WITHOUT CARBON NANOTUBES",
-            "level": 2
-          }
-        ],
-        "match": "exact",
-        "score": 1.0
-      }
-    ],
-    "created": "2026-08-12",
-    "key": "new_term::hfe-7300"
-  },
-  {
-    "record_id": "htl-tr-1951-005",
-    "field": "taxonomy.fluid[2]",
-    "kind": "new_term",
-    "proposed": "ethanol",
-    "confidence": 0.85,
-    "reason": "proposes a term not in the fluid vocabulary",
-    "evidence": [
-      {
-        "quote": "POOL BOILING\n1.0-\nETHYL\nALCOHOL\nON POLISHED\nPLATED CHRC",
-        "resolved": true,
-        "char_span": [
-          22549,
-          22604
-        ],
-        "pages": [
-          23
-        ],
-        "sections": [
-          {
-            "id": "sec-148-a",
-            "number": null,
-            "title": "A",
-            "level": 2
-          },
-          {
-            "id": "sec-149-cichelli-bonilla-12",
-            "number": null,
-            "title": "CICHELLI - BONILLA (12",
-            "level": 1
-          },
-          {
-            "id": "sec-150-pool-boiling",
-            "number": null,
-            "title": "POOL BOILING",
-            "level": 1
-          },
-          {
-            "id": "sec-151-ethyl",
-            "number": null,
-            "title": "ETHYL",
-            "level": 1
-          }
-        ],
-        "match": "exact",
-        "score": 1.0
-      }
-    ],
-    "created": "2026-08-12",
-    "key": "new_term::ethanol"
-  },
-  {
-    "record_id": "htl-tr-1951-005",
-    "field": "taxonomy.fluid[3]",
-    "kind": "new_term",
-    "proposed": "n-pentane",
-    "confidence": 0.85,
-    "reason": "proposes a term not in the fluid vocabulary",
-    "evidence": [
-      {
-        "quote": "Cichelli-Bonilla(12) n-Pentane-Cromium\n0.015",
-        "resolved": true,
-        "char_span": [
-          10485,
-          10529
-        ],
-        "pages": [
-          10
-        ],
-        "sections": [
-          {
-            "id": "sec-44-cichelli-bonilla-12-ethyl-alchol-chromit",
-            "number": null,
-            "title": "Cichelli-Bonilla(12) Ethyl Alchol - Chromite",
-            "level": 2
-          }
-        ],
-        "match": "exact",
-        "score": 1.0
-      }
-    ],
-    "created": "2026-08-12",
-    "key": "new_term::n-pentane"
-  },
-  {
-    "record_id": "allred-2019-petal-effect-parahydrophobic",
-    "field": "application.targets[3]",
-    "kind": "unstated_application",
-    "proposed": "battery_thermal",
-    "confidence": 0.6,
-    "reason": "stated but low confidence (medium)",
-    "evidence": [
-      {
-        "quote": "Current trends in high-performance computing, electric vehicles, renewable energy conversion, and telecommunications applications demand the efficient removal of high heat fluxes from surfaces maintained at a low temperature, as is afforded by boiling.",
-        "resolved": true,
-        "char_span": [
-          3291,
-          3543
+          16719,
+          16821
         ],
         "pages": [
           3
         ],
         "sections": [
           {
-            "id": "sec-11-keywords",
+            "id": "sec-13-transactions-of-the-asme",
             "number": null,
-            "title": "Keywords",
+            "title": "Transactions of the ASME",
             "level": 2
           }
         ],
@@ -179,7 +92,222 @@
         "score": 1.0
       }
     ],
-    "created": "2026-08-12",
-    "key": "unstated_application::battery_thermal"
+    "created": "2026-09-14",
+    "key": "new_term::electrical_discharge_machined"
+  },
+  {
+    "record_id": "kim-2014-investigation-of-boiling-heat-transfer",
+    "field": "taxonomy.surface_enhancement[1]",
+    "kind": "new_term",
+    "proposed": "free_particle_layer",
+    "reason": "proposes a term not in the surface_enhancement vocabulary",
+    "evidence": [
+      {
+        "quote": "The layer of loose particles on the heated surface is free to move and\ndeform under the action of bulk liquid convection and vapor nucleation.",
+        "resolved": true,
+        "char_span": [
+          797,
+          939
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-1-tae-young-kim-a-suresh-v-garimella-b",
+            "number": null,
+            "title": "Tae Young Kim a, Suresh V. Garimella b,⇑",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      },
+      {
+        "quote": "This technique introduces free-standing metal particles,\nwhich may be orders of magnitude larger than nanoparticles, on\nan immersed boiling surface.",
+        "resolved": true,
+        "char_span": [
+          6797,
+          6945
+        ],
+        "pages": [
+          2
+        ],
+        "sections": [
+          {
+            "id": "sec-2-international-journal-of-heat-and-mass-t",
+            "number": null,
+            "title": "International Journal of Heat and Mass Transfer",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "new_term::free_particle_layer",
+    "also_in": [
+      "sarangi-2015-effect-of-particle-size-on"
+    ]
+  },
+  {
+    "record_id": "mchale-2010-bubble-nucleation-characteristics-in-pool",
+    "field": "taxonomy.fluid[0]",
+    "kind": "new_term",
+    "proposed": "FC-77",
+    "reason": "proposes a term not in the fluid vocabulary",
+    "evidence": [
+      {
+        "quote": "using a perfluorinated hydrocarbon (FC-77) as the working fluid",
+        "resolved": true,
+        "char_span": [
+          701,
+          764
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-john-p-mchale-suresh-v-garimella",
+            "number": null,
+            "title": "John P. McHale, Suresh V. Garimella *",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      },
+      {
+        "quote": "The properties of FC-77 used in all the calculations are provided\nin Table 2.",
+        "resolved": true,
+        "char_span": [
+          32097,
+          32174
+        ],
+        "pages": [
+          7
+        ],
+        "sections": [
+          {
+            "id": "sec-40",
+            "number": "40",
+            "title": "W, 60 W, and 80 W, respectively. The measurements therefore",
+            "level": 2
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "new_term::fc-77"
+  },
+  {
+    "record_id": "mchale-2010-bubble-nucleation-characteristics-in-pool",
+    "field": "taxonomy.surface_enhancement[1]",
+    "kind": "new_term",
+    "proposed": "edm_machined",
+    "reason": "proposes a term not in the surface_enhancement vocabulary",
+    "evidence": [
+      {
+        "quote": "the electrical discharge machined (EDM) surface with an Ra value of 5.89 lm",
+        "resolved": true,
+        "char_span": [
+          14251,
+          14326
+        ],
+        "pages": [
+          3
+        ],
+        "sections": [
+          {
+            "id": "sec-2-international-journal-of-multiphase-flow",
+            "number": null,
+            "title": "International Journal of Multiphase Flow",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      },
+      {
+        "quote": "by electrical discharge machining (EDM) in the case of the roughened surface",
+        "resolved": true,
+        "char_span": [
+          892,
+          968
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-john-p-mchale-suresh-v-garimella",
+            "number": null,
+            "title": "John P. McHale, Suresh V. Garimella *",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "new_term::edm_machined"
+  },
+  {
+    "record_id": "mchale-2010-bubble-nucleation-characteristics-in-pool",
+    "field": "application.targets[1]",
+    "kind": "unstated_application",
+    "proposed": "electronics_thermal",
+    "reason": "application inferred rather than stated by the paper",
+    "evidence": [
+      {
+        "quote": "refrigeration cycles, and electronics. Roughened or otherwise en",
+        "resolved": true,
+        "char_span": [
+          1970,
+          2034
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-john-p-mchale-suresh-v-garimella",
+            "number": null,
+            "title": "John P. McHale, Suresh V. Garimella *",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      },
+      {
+        "quote": "Cooling Technologies Research Center, School of Mechanical Engineering and Birck Nanotechnology Center, Purdue University, West Lafayette, IN 47907-2088, USA",
+        "resolved": true,
+        "char_span": [
+          137,
+          294
+        ],
+        "pages": [
+          1
+        ],
+        "sections": [
+          {
+            "id": "sec-0-john-p-mchale-suresh-v-garimella",
+            "number": null,
+            "title": "John P. McHale, Suresh V. Garimella *",
+            "level": 1
+          }
+        ],
+        "match": "exact",
+        "score": 1.0
+      }
+    ],
+    "created": "2026-09-14",
+    "key": "unstated_application::electronics_thermal"
   }
 ]

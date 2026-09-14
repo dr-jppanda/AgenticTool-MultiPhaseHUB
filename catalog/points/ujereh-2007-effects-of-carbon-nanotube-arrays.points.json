@@ -1,0 +1,285 @@
+{
+  "record_id": "ujereh-2007-effects-of-carbon-nanotube-arrays",
+  "series": [
+    {
+      "series_id": "fig-11-fully-coated",
+      "figure_id": "fig-11",
+      "label": "Fully coated",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          6.9,
+          0.9
+        ],
+        [
+          8.6,
+          2.4
+        ],
+        [
+          9.1,
+          4.0
+        ],
+        [
+          8.8,
+          6.0
+        ],
+        [
+          9.0,
+          8.0
+        ],
+        [
+          9.2,
+          10.0
+        ],
+        [
+          9.2,
+          12.0
+        ],
+        [
+          9.7,
+          14.0
+        ],
+        [
+          9.2,
+          15.1
+        ],
+        [
+          9.7,
+          16.6
+        ],
+        [
+          11.8,
+          17.2
+        ]
+      ],
+      "uncertainty": {
+        "method": "manual_visual_digitization"
+      },
+      "notes": "Open-circle marker curve, isolated by shape (no other curve uses circles). Markers for this series overlap heavily with the 'Grid pattern' squares along nearly the same vertical band (dT~8-12 C), so individual marker centers were read against a pixel-calibrated grid overlay (tick marks at dT=0/10/20/30/40/50/60 and q''=0/5/10/15/20) rather than picked out with certainty at every step; low-q natural-convection point and incipience jump are approximate. Last point is the CHF marker (arrow-labeled)."
+    },
+    {
+      "series_id": "fig-11-grid-pattern",
+      "figure_id": "fig-11",
+      "label": "Grid pattern",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.9,
+          1.0
+        ],
+        [
+          2.2,
+          1.7
+        ],
+        [
+          5.2,
+          3.0
+        ],
+        [
+          11.0,
+          2.2
+        ],
+        [
+          10.3,
+          4.0
+        ],
+        [
+          10.5,
+          6.0
+        ],
+        [
+          10.7,
+          8.0
+        ],
+        [
+          10.9,
+          10.0
+        ],
+        [
+          10.9,
+          12.0
+        ],
+        [
+          10.9,
+          13.9
+        ],
+        [
+          10.9,
+          15.0
+        ],
+        [
+          11.75,
+          15.5
+        ]
+      ],
+      "uncertainty": {
+        "method": "manual_visual_digitization"
+      },
+      "notes": "Open-square marker curve, isolated by shape. Natural-convection branch (low dT, low q) and the incipience hysteresis jump (arrow-labeled, near dT~11, q~2.2) are read from a distinct near-horizontal line segment separate from the main nucleate-boiling branch; main branch overlaps closely with the 'Fully coated' circles, so some marker centers were disambiguated mainly by outline shape (square vs round) rather than pixel color, since both are black outlines on white. Last point is the CHF marker."
+    },
+    {
+      "series_id": "fig-11-island-pattern",
+      "figure_id": "fig-11",
+      "label": "Island pattern",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          4.4,
+          1.0
+        ],
+        [
+          15.55,
+          2.04
+        ],
+        [
+          16.67,
+          3.12
+        ],
+        [
+          16.86,
+          3.9
+        ],
+        [
+          17.13,
+          4.76
+        ],
+        [
+          17.41,
+          5.61
+        ],
+        [
+          17.47,
+          6.51
+        ],
+        [
+          18.16,
+          8.15
+        ],
+        [
+          19.0,
+          8.77
+        ],
+        [
+          20.11,
+          9.57
+        ],
+        [
+          21.73,
+          10.15
+        ],
+        [
+          23.69,
+          10.89
+        ],
+        [
+          24.86,
+          11.53
+        ],
+        [
+          26.32,
+          12.22
+        ],
+        [
+          28.18,
+          12.89
+        ],
+        [
+          30.26,
+          13.55
+        ]
+      ],
+      "uncertainty": {
+        "method": "manual_visual_digitization"
+      },
+      "notes": "Open-diamond marker curve. This curve is spatially separated from the other three over most of its range, so markers were read with higher confidence than the overlapping circle/square cluster; only the low-q natural-convection point (dT~4.4) is uncertain since it sits in the dense low-x/low-q cluster shared visually with other series' natural-convection points. Last point is the CHF marker."
+    },
+    {
+      "series_id": "fig-11-bare-silicon",
+      "figure_id": "fig-11",
+      "label": "Bare silicon",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          8.4,
+          1.0
+        ],
+        [
+          25.7,
+          2.11
+        ],
+        [
+          32.68,
+          2.63
+        ],
+        [
+          24.86,
+          3.94
+        ],
+        [
+          29.61,
+          8.58
+        ],
+        [
+          30.26,
+          9.08
+        ],
+        [
+          31.01,
+          9.58
+        ],
+        [
+          31.94,
+          10.13
+        ],
+        [
+          32.96,
+          10.82
+        ],
+        [
+          34.45,
+          11.29
+        ]
+      ],
+      "uncertainty": {
+        "method": "manual_visual_digitization"
+      },
+      "notes": "Open-triangle marker curve, well separated from the other three over most of its range (higher dT). The incipience hysteresis segment (two natural-convection points near q~2-3 connected by an arrow-labeled jump to the nucleate-boiling onset) and the low-q natural-convection point (dT~8.4) shared visually with other series were harder to disambiguate; there is also an unsampled gap between q~4 and q~8.5 where no marker was confidently resolved. Last point is the CHF marker."
+    }
+  ]
+}

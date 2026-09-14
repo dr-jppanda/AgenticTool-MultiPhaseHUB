@@ -1,0 +1,89 @@
+{
+  "phenomenon": {
+    "tier1": "evaporation",
+    "tier2": "falling_film",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "falling film evaporation measurements on a single tube, a vertical row of ten horizontal tubes and a small tube bundle with three rows of 10 tubes each are"
+      },
+      {
+        "quote": "Experimental results for pool boiling, onset-of-dryout and\nfalling film evaporation"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "tube_bundle",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "For single-array tests, these ten tubes were installed horizontally in a vertical array. For bundle tests, two additional"
+      },
+      {
+        "quote": "Falling film evaporation on a Turbo-B5 tube bundle\nand single array at Tsat [ 5 C."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Tests were conducted by gradually decreasing the liquid\nfilm flow rate on the top tube at a fixed heat flux. The data\nwere logged only if steady state conditions were attained."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": "R134a",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "were tested using R-134a and R-236fa. The tests were carried out at a saturation temperature of Tsat 1⁄4 5 C"
+        }
+      ]
+    },
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "R236fa",
+      "evidence": [
+        {
+          "quote": "Experimental data collected for tubes Turbo-B5 and Gewa-B5\nusing refrigerants R-134a and R-236fa in both pool boiling and\nfalling film tests were presented and discussed."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "structured",
+      "tier2": "reentrant_cavities",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the Wolverine Turbo-B5 and the Wieland Gewa-B5"
+        },
+        {
+          "quote": "decrease could be due to progressive partial dryout of the"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "wall_superheat",
+    "dryout_quality"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

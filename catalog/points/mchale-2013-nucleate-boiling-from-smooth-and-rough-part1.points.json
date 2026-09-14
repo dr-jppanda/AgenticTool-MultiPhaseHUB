@@ -1,0 +1,559 @@
+{
+  "record_id": "mchale-2013-nucleate-boiling-from-smooth-and-rough-part1",
+  "series": [
+    {
+      "series_id": "fig-9-surface-1",
+      "figure_id": "fig-9",
+      "label": "1",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.43,
+          0.0
+        ],
+        [
+          3.56,
+          0.0
+        ],
+        [
+          9.08,
+          1929.0
+        ],
+        [
+          16.25,
+          3981.0
+        ],
+        [
+          23.51,
+          6352.0
+        ],
+        [
+          30.11,
+          8675.0
+        ],
+        [
+          34.41,
+          14452.0
+        ],
+        [
+          34.48,
+          63127.0
+        ],
+        [
+          35.48,
+          92406.0
+        ],
+        [
+          37.36,
+          131725.0
+        ],
+        [
+          47.61,
+          121908.0
+        ],
+        [
+          66.96,
+          68140.0
+        ],
+        [
+          80.76,
+          58783.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 1. Points read as centers of vector marker glyphs (color (0.0, 0.0, 0.0)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-2",
+      "figure_id": "fig-9",
+      "label": "2",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.52,
+          0.0
+        ],
+        [
+          3.36,
+          0.0
+        ],
+        [
+          6.58,
+          1992.0
+        ],
+        [
+          11.71,
+          3058.0
+        ],
+        [
+          17.89,
+          4490.0
+        ],
+        [
+          23.81,
+          6002.0
+        ],
+        [
+          24.45,
+          22360.0
+        ],
+        [
+          24.77,
+          41312.0
+        ],
+        [
+          24.79,
+          97116.0
+        ],
+        [
+          25.62,
+          119919.0
+        ],
+        [
+          27.45,
+          153844.0
+        ],
+        [
+          39.05,
+          131216.0
+        ],
+        [
+          62.32,
+          42266.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 2. Points read as centers of vector marker glyphs (color (0.3333300054073334, 0.3333300054073334, 0.3333300054073334)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-3",
+      "figure_id": "fig-9",
+      "label": "3",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.29,
+          0.0
+        ],
+        [
+          1.65,
+          0.0
+        ],
+        [
+          6.52,
+          0.0
+        ],
+        [
+          14.52,
+          3313.0
+        ],
+        [
+          18.01,
+          3281.0
+        ],
+        [
+          18.3,
+          30380.0
+        ],
+        [
+          18.4,
+          70606.0
+        ],
+        [
+          18.76,
+          98867.0
+        ],
+        [
+          19.57,
+          133794.0
+        ],
+        [
+          21.0,
+          176582.0
+        ],
+        [
+          25.51,
+          195168.0
+        ],
+        [
+          30.59,
+          233771.0
+        ],
+        [
+          63.33,
+          92470.0
+        ],
+        [
+          81.97,
+          69954.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 3. Points read as centers of vector marker glyphs (color (0.3333300054073334, 0.0, 0.0)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-4",
+      "figure_id": "fig-9",
+      "label": "4",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.35,
+          0.0
+        ],
+        [
+          2.18,
+          0.0
+        ],
+        [
+          4.34,
+          0.0
+        ],
+        [
+          7.27,
+          0.0
+        ],
+        [
+          12.32,
+          7673.0
+        ],
+        [
+          15.88,
+          16727.0
+        ],
+        [
+          16.72,
+          43110.0
+        ],
+        [
+          17.11,
+          92358.0
+        ],
+        [
+          18.3,
+          129848.0
+        ],
+        [
+          20.6,
+          169597.0
+        ],
+        [
+          23.79,
+          208614.0
+        ],
+        [
+          28.38,
+          260265.0
+        ],
+        [
+          59.12,
+          129084.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 4. Points read as centers of vector marker glyphs (color (0.3333300054073334, 0.3333300054073334, 0.0)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-5",
+      "figure_id": "fig-9",
+      "label": "5",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.59,
+          0.0
+        ],
+        [
+          2.2,
+          0.0
+        ],
+        [
+          5.5,
+          0.0
+        ],
+        [
+          7.9,
+          6114.0
+        ],
+        [
+          11.3,
+          11667.0
+        ],
+        [
+          13.89,
+          24254.0
+        ],
+        [
+          15.83,
+          44733.0
+        ],
+        [
+          17.56,
+          65848.0
+        ],
+        [
+          18.59,
+          106202.0
+        ],
+        [
+          21.12,
+          130596.0
+        ],
+        [
+          24.49,
+          165301.0
+        ],
+        [
+          28.73,
+          173448.0
+        ],
+        [
+          31.94,
+          238465.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 5. Points read as centers of vector marker glyphs (color (0.0, 0.3333300054073334, 0.0)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-6",
+      "figure_id": "fig-9",
+      "label": "6",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          2.52,
+          0.0
+        ],
+        [
+          6.75,
+          0.0
+        ],
+        [
+          11.24,
+          3154.0
+        ],
+        [
+          15.32,
+          12367.0
+        ],
+        [
+          17.31,
+          21533.0
+        ],
+        [
+          17.85,
+          65451.0
+        ],
+        [
+          20.29,
+          77958.0
+        ],
+        [
+          22.88,
+          159429.0
+        ],
+        [
+          26.33,
+          199496.0
+        ],
+        [
+          56.42,
+          75523.0
+        ],
+        [
+          79.37,
+          23649.0
+        ],
+        [
+          94.53,
+          44001.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 6. Points read as centers of vector marker glyphs (color (0.0, 0.0, 0.3333300054073334)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    },
+    {
+      "series_id": "fig-9-surface-7",
+      "figure_id": "fig-9",
+      "label": "7",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/m^2",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.35,
+          0.0
+        ],
+        [
+          3.91,
+          0.0
+        ],
+        [
+          7.52,
+          1785.0
+        ],
+        [
+          11.74,
+          3170.0
+        ],
+        [
+          17.41,
+          5191.0
+        ],
+        [
+          23.52,
+          7546.0
+        ],
+        [
+          25.7,
+          12558.0
+        ],
+        [
+          25.87,
+          48934.0
+        ],
+        [
+          26.32,
+          75316.0
+        ],
+        [
+          26.69,
+          117850.0
+        ],
+        [
+          28.11,
+          142100.0
+        ],
+        [
+          32.74,
+          165810.0
+        ],
+        [
+          63.77,
+          29393.0
+        ],
+        [
+          76.05,
+          33785.0
+        ]
+      ],
+      "confidence": 0.92,
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Panel (b) of Fig 9 (corrected heat flux), curve for surface 7. Points read as centers of vector marker glyphs (color (0.3333300054073334, 0.0, 0.3333300054073334)), isolated by fill/stroke color and marker bounding-box size to exclude dashed/dotted connector-line segments. Axes calibrated from tick-mark pixel positions matched to printed tick labels (linear fit, R^2~1)."
+    }
+  ]
+}

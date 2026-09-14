@@ -1,0 +1,123 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": [
+      {
+        "quote": "The boiling performance assessment involved five consecutive\nboiling curve runs under saturated conditions at atmospheric pressure."
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 50.0,
+    "max": 1462.0,
+    "unit": "kW m-2",
+    "evidence": [
+      {
+        "quote": "the mean wall superheat was computed\nin the heat flux region between 50 kW m-2 and 900 kW m-2 for all tested surface-fluid\ncombinations"
+      },
+      {
+        "quote": "However, the highest CHF of\n1462 kW m-2 was recorded at higher concentrations"
+      },
+      {
+        "quote": "Each run involved recording the boiling curves\nup to the CHF, spanning a duration of 45 min."
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.2,
+    "max": 0.2,
+    "unit": "μm",
+    "evidence": [
+      {
+        "quote": "The achieved roughness (Ra) of the sanded samples was approximately\n0.2 μm."
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 3.0,
+    "max": 164.0,
+    "unit": "◦",
+    "evidence": [
+      {
+        "quote": "The static contact angle of\n164◦± 0.7◦was recorded on superhydrophobic surfaces before boiling tests, while after\nexposure to boiling, a value of 140◦± 0.8◦was measured."
+      },
+      {
+        "quote": "the static contact angle recorded on the\nsurface after boiling with 0.1 wt.% nanofluid was around 3◦"
+      },
+      {
+        "quote": "from hydrophilic (contact angle of 61◦) to hydrophobic (contact angle of 93◦) after exposure\nto boiling"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "copper"
+}

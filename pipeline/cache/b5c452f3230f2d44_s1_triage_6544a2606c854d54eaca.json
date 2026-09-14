@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool boiling heat transfer enhancement using vertically aligned carbon nanotube coatings on a copper substrate",
+  "year": 2016,
+  "reason": "The authors measured their own pool boiling curves, CHF values, and heat transfer coefficients on bare, sandblasted, and CNT-coated copper substrates with de-mineralized water."
+}

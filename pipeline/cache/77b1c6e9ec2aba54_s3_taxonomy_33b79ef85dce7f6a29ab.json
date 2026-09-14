@@ -1,0 +1,116 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": "fully_developed",
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Effects of carbon nanotube arrays on nucleate pool boiling"
+      },
+      {
+        "quote": "The fully developed pool boiling (FDB) superheat is defined as the\nsurface-to-fluid temperature difference corresponding to\nfull nucleation coverage."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "different\nenhanced surface configurations took the form of a square\nchip (silicon or copper) that was adhered to the top surface\nof copper block"
+      },
+      {
+        "quote": "The bare silicon substrates were formed by dicing the wafer\ninto 12.7 mm 12.7 mm square chips"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Data were\nrecorded between power increments after the test heater's\nthermocouple indicated that steady-state conditions had\nbeen reached within ±0.4 C."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Different CNT array densities and area coverages were tested on 1.27 1.27 mm2 samples in FC-72."
+        },
+        {
+          "quote": "The chamber was filled with\nFC-72 liquid to a level several centimeters above the test\nchip."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "nanostructured",
+      "tier2": "cnt",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The titanium-coated chip was dipped in a dendrimer\ncatalyst solution as described earlier to yield a CNT array\nwith complete surface coverage."
+        },
+        {
+          "quote": "The resulting MWNTs are estimated to be approximately\n50 nm in diameter and 20-30 lm long."
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The bare silicon surface served as the primary control\nfor the boiling performance comparisons."
+        }
+      ]
+    },
+    {
+      "tier1": "structured",
+      "tier2": "pin_fins",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Fig. 7a shows a schematic of a copper chip featuring an\narray of 0.25 mm square microstuds."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The copper surface was then sanded with 400-\ngrit sandpaper and cleaned thoroughly with methanol."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "onb"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

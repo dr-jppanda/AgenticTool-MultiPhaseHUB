@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Pool Boiling Performance Comparison of Smooth and Sintered Copper Surfaces with and Without Carbon Nanotubes",
+  "year": 2011,
+  "reason": "The authors measured their own pool boiling curves, incipience superheats, and CHF values for HFE-7300 and DI water on four fabricated copper surfaces, e.g., \"Critical heat flux for HFE-7300 increased by more than 45% for the hybrid surface relative to the smooth copper surface.\""
+}

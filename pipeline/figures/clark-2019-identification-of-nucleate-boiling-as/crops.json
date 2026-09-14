@@ -1,0 +1,139 @@
+{
+  "record_id": "clark-2019-identification-of-nucleate-boiling-as",
+  "n_crops": 7,
+  "crops": [
+    {
+      "element_id": "fig-p1-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 1,
+      "bbox": [
+        38.52000045776367,
+        62.21099853515625,
+        566.7569580078125,
+        152.13897705078125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-p1-01.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-p1-01.png",
+      "n_panels": 6,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "(a) Cross-sectional view of the test section, (b) schematic diagram of the ori\ufb01ce plate con\ufb01guration for jet impingement and pool boiling, and (c) \ufb02ow loop diagram.",
+      "page": 3,
+      "bbox": [
+        38.51969909667969,
+        63.91802978515625,
+        566.5640258789062,
+        336.388427734375
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-1.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Geometrical parameters and operating conditions for the two-phase jet impingement experiments.",
+      "page": 4,
+      "bbox": [
+        28.711753845214844,
+        63.58826446533203,
+        548.2564697265625,
+        140.57102966308594
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\tab-1.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\tab-1.png",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "(a) Boiling curves and (b) heat transfer coef\ufb01cients as a function of heat \ufb02ux for the jet impingement con\ufb01guration (corresponding to V j = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H / d = 3) compared with pool boiling.",
+      "page": 5,
+      "bbox": [
+        38.51969909667969,
+        63.918975830078125,
+        566.5825805664062,
+        287.4623718261719
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-2.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-2.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "(a and c) Boiling curves and (b and d) heat transfer coef\ufb01cients as a function of heat \ufb02ux for the jet impingement con\ufb01guration (corresponding to V j = 9 m/s and 1 m/s, respectively; H / d = 0.5, 1, 3, and 10) compared with pool boiling.",
+      "page": 5,
+      "bbox": [
+        38.51969909667969,
+        314.4440002441406,
+        566.565185546875,
+        725.6417846679688
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-3.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-3.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Critical heat \ufb02ux (CHF) for the jet impingement (corresponding to V j = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H / d = 3) and pool boiling con\ufb01gurations.",
+      "page": 6,
+      "bbox": [
+        28.71179962158203,
+        63.91798400878906,
+        287.7494201660156,
+        304.1866455078125
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-4.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-4.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Comparison of high-speed video frames across four jet velocities ( V j = 1 m/s, 3 m/s, 6 m/s, and 9 m/s; H / d = 3) at a constant non-dimensional heat input ( Bl * = 0.76). The corresponding heat \ufb02uxes for each jet velocity are highlighted on the boiling curve. Full videos are included in the Supplementary Materials .",
+      "page": 6,
+      "bbox": [
+        28.71179962158203,
+        513.6629638671875,
+        556.7559814453125,
+        759.090576171875
+      ],
+      "pdf_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-5.pdf",
+      "preview_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\clark-2019-identification-of-nucleate-boiling-as\\fig-5.png",
+      "n_panels": 2,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 1.0
+    }
+  ]
+}

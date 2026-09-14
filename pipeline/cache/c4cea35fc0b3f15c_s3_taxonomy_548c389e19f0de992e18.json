@@ -1,0 +1,123 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "was investigated under pool boiling of saturated refrigerant"
+      },
+      {
+        "quote": "The individually tested tubes were submerged in saturated"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "cylinder",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "of 19 mm horizontal copper tubes heated by water to determine the effectiveness of this multiscale enhancement"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "This study experimentally investigates the effect of multiscale en"
+      },
+      {
+        "quote": "All tests were conducted in R134a refrigerant at a saturation tem"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "refrigerant_hfc",
+      "tier2": "R134a",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Pool boiling HTCs of uncoated micro-enhanced tubes in R134a."
+        },
+        {
+          "quote": "All tests were conducted in R134a refrigerant at a saturation tem"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The tubes tested were a plain tube roughened by sand"
+        }
+      ]
+    },
+    {
+      "tier1": "structured",
+      "tier2": "fins",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "one low finned GEWA-KS with 19 fpi tested"
+        }
+      ]
+    },
+    {
+      "tier1": "structured",
+      "tier2": "reentrant_cavities",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "cavity style tubes tested, the Turbo EHPII and the GEWA-B5"
+        }
+      ]
+    },
+    {
+      "tier1": "nanostructured",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "copper_oxide_nanostructure_coating",
+      "evidence": [
+        {
+          "quote": "coated with a copper oxide (CuO) nanocoating"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophilic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "where the super hydrophilic CuO nanocoated tubes pro"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "contact_angle",
+    "bubble_dynamics"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

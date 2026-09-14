@@ -1,0 +1,226 @@
+{
+  "doc_id": "274571d52e4b46d1",
+  "source": "papers\\chu_2013_cuo_hierarchical.pdf",
+  "text": "ENHANCED BOILING HEAT TRANSFER WITH COPPER OXIDE\nHIERARCHICAL SURFACES\nK.-H. Chu1,*, Y. Zhu1, N. Miljkovic1, Y. Nam1,2, R. Enright1,3 and E.N. Wang1\n1Massachusetts Institute of Technology, Cambridge, U.S.A.\n2Kyung Hee University, Yongin, Korea\n3Bell Labs Ireland, Alcatel-Lucent, Dublin, Ireland\nABSTRACT\nWe experimentally investigated the enhancement in\ncritical heat flux (CHF) during pool boiling on copper\noxide (CuO) hierarchical surfaces, where surface\nroughness at multiple length scales is presented. On the\nsurface with the highest surface roughness factor of 13.3,\na CHF of \u2248250 W/cm2 and heat transfer coefficient of\n\u22488\u00d7104 W/m2 K, were achieved. A good agreement\nbetween our developed model and experimental results\nsupports the idea that roughness-amplified surface forces\nare responsible for CHF enhancement on structured\nsurfaces. The work promises enhanced heat removal\ncapability using hierarchically-structured surfaces for high\nheat flux thermal management.\nKEYWORDS\nhierarchical surface, critical heat flux, copper oxide,\nsurface roughness, nanostructure, boiling\nINTRODUCTION\nThermal management using two-phase cooling has\nreceived significant interest for various high flux\napplications including concentrated photovoltaics, GaN\npower amplifiers, and integrated circuits [1-4]. In a\nboiling heat transfer system, the critical heat flux (CHF),\nwhere a vapor film will begin to cover the heated surface\nleading to a loss of contact between the surface and liquid,\nrepresents the operational limit due to the significant\nreduction in heat transfer efficiency. Therefore, methods\nto extend CHF have been studied extensively owing to its\nsignificant practical importance in high performance\nthermal management systems [5-11]. Our recent work\nutilized well-defined silicon pillar arrays to demonstrate\nthe role of increasing surface roughness ratio, i.e., r =\ntotal surface area/projected surface area, for CHF\nenhancement [12] on complete wetting surfaces, where\nthe apparent contact angle is \u03b2 = 0. The developed CHF\nmodel, based on roughness-amplified capillary forces\npinning the contact line of vapor bubbles, showed good\nagreement with experimental data for microstructured\nsurfaces with 1 \u2264 r \u2264 6, with further CHF enhancement\npredicted for higher values of r. In this work, we\nfabricated copper oxide (CuO)-based hierarchical surfaces\nwith r \u2022 4.8 - 13.3 to further increase CHF and support the\nconcept\nthat\nintroducing\nhierarchy\nproduces\na\nmultiplicative effect on contact line pinning forces.\nAccordingly, we demonstrated \u074d\u0bd6\n\u11f1\u11f1 \u2022 250 W/cm\n2 with wall\nsuperheat of \u2022 33 K on the roughest sample tested,\nrepresenting a \u2022200% increase in CHF compared to\nsmooth SiO2 reference surfaces. The obtained CHF values\non the hierarchical surfaces showed good agreement with\nthe model prediction, which supports our physical view of\nthe enhancement phenomenon and the multiplicative\neffect of roughness at distinct length scales. This\npredictable high heat removal capability using scalable\nfabrication techniques promises an exciting opportunity\nfor new surface designs for high flux thermal\nmanagement.\nCHF MODEL\nIn our recent study, the CHF condition was predicted\nbased on a force balance between the evaporating vapor\nmomentum, buoyancy, and surface forces acting on the\nliquid/vapor interface of an individual bubble [5]. We\nmodified this model, however to decouple the bubble\ngeometry from the surface force. Accordingly, the surface\nforce maintaining the position of the contact line is\namplified due to a longer effective contact line length on\nthe structured surfaces, leading to an expression of the\nfollowing form [12]:\n\u074d\u0bd6\u11f1\u11f1\u0d4c\u072d\u0d48\u0744\n\u0bd9\u0bda\u07e9\u0bda\n\u0b35/\u0b36\u123e\u07ea\u0bdf\u0be9\u0743\u123a\u07e9\u0bdf\u0d46\u07e9\u0bda\u123b\u123f\u0b35/\u0b38,\n(1)\nwhere\n\u072d\u0d4c\u0d6c1 \u0d45cos \u07da\n16\n\u0d70\u0d64\n2\u123a1 \u0d45\u07d9\u123b\n\u07e8\u123a1 \u0d45cos \u07da\u123b\u0d45\u07e8\n4 \u123a1 \u0d45cos \u07da\u123bcos\u07f0\n\u0d68\n\u0b35/\u0b36\n,\n\u07d9\u0d4c\u074e\u073f\u074b\u074f\u07e0\u0be5\u0bd8\u0bd6 is the amplified surface force term, \u07e0\u0be5\u0bd8\u0bd6 is\nthe liquid receding angle on the corresponding smooth\nsurface (i.e., intrinsic receding angle), \u07ea\u0bdf\u0be9 is the liquidvapor surface tension, and \u07f0 is the inclination angle of the\nsurface (i.e.,\n\u0d4c0 for a horizontal upward facing\nsurface).\nIn\nthe\nsuperhydrophilic\nwetting\nregime\n(\u07da\u0d4c0\u00b0\u123b, Equation 1 shows a proportional increase in\nCHF with the parameter K, which, in turn, is proportional\nto the square root of the roughness factor r through \u03b1, i.e.,\n\u074d\u0bd6\n\u11f1\u11f1\u05df \u221a\u074e. Therefore, further enhancement in CHF should\nincrease monotonically with increasing roughness factor.\nIndeed, we demonstrated that experimental pool boiling\ndata on microstructured surfaces with roughness factors r\nranging from 1.8 to 6 follows this scaling, with reasonable\nquantitative\nagreement\ndespite\nseveral\nsimplifying\nassumptions used in the model development [12].\nFABRICATION AND EXPERMENTS\nFabrication\nWe\nfabricated\nCuO-based,\nsuperhydrophilic\nhierarchical surfaces with two distinct length scales to\nfurther demonstrate our understanding of roughness\neffects on CHF and to achieve larger heat transfer\nenhancements.\nThe\nsurfaces\nwere\nfabricated\nby\nelectroplating Cu micropillars followed by a chemical\noxidation step to form CuO nanostructures [13], as shown\nW3P.117\n978-1-4673-5983-2/13/$31.00 \u00a92013 IEEE\n2272\nTransducers 2013, Barcelona, SPAIN, 16-20 June 2013\nin Fig.1. The electroplated square array of Cu micropillars\nhad heights ranging from 35-68 \u03bcm, diameters of 30-\n35 \u03bcm, and spacings of 30 \u03bcm. Scanning electron\nmicrographs (SEMs) representative of the realized\nhierarchical surfaces are shown in Fig. 2(a-d). Also,\nshown in Fig. 2(e) is a cross-section image of the\nhierarchical structures obtained using focused ion beam\n(FIB) milling. Finally, on all surfaces, a 1 \u03bcm thick layer\nof Cu was deposited on the back side of the silicon\nsubstrates to facilitate solder attachment of the samples to\nthe test setup. Upon dicing, the samples had a projected\nsurface area of 2 \u00d7 2 cm2, which is large enough to be\nconsidered representative of an infinite plate for water\n[14, 15] and is of comparable size to typical high heat flux\nelectronic components. The heat transfer performance of\nthe hierarchical surfaces was measured using an\nexperimental pool boiling setup, as shown in Fig. 3\n[12]. All tests were performed using degassed, high\npurity water (Chromasolv for HPLC, Sigma-Aldrich) to\navoid premature bubble formation and minimize surface\ncontamination.\nFigure 1: CuO hierarchical surfaces were fabricated as\nfollows: (1) Ti/Cu/Ti layers were deposited on a silicon\nsubstrate. (2) A thick (\u2248100 \u03bcm) PR mold was patterned\nusing photolithography. (3) The top Ti layer was removed\nto expose the Cu layer and then Cu micropillars were\nelectroplated. (4) After removing the photoresist, Cu\nmicropillars were oxidized in an alkali solution composed\nof NaClO2, NaOH, Na3PO4.12H2O to form CuO\nnanostructures.\nSurface Characterization\nTo estimate the surface roughness factor, r, for the\nCuO surfaces, we first characterized the roughness factors\nof the nanoscale structure component, rn, However, the\nroughness by direct methods such as AFM, FIB images,\nand contact angle measurement [16], did not reflect how\nthe vapor bubble was in contact with the surfaces, i.e.,\ntrue contact line length [17]. Therefore, we extracted the\nrn of the CuO nanostructures from CHF data obtained on a\nnanostructured CuO surface using our CHF model in\nEq.1. The effective rn on our CuO nanostructured surfaces\nestimated by this indirect approach was \u22484.8. We note\nthat the CuO nanostructures on both the smooth and\nmicrostructured Cu surfaces were formed using the same\noxidation conditions. The total roughness factors, r, were\nthen calculated as the product of rn and roughness factor\nof the micropillars rm (i.e., r = rn \u00d7 rm). The CuO\nhierarchical surfaces were superhydrophilic behavior at\nroom temperature due to the large roughness factors\nobtained, r > 4.8, and the high surface energy.\nFigure 2: Scanning electron micrographs (SEMs) of the\nrepresentative,\nfabricated\nCuO-based\nhierarchical\nsurfaces. (a) CuO micropillar array in a square array\nwith heights of 61 \u03bcm, diameters of 30 \u03bcm, and spacings\nof 30 \u03bcm. (b) Electroplated Cu micropillars, and (c)\nmicropillars with CuO nanostructures formed on the\nsurfaces. (d) Magnified view of the CuO micropillar and\nCuO nanostructures formed on the surfaces (inset). (e)\nCross-sectional view of the CuO micropillar obtained\nusing FIB milling.\nFigure 3: Schematic of the experimental pool boiling\nsetup [12]. The setup consists of a copper block and a\nglass chamber fixed at both ends by Ultem mounts.\nCartridge heaters were imbedded in the copper block\nallowing for a maximum power of 1400 W. Five in-line\nthermocouples were inserted into the center axis of the\ncopper block to measure the heat flux and surface\ntemperature.\nExperimental Results\nFigure 4(a) shows the heat flux \u074d\u2032\u2032 as a function of\nwall superheat \u2206T = Tw - Tsat, where Tw is the heated\nSilicon\n/SiO2\nTitanium\nCopper\n/CuO\nPR\n2. PR patterning\n3. Electroplating\n4. PR removing and\nchemical oxidation\n1. Seed layer deposition\n2273\nsurface temperature and Tsat is the saturation temperature\n(i.e., boiling curve) for the Cu-CuO-based hierarchical\nsurfaces (Hier). Reference boiling curves obtained for\nsmooth SiO2 surfaces (Sm) and microstructured silicon\nsurfaces (Micro) are also shown in Fig. 4(a) for\ncomparison. Details of the tested surface geometries are\nlisted in Table I. The maximum uncertainty of the heat\nflux and temperature measurements was calculated to be\n\u22485.6% and \u00b11.8 K, respectively [12, 17]. While a CHF of\n\u224883 W/cm2 and \u2248208 W/cm2 were obtained on the silicon\nsmooth (Sm) and microstructured (Micro3) surfaces,\nrespectively, CHF values of 250 W/cm2 was demonstrated\non\nthe\nbest\nperforming\nCu-CuO-based\n(Hier3)\nhierarchical surfaces. The significant enhancement in\nCHF on the hierarchical surfaces (up to 200%) is\nattributed to the high surface roughness factor, which\nprovides a large surface force to balance the momentum\nforce due to evaporation [12]. In addition, the sudden\nreduction in superheat \u0394T along the boiling curve of\nhierarchical surfaces (i.e., \"kickback\") is indicative of\nnucleation sites within the nanostructures becoming active\n[18]. This decrease in superheat \u0394T but continuous\nincrease in heat flux q\" results in the enhancement in heat\ntransfer coefficient, h near CHF, as shown in Fig. 4(b),\nrepresenting higher heat transfer performance. Compared\nto h on smooth (Sm) and microstructured (Micro)\nsurfaces, the CuO hierarchical surfaces demonstrated a\nsignificant enhancement in h at high \u074d\u11f1\u11f1, which was due to\nthe delay in CHF.\nTABLE I: Geometric parameters of the hierarchical\nsurfaces. The units of height \u0744, diameter \u0740 and (center-tocenter) spacing \u074f for micropillars are in microns (\u03bcm).\nThe roughness factor of the microstructure, \u074e\u0be0, is\ncalculated with \u074e\u0be0=1+ \u07e8\u0740\u0744\n(\u0740+\u074f)2\n\u2044\n. The effective\nroughness factor of contact line, \u074e, is the products of\nroughness\nfactors\nat\nmicro\nand\nnanoscales,\ni.e., \u074e\u0d4c \u074e\u0be0\u0d48\u074e\u0be1.\nSample\nNo.\n\u074f\n\u074e\u0be0\n\u074e\u0be1\n\u074e\nSm\nn/a\nn/a\nn/a\n1.0\n1.0\n1.0\nMicro1\n20\n10\n15\n2.6\n1.0\n2.6\nMicro2\n20\n10\n10\n3.5\n1.0\n3.5\nMicro3\n20\n10\n5\n5.4\n1.0\n5.4\nCuO\nn/a\nn/a\nn/a\n1.0\n4.8*\n4.8\nHier1\n35\n30\n30\n1.91\n4.8*\n9.2\nHier2\n61\n30\n30\n2.59\n4.8*\n12.4\nHier3\n68\n35\n30\n2.78\n4.8*\n13.3\n*Estimation based on the CHF model and experimental\nCHF values on CuO nanostructured surfaces\nFigure 4. Heat transfer performance. (a) CHF and (b)\ncorresponding heat transfer coefficient comparing smooth\n(Sm) and microstructured silicon (Micro) and CuO\nhierarchical (Hier) surfaces\nIn Fig. 5, the predicted CHF as a function of \u07d9 (Eq.\n1) is overlaid with data from our experiments for the\nhierarchical surfaces (in red) and previously tested\nmicrostructured surfaces [12] (in blue). The dashed line\nrepresents the CHF predicted by the classical Kutateladze-\nZuber (K-Z) model [19, 20] (hydrodynamic instability\nmechanism) using an empirical factor of \u072d = 0.18 in Eq. 1\n[21] obtained from classical pool boiling experiments on\nunstructured, well-wetting surfaces (\u03b1 \u2248 1). The good\nagreement between the data and model, which does not\ncontain any fitting parameters, for \u03b1 ranging from 1 to\n\u224813.3, demonstrates the validity of the model for the\nstructured surfaces in the complete wetting regime. The\ntrend of increasing CHF with increasing surface\nroughness is well-captured by the model which suggests\nthat the key physics of the CHF mechanism on these\nstructured surfaces were accounted for. While the value of\nrn of the CuO surfaces was approximated based on the\nCHF model and experimental data of CuO nanostructured\nsurfaces, the agreement between the CHF on CuO\nhierarchical surfaces (Hier1-3) and the model prediction\nwas consistent, suggesting that the effective surface\nroughness pinning the vapor bubble based on the indirect\napproach for our CuO nanostructured surfaces provided a\nreasonable estimation.\n0\n10\n20\n30\n40\n0\n50\n100\n150\n200\n250\n300\n\u0394T (K)\nq\" [W/cm2]\nSm, r = 1.0\nMicro1, r = 2.6\nMicro2, r = 3.5\nMicro3, r = 5.4\nCuO, r = 4.8\nHier1, r = 9.2\nHier2, r = 12.4\nHier3, r = 13.3\n0\n50\n100\n150\n200\n250\n0\n1\n2\n3\n4\n5\n6\n7\n8 x 10\n4\nq\" [W/cm2]\nh [W/m2 K]\nSm, r = 1.0\nMicro1, r = 2.6\nMicro2, r = 3.5\nMicro3, r = 5.4\nCuO, r = 4.8\nHier1, r = 9.2\nHier2, r = 12.4\nHier3, r = 13.3\n(b)\n(a)\n2274\nFigure 5. CHF as function of \u07d9 \u123a\u0d4c\u074e\u073f\u074b\u074f\u07e0\u0be5\u0bd8\u0bd6\u123b. The\nproposed model (solid line) is compared to the K-Z model\nwith a factor of \u072d = 0.18 (dashed line). The symbols show\nthe CHF data for (\n) microstructured surfaces [12], and\n(\n) CuO hierarchical surfaces, as a function of the\nestimated \u07d9 values.\nCONCLUSION\nIn conclusion, we fabricated hierarchically-structured\nsurfaces using electroplated and oxidized copper with a\nroughness factor, r, of \u22484.8 - 13.3 to investigate CHF on\nhigh roughness factor surfaces in pool boiling. The good\nagreement between the CHF model and experimental\nobservations on the hierarchical surfaces indicates that the\nroughness-amplified surface force plays the defining role\nin CHF enhancement on structured surfaces with a\nroughness factor r ranging from 1 - 13.3 with distinct\nroughness length scales introducing a multiplicative effect\non the amplified surface force. A CHF of 250 W/cm2 (i.e.,\na \u2248 200% CHF enhancement compared to smooth SiO2\nsurfaces) achieved on CuO-based hierarchical surfaces\ndemonstrates high heat removal capability. Furthermore,\nthe scalable fabrication process of electroplating copper\nmicropillars coupled with a simple chemical oxidation\nprocess promises an exciting opportunity to achieve high\nperformance boiling heat transfer.\nACKNOWLEDGEMENTS\nThe authors gratefully acknowledge funding support\nfrom the Battelle Memorial Institute and the Air Force\nOffice of Scientific Research (AFOSR). The authors\nwould also like to acknowledge the Intel Higher\nEducation Grant for a generous computer donation, and\nthe MIT Microsystems Technology Lab for fabrication\nstaff support, help, and use of equipment. R.E. also\nacknowledges funding received from the Irish Research\nCouncil for Science, Engineering, and Technology,\ncofunded by Marie Curie Actions under FP7.\nREFERENCES\n[1] D. C. Price, \"A review of selected thermal\nmanagement solutions for military electronic\nsystems,\" IEEE Trans. Compon. Packag. Technol.,\nvol. 26, pp. 26 - 39 March 2003 2003.\n[2] T. W. Kenny, et al., \"Advanced Cooling\nTechnologies for Microprocessorsf,\" Int. J. High\nSpeed Electron. Syst, vol. 16, pp. 301-313, 2006.\n[3] J. R. Thome, \"The New Frontier in Heat Transfer:\nMicroscale and Nanoscale Technologies,\" Heat\nTransfer Eng., vol. 27, pp. 1-3, 2006.\n[4] E. Pop, \"Energy dissipation and transport in\nnanoscale devices,\" Nano Res., vol. 3, pp. 147-169,\n2010.\n[5] S. G. Kandlikar, \"A Theoretical Model to Predict\nPool Boiling CHF Incorporating Effects of Contact\nAngle and Orientation,\" J. Heat Transfer, vol. 123,\npp. 1071-1079, 2001.\n[6] J. Mitrovic, \"How to create an efficient surface for\nnucleate boiling?,\" Int. J. Therm. Sci., vol. 45, pp. 1-\n15, 2006.\n[7] R. Chen, et al., \"Nanowires for Enhanced Boiling\nHeat Transfer,\" Nano Lett., vol. 9, pp. 548-553,\nJanuary 16, 2009 2009.\n[8] E. Forrest, et al., \"Augmentation of nucleate boiling\nheat transfer and critical heat flux using nanoparticle\nthin-film coatings,\" Int. J. Heat Mass Transfer, vol.\n53, pp. 58-67, 2010.\n[9] C. H. Li and G. P. Peterson, \"Experimental study of\nenhanced nucleate boiling heat transfer on uniform\nand modulated porous structures,\" Front. Heat\nTransfer, vol. 1, p. 023007, 2010.\n[10] S. Kim, et al., \"Effects of nano-fluid and surfaces\nwith nano structure on the increase of CHF,\" Exp.\nTherm Fluid Sci., vol. 34, pp. 487-495, May 2010\n2010.\n[11] H. S. Ahn, et al., \"Effect of liquid spreading due to\nnano/microstructures on the critical heat flux during\npool boiling,\" Appl. Phys. Lett., vol. 98, p. 071908\n2011.\n[12] K.-H. Chu, et al., \"Structured surfaces for enhanced\npool boiling heat transfer,\" Applied Physics Letters,\nvol. 100, p. 241603, 2012.\n[13] Y. Nam, et al., \"Fabrication and Characterization of\nthe Capillary Performance of Superhydrophilic Cu\nMicropost Arrays,\" JMEMS, vol. 19, pp. 581-588,\nJune 2010 2010.\n[14] T. G. Theofanous, et al., \"The boiling crisis\nphenomenon Part I: nucleation and nucleate boiling\nheat transfer,\" Exp. Therm. Fluid Sci., vol. 26, pp.\n775-792, 2002.\n[15] M.-C. Lu, et al., \"Critical heat flux of pool boiling on\nSi nanowire array-coated surfaces,\" Int. J. Heat Mass\nTransfer, vol. 54, pp. 5359-5367, 2011.\n[16] R. Enright, et al., \"Condensation on\nsuperhydrophobic copper oxide nanostructures,\"\nJournal of Heat Transfer, p. Prepared.\n[17] K.-H. Chu, et al., \"Hierarchically Structured Surfaces\nfor Boiling Critical Heat Flux Enhancement,\" Appl.\nPhys. Lett., p. Submitted, 2013.\n[18] V. P. Carey, Liquid-Vapor Phase Change\nPhenomena. Bristol: Taylor & Francis, 1992.\n[19] N. Zuber, \"Hydrodynamic Aspects of Boiling Heat\nTransfer,\" AEC Report AECU-4439, 1959.\n[20] S. S. Kutateladze, \"On the Transition to Film. Boiling\nunder Natural Convection,\" Kotloturbostroenie, vol.\n3, pp. 10-12, 1948.\n[21] W. M. Rohsenow, et al., Handbook of heat transfer\nfundamentals, 2 ed. New York: McGraw-Hill, 1985.\n0\n5\n10\n15\n50\n100\n150\n200\n250\n300\nq\"CHF [W/cm2]\nCHF Model\nK-Z Model\nExpt. Data (Micro)\nExpt. Data (CuO)\n2275",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5141
+    },
+    {
+      "number": 2,
+      "start": 5141,
+      "end": 8911
+    },
+    {
+      "number": 3,
+      "start": 8911,
+      "end": 13074
+    },
+    {
+      "number": 4,
+      "start": 13074,
+      "end": 18026
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-enhanced-boiling-heat-transfer-with-copp",
+      "number": null,
+      "title": "ENHANCED BOILING HEAT TRANSFER WITH COPPER OXIDE",
+      "level": 2,
+      "start": 0,
+      "end": 48
+    },
+    {
+      "id": "sec-1-hierarchical-surfaces",
+      "number": null,
+      "title": "HIERARCHICAL SURFACES",
+      "level": 2,
+      "start": 48,
+      "end": 295
+    },
+    {
+      "id": "sec-2-abstract",
+      "number": null,
+      "title": "ABSTRACT",
+      "level": 2,
+      "start": 295,
+      "end": 976
+    },
+    {
+      "id": "sec-3-keywords",
+      "number": null,
+      "title": "KEYWORDS",
+      "level": 2,
+      "start": 976,
+      "end": 1083
+    },
+    {
+      "id": "sec-4-introduction",
+      "number": null,
+      "title": "INTRODUCTION",
+      "level": 2,
+      "start": 1083,
+      "end": 3118
+    },
+    {
+      "id": "sec-5-chf-model",
+      "number": null,
+      "title": "CHF MODEL",
+      "level": 2,
+      "start": 3118,
+      "end": 4640
+    },
+    {
+      "id": "sec-6-fabrication-and-experments",
+      "number": null,
+      "title": "FABRICATION AND EXPERMENTS",
+      "level": 2,
+      "start": 4640,
+      "end": 4667
+    },
+    {
+      "id": "sec-7-fabrication",
+      "number": null,
+      "title": "Fabrication",
+      "level": 2,
+      "start": 4667,
+      "end": 6692
+    },
+    {
+      "id": "sec-8-surface-characterization",
+      "number": null,
+      "title": "Surface Characterization",
+      "level": 2,
+      "start": 6692,
+      "end": 8133
+    },
+    {
+      "id": "sec-9-cuo-nanostructures-formed-on-the-surface",
+      "number": null,
+      "title": "CuO nanostructures formed on the surfaces (inset). (e)",
+      "level": 2,
+      "start": 8133,
+      "end": 8642
+    },
+    {
+      "id": "sec-10-experimental-results",
+      "number": null,
+      "title": "Experimental Results",
+      "level": 2,
+      "start": 8642,
+      "end": 13365
+    },
+    {
+      "id": "sec-11-conclusion",
+      "number": null,
+      "title": "CONCLUSION",
+      "level": 2,
+      "start": 13365,
+      "end": 14355
+    },
+    {
+      "id": "sec-12-acknowledgements",
+      "number": null,
+      "title": "ACKNOWLEDGEMENTS",
+      "level": 2,
+      "start": 14355,
+      "end": 14883
+    },
+    {
+      "id": "sec-13-references",
+      "number": null,
+      "title": "REFERENCES",
+      "level": 2,
+      "start": 14883,
+      "end": 18026
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "CuO hierarchical surfaces were fabricated as",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "Scanning electron micrographs (SEMs) of the",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-2_p2.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Figure 3",
+      "caption": "Schematic of the experimental pool boiling",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-3_p2.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "(a) shows the heat flux \u074d\u2032\u2032 as a function of",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-4_p2.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Figure 4",
+      "caption": "Heat transfer performance. (a) CHF and (b)",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-4_p3.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Figure 5",
+      "caption": "CHF as function of \u07d9 \u123a\u0d4c\u074e\u073f\u074b\u074f\u07e0\u0be5\u0bd8\u0bd6\u123b. The",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2758178710938,
+        841.889892578125
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\chu-2013-cuo-hierarchical\\chu_2013_cuo_hierarchical_fig-5_p4.png"
+    }
+  ],
+  "tables": [],
+  "meta": {
+    "n_pages": 4,
+    "ingest": "pymupdf"
+  }
+}

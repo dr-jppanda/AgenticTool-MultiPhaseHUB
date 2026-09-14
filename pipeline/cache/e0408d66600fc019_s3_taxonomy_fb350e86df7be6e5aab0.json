@@ -1,0 +1,112 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The effect of surface roughness on pool boiling heat transfer is experimentally explored\nover a wide range of roughness values in water and FluorinertTMFC-77"
+      },
+      {
+        "quote": "Keywords: nucleate pool boiling, heat transfer, surface roughness"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The 25.4 25.4 mm2 test surface is prepared on top of\nan aluminum test block."
+      },
+      {
+        "quote": "water\nhorizontal\nplate\naluminum\nsandpaper,\nEDM"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "All reported values of the surface temperature represent the average over an interval of at least 1 min, after the surface\ntemperature had reached equilibrium."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Deionized water and FC-77\nwere used as the test fluids"
+        }
+      ]
+    },
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-77",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "two fluids with widely differing thermal\nproperties and wetting characteristics: water and FC-77, a perfluorinated dielectric fluid"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The test surfaces ranged from a\npolished surface (Ra between 0.027 m and 0.038 m)"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "In both cases, the polishing was achieved using successively finer grits of sandpaper."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "electrical_discharge_machined",
+      "evidence": [
+        {
+          "quote": "The\nsurfaces were first fly-cut and then roughened using ram-type\nelectrical discharge machining EDM ."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "onb",
+    "bubble_dynamics"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

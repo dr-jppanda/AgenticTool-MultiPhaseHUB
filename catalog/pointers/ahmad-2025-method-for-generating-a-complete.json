@@ -1,0 +1,921 @@
+{
+  "record_id": "ahmad-2025-method-for-generating-a-complete",
+  "doc_id": "7e1666c6b6d6c80e",
+  "title": "Method for generating a complete saturated pool boiling curve for cryogenic fluids under terrestrial gravity",
+  "source_pdf": "ahmad_2025_method_for_generating_a_complete.pdf",
+  "n_pages": 17,
+  "n_figures": 17,
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 2,
+      "caption": "(a), a heat-flux-controlled experiment is conducted by gradually"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "page": 3,
+      "caption": "Boiling curve obtained from (a) heat-flux-controlled experiments and (b) temperature-controlled experiments."
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "page": 6,
+      "caption": "Complete boiling curve for LH2 (a) without blending function and (b)"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "page": 8,
+      "caption": "Performance summary of the cryogenic pool boiling heat transfer correlations."
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "page": 9,
+      "caption": "Validation of new pool boiling curve construction methodology against"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "page": 9,
+      "caption": "Validation of new pool boiling curve construction methodology against"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 10,
+      "caption": "(a) for NB are artificially magnified by the logarithmic presenta­"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "page": 10,
+      "caption": "Validation of new pool boiling curve construction methodology against"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "page": 10,
+      "caption": "Comparison of (a) heat-flux-controlled (b) temperature-controlled"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 11,
+      "caption": "illustrates the complete saturated pool boiling curve predicted for"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "page": 11,
+      "caption": "Predicted continuous boiling curves for LH2 for reduced pressures from p* = 0.1 to 0.9."
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "page": 12,
+      "caption": "CHF and MHF superheat predictions versus reduced pressure for (a) LHe"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 13,
+      "caption": "also shows an appreciable influence of orientation on the CHF"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 13,
+      "caption": "), its dependence on pressure for a given orientation angle is"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "page": 13,
+      "caption": "Effects of orientation angle on continuous boiling curve for LHe at"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "page": 14,
+      "caption": "Effects of pressure on continuous boiling curve of LHe at different"
+    },
+    {
+      "id": "fig-12",
+      "label": "Fig. 12",
+      "page": 15,
+      "caption": "Predicted boiling curves for LO2, LCH4, and LAr at three different pressures."
+    }
+  ],
+  "cited_pages": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "cited_sections": [
+    {
+      "id": "sec-6-table-2",
+      "number": null,
+      "title": "Table 2",
+      "level": 2
+    },
+    {
+      "id": "sec-5-table-1",
+      "number": null,
+      "title": "Table 1",
+      "level": 2
+    },
+    {
+      "id": "sec-4-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2
+    },
+    {
+      "id": "sec-2-issam-mudawar-a-b",
+      "number": null,
+      "title": "Issam Mudawar a,b,*",
+      "level": 1
+    },
+    {
+      "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+      "number": null,
+      "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+      "level": 2
+    },
+    {
+      "id": "sec-3-international-journal-of-heat-and-mass-t",
+      "number": null,
+      "title": "International Journal of Heat and Mass Transfer",
+      "level": 1
+    }
+  ],
+  "evidence_stats": {
+    "total": 23,
+    "resolved": 23,
+    "unresolved": 0,
+    "exact": 21,
+    "fuzzy": 2
+  },
+  "points_ref": null,
+  "extractor": "claude-opus-5/p2@claude-code",
+  "triage": {
+    "paper_type": "correlation_only",
+    "contains_dataset": false,
+    "primary_phenomenon": "pool_boiling",
+    "title": "Method for generating a complete saturated pool boiling curve for cryogenic fluids under terrestrial gravity",
+    "year": 2025,
+    "reason": "The paper stitches together the authors' previously published cryogenic pool boiling correlations with blending functions to generate complete saturated boiling curves, validating against literature data rather than reporting its own experiments or simulations (\"Combine the correlations in a MATLAB code wherein fluid, pressure, surface orientation angle, and heat flux are input to calculate the corresponding wall superheat\")."
+  },
+  "conditions": {
+    "p_sat": {
+      "min": 91.0,
+      "max": 102.0,
+      "unit": "kPa",
+      "evidence": [
+        {
+          "quote": "Fig. 5 illustrates the validation of the new methodology for LH2 using data from two different sources [27,28] at somewhat close but unequal pressures, 91 versus 102 kPa.",
+          "resolved": true,
+          "char_span": [
+            35263,
+            35433
+          ],
+          "pages": [
+            8
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "the present methodology is validated in Fig. 6 against LN2\ndata gathered from multiple sources [27,29-32], with a pressure range\nfrom 98 to 101 kPa",
+          "resolved": true,
+          "char_span": [
+            36054,
+            36201
+          ],
+          "pages": [
+            9
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Fig. 4 shows the validation for LHe using\nexperimental data from five different sources [22-26] at a pressure of\n101 kPa.",
+          "resolved": true,
+          "char_span": [
+            31261,
+            31382
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-5-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "T_sat": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "G": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "q_flux": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "x_quality": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "dT_sub": {
+      "min": 0.0,
+      "max": 0.0,
+      "unit": "K",
+      "evidence": [
+        {
+          "quote": "Summary of correlations used to construct a complete saturated pool boiling curve (ΔTsub = 0) for cryogens.",
+          "resolved": true,
+          "char_span": [
+            32659,
+            32766
+          ],
+          "pages": [
+            7
+          ],
+          "sections": [
+            {
+              "id": "sec-6-table-2",
+              "number": null,
+              "title": "Table 2",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "ΔTsub the degree of subcooling of liquid pool [K], whose value is zero for the present saturated pool boiling\nstudy",
+          "resolved": true,
+          "char_span": [
+            21305,
+            21420
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-5-table-1",
+              "number": null,
+              "title": "Table 1",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "dT_wall": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "D_h": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "L_heated": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "aspect_ratio": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "n_channels": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "Ra_surface": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "contact_angle": {
+      "min": null,
+      "max": null,
+      "unit": null,
+      "evidence": []
+    },
+    "gravity_level": {
+      "min": 1.0,
+      "max": 1.0,
+      "unit": "g",
+      "evidence": [
+        {
+          "quote": "these initial correlations are intended for only steady-state saturated\npool boiling and terrestrial gravity",
+          "resolved": true,
+          "char_span": [
+            14846,
+            14954
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    "n_data_points": {
+      "min": 4809.0,
+      "max": 4809.0,
+      "unit": "data points",
+      "evidence": [
+        {
+          "quote": "over 10,000 datapoints from 80 different papers were amassed and meticu­lously scrutinized, culminating in 4809 usable data points.",
+          "resolved": true,
+          "char_span": [
+            14217,
+            14349
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "fuzzy",
+          "score": 1.0
+        }
+      ]
+    },
+    "orientation": "unspecified",
+    "heating_mode": "unspecified",
+    "surface_material": "copper"
+  },
+  "taxonomy": {
+    "phenomenon": {
+      "tier1": "pool_boiling",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "a continuous saturated pool boiling curve can be constructed across the entire range of wall superheats and heat fluxes for all cryogens",
+          "resolved": true,
+          "char_span": [
+            1289,
+            1425
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-2-issam-mudawar-a-b",
+              "number": null,
+              "title": "Issam Mudawar a,b,*",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "these initial correlations are intended for only steady-state saturated pool boiling and terrestrial gravity",
+          "resolved": true,
+          "char_span": [
+            14846,
+            14954
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "configuration": {
+      "tier1": "surface",
+      "tier2": "flat_plate",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the complete boiling curve sought in the present study is intended for flat surfaces in a saturated cryogenic liquid pool and terrestrial gravity",
+          "resolved": true,
+          "char_span": [
+            16933,
+            17078
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "method": {
+      "tier1": "correlation_only",
+      "tier2": "correlation_only",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The present study tackles systematically the complexities of this endeavor by relying on predictive correlations recently developed by the present authors for all individual pool boiling curve regimes and transition points for cryogenic fluids.",
+          "resolved": true,
+          "char_span": [
+            925,
+            1169
+          ],
+          "pages": [
+            1
+          ],
+          "sections": [
+            {
+              "id": "sec-2-issam-mudawar-a-b",
+              "number": null,
+              "title": "Issam Mudawar a,b,*",
+              "level": 1
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Combine the correlations in a MATLAB code wherein fluid,\npressure, surface orientation angle, and heat flux are input to\ncalculate the corresponding wall superheat.",
+          "resolved": true,
+          "char_span": [
+            15907,
+            16071
+          ],
+          "pages": [
+            4
+          ],
+          "sections": [
+            {
+              "id": "sec-4-nomenclature",
+              "number": null,
+              "title": "Nomenclature",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        }
+      ],
+      "confirmed": true
+    },
+    "fluid": [
+      {
+        "tier1": "cryogen",
+        "tier2": "helium",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "The predicted\nboiling curves are validated against experimental data for key cryogens such as liquid helium, liquid hydrogen,\nand liquid nitrogen across varying pressure ranges.",
+            "resolved": true,
+            "char_span": [
+              1427,
+              1604
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-issam-mudawar-a-b",
+                "number": null,
+                "title": "Issam Mudawar a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "hydrogen",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Fig. 5 illustrates the validation of the new methodology\nfor LH2 using data from two different sources",
+            "resolved": true,
+            "char_span": [
+              35263,
+              35365
+            ],
+            "pages": [
+              8
+            ],
+            "sections": [
+              {
+                "id": "sec-6-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "nitrogen",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the present methodology is validated in Fig. 6 against LN2\ndata gathered from multiple sources",
+            "resolved": true,
+            "char_span": [
+              36054,
+              36148
+            ],
+            "pages": [
+              9
+            ],
+            "sections": [
+              {
+                "id": "sec-6-table-2",
+                "number": null,
+                "title": "Table 2",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "argon",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "Fig. 12 presents continuous boiling\ncurves for LAr, LO2, and LCH4 horizontal upward-facing orientation at\nthree distinct pressures.",
+            "resolved": true,
+            "char_span": [
+              49464,
+              49595
+            ],
+            "pages": [
+              13
+            ],
+            "sections": [
+              {
+                "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+                "number": null,
+                "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "oxygen",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "the decrease in the nucleate boiling heat transfer coefficient near the\ncritical heat flux point is clearly captured, especially for cryogens with relatively high saturation temperatures,\nsuch as liquid oxygen and liquid methane",
+            "resolved": true,
+            "char_span": [
+              2039,
+              2267
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-issam-mudawar-a-b",
+                "number": null,
+                "title": "Issam Mudawar a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      },
+      {
+        "tier1": "cryogen",
+        "tier2": "methane_LNG",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "liquid argon (LAr),\nliquid oxygen (LO2), and liquid methane (LCH4), under broad ranges of\noperating conditions",
+            "resolved": true,
+            "char_span": [
+              15548,
+              15658
+            ],
+            "pages": [
+              4
+            ],
+            "sections": [
+              {
+                "id": "sec-4-nomenclature",
+                "number": null,
+                "title": "Nomenclature",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "surface_enhancement": [
+      {
+        "tier1": "plain",
+        "tier2": "plain",
+        "tier3": null,
+        "propose_new": null,
+        "evidence": [
+          {
+            "quote": "This baseline\nmethodology encompasses: (i) heating surfaces constructed only from\ncopper (material used in most cryogenic pool boiling experiments), (ii)\nsaturated pool boiling, and (iii) terrestrial gravity.",
+            "resolved": true,
+            "char_span": [
+              40140,
+              40348
+            ],
+            "pages": [
+              11
+            ],
+            "sections": [
+              {
+                "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+                "number": null,
+                "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "Another crucial missing aspect in our methodology is the ability\nto account for the effects of heater size, material properties, and\nsurface roughness.",
+            "resolved": true,
+            "char_span": [
+              52549,
+              52700
+            ],
+            "pages": [
+              14
+            ],
+            "sections": [
+              {
+                "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+                "number": null,
+                "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ],
+    "measured_quantity": [
+      "boiling_curve",
+      "chf",
+      "htc",
+      "wall_superheat",
+      "onb"
+    ],
+    "measurement_modality": []
+  },
+  "application": {
+    "targets": [
+      {
+        "tier1": "aerospace",
+        "tier2": null,
+        "stated": true,
+        "confidence": "high",
+        "evidence": [
+          {
+            "quote": "thermal management systems as one of the top areas needing more focus due to increasing demands in space applications",
+            "resolved": true,
+            "char_span": [
+              3555,
+              3672
+            ],
+            "pages": [
+              1
+            ],
+            "sections": [
+              {
+                "id": "sec-2-issam-mudawar-a-b",
+                "number": null,
+                "title": "Issam Mudawar a,b,*",
+                "level": 1
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "With modern industries, particu­larly in space exploration, increasingly relying on cryogenic fluids that operate at extremely low temperatures, the effectiveness of these pre­dictive tools is suspect",
+            "resolved": true,
+            "char_span": [
+              5778,
+              5980
+            ],
+            "pages": [
+              2
+            ],
+            "sections": [
+              {
+                "id": "sec-3-international-journal-of-heat-and-mass-t",
+                "number": null,
+                "title": "International Journal of Heat and Mass Transfer",
+                "level": 1
+              }
+            ],
+            "match": "fuzzy",
+            "score": 1.0
+          },
+          {
+            "quote": "there are several important space-related technologies demanding similar understanding for reduced gravity, especially Lunar and Martian gravities, and microgravity.",
+            "resolved": true,
+            "char_span": [
+              53111,
+              53276
+            ],
+            "pages": [
+              14
+            ],
+            "sections": [
+              {
+                "id": "sec-8-fig-7-comparison-of-a-heat-flux-controll",
+                "number": null,
+                "title": "Fig. 7. Comparison of (a) heat-flux-controlled (b) temperature-controlled",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          }
+        ],
+        "confirmed": true
+      }
+    ]
+  },
+  "llm_title": "Method for generating a complete saturated pool boiling curve for cryogenic fluids under terrestrial gravity",
+  "routed_to": "pointers",
+  "si": {
+    "p_sat_min": 91000.0,
+    "p_sat_unit": "Pa",
+    "p_sat_max": 102000.0,
+    "dT_sub_min": 0.0,
+    "dT_sub_unit": "K",
+    "dT_sub_max": 0.0,
+    "gravity_level_min": 1.0,
+    "gravity_level_unit": "g",
+    "gravity_level_max": 1.0
+  },
+  "fluid_properties": {
+    "rho_l": 125.66771002761276,
+    "rho_v": 16.065626197145203,
+    "sigma": 9.358044647273465e-05,
+    "h_fg": 20854.340300630287,
+    "mu_l": 3.1828126885221807e-06,
+    "p_crit": 228322.7892147868,
+    "T_sat_calc": 4.172274507709869
+  },
+  "derived": {
+    "L_cap": 0.00029506847558375326,
+    "p_reduced": 0.4226472544938164
+  },
+  "derived_tags": [
+    "gravity:terrestrial",
+    "pressure:moderate"
+  ],
+  "unit_warnings": [
+    "n_data_points.min: unrecognized unit 'data points'",
+    "n_data_points.max: unrecognized unit 'data points'"
+  ],
+  "quarantined_values": {},
+  "taxonomy_version": "v1",
+  "gating": {
+    "reviewed_at": "2026-09-13",
+    "auto_apply": 0.75,
+    "new_term_apply": 0.85,
+    "pending": 0,
+    "unconfirmed_fields": 0
+  }
+}

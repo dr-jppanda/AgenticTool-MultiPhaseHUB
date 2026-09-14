@@ -1,0 +1,114 @@
+{
+  "p_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 400.0,
+    "max": 400.0,
+    "unit": "lm",
+    "evidence": [
+      {
+        "quote": "Even with\na heater width as narrow as 400 lm, the number density of bubbles was high enough to make individual bubble identification\nchallenging"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": 25.0,
+    "max": 25.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "a 400 lm wide 25 mm long heater/sensor device\nwas patterned on each substrate"
+      }
+    ]
+  },
+  "aspect_ratio": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_channels": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "Ra_surface": {
+    "min": 0.263,
+    "max": 7.51,
+    "unit": "lm",
+    "evidence": [
+      {
+        "quote": "0.263\n0.319\n2\n15\n725\n5\n0.622\n0.789"
+      },
+      {
+        "quote": "5\n250\n725\n5\n7.51\n9.13"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": 11.4,
+    "max": 11.4,
+    "unit": "°",
+    "evidence": [
+      {
+        "quote": "Filtered parameters provide a more certain correlation for FC-72 on ITO\n(h = 11.4 ,"
+      }
+    ]
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "unspecified",
+  "surface_material": "\"ITO (indium tin oxide) film on borosilicate glass\", \"evidence\": [{\"quote\": \"All seven substrates\\nwere coated conformally with an electrically conductive ITO layer\"}]"
+}

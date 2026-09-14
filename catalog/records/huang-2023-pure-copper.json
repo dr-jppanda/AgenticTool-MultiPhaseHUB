@@ -39,15 +39,28 @@
   ],
   "cited_pages": [
     1,
+    2,
     3,
     5,
     6
   ],
   "cited_sections": [
     {
+      "id": "sec-2-1",
+      "number": "2.1",
+      "title": "Boiling pool chamber and heating component",
+      "level": 2
+    },
+    {
       "id": "sec-3-1",
       "number": "3.1",
       "title": "Experimental method",
+      "level": 2
+    },
+    {
+      "id": "sec-1-abstract",
+      "number": null,
+      "title": "Abstract",
       "level": 2
     },
     {
@@ -57,27 +70,15 @@
       "level": 2
     },
     {
-      "id": "sec-15-table-1-comparation-of-the-pool-boiling-",
-      "number": null,
-      "title": "Table 1 Comparation of the pool boiling experiments",
-      "level": 2
-    },
-    {
       "id": "sec-4",
       "number": "4",
       "title": "Conclusions",
       "level": 2
     },
     {
-      "id": "sec-1",
-      "number": "1",
-      "title": "Introduction",
-      "level": 2
-    },
-    {
-      "id": "sec-12-step-2-the-heating-component-was-switche",
-      "number": null,
-      "title": "Step 2: The heating component was switched on and kept",
+      "id": "sec-3-2",
+      "number": "3.2",
+      "title": "Results and discussion",
       "level": 2
     },
     {
@@ -87,27 +88,27 @@
       "level": 2
     },
     {
-      "id": "sec-1-abstract",
+      "id": "sec-12-step-2-the-heating-component-was-switche",
       "number": null,
-      "title": "Abstract",
+      "title": "Step 2: The heating component was switched on and kept",
       "level": 2
     }
   ],
   "evidence_stats": {
-    "total": 14,
-    "resolved": 14,
+    "total": 18,
+    "resolved": 18,
     "unresolved": 0,
-    "exact": 14
+    "exact": 18
   },
   "points_ref": "points/huang-2023-pure-copper.points.json",
-  "extractor": "configured-default/p1@codex",
+  "extractor": "claude-opus-5/p1@claude-code",
   "triage": {
     "paper_type": "experimental",
     "contains_dataset": true,
     "primary_phenomenon": "pool_boiling",
     "title": "Pool boiling experiment characteristics on the pure copper surface",
     "year": 2023,
-    "reason": "The paper reports its own quantitative measurements: \u201cThe HTC is 72.25 kW/(m2.K) and the CHF is 1093.28 kW/m2, which were obtained by the specially designed pool boiling experimental device.\u201d"
+    "reason": "The paper reports its own steady-state pool boiling measurements on a pure copper surface, tabulating heat flux, wall superheat, HTC (72.25 kW/(m2.K)) and CHF (1093.28 kW/m2)."
   },
   "conditions": {
     "p_sat": {
@@ -116,11 +117,32 @@
       "unit": "atm",
       "evidence": [
         {
-          "quote": "maintained at saturation\ntemperature (1 atm, 100 \u00b0C) for over 30 min",
+          "quote": "to keep the pool boiling experiment under atmospheric",
           "resolved": true,
           "char_span": [
-            9149,
-            9217
+            4592,
+            4645
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-2-1",
+              "number": "2.1",
+              "title": "Boiling pool chamber and heating component",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "temperature (1 atm, 100 °C) for over 30 min, in order to",
+          "resolved": true,
+          "char_span": [
+            9174,
+            9230
           ],
           "pages": [
             3
@@ -139,46 +161,25 @@
       ]
     },
     "T_sat": {
-      "min": 101.61,
-      "max": 101.77,
-      "unit": "\u00b0C",
+      "min": 100.0,
+      "max": 100.0,
+      "unit": "°C",
       "evidence": [
         {
-          "quote": "3\n115.74\n119.42\n123.04\n101.77\n177.65\n108.91\n7.14\n24.88",
+          "quote": "temperature (1 atm, 100 °C) for over 30 min, in order to",
           "resolved": true,
           "char_span": [
-            15492,
-            15546
+            9174,
+            9230
           ],
           "pages": [
-            6
+            3
           ],
           "sections": [
             {
-              "id": "sec-17-acknowledgements",
-              "number": null,
-              "title": "Acknowledgements",
-              "level": 2
-            }
-          ],
-          "match": "exact",
-          "score": 1.0
-        },
-        {
-          "quote": "13\n142.74\n159.41\n174.25\n101.61\n766.94\n113.24\n11.64\n65.91",
-          "resolved": true,
-          "char_span": [
-            16048,
-            16104
-          ],
-          "pages": [
-            6
-          ],
-          "sections": [
-            {
-              "id": "sec-17-acknowledgements",
-              "number": null,
-              "title": "Acknowledgements",
+              "id": "sec-3-1",
+              "number": "3.1",
+              "title": "Experimental method",
               "level": 2
             }
           ],
@@ -199,20 +200,20 @@
       "unit": "kW/m2",
       "evidence": [
         {
-          "quote": "1\n107.55\n107.99\n109.24\n101.67\n41.18\n105.97\n4.30\n9.59",
+          "quote": "which are 72.25 kW/(m2.K) and 1093.28 kW/m2, respectively.",
           "resolved": true,
           "char_span": [
-            15384,
-            15436
+            980,
+            1038
           ],
           "pages": [
-            6
+            1
           ],
           "sections": [
             {
-              "id": "sec-17-acknowledgements",
+              "id": "sec-1-abstract",
               "number": null,
-              "title": "Acknowledgements",
+              "title": "Abstract",
               "level": 2
             }
           ],
@@ -220,11 +221,11 @@
           "score": 1.0
         },
         {
-          "quote": "19\n158.88\n182.90\n203.80\n101.70\n1093.28\n116.83\n15.13\n72.25",
+          "quote": "41.18\n105.97\n4.30\n9.59",
           "resolved": true,
           "char_span": [
-            16391,
-            16448
+            15414,
+            15436
           ],
           "pages": [
             6
@@ -257,13 +258,13 @@
     "dT_wall": {
       "min": 4.3,
       "max": 15.13,
-      "unit": "\u00b0C",
+      "unit": "°C",
       "evidence": [
         {
-          "quote": "1\n107.55\n107.99\n109.24\n101.67\n41.18\n105.97\n4.30\n9.59",
+          "quote": "41.18\n105.97\n4.30\n9.59",
           "resolved": true,
           "char_span": [
-            15384,
+            15414,
             15436
           ],
           "pages": [
@@ -281,10 +282,10 @@
           "score": 1.0
         },
         {
-          "quote": "19\n158.88\n182.90\n203.80\n101.70\n1093.28\n116.83\n15.13\n72.25",
+          "quote": "1093.28\n116.83\n15.13\n72.25",
           "resolved": true,
           "char_span": [
-            16391,
+            16422,
             16448
           ],
           "pages": [
@@ -309,20 +310,20 @@
       "unit": "mm",
       "evidence": [
         {
-          "quote": "Present work\nCopper\n\u03a620 mm\nHeating rod\nWater",
+          "quote": "part of the copper component was a cylinder with 20 mm",
           "resolved": true,
           "char_span": [
-            12426,
-            12470
+            5208,
+            5262
           ],
           "pages": [
-            5
+            2
           ],
           "sections": [
             {
-              "id": "sec-15-table-1-comparation-of-the-pool-boiling-",
-              "number": null,
-              "title": "Table 1 Comparation of the pool boiling experiments",
+              "id": "sec-2-1",
+              "number": "2.1",
+              "title": "Boiling pool chamber and heating component",
               "level": 2
             }
           ],
@@ -375,21 +376,21 @@
     },
     "orientation": "unspecified",
     "heating_mode": "unspecified",
-    "surface_material": "pure copper"
+    "surface_material": "copper"
   },
   "taxonomy": {
     "phenomenon": {
       "tier1": "pool_boiling",
       "tier2": "nucleate",
-      "tier3": null,
+      "tier3": "fully_developed",
       "propose_new": null,
       "evidence": [
         {
-          "quote": "Furthermore, the visualization experimental results of pool boiling, such as typical nucleate boiling and typical\nfilm boiling, have been captured by the high-speed camera",
+          "quote": "In this work, the recent saturated pool boiling experimental results were introduced, which were conducted at atmospheric pressure using the pure copper as heating surface and the distilled water as working fluid.",
           "resolved": true,
           "char_span": [
-            13978,
-            14149
+            13627,
+            13840
           ],
           "pages": [
             6
@@ -404,31 +405,73 @@
           ],
           "match": "exact",
           "score": 1.0
+        },
+        {
+          "quote": "leading to a transition from nucleate boiling regime to film boiling regime",
+          "resolved": true,
+          "char_span": [
+            11392,
+            11467
+          ],
+          "pages": [
+            5
+          ],
+          "sections": [
+            {
+              "id": "sec-3-2",
+              "number": "3.2",
+              "title": "Results and discussion",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
         }
       ],
       "confirmed": true
     },
     "configuration": {
       "tier1": "surface",
-      "tier2": null,
+      "tier2": "flat_plate",
       "tier3": null,
       "propose_new": null,
       "evidence": [
         {
-          "quote": "In this study, we get the HTC and CHF data on the\npure copper surface from the pool boiling experimental\ndevice.",
+          "quote": "The upper part of the copper component was a cylinder with 20 mm in diameter and 36 mm in height",
           "resolved": true,
           "char_span": [
-            3537,
-            3649
+            5198,
+            5294
           ],
           "pages": [
-            1
+            2
           ],
           "sections": [
             {
-              "id": "sec-1",
-              "number": "1",
-              "title": "Introduction",
+              "id": "sec-2-1",
+              "number": "2.1",
+              "title": "Boiling pool chamber and heating component",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "prevent boiling from occurring at the edge of the copper heating surface",
+          "resolved": true,
+          "char_span": [
+            5852,
+            5924
+          ],
+          "pages": [
+            2
+          ],
+          "sections": [
+            {
+              "id": "sec-250",
+              "number": "250",
+              "title": "W were inserted into the bottom part of the copper",
               "level": 2
             }
           ],
@@ -445,11 +488,32 @@
       "propose_new": null,
       "evidence": [
         {
-          "quote": "The heating component was switched on and kept\nat a steady-state condition, which is applied to calculate\nthe heat flux and the boiling heat transfer performance.",
+          "quote": "The heating component was switched on and kept at a steady-state condition, which is applied to calculate the heat flux and the boiling heat transfer performance.",
           "resolved": true,
           "char_span": [
             9295,
             9457
+          ],
+          "pages": [
+            3
+          ],
+          "sections": [
+            {
+              "id": "sec-12-step-2-the-heating-component-was-switche",
+              "number": null,
+              "title": "Step 2: The heating component was switched on and kept",
+              "level": 2
+            }
+          ],
+          "match": "exact",
+          "score": 1.0
+        },
+        {
+          "quote": "Each of the steady-state conditions was characterized by the maximum temperature fluctuations of T1, T2, and T3 no more than 0.5 °C/min.",
+          "resolved": true,
+          "char_span": [
+            9458,
+            9594
           ],
           "pages": [
             3
@@ -476,11 +540,11 @@
         "propose_new": null,
         "evidence": [
           {
-            "quote": "the distilled\nwater, as working fluid, was heated and maintained at\nsaturation temperature (Tsat)",
+            "quote": "the distilled water, as working fluid, was heated and maintained at saturation temperature (Tsat) by a K-type thermocouple",
             "resolved": true,
             "char_span": [
               6355,
-              6452
+              6477
             ],
             "pages": [
               3
@@ -502,13 +566,13 @@
     ],
     "surface_enhancement": [
       {
-        "tier1": "roughened",
-        "tier2": "sanded",
+        "tier1": "plain",
+        "tier2": "plain",
         "tier3": null,
         "propose_new": null,
         "evidence": [
           {
-            "quote": "Before the experiment, the pure copper surface of the\nheating component was polished by 2000 mesh sandpaper\nand cleaned with 95% ethyl alcohol.",
+            "quote": "Before the experiment, the pure copper surface of the heating component was polished by 2000 mesh sandpaper and cleaned with 95% ethyl alcohol.",
             "resolved": true,
             "char_span": [
               8716,
@@ -537,8 +601,7 @@
       "chf",
       "boiling_curve",
       "wall_superheat",
-      "bubble_dynamics",
-      "flow_regime"
+      "bubble_dynamics"
     ],
     "measurement_modality": [
       "thermocouple",
@@ -550,15 +613,14 @@
       {
         "tier1": "fundamental",
         "tier2": "fundamental",
-        "stated": false,
-        "confidence": "high",
+        "stated": true,
         "evidence": [
           {
-            "quote": "Besides, a\nseries of visualization experimental results of bubble behavior in the pool boiling are taken by the\nhigh-speed camera to provide references for the boiling mechanism research.",
+            "quote": "The pool boiling\nexperiment would be the benchmark data to validate the future experiments and computer\nsimulations.",
             "resolved": true,
             "char_span": [
-              1039,
-              1226
+              1227,
+              1343
             ],
             "pages": [
               1
@@ -568,6 +630,27 @@
                 "id": "sec-1-abstract",
                 "number": null,
                 "title": "Abstract",
+                "level": 2
+              }
+            ],
+            "match": "exact",
+            "score": 1.0
+          },
+          {
+            "quote": "the visualization experimental results\nof pool boiling, such as typical nucleate boiling and typical\nfilm boiling, have been captured by the high-speed camera\nin order to provide references for future boiling mechanism\nresearch.",
+            "resolved": true,
+            "char_span": [
+              13991,
+              14219
+            ],
+            "pages": [
+              6
+            ],
+            "sections": [
+              {
+                "id": "sec-4",
+                "number": "4",
+                "title": "Conclusions",
                 "level": 2
               }
             ],
@@ -584,9 +667,9 @@
     "p_sat_min": 101325.0,
     "p_sat_unit": "Pa",
     "p_sat_max": 101325.0,
-    "T_sat_min": 374.76,
+    "T_sat_min": 373.15,
     "T_sat_unit": "K",
-    "T_sat_max": 374.91999999999996,
+    "T_sat_max": 373.15,
     "q_flux_min": 41180.0,
     "q_flux_unit": "W/m2",
     "q_flux_max": 1093280.0,
@@ -622,15 +705,13 @@
   "quarantined_values": {},
   "taxonomy_version": "v1",
   "gating": {
-    "reviewed_at": "2026-08-12",
-    "auto_apply": 0.75,
-    "new_term_apply": 0.85,
+    "reviewed_at": "2026-09-14",
     "pending": 0,
     "unconfirmed_fields": 0
   },
   "points_summary": {
     "n_series": 5,
-    "n_points": 314,
+    "n_points": 416,
     "figures": [
       "fig-2"
     ],

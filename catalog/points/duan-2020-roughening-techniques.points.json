@@ -2,3244 +2,775 @@
   "record_id": "duan-2020-roughening-techniques",
   "series": [
     {
-      "series_id": "fig-5-sandpaper_polished_surface",
-      "figure_id": "fig-5",
-      "label": "Sandpaper polished surface",
-      "x_axis": {
-        "quantity": "Surface roughness Sa",
-        "unit": "\u03bcm",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "Static contact angle \u03b8",
-        "unit": "\u00b0",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          0.045817,
-          96.018826
-        ],
-        [
-          0.048038,
-          96.017966
-        ],
-        [
-          0.041355,
-          96.018826
-        ],
-        [
-          0.039144,
-          96.017966
-        ],
-        [
-          0.18738,
-          110.931802
-        ],
-        [
-          0.202962,
-          110.931235
-        ],
-        [
-          0.156219,
-          110.931785
-        ],
-        [
-          0.140642,
-          110.931235
-        ],
-        [
-          0.375686,
-          111.664177
-        ],
-        [
-          0.382815,
-          111.665011
-        ],
-        [
-          0.361898,
-          111.664177
-        ],
-        [
-          0.35521,
-          111.665011
-        ],
-        [
-          0.600502,
-          113.37626
-        ],
-        [
-          0.635668,
-          113.376543
-        ],
-        [
-          0.530169,
-          113.37626
-        ],
-        [
-          0.495003,
-          113.376543
-        ],
-        [
-          0.888972,
-          113.278794
-        ],
-        [
-          0.949959,
-          113.278227
-        ],
-        [
-          0.767444,
-          113.278794
-        ],
-        [
-          0.706903,
-          113.278227
-        ],
-        [
-          0.954514,
-          113.523575
-        ],
-        [
-          0.043145,
-          96.433737
-        ],
-        [
-          0.043145,
-          96.447251
-        ],
-        [
-          0.171356,
-          111.346705
-        ],
-        [
-          0.171351,
-          111.360519
-        ],
-        [
-          0.368125,
-          112.080498
-        ],
-        [
-          0.36812,
-          112.094029
-        ],
-        [
-          0.564889,
-          113.79203
-        ],
-        [
-          0.564889,
-          113.805819
-        ],
-        [
-          0.827539,
-          113.693714
-        ],
-        [
-          0.827539,
-          113.707528
-        ],
-        [
-          1.217512,
-          113.938779
-        ],
-        [
-          1.217512,
-          113.952301
-        ],
-        [
-          0.045817,
-          96.018826
-        ],
-        [
-          0.048038,
-          96.017966
-        ],
-        [
-          0.041355,
-          96.018826
-        ],
-        [
-          0.039144,
-          96.017966
-        ],
-        [
-          0.043586,
-          99.172284
-        ],
-        [
-          0.171797,
-          113.156546
-        ],
-        [
-          0.171802,
-          113.767789
-        ],
-        [
-          0.171797,
-          108.681683
-        ],
-        [
-          0.171802,
-          108.046215
-        ],
-        [
-          0.368566,
-          113.816805
-        ],
-        [
-          0.368566,
-          114.354833
-        ],
-        [
-          0.368566,
-          109.538008
-        ],
-        [
-          0.368566,
-          109.024789
-        ],
-        [
-          0.565335,
-          116.456769
-        ],
-        [
-          0.56533,
-          117.923211
-        ],
-        [
-          0.565335,
-          110.320258
-        ],
-        [
-          0.56533,
-          108.878307
-        ],
-        [
-          0.827985,
-          115.89425
-        ],
-        [
-          0.82798,
-          116.896188
-        ],
-        [
-          0.827985,
-          110.686738
-        ],
-        [
-          0.82798,
-          109.709282
-        ],
-        [
-          1.217963,
-          115.576787
-        ],
-        [
-          1.217953,
-          116.016765
-        ],
-        [
-          1.217963,
-          111.445022
-        ],
-        [
-          1.217953,
-          110.980234
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 5 (a) Static contact angle measurement at different directions, (b) relation between static contact angle and surface roughness Sa ."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.11, 0.13, 0.53) filled; x fit r2=0.99994 on 5 ticks; y fit r2=0.99999 on 4 ticks; points kept in recovered path order, not re-sorted by x; markers used; connecting line ignored; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
-    },
-    {
-      "series_id": "fig-5-laser_machined_surface",
-      "figure_id": "fig-5",
-      "label": "Laser-machined surface",
-      "x_axis": {
-        "quantity": "Surface roughness Sa",
-        "unit": "\u03bcm",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "Static contact angle \u03b8",
-        "unit": "\u00b0",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          0.151778,
-          153.502304
-        ],
-        [
-          0.151947,
-          153.515534
-        ],
-        [
-          0.376142,
-          153.299482
-        ],
-        [
-          0.376301,
-          153.312995
-        ],
-        [
-          0.152213,
-          156.275769
-        ],
-        [
-          0.152213,
-          157.445878
-        ],
-        [
-          0.152213,
-          151.151908
-        ],
-        [
-          0.153203,
-          149.998691
-        ],
-        [
-          0.376578,
-          155.890988
-        ],
-        [
-          0.376578,
-          156.453223
-        ],
-        [
-          0.376578,
-          151.564025
-        ],
-        [
-          0.376578,
-          151.026281
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 5 (a) Static contact angle measurement at different directions, (b) relation between static contact angle and surface roughness Sa ."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.89, 0.0, 0.5) filled; x fit r2=0.99994 on 5 ticks; y fit r2=0.99999 on 4 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-6-rgb_176_18_26",
-      "figure_id": "fig-6",
-      "label": "",
-      "x_axis": {
-        "quantity": "dT_wall",
-        "unit": "\u00b0C",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "q_flux",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          3.42282,
-          2.953025
-        ],
-        [
-          4.896989,
-          4.820973
-        ],
-        [
-          6.087278,
-          6.593291
-        ],
-        [
-          6.761697,
-          8.463085
-        ],
-        [
-          7.774427,
-          10.234198
-        ],
-        [
-          8.91124,
-          14.368137
-        ],
-        [
-          9.621812,
-          20.665015
-        ],
-        [
-          10.261091,
-          26.964379
-        ],
-        [
-          11.504235,
-          39.068155
-        ],
-        [
-          12.392366,
-          51.958145
-        ],
-        [
-          13.20954,
-          64.06339
-        ],
-        [
-          14.07975,
-          76.561553
-        ],
-        [
-          15.145508,
-          88.27192
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 6 Comparison of present experimental data with those in previous literature and Rohsenow correlation."
-      },
-      "confidence": 0.93,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.69, 0.07, 0.1) open; x fit r2=0.99999 on 5 ticks; y fit r2=0.99996 on 10 ticks; points kept in recovered path order, not re-sorted by x; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
-    },
-    {
-      "series_id": "fig-6-suriyawong_and_wongwises_30",
-      "figure_id": "fig-6",
-      "label": "Suriyawong and Wongwises [30]",
-      "x_axis": {
-        "quantity": "dT_wall",
-        "unit": "\u00b0C",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "q_flux",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          7.445893,
-          4.182272
-        ],
-        [
-          10.039,
-          8.315646
-        ],
-        [
-          11.744193,
-          14.318155
-        ],
-        [
-          12.454766,
-          20.616277
-        ],
-        [
-          16.948452,
-          60.669206
-        ],
-        [
-          17.925029,
-          76.218276
-        ],
-        [
-          18.47575,
-          87.435874
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 6 Comparison of present experimental data with those in previous literature and Rohsenow correlation."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.42, 0.05, 0.42) open; x fit r2=0.99999 on 5 ticks; y fit r2=0.99996 on 10 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-6-kwark_suriyawong_et_al_and_29_wongwises_30",
-      "figure_id": "fig-6",
-      "label": "Kwark Suriyawong et al. and [29] Wongwises [30]",
-      "x_axis": {
-        "quantity": "dT_wall",
-        "unit": "\u00b0C",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "q_flux",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          3.156506,
-          0.399454
-        ],
-        [
-          4.009201,
-          0.89066
-        ],
-        [
-          3.440871,
-          0.546318
-        ],
-        [
-          5.057176,
-          1.825566
-        ],
-        [
-          4.488959,
-          1.284991
-        ],
-        [
-          6.389426,
-          3.794117
-        ],
-        [
-          6.114171,
-          3.351038
-        ],
-        [
-          5.82132,
-          2.907959
-        ],
-        [
-          5.54596,
-          2.466122
-        ],
-        [
-          5.288195,
-          2.07179
-        ],
-        [
-          7.313084,
-          5.712066
-        ],
-        [
-          7.037724,
-          5.122113
-        ],
-        [
-          6.744873,
-          4.483421
-        ],
-        [
-          8.058973,
-          7.582501
-        ],
-        [
-          7.78383,
-          6.89443
-        ],
-        [
-          7.535311,
-          6.204524
-        ],
-        [
-          8.680762,
-          9.600431
-        ],
-        [
-          8.405507,
-          8.665524
-        ],
-        [
-          8.219035,
-          8.074959
-        ],
-        [
-          9.231146,
-          11.518991
-        ],
-        [
-          8.956116,
-          10.534716
-        ],
-        [
-          9.710911,
-          13.437561
-        ],
-        [
-          9.435551,
-          12.256431
-        ],
-        [
-          10.154924,
-          15.406734
-        ],
-        [
-          9.879669,
-          14.126856
-        ],
-        [
-          10.563508,
-          17.374052
-        ],
-        [
-          10.30575,
-          16.144776
-        ],
-        [
-          10.954054,
-          19.294458
-        ],
-        [
-          11.797741,
-          24.263342
-        ],
-        [
-          11.548893,
-          22.73787
-        ],
-        [
-          11.282667,
-          21.113038
-        ],
-        [
-          12.552431,
-          29.282837
-        ],
-        [
-          12.330534,
-          27.757355
-        ],
-        [
-          12.090928,
-          26.131912
-        ],
-        [
-          12.818987,
-          31.150164
-        ],
-        [
-          15.846857,
-          59.296079
-        ],
-        [
-          15.704945,
-          57.769374
-        ],
-        [
-          15.562475,
-          56.146397
-        ],
-        [
-          16.273043,
-          64.314953
-        ],
-        [
-          16.148733,
-          62.790093
-        ],
-        [
-          16.006705,
-          61.165892
-        ],
-        [
-          16.672721,
-          69.334448
-        ],
-        [
-          16.557208,
-          67.807752
-        ],
-        [
-          16.424093,
-          66.184775
-        ],
-        [
-          17.063485,
-          74.352098
-        ],
-        [
-          16.947972,
-          72.827247
-        ],
-        [
-          16.814633,
-          71.202416
-        ],
-        [
-          17.436317,
-          79.371593
-        ],
-        [
-          17.321025,
-          77.8455
-        ],
-        [
-          17.205397,
-          76.220668
-        ],
-        [
-          17.800457,
-          84.388602
-        ],
-        [
-          17.69397,
-          82.863752
-        ],
-        [
-          17.569656,
-          81.23892
-        ],
-        [
-          18.137983,
-          89.309971
-        ],
-        [
-          18.031268,
-          87.784509
-        ],
-        [
-          17.92489,
-          86.160289
-        ],
-        [
-          18.457566,
-          94.329457
-        ],
-        [
-          18.369004,
-          92.803364
-        ],
-        [
-          18.262181,
-          91.180396
-        ],
-        [
-          18.777371,
-          99.348331
-        ],
-        [
-          18.688588,
-          97.82348
-        ],
-        [
-          18.582101,
-          96.19927
-        ],
-        [
-          19.07924,
-          104.366592
-        ],
-        [
-          18.990457,
-          102.840499
-        ],
-        [
-          18.892656,
-          101.218144
-        ],
-        [
-          19.381,
-          109.386078
-        ],
-        [
-          19.292442,
-          107.861218
-        ],
-        [
-          19.194749,
-          106.23763
-        ],
-        [
-          19.674296,
-          114.405573
-        ],
-        [
-          19.576716,
-          112.880714
-        ],
-        [
-          19.496513,
-          111.257125
-        ],
-        [
-          19.958458,
-          119.425069
-        ],
-        [
-          19.860656,
-          117.900209
-        ],
-        [
-          19.780787,
-          116.275387
-        ],
-        [
-          20.224912,
-          124.443321
-        ],
-        [
-          20.144821,
-          122.918461
-        ],
-        [
-          20.056147,
-          121.294256
-        ],
-        [
-          20.491134,
-          129.364695
-        ],
-        [
-          20.411377,
-          127.839835
-        ],
-        [
-          20.313575,
-          126.216863
-        ],
-        [
-          20.739874,
-          134.384797
-        ],
-        [
-          20.660004,
-          132.859937
-        ],
-        [
-          20.580023,
-          131.236965
-        ],
-        [
-          20.988613,
-          139.404292
-        ],
-        [
-          20.908632,
-          137.879433
-        ],
-        [
-          20.82865,
-          136.25461
-        ],
-        [
-          21.237353,
-          144.423788
-        ],
-        [
-          21.15715,
-          142.897694
-        ],
-        [
-          21.077277,
-          141.274105
-        ],
-        [
-          21.485756,
-          149.44204
-        ],
-        [
-          21.405886,
-          147.917797
-        ],
-        [
-          21.325905,
-          146.293591
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 6 Comparison of present experimental data with those in previous literature and Rohsenow correlation."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.14, 0.11, 0.27) open; x fit r2=0.99999 on 5 ticks; y fit r2=0.99996 on 10 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-6-jun_kwark_et_al_et_26_al_29",
-      "figure_id": "fig-6",
-      "label": "Jun Kwark et al. et [26] al. [29]",
-      "x_axis": {
-        "quantity": "dT_wall",
-        "unit": "\u00b0C",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "q_flux",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          3.102812,
-          0.693804
-        ],
-        [
-          3.893253,
-          1.431856
-        ],
-        [
-          4.887878,
-          2.957328
-        ],
-        [
-          5.838056,
-          4.974627
-        ],
-        [
-          6.539606,
-          6.942557
-        ],
-        [
-          7.107932,
-          8.959856
-        ],
-        [
-          7.596613,
-          10.977776
-        ],
-        [
-          8.031713,
-          12.946328
-        ],
-        [
-          8.413343,
-          14.964248
-        ],
-        [
-          8.768461,
-          16.980935
-        ],
-        [
-          9.09707,
-          18.948865
-        ],
-        [
-          9.603237,
-          22.442879
-        ],
-        [
-          10.269253,
-          27.461753
-        ],
-        [
-          10.855287,
-          32.480014
-        ],
-        [
-          11.379387,
-          37.498888
-        ],
-        [
-          11.858931,
-          42.518374
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 6 Comparison of present experimental data with those in previous literature and Rohsenow correlation."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) open; x fit r2=0.99999 on 5 ticks; y fit r2=0.99996 on 10 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-7-w_cm2_k_10",
+      "series_id": "fig-7-sandpaper-p600",
       "figure_id": "fig-7",
-      "label": "(W/cm2\u00b7K) 10",
-      "x_axis": {
-        "quantity": "q0 30 60 90 120 150",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "h",
-        "unit": "W/cm2 \u00b7K",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          1.94182,
-          1.267447
-        ],
-        [
-          3.611084,
-          1.278751
-        ],
-        [
-          5.341612,
-          1.36805
-        ],
-        [
-          6.9501,
-          1.412496
-        ],
-        [
-          9.113944,
-          1.602151
-        ],
-        [
-          11.276408,
-          1.869736
-        ],
-        [
-          15.542371,
-          2.349311
-        ],
-        [
-          22.094681,
-          3.096558
-        ],
-        [
-          28.709175,
-          3.799192
-        ],
-        [
-          40.949896,
-          4.970194
-        ],
-        [
-          52.819027,
-          5.985186
-        ],
-        [
-          65.306131,
-          6.944026
-        ],
-        [
-          77.855393,
-          7.891894
-        ],
-        [
-          89.230432,
-          8.683661
-        ],
-        [
-          101.099534,
-          9.486818
-        ],
-        [
-          112.783085,
-          10.267538
-        ],
-        [
-          123.91128,
-          10.836257
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 7 Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002 T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q ."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) open; x fit r2=0.99993 on 6 ticks; y fit r2=0.99993 on 4 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-7-w_cm2_k_10",
-      "figure_id": "fig-7",
-      "label": "(W/cm2\u00b7K) 10",
-      "x_axis": {
-        "quantity": "q0 30 60 90 120 150",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "h",
-        "unit": "W/cm2 \u00b7K",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          2.838149,
-          1.864285
-        ],
-        [
-          4.630374,
-          1.362441
-        ],
-        [
-          6.300127,
-          1.317831
-        ],
-        [
-          8.031088,
-          1.317831
-        ],
-        [
-          9.823774,
-          1.418106
-        ],
-        [
-          11.431341,
-          1.529667
-        ],
-        [
-          14.769436,
-          1.763848
-        ],
-        [
-          20.209679,
-          2.142914
-        ],
-        [
-          25.711159,
-          2.511094
-        ],
-        [
-          36.962287,
-          3.247127
-        ],
-        [
-          48.76926,
-          3.971943
-        ],
-        [
-          59.464139,
-          4.58528
-        ],
-        [
-          71.209388,
-          5.209986
-        ],
-        [
-          81.471844,
-          5.711756
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 7 Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002 T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q ."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.47, 0.42, 0.14) open; x fit r2=0.99993 on 6 ticks; y fit r2=0.99993 on 4 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-7-w_cm2_k_10",
-      "figure_id": "fig-7",
-      "label": "(W/cm2\u00b7K) 10",
-      "x_axis": {
-        "quantity": "q0 30 60 90 120 150",
-        "unit": "W/cm2",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "h",
-        "unit": "W/cm2 \u00b7K",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          2.034149,
-          1.351311
-        ],
-        [
-          2.034149,
-          1.351311
-        ],
-        [
-          3.023742,
-          0.693122
-        ],
-        [
-          3.023742,
-          0.693122
-        ],
-        [
-          4.816428,
-          0.860431
-        ],
-        [
-          4.816428,
-          0.860431
-        ],
-        [
-          5.744756,
-          0.860431
-        ],
-        [
-          5.744756,
-          0.860431
-        ],
-        [
-          8.031562,
-          1.083648
-        ],
-        [
-          8.031562,
-          1.083648
-        ],
-        [
-          10.009827,
-          1.273138
-        ],
-        [
-          10.009827,
-          1.273138
-        ],
-        [
-          13.286198,
-          1.551766
-        ],
-        [
-          13.286198,
-          1.551766
-        ],
-        [
-          19.220073,
-          2.098471
-        ],
-        [
-          19.220073,
-          2.098471
-        ],
-        [
-          25.031446,
-          2.577889
-        ],
-        [
-          25.031446,
-          2.577889
-        ],
-        [
-          36.530339,
-          3.403224
-        ],
-        [
-          36.530339,
-          3.403224
-        ],
-        [
-          47.843192,
-          4.083511
-        ],
-        [
-          47.843192,
-          4.083511
-        ],
-        [
-          59.155124,
-          4.696924
-        ],
-        [
-          59.155124,
-          4.696924
-        ],
-        [
-          70.654017,
-          5.220868
-        ],
-        [
-          70.654017,
-          5.220868
-        ],
-        [
-          81.59574,
-          5.68932
-        ],
-        [
-          81.59574,
-          5.68932
-        ],
-        [
-          93.217594,
-          6.202381
-        ],
-        [
-          93.217594,
-          6.202381
-        ]
-      ],
-      "conditions": {
-        "figure_caption": "Fig 7 Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002 T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q ."
-      },
-      "confidence": 0.96,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.7, 0.0, 0.42) open; x fit r2=0.99993 on 6 ticks; y fit r2=0.99993 on 4 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-p9-02-rgb_18_18_18",
-      "figure_id": "fig-p9-02",
-      "label": "",
-      "x_axis": {
-        "quantity": "x",
-        "unit": "",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "y",
-        "unit": "",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          1.885227,
-          1.285362
-        ],
-        [
-          3.556968,
-          1.296567
-        ],
-        [
-          5.290065,
-          1.385082
-        ],
-        [
-          6.90094,
-          1.429137
-        ],
-        [
-          9.067996,
-          1.617128
-        ],
-        [
-          11.233669,
-          1.882364
-        ],
-        [
-          15.505965,
-          2.357731
-        ],
-        [
-          22.067999,
-          3.098418
-        ],
-        [
-          28.692311,
-          3.794886
-        ],
-        [
-          40.9512,
-          4.95561
-        ],
-        [
-          52.837947,
-          5.961693
-        ],
-        [
-          65.343586,
-          6.912117
-        ],
-        [
-          77.911474,
-          7.851666
-        ],
-        [
-          89.303395,
-          8.636484
-        ],
-        [
-          101.190114,
-          9.432591
-        ],
-        [
-          112.891007,
-          10.206459
-        ],
-        [
-          124.035718,
-          10.770186
-        ]
-      ],
-      "conditions": {},
-      "confidence": 0.82,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) open; x fit r2=0.99988 on 5 ticks; y fit r2=0.99995 on 3 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-p9-02-rgb_120_107_36",
-      "figure_id": "fig-p9-02",
-      "label": "",
-      "x_axis": {
-        "quantity": "x",
-        "unit": "",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "y",
-        "unit": "",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          2.782886,
-          1.876961
-        ],
-        [
-          4.577772,
-          1.379522
-        ],
-        [
-          6.250002,
-          1.335303
-        ],
-        [
-          7.983532,
-          1.335303
-        ],
-        [
-          9.778879,
-          1.434698
-        ],
-        [
-          11.388832,
-          1.54528
-        ],
-        [
-          14.731883,
-          1.777406
-        ],
-        [
-          20.1802,
-          2.153145
-        ],
-        [
-          25.689845,
-          2.518093
-        ],
-        [
-          36.957673,
-          3.247666
-        ],
-        [
-          48.78217,
-          3.96612
-        ],
-        [
-          59.492923,
-          4.574074
-        ],
-        [
-          71.255604,
-          5.193297
-        ],
-        [
-          81.533292,
-          5.690663
-        ]
-      ],
-      "conditions": {},
-      "confidence": 0.82,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.47, 0.42, 0.14) open; x fit r2=0.99988 on 5 ticks; y fit r2=0.99995 on 3 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-p9-02-rgb_178_0_107",
-      "figure_id": "fig-p9-02",
-      "label": "",
-      "x_axis": {
-        "quantity": "x",
-        "unit": "",
-        "scale": "linear"
-      },
-      "y_axis": {
-        "quantity": "y",
-        "unit": "",
-        "scale": "linear"
-      },
-      "points": [
-        [
-          1.977693,
-          1.368489
-        ],
-        [
-          1.977693,
-          1.368489
-        ],
-        [
-          2.968755,
-          0.716077
-        ],
-        [
-          2.968755,
-          0.716077
-        ],
-        [
-          4.764101,
-          0.881918
-        ],
-        [
-          4.764101,
-          0.881918
-        ],
-        [
-          5.693807,
-          0.881918
-        ],
-        [
-          5.693807,
-          0.881918
-        ],
-        [
-          7.984007,
-          1.103176
-        ],
-        [
-          7.984007,
-          1.103176
-        ],
-        [
-          9.965209,
-          1.291003
-        ],
-        [
-          9.965209,
-          1.291003
-        ],
-        [
-          13.246443,
-          1.567186
-        ],
-        [
-          13.246443,
-          1.567186
-        ],
-        [
-          19.189125,
-          2.109092
-        ],
-        [
-          19.189125,
-          2.109092
-        ],
-        [
-          25.009123,
-          2.584301
-        ],
-        [
-          25.009123,
-          2.584301
-        ],
-        [
-          36.525083,
-          3.402393
-        ],
-        [
-          36.525083,
-          3.402393
-        ],
-        [
-          47.854727,
-          4.076709
-        ],
-        [
-          47.854727,
-          4.076709
-        ],
-        [
-          59.183449,
-          4.684738
-        ],
-        [
-          59.183449,
-          4.684738
-        ],
-        [
-          70.699409,
-          5.204084
-        ],
-        [
-          70.699409,
-          5.204084
-        ],
-        [
-          81.657372,
-          5.668424
-        ],
-        [
-          81.657372,
-          5.668424
-        ],
-        [
-          93.296476,
-          6.176982
-        ],
-        [
-          93.296476,
-          6.176982
-        ]
-      ],
-      "conditions": {},
-      "confidence": 0.82,
-      "uncertainty": {
-        "method": "vector_path_extraction"
-      },
-      "notes": "vector paths, style rgb=(0.7, 0.0, 0.42) open; x fit r2=0.99988 on 5 ticks; y fit r2=0.99995 on 3 ticks; points kept in recovered path order, not re-sorted by x"
-    },
-    {
-      "series_id": "fig-8-sandpaper_polished_p80",
-      "figure_id": "fig-8",
-      "label": "Sandpaper polished P80",
+      "label": "Sandpaper polished 600 grit",
       "x_axis": {
         "quantity": "dT_wall",
-        "unit": "degC",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
         "quantity": "q_flux",
-        "unit": "W/cm2",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          1.021062,
-          1.914845
+          6.61,
+          4.38
         ],
         [
-          2.464462,
-          3.548193
+          7.59,
+          8.47
         ],
         [
-          3.68944,
-          5.345803
+          8.19,
+          12.33
         ],
         [
-          4.805018,
-          6.979666
+          8.45,
+          16.67
         ],
         [
-          5.66331,
-          9.103708
+          8.99,
+          20.19
         ],
         [
-          6.045716,
-          11.308609
+          9.33,
+          24.37
         ],
         [
-          6.677642,
-          15.638583
+          9.82,
+          29.78
         ],
         [
-          7.200346,
-          22.255346
+          10.3,
+          35.51
         ],
         [
-          7.652883,
-          28.953999
+          11.15,
+          46.98
         ],
         [
-          8.347319,
-          41.369307
+          11.9,
+          58.69
         ],
         [
-          8.955791,
-          53.378354
+          12.7,
+          69.92
         ],
         [
-          9.540998,
-          65.957721
+          13.53,
+          80.98
         ],
         [
-          10.009155,
-          78.701506
+          14.19,
+          91.54
         ],
         [
-          10.41485,
-          90.137502
-        ],
-        [
-          10.804956,
-          102.145472
-        ],
-        [
-          11.13265,
-          113.990272
-        ],
-        [
-          11.600806,
-          125.263458
+          14.78,
+          103.01
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 8 Comparison of the experimental results of laser processed 1 with sandpaper polished 80 grit and sandpaper polished 600 grit."
-      },
-      "confidence": 0.96,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) open; x fit r2=0.99999 on 4 ticks; y fit r2=0.99998 on 6 ticks; points kept in recovered path order, not re-sorted by x"
+      "notes": "Orange open inverted-triangle marker; label confirmed from legend text visible in the crop."
     },
     {
-      "series_id": "fig-8-rgb_18_18_18",
-      "figure_id": "fig-8",
-      "label": "",
+      "series_id": "fig-7-laser-processed-2",
+      "figure_id": "fig-7",
+      "label": "Laser processed 2",
       "x_axis": {
         "quantity": "dT_wall",
-        "unit": "degC",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
         "quantity": "q_flux",
-        "unit": "W/cm2",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          12.633497,
-          125.263208
+          1.12,
+          1.26
         ],
         [
-          15.091232,
-          91.486549
+          2.85,
+          2.27
         ],
         [
-          15.860787,
-          104.065088
+          3.87,
+          2.27
+        ],
+        [
+          4.6,
+          4.04
+        ],
+        [
+          4.89,
+          2.27
+        ],
+        [
+          4.91,
+          4.04
+        ],
+        [
+          5.42,
+          4.04
+        ],
+        [
+          5.93,
+          4.55
+        ],
+        [
+          6.22,
+          4.55
+        ],
+        [
+          6.69,
+          5.05
+        ],
+        [
+          6.91,
+          7.33
+        ],
+        [
+          7.12,
+          7.33
+        ],
+        [
+          7.15,
+          5.05
+        ],
+        [
+          7.41,
+          5.05
+        ],
+        [
+          7.42,
+          9.35
+        ],
+        [
+          7.51,
+          7.33
+        ],
+        [
+          7.6,
+          9.35
+        ],
+        [
+          7.91,
+          7.33
+        ],
+        [
+          7.97,
+          9.35
+        ],
+        [
+          8.12,
+          7.33
+        ],
+        [
+          8.33,
+          9.35
+        ],
+        [
+          8.4,
+          12.72
+        ],
+        [
+          8.51,
+          9.35
+        ],
+        [
+          8.75,
+          12.72
+        ],
+        [
+          8.88,
+          18.7
+        ],
+        [
+          9.01,
+          18.7
+        ],
+        [
+          9.11,
+          12.72
+        ],
+        [
+          9.33,
+          18.7
+        ],
+        [
+          9.44,
+          24.59
+        ],
+        [
+          9.58,
+          24.59
+        ],
+        [
+          9.65,
+          18.7
+        ],
+        [
+          9.78,
+          18.7
+        ],
+        [
+          9.91,
+          24.59
+        ],
+        [
+          10.24,
+          24.59
+        ],
+        [
+          10.37,
+          24.59
+        ],
+        [
+          10.67,
+          36.22
+        ],
+        [
+          10.95,
+          36.21
+        ],
+        [
+          11.23,
+          36.22
+        ],
+        [
+          11.62,
+          47.67
+        ],
+        [
+          11.93,
+          47.67
+        ],
+        [
+          12.24,
+          47.67
+        ],
+        [
+          12.49,
+          59.12
+        ],
+        [
+          12.83,
+          59.12
+        ],
+        [
+          13.17,
+          59.12
+        ],
+        [
+          13.51,
+          70.83
+        ],
+        [
+          13.78,
+          70.83
+        ],
+        [
+          14.05,
+          70.83
+        ],
+        [
+          14.21,
+          81.95
+        ],
+        [
+          14.58,
+          81.95
+        ],
+        [
+          14.73,
+          93.66
+        ],
+        [
+          14.9,
+          81.95
+        ],
+        [
+          14.9,
+          93.66
+        ],
+        [
+          15.03,
+          81.95
+        ],
+        [
+          15.27,
+          93.66
+        ],
+        [
+          15.64,
+          93.66
+        ],
+        [
+          15.81,
+          93.66
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 8 Comparison of the experimental results of laser processed 1 with sandpaper polished 80 grit and sandpaper polished 600 grit."
-      },
-      "confidence": 0.93,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) filled; x fit r2=0.99999 on 4 ticks; y fit r2=0.99998 on 6 ticks; points kept in recovered path order, not re-sorted by x"
+      "notes": "Magenta/pink X marker; label confirmed from legend text visible in the crop. Higher point density than other series (~28 distinct positions after de-duplicating the two crossing strokes of each X glyph), likely reflecting denser sampling near the nucleate-boiling onset region rather than a hysteresis split."
     },
     {
-      "series_id": "fig-13-rgb_120_107_36",
-      "figure_id": "fig-13",
-      "label": "",
+      "series_id": "fig-7-black-square",
+      "figure_id": "fig-7",
+      "label": "black square marker (legend label not printed in this crop)",
       "x_axis": {
-        "quantity": "0 3 6 9 12 h experiment",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "dT_wall",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
-        "quantity": "h correlation",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "q_flux",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          1.30192,
-          1.091089
+          2.47,
+          2.91
         ],
         [
-          1.414464,
-          1.326802
+          3.69,
+          4.67
         ],
         [
-          1.655626,
-          1.752482
+          4.8,
+          6.36
         ],
         [
-          2.041583,
-          2.3025
+          5.65,
+          8.55
         ],
         [
-          2.41679,
-          2.780384
+          6.04,
+          10.74
         ],
         [
-          3.156418,
-          3.559405
+          6.67,
+          15.03
         ],
         [
-          3.885401,
-          4.214212
+          7.19,
+          21.6
         ],
         [
-          4.507161,
-          4.777399
+          7.64,
+          28.43
         ],
         [
-          5.144994,
-          5.346955
+          8.34,
+          40.81
         ],
         [
-          5.654176,
-          5.896798
+          8.94,
+          52.85
+        ],
+        [
+          9.52,
+          65.48
+        ],
+        [
+          9.98,
+          78.2
+        ],
+        [
+          10.39,
+          89.74
+        ],
+        [
+          10.78,
+          101.78
+        ],
+        [
+          11.11,
+          113.57
+        ],
+        [
+          11.57,
+          124.86
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 13 Comparison between the experimental data and the predicted values by Eq. (15) ."
-      },
-      "confidence": 0.93,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.47, 0.42, 0.14) open; x fit r2=0.99993 on 5 ticks; y fit r2=0.99990 on 5 ticks; points kept in recovered path order, not re-sorted by x; dropped 1 isolated same-colour mark(s) with no near neighbour (legend bullet or marker-preview callout, not a data point)"
+      "notes": "Black/dark open square marker. The figure's legend box is cropped at the top edge of the page, cutting off this series' text label (only fragments of marker glyphs remain in the PDF text layer); color/marker used as the label per instructions."
     },
     {
-      "series_id": "fig-13-rgb_176_10_66",
-      "figure_id": "fig-13",
-      "label": "",
+      "series_id": "fig-7-navy-circle",
+      "figure_id": "fig-7",
+      "label": "navy/blue circle-cross marker (legend label not printed in this crop)",
       "x_axis": {
-        "quantity": "0 3 6 9 12 h experiment",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "dT_wall",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
-        "quantity": "h correlation",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "q_flux",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          0.958894,
-          1.333472
+          3.7,
+          2.95
         ],
         [
-          0.958894,
-          1.333472
+          4.3,
+          2.78
         ],
         [
-          1.157195,
-          1.523309
+          5.58,
+          4.51
         ],
         [
-          1.157195,
-          1.523309
+          6.15,
+          6.99
         ],
         [
-          1.441287,
-          1.889858
+          6.39,
+          6.15
         ],
         [
-          1.441287,
-          1.889858
+          6.53,
+          8.76
         ],
         [
-          1.998617,
-          2.184533
+          6.89,
+          10.78
         ],
         [
-          1.998617,
-          2.184533
+          7.22,
+          8.0
         ],
         [
-          2.475653,
-          2.505461
+          7.27,
+          14.91
         ],
         [
-          2.475653,
-          2.505461
+          7.68,
+          9.94
         ],
         [
-          3.311857,
-          3.153644
+          7.7,
+          21.06
         ],
         [
-          3.311857,
-          3.153644
+          8.14,
+          27.12
         ],
         [
-          4.003197,
-          3.827823
+          8.35,
+          13.48
         ],
         [
-          4.003197,
-          3.827823
+          8.83,
+          39.5
         ],
         [
-          4.619566,
-          4.521841
+          8.89,
+          19.2
         ],
         [
-          4.619566,
-          4.521841
+          9.45,
+          25.1
         ],
         [
-          5.150213,
-          5.320654
+          9.45,
+          51.12
         ],
         [
-          5.150213,
-          5.320654
+          10.12,
+          62.83
         ],
         [
-          5.632572,
-          6.053922
+          10.27,
+          36.38
         ],
         [
-          5.632572,
-          6.053922
+          10.86,
+          74.29
         ],
         [
-          6.152539,
-          6.721859
+          11.15,
+          47.59
         ],
         [
-          6.152539,
-          6.721859
+          11.34,
+          86.24
+        ],
+        [
+          11.79,
+          98.12
+        ],
+        [
+          11.85,
+          59.12
+        ],
+        [
+          12.4,
+          109.74
+        ],
+        [
+          12.72,
+          70.07
+        ],
+        [
+          12.89,
+          121.2
+        ],
+        [
+          13.43,
+          80.77
+        ],
+        [
+          14.22,
+          91.47
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 13 Comparison between the experimental data and the predicted values by Eq. (15) ."
-      },
-      "confidence": 0.93,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.69, 0.04, 0.26) open; x fit r2=0.99993 on 5 ticks; y fit r2=0.99990 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+      "notes": "Circle-with-cross marker rendered in two very close navy/indigo tones (one drawn via line segments, one via bezier curves) that were merged as a single series. Legend label not recoverable because the top row of the legend box falls outside the cropped page area."
     },
     {
-      "series_id": "fig-13-sa_1_22_m",
-      "figure_id": "fig-13",
-      "label": "Sa = 1.22 \u03bcm",
+      "series_id": "fig-7-red-triangle",
+      "figure_id": "fig-7",
+      "label": "red triangle-up marker (legend label not printed in this crop)",
       "x_axis": {
-        "quantity": "0 3 6 9 12 h experiment",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "dT_wall",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
-        "quantity": "h correlation",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "q_flux",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          1.486872,
-          1.801482
+          4.12,
+          2.78
         ],
         [
-          1.754892,
-          2.135366
+          5.75,
+          4.3
         ],
         [
-          2.24252,
-          2.770592
+          6.4,
+          6.32
         ],
         [
-          2.998344,
-          3.372857
+          6.87,
+          8.25
         ],
         [
-          3.711184,
-          3.955679
+          7.17,
+          10.36
         ],
         [
-          4.895744,
-          4.95737
+          7.68,
+          14.06
         ],
         [
-          5.9195,
-          5.9525
+          8.22,
+          19.79
         ],
         [
-          6.884322,
-          7.019692
+          8.75,
+          25.43
         ],
         [
-          7.849039,
-          7.942846
+          9.65,
+          37.06
         ],
         [
-          8.658385,
-          8.80716
+          10.48,
+          48.34
         ],
         [
-          9.467768,
-          9.684512
+          11.2,
+          59.46
         ],
         [
-          10.255683,
-          10.483247
+          11.9,
+          71.5
         ],
         [
-          10.823833,
-          11.655317
+          12.51,
+          83.3
+        ],
+        [
+          13.13,
+          94.92
+        ],
+        [
+          13.82,
+          106.62
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 13 Comparison between the experimental data and the predicted values by Eq. (15) ."
-      },
-      "confidence": 0.96,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.07, 0.07, 0.07) open; x fit r2=0.99993 on 5 ticks; y fit r2=0.99990 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+      "notes": "Red open triangle-up marker. Legend label not recoverable because the top row of the legend box falls outside the cropped page area; the PDF text layer shows an unassigned label 'Laser processed 1' from that cut-off row, but it could not be reliably matched to this or any specific marker color."
     },
     {
-      "series_id": "fig-13-rgb_36_28_69",
-      "figure_id": "fig-13",
-      "label": "",
+      "series_id": "fig-7-maroon-triangle",
+      "figure_id": "fig-7",
+      "label": "maroon/wine left-pointing triangle marker (legend label not printed in this crop)",
       "x_axis": {
-        "quantity": "0 3 6 9 12 h experiment",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "dT_wall",
+        "unit": "°C",
         "scale": "linear"
       },
       "y_axis": {
-        "quantity": "h correlation",
-        "unit": "W/cm2 \u00b7K",
+        "quantity": "q_flux",
+        "unit": "W/cm²",
         "scale": "linear"
       },
       "points": [
         [
-          0.047683,
-          0.059983
+          3.54,
+          2.74
         ],
         [
-          0.149582,
-          0.181112
+          5.07,
+          4.59
         ],
         [
-          0.246019,
-          0.298948
+          6.26,
+          6.44
         ],
         [
-          0.347919,
-          0.420077
+          6.82,
+          8.21
         ],
         [
-          0.449783,
-          0.54112
+          7.86,
+          9.98
         ],
         [
-          0.551612,
-          0.662206
+          9.08,
+          14.11
         ],
         [
-          0.648084,
-          0.776835
+          9.84,
+          20.17
         ],
         [
-          0.749983,
-          0.897964
+          10.43,
+          26.49
         ],
         [
-          0.851813,
-          1.019135
+          11.7,
+          38.45
         ],
         [
-          0.953712,
-          1.140221
+          12.68,
+          51.0
         ],
         [
-          1.151978,
-          1.379227
+          13.51,
+          62.96
         ],
         [
-          1.068883,
-          1.277682
+          14.35,
+          75.34
         ],
         [
-          1.007253,
-          1.202474
-        ],
-        [
-          1.355707,
-          1.618235
-        ],
-        [
-          1.272611,
-          1.519981
-        ],
-        [
-          1.20825,
-          1.447979
-        ],
-        [
-          1.553902,
-          1.857241
-        ],
-        [
-          1.470877,
-          1.755696
-        ],
-        [
-          1.409247,
-          1.680488
-        ],
-        [
-          1.757631,
-          2.09937
-        ],
-        [
-          1.674535,
-          2.004494
-        ],
-        [
-          1.610174,
-          1.925909
-        ],
-        [
-          1.955966,
-          2.335128
-        ],
-        [
-          1.872836,
-          2.240166
-        ],
-        [
-          1.811241,
-          2.164915
-        ],
-        [
-          2.159624,
-          2.57747
-        ],
-        [
-          2.076599,
-          2.482508
-        ],
-        [
-          2.012273,
-          2.403837
-        ],
-        [
-          2.35796,
-          2.813185
-        ],
-        [
-          2.274934,
-          2.718265
-        ],
-        [
-          2.213235,
-          2.642928
-        ],
-        [
-          2.561723,
-          3.055397
-        ],
-        [
-          2.478593,
-          2.960436
-        ],
-        [
-          2.414336,
-          2.881807
-        ],
-        [
-          2.760059,
-          3.297568
-        ],
-        [
-          2.676998,
-          3.196109
-        ],
-        [
-          2.615298,
-          3.120772
-        ],
-        [
-          2.963752,
-          3.536576
-        ],
-        [
-          2.880692,
-          3.438323
-        ],
-        [
-          2.8164,
-          3.366365
-        ],
-        [
-          3.162088,
-          3.775541
-        ],
-        [
-          3.079028,
-          3.673995
-        ],
-        [
-          3.017364,
-          3.598787
-        ],
-        [
-          3.365818,
-          4.01784
-        ],
-        [
-          3.282723,
-          3.922878
-        ],
-        [
-          3.218361,
-          3.844335
-        ],
-        [
-          3.564084,
-          4.253597
-        ],
-        [
-          3.481024,
-          4.158635
-        ],
-        [
-          3.419359,
-          4.083342
-        ],
-        [
-          3.767743,
-          4.495768
-        ],
-        [
-          3.684683,
-          4.400935
-        ],
-        [
-          3.620323,
-          4.322348
-        ],
-        [
-          3.96608,
-          4.73144
-        ],
-        [
-          3.882986,
-          4.636649
-        ],
-        [
-          3.821356,
-          4.561313
-        ],
-        [
-          4.169739,
-          4.973782
-        ],
-        [
-          4.086679,
-          4.878905
-        ],
-        [
-          4.022318,
-          4.800235
-        ],
-        [
-          4.368006,
-          5.216081
-        ],
-        [
-          4.28498,
-          5.114578
-        ],
-        [
-          4.22328,
-          5.039326
-        ],
-        [
-          4.571734,
-          5.45513
-        ],
-        [
-          4.488604,
-          5.356748
-        ],
-        [
-          4.424313,
-          5.284789
-        ],
-        [
-          4.77,
-          5.69405
-        ],
-        [
-          4.686974,
-          5.59259
-        ],
-        [
-          4.625274,
-          5.517169
-        ],
-        [
-          4.973763,
-          5.932973
-        ],
-        [
-          4.890668,
-          5.834762
-        ],
-        [
-          4.826377,
-          5.762675
-        ],
-        [
-          5.172029,
-          6.171852
-        ],
-        [
-          5.089004,
-          6.070434
-        ],
-        [
-          5.027374,
-          5.995183
-        ],
-        [
-          5.375758,
-          6.41415
-        ],
-        [
-          5.292733,
-          6.319231
-        ],
-        [
-          5.228302,
-          6.24056
-        ],
-        [
-          5.57406,
-          6.649864
-        ],
-        [
-          5.491035,
-          6.554903
-        ],
-        [
-          5.42937,
-          6.479566
-        ],
-        [
-          5.777684,
-          6.892078
-        ],
-        [
-          5.694659,
-          6.797117
-        ],
-        [
-          5.630333,
-          6.718573
-        ],
-        [
-          5.981447,
-          7.134292
-        ],
-        [
-          5.898422,
-          7.039331
-        ],
-        [
-          5.833991,
-          6.960787
-        ],
-        [
-          6.179748,
-          7.370006
-        ],
-        [
-          6.096688,
-          7.275045
-        ],
-        [
-          6.035058,
-          7.199708
-        ],
-        [
-          6.383406,
-          7.61222
-        ],
-        [
-          6.300276,
-          7.517216
-        ],
-        [
-          6.23602,
-          7.438715
-        ],
-        [
-          6.581777,
-          7.847892
-        ],
-        [
-          6.498577,
-          7.752888
-        ],
-        [
-          6.437018,
-          7.677636
-        ],
-        [
-          6.785401,
-          8.090191
-        ],
-        [
-          6.702376,
-          7.995144
-        ],
-        [
-          6.63805,
-          7.916601
-        ],
-        [
-          6.983703,
-          8.332405
-        ],
-        [
-          6.900643,
-          8.230987
-        ],
-        [
-          6.838978,
-          8.155736
-        ],
-        [
-          7.187397,
-          8.571454
-        ],
-        [
-          7.104302,
-          8.4732
-        ],
-        [
-          7.040012,
-          8.401199
-        ],
-        [
-          7.385699,
-          8.810418
-        ],
-        [
-          7.302673,
-          8.708872
-        ],
-        [
-          7.241008,
-          8.633621
-        ],
-        [
-          7.589356,
-          9.052717
-        ],
-        [
-          7.506296,
-          8.957755
-        ],
-        [
-          7.44204,
-          8.879212
-        ],
-        [
-          7.787693,
-          9.288388
-        ],
-        [
-          7.704633,
-          9.19347
-        ],
-        [
-          7.643038,
-          9.118176
-        ],
-        [
-          7.991421,
-          9.530602
-        ],
-        [
-          7.90829,
-          9.435726
-        ],
-        [
-          7.844034,
-          9.357097
-        ],
-        [
-          8.189757,
-          9.766274
-        ],
-        [
-          8.106626,
-          9.671355
-        ],
-        [
-          8.044997,
-          9.596019
-        ],
-        [
-          8.393381,
-          10.008616
-        ],
-        [
-          8.310286,
-          9.91374
-        ],
-        [
-          8.245925,
-          9.835068
-        ],
-        [
-          8.591717,
-          10.250872
-        ],
-        [
-          8.508621,
-          10.149412
-        ],
-        [
-          8.446992,
-          10.074032
-        ],
-        [
-          8.79534,
-          10.489836
-        ],
-        [
-          8.712315,
-          10.39154
-        ],
-        [
-          8.647953,
-          10.319496
-        ],
-        [
-          8.993641,
-          10.728715
-        ],
-        [
-          8.910616,
-          10.627297
-        ],
-        [
-          8.849022,
-          10.551961
-        ],
-        [
-          9.19737,
-          10.971014
-        ],
-        [
-          9.11431,
-          10.876095
-        ],
-        [
-          9.049949,
-          10.797509
-        ],
-        [
-          9.395672,
-          11.206685
-        ],
-        [
-          9.312646,
-          11.111766
-        ],
-        [
-          9.250982,
-          11.036473
-        ],
-        [
-          9.59933,
-          11.448984
-        ],
-        [
-          9.51627,
-          11.354023
-        ],
-        [
-          9.451979,
-          11.27548
-        ],
-        [
-          9.797701,
-          11.684699
-        ],
-        [
-          9.714571,
-          11.58978
-        ],
-        [
-          9.653011,
-          11.514486
-        ],
-        [
-          0.047683,
-          0.033728
-        ],
-        [
-          0.149582,
-          0.1124
-        ],
-        [
-          0.246019,
-          0.194149
-        ],
-        [
-          0.347919,
-          0.276029
-        ],
-        [
-          0.449783,
-          0.354529
-        ],
-        [
-          0.551612,
-          0.433115
-        ],
-        [
-          0.648084,
-          0.511702
-        ],
-        [
-          0.749983,
-          0.593536
-        ],
-        [
-          0.851813,
-          0.675415
-        ],
-        [
-          0.953712,
-          0.753916
-        ],
-        [
-          1.151978,
-          0.91113
-        ],
-        [
-          1.068883,
-          0.842377
-        ],
-        [
-          1.007253,
-          0.796543
-        ],
-        [
-          1.355707,
-          1.0748
-        ],
-        [
-          1.272611,
-          1.006047
-        ],
-        [
-          1.20825,
-          0.956877
-        ],
-        [
-          1.553902,
-          1.231928
-        ],
-        [
-          1.470877,
-          1.163175
-        ],
-        [
-          1.409247,
-          1.117383
-        ],
-        [
-          1.757631,
-          1.39564
-        ],
-        [
-          1.674535,
-          1.326803
-        ],
-        [
-          1.610174,
-          1.277677
-        ],
-        [
-          1.955966,
-          1.552813
-        ],
-        [
-          1.872836,
-          1.484061
-        ],
-        [
-          1.811241,
-          1.43814
-        ],
-        [
-          2.159624,
-          1.716355
-        ],
-        [
-          2.076599,
-          1.647731
-        ],
-        [
-          2.012273,
-          1.598562
-        ],
-        [
-          2.35796,
-          1.87357
-        ],
-        [
-          2.274934,
-          1.804818
-        ],
-        [
-          2.213235,
-          1.758941
-        ],
-        [
-          2.561723,
-          2.0307
-        ],
-        [
-          2.478593,
-          1.96849
-        ],
-        [
-          2.414336,
-          1.919321
-        ],
-        [
-          2.760059,
-          2.194329
-        ],
-        [
-          2.676998,
-          2.125704
-        ],
-        [
-          2.615298,
-          2.073285
-        ],
-        [
-          2.963752,
-          2.351457
-        ],
-        [
-          2.880692,
-          2.289375
-        ],
-        [
-          2.8164,
-          2.240163
-        ],
-        [
-          3.162088,
-          2.5153
-        ],
-        [
-          3.079028,
-          2.446419
-        ],
-        [
-          3.017364,
-          2.394042
-        ],
-        [
-          3.365818,
-          2.672343
-        ],
-        [
-          3.282723,
-          2.61009
-        ],
-        [
-          3.218361,
-          2.561005
-        ],
-        [
-          3.564084,
-          2.829428
-        ],
-        [
-          3.481024,
-          2.760803
-        ],
-        [
-          3.419359,
-          2.714841
-        ],
-        [
-          3.767743,
-          2.993098
-        ],
-        [
-          3.684683,
-          2.924346
-        ],
-        [
-          3.620323,
-          2.875305
-        ],
-        [
-          3.96608,
-          3.150312
-        ],
-        [
-          3.882986,
-          3.081475
-        ],
-        [
-          3.821356,
-          3.035684
-        ],
-        [
-          4.169739,
-          3.313983
-        ],
-        [
-          4.086679,
-          3.245188
-        ],
-        [
-          4.022318,
-          3.196103
-        ],
-        [
-          4.368006,
-          3.471111
-        ],
-        [
-          4.28498,
-          3.402316
-        ],
-        [
-          4.22328,
-          3.356566
-        ],
-        [
-          4.571734,
-          3.634738
-        ],
-        [
-          4.488604,
-          3.566071
-        ],
-        [
-          4.424313,
-          3.516988
-        ],
-        [
-          4.77,
-          3.791995
-        ],
-        [
-          4.686974,
-          3.723073
-        ],
-        [
-          4.625274,
-          3.67728
-        ],
-        [
-          4.973763,
-          3.949082
-        ],
-        [
-          4.890668,
-          3.886958
-        ],
-        [
-          4.826377,
-          3.837831
-        ],
-        [
-          5.172029,
-          4.112711
-        ],
-        [
-          5.089004,
-          4.044129
-        ],
-        [
-          5.027374,
-          3.99171
-        ],
-        [
-          5.375758,
-          4.27001
-        ],
-        [
-          5.292733,
-          4.207757
-        ],
-        [
-          5.228302,
-          4.15863
-        ],
-        [
-          5.57406,
-          4.433595
-        ],
-        [
-          5.491035,
-          4.364886
-        ],
-        [
-          5.42937,
-          4.312596
-        ],
-        [
-          5.777684,
-          4.590681
-        ],
-        [
-          5.694659,
-          4.528599
-        ],
-        [
-          5.630333,
-          4.479472
-        ],
-        [
-          5.981447,
-          4.747725
-        ],
-        [
-          5.898422,
-          4.685643
-        ],
-        [
-          5.833991,
-          4.636644
-        ],
-        [
-          6.179748,
-          4.911524
-        ],
-        [
-          6.096688,
-          4.842771
-        ],
-        [
-          6.035058,
-          4.790437
-        ],
-        [
-          6.383406,
-          5.068737
-        ],
-        [
-          6.300276,
-          5.006527
-        ],
-        [
-          6.23602,
-          4.957484
-        ],
-        [
-          6.581777,
-          5.232365
-        ],
-        [
-          6.498577,
-          5.163612
-        ],
-        [
-          6.437018,
-          5.111321
-        ],
-        [
-          6.785401,
-          5.38945
-        ],
-        [
-          6.702376,
-          5.327326
-        ],
-        [
-          6.63805,
-          5.278241
-        ],
-        [
-          6.983703,
-          5.54675
-        ],
-        [
-          6.900643,
-          5.477956
-        ],
-        [
-          6.838978,
-          5.432121
-        ],
-        [
-          7.187397,
-          5.710463
-        ],
-        [
-          7.104302,
-          5.641753
-        ],
-        [
-          7.040012,
-          5.59267
-        ],
-        [
-          7.385699,
-          5.86755
-        ],
-        [
-          7.302673,
-          5.798797
-        ],
-        [
-          7.241008,
-          5.75292
-        ],
-        [
-          7.589356,
-          6.031177
-        ],
-        [
-          7.506296,
-          5.962425
-        ],
-        [
-          7.44204,
-          5.913383
-        ],
-        [
-          7.787693,
-          6.188306
-        ],
-        [
-          7.704633,
-          6.119597
-        ],
-        [
-          7.643038,
-          6.073719
-        ],
-        [
-          7.991421,
-          6.35189
-        ],
-        [
-          7.90829,
-          6.283309
-        ],
-        [
-          7.844034,
-          6.234054
-        ],
-        [
-          8.189757,
-          6.508976
-        ],
-        [
-          8.106626,
-          6.440438
-        ],
-        [
-          8.044997,
-          6.394603
-        ],
-        [
-          8.393381,
-          6.666233
-        ],
-        [
-          8.310286,
-          6.604066
-        ],
-        [
-          8.245925,
-          6.554981
-        ],
-        [
-          8.591717,
-          6.829946
-        ],
-        [
-          8.508621,
-          6.761237
-        ],
-        [
-          8.446992,
-          6.708904
-        ],
-        [
-          8.79534,
-          6.987118
-        ],
-        [
-          8.712315,
-          6.924993
-        ],
-        [
-          8.647953,
-          6.875909
-        ],
-        [
-          8.993641,
-          7.150831
-        ],
-        [
-          8.910616,
-          7.082079
-        ],
-        [
-          8.849022,
-          7.029703
-        ],
-        [
-          9.19737,
-          7.30796
-        ],
-        [
-          9.11431,
-          7.245707
-        ],
-        [
-          9.049949,
-          7.196666
-        ],
-        [
-          9.395672,
-          7.465089
-        ],
-        [
-          9.312646,
-          7.396508
-        ],
-        [
-          9.250982,
-          7.350631
-        ],
-        [
-          9.59933,
-          7.628888
-        ],
-        [
-          9.51627,
-          7.560179
-        ],
-        [
-          9.451979,
-          7.511094
-        ],
-        [
-          9.797701,
-          7.785974
-        ],
-        [
-          9.714571,
-          7.71718
-        ],
-        [
-          9.653011,
-          7.671345
-        ],
-        [
-          10.001359,
-          7.949602
-        ],
-        [
-          9.918264,
-          7.880808
-        ],
-        [
-          9.854009,
-          7.831766
-        ],
-        [
-          10.199696,
-          8.106688
-        ],
-        [
-          10.116602,
-          8.038107
-        ],
-        [
-          10.054937,
-          7.992187
-        ],
-        [
-          10.403355,
-          8.263859
-        ],
-        [
-          10.32026,
-          8.201735
-        ],
-        [
-          10.255935,
-          8.152608
-        ],
-        [
-          10.601692,
-          8.427572
-        ],
-        [
-          10.518598,
-          8.358821
-        ],
-        [
-          10.456933,
-          8.306444
-        ],
-        [
-          10.805316,
-          8.584744
-        ],
-        [
-          10.722291,
-          8.522534
-        ],
-        [
-          10.657929,
-          8.473364
-        ],
-        [
-          11.003652,
-          8.748286
-        ],
-        [
-          10.920592,
-          8.67962
-        ],
-        [
-          10.858997,
-          8.627286
-        ],
-        [
-          11.207381,
-          8.905458
-        ],
-        [
-          11.124286,
-          8.843291
-        ],
-        [
-          11.059995,
-          8.794292
-        ],
-        [
-          11.405647,
-          9.069214
-        ],
-        [
-          11.322552,
-          9.000462
-        ],
-        [
-          11.260992,
-          8.948043
-        ],
-        [
-          11.609341,
-          9.2263
-        ],
-        [
-          11.526281,
-          9.164133
-        ],
-        [
-          11.46192,
-          9.115091
-        ],
-        [
-          11.807642,
-          9.383386
-        ],
-        [
-          11.724581,
-          9.31472
-        ],
-        [
-          11.662987,
-          9.268927
+          15.13,
+          86.2
         ]
       ],
-      "conditions": {
-        "figure_caption": "Fig 13 Comparison between the experimental data and the predicted values by Eq. (15) ."
-      },
-      "confidence": 0.93,
       "uncertainty": {
         "method": "vector_path_extraction"
       },
-      "notes": "vector paths, style rgb=(0.14, 0.11, 0.27) open; x fit r2=0.99993 on 5 ticks; y fit r2=0.99990 on 5 ticks; points kept in recovered path order, not re-sorted by x"
+      "notes": "Dark maroon/wine open left-pointing triangle marker. Legend label not recoverable (top legend row cropped off the page)."
+    },
+    {
+      "series_id": "fig-7-olive-diamond",
+      "figure_id": "fig-7",
+      "label": "olive diamond marker (legend label not printed in this crop)",
+      "x_axis": {
+        "quantity": "dT_wall",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "quantity": "q_flux",
+        "unit": "W/cm²",
+        "scale": "linear"
+      },
+      "points": [
+        [
+          3.08,
+          3.88
+        ],
+        [
+          4.62,
+          5.64
+        ],
+        [
+          6.05,
+          7.33
+        ],
+        [
+          6.95,
+          9.1
+        ],
+        [
+          7.56,
+          10.78
+        ],
+        [
+          8.53,
+          14.15
+        ],
+        [
+          9.61,
+          19.71
+        ],
+        [
+          10.44,
+          25.27
+        ],
+        [
+          11.63,
+          36.72
+        ],
+        [
+          12.52,
+          48.6
+        ],
+        [
+          13.23,
+          59.55
+        ],
+        [
+          13.9,
+          71.34
+        ],
+        [
+          14.51,
+          81.78
+        ]
+      ],
+      "uncertainty": {
+        "method": "vector_path_extraction"
+      },
+      "notes": "Olive/dark-yellow open diamond marker. Legend label not recoverable (top legend row cropped off the page)."
     }
   ]
 }

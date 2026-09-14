@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 from typing import Any, TypeVar
 
@@ -31,7 +32,7 @@ from .docmodel import DocumentModel
 from .schemas import Application, Conditions, Taxonomy, Triage, Verification
 
 MODEL = DEFAULT_MODEL
-PROMPT_VERSION = "p1"
+PROMPT_VERSION = "p2"
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -68,7 +69,7 @@ def _vocab_block(facets: dict) -> str:
 SYSTEM_PREAMBLE = """You extract structured metadata from multiphase heat transfer papers \
 for a searchable research catalog.
 
-Two rules govern everything you do here.
+Three rules govern everything you do here.
 
 1. EVIDENCE OR NOTHING. Every value you report must be supported by a verbatim \
 quote copied character-for-character from the paper. A quote that does not \
@@ -81,8 +82,59 @@ paper's own units exactly as printed — downstream code handles SI conversion a
 dimensionless groups. Choose facet values only from the controlled vocabulary \
 below; when nothing fits, use the propose_new field rather than inventing a term.
 
+3. NEVER SOURCE A VALUE FROM A CITATION. This paper's own reported conditions, \
+surfaces, fluids, and results come only from its own body text — abstract, \
+introduction, methods, results, discussion. A paper it cites describes someone \
+else's work, even though a citation's own title, author list, or journal name is \
+itself a literal, quotable string that could otherwise pass the evidence check \
+above. The References/Bibliography section has already been removed from the \
+text below for exactly this reason — if a heading further down still looks like \
+one, nothing past it is this paper's own material either.
+
 The full text of the paper follows. It is the only source you may draw on.
 """
+
+_BIBLIOGRAPHY_TITLE = re.compile(
+    r"^\s*(references?|bibliography|works\s+cited|literature\s+cited|reference\s+list)\s*$",
+    re.I,
+)
+
+
+def _strip_bibliography(doc: DocumentModel) -> str:
+    """Cut the paper's own References/Bibliography section(s) out of the text
+    shown to the model.
+
+    A citation's title, author list, or journal name is itself a literal
+    string the paper's own text contains -- so it can satisfy the "verbatim
+    quote" evidence check just as well as something the paper actually
+    reports about its own experiment. mchale-2011's own references list
+    cites a paper titled "...Pool Boiling CHF of Dielectric Liquids", right
+    next to this paper's own (correct, abstract-sourced) use of a dielectric
+    test fluid -- exactly the kind of text a mechanical quote check cannot
+    tell apart from this paper's own reported conditions. Removing it here,
+    before the prompt is even built, is a stronger guarantee than a prompt
+    instruction alone: the model has no route to it at all. Evidence
+    resolution afterwards still runs against the untouched `doc.text`, so
+    quote verification and page/section lookup are unaffected -- this only
+    narrows what the model itself can read and draw from.
+    """
+    hits = sorted(
+        (s for s in doc.sections if _BIBLIOGRAPHY_TITLE.match(s.title or "")),
+        key=lambda s: s.start,
+    )
+    if not hits:
+        return doc.text
+    out: list[str] = []
+    pos = 0
+    for s in hits:
+        if s.start < pos:
+            continue  # nested/overlapping heading, already covered
+        out.append(doc.text[pos:s.start])
+        out.append("\n[REFERENCES/BIBLIOGRAPHY SECTION REMOVED -- "
+                    "not a source of evidence for this paper's own values]\n")
+        pos = s.end
+    out.append(doc.text[pos:])
+    return "".join(out)
 
 
 def _system_parts(doc: DocumentModel, facets: dict) -> list[str]:
@@ -94,7 +146,7 @@ def _system_parts(doc: DocumentModel, facets: dict) -> list[str]:
     return [
         SYSTEM_PREAMBLE,
         "# CONTROLLED VOCABULARY\n" + _vocab_block(facets),
-        f"# PAPER FULL TEXT\nsource: {Path(doc.source).name}\n\n{doc.text}",
+        f"# PAPER FULL TEXT\nsource: {Path(doc.source).name}\n\n{_strip_bibliography(doc)}",
     ]
 
 
@@ -185,8 +237,8 @@ fundamental studies and it is not a failure to find something.
 
 Only report a specific application when the paper's own text motivates it. Set
 stated=true only when the paper names the application explicitly; if you
-inferred it from the fluid, geometry, or scale, set stated=false, mark
-confidence honestly, and quote the text that led you there."""
+inferred it from the fluid, geometry, or scale, set stated=false and quote the
+text that led you there."""
 
 S6 = """Below is a record extracted from this paper by an earlier pass. Audit it.
 

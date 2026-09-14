@@ -1,0 +1,130 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The pool boiling performance of TiO2-water nanofluids at two distinct concentrations\n(0.001 wt.% and 0.1 wt.%) was studied on laser-engineered surfaces in superhydrophilic"
+      },
+      {
+        "quote": "The boiling performance assessment involved five consecutive\nboiling curve runs under saturated conditions at atmospheric pressure."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "High-purity copper samples (>99.9%) were used to perform the pool boiling experiments. The top part of the samples served as a boiling interface"
+      },
+      {
+        "quote": "Boiling tests were performed utilizing a glass boiling chamber\nwith an inner diameter of 60 mm."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Each run involved recording the boiling curves\nup to the CHF, spanning a duration of 45 min. Throughout the boiling curve recording, the\nheat flux was slowly increased"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The evaluation of the boiling performance of the reference surface (REF) using twicedistilled water as a working fluid is shown in Figure 4."
+        }
+      ]
+    },
+    {
+      "tier1": "nanofluid",
+      "tier2": "tio2_water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This study addresses the use of TiO2-water nanofluids (mass concentrations\nof 0.001 wt.% and 0.1 wt.%) in pool boiling heat transfer"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The first step in functionalizing surfaces was laser texturing performed with a nanosecond\nfiber laser"
+        },
+        {
+          "quote": "Samples, modified through\nnanosecond laser texturing, were subjected to boiling in an as-prepared superhydrophilic (SHPI)\nstate"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "in a superhydrophobic state (SHPO) following hydrophobization with a self-assembled\nmonolayer of fluorinated silane"
+        },
+        {
+          "quote": "The static contact angle of\n164◦± 0.7◦was recorded on superhydrophobic surfaces before boiling tests"
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophilic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Figure 5 shows the boiling performance (Figure 5a-boiling curves and Figure 5b-heat\ntransfer coefficients at different heat flux levels) obtained on a superhydrophilic laserengineered surface."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "sanded",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "which was first sanded\nwith sandpapers P1200 and P2000, and then cleaned with 2-propanol prior to testing"
+        },
+        {
+          "quote": "Among the tested samples, one was\ntested without any further treatment and served as a reference surface"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple"
+  ]
+}

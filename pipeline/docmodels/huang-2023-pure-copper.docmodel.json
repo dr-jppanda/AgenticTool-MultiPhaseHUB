@@ -1,0 +1,295 @@
+{
+  "doc_id": "aefd0e2d7857acae",
+  "source": "papers\\huang_2023_pure_copper.pdf",
+  "text": "\uf02a Zeliang Chen, chen-zl20@mails.tsinghua.edu.cn; Shengyao Jiang, shengyaojiang@sina.com\nPool boiling experiment characteristics on the pure copper surface\nXiaoli Huang1, Zeliang Chen1 (\uf02a), Nan Gui1, Xingtuan Yang1, Jiyuan Tu1,2, Shengyao Jiang1 (\uf02a)\n1. Institute of Nuclear and New Energy Technology, Collaborative Innovation Center of Advanced Nuclear Energy Technology, Key Laboratory\nof Advanced Reactor Engineering and Safety, Ministry of Education, Tsinghua University, Beijing 100084, China\n2. School of Engineering, RMIT University, Melbourne, VIC 3083, Australia\nAbstract\nThe pool boiling characteristics with different boiling surfaces and working fluids play an\nimportant part in multiphase flow research. The key parameters of pool boiling, such as heat\ntransfer coefficient (HTC) and critical heat flux (CHF), can be only acquired by experiment. Thus, a\npool boiling experimental device is designed and produces the HTC and CHF data on the pure\ncopper heating surface, which are 72.25 kW/(m2.K) and 1093.28 kW/m2, respectively. Besides, a\nseries of visualization experimental results of bubble behavior in the pool boiling are taken by the\nhigh-speed camera to provide references for the boiling mechanism research. The pool boiling\nexperiment would be the benchmark data to validate the future experiments and computer\nsimulations.\nKeywords\npool boiling\ncritical heat flux (CHF)\nheat transfer coefficient (HTC)\nvisualization experimental result\nexperiment report\nArticle History\nReceived: 10 February 2022\nRevised: 13 March 2022\nAccepted: 14 March 2022\nResearch Article\n\u00a9 Tsinghua University Press 2022\n1 Introduction\nBoiling heat transfer is one of the most effective phase\nchange heat transfer methods. It can utilize the huge\nlatent heat of vaporization of the boiling liquid to transfer\nor dissipate high heat flux with a minimal temperature\ndifference between the heat transfer surface and the liquid\n(Vakarelski et al., 2012; Cho et al., 2015, 2017). Thus, it plays\nan important part in heat energy transfer and conversion\nof industries, such as electricity generation, refrigeration\nequipment, electronics cooling, etc. The enhancement in\nboiling performance can bring immediate benefits to\nimprove the efficiency, safety, and cost in energy systems,\nleading to energy savings and greenhouse gas emission\nreduction.\nThe two most important parameters in boiling heat\ntransfer are boiling heat transfer coefficient (HTC) and\ncritical heat flux (CHF) (Wang and Chen, 2018), which\nrespectively characterized the heat transfer efficiency and the\nallowable heat transfer capacity. The CHF, a phenomenon\nalso known as the boiling crisis (Lloveras et al., 2012), occurs\naccompanied by the sharp deterioration on the rate of\nHTC from boiling surface to coolant (Yang et al., 2021),\nand leads to the sudden shift of flow regime from nucleate\nboiling to film boiling, which results in drastic increasing\nof surface temperature with disastrous consequences, for\nexample, the degradation of surface material, the destruction\nof device components, and the thermal meltdown of the\nsystems (Rahman et al., 2015; Jaikumar et al., 2017).\nAs the most basic one in the boiling experiments, the\npool boiling experiment could be a feasible idea to get the\nkey parameters of the boiling heat transfer and provide\nreferences for boiling mechanism research (Berenson, 1962;\nDhillon et al., 2015). Besides, the pool boiling experiment\nwould be the benchmark data for the computer simulations\nand other boiling experiments (McVay et al., 2015).\nIn this study, we get the HTC and CHF data on the\npure copper surface from the pool boiling experimental\ndevice. In addition, the photos of bubbles at different heat\nflux have been captured by the high-speed camera.\n2 Pool boiling experimental device\nFigure 1 shows the diagram of the specially designed\nVol. 5, No. 2, 2023, 192-198\nExperimental and Computational Multiphase Flow\nhttps://doi.org/10.1007/s42757-022-0134-x\nPool boiling experiment characteristics on the pure copper surface\n193\nexperimental device, which consists of a boiling pool chamber,\nheating component, auxiliary heater, data acquisition device,\nDC power supply, high-speed camera, and so on.\n2.1 Boiling pool chamber and heating component\nThe overall dimensions of the boiling pool chamber are\n160 mm \u00d7 120 mm \u00d7 150 mm. The wall of the chamber was\nmade of 3 mm thick glass, while the bottom and top were\nrespectively made of thermal insulated Teflon plate and\nFR4 fiberglass board. The boiling pool chamber was directly\nopen to the atmosphere by the hole on the top plate, in order\nto keep the pool boiling experiment under atmospheric\npressure.\nCopper is one of the most widely used materials in\nscientific studies and engineering applications because\nof its excellent good processing properties and physical\nperformance, such as high thermal conductivity and high\nelectrical conductivity. As a result, copper is used as a base\nmaterial in the current study. As shown in Fig. 1(b), the\nheating component consisted of a copper component and\neight heating rods (\u03a612 mm \u00d7 90 mm), which connected to\nthe DC power supply (MAISHENG MP25020D DC power\nsupply) with max power 5 kW (250 V, 20 A). The upper\npart of the copper component was a cylinder with 20 mm\nin diameter and 36 mm in height, while the bottom part\nwas a cuboid with 90 mm in length, 65 mm in width,\nand 35 mm in height. The heating rods with max power\n250 W were inserted into the bottom part of the copper\ncomponent and directly provided heat flux to the heating\ncomponent.\nThe upper part of the heating component passed\nthrough a hole located at the center of the Teflon bottom\nplate. A high-temperature silicone gasket was used to seal\nthe gap between the heating component and the boiling\npool chamber, in order to avoid the working fluid leakage\nof the experimental device and prevent boiling from\noccurring at the edge of the copper heating surface. Besides,\nthe whole heating component was wrapped in the\nhigh-temperature resistance thermal insulated fiberglass\nFig. 1 Pool boiling experimental device: (a) schematic diagram of the pool boiling experimental device; (b) copper heating component;\n(c) K-type thermocouples' locations.\nX. Huang, Z. Chen, N. Gui, et al.\n194\ncotton blanket to reduce the heat loss to the environment.\nAfter solving the liquid leakage and heat loss, the distilled\nwater, as working fluid, was heated and maintained at\nsaturation temperature (Tsat) by a K-type thermocouple\nand the auxiliary heater (250 V, 250 W) placed inside the\nboiling pool chamber.\n2.2 Experimental data acquisition and processing\nThree sheathed K-type thermocouples (whose probe diameters\nwere 1 mm, marked by T1, T2, and T3) were installed inside\nthree holes (diameter was 1 mm and depth was 11 mm) in\nthe upper part of the heating component. As Fig. 1(c) shows,\n\u0394x0 = 15 mm is the distance between the boiling surface\nand thermocouple T1, while \u0394x1 = 8 mm is the distance\nbetween T1 and T2, and \u0394x2 = 8 mm is the distance between\nT2 and T3. The thermal conductivity of pure copper (kCu) at\n100-200 \u00b0C, which is about 389-393 W/(m.K), is large\nenough that the heat conduction through the upper copper\ncylinder can consider as one-dimension heat conduction.\nAs a result, the heat flux (q\u00a2\u00a2 ), the wall superheat (\u0394Twall),\nand the boiling heat transfer coefficient (h) can be calculated\nas Eqs. (1)-(3):\n3\n2\n2\n1\n2\n1\nCu\nCu\n\u0394\n\u0394\n\u0394\n\u0394\n2\nT\nT\nT\nT\nT\nx\nx\nq\nk\nk\nx\n\u00e6\n\u00f6\n-\n-\n\u00f7\n\u00e7\n+\n\u00f7\n\u00e7\n\u00f7\n\u00e7\n\u00f7\n\u00e7\n\u00a2\u00a2\n\u00f7\n=\n=\n\u00e7\n\u00f7\n\u00e7\n\u00f7\u00f7\n\u00e7\n\u00f7\n\u00e7\n\u00f7\n\u00e7\u00e8\n\u00f8\n(1)\nwall\nwall\nsat\n1\n0\nsat\nCu\n\u0394\n\u0394\nq\nT\nT\nT\nT\nx\nT\nk\n\u00e6\n\u00f6\u00f7\n\u00e7\n=\n-\n=\n-\n-\n\u00f7\n\u00e7\n\u00f7\n\u00e7\u00e8\n\u00f8\n(2)\nwall\n\u0394\nq\nh\nT\n\u00a2\u00a2\n=\n(3)\nThe copper thermal conductivity kCu is approximately\nequal to 390 W/(m.K) as a constant.\nThe uncertainty of the temperature measurement,\nincluding T1, T2, T3, and Tsat, was determined by the accuracy\nof the K-type thermocouple, which was\n1\nT\nU =\n2\nT\nU =\n3\nT\nU =\nsat\nT\nU\n= 0.5 \u00b0C. The uncertainty of the distance measurement\nwas determined by the Vernier caliper, which was\n0\n\u0394x\nU\n=\n1\n\u0394x\nU\n=\n2\n\u0394x\nU\n= 0.02 mm. As a result, the maximum relative\nuncertainties of the heat flux, the wall superheat, and the\nboiling heat transfer coefficient were calculated by the law\nof uncertainty propagation, which were\n/\nq\nU\nq\n\u00a2\u00a2\n\u00a2\u00a2 = 1.58%,\nwall\n\u0394\nwall\n/ \u0394\nT\nU\nT\n= 6.43%, and\n/\nh\nU\nh = 6.62%, respectively.\nWhile the uncertainties were\nq\nU \uf0a2\uf0a2= 17.32 W/m2,\nwall\nT\nU\uf044\n=\n0.97 \u00b0C, and\nh\nU = 4.79 W/(m2.K). The equations of uncertainty calculation are as Eqs. (4)-(6):\n1\n0\nsat\nwall\n2\n2\n2\n2\n2\n2\n0\n\u0394\n\u0394\nCu\nCu\nwall\nwall\n\"\n\u0394\n\u0394\n\u0394\nT\nx\nT\nq\nT\nq\nx\nU\nU\nU\nU\nU\nk\nk\nT\nT\n\u00a2\u00a2\n\u00e6\n\u00f6\n\u00e6\n\u00f6\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n+\n+\n+\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n\u00e8\n\u00f8\n\u00e8\n\u00f8\n=\n(5)\n\uf028\n\uf029\nwall\n2\n2\n2\n2\nwall\nq\nT\nh\nU\nU\nU\nh\nq\nT\n\uf0a2\uf0a2\n\uf044\n\uf03d\n\uf02b\n\uf0a2\uf0a2\n\uf044\n(6)\n3 Pool boiling experiment on the pure copper surface\n3.1 Experimental method\nBefore the experiment, the pure copper surface of the\nheating component was polished by 2000 mesh sandpaper\nand cleaned with 95% ethyl alcohol. Subsequently, the\nheating component was assembled inside the pool boiling\nexperimental device and the formal experiment began.\nThe main steps of a formal pool boiling experiment are as\nfollows:\nStep 1: The distilled water in the boiling pool chamber was\nheated by the auxiliary heater and maintained at saturation\ntemperature (1 atm, 100 \u00b0C) for over 30 min, in order to\neliminate the non-condensable gas in the working fluid.\nStep 2: The heating component was switched on and kept\nat a steady-state condition, which is applied to calculate\nthe heat flux and the boiling heat transfer performance.\nEach of the steady-state conditions was characterized by\nthe maximum temperature fluctuations of T1, T2, and T3\nno more than 0.5 \u00b0C/min. The final steady-state data\nwere the average of the temperature data collected by the\ndata acquisition device (A-BF BCL2008S Multichannel\ntemperature recorder) in 1 min. During the steady-state\ncondition, photos should be taken by the high-speed camera\nto analyze the bubble behavior of the pool boiling.\nStep 3: The heat flux supplied to the pure copper heating\nsurface was stepwise increased by turning up the DC\npower supply, until the critical heat flux (CHF) occurred,\nwhose phenomenon is not only the sharp increment of\nthermocouples temperature but also the film boiling on the\nheating surface.\nStep 4: When the CHF phenomenon had occurred, the\npower source should be decreased or shut down before the\nheating component temperature is too high to break down\nthe thermocouples or heating rods.\n3.2 Results and discussion\nFigures 2 and 3 and Tables 1 and 2 present the pool boiling\nperformance on the pure copper surface in this work.\n(\n)\n(\n)\n(\n)\n(\n)\n3\n1\n2\n1\n2\n2\n2\n2\n2\n2\n2\n2\n2\n2\nCu\n2\n1\n3\n2\n\u0394\n\u0394\n2\n2\n2\n2\n1\n2\n1\n2\n1\n2\n1\n1\n2\n\u0394\n\u0394\n\u0394\n\u0394\n\u0394\n\u0394\nT\nT\nT\nx\nx\nq\nU\nU\nk\nT\nT\nT\nT\nU\nU\nU\nx\nx\nx\nx\nx\nx\nU\nq\nq\n\u00a2\u00a2\n\u00e9\n\u00f9\n\u00e6\n\u00f6\n\u00e6\n\u00f6\n\u00e6\n\u00f6\n\u00e6\n\u00f6\n-\n-\n\u00f7\n\u00f7\n\u00ea\n\u00fa\n\u00e7\n\u00e7\n\u00f7\n\u00f7\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n\u00e7\n\u00e7\n \u0301\n+\n-\n+\n+\n+\n\u00f7\n\u00f7\n\u00f7\n\u00f7\n\u00ea\n\u00fa\n\u00e7\n\u00e7\n\u00e7\n\u00e7\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n\u00f7\n\u00f7\n\u00e8\n\u00f8\n\u00e8\n\u00f8\n\u00f7\n\u00f7\n\u00e7\n\u00e7\n\u00ea\n\u00fa\n\u00e8\n\u00f8\n\u00e8\n\u00f8\n\u00eb\n\u00fb\n=\n\u00a2\u00a2\n\u00a2\u00a2\n(4)\nPool boiling experiment characteristics on the pure copper surface\n195\nFig. 2 Boiling heat transfer performance: (a) temperature curves of the thermocouples for the pure copper surface; (b) boiling curves\nfor the pure copper surface in this work and other studies; (c) boiling heat transfer coefficients for the pure copper surface in this work\nand other studies.\nX. Huang, Z. Chen, N. Gui, et al.\n196\nWhen the CHF phenomenon is approached, the boiling\nsurface is covered by a vapor film formed by vigorous\ncoalescence between lots of bubbles on the heating surface,\nleading to a transition from nucleate boiling regime to film\nboiling regime. As a result, heat transfer between the heating\nsurface and the working fluid is blocked by the vapor film,\ncausing heat transfer deterioration which will characterize\nas sudden and dramatic wall temperature increment\n(Fig. 2(a)).\nFigure 2(b) shows the comparison of the pool boiling in\nthis work and other studies (Kwark et al., 2010; Wu et al.,\n2010; Lai, 2017). The obtained steady-state condition and\nCHF data are similar with both the experimental and\ntheoretical results of pure surfaces in the other studies,\nverifying the accuracy and reliability of the current\nexperimental device and method.\nThe same as the empirical trend, the HTC increases\nwith the increase of heat flux, as shown in Fig. 2(c), but the\nFig. 3 Visualization experimental results of bubble coalescences on the pure copper surface under different steady-state heat flux.\nTable 1 Comparation of the pool boiling experiments\nMaterial\nSize of the heating surface\nHeater\nWorking fluid\nPresent work\nCopper\n\u03a620 mm\nHeating rod\nWater\nWu et al. (2010)\nCopper\n10 mm \u00d7 10 mm\nFilm resistive heater\nWater\nKwark et al. (2010)\nCopper\n10 mm \u00d7 10 mm\nFilm resistive heater\nWater\nLai (2017)\nCopper\n\u03a620 mm\nHeating rod\nWater\nPool boiling experiment characteristics on the pure copper surface\n197\nrate of increment somewhat decreases at the high heat flux.\nThe HTC reaches the peak when the CHF phenomenon\noccurs.\nAll of the steady-state condition data are shown in\nTable 2 and the corresponding visualization experimental\nresults are shown in Fig. 3. From visual inspection through\nhigh-speed CCD, at the beginning of the experiment, the\nbubbles are small and independent (Fig. 3(a)). With the\nrising of the heat flux, the small bubbles gather together\nand grow larger on the copper surface (Figs. 3(b) and 3(c)).\nThe larger the heat flux rose, the growth and enlargement\nof localized hot/dry regions are easier to form large vapor\nslugs (Figs. 3(d) and 3(e)). The vapor slugs and bubbles will\nvigorously coalesce even further when the heat flux keeps\nincreasing, until the formation of a vapor blanket that\ncovers the boiling surface, which means a boiling regime\ntransition (Fig. 3(f)).\n4 Conclusions\nIn this work, the recent saturated pool boiling experimental\nresults were introduced, which were conducted at atmospheric pressure using the pure copper as heating surface\nand the distilled water as working fluid. The HTC is\n72.25 kW/(m2.K) and the CHF is 1093.28 kW/m2, which were\nobtained by the specially designed pool boiling experimental\ndevice. Furthermore, the visualization experimental results\nof pool boiling, such as typical nucleate boiling and typical\nfilm boiling, have been captured by the high-speed camera\nin order to provide references for future boiling mechanism\nresearch.\nThe experimental results have shown the skillfully\nmaster of pool boiling experimental technology. In future\nwork, the proposed approach is easily scalable to various\nmaterial surfaces or different working fluids, for example,\nthe graphene coating surface or nanofluid. The pool boiling\nexperiment would be the benchmark data in the future\nexperiments. Furthermore, the computer simulations would\nbe validated by the experimental results.\nIn conclusion, it is believed that the boiling experiment\nin the current work is of great importance for the\nenhancement of efficiency and safety in the energy industry,\nparticularly demonstrating the feasibility of developing a\nhigh-performance and durable heat exchange surface.\nAcknowledgements\nThe authors are grateful for the support of this research\nby the National Science and Technology Major Project\n(Grant No. 2011ZX06901-003), and Funds of Nuclear Power\nTechnology Innovation Centre (Grant Nos. HDLCXZX-\n2020-HD-022 and HDLCXZX-2021-ZH-024).\nTable 2 Experimental results on the pure copper surface under different steady state\nNo.\nT1 (\u00b0C)\nT2 (\u00b0C)\nT3 (\u00b0C)\nTsat (\u00b0C)\nq\u00a2\u00a2 (kW/m2)\nTwall (\u00b0C)\n\u0394Twall (\u00b0C)\nh (kW/(m2.K))\n1\n107.55\n107.99\n109.24\n101.67\n41.18\n105.97\n4.30\n9.59\n2\n112.10\n114.05\n116.58\n101.74\n109.23\n107.90\n6.16\n17.73\n3\n115.74\n119.42\n123.04\n101.77\n177.65\n108.91\n7.14\n24.88\n4\n117.72\n122.37\n126.87\n101.73\n222.88\n109.14\n7.42\n30.05\n5\n120.64\n126.66\n132.33\n101.66\n284.65\n109.69\n8.02\n35.47\n6\n123.57\n131.00\n137.91\n101.68\n349.14\n110.14\n8.46\n41.25\n7\n126.39\n135.13\n143.20\n101.76\n409.31\n110.65\n8.89\n46.06\n8\n128.78\n138.77\n147.90\n101.64\n465.43\n110.87\n9.23\n50.40\n9\n131.58\n142.91\n153.19\n101.68\n525.98\n111.35\n9.68\n54.36\n10\n134.20\n146.74\n158.20\n101.66\n584.17\n111.73\n10.07\n58.01\n11\n136.80\n150.56\n163.03\n101.66\n638.52\n112.24\n10.58\n60.35\n12\n139.66\n154.81\n168.40\n101.69\n699.51\n112.76\n11.07\n63.17\n13\n142.74\n159.41\n174.25\n101.61\n766.94\n113.24\n11.64\n65.91\n14\n145.24\n163.07\n178.81\n101.71\n817.13\n113.81\n12.10\n67.50\n15\n147.88\n166.94\n183.74\n101.70\n872.84\n114.31\n12.62\n69.19\n16\n150.48\n170.76\n188.55\n101.71\n926.70\n114.84\n13.13\n70.60\n17\n153.47\n175.13\n193.99\n101.72\n986.35\n115.53\n13.81\n71.41\n18\n156.34\n179.26\n199.17\n101.69\n1042.64\n116.24\n14.54\n71.69\n19\n158.88\n182.90\n203.80\n101.70\n1093.28\n116.83\n15.13\n72.25\nX. Huang, Z. Chen, N. Gui, et al.\n198\nDeclaration of competing interest\nThe authors have no competing interests to declare that are\nrelevant to the content of this article.\nReferences\nBerenson, P. J. 1962. Experiments on pool-boiling heat transfer.\nInternational Journal of Heat and Mass Transfer, 5: 985-999.\nCho, H. J., Mizerak, J. P., Wang, E. N. 2015. Turning bubbles on and off\nduring boiling using charged surfactants. Nature Communications,\n6: 8599.\nCho, H. J., Preston, D. J., Zhu, Y., Wang, E. N. 2017. Nanoengineered\nmaterials for liquid-vapour phase-change heat transfer. Nature\nReviews Materials, 2: 16092.\nDhillon, N. S., Buongiorno, J., Varanasi, K. K. 2015. Critical heat\nflux maxima during boiling crisis on textured surfaces. Nature\nCommunications, 6: 8247.\nJaikumar, A., Gupta, A., Kandlikar, S. G., Yang, C. Y., Su, C. Y. 2017.\nScale effects of graphene and graphene oxide coatings on pool\nboiling enhancement mechanisms. International Journal of Heat\nand Mass Transfer, 109: 357-366.\nKwark, S. M., Moreno, G., Kumar, R., Moon, H., You, S. M. 2010.\nNanocoating characterization in pool boiling heat transfer of\npure water. International Journal of Heat and Mass Transfer, 53:\n4579-4587.\nLai, F. X. 2017. Pool boiling heat transfer characteristics of h-BN\nnanofluid. Master Thesis. Chongqing: Chongqing University.\nLloveras, P., Salvat-Pujol, F., Truskinovsky, L., Vives, E. 2012. Boiling\ncrisis as a critical phenomenon. Physical Review Letters, 108:\n215701.\nMcVay, K. L., Park, J. H., Lee, S., Hassan, Y. A., Anand, N. K. 2015.\nPreliminary tests of particle image velocimetry for the upper\nplenum of a scaled model of a very high temperature gas cooled\nreactor. Progress in Nuclear Energy, 83: 305-317.\nRahman, M. M., Pollack, J., McCarthy, M. 2015. Increasing boiling\nheat transfer using low conductivity materials. Scientific Reports,\n5: 13145.\nVakarelski, I. U., Patankar, N. A., Marston, J. O., Chan, D. Y. C.,\nThoroddsen, S. T. 2012. Stabilization of Leidenfrost vapour\nlayer by textured superhydrophobic surfaces. Nature, 489:\n274-277.\nWang, Q., Chen, R. 2018. Ultrahigh flux thin film boiling heat\ntransfer through nanoporous membranes. Nano Letters, 18:\n3096-3103.\nWu, W., Bostanci, H., Chow, L. C., Hong, Y., Su, M., Kizito, J. P. 2010.\nNucleate boiling heat transfer enhancement for water and FC-72\non titanium oxide and silicon oxide surfaces. International Journal\nof Heat and Mass Transfer, 53: 1773-1777.\nYang, B., Anglart, H., Han, B., Liu, A. 2021. Progress in rod bundle\nCHF in the past 40 years. Nuclear Engineering and Design, 376:\n111076.",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 3958
+    },
+    {
+      "number": 2,
+      "start": 3958,
+      "end": 6209
+    },
+    {
+      "number": 3,
+      "start": 6209,
+      "end": 10825
+    },
+    {
+      "number": 4,
+      "start": 10825,
+      "end": 11189
+    },
+    {
+      "number": 5,
+      "start": 11189,
+      "end": 12649
+    },
+    {
+      "number": 6,
+      "start": 12649,
+      "end": 16449
+    },
+    {
+      "number": 7,
+      "start": 16449,
+      "end": 19028
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-pool-boiling-experiment-characteristics-",
+      "number": null,
+      "title": "Pool boiling experiment characteristics on the pure copper surface",
+      "level": 1,
+      "start": 87,
+      "end": 569
+    },
+    {
+      "id": "sec-1-abstract",
+      "number": null,
+      "title": "Abstract",
+      "level": 2,
+      "start": 569,
+      "end": 1343
+    },
+    {
+      "id": "sec-2-keywords",
+      "number": null,
+      "title": "Keywords",
+      "level": 2,
+      "start": 1343,
+      "end": 1474
+    },
+    {
+      "id": "sec-3-article-history",
+      "number": null,
+      "title": "Article History",
+      "level": 2,
+      "start": 1474,
+      "end": 1564
+    },
+    {
+      "id": "sec-4-research-article",
+      "number": null,
+      "title": "Research Article",
+      "level": 2,
+      "start": 1564,
+      "end": 1614
+    },
+    {
+      "id": "sec-1",
+      "number": "1",
+      "title": "Introduction",
+      "level": 2,
+      "start": 1614,
+      "end": 3752
+    },
+    {
+      "id": "sec-2",
+      "number": "2",
+      "title": "Pool boiling experimental device",
+      "level": 2,
+      "start": 3752,
+      "end": 4201
+    },
+    {
+      "id": "sec-2-1",
+      "number": "2.1",
+      "title": "Boiling pool chamber and heating component",
+      "level": 2,
+      "start": 4201,
+      "end": 5421
+    },
+    {
+      "id": "sec-250",
+      "number": "250",
+      "title": "W were inserted into the bottom part of the copper",
+      "level": 2,
+      "start": 5421,
+      "end": 6557
+    },
+    {
+      "id": "sec-2-2",
+      "number": "2.2",
+      "title": "Experimental data acquisition and processing",
+      "level": 2,
+      "start": 6557,
+      "end": 8638
+    },
+    {
+      "id": "sec-3",
+      "number": "3",
+      "title": "Pool boiling experiment on the pure copper surface",
+      "level": 2,
+      "start": 8638,
+      "end": 8691
+    },
+    {
+      "id": "sec-3-1",
+      "number": "3.1",
+      "title": "Experimental method",
+      "level": 2,
+      "start": 8691,
+      "end": 9286
+    },
+    {
+      "id": "sec-12-step-2-the-heating-component-was-switche",
+      "number": null,
+      "title": "Step 2: The heating component was switched on and kept",
+      "level": 2,
+      "start": 9286,
+      "end": 10196
+    },
+    {
+      "id": "sec-13-step-4-when-the-chf-phenomenon-had-occur",
+      "number": null,
+      "title": "Step 4: When the CHF phenomenon had occurred, the",
+      "level": 2,
+      "start": 10196,
+      "end": 10394
+    },
+    {
+      "id": "sec-3-2",
+      "number": "3.2",
+      "title": "Results and discussion",
+      "level": 2,
+      "start": 10394,
+      "end": 12316
+    },
+    {
+      "id": "sec-15-table-1-comparation-of-the-pool-boiling-",
+      "number": null,
+      "title": "Table 1 Comparation of the pool boiling experiments",
+      "level": 2,
+      "start": 12316,
+      "end": 13613
+    },
+    {
+      "id": "sec-4",
+      "number": "4",
+      "title": "Conclusions",
+      "level": 2,
+      "start": 13613,
+      "end": 14940
+    },
+    {
+      "id": "sec-17-acknowledgements",
+      "number": null,
+      "title": "Acknowledgements",
+      "level": 2,
+      "start": 14940,
+      "end": 16487
+    },
+    {
+      "id": "sec-18-declaration-of-competing-interest",
+      "number": null,
+      "title": "Declaration of competing interest",
+      "level": 2,
+      "start": 16487,
+      "end": 16622
+    },
+    {
+      "id": "sec-19-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 16622,
+      "end": 19028
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1",
+      "label": "Figure 1",
+      "caption": "shows the diagram of the specially designed",
+      "page": 1,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        808.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\huang-2023-pure-copper\\huang_2023_pure_copper_fig-1_p1.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Pool boiling experimental device: (a) schematic diagram of the pool boiling experimental device; (b) copper heating component;",
+      "page": 2,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        808.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\huang-2023-pure-copper\\huang_2023_pure_copper_fig-1_p2.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Boiling heat transfer performance: (a) temperature curves of the thermocouples for the pure copper surface; (b) boiling curves",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        808.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\huang-2023-pure-copper\\huang_2023_pure_copper_fig-2_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Figure 2",
+      "caption": "(b) shows the comparison of the pool boiling in",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        808.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\huang-2023-pure-copper\\huang_2023_pure_copper_fig-2_p5.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Visualization experimental results of bubble coalescences on the pure copper surface under different steady-state heat flux.",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        612.0,
+        808.0
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\huang-2023-pure-copper\\huang_2023_pure_copper_fig-3_p5.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "Comparation of the pool boiling experiments",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "and the corresponding visualization experimental",
+      "page": 6,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "Experimental results on the pure copper surface under different steady state",
+      "page": 6,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 7,
+    "ingest": "pymupdf"
+  }
+}

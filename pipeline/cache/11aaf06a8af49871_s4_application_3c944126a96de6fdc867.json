@@ -1,0 +1,40 @@
+{
+  "targets": [
+    {
+      "tier1": "hvacr",
+      "tier2": "chiller",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Very little work has been done on the outside\nsurface of circular tubes with dimensions similar to those used in\ncommercial systems such as chillers."
+        }
+      ]
+    },
+    {
+      "tier1": "hvacr",
+      "tier2": "refrigeration",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "To understand the potential\nof nanostructured surfaces in the refrigerant industry, this study\nconducted pool boiling tests with refrigerants R-134a and R-245fa"
+        },
+        {
+          "quote": "It can lead to more efficient and economically favourable energy systems, from small footprint refrigeration\nsystems to more affordable solar power plants"
+        }
+      ]
+    },
+    {
+      "tier1": "power_generation",
+      "tier2": "csp_receiver",
+      "stated": false,
+      "confidence": "low",
+      "evidence": [
+        {
+          "quote": "from small footprint refrigeration\nsystems to more affordable solar power plants"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": null,
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "a continuous saturated pool boiling curve can be constructed across the entire range of wall superheats and heat fluxes for all cryogens"
+      },
+      {
+        "quote": "these initial correlations are intended for only steady-state saturated pool boiling and terrestrial gravity"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "the complete boiling curve sought in the present study is intended for flat surfaces in a saturated cryogenic liquid pool and terrestrial gravity"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "correlation_only",
+    "tier2": "correlation_only",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The present study tackles systematically the complexities of this endeavor by relying on predictive correlations recently developed by the present authors for all individual pool boiling curve regimes and transition points for cryogenic fluids."
+      },
+      {
+        "quote": "Combine the correlations in a MATLAB code wherein fluid,\npressure, surface orientation angle, and heat flux are input to\ncalculate the corresponding wall superheat."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "cryogen",
+      "tier2": "helium",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The predicted\nboiling curves are validated against experimental data for key cryogens such as liquid helium, liquid hydrogen,\nand liquid nitrogen across varying pressure ranges."
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "hydrogen",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Fig. 5 illustrates the validation of the new methodology\nfor LH2 using data from two different sources"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "nitrogen",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the present methodology is validated in Fig. 6 against LN2\ndata gathered from multiple sources"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "argon",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Fig. 12 presents continuous boiling\ncurves for LAr, LO2, and LCH4 horizontal upward-facing orientation at\nthree distinct pressures."
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "oxygen",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the decrease in the nucleate boiling heat transfer coefficient near the\ncritical heat flux point is clearly captured, especially for cryogens with relatively high saturation temperatures,\nsuch as liquid oxygen and liquid methane"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogen",
+      "tier2": "methane_LNG",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "liquid argon (LAr),\nliquid oxygen (LO2), and liquid methane (LCH4), under broad ranges of\noperating conditions"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "This baseline\nmethodology encompasses: (i) heating surfaces constructed only from\ncopper (material used in most cryogenic pool boiling experiments), (ii)\nsaturated pool boiling, and (iii) terrestrial gravity."
+        },
+        {
+          "quote": "Another crucial missing aspect in our methodology is the ability\nto account for the effects of heater size, material properties, and\nsurface roughness."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "boiling_curve",
+    "chf",
+    "htc",
+    "wall_superheat",
+    "onb"
+  ],
+  "measurement_modality": []
+}

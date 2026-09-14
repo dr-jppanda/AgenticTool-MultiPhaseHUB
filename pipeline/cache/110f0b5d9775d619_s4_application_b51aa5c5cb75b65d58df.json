@@ -1,0 +1,37 @@
+{
+  "targets": [
+    {
+      "tier1": "nuclear",
+      "tier2": null,
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "means of dissipating heat from critical devices such as nuclear fuel"
+        }
+      ]
+    },
+    {
+      "tier1": "electronics_thermal",
+      "tier2": "power_electronics",
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "rods, power electronics, and propulsion devices. Often the device"
+        }
+      ]
+    },
+    {
+      "tier1": "aerospace",
+      "tier2": null,
+      "stated": true,
+      "confidence": "low",
+      "evidence": [
+        {
+          "quote": "rods, power electronics, and propulsion devices. Often the device"
+        }
+      ]
+    }
+  ]
+}

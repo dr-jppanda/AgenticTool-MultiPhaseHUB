@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "evaporation",
+  "title": "Identification of nucleate boiling as the dominant heat transfer mechanism during confined two-phase jet impingement",
+  "year": 2019,
+  "reason": "The paper reports its own steady-state boiling curves, heat transfer coefficients, and CHF values (e.g., 27.8 W/cm2, 21.9 W/cm2) measured for confined two-phase jet impingement of HFE-7100 compared with pool boiling."
+}

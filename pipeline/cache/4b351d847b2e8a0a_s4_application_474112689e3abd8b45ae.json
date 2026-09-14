@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "electronics_thermal",
+      "tier2": "immersion_cooling",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "Immersion cooling using phase change heat transfer is highly"
+        },
+        {
+          "quote": "high-performance electronic and electromechanical systems that"
+        }
+      ]
+    }
+  ]
+}

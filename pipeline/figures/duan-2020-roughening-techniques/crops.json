@@ -1,0 +1,329 @@
+{
+  "record_id": "duan-2020-roughening-techniques",
+  "n_crops": 17,
+  "crops": [
+    {
+      "element_id": "fig-1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "(a) Schematic diagram of the experimental apparatus, (b) detailed drawing of the heating block.",
+      "page": 3,
+      "bbox": [
+        73.28399658203125,
+        53.979583740234375,
+        532.3562622070312,
+        356.1243591308594
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-1.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-1.png",
+      "n_panels": 481,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.53
+    },
+    {
+      "element_id": "fig-p3-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 3,
+      "bbox": [
+        318.4729919433594,
+        152.32595825195312,
+        500.5710144042969,
+        265.70098876953125
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p3-02.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p3-02.png",
+      "n_panels": 11,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Measurement results of the surface topography and surface wettability.",
+      "page": 4,
+      "bbox": [
+        79.53199768066406,
+        53.218994140625,
+        506.33197021484375,
+        677.1275024414062
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-2.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-2.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Example of the pre-processing before the roughness parameter evaluation.",
+      "page": 5,
+      "bbox": [
+        82.84400177001953,
+        53.47998046875,
+        522.843994140625,
+        586.12841796875
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-3.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-3.png",
+      "n_panels": 28,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Illustration of applying the robust gaussian \ufb01lter (25 \u03bcm cut-off) on the pro\ufb01le and surface, respectively.",
+      "page": 6,
+      "bbox": [
+        120.3290023803711,
+        78.69598388671875,
+        473.698974609375,
+        402.1234436035156
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-4.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-4.jpg",
+      "n_panels": 4,
+      "has_vector": false,
+      "has_raster": true,
+      "caption_confidence": 0.89
+    },
+    {
+      "element_id": "tab-1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Summary of the roughness parameter measurements on the testing surfaces.",
+      "page": 6,
+      "bbox": [
+        319.1197204589844,
+        413.97027587890625,
+        539.471923828125,
+        533.0748901367188
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\tab-1.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\tab-1.jpg",
+      "n_panels": 1,
+      "has_vector": false,
+      "has_raster": false,
+      "caption_confidence": 1.0
+    },
+    {
+      "element_id": "fig-p7-01",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 7,
+      "bbox": [
+        137.84300231933594,
+        53.3179931640625,
+        467.5920104980469,
+        316.81500244140625
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p7-01.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p7-01.png",
+      "n_panels": 11,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "(a) Static contact angle measurement at different directions, (b) relation between static contact angle and surface roughness Sa .",
+      "page": 7,
+      "bbox": [
+        95.05699920654297,
+        343.68634033203125,
+        514.4921264648438,
+        573.1234130859375
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-5.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-5.png",
+      "n_panels": 116,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.63
+    },
+    {
+      "element_id": "fig-6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Comparison of present experimental data with those in previous literature and Rohsenow correlation.",
+      "page": 8,
+      "bbox": [
+        297.99798583984375,
+        54.701934814453125,
+        560.676025390625,
+        308.7220764160156
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-6.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-6.png",
+      "n_panels": 258,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.59
+    },
+    {
+      "element_id": "fig-7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Pool boiling curves of all the testing surfaces, (a) heat \ufb02ux q as a function of wall superheat \u0002 T sat , (b) heat transfer coe\ufb03cient h as a function of heat \ufb02ux q .",
+      "page": 9,
+      "bbox": [
+        51.22700119018555,
+        86.8922119140625,
+        558.7090454101562,
+        320.1794128417969
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-7.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-7.png",
+      "n_panels": 176,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.63
+    },
+    {
+      "element_id": "fig-p9-02",
+      "kind": "figure",
+      "label": "",
+      "caption": "",
+      "page": 9,
+      "bbox": [
+        311.5212097167969,
+        143.42218017578125,
+        483.3269958496094,
+        238.8014373779297
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p9-02.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-p9-02.png",
+      "n_panels": 168,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.0
+    },
+    {
+      "element_id": "fig-8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Comparison of the experimental results of laser processed 1 with sandpaper polished 80 grit and sandpaper polished 600 grit.",
+      "page": 9,
+      "bbox": [
+        307.8080139160156,
+        286.60296630859375,
+        570.5319213867188,
+        485.5716552734375
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-8.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-8.png",
+      "n_panels": 77,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.69
+    },
+    {
+      "element_id": "fig-9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Comparison of the visualized results with increasing Sa .",
+      "page": 10,
+      "bbox": [
+        83.52799987792969,
+        65.59197998046875,
+        502.197998046875,
+        256.1253662109375
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-9.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-9.png",
+      "n_panels": 8,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.9
+    },
+    {
+      "element_id": "fig-10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "A simple case in evaluating bubble departure diameter and bubble departure frequency. Please also see the supplementary animation.",
+      "page": 11,
+      "bbox": [
+        67.61927795410156,
+        67.385986328125,
+        525.9935913085938,
+        414.14422607421875
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-10.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-10.png",
+      "n_panels": 7,
+      "has_vector": true,
+      "has_raster": true,
+      "caption_confidence": 0.55
+    },
+    {
+      "element_id": "fig-11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "Fitting and parameter development of the Nu \u2212 Ja curves.",
+      "page": 11,
+      "bbox": [
+        65.11399841308594,
+        399.346435546875,
+        275.180908203125,
+        625.3331909179688
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-11.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-11.png",
+      "n_panels": 162,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.34
+    },
+    {
+      "element_id": "fig-12",
+      "kind": "figure",
+      "label": "Fig 12",
+      "caption": "Evaluation of C by plotting Nu / Ja n \u2212 1 Pr 1 \u2212 sn as a function of Sa / Sa 0 .",
+      "page": 11,
+      "bbox": [
+        307.8080139160156,
+        398.5087585449219,
+        556.8272094726562,
+        610.724609375
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-12.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-12.png",
+      "n_panels": 155,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.61
+    },
+    {
+      "element_id": "fig-13",
+      "kind": "figure",
+      "label": "Fig 13",
+      "caption": "Comparison between the experimental data and the predicted values by Eq. (15) .",
+      "page": 12,
+      "bbox": [
+        29.005966186523438,
+        58.81898498535156,
+        291.69354248046875,
+        259.68963623046875
+      ],
+      "pdf_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-13.pdf",
+      "preview_path": "C:\\Users\\DELL\\AgenticTool-MultiPhaseHUB-main - test10\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\duan-2020-roughening-techniques\\fig-13.png",
+      "n_panels": 444,
+      "has_vector": true,
+      "has_raster": false,
+      "caption_confidence": 0.58
+    }
+  ]
+}

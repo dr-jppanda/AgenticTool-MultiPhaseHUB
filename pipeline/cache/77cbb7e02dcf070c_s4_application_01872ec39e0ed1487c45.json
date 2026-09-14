@@ -1,0 +1,26 @@
+{
+  "targets": [
+    {
+      "tier1": "nuclear",
+      "tier2": "accident_loca",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "research, and maintaining reactor vessel integrity during a severe"
+        }
+      ]
+    },
+    {
+      "tier1": "cryogenics",
+      "tier2": "superconducting",
+      "stated": true,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "quote": "vessels during a fire, cooling electronic cables in superconductivity"
+        }
+      ]
+    }
+  ]
+}

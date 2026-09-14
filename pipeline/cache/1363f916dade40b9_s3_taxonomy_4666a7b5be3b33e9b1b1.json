@@ -1,0 +1,83 @@
+{
+  "phenomenon": {
+    "tier1": "evaporation",
+    "tier2": "jet_impingement",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "heat transfer from a copper surface is experimentally characterized in both confined jet impingement and pool boiling configurations"
+      },
+      {
+        "quote": "This result confirms that nucleate boiling is the dominant heat transfer mechanism"
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "plate with a single 2 mm-diameter orifice located at the center of"
+      },
+      {
+        "quote": "The copper block is equipped with three thermocouple rakes located along"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "velocities of 6 m/s and 9 m/s, and steady-state data are recorded"
+      },
+      {
+        "quote": "2 min, providing approximately 60 data points that are averaged"
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "HFE-7100",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "charged with the dielectric fluid HFE-7100"
+        },
+        {
+          "quote": "Prior to the start of an experiment, the HFE-7100 is thoroughly"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Using the smooth surface with a roughness (Ra) of"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "chf",
+    "boiling_curve",
+    "wall_superheat"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "p_sat": {
+    "min": 98.6,
+    "max": 103.2,
+    "unit": "kPa",
+    "evidence": [
+      {
+        "quote": "The outlet pressure ranged from 98.6 to 103.2 kPa for the data at CHF and would have negligible effect on the CHF through a change in fluid properties."
+      },
+      {
+        "quote": "using the immersion heater to maintain saturation temperature in the reservoir at atmospheric pressure (101.3 kPa)"
+      }
+    ]
+  },
+  "T_sat": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "G": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "q_flux": {
+    "min": 21.9,
+    "max": 82.4,
+    "unit": "W/cm2",
+    "evidence": [
+      {
+        "quote": "±0.87 C at the highest recorded heat flux of 82.4 W/cm2"
+      },
+      {
+        "quote": "A maximum CHF of 27.8 W/cm2 was achieved for this jet velocity, again at an orifice-to-target spacing of 3 jet diameters, relative to the CHF of 21.9 W/cm2 in the pool boiling configuration."
+      },
+      {
+        "quote": "until ultimately terminating in a significantly lower CHF (57.6 W/cm2) than the other cases"
+      }
+    ]
+  },
+  "x_quality": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "dT_sub": {
+    "min": 8.0,
+    "max": 8.0,
+    "unit": "C",
+    "evidence": [
+      {
+        "quote": "cooling is set at 8 C relative to the saturation temperature calculated using the measured test section chamber pressure"
+      }
+    ]
+  },
+  "dT_wall": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "D_h": {
+    "min": 2.0,
+    "max": 2.0,
+    "unit": "mm",
+    "evidence": [
+      {
+        "quote": "single 2 mm-diameter orifice is used; the jet velocity"
+      },
+      {
+        "quote": "an orifice plate with a single 2 mm-diameter orifice located at the center of the plate is mounted to the bottom of the plenum"
+      }
+    ]
+  },
+  "L_heated": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "aspect_ratio": {
+    "min": 2.0,
+    "max": 2.0,
+    "unit": "l/d",
+    "evidence": [
+      {
+        "quote": "The orifice aspect ratio (l/d) is chosen to be 2, to minimize pressure drop according to Ref. [15]."
+      }
+    ]
+  },
+  "n_channels": {
+    "min": 1.0,
+    "max": 1.0,
+    "unit": "orifice",
+    "evidence": [
+      {
+        "quote": "A single jet is chosen instead of a jet array in order to maximize the possible range of jet velocities"
+      }
+    ]
+  },
+  "Ra_surface": {
+    "min": 0.5,
+    "max": 0.5,
+    "unit": "lm",
+    "evidence": [
+      {
+        "quote": "Using the smooth surface with a roughness (Ra) of 0.5 lm, in one of the current experiments"
+      }
+    ]
+  },
+  "contact_angle": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "gravity_level": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "n_data_points": {
+    "min": null,
+    "max": null,
+    "unit": null,
+    "evidence": []
+  },
+  "orientation": "horizontal",
+  "heating_mode": "uniform_heat_flux",
+  "surface_material": "oxygen-free copper"
+}

@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": false,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "The effect of surface roughness on pool boiling heat transfer was experimentally investigated in the saturated water."
+        },
+        {
+          "quote": "The present study aims to investigate the effect of surface\nroughness on copper surfaces. The experiments were conducted\nin the saturated water at atmospheric pressure."
+        }
+      ]
+    }
+  ]
+}

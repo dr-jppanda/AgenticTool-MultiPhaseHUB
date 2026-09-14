@@ -1,0 +1,94 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The largest particle size initially improves nucleate boiling performance, but bed deformation is not observed, and critical heat flux is reduced due to vapor trapping in the porous layer."
+      },
+      {
+        "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles that are able to freely\nmove on the polished copper surface beneath."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "loose copper particles that are able to freely\nmove on the polished copper surface beneath"
+      },
+      {
+        "quote": "Free particle beds of 98, 196, and 925 m average particle diameter are\ndirectly compared to a baseline polished surface with average roughness < 0.1 m"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": null,
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Pool boiling heat transfer is measured from a particulate bed of loose copper particles"
+      },
+      {
+        "quote": "High-speed microscopic flow\nvisualization at 3000 frames per second (Ultima APX, Photron) enables observation of vapor-particle\ninteractions (VH-Z50L, Keyence)."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The working fluid is FC-72."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "porous_coating",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "loose_particulate_bed",
+      "evidence": [
+        {
+          "quote": "Free particle beds of 98, 196, and 925 m average particle diameter are\ndirectly compared to a baseline polished surface"
+        },
+        {
+          "quote": "critical heat flux is reduced due to vapor trapping in the porous layer"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "directly compared to a baseline polished surface with average roughness < 0.1 m"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "wall_superheat",
+    "boiling_curve",
+    "bubble_dynamics",
+    "htc"
+  ],
+  "measurement_modality": [
+    "high_speed_visualization"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "tier1": "fundamental",
+      "tier2": "fundamental",
+      "stated": true,
+      "confidence": "high",
+      "evidence": [
+        {
+          "quote": "The pool boiling\nexperiment would be the benchmark data to validate the future experiments and computer\nsimulations."
+        },
+        {
+          "quote": "the visualization experimental results\nof pool boiling, such as typical nucleate boiling and typical\nfilm boiling, have been captured by the high-speed camera\nin order to provide references for future boiling mechanism\nresearch."
+        }
+      ]
+    }
+  ]
+}

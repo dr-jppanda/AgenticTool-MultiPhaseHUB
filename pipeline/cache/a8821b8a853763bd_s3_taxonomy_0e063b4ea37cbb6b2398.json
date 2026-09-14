@@ -1,0 +1,93 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "steady-state pool boiling tests using deionized water"
+      },
+      {
+        "quote": "During the nucleate boiling regime, the AE amplitude decreases with the heat flux in the low heat flux stage but increases with the heat flux in the high heat flux stage."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The heating element includes a copper block with a boiling surface area of 10 mm × 10 mm"
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "At each heating power, the system reaches a steady state in approximately 15 min and data sampling is performed during this time."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "filled with deionized water to a liquid level of 4 in (101.6 mm) before testing"
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "porous_coating",
+      "tier2": "metal_foam",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Three copper deposition solutions with pH values of 0, 10, and 12 were used to deposit copper dendrites."
+        },
+        {
+          "quote": "the pH 10 copper foam leads to the highest CHF among the foams at 218.6 W/cm2"
+        }
+      ]
+    },
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "The polished copper surface was prepared by polishing a 110"
+        },
+        {
+          "quote": "The CHF value for the polished copper surface is 102.6 W/cm2"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "void_fraction"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

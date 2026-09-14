@@ -1,0 +1,96 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Quantitative measurements are obtained from high-speed visualizations of pool boiling at atmospheric\npressure from smooth and roughened surfaces, using a perfluorinated hydrocarbon (FC-77) as the working fluid."
+      },
+      {
+        "quote": "Important bubble nucleation parameters during the pool boiling of FC-77 on smooth and rough surfaces are experimentally\ninvestigated."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The insertion gap (inset,\nFig. 1a) surrounding the 25.4-mm square test piece was filled with\na high-temperature RTV silicone caulk."
+      },
+      {
+        "quote": "Each test piece\nconsisted of an aluminum block into which twelve 3.18-mm diameter cartridge heaters were inserted in a distribution (Fig. 1b) that\nensured a uniform heat flux at the top of the test surface."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Input power to the test pieces was fixed for the four cases at 20 W,\n40 W, 60 W, and 80 W, respectively. The measurements therefore\ncorrespond to heat-flux controlled pool boiling."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "dielectric",
+      "tier2": "FC-72",
+      "tier3": null,
+      "propose_new": "FC-77",
+      "evidence": [
+        {
+          "quote": "using a perfluorinated hydrocarbon (FC-77) as the working fluid"
+        },
+        {
+          "quote": "The properties of FC-77 used in all the calculations are provided\nin Table 2."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "the smooth surface with an average roughness Ra value of 0.03 lm produced by mechanical polishing using\nprogressively finer grades of sandpaper"
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": null,
+      "tier3": null,
+      "propose_new": "edm_machined",
+      "evidence": [
+        {
+          "quote": "the electrical discharge machined (EDM) surface with an Ra value of 5.89 lm"
+        },
+        {
+          "quote": "by electrical discharge machining (EDM) in the case of the roughened surface"
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "nucleation_site_density",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

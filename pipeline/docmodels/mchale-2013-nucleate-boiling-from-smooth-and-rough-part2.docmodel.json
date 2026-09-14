@@ -1,0 +1,907 @@
+{
+  "doc_id": "c2baf5f58adecf50",
+  "source": "papers\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2.pdf",
+  "text": "Nucleate boiling from smooth and rough surfaces - Part 2: Analysis\nof surface roughness effects on nucleate boiling\nJohn P. McHale, Suresh V. Garimella \u21d1\nCooling Technologies Research Center, An NSF IUCRC, School of Mechanical Engineering and Birck Nanotechnology Center, Purdue University, West Lafayette, IN 47907-2088, USA\na r t i c l e\ni n f o\nArticle history:\nReceived 21 February 2012\nReceived in revised form 30 July 2012\nAccepted 9 August 2012\nAvailable online 22 August 2012\nKeywords:\nPool boiling\nNucleate boiling\nSurface roughness\nCharacteristic length scale\nITO\nBubble nucleation\na b s t r a c t\nThe effect of surface roughness on nucleate boiling heat transfer is not clearly understood. This study is\ndevised to conduct detailed heat transfer and bubble measurements during boiling on a heater surface\nwith controlled roughness. This second of two companion papers presents an analysis of heat transfer\nand bubble ebullition in nucleate boiling with new measures of surface roughness: area ratio, surface\nmean normal angle, and maximum idealized surface curvature. An additional length scale of importance,\nthe maximum base diameter of an emergent bubble, is identified. Measurements of bubble departure\ndiameters, growth periods, ebullition periods, and void fraction above the surface are obtained from\nhigh-speed videographic visualizations by an automated procedure. Correlations of heat transfer coeffi-\ncient and bubble ebullition characteristics with different measures of surface roughness are compared in\nterms of relative uncertainty. The data set of results for pool boiling in the perfluorinated dielectric liquid,\nFC-72, are found to correlate best with a length-scale filtered value of average roughness Ra, filt. Over a\nlarger database with three different data sets including FC-72, FC-77, and water at atmospheric pressure,\nthe most reliable correlations were obtained with the appropriately filtered area ratio. FC-72 bubble\ngrowth curves are well correlated for all test conditions with the normalized relationship D (t )1/3.\nFinally, the maximum void fraction in the region above the surface is correlated with normalized heat\nflux for these data and for water as the two-thirds power of heat flux.\n2012 Elsevier Inc. All rights reserved.\n1. Introduction\nIn Part 1 of this work [1], it was shown through a review of the\nliterature that the effects of surface roughness on boiling heat\ntransfer are not completely understood. Novel indium tin oxide\n(ITO) heater/sensor substrates with controllable surface roughness\nwere therefore developed in order to measure boiling curves accurately and to exhaustively visualize bubble ebullition characteristics for surfaces with different roughness features. Quantitative\nand qualitative differences in boiling from smooth and rough\nsurfaces were demonstrated. Boiling curves revealed that similar\nboiling curves do not imply similar Ra values, and similar Ra values\ndo not imply similar boiling curves. Visualizations revealed that\nthere is a marked difference in the bubble ebullition characteristics\nof smooth and rough surfaces. The inconsistent effect of Ra on the\nboiling curves and bubble behaviors suggests that the relative\n''roughness'' of a surface should be quantified in a manner different\nfrom existing approaches to date in the literature.\nSeveral recent studies have reported attempts to develop surface characterization methods that relate more directly to boiling\nphysics. Qi et al. [2] applied a digital ''filtering'' operation on 2-D\nsurface scan data to examine potential nucleation sites in terms\nof cavity mouth radius and cone angle. They did not elaborate on\nthe details of the algorithm; predictions of nucleation site density\nbased on their analysis produced mixed results.\nMethods of determining cavity sizes and locations directly from\n2-D [3] and 3-D [4] surface scans using a rolling ball technique\nhave also been proposed. In the latter, theoretical nucleation site\nlocations were compared to those identified experimentally for\npool boiling of propane from a copper tube. Results for number\nand distribution of active nucleation sites agreed qualitatively,\nbut specific theoretical nucleation site locations did not match\nthe experimental ones well.\nFractal analysis has been used to explain or reproduce surface\nroughness characteristics and nucleate boiling characteristics.\nMajumdar and Tien [5] first developed a fractal method for characterization of different machined stainless steel surfaces, achieving\nstatistical similarity between real and simulated surfaces. Fong\net al. [6] showed a correlation between the fractally derived surface roughness measure of a boiling surface and the critical heat\nflux (CHF). Yang et al. [7] achieved relatively good agreement between their simple fractal surface characterization and observed\nnucleation site densities in pool boiling of water on a stainless steel\nsurface. Yu and Cheng [8] utilized nucleation site densities and\n0894-1777/$ - see front matter 2012 Elsevier Inc. All rights reserved.\nhttp://dx.doi.org/10.1016/j.expthermflusci.2012.08.005\n\u21d1Corresponding author. Tel.: +1 765 494 5621.\nE-mail address: sureshg@purdue.edu (S.V. Garimella).\nExperimental Thermal and Fluid Science 44 (2013) 439-455\nContents lists available at SciVerse ScienceDirect\nExperimental Thermal and Fluid Science\njournal homepage: www.elsevier.com/locate/etfs\nbubble departure diameters predicted by fractal theory along with\nmodels for individual heat transfer mechanisms [9-14] to reproduce the experimentally observed boiling curves of Wang and Dhir\n[15] with good accuracy. Most recently, Sathyamurthi et al. [16]\nnoted a similarity between the boiling curve and fractal dimensionality of the void fraction in contact with the surface in pool\nboiling. However, a widely applicable fractal approach has not\nbeen developed to date for the prediction of pool boiling heat\ntransfer.\nPrevailing theories of bubble nucleation and growth depend on\nthe shape or at least the horizontal radius of the nucleating cavity.\nR values (single vertical roughness parameters, e.g., Ra, Rp, Rq) represent a single dimension of variation normal to the boiling surface. Fractal surface characterization depends upon at least two\nparameters, and the dimensionality of the measurement can be\ntwo or higher. The success of fractal surface characterization applied to boiling is probably due to the fact that the correlated\nparameters are more descriptive of the important features of the\nsurface than conventional single linear measures.\nIn this paper, surface roughness is varied and carefully characterized and analyzed in terms of its relationship to bubble growth\nand departure. A new model for scaling surface roughness is proposed, as are alternative roughness measures that incorporate\nmore physical underpinnings in preference to merely using R\nvalues. It is shown that the heat transfer results from the present\nwork, as well as those of Jones et al. [17], are linearly correlated\nby a measurement of surface area ratio Ar obtained at an appropriate length scale. Correlations of measured bubble departure\ndiameters and times with the new length-scaled measure result\nin improved uncertainty compared to correlations with Ra or unscaled measures. Bubble measurements from the current work also\nsuggest general relationships for bubble growth with time and for\nvoid fraction with heat flux in saturated pool boiling of FC-72.\n2. Analysis of surface roughness\nIn the companion paper to this work [1], six borosilicate glass\nsubstrates were roughened by abrading with diamond compound\nto impart microscopic-scale roughness features, then annealed to\ncontrol roughness characteristics at the nanoscale. One substrate\n(test piece 1) was not abraded or annealed. All seven substrates\nwere coated conformally with an electrically conductive ITO layer,\nfrom which a 400 lm wide 25 mm long heater/sensor device\nwas patterned on each substrate. Each test piece was fixed at the\nbase of a thermally controlled chamber that allowed saturated\nnucleate boiling heat transfer to be measured while recording\nhigh-speed videographic visualizations from beneath the test surface and from the side simultaneously.\nTest pieces 4, 6, and 7 were abraded with the same diamond\ncompound such that Ra values (and therefore microscopic-scale\nroughness features) would be similar. These three surfaces, however, were exposed to different annealing conditions of temperature and soak period as shown in Table 1 [1] such that the\nroughness characteristics at the nanoscale are very different.\nBoiling performance for the three surfaces differed as described\nNomenclature\nA\nvertical surface amplitude (m) Eqs. (7)-(9)\nplanar area of bubble object in video (m2)\nAb\nplanar base area (m2)\nAr\narea ratio (unitless)\nAs\ntrue surface area (m2)\na\nunknown constant\nb\nunknown constant\nc\nunknown constant\nCh\nheat transfer correlation constant, h = Ch qn\nD\nbubble diameter (m)\ng\nacceleration due to body force (m/s2)\nh\nboiling heat transfer coefficient (W/m2 K)\ni\nvertical counting index, Eq. (6)\nj\nhorizontal counting index, Eq. (6)\nL0\nLaplace length scale (m)\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\nr=gDq\np\nN\nsample size (unitless)\nm\nmaximum vertical grid index, Eq. (6)\nsurface roughness exponent, h Rm\nn\nmaximum horizontal grid index, Eq. (6)\nboiling curve exponent, h qn\np\nprobability of Type-I error (unitless)\nq\nheat flux (W/cm2)\nRa\naverage roughness (lm or m)\nRp\npeak roughness (lm or m)\nRq\nroot-mean-square roughness (lm or m)\nR2\nstatistical coefficient of determination\nT\ntemperature (K) (unless C is specified)\nDT\ntemperature difference with respect to saturation\n(K or C)\nt\ntime coordinate in bubble growth (s)\nV\narbitrary variable, units by context\nx\nlateral length coordinate (m)\ny\nlateral width coordinate (surface analysis) (m)\nvideo height coordinate (bubble measurements) (m)\nz\nvertical height coordinate (surface analysis) (m)\nGreek\na\nvoid fraction (unitless)\n/m\nsurface mean normal angle, , Eq. (5) or (6)\njmax\nidealized surface maximum curvature (m 1), Eq. (10)\nk\nsurface wavelength\nh, hr\nliquid contact angle ( )\nDq\ndensity difference (liquid density-vapor density)\n(kg/m3)\nr\nsurface tension (N/m)\ns\nbubble ebullition period (s)\nSubscripts\n0\nvalue at intercept\nbase\nvalue at base of bubble\nCHF\nvalue at critical heat flux\ncut\ncutoff\nd\nvalue at departure\neq\nequivalent\nexp\nexperimental value\nfilt\nfiltered\nm\narithmetic mean\nmax\nmaximum\nmin\nminimum\nONB\nvalue at onset of nucleate boiling/boiling incipience\npred\npredicted value\nw\nof heated wall\nSuperscripts\n\u2044\nnormalized quantity, or value for basis of comparison,\nTables 3 and 4\n440\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nin [1], with higher wall superheats resulting from increased\nannealing time and temperature. Previous work [17] has demonstrated that the Ra (or Rp or similar) measurement is not sufficient\nto explain differences in boiling heat transfer coefficient for all\ncases, and in the present work, some extreme cases are presented.\nThe two questions of interest are: (1) What is the length scale at\nwhich the roughness is most relevant to boiling? (2) Is a roughness\nparameter other than Ra a more appropriate measure?\n2.1. Characteristic length scale model\nDuring an ebullition cycle, bubbles may grow from a critical nucleus (with radius of order 10 8 and 10 6 m for conventional fluids\nat low to moderate reduced pressures) to an emergent bubble\n(with radius of order 10 4-10 3 m), and even somewhat larger\nafter multiple mergers near the surface. It is postulated that the\nroughness length scale of importance should depend, at a minimum, on: (1) fluid properties, and (2) the wetting characteristics\nof a particular surface-fluid combination. Fluid properties may\nimply some representative length scale (e.g., Laplace length), but\nthis alone does not account for interactions between solid-liquid\nand liquid-vapor interfacial geometry. Conversely, a wetting characteristic such as contact angle, independent of fluid properties\nsuch as density and surface tension, is not sufficient to define an\ninterface shape.\nIt is assumed here that interface shapes of individual emergent\nbubbles at moderate superheats are modeled well by a static analysis. Bashforth and Adams [18] calculated interface shapes for\nebullient bubble and pendant drops acting under the influence of\nsurface tension and a hydrostatic pressure gradient in terms\nrendered dimensionless through normalization by the Laplace\nlength scale L0 1\u20444\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\nr=gDq\np\n. They considered static contact angle h\nas a parameter. Fritz [19] correlated the results of [18] for maximum contained volume as a function of h (units of ) as a simple\nrelationship for departure diameter that reduces to\nDd 1\u20444 0:0208 h L0\n\u00f01\u00de\nand is valid for contact angles up to roughly 150 . The Fritz departure diameter meets the criteria above, including fluid properties\nand wetting characteristic.\nThe Fritz departure diameter (225 lm for the present study) is\nfar too large, however, to explain the importance of the finer-scale\nroughness that has been demonstrated in the present work. A re-\nlated length scale of physical significance is the contact diameter\nat the base of the maximal-volume bubble just prior to detachment. From the plots of Hartland and Hartley [20], who recomputed and expanded the results of [18], the following curve fit is\nobtained for the dimensionless base circle diameter of an emergent\nbubble as a function of contact angle:\nD\u00fe\nbase Dbase=L0 1\u20444 2:194 10 4 h1:937\n\u00f02\u00de\nIn Eq. (2), h is again expressed in degrees. The bubble remains attached to the surface during its entire growth period, and cannot re-\nmain attached to the surface beyond the corresponding maximum\nvolume. Further, as the base circle diameter at maximum volume\nis almost identical to the maximum base diameter [20], the base circle diameter calculated from Eq. (2) is a useful maximum length\nscale of interaction between the surface and the bubble.\n2.1.1. Application of length scale-based filter\nIn order to isolate the surface features below the threshold\nlength scale, a high-pass filter was utilized with cutoff wavelength\nkcut 1\u20444 D\u00fe\nbase from Eq. (2). It was desirable to obtain a cutoff as\nsmooth as possible in both the spatial domain and the frequency\ndomain. A 1-D digital sinc filter [21] (which is low-pass, its\nfrequency response and kernel shown in Fig. 1a and b, respectively) was defined in MATLAB [22] using a Blackman window\n[23] of width large enough to prevent attenuation at zero frequency, but small enough to minimize ringing inherent to sharp\ncutoffs. The 1-D sinc filter was transformed to a 2-D radially symmetric filter kernel using the MATLAB command ftrans2(). A z-data\nmatrix, shown in Fig. 1c, was convolved with the filter kernel,\nresulting in a low-frequency representation of the surface, shown\nin Fig. 1d. The low-frequency z-data were subtracted from the original matrix, producing a high-pass filtered surface, as shown in\nFig. 1e.\n2.1.2. Filtered vertical roughness parameters\nAfter the filtering operation, new values of Ra for the test sub-\nstrates were calculated by the method described in [1], and are\nlisted in Table 2. For each surface, there was little to no difference\nbetween the values calculated for different interrogation window\nsizes; the lowest values are reported here. After the filtering operation, the average roughness values of surfaces 6 and 7 (abraded\nwith 100-lm particles and annealed more aggressively) fell below\nthat of surface 3 (abraded with 30-lm particles). Indeed, surface 7\nappears to be similar in roughness to surface 2, which might be expected from the close proximity of their boiling curves.\n2.2. Alternative measures of surface roughness\nUnfiltered Ra values (or Rq, Rp, etc.) cannot be directly related to\ncavity size or areal density, since they contain information about a\nsingle dimension (z) only; but the filtered values should have improved correlation to cavity size and areal density, since the limiting wavelength is known.\nBetter measures are possible, however, if complete surface pro-\nfiles are available. In the following paragraphs, some alternatives\nto R measures are proposed. It is shown later in this paper that\nthese alternative definitions may offer better linear correlations\nthan unfiltered Ra values. Values of each parameter to be introduced in Sections 2.2.1-2.2.3 for surfaces 1-7 before and after filtering are given in Table 2.\n2.2.1. Area ratio\nThe area ratio Ar is defined as\nAr true surface area; As\nplanar base area; Ab\n\u00f03\u00de\nwhich can be calculated from (x,y,z) data on a rectangular grid to a\nsuitable numerical approximation as:\nAr 1\u20444\n1\n\u00f0xmax xmin\u00de\u00f0ymax ymin\u00de\nZ xmax\nxmin\nZ ymax\nymin\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\n1 \u00fe\n@z\n@x\n2\n\u00fe\n@z\n@y\n2\ns\ndy dx\n\u00f04\u00de\nIn the present work, calculation of Eq. (4) was accomplished\nthrough\na\ndouble\napplication\nof\nSimpson's\n3/8\nrule.\nPartial\nTable 1\nTest substrate parameters.\nDevice No.\ndp,nom (lm)\nTanneal ( C)\ntanneal (min)\nRa (lm)\nRq (lm)\n1\n-\n-\n-\n0.263\n0.319\n2\n15\n725\n5\n0.622\n0.789\n3\n30\n740\n15\n1.396\n1.755\n4\n100\n725\n5\n4.25\n5.22\n5\n250\n725\n5\n7.51\n9.13\n6\n100\n740\n15\n4.40\n5.41\n7\n100\n750\n45\n3.73\n4.58\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n441\n(b)\n(c)\n(d)\n(e)\n(a)\nFrequency [mm\n-1]\nRelativeOutputMagnitude [-]\n0\n50\n100\n150\n200\n-0.2\n0\n0.2\n0.4\n0.6\n0.8\n1\n1.2\nDistance [px]\nKernelValue [-]\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n-0.2\n0\n0.2\n0.4\nFig. 1. Surface maps were filtered with cutoff frequency determined by the predicted bubble base diameter: (a) frequency response of the filter for FC-72, (b) Blackmanwindowed 1-D sinc filter, (c) unfiltered section for surface 5, (d) surface 5 after low-pass filtering, and (e) high-frequency surface roughness features remaining after\nsubtracting (d) from (c).\n442\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nderivatives\nwere\napproximated\nas\ntwo-point\ncentral\nfinite\ndifferences, except at the edge of the grid where forward or backward differences were used instead. Values of Ar were calculated\nfor surface maps before and after filtering and are given in Table 2.\nPhysically, Ar is the dimensionless surface area, while Ar, filt is the\nnormalized surface area for a given length scale kcut.\n2.2.2. Mean surface normal angle\nFurther proposed is a new surface roughness parameter, the\nmean surface normal angle /m, defined as\n/m 1\nAb\nZZ\nAb\ncos 1\nh1; 0; @z\n@xi h0; 1; @z\n@yi\nh0; 0; 1i\nh1; 0; @z\n@xi h0; 1; @z\n@yi\n2\n64\n3\n75dA;\n\u00f05\u00de\nwhich, for discrete z data on a regularly spaced m n (x,y) grid,\nbecomes:\n/m\n1\nm n\nX\nm\ni1\u204441\nX\nn\nj1\u204441\ncos 1 1 \u00fe\n@z\n@x\n2\n\u00fe\n@z\n@y\n2\n\"\n# 1=2\n\u00f06\u00de\nValues of /m before and after filtering are given in Table 2. The effect of surface filtering on /m is not nearly as great as its effect on R.\nThe mean normal angle parameter represents the average\nsteepness of asperities on a surface, regardless of length scale. Just\nas R numbers alone provide no information about the density or\nhorizontal size of cavities on a surface, /m alone cannot provide\ninformation about the length scale of cavities. The parameter is\nqualitatively related, however, to the average cavity cone angle\nof a surface, and hence, to whether potential nucleation sites on\na surface would tend to be active or flooded. Values of /m can also\nbe used along with amplitude measurements to determine average\nasperity wavelengths.\n2.2.3. Derived quantities\nAn idealized sinusoidal surface with a cavity at the origin (0,0)\nis represented by:\nz 1\u20444 A cos\n2px\nk\ncos\n2py\nk\n\u00f07\u00de\nSince it is assumed that the surface roughness is random and independent of orientation, the asperity wavelength k is the same in\nboth x and y dimensions. The amplitude can be related to the average roughness as:\nA 1\u20444 p2Ra\n4\n;\n\u00f08\u00de\nand to the wavelength and mean normal angle as:\nk '\n4A\ntan /m\n1\u20444 p2Ra\ntan /m\n\u00f09\u00de\nPhysically, k is the unit cell size for surface cavities; thus, the maximum possible nucleation site density of the sinusoidal surface is\n1=k2. However, k alone only indicates the spacing of depressions\nin the surface, but not their shape or depth. Since nucleating cavities\nare necessarily points of high surface curvature, a related parameter\nof interest is the (idealized) maximum surface curvature, jmax.\nCombining Eqs. (7) and (9) and maximizing the curvature yields\njmax ' tan2 /m\nRa\n\u00f010\u00de\nwhich is the curvature at the bottom of each idealized sinusoidal\ncavity, including the one at (0,0).\n3. Video processing and bubble measurements\nBubble departure statistics were quantified in order to examine\nthe effect of surface roughness. Large, representative sample sets\nwere desirable in order to achieve reasonable levels of statistical\nsignificance. Automated measurement of bubble data from the\nvideos was therefore necessary. The video interrogation window,\nshown in Fig. 2a, was approximately 10 mm long by 2 mm high\nso that bubble size and history measurements could be performed\nover a large portion (40%) of the surface. High speed videos of each\nboiling test condition contained 0.5 s of history, with 2000 frames\nat a frame rate of 4000 fps. By using short lighting pulses of\nbetween about 3 and 6 ls width, the bubbles were very clearly re-\nsolved in the images. Significant changes in bubble position and\nshape occurred only over many successive frames. The temporal\nresolution of the video allowed all but the very initial stages of\nbubble growth (less than 250 ls) to be measured; during this\nphase of bubble growth the diameters of the nuclei are known to\nbe less than the spatial resolution of the images.\nTable 2\nComparison of surface parameters before and after filtering (present data).\nSubstrate No.\nRa (lm)\nRa, filt (lm)\nAr (-)\nAr, filt (-)\n/m ( )\n/m, filt ( )\njmax (m 1)\njmax, filt (m 1)\n1\n0.263\n0.0112\n1.0007\n1.0003\n0.41\n0.39\n1.91 102\n4.08 103\n2\n0.622\n0.222\n1.024\n1.013\n10.53\n7.56\n5.55 104\n7.95 104\n3\n1.396\n0.438\n1.089\n1.048\n19.54\n14.45\n9.01 104\n1.52 105\n4\n4.25\n0.473\n1.168\n1.057\n25.29\n14.86\n5.25 104\n1.49 105\n5\n7.51\n0.575\n1.251\n1.088\n28.97\n16.97\n4.08 104\n1.62 105\n6\n4.40\n0.383\n1.141\n1.042\n22.79\n11.75\n4.01 104\n1.13 105\n7\n3.73\n0.248\n1.093\n1.016\n19.58\n7.98\n3.39 104\n7.92 104\nFig. 2. Approximate convex decomposition of bubble objects in an image: (a)\noriginal image, (b) binary image after segmentation, and (c) decomposition of\nobjects by the convexity measure of McHale and Garimella [27].\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n443\n3.1. Measurement uncertainty (isolated bubbles)\nThe spatial image resolution was calculated from identifying\nfeatures in the bottom and side views and was known to within\n0.1%. The uncertainty of the temporal resolution was that of the\npulse/delay generator used to synchronize the imaging equipment,\n26 ns for this experiment. The video technique was adequate to\nmeasure individual bubbles with practical uncertainties of approximately half the spatial and temporal resolution, or 17.2 lm and\n125 ls, respectively. The relevant length and time scales for bubble\ngrowth\nand\ndetachment\nwere\ndetermined\nto\nbe\naround\nL0 = 600 lm and t0 = 5 ms, respectively. Resulting full-scale measurement uncertainties were therefore approximately 2.9% and\n2.5% for the length and time dimensions, respectively.\n3.2. Image processing challenges and solutions\nAs discussed previously, the choices of experiment design in\nthis work were dictated by a tradeoff between good heat transfer\ncharacteristics and good image quality. The wider the test strip,\nthe lower is the relative heat loss by conduction, but the greater\nare the bubble overlaps that would appear in images. Even with\na heater width as narrow as 400 lm, the number density of bubbles was high enough to make individual bubble identification\nchallenging (''object'' versus ''objects''). Uncertainty values listed\nin Section 3.1 were therefore magnified by the degree of bubble object overlap per image frame. A second problem encountered was\nwith image quality. Surface roughness led to non-ideal backlighting conditions, as was also seen in the goniometer images pre-\nsented in [1]. Thresholding (''object'' versus ''not object'') was\nmade more difficult by: (1) the common occurrence of a darkened\nband above the surface for many of the cases, and (2) bright points\nof backlight transmission and refraction through bubbles. The third\nmajor issue in measuring bubbles over a time span was distinguishing a particular bubble in subsequent frames (''object 1'' versus ''object 2''). Solutions to these three main problems were often\ncomplicated by tradeoffs, as a good solution for one problem might\nintroduce further difficulty into another. Rather than conduct a\ndetailed and tedious optimization study, the following four-step\nvideo processing method was developed by trial and error.\nStep 1: Image filtering for ''object'' vs. ''not object''.\nImage intensities were first rescaled on the interval (0,1) in order to heighten contrast between phases. Typically, background\n''not object'' values were white, approaching 1, while bubble ''object'' intensity values were black, or approaching 0. Unavoidable\nscattering of light from the roughest surfaces led to uneven background intensity values. Where background values were on the\ndark end of the interval, the discrete cumulative density function\nof intensity values over a local spatial window was used to determine the likely values of intensity for objects and background.\nIntensity values were rescaled on (0,1) according to these probable\nlimits. Bubble edges in small, bright regions were still difficult to\ndistinguish from background, however. Absolute differencing with\nthe previous frame (a type of 3-D filter) highlighted edge regions at\nthe expense of halving the temporal resolution to 250 ms. A second\n3-D filter was then applied to avoid increases in apparent bubble\nsize from the differencing operation. Finally a bilateral filter\n[24,25] was applied to each image frame to help smooth noise\nwithin dark and light regions without blurring edges.\nStep 2: Fuzzy thresholding for ''object'' vs. ''not object''.\nThresholding, typically a binary operation with a set cutoff\nintensity value, was applied using a fuzzy logic approach. Taking\nthe video as a 3-D array, specific weights between 0 and 1 were given to each voxel based upon its image region characteristics. For\nexample, voxels with intensity values above 0.8 were separated\ninto 6-connected regions. Voxels with unknown ''object'' status located in the same region as a known ''not object'' voxel were assigned low ''object'' status weights of 0.1. ''Object'' weights of\nbright regions disconnected from known ''not object'' regions were\nincreased by 0.2, but if any part of the region was in contact with\nthe surface (location set by manual intervention), ''object'' weights\nwere decreased by 0.2, and so on. After applying several similar\ntests of 2-D and 3-D connectivity, the ''object'' threshold was finally set to 0.5; voxels with ''object'' values greater than or equal to\n0.5 were then set to binary 1, while ''object'' values below 0.5 were\nset to binary 0, as depicted in Fig. 2b.\nStep 3: Approximate convex decomposition for ''object'' vs.\n''objects''.\nAs can be seen in Fig. 2b, multiple objects tended to overlap with\neach other. 3-D or 2-D morphological region-finding algorithms\nwould fail to distinguish multiple bubbles from each other, and this\nwas the main difficulty encountered in the automatic measurement\nprocess. Bubble objects did not occur as uniform, predictable\nshapes; edge-fitting methods could therefore not be used with good\naccuracy. 3-D and 2-D watershed transforms, on the other hand, are\nhighly sensitive to marker locations and encounter difficulty in\ndividing objects along intuitive paths; watershedding was therefore\nnot a good option either. Since bubbles are nearly always convex\nshapes, multiple bubble ''macro-objects'' were therefore picked\napart using a technique called approximate convex decomposition\n(ACD) [26]. A new robust convexity measure [27] was derived to\nimprove computational efficiency and an ACD algorithm was developed from it. As part of the algorithm, accurate area and perimeter\nmeasurements were required for recursively evaluating the macro-\nobjects, which were by definition 4-connected regions. An efficient\nand robust marching-squares type perimeter estimation algorithm\nfor 4-connected regions [28] was therefore developed. Results of\nACD are as shown in Fig. 2c.\n\u0394Tw,exp [K]\n\u0394Tw,pred [K]\n0\n5\n10\n15\n20\n25\n30\n35\n40\n0\n5\n10\n15\n20\n25\n30\n35\n40\nJones, et al. (2009)\npresent work\n-12.4%\n+12.4%\nFig. 3. Correlation of experimental boiling curves assuming the relationship\nh = Ch q0.83 provides a basis for comparison independent of heat flux, while\nintroducing relatively little error. MAE for the present data is 12.4%; while for the\ndata of [17], the MAE is 5.2%.\n444\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nStep 4: Particle tracking velocimetry for ''object 1'' vs. ''object 2''.\nFor particle-laden flows, particle tracking velocimetry (PTV, see,\ne.g., [29,30]) is an alternative to the well-known particle image\nvelocimetry (PIV) technique. PTV is often more of a brute force approach and less mathematically elegant than PIV, but it is a useful\nlow-error approach whenever the number of objects in the field is\nlow enough and the frame rate is high enough relative to object\nvelocity changes [29]. In PTV, each labeled object in a frame is assigned an expected location and/or size in the next frame, and the\ndistance functions of unlabeled objects from the expected location\nin that frame are used to find appropriate matches. A major advantage of PTV over PIV is consistent identification of individual objects.\nIn this work, PTV was applied in successive frames as a doubleblind test involving position and not size. Object velocities\nwere low enough to be assumed as zero. A next-frame object\nwas assigned as a potential match if it was located closer to the\ncurrent-frame object than any other next-frame object. If the converse was also true, the next-frame object would be assigned the\nsame label as the current-frame object in question. If no matching\nobject was found, the previous frame could be interrogated instead\nby the same rule.\n3.3. Bubble measurements\nOnce the bubbles were labeled consistently through all frames\nas described in the previous section, the histories of growth and\nlocation of bubbles could be measured. The equivalent bubble\ndiameter at a given point in time was calculated as:\nDeq 1\u20444\nffiffiffiffiffiffi\n4A\np\nr\n;\n\u00f011\u00de\nAr [-]\nCh\n1\n1.1\n1.2\n1.3\n0\n0.2\n0.4\n0.6\n0.8\n1\npresent\nFC-77 (Jones, et al. 2009)\nwater (Jones, et al. 2009)\n(a)\nAr,filt [-]\nCh\n1\n1.1\n1.2\n1.3\n0\n0.2\n0.4\n0.6\n0.8\n1\n(b)\nRa [m]\nCh\n0\n2.5E-06\n5E-06\n7.5E-06\n1E-0 5\n0\n0.2\n0.4\n0.6\n0.8\n1\n(c)\nRa,filt [m]\nCh\n0\n0\n0.2\n0.4\n0.6\n0.8\n1\n(d)\n\u03c6m [\u00b0]\nCh\n0\n10\n20\n30\n0\n0.2\n0.4\n0.6\n0.8\n1\n(e)\n\u03c6m,filt [\u00b0]\nCh\n0\n10\n20\n30\n0\n0.2\n0.4\n0.6\n0.8\n1\n(f)\n\u03bamax [m\n-1]\nCh\n0\n50000\n10000\n0\n0.2\n0.4\n0.6\n0.8\n1\n(g)\n\u03bamax,filt [m\n-1]\nCh\n0\n100000\n200000\n30000\n0\n0.2\n0.4\n0.6\n0.8\n1\n(h)\nFig. 4. Correlation of Ch with selected surface parameters. All Ch data are shown for present work, while only average values are shown for the data of Jones et al. [17].\nCorrelations are generally better with filtered surface parameters for FC fluids and unfiltered surface parameters for water.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n445\nwhere A was the planar area of the bubble object in the video. The\nbubble center position (x location along surface length, y location\nabove surface) was calculated as the arithmetic mean of all x values\nfor the set of pixels in the object, and the mean of all y values,\nrespectively. Bubble departure was defined to occur when either\none of two conditions was met: (1) no pixels in the object were\nadjacent to the pixels defined as ''surface'', or (2) the bubble ceased\nto exist for more than one frame, a criterion consistent with the 1\nskipped frame allowed in the PTV-based object labeling scheme.\nBubble growth periods were calculated as the differences in\ntimes associated with the first and last frames of a bubble's history\nprior to a departure event. Waiting periods were calculated by\nincrementing time in reverse, searching for any labeled object containing the same (x,y) pixel as the x-center of a particular bubble in\nits first frame of existence.\nThe bubble measurements reported in this work were found to\nbe satisfactory by repeated manual checks. Due to the multiplicity\nof interactions and sources of error within the system, however, fi-\nnal uncertainty values were very difficult to quantify precisely. In\nanalyzing results, therefore, we take an approach that assumes significant and unknown variance to be present in measurements.\n4. Correlation of data\nIn this section, the effects of surface roughness on heat transfer\nand bubble measurement data are examined. Correlation of experimental data with each proposed roughness parameter is attempted.\nSince all measurements (particularly the bubble measurements) are\nsubject to a degree of uncertainty, and since the data set considered\nhere is rather limited, we do not seek a single unifying correlation\nfor any of the characteristics. Rather, the strength of correlation\nis expressed in terms of the uncertainty of correlating sample\ndata with one predictor relative to another. It is shown that the\n\u03c6m,filt [\u00b0]\nDd,m [m]\n0\n10\n20\n30\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(d)\nRa\nDd,m [m]\n0\n5E-06\n1E-05\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(e)\n\u03c6m [\u00b0]\nDd,m [m]\n0\n10\n20\n30\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(c)\nq [W/m\n2]\nDd,m [m]\n0\n100000\n200000\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(a)\n\u0394Tw [K]\nDd,m [m]\n0\n10\n20\n30\n40\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(b)\nRa,filt\nDd,m [m]\n0\n5E-07\n1E-06\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(f)\n\u03b8 [\u00b0]\nDd,m [m]\n0\n5\n10\n15\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(g)\nCh\nDd,m [m]\n0\n0.2\n0.4\n0.6\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(h)\nFig. 5. Experimental trends in mean bubble departure diameter with respect to several correlating variables.\n446\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nuncertainty is improved for most cases by using the filtered roughness parameters rather than unfiltered parameters, with a few notable exceptions.\n4.1. Relative uncertainty\nAll sample data are assumed to have variances due to measurement error and possibly due to probabilistic dependence upon the\npredictor(s). Because causal relationships between the data and\nthe parameters of interest are unknown, if they even exist, the correlations are assumed in most cases to be linear. Graphical analysis\nis known to be a useful tool in identifying correlation forms [31];\nso in a few cases, we have included power forms whenever warranted based on scatter plots.\nThe strength of correlations is compared by one of two methods. First, if all correlations in a particular group are assumed to\nbe single-factor and linear, the linear least-squares regression\ncoefficients are found. The coefficient of determination R2, i.e.,\nthe square of the Pearson product-moment correlation coefficient,\nand the F-statistic are calculated [32]. Based on the sample size N\nand a linear model with 2 coefficients, there is a single degree of\nfreedom for the mean-square value of the linear model and\n(N 2) degrees of freedom for the mean-square error. The probability p of making a type-I error - incorrectly rejecting the hypothesis that the two variables share no linear relationship - can then\nbe calculated. The objective at present is not to determine whether\nthe correlation should in fact be first-order linear, but rather the\nprobability of error inherent in the assumption.\nThe magnitude of a p value is not in itself very meaningful, but\nit does provide a basis for comparison between two alternative\ncorrelations. Two potential choices of dependent variable, V1 and\nV2, if from the same sample set, carry identical assumptions when\nthe regression models are calculated in the same way. Therefore\nthe ratio of their two p values p(V1)/p(V2) gives the relative uncertainty in choosing V1 as a predictor above V2. If the p ratio is close\nto 1, the uncertainty associated with correlating with one variable\nDd,exp [m]\nDd,q,Ra [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(a)\nq \u00b0 Ra, filt\nDd,exp [m]\nDd,\u0394Tw [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(b)\n\u0394Tw\nDd,exp [m]\nDd,\u03c6m [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(c)\n\u03c6m\nDd,exp [m]\nDd,Ra,filt [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(f)\nRa, filt\nDd,exp [m]\nDd,Ra [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(e)\nRa\nDd,exp [m]\nDd,\u03c6m,filt [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(d)\n\u03c6m, filt\nDd,exp [m]\nDd,\u03b8 [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(f)\n\u03b8\nDd,exp [m]\nDd,Ch [m]\n0\n0.0004\n0.0008\n0\n0.0002\n0.0004\n0.0006\n0.0008\n(g)\nCh\nFig. 6. Comparisons of experimental data and predicted values from curve fits between mean bubble departure diameter and selected variables.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n447\nabove the other is probably negligible, but if it is significantly different from unity, it is clear that that one variable is a superior\nchoice. We arbitrarily choose half an order of magnitude to be a\nreasonably certain difference only for sake of discussion.\nSecondly, if all correlations are either not assumed to be linear\nor are not single-factor, an alternative method for comparison is\nneeded. In this case, the correlations are all linearized by calculating the mean squares of the model and the error directly. The linearized model must pass through an intercept of zero (expected\nversus predicted), and the number of degrees of freedom in the error is increased to (N 1). The F-statistic is again calculated as the\nratio of the mean of squares of predicted values and the meansquare error. Magnitudes for R2 and p in this type of correlation\nare essentially meaningless, but the values of p for different choices\nof correlating variable have the same scale where N is the same.\nThus the p ratio is still a useful measure of relative uncertainty\nfor linearized single-factor correlations. For multiple-factor correlations, however, additional error would be expected due to variation between the multiple factors, and the p ratio is not a robust\nestimator of relative uncertainty. Therefore, an unfavorable p ratio\nfor a multiple-factor model versus an alternate single-factor model\nmay not necessarily indicate greater uncertainty. Conversely, however, if the p ratio favors the multiple-factor model, the relative\nuncertainty of the multiple-factor model must be lower.\nThe p ratios and/or p values are examined in the following sections to quantify the relative uncertainties associated with different choices of predictor(s) on boiling heat transfer coefficient and\nbubble departure diameter. Bubble growth times and total ebullition periods are examined and discussed. Relative uncertainty data\nare supplemented with mean absolute error (MAE) values calculated as:\nMAE 1\u20444\nPn\ni1\u204441jVexp Vpredj\nPn\ni1\u204441jVexpj\n\u00f012\u00de\nwhere Vexp and Vpred are the experimental and model-predicted values of the variable in question, respectively. The MAE is a more\nintuitive measurement of error, although it lacks the statistical\nmeaning of the p ratio.\n4.2. Effect of surface roughness on heat transfer coefficient\nSeveral good correlations [33-36] are available that make use\nof unfiltered roughness height parameters, with the effect of surface roughness expressed in the form h Rm. The exponent m is\neither a constant or a variable dependent upon reduced pressure,\nwith values that usually fall in the range 0.1-0.2 (typical of\nwater\nand\norganic\nliquids,\nrespectively).\nTo\nthe\nauthors'\nknowledge,\nno\nphysical\njustification\nhas\nbeen\nproposed\nfor\nm - 1; rather, it is an empirical trend that agrees satisfactorily\nwith much of the extant data. The success of these correlations\nin fitting many data sets would seem to depend upon the common\nexistence of a fractal type of roughness in which geometrically\nsimilar features occur independent of measurement scale. In the\npresent work, however, this is not a tenable assumption, which\ncan clearly be seen in the SEM photos of Fig. 1 in the companion\npaper to this work [1].\nCorrelations often relate the heat transfer coefficient to boiling\nheat flux in the form h = Ch qn [17], where the exponent n may\nvary with fluid and roughness and the coefficient Ch captures all\nother factors. For fixed n, the value of the corresponding coefficient\nCh is an indicator of how boiling curves for different surfaces and\nfluids compare in terms of wall superheat. Since heat flux values\nand wall superheats could not be fixed for the present experiments, Ch is a necessary basis of comparison. Since h Ch, the effect\nof a suitable roughness parameter on Ch is the same as its effect\nupon h independent of q. For the present data, as well as those of\nJones et al. [17], n = 0.83 provides a reasonable correlation for all\nboiling curves. In Fig. 3, best fit values of Ch are used to correlate\nq [W/m\n2]\nt[s]\n0\n100000\n200000\n0\n0.005\n0.01\n0.015\n0.02\nm\ntd,m\n(a)\nq [W/m\n2]\nt/D [s/m]\n0\n100000\n200000\n0\n10\n20\n30\n40\n50\n60\nm / Dd,m\ntd,m / Dd,m\n(b)\ntd,exp [s]\ntd,q [s]\n0\n0.005\n0.01\n0.015\n0\n0.005\n0.01\n0.015\n(c)\nMAE = 0.279\np = 4.09x10\n-19\ntd,exp [s]\ntd,q,Ra [s]\n0\n0.005\n0.01\n0.015\n0\n0.005\n0.01\n0.015\n(d)\nMAE = 0.262\np = 9.24x10\n-19\nq [s]\n0\n0.005\n0.01\n0.015\n0\n0.005\n0.01\n0.015\n(e)\nMAE = 0.238\np = 3.43x10\n-22\nq,Ra [s]\n0\n0.005\n0.01\n0.015\n0\n0.005\n0.01\n0.015\n(f)\nMAE = 0.223\np = 8.05x10\n-23\nexp [s]\n\u03c4\n\u03c4\n\u03c4\nexp [s]\n\u03c4\n\u03c4\n\u03c4\nFig. 7. Comparisons of experimental data and predicted values for power curve fits between mean bubble growth period td or total ebullition period s and heat flux, and\ndeparture diameter.\n448\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\neach boiling curve, and wall superheats from each correlation are\ncompared to the experimental values. The MAE resulting from representing the present boiling curves by Ch values with the single\nexponent n = 0.83 is 12.4%. For the pool boiling data of [17] which\nis included for comparison, the MAE is 5.2%.\nIn Fig. 4 and the corresponding Table 3, the effects of four surface roughness parameters on Ch are compared. Both unfiltered\nand filtered roughness values for each parameter are assessed as\npredictors. The relationships are all assumed to be linear; Ch values\nfor the present surfaces 2, 3, 4, and 7 disprove by inspection the\n(2)\n(1)\n(3)\n(2)\n(1)\n(3)\n(2)\n(1)\n(3)\nFig. 8. Measured bubble diameters as a function of growth time for surface 1 at (a) low, (b) medium, and (c) high heat fluxes. Chaotic behavior appears to increase with heat\nflux. The growth relationships shown in panels (2) and (3), D t1/3 remain approximately valid as q increases.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n449\ngenerality of the Ch Rm, m - 1 model, as may be seen in Fig. 4c.\nThe present data, with only a few Ch data points for each surface,\nare all included in the plots. The much larger number of data points\nfrom [17] would occlude the plots, so that only the average value of\nCh for each surface is included.\nIn Table 3, the relative uncertainties of correlation between Ch\nand each unfiltered or filtered parameter are compared. Filtered\nparameters provide a more certain correlation for FC-72 on ITO\n(h = 11.4 ,\nkcut 1\u20444 15:3 lm)\nand\nFC-77\non\naluminum\n(h = 15 ,\nkcut 1\u20444 24:8 lm) according to the proposed theory. The unfiltered\nparameters provide a better correlation for water on aluminum\n(h = 82 , kcut 1\u20444 2:77lm), since the calculated cutoff wavelength exceeded\nthe\ndimensions\nof\nthe\navailable\nsurface\nmaps\n(700 lm 500 lm). The p ratios for filtered versus unfiltered\n(2)\n(1)\n(3)\n(2)\n(1)\n(3)\n(2)\n(1)\n(3)\nFig. 9. Measured bubble diameters as a function of growth time for surface 5 at (a) low, (b) medium-low, and (c) medium heat fluxes. High nucleation site densities at\nmedium to high heat fluxes inhibited good time domain measurements.\n450\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nparameters and each parameter versus Ar are given in the last two\ncolumns of Table 3, respectively.\nBy p ratio, the filtered value Ra, filt provides the lowest correlation uncertainty for the present FC-72 data, followed closely by\nAr, filt. For FC-72, filtered surface parameters all have lower uncertainties than their respective unfiltered counterparts. For FC-77\nAr, filt gives the smallest uncertainty overall and filtered parameters\nare superior except for /m. For water Ar provides the most certain\ncorrelation by p-ratio compared to the other unfiltered parameters,\nbut the filtered parameter Ar, filt actually performs slightly better.\nThe relative uncertainties of all parameters, filtered or unfiltered,\nhowever, are within an order of magnitude. This is likely due to\nthe somewhat unusual scatter in the water data, for which Ch\nvalues at intermediate roughnesses do not precisely follow a logical trend.\nFor the three combined data sets, the appropriately filtered Ar\nappears to be the best choice of correlating parameter for Ch, and\nis therefore marked with an asterisk in the table (\u2044). Ra (filtered\naccording to the model) is the next best choice, followed by /m.\nThe idealized maximum surface curvature jmax appears to be a\npoor choice after analysis, although this may note be obvious from\nthe plots.\n4.3. Bubble departure diameter, Dd\nCarey [37] tabulated most of the extant bubble departure diameter correlations. In summary, they fall into three categories: (1)\nanalytical models based on force analyses [19,38,39], (2) analytical\nmodels based on thermal analyses [40-42], and (3) semi-empirical\nmodels [43-47]. The correlation of Golorin et al. [45] is the only\none for which the analysis includes the effect of surface roughness\nexplicitly, but it does not agree well enough with the present data\nto explore further here. On the whole, the correlations embody\nmany different forms with respect to heat flux, wall superheat,\nand fluid parameters. Most use L0 as the primary length scale.\nFor simplicity we selected linear forms (as shown in Fig. 5) for\ncorrelation of the mean measured value of Dd at different conditions with respect to: (a) q, (b) DTw, (c) /m, (d) /m, filt, (e) Ra, (f)\nRa, filt, and (g) hr. For the correlation with Ch in Fig. 5h, there was\na tight grouping of data points suggesting a power fit. Ar was not\nAr [-]\n\u03b8r [\u00b0]\n1\n1.05 1.1 1.15 1.2 1.25 1.3\n0\n5\n10\n15\n20\n(a)\nWenzel (1936)\nCassie & Baxter (1944)\nwith f = 1-0.121*[(Ar-1)/0.3]\n0.95\nlinear fit\nMAE = 0.131\nAr,filt [-]\n\u03b8r [\u00b0]\n1\n1.02\n1.04\n1.06\n1.08\n1.1\n0\n5\n10\n15\n20\n(b)\nMAE = 0.206\nMAE = 0.206\nRa [m]\n\u03b8r [\u00b0]\n0\n5E-06\n1E-05\n0\n5\n10\n15\n20\n(c)\nMAE = 0.102\nRa,filt [m]\n\u03b8r [\u00b0]\n0\n5E-07\n1E-06\n0\n5\n10\n15\n20\n(d)\nMAE = 0.185\n\u03c6m [\u00b0]\n\u03b8r [\u00b0]\n0\n10\n20\n30\n0\n5\n10\n15\n20\n(e)\nMAE = 0.125\n\u03c6m,filt [\u00b0]\n\u03b8r [\u00b0]\n0\n5\n10\n15\n20\n0\n5\n10\n15\n20\n(f)\nMAE = 0.203\n\u03bamax [m\n-1]\n\u03b8r [\u00b0]\n0\n50000\n100000\n0\n5\n10\n15\n20\n(g)\nMAE = 0.326\n\u03bamax,filt [m\n-1]\n\u03b8r [\u00b0]\n0\n100000\n200000\n0\n5\n10\n15\n20\n(h)\nMAE = 0.224\nFig. 10. Comparisons of variation of experimental contact angle h with calculated surface parameters. Filtered surface parameters do not generally provide better correlation\nfor wetting.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n451\nincluded in the analysis, since Ra and /m gave better fits. It was\nfound that combining the correlations for q and Ra, filt better fit\nthe trends within data sets per surface than q alone. Linearized correlation results are shown in Fig. 6. Relative uncertainties (p-ratios)\nand correlation forms for the different variables are listed in Table 4. Overall the correlation of Dd with the experimental values\nof Ch is the best in terms of relative uncertainty. But since this correlation is not fully predictive, we use the correlation with Ra, filt\nand q, panel (a) in Fig. 6, as the basis for comparison.\n4.4. Time scale\nBubble growth rates in uniformly superheated liquid fields are\nwell understood and are limited by liquid inertia [48] (typically\nat the onset of growth), and heat diffusion [49] (typically over most\nof the life of the bubble for conventional fluids). For a vertically\nnon-uniform superheat considering both limits, analytical solutions for dimensionless growth rates were derived by Mikic et al.\n[41,50]. Good agreement was obtained with carefully controlled\nexperiments. In fully developed nucleate boiling, however, spatial\nvariations of liquid superheat do not follow a simple 1-D transient\nconduction model, and significant departures from the theory are\nobserved.\nIf the waiting period and growth period are known a priori,\nhowever, components of boiling heat transfer may be accurately\nmodeled [51]. Predictive correlations for growth rate or ebullition\nperiod are therefore of interest. Widely cited correlations [52-54]\nare usually expressed as the product of ebullition frequency and\ndeparture diameter, which results in a characteristic velocity scale.\n4.4.1. Bubble growth and ebullition periods, td and s\nMean bubble growth periods td,m and mean ebullition periods\nsm were obtained from the videos for each test condition. The\ngrowth period is defined as the difference in time between the initiation of growth of a bubble and its release from the surface. The\nebullition period is defined as the difference in time between the\ninitiation of growth of a bubble and the initiation of growth of\nthe next bubble nucleating from the same cavity.\nTrends in bubble growth and ebullition periods with respect to\nsurface parameters were not readily apparent from scatter plots.\nSurface roughness was not found to affect the bubble growth or\nebullition periods significantly. Only trends with q and Dd appeared\nq =3,500 W/m2\nw\nT\n\u0394\n= 14.5 K\nq =135,000 W/m2\nw\nT\n\u0394\n= 19.6 K\nq =39,500 W/m2\nw\nT\n\u0394\n= 18.3 K\n(a)\n(b)\n(q-qONB)/(qCHF-qONB)\n\u03b1max\n0\n0.2\n0.4\n0.6\n0.8\n1\n0\n0.2\n0.4\n0.6\n0.8\n1\n1.2\n1.4\npresent\nIida & Kobayasi (1969)\n\u03b1max = [(q-qONB)/(qCHF-qONB)]\n2/3\nFig. 11. (a) Approximate void fraction distribution above surface 3 at three different heat fluxes. (b) Maximum void fraction can be correlated with normalized nucleate\nboiling heat flux. The present data (FC-72) compare well with those of Iida and Kobayasi [57] (water).\n452\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nto show somewhat consistent trends. Fig. 7 shows the approximate\npower relationships between td,m and q and sm and q (Fig. 7a) and\ntd,m/Dd,m and q and sm/Dd,m and q (Fig. 7b). The results of the correlations are shown in Fig. 7c-f. The correlations evaluated are fully\npredictive in that they accept known or controllable parameters as\nindependent variables. Those including the departure diameter -\nFig. 7d and f - are based on values of Dd predicted by the present\nbest-fit correlation with q and Ra, filt as expressed in Table 4 row\n(a). MAE values are lower for the correlations including Dd. The p\nratio for correlating td with q and predicted Dd [panel (d)] versus\nwith q alone [panel (c)] is about 2, but this is not significant considering the variance introduced by the additional factor. The p ratio\nfor correlating sd with q and predicted Dd [letter (e)] versus with\nq alone is less than 0.25, and is therefore a much less uncertain correlation form. Correlations between td or sd and Dd take the form of\na representative velocity and therefore agree qualitatively with the\ncited literature [52-54].\n4.4.2. Bubble growth curves\nComparison and discussion of experimental single-bubble\ngrowth rates from a number of studies was provided by Lee et al.\n[42]. They developed a semi-analytical correlation including both\nthe inertially controlled growth and thermally controlled growth\nregimes and fit the correlation to a large set of experimental data.\nThey found that, in the thermally limiting case (which from their\nanalysis makes up the final 95% of the growth period), the extant\ndata for a variety of fluids could be correlated well in the form\nD (t )a, where the asterisks indicate normalized quantities and\nthe value of the exponent a could vary between 1/3 and 1/5. A fundamental issue with the extant data is that it is based on single\nisolated bubbles (characteristic of low heat fluxes or very smooth\nsurfaces) and/or very small data sets.\nIn the present work bubble growth curves for all test conditions\nand surfaces followed a similar relationship between diameter and\ntime when each bubble's growth curve was normalized by the\nTable 3\nSummary of relative uncertainties for linear correlations between Ch and selected predictive variables. Last 2 columns are p\nratios of unfiltered parameter to filtered parameter, and each parameter to overall best parameter, Ar, respectively.\nFluid/work\nFig. 4 panels\nCorrelating variable\nMAE\nR2\npun\npfilt\np\np\nAr\n(a)\nAr\n0.148\n0.563\n38.8\n1\n(b)*\nAr, filt\n*\n0.135*\n0.616*\nFC-72\n(c)\nRa\n0.177\n0.413\n1.98 105\n0.730\n(d)\nRa, filt\n0.129\n0.621\nPresent\n(e)\n/m\n0.146\n0.541\n33.7\n4.29\n(f)\n/m, filt\n0.130\n0.596\n(g)\njmax\n0.216\n0.101\n9.06 108\n36.6\n(h)\njmax, filt\n0.133\n0.563\n(a)\nAr\n0.044\n0.971\n2.41\n1\n(b)*\nAr, filt\n*\n0.032*\n0.984*\nFC-77\n(c)\nRa\n0.138\n0.781\n13.5\n3.82\n(d)\nRa, filt\n0.045\n0.960\n[17]\n(e)\n/m\n0.066\n0.934\n0.545\n14.9\n(f)\n/m, filt\n0.082\n0.902\n(g)\njmax\n0.268\n0.173\n12.6\n42.9\n(h)\njmax, filt\n0.124\n0.806\n(a)*\nAr\n*\n0.080*\n0.795*\n1.08\n1\n(b)\nAr, filt\n0.078\n0.804\nWater\n(c)\nRa\n0.099\n0.735\n1.09\n1.50\n(d)\nRa, filt\n0.085\n0.749\n[17]\n(e)\n/m\n0.082\n0.731\n0.847\n1.54\n(f)\n/m, filt\n0.085\n0.701\n(g)\njmax\n0.142\n0.127\n4.90\n13.2\n(h)\njmax, filt\n0.098\n0.622\n''un'' - Unfiltered parameter.\n''filt'' - Filtered parameter.\n* Appropriately filtered Ar value provides the most certain correlation over all data and is used as the final basis of\ncomparison.\nTable 4\nSummary of correlations between Dd and selected variables.\nFig. 6 panel\nCorrelating variable(s)\nPredictive?\nForm of Eqn.\nMAE\nF statistic\np\npq Ra;filt\n(a)*\nq Ra,filt\nYes\nDd = (Dd0 a Ra,filt)(b c q)\n0.137\n1313\n1\n(b)\nDTw\nPartial\nDd = a DTw + Dd0\n0.196\n763\n4.38 104\n(c)\n/m\nYes\nDd = Dd0 a /m\n0.444\n559\n1.80 107\n(d)\n/m,filt\nYes\nDd = Dd0 a /m,filt\n0.419\n946\n653\n(e)\nRa\nYes\nDd = Dd0 a Ra\n0.300\n661\n7.21 105\n(f)\nRa, filt\nYes\nDd = Dd0 a Ra,filt\n0.176\n970\n403\n(g)\nh\nYes\nDd = a h + Dd0\n0.423\n700\n2.35 105\n(h)\nCh\nNo\nDd = a (Ch)-b\n0.136\n1379\n0.376\n* p Ratios are relative to best predictive correlation, (a).\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n453\nvalues of its individual Dd and td values. Bubble growth charts are\nshown in Figs. 8 and 9 for the smooth surface 1 and rough surface\n5, respectively. Three heat fluxes are shown for each surface. In\nFig. 8, the entire range of q from just above boiling incipience to\njust below CHF is shown in subfigures (a)-(c). Each consists of\nplots showing: (1) the dimensional growth curve in units of bubble\ndiameter (in m) and time (in s), (2) the log-log plot of normalized\ndiameter versus normalized time, including the best power fit line,\nand (3) the linear normalized plot highlighting the general goodness of the fit. Also in plots (1), the average bubble growth curve\nis superposed on the data. The average departure diameter and\ntime curves may visually appear to underpredict the data, but this\nis due to the influence of bubbles with lifetimes cut short by mergers with neighboring bubbles.\nIn Fig. 9, the range of q spans from just above boiling incipience\nto about half the value at CHF. Beyond this heat flux value, the\nnucleation site density became so high that the video processing\ncode was unable to distinguish many bubbles over their entire\ngrowth lifetimes. A comparison of curve fits for all the data reveals\nthe average value of the growth exponent a to be approximately\n1/3. For some high heat flux conditions in which the growth of\nthe average bubble was terminated by mergers prior to liftoff,\nthe value of a is increased somewhat to approximately 0.4. For very\nsome very low heat flux conditions, nucleation sites with large\nwaiting times experienced a growth exponent of up to 1/2. Based\non the work of Mikic and Rohsenow [41] and Lee et al. [42], the\nvariation of a with waiting time is likely due to the increase in temperature field uniformity with time; a value of a = 1/2 is in perfect\nagreement with the uniform temperature field solution of Plesset\nand Zwick [49].\n4.5. Other trends\nTwo other important trends were observed from the present\nexperimental study. First, increased surface roughness was accompanied by a decrease in the receding contact angle hr. Second, the\nmaximum void fraction above the boiling surface was found to correlate well with heat flux.\n4.5.1. Effect of surface roughness on contact angle\nVariation in measured contact angle hr with surface roughness\nwas compared (Fig. 10) for the four roughness parameters explored\nin this work. It was found that the Wenzel [55] model based on\narea ratio was not a good predictor of rough surface contact angles.\nThe Cassie-Baxter [56] model was not much better, following the\napparent linear decrease in contact angle with increasing area ratio\nonly when the contact factor f was fit as shown in the Fig. 10a. The\nbest correlation was a linear relationship with Ra. Filtered surface\nparameters did not produce consistent trends in contact angle,\nsuggesting that the roughness measure of importance for wetting\nis not closely related to that for bubble nucleation.\n4.5.2. Vertical distribution of average void fraction above surface, a\nThe vertical distribution of time-averaged void fraction above\nthe heater surface was obtained as a by-product of the bubble\nmeasurement code. Since positions and equivalent diameters of\nthe bubbles were known at each time step, the approximate local\nvoid fraction could be calculated. It was assumed that each bubble\nwas approximately spherical and located directly above the test\nstrip center line at position y, with radius equal to Deq/2. Then\nthe fraction of projected heater area occupied by vapor at each\nheight y was determined by subtracting the circular area of each\nbubble intersecting the y-plane. Bubble overlaps (vapor spaces\naccounted twice) were approximately canceled out by the unaccounted vapor space occurring outside the projected heater area.\nThe void fraction for each height y was then time-averaged across\nall video frames. Resulting vertical distributions of void fraction are\nshown in Fig. 11a. Scatter data reflect the contribution of individual\nframes. The time-averaged void fraction as a function of height is\nsuperposed as a solid magenta line.\nThe height at which the maximum value of void fraction amax\noccurs is indicated with a dashed line. The maximum void fraction\nvalues determined for the present study overall agree well with\nthose of Iida and Kobayasi [57], shown in Fig. 11b, when the value\nof heat flux is normalized as:\nq q qONB\nq qCHF\n\u00f013\u00de\nThe combined data sets suggest the following simple correlation,\nwhich is based on data for both water [57] and FC-72 (present\nwork):\namax 1\u20444 \u00f0q \u00de2=3\n\u00f014\u00de\nEq. (14) requires further experimental validation. Its behavior at the\nextreme limits are correct: clearly amax must be equal to zero at the\npoint of boiling incipience and close to one at the point of surface\ndryout. Surface roughness was not found to have a definite effect\non amax. Although the three visible outliers below the curve in\nFig. 11b pertain to surface 1, reduced calculated amax values could\nresult from the measurement assumption that bubble overlaps offset unaccounted void space in this case.\n5. Conclusions\nIn a companion paper [1], it was shown through a review of the\nliterature and experimental measurements that the effects of surface roughness on nucleate boiling are not completely understood.\nQuantitative and qualitative differences between nucleate boiling\nfrom smooth and rough surfaces were demonstrated. In the present work, the experimental data from [1] were analyzed in depth\nin order to identify physical reasons for those differences. Surface\nroughness was analyzed in terms of its relationship to bubble\ngrowth and departure. It was shown that filtering the surface using\na cutoff wavelength equal to the theoretical base diameter of an\nemergent bubble can yield appropriate measures of surface roughness as it relates to boiling. While the propriety of using this length\nscale for filtering must be verified against further experimental\nevidence, it is based on sound principles and is supported by three\ndata sets. Statistical analysis was performed in order to determine\nwhich surface roughness parameters and other predictive quantities could correlate to boiling heat transfer with the lowest uncertainty. It was found that the area ratio Ar, defined as total surface\narea divided by planar base area, filtered by the calculated cutoff\nwavelength appropriate for a specific fluid, provides the most\ncertain correlation for heat transfer coefficients over all the data\nconsidered. The filtered Ra value yielded the most certain correlation for the heat transfer and bubble ebullition data from the present facility. Bubble departure diameter was found to correlate\nreasonably well with heat flux and Ra, filt. Bubble ebullition and\ngrowth periods was found to correlate well with a combination\nof heat flux and departure diameter (as predicted by the surface\nroughness). Bubble growth curves for all test conditions were well\nrepresented by the normalized relationship D (t )1/3. Finally,\nvoid fraction above the surface was correlated with normalized\nheat flux for these data and for water by amax = (q )2/3.\nAcknowledgments\nFinancial support for this work was provided by the Indiana\n21st Century Research and Technology Fund and the Cooling Technologies Research Center at Purdue University. Ms. Suchismita\n454\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\nSarangi assisted in construction and operation of the experimental\nfacility. The authors also thank Northrop Grumman Corporation for\ndonating FC-72 working fluid.\nReferences\n[1] J.P. McHale, S.V. Garimella, Nucleate boiling from smooth and rough surfaces -\nPart 1: fabrication and characterization of an optically transparent heatersensor substrate with controlled surface roughness, Experimental Thermal\nFluid Science 44 (2013) 456-467.\n[2] Y. Qi, J.F. Klausner, R. Mei, Role of surface structure in heterogeneous\nnucleation, International Journal of Heat and Mass Transfer 47 (2004) 3097-\n3107.\n[3] D. Gorenflo, A. Luke, E. Danger, Interactions between heat transfer and bubble\nformation in nucleate boiling, in: Proceedings of 11th International Heat\nTransfer Conference, Kyongju, 1998, pp. 149-174.\n[4] A. Luke, E. Baumhogger, P. Scheunemann, 3-Dimensional description of the\nmicrostructure of heated surfaces in nucleate pool boiling, Multiphase Science\n& Technology 12 (2000) 136-151.\n[5] A. Majumdar, C. Tien, Fractal characterization and simulation of rough\nsurfaces, Wear 136 (1990) 313-327.\n[6] R. Fong, G. McRae, C. Coleman, T. Nitheanandan, D. Sanderson, Correlation\nbetween the critical heat flux and the fractal surface roughness of Zirconium\nalloy tubes, Journal of Enhanced Heat Transfer 8 (2001) 137-146.\n[7] S.R. Yang, Z.M. Xu, J.W. Wang, X.T. Zhao, On the fractal description of active\nnucleation site density for pool boiling, International Journal of Heat and Mass\nTransfer 44 (2001) 2783-2786.\n[8] B. Yu, P. Cheng, A fractal model for nucleate pool boiling heat transfer, Journal\nof Heat Transfer 124 (2002) 1117-1124.\n[9] W.M. Rohsenow, A method of correlating heat transfer data for surface boiling\nof liquids, Transactions of the ASME 74 (1952) 969-976.\n[10] R. Benjamin, A. Balakrishnan, Nucleate pool boiling heat transfer of pure\nliquids at low to moderate heat fluxes, International Journal of Heat and Mass\nTransfer 39 (1996) 2495-2504.\n[11] R. Judd, K. Hwang, A comprehensive model for nucleate pool boiling heat\ntransfer including microlayer evaporation, Journal of Heat Transfer 98 (1976)\n623-629.\n[12] K. Torikai, M. Hori, M. Akiyama, T. Kobori, H. Adachi, Boiling heat transfer and\nburn-out mechanism in boiling-water cooled reactors, in: Proceedings of Third\nUnited Nations International Conference on the Peaceful Uses of Atomic\nEnergy, 1964, Paper No. 28/P580.\n[13] B.B. Mikic, W.M. Rohsenow, A new correlation of pool-boiling data including\nthe effect of heating surface characteristics, Journal of Heat Transfer 91 (1969)\n245-250.\n[14] C. Han, P. Griffith, The mechanism of heat transfer in nucleate boiling. Parts I\nand II, International Journal of Heat and Mass Transfer 8 (1965) 887-914.\n[15] C.H. Wang, V.K. Dhir, Effect of surface wettability on active nucleation site\ndensity during pool boiling of saturated water, Journal of Heat Transfer 115\n(1993) 659-669.\n[16] V. Sathyamurthi, D. Banerjee, H. Sakamoto, J. Kim, Measurement of the fractal\norder of wall void fraction during nucleate boiling, International Journal of\nHeat and Fluid Flow 29 (2008) 207-218.\n[17] B.J. Jones, J.P. McHale, S.V. Garimella, The influence of surface roughness on\nnucleate pool boiling heat transfer, Journal of Heat Transfer 131 (2009)\n121009.\n[18] F. Bashforth, J.C. Adams, An Attempt to Test the Theories of Capillary Action:\nBy Comparing the Theoretical and Measured Forms of Drops of Fluid,\nUniversity Press, 1883.\n[19] W. Fritz, Berechnung des maximalvolume von dampfblasen, Physikalische\nZeitschrift 36 (1935) 379-388.\n[20] S.\nHartland,\nR.\nHartley,\nAxisymmetric\nFluid-Liquid\nInterfaces,\nElsevier,\nAmsterdam, 1976.\n[21] M. Owen, Practical Signal Processing, Cambridge University Press, New York,\n2007.\n[22] The Mathworks Inc., MATLAB version 7.8.0, Natick, Massachussetts, 2009.\n[23] A.V. Oppenheim, R.W. Schafer, J.R. Buck, Discrete-Time Signal Processing,\nPrentice-Hall, Upper Saddle River, NJ, 1999.\n[24] C. Tomasi, R. Manduchi, Bilateral filtering for gray and color images, in: Sixth.\nInternational (Ed.), Conference on Computer Vision, Bombay, IEEE, 1998, pp.\n839-846.\n[25] D.R. Lanman, bfilter2.m, Brown University, 2006.\n[26] J.M. Lien, N.M. Amato, Approximate convex decomposition of polygons,\nComputational Geometry 35 (2006) 100-123.\n[27] J.P. McHale, S.V. Garimella, New measures for convexity and concavity of\nobjects, pockets, and vertices based on circularity, Pattern Recognition Letters,\n(submitted for publication).\n[28] J.P. McHale, S.V. Garimella, Robust LUT-based perimeter estimation for\n4-connected binary objects, (in preparation).\n[29] K.\nOhmi,\nH.-Y.\nLi,\nParticle-tracking\nvelocimetry\nwith\nnew\nalgorithms,\nMeasurement Science and Technology (2000) 603-616.\n[30] D. Broder, M. Sommerfeld, Planar shadow image velocimetry for the analysis\nof the hydrodynamics in bubbly flows, Measurement Science and Technology\n18 (2007) 2513-2528.\n[31] B.M. Ayyub, R.H. McCuen, Probability, Statistics, and Reliability for Engineers\nand Scientists, Chapman & Hall/CRC, Boca Raton, FL, 2003.\n[32] D. Schiff, R.B. D'Agostino, Practical Engineering Statistics, Wiley-Interscience,\nNew York, 1996.\n[33] M. Cooper, Saturation nucleate pool boiling: a simple correlation, in: 1st UK\nNational Conference on Heat Transfer, 1984, pp. 785-793.\n[34] K. Nishikawa, Y. Fujita, H. Ohta, S. Hidaka, Effects of system pressure and\nsurface roughness on nucleate boiling heat transfer, Memoirs of the Faculty of\nEngineering, Kyushu University 42 (1982) 95-111.\n[35] D. Gorenflo, Pool Boiling, in: VDI Heat Atlas, VDI Verlag, Dusseldorf, 1993.\n[36] W. Leiner, Heat transfer by nucleate pool boiling-general correlation based on\nthermodynamic similarity, International Journal of Heat and Mass Transfer 37\n(1994) 763.\n[37] V.P. Carey, Liquid-Vapor Phase-Change Phenomena: An Introduction to the\nThermophysics of Vaporization and Condensation, Hemisphere Publishing\nCorp., Washington, DC, 1992.\n[38] A. Hatton, I. Hall, Photographic study of boiling on prepared surfaces, in:\nProceedings of 3rd International Heat Transfer Conference, 1966, pp. 24-37.\n[39] E. Ruckenstein, A physical model for nucleate boiling heat transfer from a\nhorizontal surface, Buletinul Institutului Politehnic Bucuresti (Romania) 23\n(1961) 79-88.\n[40] N. Zuber, Hydrodynamic Aspects of Boiling Heat Transfer, AECU-4439,\nCalifornia. Univ., Los Angeles; and Ramo-Wooldridge Corp., Los Angeles, 1959.\n[41] B.B. Mikic, W.M. Rohsenow, Bubble growth rates in non-uniform temperature\nfield, Progress in Heat and Mass Transfer 2 (1969) 283-293.\n[42] H.C. Lee, B.D. Oh, S.W. Bae, M.H. Kim, Single bubble growth in saturated pool\nboiling on a constant wall temperature surface, International Journal of\nMultiphase Flow 29 (2003) 1857-1874.\n[43] R. Cole, W. Rohsenow, Correlation of bubble departure diameters for boiling of\nsaturated liquids, Chemical Engineering Progress Symposium Series 65 (1969)\n211-213.\n[44] R. Cole, H.L. Shulman, Bubble departure diameters at subatmospheric\npressures, Chemical Engineering Progress 62 (1966) 6-16.\n[45] V. Golorin, B. Kol'chugin, E. Zakharova, Investigation of the mechanism of\nnucleate boiling of ethyl alcohol and benzene by means of high-speed motionpicture photography, Heat Transfer - Soviet Research 10 (1978) 79-98.\n[46] S. Kutateladze, I. Gogonin, Growth rate and detachment diameter of a vapor\nbubble in free convection boiling of a saturated liquid, High Temperature 17\n(1980) 667-671.\n[47] M.K.\nJensen,\nG.J.\nMemmel,\nEvaluation\nof\nbubble\ndeparture\ndiameter\ncorrelations, in: Proceedings of the Eighth International Heat Transfer\nConference, 1986, pp. 1907-1912.\n[48] Lord. Rayleigh, On the pressure developed in a liquid during the collapse of a\nspherical cavity, Philosophical Magazine 34 (1917) 94-98.\n[49] M.S. Plesset, S.A. Zwick, The growth of vapor bubbles in superheated liquids,\nJournal of Applied Physics 25 (1954) 493-500.\n[50] B.B. Mikic, W.M. Rohsenow, P. Griffith, On bubble growth rates, International\nJournal of Heat and Mass Transfer 13 (1970) 657-666.\n[51] S. Moghaddam, K. Kiger, Physical mechanisms of heat transfer during single\nbubble nucleate boiling of FC-72 under saturation conditions. II: Theoretical\nanalysis, International Journal of Heat and Mass Transfer 52 (2009) 1295-\n1303.\n[52] M. Jakob, W. Fritz, Versuche \u00fcber den verdampfungsvorgang, Forschung auf\ndem Gebiete des Ingenieurwesens 2 (1931) 435-447.\n[53] F.N. Peebles, H.J. Garber, Studies on motion of gas bubbles in liquids, Chemical\nEngineering Progress 49 (1953) 88-97.\n[54] H.J. Ivey, Relationships between bubble frequency, departure diameter and\nrise velocity in nucleate boiling, International Journal of Heat and Mass\nTransfer 10 (1967) 1023-1040.\n[55] R.N. Wenzel, Resistance of solid surfaces to wetting by water, Industrial &\nEngineering Chemistry 28 (1936) 988-994.\n[56] A. Cassie, S. Baxter, Wettability of porous surfaces, Transactions of the Faraday\nSociety 40 (1944) 546-551.\n[57] Y. Iida, K. Kobayasi, Distributions of void fraction above a horizontal heating\nsurface in pool boiling, Bulletin of JSME 12 (1969) 283-290.\nJ.P. McHale, S.V. Garimella / Experimental Thermal and Fluid Science 44 (2013) 439-455\n455",
+  "pages": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 5398
+    },
+    {
+      "number": 2,
+      "start": 5398,
+      "end": 10734
+    },
+    {
+      "number": 3,
+      "start": 10734,
+      "end": 17436
+    },
+    {
+      "number": 4,
+      "start": 17436,
+      "end": 18075
+    },
+    {
+      "number": 5,
+      "start": 18075,
+      "end": 22650
+    },
+    {
+      "number": 6,
+      "start": 22650,
+      "end": 29140
+    },
+    {
+      "number": 7,
+      "start": 29140,
+      "end": 31659
+    },
+    {
+      "number": 8,
+      "start": 31659,
+      "end": 34338
+    },
+    {
+      "number": 9,
+      "start": 34338,
+      "end": 37288
+    },
+    {
+      "number": 10,
+      "start": 37288,
+      "end": 42103
+    },
+    {
+      "number": 11,
+      "start": 42103,
+      "end": 43150
+    },
+    {
+      "number": 12,
+      "start": 43150,
+      "end": 44381
+    },
+    {
+      "number": 13,
+      "start": 44381,
+      "end": 47617
+    },
+    {
+      "number": 14,
+      "start": 47617,
+      "end": 50652
+    },
+    {
+      "number": 15,
+      "start": 50652,
+      "end": 54723
+    },
+    {
+      "number": 16,
+      "start": 54723,
+      "end": 62133
+    },
+    {
+      "number": 17,
+      "start": 62133,
+      "end": 71285
+    }
+  ],
+  "sections": [
+    {
+      "id": "sec-0-john-p-mchale-suresh-v-garimella",
+      "number": null,
+      "title": "John P. McHale, Suresh V. Garimella \u21d1",
+      "level": 1,
+      "start": 115,
+      "end": 5312
+    },
+    {
+      "id": "sec-1-experimental-thermal-and-fluid-science",
+      "number": null,
+      "title": "Experimental Thermal and Fluid Science",
+      "level": 1,
+      "start": 5312,
+      "end": 8657
+    },
+    {
+      "id": "sec-2-nomenclature",
+      "number": null,
+      "title": "Nomenclature",
+      "level": 2,
+      "start": 8657,
+      "end": 10128
+    },
+    {
+      "id": "sec-3-dq",
+      "number": null,
+      "title": "Dq",
+      "level": 2,
+      "start": 10128,
+      "end": 17456
+    },
+    {
+      "id": "sec-4-frequency-mm",
+      "number": null,
+      "title": "Frequency [mm",
+      "level": 2,
+      "start": 17456,
+      "end": 17474
+    },
+    {
+      "id": "sec-5-relativeoutputmagnitude",
+      "number": null,
+      "title": "RelativeOutputMagnitude [-]",
+      "level": 2,
+      "start": 17474,
+      "end": 17548
+    },
+    {
+      "id": "sec-6-distance-px",
+      "number": null,
+      "title": "Distance [px]",
+      "level": 2,
+      "start": 17548,
+      "end": 17562
+    },
+    {
+      "id": "sec-7-kernelvalue",
+      "number": null,
+      "title": "KernelValue [-]",
+      "level": 2,
+      "start": 17562,
+      "end": 19942
+    },
+    {
+      "id": "sec-8-a-p2ra",
+      "number": null,
+      "title": "A \u00bc p2Ra",
+      "level": 1,
+      "start": 19942,
+      "end": 28655
+    },
+    {
+      "id": "sec-9-tw-exp-k",
+      "number": null,
+      "title": "\u0394Tw,exp [K]",
+      "level": 2,
+      "start": 28655,
+      "end": 28667
+    },
+    {
+      "id": "sec-10-tw-pred-k",
+      "number": null,
+      "title": "\u0394Tw,pred [K]",
+      "level": 2,
+      "start": 28667,
+      "end": 28730
+    },
+    {
+      "id": "sec-11-jones-et-al-2009",
+      "number": null,
+      "title": "Jones, et al. (2009)",
+      "level": 2,
+      "start": 28730,
+      "end": 30788
+    },
+    {
+      "id": "sec-12-ar",
+      "number": null,
+      "title": "Ar [-]",
+      "level": 2,
+      "start": 30788,
+      "end": 30795
+    },
+    {
+      "id": "sec-13-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 30795,
+      "end": 30898
+    },
+    {
+      "id": "sec-14-ar-filt",
+      "number": null,
+      "title": "Ar,filt [-]",
+      "level": 2,
+      "start": 30898,
+      "end": 30910
+    },
+    {
+      "id": "sec-15-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 30910,
+      "end": 30951
+    },
+    {
+      "id": "sec-16-ra-m",
+      "number": null,
+      "title": "Ra [m]",
+      "level": 2,
+      "start": 30951,
+      "end": 30958
+    },
+    {
+      "id": "sec-17-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 30958,
+      "end": 31016
+    },
+    {
+      "id": "sec-18-ra-filt-m",
+      "number": null,
+      "title": "Ra,filt [m]",
+      "level": 2,
+      "start": 31016,
+      "end": 31028
+    },
+    {
+      "id": "sec-19-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 31028,
+      "end": 31064
+    },
+    {
+      "id": "sec-20-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 31064,
+      "end": 31114
+    },
+    {
+      "id": "sec-21-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 31114,
+      "end": 31164
+    },
+    {
+      "id": "sec-22-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 31164,
+      "end": 31222
+    },
+    {
+      "id": "sec-23-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 31222,
+      "end": 33645
+    },
+    {
+      "id": "sec-24-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33645,
+      "end": 33699
+    },
+    {
+      "id": "sec-25-ra",
+      "number": null,
+      "title": "Ra",
+      "level": 2,
+      "start": 33699,
+      "end": 33702
+    },
+    {
+      "id": "sec-26-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33702,
+      "end": 33766
+    },
+    {
+      "id": "sec-27-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33766,
+      "end": 33830
+    },
+    {
+      "id": "sec-28-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33830,
+      "end": 33889
+    },
+    {
+      "id": "sec-29-tw-k",
+      "number": null,
+      "title": "\u0394Tw [K]",
+      "level": 2,
+      "start": 33889,
+      "end": 33897
+    },
+    {
+      "id": "sec-30-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33897,
+      "end": 33954
+    },
+    {
+      "id": "sec-31-ra-filt",
+      "number": null,
+      "title": "Ra,filt",
+      "level": 2,
+      "start": 33954,
+      "end": 33962
+    },
+    {
+      "id": "sec-32-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 33962,
+      "end": 34025
+    },
+    {
+      "id": "sec-33-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 34025,
+      "end": 34078
+    },
+    {
+      "id": "sec-34-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 2,
+      "start": 34078,
+      "end": 34081
+    },
+    {
+      "id": "sec-35-dd-m-m",
+      "number": null,
+      "title": "Dd,m [m]",
+      "level": 2,
+      "start": 34081,
+      "end": 36430
+    },
+    {
+      "id": "sec-36-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36430,
+      "end": 36441
+    },
+    {
+      "id": "sec-37-dd-q-ra-m",
+      "number": null,
+      "title": "Dd,q,Ra [m]",
+      "level": 2,
+      "start": 36441,
+      "end": 36516
+    },
+    {
+      "id": "sec-38-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36516,
+      "end": 36527
+    },
+    {
+      "id": "sec-39-dd-tw-m",
+      "number": null,
+      "title": "Dd,\u0394Tw [m]",
+      "level": 2,
+      "start": 36527,
+      "end": 36588
+    },
+    {
+      "id": "sec-40-tw",
+      "number": null,
+      "title": "\u0394Tw",
+      "level": 1,
+      "start": 36588,
+      "end": 36592
+    },
+    {
+      "id": "sec-41-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36592,
+      "end": 36603
+    },
+    {
+      "id": "sec-42-dd-m-m",
+      "number": null,
+      "title": "Dd,\u03c6m [m]",
+      "level": 2,
+      "start": 36603,
+      "end": 36666
+    },
+    {
+      "id": "sec-43-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36666,
+      "end": 36677
+    },
+    {
+      "id": "sec-44-dd-ra-filt-m",
+      "number": null,
+      "title": "Dd,Ra,filt [m]",
+      "level": 2,
+      "start": 36677,
+      "end": 36742
+    },
+    {
+      "id": "sec-45-ra-filt",
+      "number": null,
+      "title": "Ra, filt",
+      "level": 1,
+      "start": 36742,
+      "end": 36751
+    },
+    {
+      "id": "sec-46-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36751,
+      "end": 36762
+    },
+    {
+      "id": "sec-47-dd-ra-m",
+      "number": null,
+      "title": "Dd,Ra [m]",
+      "level": 2,
+      "start": 36762,
+      "end": 36822
+    },
+    {
+      "id": "sec-48-ra",
+      "number": null,
+      "title": "Ra",
+      "level": 1,
+      "start": 36822,
+      "end": 36825
+    },
+    {
+      "id": "sec-49-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36825,
+      "end": 36836
+    },
+    {
+      "id": "sec-50-dd-m-filt-m",
+      "number": null,
+      "title": "Dd,\u03c6m,filt [m]",
+      "level": 2,
+      "start": 36836,
+      "end": 36910
+    },
+    {
+      "id": "sec-51-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36910,
+      "end": 36921
+    },
+    {
+      "id": "sec-52-dd-m",
+      "number": null,
+      "title": "Dd,\u03b8 [m]",
+      "level": 2,
+      "start": 36921,
+      "end": 36982
+    },
+    {
+      "id": "sec-53-dd-exp-m",
+      "number": null,
+      "title": "Dd,exp [m]",
+      "level": 2,
+      "start": 36982,
+      "end": 36993
+    },
+    {
+      "id": "sec-54-dd-ch-m",
+      "number": null,
+      "title": "Dd,Ch [m]",
+      "level": 2,
+      "start": 36993,
+      "end": 37053
+    },
+    {
+      "id": "sec-55-ch",
+      "number": null,
+      "title": "Ch",
+      "level": 1,
+      "start": 37053,
+      "end": 45562
+    },
+    {
+      "id": "sec-56-the-idealized-maximum-surface-curvature-",
+      "number": null,
+      "title": "The idealized maximum surface curvature jmax appears to be a",
+      "level": 2,
+      "start": 45562,
+      "end": 46732
+    },
+    {
+      "id": "sec-57-ar",
+      "number": null,
+      "title": "Ar [-]",
+      "level": 2,
+      "start": 46732,
+      "end": 46887
+    },
+    {
+      "id": "sec-58-ar-filt",
+      "number": null,
+      "title": "Ar,filt [-]",
+      "level": 2,
+      "start": 46887,
+      "end": 46973
+    },
+    {
+      "id": "sec-59-ra-m",
+      "number": null,
+      "title": "Ra [m]",
+      "level": 2,
+      "start": 46973,
+      "end": 47030
+    },
+    {
+      "id": "sec-60-ra-filt-m",
+      "number": null,
+      "title": "Ra,filt [m]",
+      "level": 2,
+      "start": 47030,
+      "end": 50068
+    },
+    {
+      "id": "sec-61-t",
+      "number": null,
+      "title": "T",
+      "level": 1,
+      "start": 50068,
+      "end": 50070
+    },
+    {
+      "id": "sec-62-",
+      "number": null,
+      "title": "\u0394",
+      "level": 1,
+      "start": 50070,
+      "end": 50099
+    },
+    {
+      "id": "sec-63-t",
+      "number": null,
+      "title": "T",
+      "level": 1,
+      "start": 50099,
+      "end": 50101
+    },
+    {
+      "id": "sec-64-",
+      "number": null,
+      "title": "\u0394",
+      "level": 1,
+      "start": 50101,
+      "end": 50129
+    },
+    {
+      "id": "sec-65-t",
+      "number": null,
+      "title": "T",
+      "level": 1,
+      "start": 50129,
+      "end": 50131
+    },
+    {
+      "id": "sec-66-",
+      "number": null,
+      "title": "\u0394",
+      "level": 1,
+      "start": 50131,
+      "end": 50232
+    },
+    {
+      "id": "sec-67-iida-kobayasi-1969",
+      "number": null,
+      "title": "Iida & Kobayasi (1969)",
+      "level": 2,
+      "start": 50232,
+      "end": 61842
+    },
+    {
+      "id": "sec-68-acknowledgments",
+      "number": null,
+      "title": "Acknowledgments",
+      "level": 2,
+      "start": 61842,
+      "end": 62296
+    },
+    {
+      "id": "sec-69-references",
+      "number": null,
+      "title": "References",
+      "level": 2,
+      "start": 62296,
+      "end": 71285
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig-1e",
+      "label": "Fig. 1e",
+      "caption": "",
+      "page": 3,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-1e_p3.png"
+    },
+    {
+      "id": "fig-1",
+      "label": "Fig. 1",
+      "caption": "Surface maps were \ufb01ltered with cutoff frequency determined by the predicted bubble base diameter: (a) frequency response of the \ufb01lter for FC-72, (b) Blackman-",
+      "page": 4,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-1_p4.png"
+    },
+    {
+      "id": "fig-2",
+      "label": "Fig. 2",
+      "caption": "Approximate convex decomposition of bubble objects in an image: (a)",
+      "page": 5,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-2_p5.png"
+    },
+    {
+      "id": "fig-3",
+      "label": "Fig. 3",
+      "caption": "Correlation of experimental boiling curves assuming the relationship",
+      "page": 6,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-3_p6.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "Correlation of Ch with selected surface parameters. All Ch data are shown for present work, while only average values are shown for the data of Jones et al. [17].",
+      "page": 7,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-4_p7.png"
+    },
+    {
+      "id": "fig-5",
+      "label": "Fig. 5",
+      "caption": "Experimental trends in mean bubble departure diameter with respect to several correlating variables.",
+      "page": 8,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-5_p8.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "Comparisons of experimental data and predicted values from curve \ufb01ts between mean bubble departure diameter and selected variables.",
+      "page": 9,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-6_p9.png"
+    },
+    {
+      "id": "fig-7",
+      "label": "Fig. 7",
+      "caption": "Comparisons of experimental data and predicted values for power curve \ufb01ts between mean bubble growth period td or total ebullition period s and heat \ufb02ux, and",
+      "page": 10,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-7_p10.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": "Measured bubble diameters as a function of growth time for surface 1 at (a) low, (b) medium, and (c) high heat \ufb02uxes. Chaotic behavior appears to increase with heat",
+      "page": 11,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-8_p11.png"
+    },
+    {
+      "id": "fig-9",
+      "label": "Fig. 9",
+      "caption": "Measured bubble diameters as a function of growth time for surface 5 at (a) low, (b) medium\u2013low, and (c) medium heat \ufb02uxes. High nucleation site densities at",
+      "page": 12,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-9_p12.png"
+    },
+    {
+      "id": "fig-10",
+      "label": "Fig. 10",
+      "caption": "Comparisons of variation of experimental contact angle h with calculated surface parameters. Filtered surface parameters do not generally provide better correlation",
+      "page": 13,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-10_p13.png"
+    },
+    {
+      "id": "fig-11",
+      "label": "Fig. 11",
+      "caption": "(a) Approximate void fraction distribution above surface 3 at three different heat \ufb02uxes. (b) Maximum void fraction can be correlated with normalized nucleate",
+      "page": 14,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-11_p14.png"
+    },
+    {
+      "id": "fig-7d",
+      "label": "Fig. 7d",
+      "caption": "and f \u2013 are based on values of Dd predicted by the present",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-7d_p15.png"
+    },
+    {
+      "id": "fig-4",
+      "label": "Fig. 4",
+      "caption": "panels",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-4_p15.png"
+    },
+    {
+      "id": "fig-6",
+      "label": "Fig. 6",
+      "caption": "panel",
+      "page": 15,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-6_p15.png"
+    },
+    {
+      "id": "fig-8",
+      "label": "Fig. 8",
+      "caption": ", the entire range of q from just above boiling incipience to",
+      "page": 16,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-8_p16.png"
+    },
+    {
+      "id": "fig-11b",
+      "label": "Fig. 11b",
+      "caption": "pertain to surface 1, reduced calculated amax values could",
+      "page": 16,
+      "bbox": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        793.7009887695312
+      ],
+      "image_path": "D:\\a_claude\\AgenticTool-MultiPhaseHUB-main - test11\\AgenticTool-MultiPhaseHUB-main\\pipeline\\figures\\mchale-2013-nucleate-boiling-from-smooth-and-rough-part2\\mchale_2013_nucleate_boiling_from_smooth_and_rough_part2_fig-11b_p16.png"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tab-1",
+      "caption": "",
+      "page": 3,
+      "rows": []
+    },
+    {
+      "id": "tab-2",
+      "caption": "",
+      "page": 5,
+      "rows": []
+    },
+    {
+      "id": "tab-3",
+      "caption": "",
+      "page": 15,
+      "rows": []
+    },
+    {
+      "id": "tab-4",
+      "caption": "",
+      "page": 15,
+      "rows": []
+    }
+  ],
+  "meta": {
+    "n_pages": 17,
+    "ingest": "pymupdf"
+  }
+}

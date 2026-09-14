@@ -1,0 +1,109 @@
+{
+  "phenomenon": {
+    "tier1": "pool_boiling",
+    "tier2": "nucleate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "Keywords: nucleate boiling; heat transfer enhancement; heat transfer coefficient; surface functionalization;\nlaser texturing; hydrophobization"
+      },
+      {
+        "quote": "Pool boiling performance\nof all surfaces was evaluated under atmospheric pressure and at saturated conditions using\ntwice-distilled water."
+      }
+    ]
+  },
+  "configuration": {
+    "tier1": "surface",
+    "tier2": "flat_plate",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "The sample itself is cylindrical with the diameter of the boiling surface being 14 mm."
+      }
+    ]
+  },
+  "method": {
+    "tier1": "experimental",
+    "tier2": "steady_state",
+    "tier3": null,
+    "propose_new": null,
+    "evidence": [
+      {
+        "quote": "This methodology\nwas experimentally and numerically confirmed to be a very good approximation of the\nsteady-state measurements [6,19]."
+      }
+    ]
+  },
+  "fluid": [
+    {
+      "tier1": "water",
+      "tier2": "water",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "which was subsequently filled with approx. 200 mL of twice-distilled water."
+        }
+      ]
+    }
+  ],
+  "surface_enhancement": [
+    {
+      "tier1": "plain",
+      "tier2": "plain",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "One sample was tested\nwithout further treatment and used as a reference; it is denoted as the \"REF\" sample."
+        }
+      ]
+    },
+    {
+      "tier1": "roughened",
+      "tier2": "laser_textured",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Three types of surface structures including a crosshatch\npattern, shallow channels and deep channels were developed using nanosecond laser texturing to\nmodify the surface micro- and nanomorphology."
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "superhydrophobic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "After hydrophobization, all samples exhibited superhydrophobicity with a roll-off angle below\n5◦and a contact angle higher than 150◦."
+        }
+      ]
+    },
+    {
+      "tier1": "wettability_engineered",
+      "tier2": "hydrophilic",
+      "tier3": null,
+      "propose_new": null,
+      "evidence": [
+        {
+          "quote": "Each type of surface structure was tested in the asprepared superhydrophilic state and superhydrophobic state following hydrophobization, achieved\nthrough the application of a nanoscale self-assembled monolayer of a fluorinated silane."
+        }
+      ]
+    }
+  ],
+  "measured_quantity": [
+    "chf",
+    "htc",
+    "boiling_curve",
+    "wall_superheat",
+    "bubble_dynamics",
+    "contact_angle"
+  ],
+  "measurement_modality": [
+    "thermocouple",
+    "high_speed_visualization"
+  ]
+}

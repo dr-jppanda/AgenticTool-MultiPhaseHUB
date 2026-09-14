@@ -1,0 +1,8 @@
+{
+  "paper_type": "experimental",
+  "contains_dataset": true,
+  "primary_phenomenon": "pool_boiling",
+  "title": "Heat transfer of uncoated and nanostructure coated commercially micro-enhanced refrigeration tubes under pool boiling conditions",
+  "year": 2024,
+  "reason": "The authors report their own measured pool boiling heat transfer coefficients for uncoated and CuO-nanocoated enhanced tubes in R134a at 5 °C and 25 °C over 20–100 kW/m2."
+}
