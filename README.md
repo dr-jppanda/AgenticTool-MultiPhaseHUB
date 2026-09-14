@@ -124,7 +124,7 @@ two of its outputs were compared against the same figures re-digitized by
 hand in [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): Allred et
 al. (2018) Fig. 4 and Berce et al. (2024) Fig. 5. In both cases the
 AgenticTool series and the WebPlotDigitizer series overlay closely across the
-full boiling curve, including the transition and film-boiling regions.
+full boiling curve.
 
 | Allred et al. (2018) Fig. 4 | Berce et al. (2024) Fig. 5 |
 | --- | --- |
