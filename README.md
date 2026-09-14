@@ -5,7 +5,7 @@ boiling, flow boiling, condensation, spray cooling, and related regimes — into
 structured, browsable dataset catalog, without ever asking an LLM to compute a
 number itself.
 
-For each paper, an agentic extraction pipeline (S0–S7) parses the document,
+For each paper, an agentic extraction pipeline (S0–S10) parses the document,
 decides whether it reports its own dataset, pulls the numeric operating envelope
 in the paper's own units together with the verbatim quote and the page(s) and
 section(s) it came from, tags it against a controlled multi-tier taxonomy of
