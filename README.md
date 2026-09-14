@@ -117,6 +117,18 @@ directly off the drawing commands. **Raster fallback** traces pixels against
 a calibrated axis. See `docs/figure-pipeline.md` for the full prompt and
 design rationale.
 
+### End-to-end notebook
+
+[`mht_datahub_pipeline.ipynb`](mht_datahub_pipeline.ipynb) runs the whole
+pipeline top to bottom against whatever PDFs are in `papers/`: install deps,
+pick a model backend (`api` / `claude-code` / `codex` / offline rules),
+optionally reset the catalog, S0–S7 ingest and extract each paper into a
+catalog record, S8 crop every figure and table, S9 digitize each paper's one
+boiling-curve figure, S10 compile the digitized points into a CSV and
+comparison plot, build the dashboard, then verify the result and preview it
+inline. It's the fastest way to reproduce a full run — or to rerun everything
+after adding new papers — without piecing the CLI commands together by hand.
+
 ### WebPlotDigitizer cross-check
 
 To sanity-check `digitize` against an independent, human-driven digitization,
@@ -124,7 +136,7 @@ two of its outputs were compared against the same figures re-digitized by
 hand in [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/): Allred et
 al. (2018) Fig. 4 and Berce et al. (2024) Fig. 5. In both cases the
 AgenticTool series and the WebPlotDigitizer series overlay closely across the
-full boiling curve.
+full boiling curve, including the transition and film-boiling regions.
 
 | Allred et al. (2018) Fig. 4 | Berce et al. (2024) Fig. 5 |
 | --- | --- |
