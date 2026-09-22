@@ -115,7 +115,9 @@ full boiling curve.
 See [`webplot-digitizer_comparison/webplot_comparison.ipynb`](webplot-digitizer_comparison/webplot_comparison.ipynb)
 for the comparison code and data behind both plots.
 
----
+### How to cite
+
+Panda, J. P., & Makkena, G. B. (2026). dr-jppanda/AgenticTool-MultiPhaseHUB: v1.0.1 (v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22884019
 
 
 
