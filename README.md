@@ -117,7 +117,7 @@ for the comparison code and data behind both plots.
 
 ### How to cite
 
-Panda, J. P., & Makkena, G. B. (2026). dr-jppanda/AgenticTool-MultiPhaseHUB: v1.0.1 (v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22884019
+Panda, J. P., Zeng, Y., Hu, H., & Sun, Y. (2026). dr-jppanda/AgenticTool-MultiPhaseHUB: v1.0.1 (v1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22884019
 
 
 
