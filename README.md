@@ -115,7 +115,11 @@ full boiling curve.
 See [`webplot-digitizer_comparison/webplot_comparison.ipynb`](webplot-digitizer_comparison/webplot_comparison.ipynb)
 for the comparison code and data behind both plots.
 
-![Mean boiling curve over 10 runs with a ±2u uncertainty band: wall superheat vs. heat flux](docs/boiling_curve_mean_uncertainty.png)
+**Uncertainty of the digitized Berce et al. (2024) Run 1 boiling curve**
+
+The plotted curve is the mean of 10 digitization runs of the red Run 1 curve, with a ±2u uncertainty band shown in yellow. The band is visible only at low wall superheat (below about 7 K); elsewhere it is too narrow to see against the line.
+
+<img src="docs/boiling_curve_mean_uncertainty.png" width="410" alt="Mean boiling curve over 10 runs with a ±2u uncertainty band: wall superheat vs. heat flux">
 
 ### How to cite
 
