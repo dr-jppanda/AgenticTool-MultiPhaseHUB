@@ -115,6 +115,8 @@ full boiling curve.
 See [`webplot-digitizer_comparison/webplot_comparison.ipynb`](webplot-digitizer_comparison/webplot_comparison.ipynb)
 for the comparison code and data behind both plots.
 
+![Mean boiling curve over 10 runs with a ±2u uncertainty band: wall superheat vs. heat flux](docs/boiling_curve_mean_uncertainty.png)
+
 ### How to cite
 
 Panda, J. P., Zeng, Y., Hu, H., Makkena, G. B., Xu, D., & Sun, Y. (2026). dr-jppanda/AgenticTool-MultiPhaseHUB (Version v1.0.2) [Software]. Zenodo. https://doi.org/10.5281/zenodo.22884018
