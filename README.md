@@ -119,8 +119,8 @@ for the comparison code and data behind both plots.
 
 The plotted curve is the mean of 10 digitization runs of the red Run 1 curve, with a ±2u uncertainty band shown in yellow. The band is visible only at low wall superheat (below about 7 K); elsewhere it is too narrow to see against the line.
 
-<table>
-<tr><td width="50%"><img src="docs/boiling_curve_mean_uncertainty.png" width="100%" alt="Mean boiling curve over 10 runs with a ±2u uncertainty band: wall superheat vs. heat flux"></td><td width="50%"></td></tr>
+<table width="50%">
+<tr><td><img src="docs/boiling_curve_mean_uncertainty.png" width="100%" alt="Mean boiling curve over 10 runs with a ±2u uncertainty band: wall superheat vs. heat flux"></td></tr>
 </table>
 
 ### How to cite
