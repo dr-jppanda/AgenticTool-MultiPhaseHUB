@@ -5,6 +5,9 @@ boiling, flow boiling, condensation, spray cooling, and related regimes — into
 structured, browsable dataset catalog, without ever asking an LLM to compute a
 number itself.
 
+Repository scope, evidence, and reuse boundaries are also available in the
+[NED3 resource manifest](.ned3/resource-manifest-v0.1.json).
+
 For each paper, an agentic extraction pipeline (S0–S10) parses the document,
 decides whether it reports its own dataset, pulls the numeric operating envelope
 in the paper's own units together with the verbatim quote and the page(s) and
